@@ -824,6 +824,18 @@ a.btn { text-decoration: none; }
 .prof-prog{position:relative;height:22px;border-radius:11px;background:var(--side);border:1px solid rgba(201,164,92,.25);overflow:hidden;margin:4px 0 10px}
 .prof-prog>div{height:100%;background:linear-gradient(90deg,#4F7363,#C9A45C);transition:width .4s ease}
 .prof-prog>span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600;color:#EDE7D8;font-variant-numeric:tabular-nums}
+@media (max-width: 600px) {
+  .form-row { min-width: 0; max-width: 100%; }
+  .card-b > * { min-width: 0; }
+  .field { grid-template-columns: minmax(0, 1fr); }
+  .field .input { min-width: 0; }
+  .form-row .field { grid-template-columns: minmax(0, 1fr); }
+  .form-row .input { min-width: 0; }
+  .form-row > .field { flex: 1 1 100%; min-width: 0; }
+  .form-row .select, .form-row .input { width: 100%; max-width: 100%; }
+  .bl-view { gap: 6px; }
+  .bl-view img { width: calc(100% - 92px); min-width: 0; }
+}
 
 </style>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
@@ -3735,7 +3747,7 @@ function pageProf(view) {
     <div><span class="eyebrow">Commented by the coach</span><b class="mono">${commentees} / ${list.length}</b></div>
     <div class="coach-strip-act">${lot ? `<span class="thinking">The coach is commenting on your games… ${lot.fait} / ${lot.total}</span><button class="btn sm" id="lotStop">${ico('stop')}Stop</button>`
       : restantes && IA.dispo ? `<button class="btn ia" id="lotGo">${ico('ia')}Get comments ${pluriel(restantes, 'game')}</button>`
-      : restantes ? `<span class="faint" style="font-size:13px">AI comments work on claude.ai, with your Claude account.</span>` : `<span class="up" style="font-size:13px">${ico('check')} All your games are commented</span>`}</div>
+      : restantes ? `<span class="faint" style="font-size:13px">${window.BC_WEB ? 'The coach is unavailable right now. Try again a bit later.' : 'AI comments work on claude.ai, with your Claude account.'}</span>` : `<span class="up" style="font-size:13px">${ico('check')} All your games are commented</span>`}</div>
   </section>`;
   // priorités (calculées) + plan IA
   const axes = axesTravail(list);
@@ -3750,7 +3762,7 @@ function pageProf(view) {
     if (pl.objectif) h += `<p class="muted"><b style="color:var(--fg)">Goal:</b> ${esc(pl.objectif)}</p>`;
     h += `<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><span class="faint" style="font-size:12.5px">Plan from ${fmtDate(COACH.plan.date)}, based on ${pluriel(COACH.plan.parties, 'game')}.</span>${IA.dispo ? `<button class="btn sm ia" id="planGo">${ico('ia')}Update</button>` : ''}</div>`;
   } else h += IA.dispo ? `<p class="muted">The coach reviews your ${pluriel(list.length, 'game')} and their tips, then gives you 3 priorities, one exercise a day and a golden rule.</p><button class="btn ia" id="planGo" style="justify-self:start">${ico('ia')}Create my plan</button>`
-    : `<p class="muted">The personalized plan is written by Claude: it works on claude.ai, with your account. Meanwhile, the priorities calculated by the engine are on the right.</p>`;
+    : `<p class="muted">${window.BC_WEB ? 'The personal plan is unavailable right now.' : 'The personal plan is written by Claude: it works on claude.ai, with your account.'} Meanwhile, the priorities computed by the engine are on the right.</p>`;
   h += `</div></section>
     <section class="card" style="align-self:start"><div class="card-h"><h2>Calculated priorities</h2><span class="tag tag-moteur">${ico('moteur')}Engine</span></div><div class="work">${axes.length ? axes.map((a, k) => `<div class="work-item"><span class="n">${k + 1}</span><div><b>${esc(a.titre)}</b><p>${esc(a.desc)}</p><button class="btn sm" data-train="${a.filtre}">${ico('entrainement')}Practice</button></div></div>`).join('') : '<p class="muted">No recurring weakness yet.</p>'}</div></section>
   </div>`;
@@ -8336,7 +8348,7 @@ function pageProf(view) {
     <div><span class="eyebrow">Commentées par le prof</span><b class="mono">${commentees} / ${list.length}</b></div>
     <div class="coach-strip-act">${lot ? `<span class="thinking">Le prof commente tes parties… ${lot.fait} / ${lot.total}</span><button class="btn sm" id="lotStop">${ico('stop')}Arrêter</button>`
       : restantes && IA.dispo ? `<button class="btn ia" id="lotGo">${ico('ia')}Faire commenter ${pluriel(restantes, 'partie')}</button>`
-      : restantes ? `<span class="faint" style="font-size:13px">Le commentaire IA fonctionne sur claude.ai, avec ton compte Claude.</span>` : `<span class="up" style="font-size:13px">${ico('check')} Toutes tes parties sont commentées</span>`}</div>
+      : restantes ? `<span class="faint" style="font-size:13px">${window.BC_WEB ? 'Le prof est indisponible pour le moment. Réessaie un peu plus tard.' : 'Le commentaire IA fonctionne sur claude.ai, avec ton compte Claude.'}</span>` : `<span class="up" style="font-size:13px">${ico('check')} Toutes tes parties sont commentées</span>`}</div>
   </section>`;
   // priorités (calculées) + plan IA
   const axes = axesTravail(list);
@@ -8351,7 +8363,7 @@ function pageProf(view) {
     if (pl.objectif) h += `<p class="muted"><b style="color:var(--fg)">Objectif :</b> ${esc(pl.objectif)}</p>`;
     h += `<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><span class="faint" style="font-size:12.5px">Plan du ${fmtDate(COACH.plan.date)}, basé sur ${pluriel(COACH.plan.parties, 'partie')}.</span>${IA.dispo ? `<button class="btn sm ia" id="planGo">${ico('ia')}Mettre à jour</button>` : ''}</div>`;
   } else h += IA.dispo ? `<p class="muted">Le prof relit tes ${pluriel(list.length, 'partie')} et ses conseils, puis te donne 3 priorités, un exercice par jour et une règle d'or.</p><button class="btn ia" id="planGo" style="justify-self:start">${ico('ia')}Créer mon plan</button>`
-    : `<p class="muted">Le plan personnalisé est rédigé par Claude : il fonctionne sur claude.ai, avec ton compte. En attendant, les priorités calculées par le moteur sont à droite.</p>`;
+    : `<p class="muted">${window.BC_WEB ? 'Le plan personnalisé est indisponible pour le moment.' : 'Le plan personnalisé est rédigé par Claude : il fonctionne sur claude.ai, avec ton compte.'} En attendant, les priorités calculées par le moteur sont à droite.</p>`;
   h += `</div></section>
     <section class="card" style="align-self:start"><div class="card-h"><h2>Priorités calculées</h2><span class="tag tag-moteur">${ico('moteur')}Moteur</span></div><div class="work">${axes.length ? axes.map((a, k) => `<div class="work-item"><span class="n">${k + 1}</span><div><b>${esc(a.titre)}</b><p>${esc(a.desc)}</p><button class="btn sm" data-train="${a.filtre}">${ico('entrainement')}S'entraîner</button></div></div>`).join('') : '<p class="muted">Aucun point faible récurrent pour l’instant.</p>'}</div></section>
   </div>`;
