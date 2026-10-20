@@ -5,7 +5,7 @@
 
 const LIMITE_JOUR = 40;          // appels au prof par visiteur et par jour
 const MAX_CARACTERES = 60000;    // taille maximale d'une demande
-const MAX_TOKENS = 4096;
+const MAX_TOKENS = 8192;
 
 const json = (status, obj) => new Response(JSON.stringify(obj), { status, headers: { 'content-type': 'application/json; charset=utf-8' } });
 
