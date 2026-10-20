@@ -837,6 +837,9 @@ a.btn { text-decoration: none; }
   .bl-view img { width: calc(100% - 92px); min-width: 0; }
 }
 
+.quota-h{display:flex;justify-content:space-between;gap:8px;font-size:13px;color:var(--fg-2)}
+.quota-h b{color:var(--fg);font-variant-numeric:tabular-nums}
+
 </style>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
     
@@ -1287,19 +1290,21 @@ function expliquer(fenAvant, coup, avant, apres, c) {
 
 const chances = cp => 2 / (1 + Math.exp(-0.00368208 * cp)) - 1;   // -1..1 côté blancs
 
-function tagCoup(uci, color, avant, apres) {
+function tagCoup(uci, color, avant, apres, verif) {
   if (!avant || !apres || apres.cp === null || avant.cp === null) return '';
   if (avant.pv[0] === uci) return 'meilleur';
   const s = color === 'w' ? 1 : -1;
-  const delta = s * (chances(avant.cp) - chances(apres.cp));
+  // verif : meilleur coup et coup joué évalués depuis la même position (plus fiable que deux positions différentes)
+  const delta = verif ? Math.max(0, s * (chances(verif.best) - chances(verif.joue))) : s * (chances(avant.cp) - chances(apres.cp));
   if (delta >= 0.3) return 'gaffe';
   if (delta >= 0.2) return 'erreur';
   if (delta >= 0.1) return 'imprecision';
   return delta < 0.03 ? 'excellent' : 'bon';
 }
 
-function deltaCoup(color, avant, apres) {
+function deltaCoup(color, avant, apres, verif) {
   if (!avant || !apres) return 0;
+  if (verif) return Math.max(0, (color === 'w' ? 1 : -1) * (chances(verif.best) - chances(verif.joue)));
   return (color === 'w' ? 1 : -1) * (chances(avant.cp) - chances(apres.cp));
 }
 
@@ -1656,6 +1661,7 @@ if (!Array.isArray(LIB)) LIB = [];
 const DERIVES = new Map();   // id -> données calculées (non stockées)
 
 function sauverLib() {
+  if (typeof planifierSynchro === 'function') planifierSynchro();
   if (ecrire(K_LIB, LIB)) return true;
   // stockage plein : on allège les variantes des plus anciennes parties
   LIB.forEach(g => (g.evals || []).forEach(e => { if (e) e.pv = e.pv.slice(0, 4); }));
@@ -1685,6 +1691,8 @@ function ajouterPartie(pgn, color, source = 'import') {
   return g;
 }
 function supprimerPartie(id) {
+  const sup = LIB.find(g => g.id === id);
+  if (sup && typeof noterSuppression === 'function') noterSuppression(sup);
   LIB = LIB.filter(g => g.id !== id);
   DERIVES.delete(id);
   sauverLib();
@@ -1695,24 +1703,27 @@ const estAffinee = g => estAnalysee(g) && g.affine !== false;   // les anciennes
 function progression(g) {
   if (estAffinee(g)) return 1;
   const p = PROG[g.id];
-  if (p && p.phase === 'affinage') return 0.75 + 0.25 * (p.total ? p.fait / p.total : 1);
+  if (p && p.phase === 'affinage') return 0.75 + 0.17 * (p.total ? p.fait / p.total : 1);
+  if (p && p.phase === 'verification') return 0.92 + 0.08 * (p.total ? p.fait / p.total : 1);
   return 0.75 * (g.evals ? g.evals.filter(Boolean).length / g.evals.length : 0);
 }
 
 /** Tout ce qu'on calcule à partir d'une partie (mis en cache) */
 function deriver(g) {
   const c = DERIVES.get(g.id);
-  const cle = g.evals.filter(Boolean).length + '|' + (g.rev || 0) + '|' + estAffinee(g);
+  const cle = g.evals.filter(Boolean).length + '|' + (g.rev || 0) + '|' + estAffinee(g) + '|' + Object.keys(g.verif || {}).length;
   if (c && c.v === cle && c.color === g.color) return c;
   const P = chargerPartie(g.pgn);
   if (!P) return null;
   const h = P.headers, me = g.color, opp = autre(me), E = g.evals;
   const tags = P.moves.map((mv, i) => {
-    let t = tagCoup(mv.uci, mv.color, E[i], E[i + 1]);
-    if (t === 'imprecision' && i < 10) t = 'bon';       // bruit de théorie d'ouverture
+    const V = g.verif && g.verif[i];
+    let t = tagCoup(mv.uci, mv.color, E[i], E[i + 1], V);
+    // bruit de théorie d'ouverture : on pardonne une petite imprécision, pas un gain de matériel raté
+    if (t === 'imprecision' && i < 10 && E[i] && E[i + 1] && (mv.color === 'w' ? 1 : -1) * (V ? V.best - V.joue : E[i].cp - E[i + 1].cp) < 60) t = 'bon';
     return t;
   });
-  const deltas = P.moves.map((mv, i) => E[i] && E[i + 1] ? deltaCoup(mv.color, E[i], E[i + 1]) : 0);
+  const deltas = P.moves.map((mv, i) => E[i] && E[i + 1] ? deltaCoup(mv.color, E[i], E[i + 1], g.verif && g.verif[i]) : 0);
   const phases = P.moves.map((mv, i) => phaseDe(P.fens[i], i));
   const prec = {}, counts = {}, phasePrec = { w: {}, b: {} };
   for (const c of ['w', 'b']) {
@@ -1791,7 +1802,7 @@ function effacerTout() {
 // Profils : [profondeur max, temps max en ms] pour l'aperçu (toutes les positions) puis l'affinage (moments clés)
 const PROFILS = {
   '12|1200': { nom: 'Fast', apercu: [9, 250], fin: [12, 700] },
-  '14|2500': { nom: 'Normal', apercu: [10, 350], fin: [13, 1000] },
+  '14|2500': { nom: 'Normal', apercu: [10, 350], fin: [14, 1500] },
   '16|5000': { nom: 'Deep', apercu: [11, 700], fin: [16, 3500] },
 };
 const profil = () => PROFILS[REGLAGES.depth] || PROFILS['14|2500'];
@@ -1884,13 +1895,13 @@ const Moteur = {
     })();
     return this.init;
   },
-  analyser(fen, { depth, ms, tag = '', prio = false } = {}) {
+  analyser(fen, { depth, ms, tag = '', prio = false, coup = '' } = {}) {
     if (!depth) [depth, ms] = profil().fin;
     const fin = evalFin(fen);
-    if (fin) return Promise.resolve(fin);
+    if (fin && !coup) return Promise.resolve(fin);
     if (this.etat === 'erreur') return Promise.reject({ code: 'moteur' });
     return new Promise((resolve, reject) => {
-      const job = { fen, depth, ms, tag, resolve, reject };
+      const job = { fen, depth, ms, tag, coup, resolve, reject };
       if (prio) this.q.unshift(job); else this.q.push(job);
       this.demarrer();
       this.dispatch();
@@ -1907,7 +1918,7 @@ const Moteur = {
       let { depth, ms } = j;
       if (s.slot.principal) { depth = Math.min(depth, 11); ms = Math.min(ms, 350); }   // ne pas figer la page
       s.slot.send('position fen ' + j.fen);
-      s.slot.send(`go depth ${depth} movetime ${ms}`);
+      s.slot.send(`go depth ${depth} movetime ${ms}${j.coup ? ' searchmoves ' + j.coup : ''}`);
       clearTimeout(s.garde);
       s.garde = setTimeout(() => { if (s.cur === j) { s.slot.send('stop'); s.garde = setTimeout(() => { if (s.cur === j) this.perdre(s); }, 4000); } }, ms + 6000);
     }
@@ -1977,6 +1988,19 @@ async function analyserPartie(g) {
     await Promise.all(liste.map(i => Moteur.analyser(P.fens[i], { depth: pr.fin[0], ms: pr.fin[1], tag: g.id }).then(e => {
       ecrire(i, e, 2); PROG[g.id].fait++; emit('progres', g.id, i);
     })));
+    // 3. vérification des fautes : le coup joué et le meilleur coup sont évalués depuis la MÊME position,
+    //    à la même profondeur (searchmoves), pour ne pas classer « erreur » un coup de théorie à cause du bruit
+    const D2 = deriver(g), aVerifier = D2.P.moves.map((mv, i) => i).filter(i => ['imprecision', 'erreur', 'gaffe'].includes(D2.tags[i]) && g.evals[i] && g.evals[i].mate === null && g.evals[i + 1] && g.evals[i + 1].mate === null);
+    PROG[g.id] = { phase: 'verification', fait: 0, total: aVerifier.length };
+    g.verif = g.verif || {};
+    await Promise.all(aVerifier.map(async i => {
+      const [best, joue] = await Promise.all([
+        Moteur.analyser(P.fens[i], { depth: pr.fin[0] + 1, ms: pr.fin[1] * 1.5, tag: g.id }),
+        Moteur.analyser(P.fens[i], { depth: pr.fin[0] + 1, ms: pr.fin[1] * 1.5, tag: g.id, coup: D2.P.moves[i].uci }),
+      ]);
+      if (best.cp !== null && joue.cp !== null && best.mate === null && joue.mate === null) g.verif[i] = { best: best.cp, joue: joue.cp };
+      PROG[g.id].fait++; emit('progres', g.id, i);
+    }));
     g.affine = true;
     g.rev = (g.rev || 0) + 1;
     sauverLib();
@@ -2320,6 +2344,31 @@ function objetsJSON(txt) {
   }
   return out;
 }
+// ---------- Contrôle qualité des commentaires du prof ----------
+// Le prof (Haiku) peut inventer un coup ou dire « il y avait mieux » sur un bon coup : on retire ces phrases.
+const RE_COUP = /(?:^|[^A-Za-z0-9])((?:O-O(?:-O)?)|(?:[KQRBNCFTD][a-h]?[1-8]?x?[a-h][1-8](?:=[QRBNDTFC])?)|(?:[a-h]x[a-h][1-8](?:=[QRBNDTFC])?))(?=[+#!?]|[^A-Za-z0-9]|$)/g;
+const coupsDans = t => [...String(t).matchAll(RE_COUP)].map(m => m[1].replace(/[+#!?]/g, ''));
+const RE_MIEUX = /\b(mieux|plus fort|plus précis|plus actif|aurait été|il fallait|meilleur coup était|encore plus|better|stronger|more precise|should have|was best|even more)\b/i;
+function coupsAutorises(g, D, i) {
+  const a = new Set(coupsDans(JSON.stringify(faitsCoup(g, D, i))));
+  D.P.moves.forEach((m, k) => a.add(lisible(D.P.fens[k], m.uci).san.replace(/[+#]/g, '')));
+  return a;
+}
+function controleCommentaire(g, D, i, c) {
+  const autorises = coupsAutorises(g, D, i);
+  const bon = !MAUVAIS.includes(D.tags[i]);
+  const phrases = String(c).match(/[^.!?]+[.!?]*\s*/g) || [String(c)];
+  const gardees = phrases.filter(ph => {
+    if (coupsDans(ph).some(x => !autorises.has(x))) return false;    // coup qui n'existe ni dans la partie ni dans les données
+    if (bon && D.tags[i] && RE_MIEUX.test(ph)) return false;          // « il y avait mieux » sur un bon coup
+    return true;
+  });
+  const t = gardees.join('').trim();
+  if (t) return t;
+  const L = lisible(D.P.fens[i], D.P.moves[i].uci);
+  return `${(NOM_TAG_IA[D.tags[i]] || 'coup').replace(/^./, x => x.toUpperCase())} : ${L.sens}.`;
+}
+
 async function commenterPartie(g, { silencieux = false } = {}) {
   const D = g && deriver(g);
   if (!IA.fn || !g || !D || !D.affine || IA.ctl) return false;
@@ -2333,14 +2382,19 @@ async function commenterPartie(g, { silencieux = false } = {}) {
     if (!l.startsWith('{')) return;
     let o; try { o = JSON.parse(l); } catch { return; }
     const ply = o.p || o.ply, com = o.c || o.commentaire, cons = o.k || o.conseil, th = o.t || o.theme;
-    if (ply && com) pr.comments[ply] = { c: String(com), k: cons ? String(cons) : '', t: th ? String(th).slice(0, 40) : '' };
+    if (ply && com && D.P.moves[ply - 1]) {
+      const i = ply - 1, bon = !MAUVAIS.includes(D.tags[i]);
+      let k = cons && !bon ? String(cons) : '';
+      if (k) { const a = coupsAutorises(g, D, i); if (coupsDans(k).some(x => !a.has(x))) k = ''; }
+      pr.comments[ply] = { c: controleCommentaire(g, D, i, com), k, t: th ? String(th).slice(0, 40) : '' };
+    }
     else if (o.resume || o.lecons) { pr.resume = String(o.resume || ''); pr.lecons = Array.isArray(o.lecons) ? o.lecons.map(String).slice(0, 5) : []; }
     majIA(g.id);
   };
   // Un appel par morceau de partie : le prof ne s'arrête plus en route
   const morceau = async (idx, synthese) => {
     let pending = '', tout = '';
-    await IA.fn(promptProf(g, D, idx, synthese), { signal: IA.ctl.signal, maxTokens: 8192, onText: ({ delta }) => { tout += delta; const ls = (pending + delta).split('\n'); pending = ls.pop(); ls.forEach(lireLigne); } });
+    await IA.fn(promptProf(g, D, idx, synthese), { signal: IA.ctl.signal, maxTokens: 8192, partie: g.id, onText: ({ delta }) => { tout += delta; const ls = (pending + delta).split('\n'); pending = ls.pop(); ls.forEach(lireLigne); } });
     lireLigne(pending);
     objetsJSON(tout).forEach(o => { if (!((o.p || o.ply) && pr.comments[o.p || o.ply])) lireLigne(JSON.stringify(o)); });
     return tout;
@@ -2377,7 +2431,8 @@ async function commenterPartie(g, { silencieux = false } = {}) {
     if (e && e.code !== 'cancelled') pr.erreur = iaErreur(e);
     if (e && e.code !== 'cancelled' && silencieux) toast(iaErreur(e), 'err');
     iaCouper(e);
-    if (e && (e.code === 'cancelled' || iaDefinitif(e) || e.code === 'rate_limited')) IA.stopLot = true;
+    if (e && (e.code === 'cancelled' || iaDefinitif(e) || e.code === 'rate_limited' || e.code === 'limite')) IA.stopLot = true;
+    if (e && e.code === 'limite' && window.proposerAbonnement) proposerAbonnement(e.message);
   } finally {
     IA.ctl = null; IA.cour = null;
     sauverLib();
@@ -2490,6 +2545,7 @@ async function poserQuestion(q) {
   } catch (e) {
     if (e && e.text) turns.push({ role: 'assistant', content: e.text + ' […]' }); else turns.pop();
     if (e && e.code !== 'cancelled') toast(iaErreur(e), 'err');
+    if (e && e.code === 'limite' && window.proposerAbonnement) proposerAbonnement(e.message);
     iaCouper(e);
     if (A.tab === 'ia') rendreIA($('#panelBody'));
   } finally { IA.ask = null; }
@@ -2509,6 +2565,7 @@ async function expliquerPositionIA(p) {
   } catch (e) {
     delete A.iaPos[key];
     if (e && e.code !== 'cancelled') toast(iaErreur(e), 'err');
+    if (e && e.code === 'limite' && window.proposerAbonnement) proposerAbonnement(e.message);
     iaCouper(e);
   }
   rendrePanneau();
@@ -2601,7 +2658,7 @@ function majProgression() {
   if (p >= 1) { el.hidden = true; return; }
   el.hidden = false;
   const pr = PROG[g.id];
-  const txt = pr && pr.phase === 'affinage' ? `Refining key moments · ${pr.fait} / ${pr.total}` : `Preview · ${g.evals.filter(Boolean).length} / ${g.evals.length} positions`;
+  const txt = pr && pr.phase === 'verification' ? `Checking mistakes · ${pr.fait} / ${pr.total}` : pr && pr.phase === 'affinage' ? `Refining key moments · ${pr.fait} / ${pr.total}` : `Preview · ${g.evals.filter(Boolean).length} / ${g.evals.length} positions`;
   el.innerHTML = `<span class="tag tag-moteur">${ico('moteur')}Stockfish</span><div class="bar"><i style="width:${(p * 100).toFixed(1)}%"></i></div><span class="mono">${txt}</span>`;
 }
 
@@ -3945,7 +4002,7 @@ function pageTarifs(view) {
   <div class="price-grid" style="margin-inline:auto">
     <div class="card price"><span class="eyebrow">Free</span><div class="pv">€0</div><p class="muted" style="margin-top:-6px">Forever, no credit card</p>
       <button class="btn" data-route="import">${ico('analyser')}Analyze a game</button></div>
-    <div class="card price best"><span class="eyebrow" style="color:var(--accent)">BlunderCheck+ · at launch</span><div class="pv">${PRIX.anMois}<small> / month</small></div><p class="muted" style="margin-top:-6px">${PRIX.an} per year, or ${PRIX.mois} monthly with no commitment</p>
+    <div class="card price best"><span class="eyebrow" style="color:var(--accent)">${COMPTE.paiement ? 'BlunderCheck+' : 'BlunderCheck+ · at launch'}</span><div class="pv">${PRIX.anMois}<small> / month</small></div><p class="muted" style="margin-top:-6px">${PRIX.an} per year, or ${PRIX.mois} monthly with no commitment</p>
       ${boutonListe('tarifs')}</div>
   </div>
   <div class="card" style="margin-top:20px;overflow-x:auto">
@@ -3953,7 +4010,7 @@ function pageTarifs(view) {
       ${LIGNES_OFFRE.map(([f, a, b]) => `<tr><th>${esc(f)}</th><td>${cell(a)}</td><td>${cell(b)}</td></tr>`).join('')}
     </tbody></table>
   </div>
-  <div class="callout">${ico('info')}<p><b>During the beta, everything is free.</b> Payment isn't open yet. When BlunderCheck+ launches, you'll be able to cancel in one click, and the price shown will be the price paid, tax included.</p></div>
+  ${COMPTE.paiement ? `<div class="callout">${ico('info')}<p><b>No commitment.</b> Cancel in two clicks from your account, and the price shown is the price you pay, VAT included.</p></div>` : ''}<div class="callout" ${COMPTE.paiement ? 'hidden' : ''}>${ico('info')}<p><b>During the beta, everything is free.</b> Payment isn't open yet. When BlunderCheck+ launches, you'll be able to cancel in one click, and the price shown will be the price paid, tax included.</p></div>
   <h2 class="info-h2">Compared with paid subscriptions</h2>
   <div class="card" style="overflow-x:auto">
     <table class="dist cmp"><thead><tr><th>Plan</th><th>Per year</th><th>Per month (billed yearly)</th></tr></thead><tbody>
@@ -4031,21 +4088,28 @@ function pageCgu(view) {
     ['5. Fair use', "<p>You agree not to disrupt the service, not to bypass its usage limits and not to use it in an automated way to extract its content or divert the AI coach from its purpose.</p>"],
     ['6. Intellectual property', "<p>The BlunderCheck name, the site design and its texts are protected. The open-source components used (Stockfish, chess.js, Cburnett pieces, Geist fonts) remain under their respective licenses, detailed in Settings, under “Licenses and credits”. Your games belong to you.</p>"],
     ['7. Liability', "<p>The service is provided “as is”. The publisher strives to keep it working but does not guarantee the absence of analysis errors or interruptions. Since games are saved in your browser, remember to export them regularly.</p>"],
-    ['8. Paid subscription', "<p>The terms of sale of BlunderCheck+ (price, payment, cancellation, right of withdrawal) will be published before payment opens. No payment is requested during the beta.</p>"],
+    ['8. Paid subscription', COMPTE.paiement ? `<p><b>Offer.</b> BlunderCheck+ gives access to the AI coach on up to 100 commented games and 300 questions a month, the weekly plan and game sync. Without a subscription, the coach comments on 3 games and answers 10 questions a month.</p>
+      <p><b>Price.</b> ${PRIX.an} per year or ${PRIX.mois} per month, all taxes included. The price shown when ordering is the price paid for the whole period.</p>
+      <p><b>Payment.</b> Payment is collected by Stripe, by card. BlunderCheck never has access to your bank details. The subscription is linked to your account's e-mail address.</p>
+      <p><b>Duration and renewal.</b> The subscription renews automatically at the end of each period (month or year), at the same price unless notified in advance. You can cancel at any time from “My account”, under “Manage my subscription”: it then stops at the end of the period already paid, with no further charge.</p>
+      <p><b>Right of withdrawal.</b> The service is digital content supplied immediately. By ticking the box before payment, you request immediate access and acknowledge that you lose your 14-day right of withdrawal once access starts (article L221-28 of the French Consumer Code). If something goes wrong, write to us: we always look for a solution.</p>
+      <p><b>Complaints and mediation.</b> For any complaint: ${mail('Subscription')}. If a dispute is not resolved, you can use a consumer mediator for free; their details are in the legal notice.</p>` : "<p>The terms of sale of BlunderCheck+ (price, payment, cancellation, right of withdrawal) will be published before payment opens. No payment is requested during the beta.</p>"],
     ['9. Changes and governing law', `<p>These terms may be updated; the date at the top of the page shows it. They are governed by French law. For any question: ${mail('Terms')}.</p>`],
   ]);
 }
 function pageConfidentialite(view) {
   view.innerHTML = docLegal('Privacy policy', [
-    ['In short', "<p>BlunderCheck asks for no account, no email and no password. Your games stay in your browser. There are no ads, no ad trackers and no data resale.</p>"],
+    ['In short', COMPTE.connexion ? "<p>BlunderCheck works without an account: your games then stay in your browser. If you create an account, only your e-mail address is asked for, with no password. There are no ads, no ad trackers and no data resale.</p>" : "<p>BlunderCheck asks for no account, no email and no password. Your games stay in your browser. There are no ads, no ad trackers and no data resale.</p>"],
     ['What stays on your device', "<p>Your games, their analyses, your settings, your usernames and your progress are saved in your browser's local storage (localStorage). They are not sent to us. You can delete everything from Settings.</p>"],
     ['What is sent, and when', `<ul>
       <li><b>Import by username</b> : your browser directly queries the public access of Chess.com or Lichess with the username entered.</li>
       <li><b>AI coach</b> : when you start the coach or ask a question, the game concerned (moves, evaluations, player names present in the PGN) and your question are sent to Anthropic, which provides the Claude model, via our server. Anthropic does not use them to train its models under its API terms.</li>
       <li><b>Waitlist</b> : if you sign up to be notified at launch, your email address, the date and the language are stored with Cloudflare. They are only used to send you the BlunderCheck+ launch email, and are deleted on request, or at the latest 12 months after launch.</li>
+      ${COMPTE.connexion ? `<li><b>Account</b> : your e-mail address, plan, creation date and number of games commented this month are stored at Cloudflare. If you are signed in, your games (PGN, colour, coach comments) are also copied there so you can find them on your other devices. The sign-in e-mail is sent by Resend. Everything is deleted on request.</li>` : ''}
+      ${COMPTE.paiement ? `<li><b>Payment</b> : payment is processed by Stripe, which receives your e-mail address and payment details. BlunderCheck only keeps the Stripe customer ID, the status and end date of your subscription, and the date of your request for immediate access. Invoices are kept for the period required by law.</li>` : ''}
       <li><b>Hosting</b> : the site is served by Cloudflare, which processes the necessary technical data (IP address, browser) to deliver the pages and protect the site.</li></ul>`],
     ['Usage limits', "<p>To prevent abuse of the AI coach, a daily counter linked to your IP address is kept for at most 26 hours, then deleted automatically.</p>"],
-    ['Cookies', "<p>The site sets no advertising or audience-measurement cookies. Local storage is only used to make the service work; it therefore doesn't require consent.</p>"],
+    ['Cookies', COMPTE.connexion ? "<p>The site sets no advertising or analytics cookies. A single, strictly necessary cookie keeps your session open if you sign in (90 days). Local storage is only used to run the service. None of this requires consent.</p>" : "<p>The site sets no advertising or audience-measurement cookies. Local storage is only used to make the service work; it therefore doesn't require consent.</p>"],
     ['Your rights', `<p>Under the GDPR, you can request access to, correction or deletion of data about you, and object to its processing, by writing to ${mail('Personal data')}. You can also contact the CNIL, the French data protection authority (cnil.fr).</p>`],
     ['Data controller', "<p>The publisher of the site, presented in the legal notice.</p>"],
   ]);
@@ -4839,11 +4903,12 @@ function webSample() {
     const messages = fusion(typeof input === 'string' ? [{ role: 'user', content: input }] : input);
     let r;
     try {
-      r = await fetch('/api/prof', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ messages, max_tokens: opts.maxTokens || 4096 }), signal: opts.signal });
+      r = await fetch('/api/prof', { method: 'POST', headers: { 'content-type': 'application/json', ...(opts.partie ? { 'x-bc-partie': String(opts.partie) } : {}) }, body: JSON.stringify({ messages, max_tokens: opts.maxTokens || 4096 }), signal: opts.signal });
     } catch (e) { throw (e && e.name === 'AbortError') ? { code: 'cancelled' } : { code: 'network', message: 'Couldn\'t connect to the coach.' }; }
     if (!r.ok) {
       let msg = 'The coach is unavailable right now.';
       try { const j = await r.json(); if (j && j.error) msg = j.error; } catch { }
+      if (r.status === 402) { if (window.chargerCompte) chargerCompte(); throw { code: 'limite', message: msg }; }
       throw { code: r.status === 429 ? 'quota' : 'server', message: msg };
     }
     const rd = r.body.getReader(), dec = new TextDecoder();
@@ -5102,9 +5167,209 @@ function ouvrirListe(source = 'site') {
     } catch { err.textContent = 'Connection failed. Check your connection and try again.'; b.disabled = false; }
   };
 }
-const boutonListe = (source, cls = 'btn primary') => dejaInscrit()
+const boutonListe = (source, cls = 'btn primary') => window.BC_WEB && COMPTE.paiement
+  ? (COMPTE.plan === 'plus' ? `<span class="tag liste-tag">${ico('check')}You are subscribed to BlunderCheck+</span>` : `<button class="${cls}" data-abo="an">${ico('send')}Subscribe</button>`)
+  : dejaInscrit()
   ? `<span class="tag liste-tag">${ico('check')}On the waitlist</span>`
   : `<button class="${cls}" data-liste="${source}">${ico('send')}Notify me at launch</button>`;
+
+// ---------- Compte, abonnement BlunderCheck+ et synchronisation (site web uniquement) ----------
+// Tout reste caché tant que le serveur n'a pas ses clés : le site garde alors la liste d'attente.
+const COMPTE = { charge: false, connecte: false, email: null, plan: 'gratuit', paiement: false, connexion: false, quota: null, fin: null, abonne: false };
+const K_SUPPR = 'bc-supprimees-v1';
+
+async function chargerCompte() {
+  if (!window.BC_WEB) return;
+  try {
+    const r = await fetch('/api/compte', { cache: 'no-store', credentials: 'same-origin' });
+    if (r.ok) Object.assign(COMPTE, await r.json(), { charge: true });
+  } catch { }
+  emit('compte');
+  if (COMPTE.connecte) synchroParties();
+}
+
+// messages au retour d'un lien de connexion ou du paiement Stripe
+function messagesRetour() {
+  let p; try { p = new URLSearchParams(location.search); } catch { return; }
+  const c = p.get('connexion'), pay = p.get('paiement');
+  if (!c && !pay) return;
+  if (c === 'ok') toast('You are signed in.');
+  else if (c === 'expire') toast('This sign-in link has expired or was already used. Ask for a new one.', 'err');
+  else if (c === 'invalide') toast('Invalid sign-in link.', 'err');
+  if (pay === 'ok') toast('Thank you! Your BlunderCheck+ subscription is active.');
+  else if (pay === 'annule') toast('Payment cancelled: nothing was charged.');
+  try { history.replaceState(null, '', location.pathname + location.hash); } catch { }
+}
+
+const estPlus = () => COMPTE.plan === 'plus';
+
+// ---------- Connexion par lien e-mail ----------
+function ouvrirConnexion(raison = '') {
+  if (!COMPTE.connexion) { ouvrirListe('connexion'); return; }
+  ouvrirModal(`<div class="card-h"><h2>Sign in</h2><button class="icon-btn" data-close aria-label="Close">${ico('close')}</button></div>
+    <form class="liste" id="cxForm" novalidate>
+      <p class="muted">${raison ? esc(raison) + ' ' : ''}Enter your e-mail: you get a sign-in link, no password to remember.</p>
+      <div class="field"><label for="cxMail">Your email address</label><input class="input" id="cxMail" type="email" autocomplete="email" placeholder="you@example.com" required></div>
+      <input type="text" id="cxSite" tabindex="-1" autocomplete="off" class="piege" aria-hidden="true">
+      <div id="cxErr" class="liste-err" role="alert"></div>
+      <button class="btn primary" id="cxGo" type="submit">${ico('send')}Send me my link</button>
+    </form>`);
+  $('#cxMail').focus();
+  $('#cxForm').onsubmit = async e => {
+    e.preventDefault();
+    const email = $('#cxMail').value.trim(), err = $('#cxErr'), b = $('#cxGo');
+    err.textContent = '';
+    if (!/^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(email)) { err.textContent = 'Check your email address.'; return; }
+    b.disabled = true;
+    try {
+      const r = await fetch('/api/compte', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ action: 'lien', email, site: $('#cxSite').value, lang: window.BC_LANG }) });
+      const j = await r.json().catch(() => ({}));
+      if (!r.ok) { err.textContent = j.error || 'It didn\'t send. Try again in a moment.'; b.disabled = false; return; }
+      $('#cxForm').innerHTML = `<div class="liste-ok">${ico('check')}<p>Sent! Open the e-mail received at <b>${esc(email)}</b> and click the link (valid for 15 minutes). Check your spam folder too.</p></div>`;
+    } catch { err.textContent = 'Connection failed. Check your connection and try again.'; b.disabled = false; }
+  };
+}
+
+async function deconnecter() {
+  try { await fetch('/api/compte', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ action: 'sortie' }) }); } catch { }
+  Object.assign(COMPTE, { connecte: false, email: null, plan: 'gratuit', abonne: false });
+  toast('You are signed out. Your games stay in this browser.');
+  chargerCompte();
+  if (ROUTE === 'compte') aller('compte', { push: false });
+}
+
+// ---------- Abonnement ----------
+function abonner(formuleAbo = 'an') {
+  if (!COMPTE.paiement) { ouvrirListe('tarifs'); return; }
+  if (!COMPTE.connecte) { ouvrirConnexion('Sign in to subscribe: your subscription will be linked to your e-mail.'); return; }
+  const an = formuleAbo === 'an';
+  ouvrirModal(`<div class="card-h"><h2>BlunderCheck+</h2><button class="icon-btn" data-close aria-label="Close">${ico('close')}</button></div>
+    <div class="liste">
+      <div class="seg" id="aboSeg"><button data-f="an" class="${an ? 'on' : ''}">${PRIX.an} / year</button><button data-f="mois" class="${an ? '' : 'on'}">${PRIX.mois} / month</button></div>
+      <p class="muted">The AI coach on up to 100 games a month, your questions, your weekly plan. No commitment: cancel in two clicks from your account.</p>
+      <label class="liste-cb"><input type="checkbox" id="aboOk"><span>I request immediate access to BlunderCheck+ and acknowledge that I lose my 14-day right of withdrawal once access starts.</span></label>
+      <div id="aboErr" class="liste-err" role="alert"></div>
+      <button class="btn primary" id="aboGo">${ico('send')}Pay with Stripe</button>
+      <p class="faint" style="font-size:12px">Secure payment by Stripe: BlunderCheck never sees your card. See the <a href="#cgu" data-route="cgu">terms</a>.</p>
+    </div>`);
+  let f = formuleAbo;
+  $$('#aboSeg button').forEach(b => b.onclick = () => { f = b.dataset.f; $$('#aboSeg button').forEach(x => x.classList.toggle('on', x === b)); });
+  $('#aboGo').onclick = async () => {
+    const err = $('#aboErr'), b = $('#aboGo');
+    err.textContent = '';
+    if (!$('#aboOk').checked) { err.textContent = 'Tick the box to continue.'; return; }
+    b.disabled = true;
+    try {
+      const r = await fetch('/api/paiement', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ action: 'abonner', formule: f, renonciation: true, lang: window.BC_LANG }) });
+      const j = await r.json().catch(() => ({}));
+      if (!r.ok || !j.url) { err.textContent = j.error || 'The payment couldn\'t start. Try again.'; b.disabled = false; return; }
+      location.href = j.url;
+    } catch { err.textContent = 'Connection failed. Try again.'; b.disabled = false; }
+  };
+}
+
+async function portailAbonnement() {
+  try {
+    const r = await fetch('/api/paiement', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ action: 'portail' }) });
+    const j = await r.json().catch(() => ({}));
+    if (r.ok && j.url) location.href = j.url; else toast(j.error || 'Couldn\'t open your subscription page.', 'err');
+  } catch { toast('Connection failed. Try again.', 'err'); }
+}
+
+// appelé quand le serveur refuse un appel au prof (limite du mois atteinte)
+function proposerAbonnement(message) {
+  if (!COMPTE.paiement || estPlus()) return;
+  ouvrirModal(`<div class="card-h"><h2>Monthly limit reached</h2><button class="icon-btn" data-close aria-label="Close">${ico('close')}</button></div>
+    <div class="liste"><p class="muted">${esc(message || '')} With BlunderCheck+, the coach comments on up to 100 games a month, for ${PRIX.anMois} per month.</p>
+    <button class="btn primary" data-abo="an">${ico('send')}Upgrade to BlunderCheck+</button></div>`);
+}
+
+// ---------- Synchronisation des parties entre appareils ----------
+let SYNC = { minuteur: null, dernier: '', enCours: false, maj: 0 };
+const versSync = g => ({ sig: g.sig, pgn: g.pgn, color: g.color, addedAt: g.addedAt, source: g.source || 'import', prof: g.prof && g.prof.done ? g.prof : null });
+function noterSuppression(g) { const s = lire(K_SUPPR, []); if (g.sig && !s.includes(g.sig)) { s.push(g.sig); ecrire(K_SUPPR, s.slice(-3000)); } }
+function planifierSynchro() {
+  if (!window.BC_WEB || !COMPTE.connecte) return;
+  clearTimeout(SYNC.minuteur);
+  SYNC.minuteur = setTimeout(envoyerParties, 8000);
+}
+async function envoyerParties() {
+  if (!COMPTE.connecte || SYNC.enCours) return;
+  const corps = JSON.stringify({ parties: LIB.map(versSync), supprimees: lire(K_SUPPR, []) });
+  if (corps === SYNC.dernier) return;
+  try {
+    const r = await fetch('/api/parties', { method: 'PUT', headers: { 'content-type': 'application/json' }, body: corps });
+    if (r.ok) { SYNC.dernier = corps; SYNC.maj = Date.now(); if (ROUTE === 'compte') majSyncTxt(); }
+  } catch { }
+}
+async function synchroParties() {
+  if (!COMPTE.connecte || SYNC.enCours) return;
+  SYNC.enCours = true;
+  try {
+    const r = await fetch('/api/parties', { cache: 'no-store' });
+    if (!r.ok) return;
+    const dist = await r.json();
+    const suppr = new Set([...(lire(K_SUPPR, [])), ...((dist.supprimees) || [])]);
+    ecrire(K_SUPPR, [...suppr].slice(-3000));
+    let ajout = 0;
+    for (const d of dist.parties || []) {
+      if (!d || !d.pgn || suppr.has(d.sig)) continue;
+      let g = LIB.find(x => x.sig === d.sig);
+      if (!g) { g = ajouterPartie(d.pgn, d.color, d.source || 'synchro'); if (!g) continue; if (d.addedAt) g.addedAt = d.addedAt; ajout++; }
+      if (d.prof && d.prof.done && !(g.prof && g.prof.done)) { g.prof = d.prof; DERIVES.delete(g.id); }
+    }
+    const avant = LIB.length;
+    LIB = LIB.filter(g => !suppr.has(g.sig));
+    if (ajout || LIB.length !== avant) { LIB.sort((a, b) => (b.addedAt || 0) - (a.addedAt || 0)); sauverLib(); emit('lib'); if (ajout) toast(`${pluriel(ajout, 'game restored', 'games restored')} from your account.`); }
+    SYNC.maj = Date.now();
+  } catch { } finally { SYNC.enCours = false; }
+  envoyerParties();
+}
+function majSyncTxt() { const el = $('#syncTxt'); if (el) el.textContent = SYNC.maj ? `Synced at ${new Date(SYNC.maj).toLocaleTimeString(window.BC_LANG === 'en' ? 'en-GB' : 'fr-FR', { hour: '2-digit', minute: '2-digit' })}` : 'Sync pending'; }
+
+// ---------- Page « Mon compte » ----------
+function barreQuota(label, n, max) {
+  const v = Math.min(n, max);
+  return `<div class="quota"><div class="quota-h"><span>${esc(label)}</span><b>${v} / ${max}</b></div><div class="prof-prog" style="height:10px;margin:6px 0 0"><div style="width:${Math.round(v / max * 100)}%"></div></div></div>`;
+}
+function pageCompte(view) {
+  const tete = teteInfo('My account', 'Your subscription, your coach usage and your games synced across devices.', 'Account');
+  if (!window.BC_WEB) { view.innerHTML = `${tete}<div class="card" style="max-width:640px;margin-inline:auto"><div class="card-b"><p class="muted">Accounts are available on blundercheck.app.</p></div></div>`; return; }
+  if (!COMPTE.charge) { view.innerHTML = `${tete}<p class="thinking" style="text-align:center">Loading…</p>`; chargerCompte().then(() => { if (ROUTE === 'compte') pageCompte(view); }); return; }
+  if (!COMPTE.connecte) {
+    view.innerHTML = `${tete}<div class="card" style="max-width:640px;margin-inline:auto"><div class="card-b" style="display:grid;gap:14px">
+      <p class="muted">${COMPTE.connexion ? 'Sign in to get your games on all your devices and manage your subscription. Without an account, everything stays in this browser.' : 'Accounts open with the BlunderCheck+ launch. Until then, your games stay in this browser.'}</p>
+      <div>${COMPTE.connexion ? `<button class="btn primary" id="cpLogin">${ico('send')}Sign in</button>` : boutonListe('compte')}</div>
+      ${COMPTE.quota ? `<div class="panel-sec" style="padding:0;border:0">${barreQuota('Games commented this month', COMPTE.quota.parties, COMPTE.quota.limites.parties)}${barreQuota('Questions to the coach this month', COMPTE.quota.questions, COMPTE.quota.limites.questions)}</div>` : ''}
+    </div></div>`;
+    const b = $('#cpLogin'); if (b) b.onclick = () => ouvrirConnexion();
+    return;
+  }
+  const plus = estPlus(), q = COMPTE.quota;
+  const fin = COMPTE.fin ? new Date(COMPTE.fin * 1000).toLocaleDateString(window.BC_LANG === 'en' ? 'en-GB' : 'fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
+  view.innerHTML = `${tete}<div class="grid2" style="max-width:900px;margin-inline:auto;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))">
+    <div class="card"><div class="card-h"><h3>Plan</h3><span class="tag ${plus ? 'tag-ia' : ''}">${plus ? 'BlunderCheck+' : 'Free'}</span></div><div class="card-b" style="display:grid;gap:12px">
+      <p class="muted">${esc(COMPTE.email)}</p>
+      ${plus ? `<p>${fin ? `Next renewal: <b>${esc(fin)}</b>.` : 'Subscription active.'}</p>` : `<p class="muted">The coach comments on ${q ? q.limites.parties : 3} games a month for free. BlunderCheck+ goes up to 100 games, for ${PRIX.anMois} per month.</p>`}
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        ${!plus && COMPTE.paiement ? `<button class="btn primary" data-abo="an">${ico('send')}Upgrade to BlunderCheck+</button>` : ''}
+        ${COMPTE.abonne ? `<button class="btn" id="cpPortail">${ico('parametres')}Manage my subscription</button>` : ''}
+      </div>
+    </div></div>
+    <div class="card"><div class="card-h"><h3>This month</h3></div><div class="card-b" style="display:grid;gap:12px">
+      ${q ? barreQuota('Games commented by the coach', q.parties, q.limites.parties) + barreQuota('Questions to the coach', q.questions, q.limites.questions) : '<p class="muted">No monthly limit for now.</p>'}
+    </div></div>
+    <div class="card"><div class="card-h"><h3>My devices</h3></div><div class="card-b" style="display:grid;gap:12px">
+      <p class="muted">Your games and the coach's comments are synced with your account. Stockfish calculations are redone on each device.</p>
+      <p class="faint" id="syncTxt" style="font-size:13px"></p>
+      <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn" id="cpSync">${ico('download')}Sync now</button><button class="btn" id="cpOut">Sign out</button></div>
+    </div></div>
+  </div>`;
+  majSyncTxt();
+  const p = $('#cpPortail'); if (p) p.onclick = portailAbonnement;
+  $('#cpSync').onclick = async () => { await synchroParties(); majSyncTxt(); toast('Games synced.'); };
+  $('#cpOut').onclick = deconnecter;
+}
 
 // ---------- Studio TikTok : vidéos verticales générées à partir de tes parties ----------
 // Tout est dessiné dans un canvas 1080 × 1920, avec musique et bruitages synthétisés, puis enregistré en vidéo.
@@ -5434,7 +5699,7 @@ function apercuFixe() {
 }
 
 // ---------- Routeur, coquille, raccourcis, démarrage ----------
-const PAGES = { accueil: pageAccueil, prof: pageProf, overview: pageOverview, parties: pageParties, import: pageImport, analyse: pageAnalyse, ouvertures: pageOuvertures, stats: pageStats, entrainement: pageEntrainement, parametres: pageParametres, profil: pageProfil, tarifs: pageTarifs, faq: pageFaq, apropos: pageApropos, contact: pageContact, cgu: pageCgu, studio: pageStudio, bilan: pageBilan, rush: pageRush, defi: pageDefi, repertoire: pageRepertoire, confidentialite: pageConfidentialite, mentions: pageMentions };
+const PAGES = { accueil: pageAccueil, prof: pageProf, overview: pageOverview, parties: pageParties, import: pageImport, analyse: pageAnalyse, ouvertures: pageOuvertures, stats: pageStats, entrainement: pageEntrainement, parametres: pageParametres, profil: pageProfil, tarifs: pageTarifs, faq: pageFaq, apropos: pageApropos, contact: pageContact, cgu: pageCgu, studio: pageStudio, bilan: pageBilan, rush: pageRush, defi: pageDefi, repertoire: pageRepertoire, compte: pageCompte, confidentialite: pageConfidentialite, mentions: pageMentions };
 let ROUTE = 'overview';
 
 function aller(r, { push = true } = {}) {
@@ -5463,7 +5728,8 @@ function majProfil() {
 }
 function menuProfil() {
   const m = $('#profMenu'), p = REGLAGES.pseudos.split(',')[0].trim();
-  m.innerHTML = `<div class="who"><b>${esc(p || 'Local profile')}</b><div class="faint" style="font-size:12.5px">${pluriel(LIB.length, 'game')} · data in this browser</div></div>
+  m.innerHTML = `<div class="who"><b>${esc(p || 'Local profile')}</b><div class="faint" style="font-size:12.5px">${pluriel(LIB.length, 'game')} · ${COMPTE.connecte ? esc(COMPTE.email) : 'data in this browser'}</div></div>
+    ${window.BC_WEB ? `<button role="menuitem" data-route="compte">${ico('profil')}${COMPTE.connecte ? 'My account · ' + (COMPTE.plan === 'plus' ? 'BlunderCheck+' : 'Free') : 'Sign in'}</button>` : ''}
     <button role="menuitem" data-route="profil">${ico('profil')}My profile and goals</button>
     <button role="menuitem" data-route="parametres">${ico('parametres')}Settings and usernames</button>
     <button role="menuitem" id="mExp">${ico('download')}Export my games</button>
@@ -5552,10 +5818,13 @@ on('apercu', id => {
 on('moteur', majMoteur);
 on('prof', () => { if (ROUTE === 'prof') pageProf($('#view')); });
 on('lib', majCompteurs);
+on('compte', () => { if (['compte', 'tarifs', 'accueil'].includes(ROUTE)) aller(ROUTE, { push: false }); });
 on('ia', () => { if (ROUTE === 'analyse' && A.vue === 'analyse' && $('#panelBody')) rendrePanneau(); if (ROUTE === 'parametres') aller('parametres', { push: false }); });
 
 // clics globaux
 document.addEventListener('click', e => {
+  const ab = e.target.closest('[data-abo]');
+  if (ab) { abonner(ab.dataset.abo); return; }
   const ls = e.target.closest('[data-liste]');
   if (ls) { ouvrirListe(ls.dataset.liste); return; }
   const sh = e.target.closest('[data-share]');
@@ -5613,11 +5882,13 @@ document.addEventListener('keydown', e => {
   ecrire('coupjuste-vu', true);
   aller(PAGES[h] ? h : premiere ? 'accueil' : 'overview', { push: false });
   initIA();
+  messagesRetour();
+  chargerCompte();
   // reprend les analyses interrompues
   (async () => { for (const g of [...LIB]) if (!estAffinee(g)) await analyserPartie(g); })();
 })();
 
-;(function (o) { for (var k in o) try { if (!(k in window)) window[k] = o[k]; } catch (e) { } })({A,ACCROCHES,ALL_SQ,ANALYSES,AUDIO,BL,BUS,BW,C,CLASSES,COACH,CONCURRENTS,CONTACT,COUL,COUL_CLS,DEFAULT_FEN,DEFI,DERIVES,DL,D_,EN_VERS_FR,EXEMPLE_PGN,FAQ,FEM,FILES,FILTRES_TR,FP,GUIDE,IA,IA_ERR,ICONES,IMP,JSPDF,JSPDF_URL,K_CONSO,K_LISTE,K_OBJ,K_PLAN,K_REP,K_RUSH,K_SERIE,K_SET,LC,LIB,LIGNES_OFFRE,MAJ_LEGAL,MAUVAIS,MOIS,MOTIFS,Moteur,NOM,NOM_PHASE,NOM_TAG_IA,NOTE,NOTE_PAR,OBJ,OPT,OUVERTURES,PAGES,PERIODES,PIEGES,PRIX,PRIX_IA,PROFILS,PROG,PS,REGLAGES,REP_MAX,ROUTE,RP,RS,RUSH_MS,SF_CDN,SITE_URL,ST,STRATEGIES,SW,TR,VAL,VOIX,_PARSE,_chargerPartie,aAffiner,aCommenter,absUrl,accrocheTexte,agregats,ajouterPartie,aller,allerPly,analyserPartie,apercuFixe,appliquerTheme,attackers,attacksFrom,audioStudio,autre,avancerLigne,axesTravail,b64d,b64e,badge,badges,bip,boutonListe,boutonVoix,brancherFiltres,brancherLigne,brancherOptions,brancherOuvertures,bulletin,cadence,cadreBilan,carnetConseils,carteDuJour,carteSVG,casesEnPrise,chances,chargerJsPDF,chargerPartie,chargerScript,chip,clamp,clePartie,colOuv,commenterPartie,commenterTout,compterConso,consoAdmin,contexteQuestion,corpsImport,corpsPseudo,couleurPour,coupJoue,coutConso,creerEchiquier,dateDePgn,debutSemaine,decouperPgn,defierAmi,dejaInscrit,deltaCoup,demarrerRush,deriver,dessinerStudio,docLegal,donneesBilan,echiquierBilan,ecrire,effacerTout,eloParCadence,emit,enFr,enteteRush,esc,essaiDefi,essaiExo,essaiLecon,essaiLigne,essaiRush,estAffinee,estAnalysee,evalEleve,evalFin,evalLegende,exercices,exoDuJour,exosResolus,explicationMoteur,expliquer,expliquerPositionIA,exporterPDF,exporterParties,faitsCoup,fenLigne,fermerModal,fermerTiroir,finDefi,finLecon,finLigne,finRush,flecheCanvas,fmtDate,fmtDateCourt,g_,gainMateriel,genererPlan,graphAvantage,graphProgression,gros,guideHTML,iaCouper,iaDefinitif,iaErreur,ico,imagesBilan,initIA,jouer,jouerStudio,jourCle,lancerLigne,lancerProf,le,libCoup,lienDefi,ligne,ligneCliquable,ligneMoment,lignePartie,ligneTxt,lignesOuverture,lire,lireDefi,lireInfo,lisible,lisibleOral,mail,majBoutonsStudio,majCompteurs,majEchiquier,majExo,majIA,majLecon,majMoteur,majPos,majProfil,majProgression,majTout,marquerExo,materiel,meilleureSerie,melanger,mentions,menuProfil,mesPseudos,momentsLecon,momentsStudio,monterGraph,moyenne,nav,niveau,noterJour,nouvelId,numero,objetsJSON,on,optionsImport,ouvrirAnalyse,ouvrirListe,ouvrirModal,ouvrirTiroir,pageAccueil,pageAnalyse,pageApropos,pageBilan,pageCgu,pageConfidentialite,pageContact,pageDefi,pageEntrainement,pageFaq,pageImport,pageMentions,pageOuvertures,pageOverview,pageParametres,pageParties,pageProf,pageProfil,pageRepertoire,pageRush,pageStats,pageStudio,pageTarifs,parler,partagerCoup,partagerRush,partieParId,partieTxt,partiesChessCom,partiesCompletes,partiesLichess,pct,pdfTxt,periodeOv,phaseDe,piecesStudio,piedDePage,placerTip,plateauCanvas,plateauCorps,plateauSVG,pluriel,pointsForts,posCourante,poserQuestion,pourquoi,precisionCoup,profil,progression,promptProf,puzzleRush,quitterVariante,raccourcis,rafProg,rafraichirLourd,rechercher,rendreCorps,rendreCoups,rendreIA,rendreLecon,rendrePanneau,rendreRapport,rendreVariantes,resumePourPlan,sauverLib,sauverObj,sauverReglages,scenario,serieJours,seriesSansErreur,slotPrincipal,slotWorker,son,sonCoup,sparkline,sqFR,sqName,statutIA,statutLigne,stopVoix,supprimerPartie,svgEnPng,synthIA,syntheseMoteur,tagCoup,telecharger,tendances,terminerRush,teteInfo,texteEval,texteMulti,toast,ton,trouverOuverture,variante,webDownloads,webSample,workerBlob});
+;(function (o) { for (var k in o) try { if (!(k in window)) window[k] = o[k]; } catch (e) { } })({A,ACCROCHES,ALL_SQ,ANALYSES,AUDIO,BL,BUS,BW,C,CLASSES,COACH,COMPTE,CONCURRENTS,CONTACT,COUL,COUL_CLS,DEFAULT_FEN,DEFI,DERIVES,DL,D_,EN_VERS_FR,EXEMPLE_PGN,FAQ,FEM,FILES,FILTRES_TR,FP,GUIDE,IA,IA_ERR,ICONES,IMP,JSPDF,JSPDF_URL,K_CONSO,K_LISTE,K_OBJ,K_PLAN,K_REP,K_RUSH,K_SERIE,K_SET,K_SUPPR,LC,LIB,LIGNES_OFFRE,MAJ_LEGAL,MAUVAIS,MOIS,MOTIFS,Moteur,NOM,NOM_PHASE,NOM_TAG_IA,NOTE,NOTE_PAR,OBJ,OPT,OUVERTURES,PAGES,PERIODES,PIEGES,PRIX,PRIX_IA,PROFILS,PROG,PS,REGLAGES,REP_MAX,RE_COUP,RE_MIEUX,ROUTE,RP,RS,RUSH_MS,SF_CDN,SITE_URL,ST,STRATEGIES,SW,SYNC,TR,VAL,VOIX,_PARSE,_chargerPartie,aAffiner,aCommenter,abonner,absUrl,accrocheTexte,agregats,ajouterPartie,aller,allerPly,analyserPartie,apercuFixe,appliquerTheme,attackers,attacksFrom,audioStudio,autre,avancerLigne,axesTravail,b64d,b64e,badge,badges,barreQuota,bip,boutonListe,boutonVoix,brancherFiltres,brancherLigne,brancherOptions,brancherOuvertures,bulletin,cadence,cadreBilan,carnetConseils,carteDuJour,carteSVG,casesEnPrise,chances,chargerCompte,chargerJsPDF,chargerPartie,chargerScript,chip,clamp,clePartie,colOuv,commenterPartie,commenterTout,compterConso,consoAdmin,contexteQuestion,controleCommentaire,corpsImport,corpsPseudo,couleurPour,coupJoue,coupsAutorises,coupsDans,coutConso,creerEchiquier,dateDePgn,debutSemaine,deconnecter,decouperPgn,defierAmi,dejaInscrit,deltaCoup,demarrerRush,deriver,dessinerStudio,docLegal,donneesBilan,echiquierBilan,ecrire,effacerTout,eloParCadence,emit,enFr,enteteRush,envoyerParties,esc,essaiDefi,essaiExo,essaiLecon,essaiLigne,essaiRush,estAffinee,estAnalysee,estPlus,evalEleve,evalFin,evalLegende,exercices,exoDuJour,exosResolus,explicationMoteur,expliquer,expliquerPositionIA,exporterPDF,exporterParties,faitsCoup,fenLigne,fermerModal,fermerTiroir,finDefi,finLecon,finLigne,finRush,flecheCanvas,fmtDate,fmtDateCourt,g_,gainMateriel,genererPlan,graphAvantage,graphProgression,gros,guideHTML,iaCouper,iaDefinitif,iaErreur,ico,imagesBilan,initIA,jouer,jouerStudio,jourCle,lancerLigne,lancerProf,le,libCoup,lienDefi,ligne,ligneCliquable,ligneMoment,lignePartie,ligneTxt,lignesOuverture,lire,lireDefi,lireInfo,lisible,lisibleOral,mail,majBoutonsStudio,majCompteurs,majEchiquier,majExo,majIA,majLecon,majMoteur,majPos,majProfil,majProgression,majSyncTxt,majTout,marquerExo,materiel,meilleureSerie,melanger,mentions,menuProfil,mesPseudos,messagesRetour,momentsLecon,momentsStudio,monterGraph,moyenne,nav,niveau,noterJour,noterSuppression,nouvelId,numero,objetsJSON,on,optionsImport,ouvrirAnalyse,ouvrirConnexion,ouvrirListe,ouvrirModal,ouvrirTiroir,pageAccueil,pageAnalyse,pageApropos,pageBilan,pageCgu,pageCompte,pageConfidentialite,pageContact,pageDefi,pageEntrainement,pageFaq,pageImport,pageMentions,pageOuvertures,pageOverview,pageParametres,pageParties,pageProf,pageProfil,pageRepertoire,pageRush,pageStats,pageStudio,pageTarifs,parler,partagerCoup,partagerRush,partieParId,partieTxt,partiesChessCom,partiesCompletes,partiesLichess,pct,pdfTxt,periodeOv,phaseDe,piecesStudio,piedDePage,placerTip,planifierSynchro,plateauCanvas,plateauCorps,plateauSVG,pluriel,pointsForts,portailAbonnement,posCourante,poserQuestion,pourquoi,precisionCoup,profil,progression,promptProf,proposerAbonnement,puzzleRush,quitterVariante,raccourcis,rafProg,rafraichirLourd,rechercher,rendreCorps,rendreCoups,rendreIA,rendreLecon,rendrePanneau,rendreRapport,rendreVariantes,resumePourPlan,sauverLib,sauverObj,sauverReglages,scenario,serieJours,seriesSansErreur,slotPrincipal,slotWorker,son,sonCoup,sparkline,sqFR,sqName,statutIA,statutLigne,stopVoix,supprimerPartie,svgEnPng,synchroParties,synthIA,syntheseMoteur,tagCoup,telecharger,tendances,terminerRush,teteInfo,texteEval,texteMulti,toast,ton,trouverOuverture,variante,versSync,webDownloads,webSample,workerBlob});
 
 })();
 else (function () {
@@ -5866,19 +6137,21 @@ function expliquer(fenAvant, coup, avant, apres, c) {
 
 const chances = cp => 2 / (1 + Math.exp(-0.00368208 * cp)) - 1;   // -1..1 côté blancs
 
-function tagCoup(uci, color, avant, apres) {
+function tagCoup(uci, color, avant, apres, verif) {
   if (!avant || !apres || apres.cp === null || avant.cp === null) return '';
   if (avant.pv[0] === uci) return 'meilleur';
   const s = color === 'w' ? 1 : -1;
-  const delta = s * (chances(avant.cp) - chances(apres.cp));
+  // verif : meilleur coup et coup joué évalués depuis la même position (plus fiable que deux positions différentes)
+  const delta = verif ? Math.max(0, s * (chances(verif.best) - chances(verif.joue))) : s * (chances(avant.cp) - chances(apres.cp));
   if (delta >= 0.3) return 'gaffe';
   if (delta >= 0.2) return 'erreur';
   if (delta >= 0.1) return 'imprecision';
   return delta < 0.03 ? 'excellent' : 'bon';
 }
 
-function deltaCoup(color, avant, apres) {
+function deltaCoup(color, avant, apres, verif) {
   if (!avant || !apres) return 0;
+  if (verif) return Math.max(0, (color === 'w' ? 1 : -1) * (chances(verif.best) - chances(verif.joue)));
   return (color === 'w' ? 1 : -1) * (chances(avant.cp) - chances(apres.cp));
 }
 
@@ -6235,6 +6508,7 @@ if (!Array.isArray(LIB)) LIB = [];
 const DERIVES = new Map();   // id -> données calculées (non stockées)
 
 function sauverLib() {
+  if (typeof planifierSynchro === 'function') planifierSynchro();
   if (ecrire(K_LIB, LIB)) return true;
   // stockage plein : on allège les variantes des plus anciennes parties
   LIB.forEach(g => (g.evals || []).forEach(e => { if (e) e.pv = e.pv.slice(0, 4); }));
@@ -6264,6 +6538,8 @@ function ajouterPartie(pgn, color, source = 'import') {
   return g;
 }
 function supprimerPartie(id) {
+  const sup = LIB.find(g => g.id === id);
+  if (sup && typeof noterSuppression === 'function') noterSuppression(sup);
   LIB = LIB.filter(g => g.id !== id);
   DERIVES.delete(id);
   sauverLib();
@@ -6274,24 +6550,27 @@ const estAffinee = g => estAnalysee(g) && g.affine !== false;   // les anciennes
 function progression(g) {
   if (estAffinee(g)) return 1;
   const p = PROG[g.id];
-  if (p && p.phase === 'affinage') return 0.75 + 0.25 * (p.total ? p.fait / p.total : 1);
+  if (p && p.phase === 'affinage') return 0.75 + 0.17 * (p.total ? p.fait / p.total : 1);
+  if (p && p.phase === 'verification') return 0.92 + 0.08 * (p.total ? p.fait / p.total : 1);
   return 0.75 * (g.evals ? g.evals.filter(Boolean).length / g.evals.length : 0);
 }
 
 /** Tout ce qu'on calcule à partir d'une partie (mis en cache) */
 function deriver(g) {
   const c = DERIVES.get(g.id);
-  const cle = g.evals.filter(Boolean).length + '|' + (g.rev || 0) + '|' + estAffinee(g);
+  const cle = g.evals.filter(Boolean).length + '|' + (g.rev || 0) + '|' + estAffinee(g) + '|' + Object.keys(g.verif || {}).length;
   if (c && c.v === cle && c.color === g.color) return c;
   const P = chargerPartie(g.pgn);
   if (!P) return null;
   const h = P.headers, me = g.color, opp = autre(me), E = g.evals;
   const tags = P.moves.map((mv, i) => {
-    let t = tagCoup(mv.uci, mv.color, E[i], E[i + 1]);
-    if (t === 'imprecision' && i < 10) t = 'bon';       // bruit de théorie d'ouverture
+    const V = g.verif && g.verif[i];
+    let t = tagCoup(mv.uci, mv.color, E[i], E[i + 1], V);
+    // bruit de théorie d'ouverture : on pardonne une petite imprécision, pas un gain de matériel raté
+    if (t === 'imprecision' && i < 10 && E[i] && E[i + 1] && (mv.color === 'w' ? 1 : -1) * (V ? V.best - V.joue : E[i].cp - E[i + 1].cp) < 60) t = 'bon';
     return t;
   });
-  const deltas = P.moves.map((mv, i) => E[i] && E[i + 1] ? deltaCoup(mv.color, E[i], E[i + 1]) : 0);
+  const deltas = P.moves.map((mv, i) => E[i] && E[i + 1] ? deltaCoup(mv.color, E[i], E[i + 1], g.verif && g.verif[i]) : 0);
   const phases = P.moves.map((mv, i) => phaseDe(P.fens[i], i));
   const prec = {}, counts = {}, phasePrec = { w: {}, b: {} };
   for (const c of ['w', 'b']) {
@@ -6370,7 +6649,7 @@ function effacerTout() {
 // Profils : [profondeur max, temps max en ms] pour l'aperçu (toutes les positions) puis l'affinage (moments clés)
 const PROFILS = {
   '12|1200': { nom: 'Rapide', apercu: [9, 250], fin: [12, 700] },
-  '14|2500': { nom: 'Normale', apercu: [10, 350], fin: [13, 1000] },
+  '14|2500': { nom: 'Normale', apercu: [10, 350], fin: [14, 1500] },
   '16|5000': { nom: 'Poussée', apercu: [11, 700], fin: [16, 3500] },
 };
 const profil = () => PROFILS[REGLAGES.depth] || PROFILS['14|2500'];
@@ -6463,13 +6742,13 @@ const Moteur = {
     })();
     return this.init;
   },
-  analyser(fen, { depth, ms, tag = '', prio = false } = {}) {
+  analyser(fen, { depth, ms, tag = '', prio = false, coup = '' } = {}) {
     if (!depth) [depth, ms] = profil().fin;
     const fin = evalFin(fen);
-    if (fin) return Promise.resolve(fin);
+    if (fin && !coup) return Promise.resolve(fin);
     if (this.etat === 'erreur') return Promise.reject({ code: 'moteur' });
     return new Promise((resolve, reject) => {
-      const job = { fen, depth, ms, tag, resolve, reject };
+      const job = { fen, depth, ms, tag, coup, resolve, reject };
       if (prio) this.q.unshift(job); else this.q.push(job);
       this.demarrer();
       this.dispatch();
@@ -6486,7 +6765,7 @@ const Moteur = {
       let { depth, ms } = j;
       if (s.slot.principal) { depth = Math.min(depth, 11); ms = Math.min(ms, 350); }   // ne pas figer la page
       s.slot.send('position fen ' + j.fen);
-      s.slot.send(`go depth ${depth} movetime ${ms}`);
+      s.slot.send(`go depth ${depth} movetime ${ms}${j.coup ? ' searchmoves ' + j.coup : ''}`);
       clearTimeout(s.garde);
       s.garde = setTimeout(() => { if (s.cur === j) { s.slot.send('stop'); s.garde = setTimeout(() => { if (s.cur === j) this.perdre(s); }, 4000); } }, ms + 6000);
     }
@@ -6556,6 +6835,19 @@ async function analyserPartie(g) {
     await Promise.all(liste.map(i => Moteur.analyser(P.fens[i], { depth: pr.fin[0], ms: pr.fin[1], tag: g.id }).then(e => {
       ecrire(i, e, 2); PROG[g.id].fait++; emit('progres', g.id, i);
     })));
+    // 3. vérification des fautes : le coup joué et le meilleur coup sont évalués depuis la MÊME position,
+    //    à la même profondeur (searchmoves), pour ne pas classer « erreur » un coup de théorie à cause du bruit
+    const D2 = deriver(g), aVerifier = D2.P.moves.map((mv, i) => i).filter(i => ['imprecision', 'erreur', 'gaffe'].includes(D2.tags[i]) && g.evals[i] && g.evals[i].mate === null && g.evals[i + 1] && g.evals[i + 1].mate === null);
+    PROG[g.id] = { phase: 'verification', fait: 0, total: aVerifier.length };
+    g.verif = g.verif || {};
+    await Promise.all(aVerifier.map(async i => {
+      const [best, joue] = await Promise.all([
+        Moteur.analyser(P.fens[i], { depth: pr.fin[0] + 1, ms: pr.fin[1] * 1.5, tag: g.id }),
+        Moteur.analyser(P.fens[i], { depth: pr.fin[0] + 1, ms: pr.fin[1] * 1.5, tag: g.id, coup: D2.P.moves[i].uci }),
+      ]);
+      if (best.cp !== null && joue.cp !== null && best.mate === null && joue.mate === null) g.verif[i] = { best: best.cp, joue: joue.cp };
+      PROG[g.id].fait++; emit('progres', g.id, i);
+    }));
     g.affine = true;
     g.rev = (g.rev || 0) + 1;
     sauverLib();
@@ -6921,6 +7213,31 @@ function objetsJSON(txt) {
   }
   return out;
 }
+// ---------- Contrôle qualité des commentaires du prof ----------
+// Le prof (Haiku) peut inventer un coup ou dire « il y avait mieux » sur un bon coup : on retire ces phrases.
+const RE_COUP = /(?:^|[^A-Za-z0-9])((?:O-O(?:-O)?)|(?:[KQRBNCFTD][a-h]?[1-8]?x?[a-h][1-8](?:=[QRBNDTFC])?)|(?:[a-h]x[a-h][1-8](?:=[QRBNDTFC])?))(?=[+#!?]|[^A-Za-z0-9]|$)/g;
+const coupsDans = t => [...String(t).matchAll(RE_COUP)].map(m => m[1].replace(/[+#!?]/g, ''));
+const RE_MIEUX = /\b(mieux|plus fort|plus précis|plus actif|aurait été|il fallait|meilleur coup était|encore plus|better|stronger|more precise|should have|was best|even more)\b/i;
+function coupsAutorises(g, D, i) {
+  const a = new Set(coupsDans(JSON.stringify(faitsCoup(g, D, i))));
+  D.P.moves.forEach((m, k) => a.add(lisible(D.P.fens[k], m.uci).san.replace(/[+#]/g, '')));
+  return a;
+}
+function controleCommentaire(g, D, i, c) {
+  const autorises = coupsAutorises(g, D, i);
+  const bon = !MAUVAIS.includes(D.tags[i]);
+  const phrases = String(c).match(/[^.!?]+[.!?]*\s*/g) || [String(c)];
+  const gardees = phrases.filter(ph => {
+    if (coupsDans(ph).some(x => !autorises.has(x))) return false;    // coup qui n'existe ni dans la partie ni dans les données
+    if (bon && D.tags[i] && RE_MIEUX.test(ph)) return false;          // « il y avait mieux » sur un bon coup
+    return true;
+  });
+  const t = gardees.join('').trim();
+  if (t) return t;
+  const L = lisible(D.P.fens[i], D.P.moves[i].uci);
+  return `${(NOM_TAG_IA[D.tags[i]] || 'coup').replace(/^./, x => x.toUpperCase())} : ${L.sens}.`;
+}
+
 async function commenterPartie(g, { silencieux = false } = {}) {
   const D = g && deriver(g);
   if (!IA.fn || !g || !D || !D.affine || IA.ctl) return false;
@@ -6934,14 +7251,19 @@ async function commenterPartie(g, { silencieux = false } = {}) {
     if (!l.startsWith('{')) return;
     let o; try { o = JSON.parse(l); } catch { return; }
     const ply = o.p || o.ply, com = o.c || o.commentaire, cons = o.k || o.conseil, th = o.t || o.theme;
-    if (ply && com) pr.comments[ply] = { c: String(com), k: cons ? String(cons) : '', t: th ? String(th).slice(0, 40) : '' };
+    if (ply && com && D.P.moves[ply - 1]) {
+      const i = ply - 1, bon = !MAUVAIS.includes(D.tags[i]);
+      let k = cons && !bon ? String(cons) : '';
+      if (k) { const a = coupsAutorises(g, D, i); if (coupsDans(k).some(x => !a.has(x))) k = ''; }
+      pr.comments[ply] = { c: controleCommentaire(g, D, i, com), k, t: th ? String(th).slice(0, 40) : '' };
+    }
     else if (o.resume || o.lecons) { pr.resume = String(o.resume || ''); pr.lecons = Array.isArray(o.lecons) ? o.lecons.map(String).slice(0, 5) : []; }
     majIA(g.id);
   };
   // Un appel par morceau de partie : le prof ne s'arrête plus en route
   const morceau = async (idx, synthese) => {
     let pending = '', tout = '';
-    await IA.fn(promptProf(g, D, idx, synthese), { signal: IA.ctl.signal, maxTokens: 8192, onText: ({ delta }) => { tout += delta; const ls = (pending + delta).split('\n'); pending = ls.pop(); ls.forEach(lireLigne); } });
+    await IA.fn(promptProf(g, D, idx, synthese), { signal: IA.ctl.signal, maxTokens: 8192, partie: g.id, onText: ({ delta }) => { tout += delta; const ls = (pending + delta).split('\n'); pending = ls.pop(); ls.forEach(lireLigne); } });
     lireLigne(pending);
     objetsJSON(tout).forEach(o => { if (!((o.p || o.ply) && pr.comments[o.p || o.ply])) lireLigne(JSON.stringify(o)); });
     return tout;
@@ -6978,7 +7300,8 @@ async function commenterPartie(g, { silencieux = false } = {}) {
     if (e && e.code !== 'cancelled') pr.erreur = iaErreur(e);
     if (e && e.code !== 'cancelled' && silencieux) toast(iaErreur(e), 'err');
     iaCouper(e);
-    if (e && (e.code === 'cancelled' || iaDefinitif(e) || e.code === 'rate_limited')) IA.stopLot = true;
+    if (e && (e.code === 'cancelled' || iaDefinitif(e) || e.code === 'rate_limited' || e.code === 'limite')) IA.stopLot = true;
+    if (e && e.code === 'limite' && window.proposerAbonnement) proposerAbonnement(e.message);
   } finally {
     IA.ctl = null; IA.cour = null;
     sauverLib();
@@ -7091,6 +7414,7 @@ async function poserQuestion(q) {
   } catch (e) {
     if (e && e.text) turns.push({ role: 'assistant', content: e.text + ' […]' }); else turns.pop();
     if (e && e.code !== 'cancelled') toast(iaErreur(e), 'err');
+    if (e && e.code === 'limite' && window.proposerAbonnement) proposerAbonnement(e.message);
     iaCouper(e);
     if (A.tab === 'ia') rendreIA($('#panelBody'));
   } finally { IA.ask = null; }
@@ -7110,6 +7434,7 @@ async function expliquerPositionIA(p) {
   } catch (e) {
     delete A.iaPos[key];
     if (e && e.code !== 'cancelled') toast(iaErreur(e), 'err');
+    if (e && e.code === 'limite' && window.proposerAbonnement) proposerAbonnement(e.message);
     iaCouper(e);
   }
   rendrePanneau();
@@ -7202,7 +7527,7 @@ function majProgression() {
   if (p >= 1) { el.hidden = true; return; }
   el.hidden = false;
   const pr = PROG[g.id];
-  const txt = pr && pr.phase === 'affinage' ? `Affinage des moments clés · ${pr.fait} / ${pr.total}` : `Aperçu · ${g.evals.filter(Boolean).length} / ${g.evals.length} positions`;
+  const txt = pr && pr.phase === 'verification' ? `Vérification des erreurs · ${pr.fait} / ${pr.total}` : pr && pr.phase === 'affinage' ? `Affinage des moments clés · ${pr.fait} / ${pr.total}` : `Aperçu · ${g.evals.filter(Boolean).length} / ${g.evals.length} positions`;
   el.innerHTML = `<span class="tag tag-moteur">${ico('moteur')}Stockfish</span><div class="bar"><i style="width:${(p * 100).toFixed(1)}%"></i></div><span class="mono">${txt}</span>`;
 }
 
@@ -8546,7 +8871,7 @@ function pageTarifs(view) {
   <div class="price-grid" style="margin-inline:auto">
     <div class="card price"><span class="eyebrow">Gratuit</span><div class="pv">0 €</div><p class="muted" style="margin-top:-6px">Pour toujours, sans carte bancaire</p>
       <button class="btn" data-route="import">${ico('analyser')}Analyser une partie</button></div>
-    <div class="card price best"><span class="eyebrow" style="color:var(--accent)">BlunderCheck+ · au lancement</span><div class="pv">${PRIX.anMois}<small> / mois</small></div><p class="muted" style="margin-top:-6px">${PRIX.an} par an, ou ${PRIX.mois} au mois sans engagement</p>
+    <div class="card price best"><span class="eyebrow" style="color:var(--accent)">${COMPTE.paiement ? 'BlunderCheck+' : 'BlunderCheck+ · au lancement'}</span><div class="pv">${PRIX.anMois}<small> / mois</small></div><p class="muted" style="margin-top:-6px">${PRIX.an} par an, ou ${PRIX.mois} au mois sans engagement</p>
       ${boutonListe('tarifs')}</div>
   </div>
   <div class="card" style="margin-top:20px;overflow-x:auto">
@@ -8554,7 +8879,7 @@ function pageTarifs(view) {
       ${LIGNES_OFFRE.map(([f, a, b]) => `<tr><th>${esc(f)}</th><td>${cell(a)}</td><td>${cell(b)}</td></tr>`).join('')}
     </tbody></table>
   </div>
-  <div class="callout">${ico('info')}<p><b>Pendant la bêta, tout est gratuit.</b> Le paiement n'est pas encore ouvert. Quand BlunderCheck+ sera lancé, tu pourras résilier en un clic, et le prix affiché sera le prix payé, TVA comprise.</p></div>
+  ${COMPTE.paiement ? `<div class="callout">${ico('info')}<p><b>Sans engagement.</b> Tu résilies en deux clics depuis ton compte, et le prix affiché est le prix payé, TVA comprise.</p></div>` : ''}<div class="callout" ${COMPTE.paiement ? 'hidden' : ''}>${ico('info')}<p><b>Pendant la bêta, tout est gratuit.</b> Le paiement n'est pas encore ouvert. Quand BlunderCheck+ sera lancé, tu pourras résilier en un clic, et le prix affiché sera le prix payé, TVA comprise.</p></div>
   <h2 class="info-h2">Comparé aux abonnements payants</h2>
   <div class="card" style="overflow-x:auto">
     <table class="dist cmp"><thead><tr><th>Offre</th><th>Par an</th><th>Par mois (payé à l'année)</th></tr></thead><tbody>
@@ -8632,21 +8957,28 @@ function pageCgu(view) {
     ['5. Usage loyal', "<p>Tu t'engages à ne pas perturber le service, à ne pas contourner ses limites d'utilisation et à ne pas l'utiliser de manière automatisée pour en extraire les contenus ou détourner le prof IA de son objet.</p>"],
     ['6. Propriété intellectuelle', "<p>Le nom BlunderCheck, le design du site et ses textes sont protégés. Les composants libres utilisés (Stockfish, chess.js, pièces Cburnett, polices Geist) restent soumis à leurs licences respectives, détaillées dans les Paramètres, rubrique « Licences et mentions ». Tes parties t'appartiennent.</p>"],
     ['7. Responsabilité', "<p>Le service est fourni « en l'état ». L'éditeur s'efforce d'assurer son bon fonctionnement mais ne garantit pas l'absence d'erreur d'analyse ou d'interruption. Les parties étant enregistrées dans ton navigateur, pense à les exporter régulièrement.</p>"],
-    ['8. Abonnement payant', "<p>Les conditions de vente de BlunderCheck+ (prix, paiement, résiliation, droit de rétractation) seront publiées avant l'ouverture du paiement. Aucun paiement n'est demandé pendant la bêta.</p>"],
+    ['8. Abonnement payant', COMPTE.paiement ? `<p><b>Offre.</b> BlunderCheck+ donne accès au prof IA sur jusqu'à 100 parties commentées et 300 questions par mois, au plan de la semaine et à la synchronisation des parties. Sans abonnement, le prof commente 3 parties et répond à 10 questions par mois.</p>
+      <p><b>Prix.</b> ${PRIX.an} par an ou ${PRIX.mois} par mois, toutes taxes comprises. Le prix affiché au moment de la commande est celui payé pour toute la période.</p>
+      <p><b>Paiement.</b> Le paiement est encaissé par Stripe, par carte bancaire. BlunderCheck n'a jamais accès à tes coordonnées bancaires. L'abonnement est lié à l'adresse e-mail de ton compte.</p>
+      <p><b>Durée et renouvellement.</b> L'abonnement se renouvelle automatiquement à la fin de chaque période (mois ou année), au même prix sauf information préalable. Tu peux le résilier à tout moment depuis « Mon compte », rubrique « Gérer mon abonnement » : il s'arrête alors à la fin de la période déjà payée, sans nouveau prélèvement.</p>
+      <p><b>Droit de rétractation.</b> Le service est un contenu numérique fourni immédiatement. En cochant la case prévue avant le paiement, tu demandes l'accès immédiat et tu reconnais perdre ton droit de rétractation de 14 jours une fois l'accès ouvert (article L221-28 du Code de la consommation). En cas de problème, écris-nous : nous cherchons toujours une solution.</p>
+      <p><b>Réclamations et médiation.</b> Pour toute réclamation : ${mail('Abonnement')}. En cas de litige non résolu, tu peux recourir gratuitement à un médiateur de la consommation, dont les coordonnées figurent dans les mentions légales.</p>` : "<p>Les conditions de vente de BlunderCheck+ (prix, paiement, résiliation, droit de rétractation) seront publiées avant l'ouverture du paiement. Aucun paiement n'est demandé pendant la bêta.</p>"],
     ['9. Modification et droit applicable', `<p>Ces conditions peuvent être mises à jour ; la date en haut de page l'indique. Elles sont soumises au droit français. Pour toute question : ${mail('CGU')}.</p>`],
   ]);
 }
 function pageConfidentialite(view) {
   view.innerHTML = docLegal('Politique de confidentialité', [
-    ['En bref', "<p>BlunderCheck ne demande ni compte, ni e-mail, ni mot de passe. Tes parties restent dans ton navigateur. Il n'y a ni publicité, ni traceur publicitaire, ni revente de données.</p>"],
+    ['En bref', COMPTE.connexion ? "<p>BlunderCheck fonctionne sans compte : tes parties restent alors dans ton navigateur. Si tu crées un compte, seule ton adresse e-mail est demandée, sans mot de passe. Il n'y a ni publicité, ni traceur publicitaire, ni revente de données.</p>" : "<p>BlunderCheck ne demande ni compte, ni e-mail, ni mot de passe. Tes parties restent dans ton navigateur. Il n'y a ni publicité, ni traceur publicitaire, ni revente de données.</p>"],
     ['Ce qui reste sur ton appareil', "<p>Tes parties, leurs analyses, tes réglages, tes pseudos et ta progression sont enregistrés dans le stockage local de ton navigateur (localStorage). Ils ne nous sont pas transmis. Tu peux tout supprimer depuis les Paramètres.</p>"],
     ['Ce qui est envoyé, et quand', `<ul>
       <li><b>Import par pseudo</b> : ton navigateur interroge directement les accès publics de Chess.com ou de Lichess avec le pseudo saisi.</li>
       <li><b>Prof IA</b> : quand tu lances le prof ou poses une question, la partie concernée (coups, évaluations, noms des joueurs présents dans le PGN) et ta question sont envoyées à Anthropic, qui fournit le modèle Claude, via notre serveur. Anthropic ne les utilise pas pour entraîner ses modèles dans le cadre de son API.</li>
       <li><b>Liste d'attente</b> : si tu t'inscris pour être prévenu du lancement, ton adresse e-mail, la date et la langue sont enregistrées chez Cloudflare. Elles servent uniquement à t'envoyer l'e-mail de lancement de BlunderCheck+, et sont supprimées sur simple demande, ou au plus tard 12 mois après le lancement.</li>
+      ${COMPTE.connexion ? `<li><b>Compte</b> : ton adresse e-mail, ta formule, la date de création et le nombre de parties commentées dans le mois sont enregistrés chez Cloudflare. Si tu es connecté, tes parties (PGN, couleur, commentaires du prof) y sont aussi copiées pour les retrouver sur tes autres appareils. L'e-mail de connexion est envoyé par Resend. Tout est supprimé sur simple demande.</li>` : ''}
+      ${COMPTE.paiement ? `<li><b>Paiement</b> : le paiement est traité par Stripe, qui reçoit ton adresse e-mail et tes coordonnées de paiement. BlunderCheck ne conserve que l'identifiant client Stripe, l'état et la date de fin de ton abonnement, et la date de ta demande d'accès immédiat. Les factures sont conservées le temps exigé par la loi.</li>` : ''}
       <li><b>Hébergement</b> : le site est servi par Cloudflare, qui traite les données techniques nécessaires (adresse IP, navigateur) pour délivrer les pages et protéger le site.</li></ul>`],
     ['Limitation d’usage', "<p>Pour éviter les abus du prof IA, un compteur journalier associé à ton adresse IP est conservé au maximum 26 heures, puis supprimé automatiquement.</p>"],
-    ['Cookies', "<p>Le site ne dépose aucun cookie publicitaire ni de mesure d'audience. Le stockage local sert uniquement au fonctionnement du service ; il ne nécessite donc pas de consentement.</p>"],
+    ['Cookies', COMPTE.connexion ? "<p>Le site ne dépose aucun cookie publicitaire ni de mesure d'audience. Un seul cookie, strictement nécessaire, garde ta session ouverte si tu te connectes (90 jours). Le stockage local sert uniquement au fonctionnement du service. Rien de cela ne nécessite de consentement.</p>" : "<p>Le site ne dépose aucun cookie publicitaire ni de mesure d'audience. Le stockage local sert uniquement au fonctionnement du service ; il ne nécessite donc pas de consentement.</p>"],
     ['Tes droits', `<p>Conformément au RGPD, tu peux demander l'accès, la rectification ou l'effacement des données te concernant, et t'opposer à leur traitement, en écrivant à ${mail('Données personnelles')}. Tu peux aussi saisir la CNIL (cnil.fr).</p>`],
     ['Responsable du traitement', "<p>L'éditeur du site, présenté dans les mentions légales.</p>"],
   ]);
@@ -9440,11 +9772,12 @@ function webSample() {
     const messages = fusion(typeof input === 'string' ? [{ role: 'user', content: input }] : input);
     let r;
     try {
-      r = await fetch('/api/prof', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ messages, max_tokens: opts.maxTokens || 4096 }), signal: opts.signal });
+      r = await fetch('/api/prof', { method: 'POST', headers: { 'content-type': 'application/json', ...(opts.partie ? { 'x-bc-partie': String(opts.partie) } : {}) }, body: JSON.stringify({ messages, max_tokens: opts.maxTokens || 4096 }), signal: opts.signal });
     } catch (e) { throw (e && e.name === 'AbortError') ? { code: 'cancelled' } : { code: 'network', message: 'Connexion impossible au prof.' }; }
     if (!r.ok) {
       let msg = 'Le prof est indisponible pour le moment.';
       try { const j = await r.json(); if (j && j.error) msg = j.error; } catch { }
+      if (r.status === 402) { if (window.chargerCompte) chargerCompte(); throw { code: 'limite', message: msg }; }
       throw { code: r.status === 429 ? 'quota' : 'server', message: msg };
     }
     const rd = r.body.getReader(), dec = new TextDecoder();
@@ -9703,9 +10036,209 @@ function ouvrirListe(source = 'site') {
     } catch { err.textContent = 'Connexion impossible. Vérifie ta connexion et réessaie.'; b.disabled = false; }
   };
 }
-const boutonListe = (source, cls = 'btn primary') => dejaInscrit()
+const boutonListe = (source, cls = 'btn primary') => window.BC_WEB && COMPTE.paiement
+  ? (COMPTE.plan === 'plus' ? `<span class="tag liste-tag">${ico('check')}Tu es abonné à BlunderCheck+</span>` : `<button class="${cls}" data-abo="an">${ico('send')}S'abonner</button>`)
+  : dejaInscrit()
   ? `<span class="tag liste-tag">${ico('check')}Inscrit à la liste d'attente</span>`
   : `<button class="${cls}" data-liste="${source}">${ico('send')}Me prévenir du lancement</button>`;
+
+// ---------- Compte, abonnement BlunderCheck+ et synchronisation (site web uniquement) ----------
+// Tout reste caché tant que le serveur n'a pas ses clés : le site garde alors la liste d'attente.
+const COMPTE = { charge: false, connecte: false, email: null, plan: 'gratuit', paiement: false, connexion: false, quota: null, fin: null, abonne: false };
+const K_SUPPR = 'bc-supprimees-v1';
+
+async function chargerCompte() {
+  if (!window.BC_WEB) return;
+  try {
+    const r = await fetch('/api/compte', { cache: 'no-store', credentials: 'same-origin' });
+    if (r.ok) Object.assign(COMPTE, await r.json(), { charge: true });
+  } catch { }
+  emit('compte');
+  if (COMPTE.connecte) synchroParties();
+}
+
+// messages au retour d'un lien de connexion ou du paiement Stripe
+function messagesRetour() {
+  let p; try { p = new URLSearchParams(location.search); } catch { return; }
+  const c = p.get('connexion'), pay = p.get('paiement');
+  if (!c && !pay) return;
+  if (c === 'ok') toast('Tu es connecté.');
+  else if (c === 'expire') toast('Ce lien de connexion a expiré ou a déjà servi. Demande-en un nouveau.', 'err');
+  else if (c === 'invalide') toast('Lien de connexion invalide.', 'err');
+  if (pay === 'ok') toast('Merci ! Ton abonnement BlunderCheck+ est actif.');
+  else if (pay === 'annule') toast('Paiement annulé : rien n’a été débité.');
+  try { history.replaceState(null, '', location.pathname + location.hash); } catch { }
+}
+
+const estPlus = () => COMPTE.plan === 'plus';
+
+// ---------- Connexion par lien e-mail ----------
+function ouvrirConnexion(raison = '') {
+  if (!COMPTE.connexion) { ouvrirListe('connexion'); return; }
+  ouvrirModal(`<div class="card-h"><h2>Se connecter</h2><button class="icon-btn" data-close aria-label="Fermer">${ico('close')}</button></div>
+    <form class="liste" id="cxForm" novalidate>
+      <p class="muted">${raison ? esc(raison) + ' ' : ''}Entre ton adresse : tu reçois un lien de connexion, sans mot de passe à retenir.</p>
+      <div class="field"><label for="cxMail">Ton adresse e-mail</label><input class="input" id="cxMail" type="email" autocomplete="email" placeholder="toi@exemple.fr" required></div>
+      <input type="text" id="cxSite" tabindex="-1" autocomplete="off" class="piege" aria-hidden="true">
+      <div id="cxErr" class="liste-err" role="alert"></div>
+      <button class="btn primary" id="cxGo" type="submit">${ico('send')}Recevoir mon lien</button>
+    </form>`);
+  $('#cxMail').focus();
+  $('#cxForm').onsubmit = async e => {
+    e.preventDefault();
+    const email = $('#cxMail').value.trim(), err = $('#cxErr'), b = $('#cxGo');
+    err.textContent = '';
+    if (!/^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(email)) { err.textContent = 'Vérifie ton adresse e-mail.'; return; }
+    b.disabled = true;
+    try {
+      const r = await fetch('/api/compte', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ action: 'lien', email, site: $('#cxSite').value, lang: window.BC_LANG }) });
+      const j = await r.json().catch(() => ({}));
+      if (!r.ok) { err.textContent = j.error || 'L’envoi n’a pas marché. Réessaie dans un instant.'; b.disabled = false; return; }
+      $('#cxForm').innerHTML = `<div class="liste-ok">${ico('check')}<p>C’est envoyé ! Ouvre l’e-mail reçu sur <b>${esc(email)}</b> et clique sur le lien (valable 15 minutes). Pense à regarder dans les spams.</p></div>`;
+    } catch { err.textContent = 'Connexion impossible. Vérifie ta connexion et réessaie.'; b.disabled = false; }
+  };
+}
+
+async function deconnecter() {
+  try { await fetch('/api/compte', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ action: 'sortie' }) }); } catch { }
+  Object.assign(COMPTE, { connecte: false, email: null, plan: 'gratuit', abonne: false });
+  toast('Tu es déconnecté. Tes parties restent dans ce navigateur.');
+  chargerCompte();
+  if (ROUTE === 'compte') aller('compte', { push: false });
+}
+
+// ---------- Abonnement ----------
+function abonner(formuleAbo = 'an') {
+  if (!COMPTE.paiement) { ouvrirListe('tarifs'); return; }
+  if (!COMPTE.connecte) { ouvrirConnexion('Connecte-toi pour t’abonner : ton abonnement sera lié à ton adresse.'); return; }
+  const an = formuleAbo === 'an';
+  ouvrirModal(`<div class="card-h"><h2>BlunderCheck+</h2><button class="icon-btn" data-close aria-label="Fermer">${ico('close')}</button></div>
+    <div class="liste">
+      <div class="seg" id="aboSeg"><button data-f="an" class="${an ? 'on' : ''}">${PRIX.an} / an</button><button data-f="mois" class="${an ? '' : 'on'}">${PRIX.mois} / mois</button></div>
+      <p class="muted">Le prof IA sur jusqu’à 100 parties par mois, tes questions, ton plan de la semaine. Sans engagement : tu résilies en deux clics depuis ton compte.</p>
+      <label class="liste-cb"><input type="checkbox" id="aboOk"><span>Je demande l’accès immédiat à BlunderCheck+ et je reconnais perdre mon droit de rétractation de 14 jours une fois l’accès ouvert.</span></label>
+      <div id="aboErr" class="liste-err" role="alert"></div>
+      <button class="btn primary" id="aboGo">${ico('send')}Payer avec Stripe</button>
+      <p class="faint" style="font-size:12px">Paiement sécurisé par Stripe : BlunderCheck ne voit jamais ta carte. Voir les <a href="#cgu" data-route="cgu">conditions</a>.</p>
+    </div>`);
+  let f = formuleAbo;
+  $$('#aboSeg button').forEach(b => b.onclick = () => { f = b.dataset.f; $$('#aboSeg button').forEach(x => x.classList.toggle('on', x === b)); });
+  $('#aboGo').onclick = async () => {
+    const err = $('#aboErr'), b = $('#aboGo');
+    err.textContent = '';
+    if (!$('#aboOk').checked) { err.textContent = 'Coche la case pour continuer.'; return; }
+    b.disabled = true;
+    try {
+      const r = await fetch('/api/paiement', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ action: 'abonner', formule: f, renonciation: true, lang: window.BC_LANG }) });
+      const j = await r.json().catch(() => ({}));
+      if (!r.ok || !j.url) { err.textContent = j.error || 'Le paiement n’a pas pu démarrer. Réessaie.'; b.disabled = false; return; }
+      location.href = j.url;
+    } catch { err.textContent = 'Connexion impossible. Réessaie.'; b.disabled = false; }
+  };
+}
+
+async function portailAbonnement() {
+  try {
+    const r = await fetch('/api/paiement', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ action: 'portail' }) });
+    const j = await r.json().catch(() => ({}));
+    if (r.ok && j.url) location.href = j.url; else toast(j.error || 'Impossible d’ouvrir ton espace d’abonnement.', 'err');
+  } catch { toast('Connexion impossible. Réessaie.', 'err'); }
+}
+
+// appelé quand le serveur refuse un appel au prof (limite du mois atteinte)
+function proposerAbonnement(message) {
+  if (!COMPTE.paiement || estPlus()) return;
+  ouvrirModal(`<div class="card-h"><h2>Limite du mois atteinte</h2><button class="icon-btn" data-close aria-label="Fermer">${ico('close')}</button></div>
+    <div class="liste"><p class="muted">${esc(message || '')} Avec BlunderCheck+, le prof commente jusqu’à 100 parties par mois, pour ${PRIX.anMois} par mois.</p>
+    <button class="btn primary" data-abo="an">${ico('send')}Passer à BlunderCheck+</button></div>`);
+}
+
+// ---------- Synchronisation des parties entre appareils ----------
+let SYNC = { minuteur: null, dernier: '', enCours: false, maj: 0 };
+const versSync = g => ({ sig: g.sig, pgn: g.pgn, color: g.color, addedAt: g.addedAt, source: g.source || 'import', prof: g.prof && g.prof.done ? g.prof : null });
+function noterSuppression(g) { const s = lire(K_SUPPR, []); if (g.sig && !s.includes(g.sig)) { s.push(g.sig); ecrire(K_SUPPR, s.slice(-3000)); } }
+function planifierSynchro() {
+  if (!window.BC_WEB || !COMPTE.connecte) return;
+  clearTimeout(SYNC.minuteur);
+  SYNC.minuteur = setTimeout(envoyerParties, 8000);
+}
+async function envoyerParties() {
+  if (!COMPTE.connecte || SYNC.enCours) return;
+  const corps = JSON.stringify({ parties: LIB.map(versSync), supprimees: lire(K_SUPPR, []) });
+  if (corps === SYNC.dernier) return;
+  try {
+    const r = await fetch('/api/parties', { method: 'PUT', headers: { 'content-type': 'application/json' }, body: corps });
+    if (r.ok) { SYNC.dernier = corps; SYNC.maj = Date.now(); if (ROUTE === 'compte') majSyncTxt(); }
+  } catch { }
+}
+async function synchroParties() {
+  if (!COMPTE.connecte || SYNC.enCours) return;
+  SYNC.enCours = true;
+  try {
+    const r = await fetch('/api/parties', { cache: 'no-store' });
+    if (!r.ok) return;
+    const dist = await r.json();
+    const suppr = new Set([...(lire(K_SUPPR, [])), ...((dist.supprimees) || [])]);
+    ecrire(K_SUPPR, [...suppr].slice(-3000));
+    let ajout = 0;
+    for (const d of dist.parties || []) {
+      if (!d || !d.pgn || suppr.has(d.sig)) continue;
+      let g = LIB.find(x => x.sig === d.sig);
+      if (!g) { g = ajouterPartie(d.pgn, d.color, d.source || 'synchro'); if (!g) continue; if (d.addedAt) g.addedAt = d.addedAt; ajout++; }
+      if (d.prof && d.prof.done && !(g.prof && g.prof.done)) { g.prof = d.prof; DERIVES.delete(g.id); }
+    }
+    const avant = LIB.length;
+    LIB = LIB.filter(g => !suppr.has(g.sig));
+    if (ajout || LIB.length !== avant) { LIB.sort((a, b) => (b.addedAt || 0) - (a.addedAt || 0)); sauverLib(); emit('lib'); if (ajout) toast(`${pluriel(ajout, 'partie récupérée', 'parties récupérées')} depuis ton compte.`); }
+    SYNC.maj = Date.now();
+  } catch { } finally { SYNC.enCours = false; }
+  envoyerParties();
+}
+function majSyncTxt() { const el = $('#syncTxt'); if (el) el.textContent = SYNC.maj ? `Synchronisé à ${new Date(SYNC.maj).toLocaleTimeString(window.BC_LANG === 'en' ? 'en-GB' : 'fr-FR', { hour: '2-digit', minute: '2-digit' })}` : 'Synchronisation en attente'; }
+
+// ---------- Page « Mon compte » ----------
+function barreQuota(label, n, max) {
+  const v = Math.min(n, max);
+  return `<div class="quota"><div class="quota-h"><span>${esc(label)}</span><b>${v} / ${max}</b></div><div class="prof-prog" style="height:10px;margin:6px 0 0"><div style="width:${Math.round(v / max * 100)}%"></div></div></div>`;
+}
+function pageCompte(view) {
+  const tete = teteInfo('Mon compte', 'Ton abonnement, ta consommation du prof et la synchronisation de tes parties entre tes appareils.', 'Compte');
+  if (!window.BC_WEB) { view.innerHTML = `${tete}<div class="card" style="max-width:640px;margin-inline:auto"><div class="card-b"><p class="muted">Les comptes sont disponibles sur blundercheck.app.</p></div></div>`; return; }
+  if (!COMPTE.charge) { view.innerHTML = `${tete}<p class="thinking" style="text-align:center">Chargement…</p>`; chargerCompte().then(() => { if (ROUTE === 'compte') pageCompte(view); }); return; }
+  if (!COMPTE.connecte) {
+    view.innerHTML = `${tete}<div class="card" style="max-width:640px;margin-inline:auto"><div class="card-b" style="display:grid;gap:14px">
+      <p class="muted">${COMPTE.connexion ? 'Connecte-toi pour retrouver tes parties sur tous tes appareils et gérer ton abonnement. Sans compte, tout reste dans ce navigateur.' : 'Les comptes ouvrent avec le lancement de BlunderCheck+. En attendant, tes parties restent dans ce navigateur.'}</p>
+      <div>${COMPTE.connexion ? `<button class="btn primary" id="cpLogin">${ico('send')}Se connecter</button>` : boutonListe('compte')}</div>
+      ${COMPTE.quota ? `<div class="panel-sec" style="padding:0;border:0">${barreQuota('Parties commentées ce mois-ci', COMPTE.quota.parties, COMPTE.quota.limites.parties)}${barreQuota('Questions au prof ce mois-ci', COMPTE.quota.questions, COMPTE.quota.limites.questions)}</div>` : ''}
+    </div></div>`;
+    const b = $('#cpLogin'); if (b) b.onclick = () => ouvrirConnexion();
+    return;
+  }
+  const plus = estPlus(), q = COMPTE.quota;
+  const fin = COMPTE.fin ? new Date(COMPTE.fin * 1000).toLocaleDateString(window.BC_LANG === 'en' ? 'en-GB' : 'fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
+  view.innerHTML = `${tete}<div class="grid2" style="max-width:900px;margin-inline:auto;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))">
+    <div class="card"><div class="card-h"><h3>Formule</h3><span class="tag ${plus ? 'tag-ia' : ''}">${plus ? 'BlunderCheck+' : 'Gratuit'}</span></div><div class="card-b" style="display:grid;gap:12px">
+      <p class="muted">${esc(COMPTE.email)}</p>
+      ${plus ? `<p>${fin ? `Prochaine échéance : <b>${esc(fin)}</b>.` : 'Abonnement actif.'}</p>` : `<p class="muted">Le prof commente ${q ? q.limites.parties : 3} parties par mois en gratuit. BlunderCheck+ monte à 100 parties, pour ${PRIX.anMois} par mois.</p>`}
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        ${!plus && COMPTE.paiement ? `<button class="btn primary" data-abo="an">${ico('send')}Passer à BlunderCheck+</button>` : ''}
+        ${COMPTE.abonne ? `<button class="btn" id="cpPortail">${ico('parametres')}Gérer mon abonnement</button>` : ''}
+      </div>
+    </div></div>
+    <div class="card"><div class="card-h"><h3>Ce mois-ci</h3></div><div class="card-b" style="display:grid;gap:12px">
+      ${q ? barreQuota('Parties commentées par le prof', q.parties, q.limites.parties) + barreQuota('Questions au prof', q.questions, q.limites.questions) : '<p class="muted">Pas de limite mensuelle pour le moment.</p>'}
+    </div></div>
+    <div class="card"><div class="card-h"><h3>Mes appareils</h3></div><div class="card-b" style="display:grid;gap:12px">
+      <p class="muted">Tes parties et les commentaires du prof sont synchronisés avec ton compte. Les calculs de Stockfish sont refaits sur chaque appareil.</p>
+      <p class="faint" id="syncTxt" style="font-size:13px"></p>
+      <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn" id="cpSync">${ico('download')}Synchroniser maintenant</button><button class="btn" id="cpOut">Se déconnecter</button></div>
+    </div></div>
+  </div>`;
+  majSyncTxt();
+  const p = $('#cpPortail'); if (p) p.onclick = portailAbonnement;
+  $('#cpSync').onclick = async () => { await synchroParties(); majSyncTxt(); toast('Parties synchronisées.'); };
+  $('#cpOut').onclick = deconnecter;
+}
 
 // ---------- Studio TikTok : vidéos verticales générées à partir de tes parties ----------
 // Tout est dessiné dans un canvas 1080 × 1920, avec musique et bruitages synthétisés, puis enregistré en vidéo.
@@ -10035,7 +10568,7 @@ function apercuFixe() {
 }
 
 // ---------- Routeur, coquille, raccourcis, démarrage ----------
-const PAGES = { accueil: pageAccueil, prof: pageProf, overview: pageOverview, parties: pageParties, import: pageImport, analyse: pageAnalyse, ouvertures: pageOuvertures, stats: pageStats, entrainement: pageEntrainement, parametres: pageParametres, profil: pageProfil, tarifs: pageTarifs, faq: pageFaq, apropos: pageApropos, contact: pageContact, cgu: pageCgu, studio: pageStudio, bilan: pageBilan, rush: pageRush, defi: pageDefi, repertoire: pageRepertoire, confidentialite: pageConfidentialite, mentions: pageMentions };
+const PAGES = { accueil: pageAccueil, prof: pageProf, overview: pageOverview, parties: pageParties, import: pageImport, analyse: pageAnalyse, ouvertures: pageOuvertures, stats: pageStats, entrainement: pageEntrainement, parametres: pageParametres, profil: pageProfil, tarifs: pageTarifs, faq: pageFaq, apropos: pageApropos, contact: pageContact, cgu: pageCgu, studio: pageStudio, bilan: pageBilan, rush: pageRush, defi: pageDefi, repertoire: pageRepertoire, compte: pageCompte, confidentialite: pageConfidentialite, mentions: pageMentions };
 let ROUTE = 'overview';
 
 function aller(r, { push = true } = {}) {
@@ -10064,7 +10597,8 @@ function majProfil() {
 }
 function menuProfil() {
   const m = $('#profMenu'), p = REGLAGES.pseudos.split(',')[0].trim();
-  m.innerHTML = `<div class="who"><b>${esc(p || 'Profil local')}</b><div class="faint" style="font-size:12.5px">${pluriel(LIB.length, 'partie')} · données dans ce navigateur</div></div>
+  m.innerHTML = `<div class="who"><b>${esc(p || 'Profil local')}</b><div class="faint" style="font-size:12.5px">${pluriel(LIB.length, 'partie')} · ${COMPTE.connecte ? esc(COMPTE.email) : 'données dans ce navigateur'}</div></div>
+    ${window.BC_WEB ? `<button role="menuitem" data-route="compte">${ico('profil')}${COMPTE.connecte ? 'Mon compte · ' + (COMPTE.plan === 'plus' ? 'BlunderCheck+' : 'Gratuit') : 'Se connecter'}</button>` : ''}
     <button role="menuitem" data-route="profil">${ico('profil')}Mon profil et mes objectifs</button>
     <button role="menuitem" data-route="parametres">${ico('parametres')}Paramètres et pseudos</button>
     <button role="menuitem" id="mExp">${ico('download')}Exporter mes parties</button>
@@ -10153,10 +10687,13 @@ on('apercu', id => {
 on('moteur', majMoteur);
 on('prof', () => { if (ROUTE === 'prof') pageProf($('#view')); });
 on('lib', majCompteurs);
+on('compte', () => { if (['compte', 'tarifs', 'accueil'].includes(ROUTE)) aller(ROUTE, { push: false }); });
 on('ia', () => { if (ROUTE === 'analyse' && A.vue === 'analyse' && $('#panelBody')) rendrePanneau(); if (ROUTE === 'parametres') aller('parametres', { push: false }); });
 
 // clics globaux
 document.addEventListener('click', e => {
+  const ab = e.target.closest('[data-abo]');
+  if (ab) { abonner(ab.dataset.abo); return; }
   const ls = e.target.closest('[data-liste]');
   if (ls) { ouvrirListe(ls.dataset.liste); return; }
   const sh = e.target.closest('[data-share]');
@@ -10214,11 +10751,13 @@ document.addEventListener('keydown', e => {
   ecrire('coupjuste-vu', true);
   aller(PAGES[h] ? h : premiere ? 'accueil' : 'overview', { push: false });
   initIA();
+  messagesRetour();
+  chargerCompte();
   // reprend les analyses interrompues
   (async () => { for (const g of [...LIB]) if (!estAffinee(g)) await analyserPartie(g); })();
 })();
 
-;(function (o) { for (var k in o) try { if (!(k in window)) window[k] = o[k]; } catch (e) { } })({A,ACCROCHES,ALL_SQ,ANALYSES,AUDIO,BL,BUS,BW,C,CLASSES,COACH,CONCURRENTS,CONTACT,COUL,COUL_CLS,DEFAULT_FEN,DEFI,DERIVES,DL,D_,EN_VERS_FR,EXEMPLE_PGN,FAQ,FEM,FILES,FILTRES_TR,FP,GUIDE,IA,IA_ERR,ICONES,IMP,JSPDF,JSPDF_URL,K_CONSO,K_LISTE,K_OBJ,K_PLAN,K_REP,K_RUSH,K_SERIE,K_SET,LC,LIB,LIGNES_OFFRE,MAJ_LEGAL,MAUVAIS,MOIS,MOTIFS,Moteur,NOM,NOM_PHASE,NOM_TAG_IA,NOTE,NOTE_PAR,OBJ,OPT,OUVERTURES,PAGES,PERIODES,PIEGES,PRIX,PRIX_IA,PROFILS,PROG,PS,REGLAGES,REP_MAX,ROUTE,RP,RS,RUSH_MS,SF_CDN,SITE_URL,ST,STRATEGIES,SW,TR,VAL,VOIX,_PARSE,_chargerPartie,aAffiner,aCommenter,absUrl,accrocheTexte,agregats,ajouterPartie,aller,allerPly,analyserPartie,apercuFixe,appliquerTheme,attackers,attacksFrom,audioStudio,autre,avancerLigne,axesTravail,b64d,b64e,badge,badges,bip,boutonListe,boutonVoix,brancherFiltres,brancherLigne,brancherOptions,brancherOuvertures,bulletin,cadence,cadreBilan,carnetConseils,carteDuJour,carteSVG,casesEnPrise,chances,chargerJsPDF,chargerPartie,chargerScript,chip,clamp,clePartie,colOuv,commenterPartie,commenterTout,compterConso,consoAdmin,contexteQuestion,corpsImport,corpsPseudo,couleurPour,coupJoue,coutConso,creerEchiquier,dateDePgn,debutSemaine,decouperPgn,defierAmi,dejaInscrit,deltaCoup,demarrerRush,deriver,dessinerStudio,docLegal,donneesBilan,echiquierBilan,ecrire,effacerTout,eloParCadence,emit,enFr,enteteRush,esc,essaiDefi,essaiExo,essaiLecon,essaiLigne,essaiRush,estAffinee,estAnalysee,evalEleve,evalFin,evalLegende,exercices,exoDuJour,exosResolus,explicationMoteur,expliquer,expliquerPositionIA,exporterPDF,exporterParties,faitsCoup,fenLigne,fermerModal,fermerTiroir,finDefi,finLecon,finLigne,finRush,flecheCanvas,fmtDate,fmtDateCourt,g_,gainMateriel,genererPlan,graphAvantage,graphProgression,gros,guideHTML,iaCouper,iaDefinitif,iaErreur,ico,imagesBilan,initIA,jouer,jouerStudio,jourCle,lancerLigne,lancerProf,le,libCoup,lienDefi,ligne,ligneCliquable,ligneMoment,lignePartie,ligneTxt,lignesOuverture,lire,lireDefi,lireInfo,lisible,lisibleOral,mail,majBoutonsStudio,majCompteurs,majEchiquier,majExo,majIA,majLecon,majMoteur,majPos,majProfil,majProgression,majTout,marquerExo,materiel,meilleureSerie,melanger,mentions,menuProfil,mesPseudos,momentsLecon,momentsStudio,monterGraph,moyenne,nav,niveau,noterJour,nouvelId,numero,objetsJSON,on,optionsImport,ouvrirAnalyse,ouvrirListe,ouvrirModal,ouvrirTiroir,pageAccueil,pageAnalyse,pageApropos,pageBilan,pageCgu,pageConfidentialite,pageContact,pageDefi,pageEntrainement,pageFaq,pageImport,pageMentions,pageOuvertures,pageOverview,pageParametres,pageParties,pageProf,pageProfil,pageRepertoire,pageRush,pageStats,pageStudio,pageTarifs,parler,partagerCoup,partagerRush,partieParId,partieTxt,partiesChessCom,partiesCompletes,partiesLichess,pct,pdfTxt,periodeOv,phaseDe,piecesStudio,piedDePage,placerTip,plateauCanvas,plateauCorps,plateauSVG,pluriel,pointsForts,posCourante,poserQuestion,pourquoi,precisionCoup,profil,progression,promptProf,puzzleRush,quitterVariante,raccourcis,rafProg,rafraichirLourd,rechercher,rendreCorps,rendreCoups,rendreIA,rendreLecon,rendrePanneau,rendreRapport,rendreVariantes,resumePourPlan,sauverLib,sauverObj,sauverReglages,scenario,serieJours,seriesSansErreur,slotPrincipal,slotWorker,son,sonCoup,sparkline,sqFR,sqName,statutIA,statutLigne,stopVoix,supprimerPartie,svgEnPng,synthIA,syntheseMoteur,tagCoup,telecharger,tendances,terminerRush,teteInfo,texteEval,texteMulti,toast,ton,trouverOuverture,variante,webDownloads,webSample,workerBlob});
+;(function (o) { for (var k in o) try { if (!(k in window)) window[k] = o[k]; } catch (e) { } })({A,ACCROCHES,ALL_SQ,ANALYSES,AUDIO,BL,BUS,BW,C,CLASSES,COACH,COMPTE,CONCURRENTS,CONTACT,COUL,COUL_CLS,DEFAULT_FEN,DEFI,DERIVES,DL,D_,EN_VERS_FR,EXEMPLE_PGN,FAQ,FEM,FILES,FILTRES_TR,FP,GUIDE,IA,IA_ERR,ICONES,IMP,JSPDF,JSPDF_URL,K_CONSO,K_LISTE,K_OBJ,K_PLAN,K_REP,K_RUSH,K_SERIE,K_SET,K_SUPPR,LC,LIB,LIGNES_OFFRE,MAJ_LEGAL,MAUVAIS,MOIS,MOTIFS,Moteur,NOM,NOM_PHASE,NOM_TAG_IA,NOTE,NOTE_PAR,OBJ,OPT,OUVERTURES,PAGES,PERIODES,PIEGES,PRIX,PRIX_IA,PROFILS,PROG,PS,REGLAGES,REP_MAX,RE_COUP,RE_MIEUX,ROUTE,RP,RS,RUSH_MS,SF_CDN,SITE_URL,ST,STRATEGIES,SW,SYNC,TR,VAL,VOIX,_PARSE,_chargerPartie,aAffiner,aCommenter,abonner,absUrl,accrocheTexte,agregats,ajouterPartie,aller,allerPly,analyserPartie,apercuFixe,appliquerTheme,attackers,attacksFrom,audioStudio,autre,avancerLigne,axesTravail,b64d,b64e,badge,badges,barreQuota,bip,boutonListe,boutonVoix,brancherFiltres,brancherLigne,brancherOptions,brancherOuvertures,bulletin,cadence,cadreBilan,carnetConseils,carteDuJour,carteSVG,casesEnPrise,chances,chargerCompte,chargerJsPDF,chargerPartie,chargerScript,chip,clamp,clePartie,colOuv,commenterPartie,commenterTout,compterConso,consoAdmin,contexteQuestion,controleCommentaire,corpsImport,corpsPseudo,couleurPour,coupJoue,coupsAutorises,coupsDans,coutConso,creerEchiquier,dateDePgn,debutSemaine,deconnecter,decouperPgn,defierAmi,dejaInscrit,deltaCoup,demarrerRush,deriver,dessinerStudio,docLegal,donneesBilan,echiquierBilan,ecrire,effacerTout,eloParCadence,emit,enFr,enteteRush,envoyerParties,esc,essaiDefi,essaiExo,essaiLecon,essaiLigne,essaiRush,estAffinee,estAnalysee,estPlus,evalEleve,evalFin,evalLegende,exercices,exoDuJour,exosResolus,explicationMoteur,expliquer,expliquerPositionIA,exporterPDF,exporterParties,faitsCoup,fenLigne,fermerModal,fermerTiroir,finDefi,finLecon,finLigne,finRush,flecheCanvas,fmtDate,fmtDateCourt,g_,gainMateriel,genererPlan,graphAvantage,graphProgression,gros,guideHTML,iaCouper,iaDefinitif,iaErreur,ico,imagesBilan,initIA,jouer,jouerStudio,jourCle,lancerLigne,lancerProf,le,libCoup,lienDefi,ligne,ligneCliquable,ligneMoment,lignePartie,ligneTxt,lignesOuverture,lire,lireDefi,lireInfo,lisible,lisibleOral,mail,majBoutonsStudio,majCompteurs,majEchiquier,majExo,majIA,majLecon,majMoteur,majPos,majProfil,majProgression,majSyncTxt,majTout,marquerExo,materiel,meilleureSerie,melanger,mentions,menuProfil,mesPseudos,messagesRetour,momentsLecon,momentsStudio,monterGraph,moyenne,nav,niveau,noterJour,noterSuppression,nouvelId,numero,objetsJSON,on,optionsImport,ouvrirAnalyse,ouvrirConnexion,ouvrirListe,ouvrirModal,ouvrirTiroir,pageAccueil,pageAnalyse,pageApropos,pageBilan,pageCgu,pageCompte,pageConfidentialite,pageContact,pageDefi,pageEntrainement,pageFaq,pageImport,pageMentions,pageOuvertures,pageOverview,pageParametres,pageParties,pageProf,pageProfil,pageRepertoire,pageRush,pageStats,pageStudio,pageTarifs,parler,partagerCoup,partagerRush,partieParId,partieTxt,partiesChessCom,partiesCompletes,partiesLichess,pct,pdfTxt,periodeOv,phaseDe,piecesStudio,piedDePage,placerTip,planifierSynchro,plateauCanvas,plateauCorps,plateauSVG,pluriel,pointsForts,portailAbonnement,posCourante,poserQuestion,pourquoi,precisionCoup,profil,progression,promptProf,proposerAbonnement,puzzleRush,quitterVariante,raccourcis,rafProg,rafraichirLourd,rechercher,rendreCorps,rendreCoups,rendreIA,rendreLecon,rendrePanneau,rendreRapport,rendreVariantes,resumePourPlan,sauverLib,sauverObj,sauverReglages,scenario,serieJours,seriesSansErreur,slotPrincipal,slotWorker,son,sonCoup,sparkline,sqFR,sqName,statutIA,statutLigne,stopVoix,supprimerPartie,svgEnPng,synchroParties,synthIA,syntheseMoteur,tagCoup,telecharger,tendances,terminerRush,teteInfo,texteEval,texteMulti,toast,ton,trouverOuverture,variante,versSync,webDownloads,webSample,workerBlob});
 
 })();
 document.querySelectorAll('[data-lang]').forEach(function (b) { b.classList.toggle('on', b.dataset.lang === window.BC_LANG); });

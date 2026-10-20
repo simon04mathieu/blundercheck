@@ -7,6 +7,8 @@ const LIMITE_JOUR = 60;          // appels au prof par visiteur et par jour
 const MAX_CARACTERES = 60000;    // taille maximale d'une demande
 const MAX_TOKENS = 8192;
 
+import { quotasActifs, lireSession, lireCompte, formule, lireQuota, ecrireQuota, LIMITES, APPELS_PAR_PARTIE } from '../../lib/compte.js';
+
 const json = (status, obj) => new Response(JSON.stringify(obj), { status, headers: { 'content-type': 'application/json; charset=utf-8' } });
 
 export async function onRequestPost({ request, env }) {
@@ -32,6 +34,26 @@ export async function onRequestPost({ request, env }) {
     const n = parseInt(await env.QUOTA.get(cle) || '0', 10);
     if (n >= LIMITE_JOUR) return json(429, { error: "Tu as atteint la limite du prof pour aujourd'hui. Reviens demain !" });
     await env.QUOTA.put(cle, String(n + 1), { expirationTtl: 60 * 60 * 26 });
+  }
+
+  // Quotas par formule (gratuit / BlunderCheck+), par mois, une fois le paiement ouvert
+  if (quotasActifs(env)) {
+    const email = await lireSession(request, env);
+    const plan = formule(email ? await lireCompte(env, email) : null), lim = LIMITES[plan];
+    const qui = email || 'ip:' + (request.headers.get('CF-Connecting-IP') || 'inconnu');
+    const q = await lireQuota(env, qui);
+    const partie = (request.headers.get('x-bc-partie') || '').replace(/[^A-Za-z0-9_-]/g, '').slice(0, 40);
+    const plus = plan === 'plus';
+    if (partie) {
+      const deja = q.parties[partie] || 0;
+      if (!deja && Object.keys(q.parties).length >= lim.parties) return json(402, { error: plus ? `Tu as atteint les ${lim.parties} parties commentées de ce mois-ci.` : `Tu as utilisé tes ${lim.parties} parties commentées gratuites de ce mois-ci.`, limite: 'parties', plan });
+      if (deja >= APPELS_PAR_PARTIE) return json(402, { error: 'Cette partie a déjà été commentée plusieurs fois ce mois-ci.', limite: 'partie', plan });
+      q.parties[partie] = deja + 1;
+    } else {
+      if (q.questions >= lim.questions) return json(402, { error: plus ? `Tu as atteint les ${lim.questions} questions de ce mois-ci.` : `Tu as utilisé tes ${lim.questions} questions gratuites de ce mois-ci.`, limite: 'questions', plan });
+      q.questions++;
+    }
+    await ecrireQuota(env, qui, q);
   }
 
   const r = await fetch('https://api.anthropic.com/v1/messages', {
