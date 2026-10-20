@@ -2338,14 +2338,18 @@ async function commenterPartie(g, { silencieux = false } = {}) {
   try {
     const tous = aCommenter(D), lots = [];
     for (let k = 0; k < tous.length; k += TAILLE) lots.push(tous.slice(k, k + TAILLE));
-    // deux morceaux à la fois pour aller plus vite, le dernier demande aussi la synthèse
-    let suivant = 0;
-    const ouvrier = async () => { while (suivant < lots.length) { const k = suivant++; dernier = await morceau(lots[k], k === lots.length - 1) || dernier; } };
-    await Promise.all([ouvrier(), ouvrier()]);
-    // rattrapage des coups oubliés (deux essais au plus)
+    // tous les morceaux partent en même temps (5 au plus) ; le dernier demande aussi la synthèse
+    const enParallele = async (ls, synth) => {
+      let suivant = 0;
+      const ouvrier = async () => { while (suivant < ls.length) { const k = suivant++; dernier = await morceau(ls[k], synth && k === ls.length - 1) || dernier; } };
+      await Promise.all(Array.from({ length: Math.min(5, ls.length) }, ouvrier));
+    };
+    await enParallele(lots, true);
+    // rattrapage des coups oubliés (deux essais au plus), lui aussi en parallèle
     for (let essai = 0; essai < 2 && manque().length; essai++) {
-      const m = manque();
-      for (let k = 0; k < m.length; k += TAILLE) await morceau(m.slice(k, k + TAILLE), false);
+      const m = manque(), ls = [];
+      for (let k = 0; k < m.length; k += TAILLE) ls.push(m.slice(k, k + TAILLE));
+      await enParallele(ls, false);
     }
     if (!pr.resume && Object.keys(pr.comments).length) await morceau(tous.slice(-3), true).catch(() => {});
     if (!Object.keys(pr.comments).length) {
@@ -6914,14 +6918,18 @@ async function commenterPartie(g, { silencieux = false } = {}) {
   try {
     const tous = aCommenter(D), lots = [];
     for (let k = 0; k < tous.length; k += TAILLE) lots.push(tous.slice(k, k + TAILLE));
-    // deux morceaux à la fois pour aller plus vite, le dernier demande aussi la synthèse
-    let suivant = 0;
-    const ouvrier = async () => { while (suivant < lots.length) { const k = suivant++; dernier = await morceau(lots[k], k === lots.length - 1) || dernier; } };
-    await Promise.all([ouvrier(), ouvrier()]);
-    // rattrapage des coups oubliés (deux essais au plus)
+    // tous les morceaux partent en même temps (5 au plus) ; le dernier demande aussi la synthèse
+    const enParallele = async (ls, synth) => {
+      let suivant = 0;
+      const ouvrier = async () => { while (suivant < ls.length) { const k = suivant++; dernier = await morceau(ls[k], synth && k === ls.length - 1) || dernier; } };
+      await Promise.all(Array.from({ length: Math.min(5, ls.length) }, ouvrier));
+    };
+    await enParallele(lots, true);
+    // rattrapage des coups oubliés (deux essais au plus), lui aussi en parallèle
     for (let essai = 0; essai < 2 && manque().length; essai++) {
-      const m = manque();
-      for (let k = 0; k < m.length; k += TAILLE) await morceau(m.slice(k, k + TAILLE), false);
+      const m = manque(), ls = [];
+      for (let k = 0; k < m.length; k += TAILLE) ls.push(m.slice(k, k + TAILLE));
+      await enParallele(ls, false);
     }
     if (!pr.resume && Object.keys(pr.comments).length) await morceau(tous.slice(-3), true).catch(() => {});
     if (!Object.keys(pr.comments).length) {
