@@ -821,6 +821,10 @@ a.btn { text-decoration: none; }
 .studio-sw .switch { margin-left: 6px; }
 @media (max-width: 900px) { .studio-grid { grid-template-columns: 1fr; } .studio-prev canvas { height: auto; width: min(100%, 380px); } }
 
+.prof-prog{position:relative;height:22px;border-radius:11px;background:var(--side);border:1px solid rgba(201,164,92,.25);overflow:hidden;margin:4px 0 10px}
+.prof-prog>div{height:100%;background:linear-gradient(90deg,#4F7363,#C9A45C);transition:width .4s ease}
+.prof-prog>span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600;color:#EDE7D8;font-variant-numeric:tabular-nums}
+
 </style>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
     
@@ -2277,13 +2281,16 @@ const aCommenter = D => D.P.moves.map((m, i) => i).filter(i => D.P.moves[i].colo
 const partieTxt = D => D.P.moves.map((mv, i) => (mv.color === 'w' || i === 0 ? `${numero(D.P.fens[i])} ` : '') + enFr(mv.san)).join(' ');
 const niveau = D => D.elo(D.me) ? `about ${D.elo(D.me)} Elo` : 'beginner to intermediate';
 
-function promptProf(g, D) {
+function promptProf(g, D, idx = aCommenter(D), synthese = true) {
   const h = D.h;
-  return `You are a kind, clear and concrete chess coach. Your student (level ${niveau(D)}) played ${D.me === 'w' ? 'White' : 'Black'}. You comment on their game move by move, in English, addressing them directly, with simple words.\n\nRules:\n- Rely ONLY on the Stockfish engine data below (evaluations, best moves, lines, facts). Never invent a move, a line, a threat or a piece position that isn't there. If the data isn't enough, stick to general principles.\n- Evaluations are from the student's point of view: positive = the student is better, +1 ≈ one pawn up, #3 = the student mates in 3, #-3 = they get mated in 3.\n- Explain the idea behind the moves (threat, hanging piece, development, king safety, piece activity, endgame…), not only the numbers.\n- Student move classified "meilleur coup", "excellent coup" or "bon coup" (best, excellent or good): 1 or 2 sentences on the idea of the move.\n- Student inaccuracy, mistake or blunder: 2 to 4 sentences (what goes wrong, what they should have played and why).\n- Opponent mistake: explain how the student could take advantage of it and whether they did.\n- EVERY move in the list gets a "conseil" (tip), without exception. The tip is ONE sentence in the imperative, concrete and usable from the next game:\n  · it starts from THIS position (name the piece, the square or the pattern when useful) and draws a general rule from it;\n  · after a good move, it says which reflex to keep and when to reuse it; after a mistake, which check to do before moving;\n  · forbidden: vague tips ("be careful", "think harder", "play better") and the same tip twice in the game.\n- Add a "theme" among: "tactics", "hanging piece", "king safety", "development", "center", "pawn structure", "piece activity", "endgame", "calculation", "converting an advantage".\n- If the same pattern comes back several times (the same missed move, the same forgotten piece…), say it clearly.\n- Write the moves exactly as in the data.\n\nAnswer format: only JSON lines, one object per line, with no text around and no code block.\nFor each move in the list, in order:\n{"ply": 12, "commentaire": "…", "conseil": "…", "theme": "…"}\nThen one last line:\n{"resume": "2 or 3 sentences about the game", "lecons": ["lesson 1", "lesson 2", "lesson 3"]}\nThe 3 lessons are the 3 most useful habits for THIS student, based on the mistakes that come back in the game.\n\nGame: ${partieTxt(D)}
+  return `You are a kind, clear and concrete chess coach. Your student (level ${niveau(D)}) played ${D.me === 'w' ? 'White' : 'Black'}. You comment on their game move by move, in English, addressing them directly, with simple words.\n\nRules:\n- Rely ONLY on the Stockfish engine data below (evaluations, best moves, lines, facts). Never invent a move, a line, a threat or a piece position that isn't there. If the data isn't enough, stick to general principles.\n- Evaluations are from the student's point of view: positive = the student is better, +1 ≈ one pawn up, #3 = the student mates in 3, #-3 = they get mated in 3.\n- Explain the idea behind the moves (threat, hanging piece, development, king safety, piece activity, endgame…), not only the numbers.\n- Student move classified "meilleur coup", "excellent coup" or "bon coup" (best, excellent or good): 1 or 2 sentences on the idea of the move.\n- Student inaccuracy, mistake or blunder: 2 to 4 sentences (what goes wrong, what they should have played and why).\n- Opponent mistake: explain how the student could take advantage of it and whether they did.\n- EVERY move in the list gets a "conseil" (tip), without exception. The tip is ONE sentence in the imperative, concrete and usable from the next game:\n  · it starts from THIS position (name the piece, the square or the pattern when useful) and draws a general rule from it;\n  · after a good move, it says which reflex to keep and when to reuse it; after a mistake, which check to do before moving;\n  · forbidden: vague tips ("be careful", "think harder", "play better") and the same tip twice in the game.\n- Add a "theme" among: "tactics", "hanging piece", "king safety", "development", "center", "pawn structure", "piece activity", "endgame", "calculation", "converting an advantage".\n- If the same pattern comes back several times (the same missed move, the same forgotten piece…), say it clearly.\n- Write the moves exactly as in the data.\n\nAnswer format: only JSON lines, one object per line, with no text around and no code block.\nFor each move in the list, in order:\n{"ply": 12, "commentaire": "…", "conseil": "…", "theme": "…"}
+${synthese ? `Then one last line:\n{"resume": "2 or 3 sentences about the game", "lecons": ["lesson 1", "lesson 2", "lesson 3"]}\nThe 3 lessons are the 3 most useful habits for THIS student, based on the mistakes that come back in the game.` : `Comment ONLY on the ${idx.length} moves in the list below (the game is commented in chunks), one object per move, without skipping any, and nothing else.`}
+
+Partie : ${partieTxt(D)}
 Result: ${h.Result || '?'}${h.Termination ? ' (' + h.Termination + ')' : ''}
 
 Moves to comment (one JSON object per line):
-${aCommenter(D).map(i => JSON.stringify(faitsCoup(g, D, i))).join('\n')}`;
+${idx.map(i => JSON.stringify(faitsCoup(g, D, i))).join('\n')}`;
 }
 
 // Commente une partie (celle affichée, ou n'importe laquelle pour le commentaire en lot)
@@ -2308,7 +2315,6 @@ async function commenterPartie(g, { silencieux = false } = {}) {
   IA.cour = g.id;
   const pr = g.prof;
   majIA(g.id);
-  let pending = '';
   const lireLigne = l => {
     l = l.trim().replace(/^```(json)?/, '').replace(/```$/, '').trim().replace(/,$/, '');
     if (!l.startsWith('{')) return;
@@ -2317,15 +2323,33 @@ async function commenterPartie(g, { silencieux = false } = {}) {
     else if (o.resume || o.lecons) { pr.resume = String(o.resume || ''); pr.lecons = Array.isArray(o.lecons) ? o.lecons.map(String).slice(0, 5) : []; }
     majIA(g.id);
   };
-  let ok = false, tout = '';
-  try {
-    await IA.fn(promptProf(g, D), { signal: IA.ctl.signal, maxTokens: 8192, onText: ({ delta }) => { tout += delta; const ls = (pending + delta).split('\n'); pending = ls.pop(); ls.forEach(lireLigne); } });
+  // Un appel par morceau de partie : le prof ne s'arrête plus en route
+  const morceau = async (idx, synthese) => {
+    let pending = '', tout = '';
+    await IA.fn(promptProf(g, D, idx, synthese), { signal: IA.ctl.signal, maxTokens: 8192, onText: ({ delta }) => { tout += delta; const ls = (pending + delta).split('\n'); pending = ls.pop(); ls.forEach(lireLigne); } });
     lireLigne(pending);
-    // filet de sécurité : objets JSON écrits sur plusieurs lignes ou collés les uns aux autres
     objetsJSON(tout).forEach(o => { if (!(o.ply && pr.comments[o.ply])) lireLigne(JSON.stringify(o)); });
+    return tout;
+  };
+  const manque = () => aCommenter(D).filter(i => !pr.comments[i + 1]);
+  const TAILLE = 8;
+  let ok = false, dernier = '';
+  try {
+    const tous = aCommenter(D), lots = [];
+    for (let k = 0; k < tous.length; k += TAILLE) lots.push(tous.slice(k, k + TAILLE));
+    // deux morceaux à la fois pour aller plus vite, le dernier demande aussi la synthèse
+    let suivant = 0;
+    const ouvrier = async () => { while (suivant < lots.length) { const k = suivant++; dernier = await morceau(lots[k], k === lots.length - 1) || dernier; } };
+    await Promise.all([ouvrier(), ouvrier()]);
+    // rattrapage des coups oubliés (deux essais au plus)
+    for (let essai = 0; essai < 2 && manque().length; essai++) {
+      const m = manque();
+      for (let k = 0; k < m.length; k += TAILLE) await morceau(m.slice(k, k + TAILLE), false);
+    }
+    if (!pr.resume && Object.keys(pr.comments).length) await morceau(tous.slice(-3), true).catch(() => {});
     if (!Object.keys(pr.comments).length) {
-      console.warn('Réponse du prof illisible :', tout.slice(0, 2000));
-      throw { code: 'format', message: tout.trim() ? "The coach answered in an unexpected format. Try again." : "The coach didn't answer. Try again in a moment." };
+      console.warn('Unreadable coach reply:', dernier.slice(0, 2000));
+      throw { code: 'format', message: dernier.trim() ? "The coach answered in an unexpected format. Try again." : "The coach didn't answer. Try again in a moment." };
     }
     pr.done = true; ok = true;
     if (!silencieux) toast('The coach commented on your game.');
@@ -2367,13 +2391,13 @@ function majIA(id) {
 }
 
 function statutIA(g, D) {
-  const pr = g.prof, n = pr ? Object.keys(pr.comments).length : 0;
+  const pr = g.prof, n = pr ? Math.min(Object.keys(pr.comments).length, pr.total || 1e9) : 0;
   if (!IA.dispo && !n) return { txt: "AI comments work on claude.ai, with your Claude account signed in.", btn: false };
   if (!D.affine) return { txt: 'The coach can comment on this game as soon as Stockfish finishes refining the key moments.', btn: true, dis: true };
   if (IA.ctl && IA.cour !== g.id) return { txt: IA.lot ? `The coach comments on your games one by one (${IA.lot.fait + 1} / ${IA.lot.total}). This one will come in turn.` : 'The coach is commenting on another game. Try again in a moment.', btn: false };
-  if (IA.ctl) return { txt: n ? `The coach is commenting on your game… ${n} / ${pr.total} moves` : 'The coach is reading your game… the first comments usually arrive in less than a minute.', stop: true };
+  if (IA.ctl) return { prog: pr ? [n, pr.total] : null, txt: n ? `The coach is commenting on your game… ${n} / ${pr.total} moves` : 'The coach is reading your game… the first comments usually arrive in less than a minute.', stop: true };
   if (pr && pr.erreur) return { txt: pr.erreur, btn: IA.dispo, relance: true };
-  if (pr && pr.done) return { txt: `${pluriel(n, 'move commented', 'moves commented')}. Go through the game to read each explanation.`, btn: IA.dispo, relance: true };
+  if (pr && pr.done) return { prog: [n, pr.total], txt: `${n} / ${pr.total} moves commented. Step through the game to read each explanation.`, btn: IA.dispo, relance: true };
   if (n) return { txt: `Comments stopped after ${pluriel(n, 'move')}.`, btn: IA.dispo, relance: true };
   return { txt: 'The coach explains each of your moves using Stockfish\'s calculations, then gives you the lessons to remember.', btn: true };
 }
@@ -2381,6 +2405,7 @@ function statutIA(g, D) {
 function rendreIA(el) {
   const g = g_(), D = D_(), st = statutIA(g, D), pr = g.prof;
   let h = `<div class="panel-sec"><h3>${ico('ia')}Your coach <span class="tag tag-ia" style="margin-left:auto">AI · Claude</span></h3><p class="muted" style="font-size:13px">${esc(st.txt)}</p>`;
+  if (st.prog && st.prog[1]) { const [x, t] = st.prog, v = Math.min(x, t); h += `<div class="prof-prog" role="progressbar" aria-valuemin="0" aria-valuemax="${t}" aria-valuenow="${v}"><div style="width:${Math.round(v / t * 100)}%"></div><span>${v}/${t}</span></div>`; }
   if (st.btn || st.stop) h += `<div style="display:flex;gap:8px">${st.btn ? `<button class="btn sm ia" id="iaGo" ${st.dis ? 'disabled' : ''}>${ico('ia')}${st.relance ? 'Restart the coach' : 'Start the coach'}</button>` : ''}${st.stop ? `<button class="btn sm" id="iaStop">${ico('stop')}Stop</button>` : ''}</div>`;
   h += '</div>';
   // commentaire du coup affiché
@@ -6809,7 +6834,7 @@ const aCommenter = D => D.P.moves.map((m, i) => i).filter(i => D.P.moves[i].colo
 const partieTxt = D => D.P.moves.map((mv, i) => (mv.color === 'w' || i === 0 ? `${numero(D.P.fens[i])} ` : '') + enFr(mv.san)).join(' ');
 const niveau = D => D.elo(D.me) ? `environ ${D.elo(D.me)} Elo` : 'débutant à intermédiaire';
 
-function promptProf(g, D) {
+function promptProf(g, D, idx = aCommenter(D), synthese = true) {
   const h = D.h;
   return `Tu es un professeur d'échecs bienveillant, clair et concret. Ton élève (niveau ${niveau(D)}) avait les ${D.me === 'w' ? 'Blancs' : 'Noirs'}. Tu commentes sa partie coup par coup, en français, en le tutoyant, avec des mots simples.
 
@@ -6831,15 +6856,15 @@ Règles :
 Format de la réponse : uniquement des lignes JSON, un objet par ligne, sans texte autour et sans bloc de code.
 Pour chaque coup de la liste, dans l'ordre :
 {"ply": 12, "commentaire": "…", "conseil": "…", "theme": "…"}
-Puis une dernière ligne :
+${synthese ? `Puis une dernière ligne :
 {"resume": "2 ou 3 phrases sur la partie", "lecons": ["leçon 1", "leçon 2", "leçon 3"]}
-Les 3 leçons sont les 3 habitudes les plus utiles pour CET élève, d'après les erreurs qui reviennent dans la partie.
+Les 3 leçons sont les 3 habitudes les plus utiles pour CET élève, d'après les erreurs qui reviennent dans la partie.` : `Ne commente QUE les ${idx.length} coups de la liste ci-dessous (la partie est commentée par morceaux), un objet par coup, sans en sauter aucun, et rien d'autre.`}
 
 Partie : ${partieTxt(D)}
 Résultat : ${h.Result || '?'}${h.Termination ? ' (' + h.Termination + ')' : ''}
 
 Coups à commenter (un objet JSON par ligne) :
-${aCommenter(D).map(i => JSON.stringify(faitsCoup(g, D, i))).join('\n')}`;
+${idx.map(i => JSON.stringify(faitsCoup(g, D, i))).join('\n')}`;
 }
 
 // Commente une partie (celle affichée, ou n'importe laquelle pour le commentaire en lot)
@@ -6864,7 +6889,6 @@ async function commenterPartie(g, { silencieux = false } = {}) {
   IA.cour = g.id;
   const pr = g.prof;
   majIA(g.id);
-  let pending = '';
   const lireLigne = l => {
     l = l.trim().replace(/^```(json)?/, '').replace(/```$/, '').trim().replace(/,$/, '');
     if (!l.startsWith('{')) return;
@@ -6873,15 +6897,33 @@ async function commenterPartie(g, { silencieux = false } = {}) {
     else if (o.resume || o.lecons) { pr.resume = String(o.resume || ''); pr.lecons = Array.isArray(o.lecons) ? o.lecons.map(String).slice(0, 5) : []; }
     majIA(g.id);
   };
-  let ok = false, tout = '';
-  try {
-    await IA.fn(promptProf(g, D), { signal: IA.ctl.signal, maxTokens: 8192, onText: ({ delta }) => { tout += delta; const ls = (pending + delta).split('\n'); pending = ls.pop(); ls.forEach(lireLigne); } });
+  // Un appel par morceau de partie : le prof ne s'arrête plus en route
+  const morceau = async (idx, synthese) => {
+    let pending = '', tout = '';
+    await IA.fn(promptProf(g, D, idx, synthese), { signal: IA.ctl.signal, maxTokens: 8192, onText: ({ delta }) => { tout += delta; const ls = (pending + delta).split('\n'); pending = ls.pop(); ls.forEach(lireLigne); } });
     lireLigne(pending);
-    // filet de sécurité : objets JSON écrits sur plusieurs lignes ou collés les uns aux autres
     objetsJSON(tout).forEach(o => { if (!(o.ply && pr.comments[o.ply])) lireLigne(JSON.stringify(o)); });
+    return tout;
+  };
+  const manque = () => aCommenter(D).filter(i => !pr.comments[i + 1]);
+  const TAILLE = 8;
+  let ok = false, dernier = '';
+  try {
+    const tous = aCommenter(D), lots = [];
+    for (let k = 0; k < tous.length; k += TAILLE) lots.push(tous.slice(k, k + TAILLE));
+    // deux morceaux à la fois pour aller plus vite, le dernier demande aussi la synthèse
+    let suivant = 0;
+    const ouvrier = async () => { while (suivant < lots.length) { const k = suivant++; dernier = await morceau(lots[k], k === lots.length - 1) || dernier; } };
+    await Promise.all([ouvrier(), ouvrier()]);
+    // rattrapage des coups oubliés (deux essais au plus)
+    for (let essai = 0; essai < 2 && manque().length; essai++) {
+      const m = manque();
+      for (let k = 0; k < m.length; k += TAILLE) await morceau(m.slice(k, k + TAILLE), false);
+    }
+    if (!pr.resume && Object.keys(pr.comments).length) await morceau(tous.slice(-3), true).catch(() => {});
     if (!Object.keys(pr.comments).length) {
-      console.warn('Réponse du prof illisible :', tout.slice(0, 2000));
-      throw { code: 'format', message: tout.trim() ? "Le prof a répondu dans un format inattendu. Réessaie." : "Le prof n'a rien répondu. Réessaie dans un instant." };
+      console.warn('Réponse du prof illisible :', dernier.slice(0, 2000));
+      throw { code: 'format', message: dernier.trim() ? "Le prof a répondu dans un format inattendu. Réessaie." : "Le prof n'a rien répondu. Réessaie dans un instant." };
     }
     pr.done = true; ok = true;
     if (!silencieux) toast('Le prof a commenté ta partie.');
@@ -6923,13 +6965,13 @@ function majIA(id) {
 }
 
 function statutIA(g, D) {
-  const pr = g.prof, n = pr ? Object.keys(pr.comments).length : 0;
+  const pr = g.prof, n = pr ? Math.min(Object.keys(pr.comments).length, pr.total || 1e9) : 0;
   if (!IA.dispo && !n) return { txt: "Les commentaires IA fonctionnent sur claude.ai, avec ton compte Claude connecté.", btn: false };
   if (!D.affine) return { txt: 'Le prof pourra commenter la partie dès que Stockfish aura fini d’affiner les moments clés.', btn: true, dis: true };
   if (IA.ctl && IA.cour !== g.id) return { txt: IA.lot ? `Le prof commente tes parties une par une (${IA.lot.fait + 1} / ${IA.lot.total}). Celle-ci viendra à son tour.` : 'Le prof commente une autre partie. Réessaie dans un instant.', btn: false };
-  if (IA.ctl) return { txt: n ? `Le prof commente ta partie… ${n} / ${pr.total} coups` : 'Le prof lit ta partie… les premiers commentaires arrivent en général en moins d’une minute.', stop: true };
+  if (IA.ctl) return { prog: pr ? [n, pr.total] : null, txt: n ? `Le prof commente ta partie… ${n} / ${pr.total} coups` : 'Le prof lit ta partie… les premiers commentaires arrivent en général en moins d’une minute.', stop: true };
   if (pr && pr.erreur) return { txt: pr.erreur, btn: IA.dispo, relance: true };
-  if (pr && pr.done) return { txt: `${pluriel(n, 'coup commenté', 'coups commentés')}. Parcours la partie pour lire chaque explication.`, btn: IA.dispo, relance: true };
+  if (pr && pr.done) return { prog: [n, pr.total], txt: `${n} / ${pr.total} coups commentés. Parcours la partie pour lire chaque explication.`, btn: IA.dispo, relance: true };
   if (n) return { txt: `Commentaire arrêté après ${pluriel(n, 'coup')}.`, btn: IA.dispo, relance: true };
   return { txt: 'Le prof explique chacun de tes coups en s’appuyant sur les calculs de Stockfish, puis te donne les leçons à retenir.', btn: true };
 }
@@ -6937,6 +6979,7 @@ function statutIA(g, D) {
 function rendreIA(el) {
   const g = g_(), D = D_(), st = statutIA(g, D), pr = g.prof;
   let h = `<div class="panel-sec"><h3>${ico('ia')}Ton prof <span class="tag tag-ia" style="margin-left:auto">IA · Claude</span></h3><p class="muted" style="font-size:13px">${esc(st.txt)}</p>`;
+  if (st.prog && st.prog[1]) { const [x, t] = st.prog, v = Math.min(x, t); h += `<div class="prof-prog" role="progressbar" aria-valuemin="0" aria-valuemax="${t}" aria-valuenow="${v}"><div style="width:${Math.round(v / t * 100)}%"></div><span>${v}/${t}</span></div>`; }
   if (st.btn || st.stop) h += `<div style="display:flex;gap:8px">${st.btn ? `<button class="btn sm ia" id="iaGo" ${st.dis ? 'disabled' : ''}>${ico('ia')}${st.relance ? 'Relancer le prof' : 'Lancer le prof'}</button>` : ''}${st.stop ? `<button class="btn sm" id="iaStop">${ico('stop')}Arrêter</button>` : ''}</div>`;
   h += '</div>';
   // commentaire du coup affiché

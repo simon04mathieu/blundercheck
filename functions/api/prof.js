@@ -3,7 +3,7 @@
 // sans jamais l'exposer au navigateur.
 // Garde-fous : origine vérifiée, taille limitée, quota par visiteur et par jour (si le KV "QUOTA" est relié).
 
-const LIMITE_JOUR = 40;          // appels au prof par visiteur et par jour
+const LIMITE_JOUR = 150;         // appels au prof par visiteur et par jour
 const MAX_CARACTERES = 60000;    // taille maximale d'une demande
 const MAX_TOKENS = 8192;
 
