@@ -2283,7 +2283,7 @@ const niveau = D => D.elo(D.me) ? `about ${D.elo(D.me)} Elo` : 'beginner to inte
 
 function promptProf(g, D, idx = aCommenter(D), synthese = true) {
   const h = D.h;
-  return `You are a kind, clear and concrete chess coach. Your student (level ${niveau(D)}) played ${D.me === 'w' ? 'White' : 'Black'}. You comment on their game move by move, in English, addressing them directly, with simple words.\n\nRules:\n- Rely ONLY on the Stockfish engine data below (evaluations, best moves, lines, facts). Never invent a move, a line, a threat or a piece position that isn't there. If the data isn't enough, stick to general principles.\n- Evaluations are from the student's point of view: positive = the student is better, +1 ≈ one pawn up, #3 = the student mates in 3, #-3 = they get mated in 3.\n- Explain the idea behind the moves (threat, hanging piece, development, king safety, piece activity, endgame…), not only the numbers.\n- Student move classified "meilleur coup", "excellent coup" or "bon coup" (best, excellent or good): ONE short sentence (20 words max) on the idea of the move.\n- Student inaccuracy, mistake or blunder: 2 or 3 short sentences (50 words max): what goes wrong, what they should have played and why.\n- Opponent mistake: 1 or 2 sentences on how the student could take advantage of it and whether they did.\n- EVERY move in the list gets a "conseil" (tip), without exception. The tip is ONE sentence in the imperative (15 words max), concrete and usable from the next game:\n  · it starts from THIS position (name the piece, the square or the pattern when useful) and draws a general rule from it;\n  · after a good move, it says which reflex to keep and when to reuse it; after a mistake, which check to do before moving;\n  · forbidden: vague tips ("be careful", "think harder", "play better") and the same tip twice in the game.\n- Add a "theme" among: "tactics", "hanging piece", "king safety", "development", "center", "pawn structure", "piece activity", "endgame", "calculation", "converting an advantage".\n- If the same pattern comes back several times (the same missed move, the same forgotten piece…), say it clearly.\n- Write the moves exactly as in the data.\n- Be brief and dense: don't copy the numeric evaluations, no introduction or pleasantries.\n\nAnswer format: only JSON lines, one object per line, with no text around and no code block.\nFor each move in the list, in order:\n{"p": 12, "c": "comment", "k": "tip", "t": "theme"}
+  return `You are a kind, clear and concrete chess coach. Your student (level ${niveau(D)}) played ${D.me === 'w' ? 'White' : 'Black'}. You comment on their game move by move, in English, addressing them directly, with simple words.\n\nRules:\n- Rely ONLY on the Stockfish engine data below (evaluations, best moves, lines, facts). Never invent a move, a line, a threat or a piece position that isn't there. If the data isn't enough, stick to general principles.\n- Evaluations are from the student's point of view: positive = the student is better, +1 ≈ one pawn up, #3 = the student mates in 3, #-3 = they get mated in 3.\n- Explain the idea behind the moves (threat, hanging piece, development, king safety, piece activity, endgame…), not only the numbers.\n- Student move classified "meilleur coup", "excellent coup" or "bon coup" (best, excellent or good): ONE very short sentence (12 words max) on the idea of the move, with no tip (no "k").\n- Student inaccuracy, mistake or blunder: 2 short sentences (40 words max): what goes wrong, what they should have played and why.\n- Opponent mistake: 1 or 2 sentences on how the student could take advantage of it and whether they did.\n- Every inaccuracy, mistake, blunder or opponent mistake gets a tip "k". The tip is ONE sentence in the imperative (12 words max), concrete and usable from the next game:\n  · it starts from THIS position (name the piece, the square or the pattern when useful) and draws a general rule from it;\n  · it says which check to do before moving;\n  · forbidden: vague tips ("be careful", "think harder", "play better") and the same tip twice in the game.\n- Add a "theme" among: "tactics", "hanging piece", "king safety", "development", "center", "pawn structure", "piece activity", "endgame", "calculation", "converting an advantage".\n- If the same pattern comes back several times (the same missed move, the same forgotten piece…), say it clearly.\n- Write the moves exactly as in the data.\n- Be brief and dense: don't copy the numeric evaluations, no introduction or pleasantries.\n\nAnswer format: only JSON lines, one object per line, with no text around and no code block.\nFor each move in the list, in order:\n{"p": 12, "c": "comment", "k": "tip", "t": "theme"}
 ${synthese ? `Then one last line:\n{"resume": "2 or 3 sentences about the game", "lecons": ["lesson 1", "lesson 2", "lesson 3"]}\nThe 3 lessons are the 3 most useful habits for THIS student, based on the mistakes that come back in the game.` : `Comment ONLY on the ${idx.length} moves in the list below (the game is commented in chunks), one object per move, without skipping any, and nothing else.`}
 
 Partie : ${partieTxt(D)}
@@ -2333,8 +2333,9 @@ async function commenterPartie(g, { silencieux = false } = {}) {
     return tout;
   };
   const manque = () => aCommenter(D).filter(i => !pr.comments[i + 1]);
-  const TAILLE = 14;
+  const TAILLE = 18;
   let ok = false, dernier = '';
+  const avant = window.coutConso ? coutConso() : 0;
   try {
     const tous = aCommenter(D), lots = [];
     for (let k = 0; k < tous.length; k += TAILLE) lots.push(tous.slice(k, k + TAILLE));
@@ -2357,6 +2358,7 @@ async function commenterPartie(g, { silencieux = false } = {}) {
       throw { code: 'format', message: dernier.trim() ? "The coach answered in an unexpected format. Try again." : "The coach didn't answer. Try again in a moment." };
     }
     pr.done = true; ok = true;
+    if (window.coutConso) pr.cout = coutConso() - avant;
     if (!silencieux) toast('The coach commented on your game.');
   } catch (e) {
     if (e && e.code !== 'cancelled') pr.erreur = iaErreur(e);
@@ -2402,7 +2404,7 @@ function statutIA(g, D) {
   if (IA.ctl && IA.cour !== g.id) return { txt: IA.lot ? `The coach comments on your games one by one (${IA.lot.fait + 1} / ${IA.lot.total}). This one will come in turn.` : 'The coach is commenting on another game. Try again in a moment.', btn: false };
   if (IA.ctl) return { prog: pr ? [n, pr.total] : null, txt: n ? `The coach is commenting on your game… ${n} / ${pr.total} moves` : 'The coach is reading your game… the first comments usually arrive in less than a minute.', stop: true };
   if (pr && pr.erreur) return { txt: pr.erreur, btn: IA.dispo, relance: true };
-  if (pr && pr.done) return { prog: [n, pr.total], txt: `${n} / ${pr.total} moves commented. Step through the game to read each explanation.`, btn: IA.dispo, relance: true };
+  if (pr && pr.done) return { prog: [n, pr.total], txt: `${n} / ${pr.total} moves commented. Step through the game to read each explanation.${pr.cout && window.consoAdmin && consoAdmin() ? ` Cost: ${(pr.cout * 100).toFixed(2)} US cents.` : ''}`, btn: IA.dispo, relance: true };
   if (n) return { txt: `Comments stopped after ${pluriel(n, 'move')}.`, btn: IA.dispo, relance: true };
   return { txt: 'The coach explains each of your moves using Stockfish\'s calculations, then gives you the lessons to remember.', btn: true };
 }
@@ -2443,7 +2445,7 @@ function rendreIA(el) {
 
 function contexteQuestion(p) {
   const g = g_(), D = D_(), fen = p.fen, e = p.ev;
-  let c = `You are your student's chess coach (level ${niveau(D)}, they played ${D.me === 'w' ? 'White' : 'Black'}) played. Answer in English, addressing the student directly, in 3 to 6 simple sentences.
+  let c = `You are your student's chess coach (level ${niveau(D)}, they played ${D.me === 'w' ? 'White' : 'Black'}) played. Answer in English, addressing the student directly, in 2 to 4 simple sentences.
 Rely on the Stockfish data below. Never claim a move wins or loses if the data doesn't show it: in that case, reason with principles (hanging pieces, threats, king safety) and say you don't have the exact line. Evaluations are from the student's point of view (positive = the student is better).
 
 Game: ${partieTxt(D)}
@@ -4798,6 +4800,22 @@ function finLigne(l) {
 
 // ---------- Version hébergée (blundercheck.app) : le prof passe par /api/prof ----------
 // Utilisé seulement quand la page ne tourne pas dans claude.ai (pas de window.claude).
+// Compteur de consommation du prof (sur cet appareil), pour suivre le coût réel
+const K_CONSO = 'bc-conso-v1';
+const PRIX_IA = { haiku: [0.10, 0.50, 0.01, 0.125], sonnet: [2, 10, 0.10, 2.5], opus: [5, 25, 0.5, 6.25] }; // $ par million : envoyés, écrits, cache lu, cache écrit
+function compterConso(u = {}, modele) {
+  const c = lire(K_CONSO, { appels: 0, in: 0, out: 0, cr: 0, cw: 0, modele: '' });
+  if (modele) { c.appels++; c.modele = modele; }
+  c.in += u.input_tokens || 0; c.out += u.output_tokens || 0; c.cr += u.cache_read_input_tokens || 0; c.cw += u.cache_creation_input_tokens || 0;
+  ecrire(K_CONSO, c);
+}
+function coutConso(c = lire(K_CONSO, null)) {
+  if (!c) return 0;
+  const t = PRIX_IA[Object.keys(PRIX_IA).find(k => (c.modele || 'haiku').includes(k)) || 'haiku'];
+  return (c.in * t[0] + c.out * t[1] + c.cr * t[2] + c.cw * t[3]) / 1e6;
+}
+const consoAdmin = () => { try { if (/[?&]admin\b/.test(location.search)) localStorage.setItem('bc-admin', '1'); return localStorage.getItem('bc-admin') === '1'; } catch { return false; } };
+
 function webSample() {
   const fusion = msgs => msgs.reduce((acc, m) => {
     const last = acc[acc.length - 1];
@@ -4829,6 +4847,8 @@ function webSample() {
           if (ev.type === 'content_block_delta' && ev.delta && ev.delta.type === 'text_delta') {
             text += ev.delta.text;
             if (opts.onText) opts.onText({ delta: ev.delta.text, text });
+          } else if (ev.type === 'message_start' && ev.message) { compterConso({ ...ev.message.usage, output_tokens: 0 }, ev.message.model);
+          } else if (ev.type === 'message_delta' && ev.usage) { compterConso({ output_tokens: ev.usage.output_tokens });
           } else if (ev.type === 'error') throw { code: 'server', message: 'The coach ran into an error.', text };
         }
       }
@@ -5584,7 +5604,7 @@ document.addEventListener('keydown', e => {
   (async () => { for (const g of [...LIB]) if (!estAffinee(g)) await analyserPartie(g); })();
 })();
 
-;(function (o) { for (var k in o) try { if (!(k in window)) window[k] = o[k]; } catch (e) { } })({A,ACCROCHES,ALL_SQ,ANALYSES,AUDIO,BL,BUS,BW,C,CLASSES,COACH,CONCURRENTS,CONTACT,COUL,COUL_CLS,DEFAULT_FEN,DEFI,DERIVES,DL,D_,EN_VERS_FR,EXEMPLE_PGN,FAQ,FEM,FILES,FILTRES_TR,FP,GUIDE,IA,IA_ERR,ICONES,IMP,JSPDF,JSPDF_URL,K_LISTE,K_OBJ,K_PLAN,K_REP,K_RUSH,K_SERIE,K_SET,LC,LIB,LIGNES_OFFRE,MAJ_LEGAL,MAUVAIS,MOIS,MOTIFS,Moteur,NOM,NOM_PHASE,NOM_TAG_IA,NOTE,NOTE_PAR,OBJ,OPT,OUVERTURES,PAGES,PERIODES,PIEGES,PRIX,PROFILS,PROG,PS,REGLAGES,REP_MAX,ROUTE,RP,RS,RUSH_MS,SF_CDN,SITE_URL,ST,STRATEGIES,SW,TR,VAL,VOIX,_PARSE,_chargerPartie,aAffiner,aCommenter,absUrl,accrocheTexte,agregats,ajouterPartie,aller,allerPly,analyserPartie,apercuFixe,appliquerTheme,attackers,attacksFrom,audioStudio,autre,avancerLigne,axesTravail,b64d,b64e,badge,badges,bip,boutonListe,boutonVoix,brancherFiltres,brancherLigne,brancherOptions,brancherOuvertures,bulletin,cadence,cadreBilan,carnetConseils,carteDuJour,carteSVG,casesEnPrise,chances,chargerJsPDF,chargerPartie,chargerScript,chip,clamp,clePartie,colOuv,commenterPartie,commenterTout,contexteQuestion,corpsImport,corpsPseudo,couleurPour,coupJoue,creerEchiquier,dateDePgn,debutSemaine,decouperPgn,defierAmi,dejaInscrit,deltaCoup,demarrerRush,deriver,dessinerStudio,docLegal,donneesBilan,echiquierBilan,ecrire,effacerTout,eloParCadence,emit,enFr,enteteRush,esc,essaiDefi,essaiExo,essaiLecon,essaiLigne,essaiRush,estAffinee,estAnalysee,evalEleve,evalFin,evalLegende,exercices,exoDuJour,exosResolus,explicationMoteur,expliquer,expliquerPositionIA,exporterPDF,exporterParties,faitsCoup,fenLigne,fermerModal,fermerTiroir,finDefi,finLecon,finLigne,finRush,flecheCanvas,fmtDate,fmtDateCourt,g_,gainMateriel,genererPlan,graphAvantage,graphProgression,gros,guideHTML,iaCouper,iaDefinitif,iaErreur,ico,imagesBilan,initIA,jouer,jouerStudio,jourCle,lancerLigne,lancerProf,le,libCoup,lienDefi,ligne,ligneCliquable,ligneMoment,lignePartie,ligneTxt,lignesOuverture,lire,lireDefi,lireInfo,lisible,lisibleOral,mail,majBoutonsStudio,majCompteurs,majEchiquier,majExo,majIA,majLecon,majMoteur,majPos,majProfil,majProgression,majTout,marquerExo,materiel,meilleureSerie,melanger,mentions,menuProfil,mesPseudos,momentsLecon,momentsStudio,monterGraph,moyenne,nav,niveau,noterJour,nouvelId,numero,objetsJSON,on,optionsImport,ouvrirAnalyse,ouvrirListe,ouvrirModal,ouvrirTiroir,pageAccueil,pageAnalyse,pageApropos,pageBilan,pageCgu,pageConfidentialite,pageContact,pageDefi,pageEntrainement,pageFaq,pageImport,pageMentions,pageOuvertures,pageOverview,pageParametres,pageParties,pageProf,pageProfil,pageRepertoire,pageRush,pageStats,pageStudio,pageTarifs,parler,partagerCoup,partagerRush,partieParId,partieTxt,partiesChessCom,partiesCompletes,partiesLichess,pct,pdfTxt,periodeOv,phaseDe,piecesStudio,piedDePage,placerTip,plateauCanvas,plateauCorps,plateauSVG,pluriel,pointsForts,posCourante,poserQuestion,pourquoi,precisionCoup,profil,progression,promptProf,puzzleRush,quitterVariante,raccourcis,rafProg,rafraichirLourd,rechercher,rendreCorps,rendreCoups,rendreIA,rendreLecon,rendrePanneau,rendreRapport,rendreVariantes,resumePourPlan,sauverLib,sauverObj,sauverReglages,scenario,serieJours,seriesSansErreur,slotPrincipal,slotWorker,son,sonCoup,sparkline,sqFR,sqName,statutIA,statutLigne,stopVoix,supprimerPartie,svgEnPng,synthIA,syntheseMoteur,tagCoup,telecharger,tendances,terminerRush,teteInfo,texteEval,texteMulti,toast,ton,trouverOuverture,variante,webDownloads,webSample,workerBlob});
+;(function (o) { for (var k in o) try { if (!(k in window)) window[k] = o[k]; } catch (e) { } })({A,ACCROCHES,ALL_SQ,ANALYSES,AUDIO,BL,BUS,BW,C,CLASSES,COACH,CONCURRENTS,CONTACT,COUL,COUL_CLS,DEFAULT_FEN,DEFI,DERIVES,DL,D_,EN_VERS_FR,EXEMPLE_PGN,FAQ,FEM,FILES,FILTRES_TR,FP,GUIDE,IA,IA_ERR,ICONES,IMP,JSPDF,JSPDF_URL,K_CONSO,K_LISTE,K_OBJ,K_PLAN,K_REP,K_RUSH,K_SERIE,K_SET,LC,LIB,LIGNES_OFFRE,MAJ_LEGAL,MAUVAIS,MOIS,MOTIFS,Moteur,NOM,NOM_PHASE,NOM_TAG_IA,NOTE,NOTE_PAR,OBJ,OPT,OUVERTURES,PAGES,PERIODES,PIEGES,PRIX,PRIX_IA,PROFILS,PROG,PS,REGLAGES,REP_MAX,ROUTE,RP,RS,RUSH_MS,SF_CDN,SITE_URL,ST,STRATEGIES,SW,TR,VAL,VOIX,_PARSE,_chargerPartie,aAffiner,aCommenter,absUrl,accrocheTexte,agregats,ajouterPartie,aller,allerPly,analyserPartie,apercuFixe,appliquerTheme,attackers,attacksFrom,audioStudio,autre,avancerLigne,axesTravail,b64d,b64e,badge,badges,bip,boutonListe,boutonVoix,brancherFiltres,brancherLigne,brancherOptions,brancherOuvertures,bulletin,cadence,cadreBilan,carnetConseils,carteDuJour,carteSVG,casesEnPrise,chances,chargerJsPDF,chargerPartie,chargerScript,chip,clamp,clePartie,colOuv,commenterPartie,commenterTout,compterConso,consoAdmin,contexteQuestion,corpsImport,corpsPseudo,couleurPour,coupJoue,coutConso,creerEchiquier,dateDePgn,debutSemaine,decouperPgn,defierAmi,dejaInscrit,deltaCoup,demarrerRush,deriver,dessinerStudio,docLegal,donneesBilan,echiquierBilan,ecrire,effacerTout,eloParCadence,emit,enFr,enteteRush,esc,essaiDefi,essaiExo,essaiLecon,essaiLigne,essaiRush,estAffinee,estAnalysee,evalEleve,evalFin,evalLegende,exercices,exoDuJour,exosResolus,explicationMoteur,expliquer,expliquerPositionIA,exporterPDF,exporterParties,faitsCoup,fenLigne,fermerModal,fermerTiroir,finDefi,finLecon,finLigne,finRush,flecheCanvas,fmtDate,fmtDateCourt,g_,gainMateriel,genererPlan,graphAvantage,graphProgression,gros,guideHTML,iaCouper,iaDefinitif,iaErreur,ico,imagesBilan,initIA,jouer,jouerStudio,jourCle,lancerLigne,lancerProf,le,libCoup,lienDefi,ligne,ligneCliquable,ligneMoment,lignePartie,ligneTxt,lignesOuverture,lire,lireDefi,lireInfo,lisible,lisibleOral,mail,majBoutonsStudio,majCompteurs,majEchiquier,majExo,majIA,majLecon,majMoteur,majPos,majProfil,majProgression,majTout,marquerExo,materiel,meilleureSerie,melanger,mentions,menuProfil,mesPseudos,momentsLecon,momentsStudio,monterGraph,moyenne,nav,niveau,noterJour,nouvelId,numero,objetsJSON,on,optionsImport,ouvrirAnalyse,ouvrirListe,ouvrirModal,ouvrirTiroir,pageAccueil,pageAnalyse,pageApropos,pageBilan,pageCgu,pageConfidentialite,pageContact,pageDefi,pageEntrainement,pageFaq,pageImport,pageMentions,pageOuvertures,pageOverview,pageParametres,pageParties,pageProf,pageProfil,pageRepertoire,pageRush,pageStats,pageStudio,pageTarifs,parler,partagerCoup,partagerRush,partieParId,partieTxt,partiesChessCom,partiesCompletes,partiesLichess,pct,pdfTxt,periodeOv,phaseDe,piecesStudio,piedDePage,placerTip,plateauCanvas,plateauCorps,plateauSVG,pluriel,pointsForts,posCourante,poserQuestion,pourquoi,precisionCoup,profil,progression,promptProf,puzzleRush,quitterVariante,raccourcis,rafProg,rafraichirLourd,rechercher,rendreCorps,rendreCoups,rendreIA,rendreLecon,rendrePanneau,rendreRapport,rendreVariantes,resumePourPlan,sauverLib,sauverObj,sauverReglages,scenario,serieJours,seriesSansErreur,slotPrincipal,slotWorker,son,sonCoup,sparkline,sqFR,sqName,statutIA,statutLigne,stopVoix,supprimerPartie,svgEnPng,synthIA,syntheseMoteur,tagCoup,telecharger,tendances,terminerRush,teteInfo,texteEval,texteMulti,toast,ton,trouverOuverture,variante,webDownloads,webSample,workerBlob});
 
 })();
 else (function () {
@@ -6847,12 +6867,12 @@ Règles :
 - Appuie-toi UNIQUEMENT sur les données du moteur Stockfish ci-dessous (évaluations, meilleurs coups, suites, faits). N'invente jamais de coup, de variante, de menace ou de position de pièce qui n'y figure pas. Si les données ne suffisent pas, reste sur des principes généraux.
 - Les évaluations sont du point de vue de l'élève : positif = l'élève est mieux, +1 ≈ un pion d'avance, #3 = l'élève mate en 3, #-3 = il se fait mater en 3.
 - Explique l'idée derrière les coups (menace, pièce en prise, développement, sécurité du roi, activité des pièces, finale…), pas seulement les chiffres.
-- Coup de l'élève classé "meilleur coup", "excellent coup" ou "bon coup" : UNE phrase courte (20 mots maximum) sur l'idée du coup.
-- Imprécision, erreur ou gaffe de l'élève : 2 ou 3 phrases courtes (50 mots maximum) : ce qui ne va pas, ce qu'il fallait jouer et pourquoi.
+- Coup de l'élève classé "meilleur coup", "excellent coup" ou "bon coup" : UNE phrase très courte (12 mots maximum) sur l'idée du coup, sans conseil (pas de "k").
+- Imprécision, erreur ou gaffe de l'élève : 2 phrases courtes (40 mots maximum) : ce qui ne va pas, ce qu'il fallait jouer et pourquoi.
 - Erreur de l'adversaire : 1 ou 2 phrases sur comment l'élève pouvait en profiter et s'il l'a fait.
-- CHAQUE coup de la liste reçoit un "conseil", sans exception. Le conseil est UNE phrase à l'impératif (15 mots maximum), concrète et utilisable dès la prochaine partie :
+- Chaque imprécision, erreur, gaffe ou erreur adverse reçoit un conseil "k". Le conseil est UNE phrase à l'impératif (12 mots maximum), concrète et utilisable dès la prochaine partie :
   · il part de CETTE position (cite la pièce, la case ou le motif quand c'est utile) puis en tire une règle générale ;
-  · après un bon coup, il dit quel réflexe garder et quand le réutiliser ; après une erreur, quelle vérification faire avant de jouer ;
+  · il dit quelle vérification faire avant de jouer ;
   · interdit : les conseils vagues ("fais attention", "réfléchis bien", "joue mieux") et deux fois le même conseil dans la partie.
 - Ajoute un "theme" parmi : "tactique", "pièce en prise", "sécurité du roi", "développement", "centre", "structure de pions", "activité des pièces", "finale", "calcul", "gestion de l'avantage".
 - Si le même motif revient plusieurs fois (le même coup raté, la même pièce oubliée…), dis-le clairement.
@@ -6913,8 +6933,9 @@ async function commenterPartie(g, { silencieux = false } = {}) {
     return tout;
   };
   const manque = () => aCommenter(D).filter(i => !pr.comments[i + 1]);
-  const TAILLE = 14;
+  const TAILLE = 18;
   let ok = false, dernier = '';
+  const avant = window.coutConso ? coutConso() : 0;
   try {
     const tous = aCommenter(D), lots = [];
     for (let k = 0; k < tous.length; k += TAILLE) lots.push(tous.slice(k, k + TAILLE));
@@ -6937,6 +6958,7 @@ async function commenterPartie(g, { silencieux = false } = {}) {
       throw { code: 'format', message: dernier.trim() ? "Le prof a répondu dans un format inattendu. Réessaie." : "Le prof n'a rien répondu. Réessaie dans un instant." };
     }
     pr.done = true; ok = true;
+    if (window.coutConso) pr.cout = coutConso() - avant;
     if (!silencieux) toast('Le prof a commenté ta partie.');
   } catch (e) {
     if (e && e.code !== 'cancelled') pr.erreur = iaErreur(e);
@@ -6982,7 +7004,7 @@ function statutIA(g, D) {
   if (IA.ctl && IA.cour !== g.id) return { txt: IA.lot ? `Le prof commente tes parties une par une (${IA.lot.fait + 1} / ${IA.lot.total}). Celle-ci viendra à son tour.` : 'Le prof commente une autre partie. Réessaie dans un instant.', btn: false };
   if (IA.ctl) return { prog: pr ? [n, pr.total] : null, txt: n ? `Le prof commente ta partie… ${n} / ${pr.total} coups` : 'Le prof lit ta partie… les premiers commentaires arrivent en général en moins d’une minute.', stop: true };
   if (pr && pr.erreur) return { txt: pr.erreur, btn: IA.dispo, relance: true };
-  if (pr && pr.done) return { prog: [n, pr.total], txt: `${n} / ${pr.total} coups commentés. Parcours la partie pour lire chaque explication.`, btn: IA.dispo, relance: true };
+  if (pr && pr.done) return { prog: [n, pr.total], txt: `${n} / ${pr.total} coups commentés. Parcours la partie pour lire chaque explication.${pr.cout && window.consoAdmin && consoAdmin() ? ` Coût : ${(pr.cout * 100).toFixed(2)} centime de dollar.` : ''}`, btn: IA.dispo, relance: true };
   if (n) return { txt: `Commentaire arrêté après ${pluriel(n, 'coup')}.`, btn: IA.dispo, relance: true };
   return { txt: 'Le prof explique chacun de tes coups en s’appuyant sur les calculs de Stockfish, puis te donne les leçons à retenir.', btn: true };
 }
@@ -7023,7 +7045,7 @@ function rendreIA(el) {
 
 function contexteQuestion(p) {
   const g = g_(), D = D_(), fen = p.fen, e = p.ev;
-  let c = `Tu es le professeur d'échecs de ton élève (niveau ${niveau(D)}, il avait les ${D.me === 'w' ? 'Blancs' : 'Noirs'}). Réponds en français, en le tutoyant, en 3 à 6 phrases simples.
+  let c = `Tu es le professeur d'échecs de ton élève (niveau ${niveau(D)}, il avait les ${D.me === 'w' ? 'Blancs' : 'Noirs'}). Réponds en français, en le tutoyant, en 2 à 4 phrases simples.
 Appuie-toi sur les données Stockfish ci-dessous. Ne prétends jamais qu'un coup gagne ou perd si les données ne le montrent pas : dans ce cas, raisonne avec des principes (pièces en prise, menaces, sécurité du roi) et dis que tu n'as pas la variante exacte. Évaluations du point de vue de l'élève (positif = l'élève est mieux).
 
 Partie : ${partieTxt(D)}
@@ -9378,6 +9400,22 @@ function finLigne(l) {
 
 // ---------- Version hébergée (blundercheck.app) : le prof passe par /api/prof ----------
 // Utilisé seulement quand la page ne tourne pas dans claude.ai (pas de window.claude).
+// Compteur de consommation du prof (sur cet appareil), pour suivre le coût réel
+const K_CONSO = 'bc-conso-v1';
+const PRIX_IA = { haiku: [0.10, 0.50, 0.01, 0.125], sonnet: [2, 10, 0.10, 2.5], opus: [5, 25, 0.5, 6.25] }; // $ par million : envoyés, écrits, cache lu, cache écrit
+function compterConso(u = {}, modele) {
+  const c = lire(K_CONSO, { appels: 0, in: 0, out: 0, cr: 0, cw: 0, modele: '' });
+  if (modele) { c.appels++; c.modele = modele; }
+  c.in += u.input_tokens || 0; c.out += u.output_tokens || 0; c.cr += u.cache_read_input_tokens || 0; c.cw += u.cache_creation_input_tokens || 0;
+  ecrire(K_CONSO, c);
+}
+function coutConso(c = lire(K_CONSO, null)) {
+  if (!c) return 0;
+  const t = PRIX_IA[Object.keys(PRIX_IA).find(k => (c.modele || 'haiku').includes(k)) || 'haiku'];
+  return (c.in * t[0] + c.out * t[1] + c.cr * t[2] + c.cw * t[3]) / 1e6;
+}
+const consoAdmin = () => { try { if (/[?&]admin\b/.test(location.search)) localStorage.setItem('bc-admin', '1'); return localStorage.getItem('bc-admin') === '1'; } catch { return false; } };
+
 function webSample() {
   const fusion = msgs => msgs.reduce((acc, m) => {
     const last = acc[acc.length - 1];
@@ -9409,6 +9447,8 @@ function webSample() {
           if (ev.type === 'content_block_delta' && ev.delta && ev.delta.type === 'text_delta') {
             text += ev.delta.text;
             if (opts.onText) opts.onText({ delta: ev.delta.text, text });
+          } else if (ev.type === 'message_start' && ev.message) { compterConso({ ...ev.message.usage, output_tokens: 0 }, ev.message.model);
+          } else if (ev.type === 'message_delta' && ev.usage) { compterConso({ output_tokens: ev.usage.output_tokens });
           } else if (ev.type === 'error') throw { code: 'server', message: 'Le prof a rencontré une erreur.', text };
         }
       }
@@ -10164,7 +10204,7 @@ document.addEventListener('keydown', e => {
   (async () => { for (const g of [...LIB]) if (!estAffinee(g)) await analyserPartie(g); })();
 })();
 
-;(function (o) { for (var k in o) try { if (!(k in window)) window[k] = o[k]; } catch (e) { } })({A,ACCROCHES,ALL_SQ,ANALYSES,AUDIO,BL,BUS,BW,C,CLASSES,COACH,CONCURRENTS,CONTACT,COUL,COUL_CLS,DEFAULT_FEN,DEFI,DERIVES,DL,D_,EN_VERS_FR,EXEMPLE_PGN,FAQ,FEM,FILES,FILTRES_TR,FP,GUIDE,IA,IA_ERR,ICONES,IMP,JSPDF,JSPDF_URL,K_LISTE,K_OBJ,K_PLAN,K_REP,K_RUSH,K_SERIE,K_SET,LC,LIB,LIGNES_OFFRE,MAJ_LEGAL,MAUVAIS,MOIS,MOTIFS,Moteur,NOM,NOM_PHASE,NOM_TAG_IA,NOTE,NOTE_PAR,OBJ,OPT,OUVERTURES,PAGES,PERIODES,PIEGES,PRIX,PROFILS,PROG,PS,REGLAGES,REP_MAX,ROUTE,RP,RS,RUSH_MS,SF_CDN,SITE_URL,ST,STRATEGIES,SW,TR,VAL,VOIX,_PARSE,_chargerPartie,aAffiner,aCommenter,absUrl,accrocheTexte,agregats,ajouterPartie,aller,allerPly,analyserPartie,apercuFixe,appliquerTheme,attackers,attacksFrom,audioStudio,autre,avancerLigne,axesTravail,b64d,b64e,badge,badges,bip,boutonListe,boutonVoix,brancherFiltres,brancherLigne,brancherOptions,brancherOuvertures,bulletin,cadence,cadreBilan,carnetConseils,carteDuJour,carteSVG,casesEnPrise,chances,chargerJsPDF,chargerPartie,chargerScript,chip,clamp,clePartie,colOuv,commenterPartie,commenterTout,contexteQuestion,corpsImport,corpsPseudo,couleurPour,coupJoue,creerEchiquier,dateDePgn,debutSemaine,decouperPgn,defierAmi,dejaInscrit,deltaCoup,demarrerRush,deriver,dessinerStudio,docLegal,donneesBilan,echiquierBilan,ecrire,effacerTout,eloParCadence,emit,enFr,enteteRush,esc,essaiDefi,essaiExo,essaiLecon,essaiLigne,essaiRush,estAffinee,estAnalysee,evalEleve,evalFin,evalLegende,exercices,exoDuJour,exosResolus,explicationMoteur,expliquer,expliquerPositionIA,exporterPDF,exporterParties,faitsCoup,fenLigne,fermerModal,fermerTiroir,finDefi,finLecon,finLigne,finRush,flecheCanvas,fmtDate,fmtDateCourt,g_,gainMateriel,genererPlan,graphAvantage,graphProgression,gros,guideHTML,iaCouper,iaDefinitif,iaErreur,ico,imagesBilan,initIA,jouer,jouerStudio,jourCle,lancerLigne,lancerProf,le,libCoup,lienDefi,ligne,ligneCliquable,ligneMoment,lignePartie,ligneTxt,lignesOuverture,lire,lireDefi,lireInfo,lisible,lisibleOral,mail,majBoutonsStudio,majCompteurs,majEchiquier,majExo,majIA,majLecon,majMoteur,majPos,majProfil,majProgression,majTout,marquerExo,materiel,meilleureSerie,melanger,mentions,menuProfil,mesPseudos,momentsLecon,momentsStudio,monterGraph,moyenne,nav,niveau,noterJour,nouvelId,numero,objetsJSON,on,optionsImport,ouvrirAnalyse,ouvrirListe,ouvrirModal,ouvrirTiroir,pageAccueil,pageAnalyse,pageApropos,pageBilan,pageCgu,pageConfidentialite,pageContact,pageDefi,pageEntrainement,pageFaq,pageImport,pageMentions,pageOuvertures,pageOverview,pageParametres,pageParties,pageProf,pageProfil,pageRepertoire,pageRush,pageStats,pageStudio,pageTarifs,parler,partagerCoup,partagerRush,partieParId,partieTxt,partiesChessCom,partiesCompletes,partiesLichess,pct,pdfTxt,periodeOv,phaseDe,piecesStudio,piedDePage,placerTip,plateauCanvas,plateauCorps,plateauSVG,pluriel,pointsForts,posCourante,poserQuestion,pourquoi,precisionCoup,profil,progression,promptProf,puzzleRush,quitterVariante,raccourcis,rafProg,rafraichirLourd,rechercher,rendreCorps,rendreCoups,rendreIA,rendreLecon,rendrePanneau,rendreRapport,rendreVariantes,resumePourPlan,sauverLib,sauverObj,sauverReglages,scenario,serieJours,seriesSansErreur,slotPrincipal,slotWorker,son,sonCoup,sparkline,sqFR,sqName,statutIA,statutLigne,stopVoix,supprimerPartie,svgEnPng,synthIA,syntheseMoteur,tagCoup,telecharger,tendances,terminerRush,teteInfo,texteEval,texteMulti,toast,ton,trouverOuverture,variante,webDownloads,webSample,workerBlob});
+;(function (o) { for (var k in o) try { if (!(k in window)) window[k] = o[k]; } catch (e) { } })({A,ACCROCHES,ALL_SQ,ANALYSES,AUDIO,BL,BUS,BW,C,CLASSES,COACH,CONCURRENTS,CONTACT,COUL,COUL_CLS,DEFAULT_FEN,DEFI,DERIVES,DL,D_,EN_VERS_FR,EXEMPLE_PGN,FAQ,FEM,FILES,FILTRES_TR,FP,GUIDE,IA,IA_ERR,ICONES,IMP,JSPDF,JSPDF_URL,K_CONSO,K_LISTE,K_OBJ,K_PLAN,K_REP,K_RUSH,K_SERIE,K_SET,LC,LIB,LIGNES_OFFRE,MAJ_LEGAL,MAUVAIS,MOIS,MOTIFS,Moteur,NOM,NOM_PHASE,NOM_TAG_IA,NOTE,NOTE_PAR,OBJ,OPT,OUVERTURES,PAGES,PERIODES,PIEGES,PRIX,PRIX_IA,PROFILS,PROG,PS,REGLAGES,REP_MAX,ROUTE,RP,RS,RUSH_MS,SF_CDN,SITE_URL,ST,STRATEGIES,SW,TR,VAL,VOIX,_PARSE,_chargerPartie,aAffiner,aCommenter,absUrl,accrocheTexte,agregats,ajouterPartie,aller,allerPly,analyserPartie,apercuFixe,appliquerTheme,attackers,attacksFrom,audioStudio,autre,avancerLigne,axesTravail,b64d,b64e,badge,badges,bip,boutonListe,boutonVoix,brancherFiltres,brancherLigne,brancherOptions,brancherOuvertures,bulletin,cadence,cadreBilan,carnetConseils,carteDuJour,carteSVG,casesEnPrise,chances,chargerJsPDF,chargerPartie,chargerScript,chip,clamp,clePartie,colOuv,commenterPartie,commenterTout,compterConso,consoAdmin,contexteQuestion,corpsImport,corpsPseudo,couleurPour,coupJoue,coutConso,creerEchiquier,dateDePgn,debutSemaine,decouperPgn,defierAmi,dejaInscrit,deltaCoup,demarrerRush,deriver,dessinerStudio,docLegal,donneesBilan,echiquierBilan,ecrire,effacerTout,eloParCadence,emit,enFr,enteteRush,esc,essaiDefi,essaiExo,essaiLecon,essaiLigne,essaiRush,estAffinee,estAnalysee,evalEleve,evalFin,evalLegende,exercices,exoDuJour,exosResolus,explicationMoteur,expliquer,expliquerPositionIA,exporterPDF,exporterParties,faitsCoup,fenLigne,fermerModal,fermerTiroir,finDefi,finLecon,finLigne,finRush,flecheCanvas,fmtDate,fmtDateCourt,g_,gainMateriel,genererPlan,graphAvantage,graphProgression,gros,guideHTML,iaCouper,iaDefinitif,iaErreur,ico,imagesBilan,initIA,jouer,jouerStudio,jourCle,lancerLigne,lancerProf,le,libCoup,lienDefi,ligne,ligneCliquable,ligneMoment,lignePartie,ligneTxt,lignesOuverture,lire,lireDefi,lireInfo,lisible,lisibleOral,mail,majBoutonsStudio,majCompteurs,majEchiquier,majExo,majIA,majLecon,majMoteur,majPos,majProfil,majProgression,majTout,marquerExo,materiel,meilleureSerie,melanger,mentions,menuProfil,mesPseudos,momentsLecon,momentsStudio,monterGraph,moyenne,nav,niveau,noterJour,nouvelId,numero,objetsJSON,on,optionsImport,ouvrirAnalyse,ouvrirListe,ouvrirModal,ouvrirTiroir,pageAccueil,pageAnalyse,pageApropos,pageBilan,pageCgu,pageConfidentialite,pageContact,pageDefi,pageEntrainement,pageFaq,pageImport,pageMentions,pageOuvertures,pageOverview,pageParametres,pageParties,pageProf,pageProfil,pageRepertoire,pageRush,pageStats,pageStudio,pageTarifs,parler,partagerCoup,partagerRush,partieParId,partieTxt,partiesChessCom,partiesCompletes,partiesLichess,pct,pdfTxt,periodeOv,phaseDe,piecesStudio,piedDePage,placerTip,plateauCanvas,plateauCorps,plateauSVG,pluriel,pointsForts,posCourante,poserQuestion,pourquoi,precisionCoup,profil,progression,promptProf,puzzleRush,quitterVariante,raccourcis,rafProg,rafraichirLourd,rechercher,rendreCorps,rendreCoups,rendreIA,rendreLecon,rendrePanneau,rendreRapport,rendreVariantes,resumePourPlan,sauverLib,sauverObj,sauverReglages,scenario,serieJours,seriesSansErreur,slotPrincipal,slotWorker,son,sonCoup,sparkline,sqFR,sqName,statutIA,statutLigne,stopVoix,supprimerPartie,svgEnPng,synthIA,syntheseMoteur,tagCoup,telecharger,tendances,terminerRush,teteInfo,texteEval,texteMulti,toast,ton,trouverOuverture,variante,webDownloads,webSample,workerBlob});
 
 })();
 document.querySelectorAll('[data-lang]').forEach(function (b) { b.classList.toggle('on', b.dataset.lang === window.BC_LANG); });

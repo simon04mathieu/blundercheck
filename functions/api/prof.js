@@ -41,6 +41,7 @@ export async function onRequestPost({ request, env }) {
       model: env.MODELE || 'claude-haiku-5-5',
       max_tokens: Math.min(Number(body.max_tokens) || MAX_TOKENS, MAX_TOKENS),
       stream: true,
+      thinking: { type: 'disabled' },  // pas de réflexion cachée facturée
       system: "Tu es le prof d'échecs de BlunderCheck. Tu réponds en français, avec bienveillance, et tu ne parles que d'échecs.",
       messages,
     }),
