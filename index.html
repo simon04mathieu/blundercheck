@@ -2283,7 +2283,7 @@ const niveau = D => D.elo(D.me) ? `about ${D.elo(D.me)} Elo` : 'beginner to inte
 
 function promptProf(g, D, idx = aCommenter(D), synthese = true) {
   const h = D.h;
-  return `You are a kind, clear and concrete chess coach. Your student (level ${niveau(D)}) played ${D.me === 'w' ? 'White' : 'Black'}. You comment on their game move by move, in English, addressing them directly, with simple words.\n\nRules:\n- Rely ONLY on the Stockfish engine data below (evaluations, best moves, lines, facts). Never invent a move, a line, a threat or a piece position that isn't there. If the data isn't enough, stick to general principles.\n- Evaluations are from the student's point of view: positive = the student is better, +1 ≈ one pawn up, #3 = the student mates in 3, #-3 = they get mated in 3.\n- Explain the idea behind the moves (threat, hanging piece, development, king safety, piece activity, endgame…), not only the numbers.\n- Student move classified "meilleur coup", "excellent coup" or "bon coup" (best, excellent or good): 1 or 2 sentences on the idea of the move.\n- Student inaccuracy, mistake or blunder: 2 to 4 sentences (what goes wrong, what they should have played and why).\n- Opponent mistake: explain how the student could take advantage of it and whether they did.\n- EVERY move in the list gets a "conseil" (tip), without exception. The tip is ONE sentence in the imperative, concrete and usable from the next game:\n  · it starts from THIS position (name the piece, the square or the pattern when useful) and draws a general rule from it;\n  · after a good move, it says which reflex to keep and when to reuse it; after a mistake, which check to do before moving;\n  · forbidden: vague tips ("be careful", "think harder", "play better") and the same tip twice in the game.\n- Add a "theme" among: "tactics", "hanging piece", "king safety", "development", "center", "pawn structure", "piece activity", "endgame", "calculation", "converting an advantage".\n- If the same pattern comes back several times (the same missed move, the same forgotten piece…), say it clearly.\n- Write the moves exactly as in the data.\n\nAnswer format: only JSON lines, one object per line, with no text around and no code block.\nFor each move in the list, in order:\n{"ply": 12, "commentaire": "…", "conseil": "…", "theme": "…"}
+  return `You are a kind, clear and concrete chess coach. Your student (level ${niveau(D)}) played ${D.me === 'w' ? 'White' : 'Black'}. You comment on their game move by move, in English, addressing them directly, with simple words.\n\nRules:\n- Rely ONLY on the Stockfish engine data below (evaluations, best moves, lines, facts). Never invent a move, a line, a threat or a piece position that isn't there. If the data isn't enough, stick to general principles.\n- Evaluations are from the student's point of view: positive = the student is better, +1 ≈ one pawn up, #3 = the student mates in 3, #-3 = they get mated in 3.\n- Explain the idea behind the moves (threat, hanging piece, development, king safety, piece activity, endgame…), not only the numbers.\n- Student move classified "meilleur coup", "excellent coup" or "bon coup" (best, excellent or good): ONE short sentence (20 words max) on the idea of the move.\n- Student inaccuracy, mistake or blunder: 2 or 3 short sentences (50 words max): what goes wrong, what they should have played and why.\n- Opponent mistake: 1 or 2 sentences on how the student could take advantage of it and whether they did.\n- EVERY move in the list gets a "conseil" (tip), without exception. The tip is ONE sentence in the imperative (15 words max), concrete and usable from the next game:\n  · it starts from THIS position (name the piece, the square or the pattern when useful) and draws a general rule from it;\n  · after a good move, it says which reflex to keep and when to reuse it; after a mistake, which check to do before moving;\n  · forbidden: vague tips ("be careful", "think harder", "play better") and the same tip twice in the game.\n- Add a "theme" among: "tactics", "hanging piece", "king safety", "development", "center", "pawn structure", "piece activity", "endgame", "calculation", "converting an advantage".\n- If the same pattern comes back several times (the same missed move, the same forgotten piece…), say it clearly.\n- Write the moves exactly as in the data.\n- Be brief and dense: don't copy the numeric evaluations, no introduction or pleasantries.\n\nAnswer format: only JSON lines, one object per line, with no text around and no code block.\nFor each move in the list, in order:\n{"p": 12, "c": "comment", "k": "tip", "t": "theme"}
 ${synthese ? `Then one last line:\n{"resume": "2 or 3 sentences about the game", "lecons": ["lesson 1", "lesson 2", "lesson 3"]}\nThe 3 lessons are the 3 most useful habits for THIS student, based on the mistakes that come back in the game.` : `Comment ONLY on the ${idx.length} moves in the list below (the game is commented in chunks), one object per move, without skipping any, and nothing else.`}
 
 Partie : ${partieTxt(D)}
@@ -2319,7 +2319,8 @@ async function commenterPartie(g, { silencieux = false } = {}) {
     l = l.trim().replace(/^```(json)?/, '').replace(/```$/, '').trim().replace(/,$/, '');
     if (!l.startsWith('{')) return;
     let o; try { o = JSON.parse(l); } catch { return; }
-    if (o.ply && o.commentaire) pr.comments[o.ply] = { c: String(o.commentaire), k: o.conseil ? String(o.conseil) : '', t: o.theme ? String(o.theme).slice(0, 40) : '' };
+    const ply = o.p || o.ply, com = o.c || o.commentaire, cons = o.k || o.conseil, th = o.t || o.theme;
+    if (ply && com) pr.comments[ply] = { c: String(com), k: cons ? String(cons) : '', t: th ? String(th).slice(0, 40) : '' };
     else if (o.resume || o.lecons) { pr.resume = String(o.resume || ''); pr.lecons = Array.isArray(o.lecons) ? o.lecons.map(String).slice(0, 5) : []; }
     majIA(g.id);
   };
@@ -2328,11 +2329,11 @@ async function commenterPartie(g, { silencieux = false } = {}) {
     let pending = '', tout = '';
     await IA.fn(promptProf(g, D, idx, synthese), { signal: IA.ctl.signal, maxTokens: 8192, onText: ({ delta }) => { tout += delta; const ls = (pending + delta).split('\n'); pending = ls.pop(); ls.forEach(lireLigne); } });
     lireLigne(pending);
-    objetsJSON(tout).forEach(o => { if (!(o.ply && pr.comments[o.ply])) lireLigne(JSON.stringify(o)); });
+    objetsJSON(tout).forEach(o => { if (!((o.p || o.ply) && pr.comments[o.p || o.ply])) lireLigne(JSON.stringify(o)); });
     return tout;
   };
   const manque = () => aCommenter(D).filter(i => !pr.comments[i + 1]);
-  const TAILLE = 8;
+  const TAILLE = 14;
   let ok = false, dernier = '';
   try {
     const tous = aCommenter(D), lots = [];
@@ -6842,20 +6843,21 @@ Règles :
 - Appuie-toi UNIQUEMENT sur les données du moteur Stockfish ci-dessous (évaluations, meilleurs coups, suites, faits). N'invente jamais de coup, de variante, de menace ou de position de pièce qui n'y figure pas. Si les données ne suffisent pas, reste sur des principes généraux.
 - Les évaluations sont du point de vue de l'élève : positif = l'élève est mieux, +1 ≈ un pion d'avance, #3 = l'élève mate en 3, #-3 = il se fait mater en 3.
 - Explique l'idée derrière les coups (menace, pièce en prise, développement, sécurité du roi, activité des pièces, finale…), pas seulement les chiffres.
-- Coup de l'élève classé "meilleur coup", "excellent coup" ou "bon coup" : 1 ou 2 phrases sur l'idée du coup.
-- Imprécision, erreur ou gaffe de l'élève : 2 à 4 phrases (ce qui ne va pas, ce qu'il fallait jouer et pourquoi).
-- Erreur de l'adversaire : explique comment l'élève pouvait en profiter et s'il l'a fait.
-- CHAQUE coup de la liste reçoit un "conseil", sans exception. Le conseil est UNE phrase à l'impératif, concrète et utilisable dès la prochaine partie :
+- Coup de l'élève classé "meilleur coup", "excellent coup" ou "bon coup" : UNE phrase courte (20 mots maximum) sur l'idée du coup.
+- Imprécision, erreur ou gaffe de l'élève : 2 ou 3 phrases courtes (50 mots maximum) : ce qui ne va pas, ce qu'il fallait jouer et pourquoi.
+- Erreur de l'adversaire : 1 ou 2 phrases sur comment l'élève pouvait en profiter et s'il l'a fait.
+- CHAQUE coup de la liste reçoit un "conseil", sans exception. Le conseil est UNE phrase à l'impératif (15 mots maximum), concrète et utilisable dès la prochaine partie :
   · il part de CETTE position (cite la pièce, la case ou le motif quand c'est utile) puis en tire une règle générale ;
   · après un bon coup, il dit quel réflexe garder et quand le réutiliser ; après une erreur, quelle vérification faire avant de jouer ;
   · interdit : les conseils vagues ("fais attention", "réfléchis bien", "joue mieux") et deux fois le même conseil dans la partie.
 - Ajoute un "theme" parmi : "tactique", "pièce en prise", "sécurité du roi", "développement", "centre", "structure de pions", "activité des pièces", "finale", "calcul", "gestion de l'avantage".
 - Si le même motif revient plusieurs fois (le même coup raté, la même pièce oubliée…), dis-le clairement.
 - Écris les coups exactement comme dans les données.
+- Sois bref et dense : ne recopie pas les évaluations chiffrées, pas d'introduction ni de formule de politesse.
 
 Format de la réponse : uniquement des lignes JSON, un objet par ligne, sans texte autour et sans bloc de code.
 Pour chaque coup de la liste, dans l'ordre :
-{"ply": 12, "commentaire": "…", "conseil": "…", "theme": "…"}
+{"p": 12, "c": "commentaire", "k": "conseil", "t": "thème"}
 ${synthese ? `Puis une dernière ligne :
 {"resume": "2 ou 3 phrases sur la partie", "lecons": ["leçon 1", "leçon 2", "leçon 3"]}
 Les 3 leçons sont les 3 habitudes les plus utiles pour CET élève, d'après les erreurs qui reviennent dans la partie.` : `Ne commente QUE les ${idx.length} coups de la liste ci-dessous (la partie est commentée par morceaux), un objet par coup, sans en sauter aucun, et rien d'autre.`}
@@ -6893,7 +6895,8 @@ async function commenterPartie(g, { silencieux = false } = {}) {
     l = l.trim().replace(/^```(json)?/, '').replace(/```$/, '').trim().replace(/,$/, '');
     if (!l.startsWith('{')) return;
     let o; try { o = JSON.parse(l); } catch { return; }
-    if (o.ply && o.commentaire) pr.comments[o.ply] = { c: String(o.commentaire), k: o.conseil ? String(o.conseil) : '', t: o.theme ? String(o.theme).slice(0, 40) : '' };
+    const ply = o.p || o.ply, com = o.c || o.commentaire, cons = o.k || o.conseil, th = o.t || o.theme;
+    if (ply && com) pr.comments[ply] = { c: String(com), k: cons ? String(cons) : '', t: th ? String(th).slice(0, 40) : '' };
     else if (o.resume || o.lecons) { pr.resume = String(o.resume || ''); pr.lecons = Array.isArray(o.lecons) ? o.lecons.map(String).slice(0, 5) : []; }
     majIA(g.id);
   };
@@ -6902,11 +6905,11 @@ async function commenterPartie(g, { silencieux = false } = {}) {
     let pending = '', tout = '';
     await IA.fn(promptProf(g, D, idx, synthese), { signal: IA.ctl.signal, maxTokens: 8192, onText: ({ delta }) => { tout += delta; const ls = (pending + delta).split('\n'); pending = ls.pop(); ls.forEach(lireLigne); } });
     lireLigne(pending);
-    objetsJSON(tout).forEach(o => { if (!(o.ply && pr.comments[o.ply])) lireLigne(JSON.stringify(o)); });
+    objetsJSON(tout).forEach(o => { if (!((o.p || o.ply) && pr.comments[o.p || o.ply])) lireLigne(JSON.stringify(o)); });
     return tout;
   };
   const manque = () => aCommenter(D).filter(i => !pr.comments[i + 1]);
-  const TAILLE = 8;
+  const TAILLE = 14;
   let ok = false, dernier = '';
   try {
     const tous = aCommenter(D), lots = [];
