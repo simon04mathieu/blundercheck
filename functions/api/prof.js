@@ -56,6 +56,18 @@ export async function onRequestPost({ request, env }) {
     await ecrireQuota(env, qui, q);
   }
 
+  // Statistiques du jour (pour la page /api/stats) : appels, parties commencées, questions
+  if (env.QUOTA) {
+    try {
+      const cle = `stats:${new Date().toISOString().slice(0, 10)}`;
+      const s = JSON.parse(await env.QUOTA.get(cle) || '{"appels":0,"parties":0,"questions":0}');
+      s.appels++;
+      if (!request.headers.get('x-bc-partie')) s.questions++;
+      else if (request.headers.get('x-bc-premier') === '1') s.parties++;
+      await env.QUOTA.put(cle, JSON.stringify(s), { expirationTtl: 60 * 60 * 24 * 400 });
+    } catch { }
+  }
+
   const r = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: { 'x-api-key': env.ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },

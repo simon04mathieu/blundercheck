@@ -2392,9 +2392,11 @@ async function commenterPartie(g, { silencieux = false } = {}) {
     majIA(g.id);
   };
   // Un appel par morceau de partie : le prof ne s'arrête plus en route
+  let dejaParti = false;   // le tout premier appel de la partie est compté comme « une partie commentée » dans les stats
   const morceau = async (idx, synthese) => {
     let pending = '', tout = '';
-    await IA.fn(promptProf(g, D, idx, synthese), { signal: IA.ctl.signal, maxTokens: 8192, partie: g.id, onText: ({ delta }) => { tout += delta; const ls = (pending + delta).split('\n'); pending = ls.pop(); ls.forEach(lireLigne); } });
+    const premier = !dejaParti; dejaParti = true;
+    await IA.fn(promptProf(g, D, idx, synthese), { signal: IA.ctl.signal, maxTokens: 8192, partie: g.id, premier, onText: ({ delta }) => { tout += delta; const ls = (pending + delta).split('\n'); pending = ls.pop(); ls.forEach(lireLigne); } });
     lireLigne(pending);
     objetsJSON(tout).forEach(o => { if (!((o.p || o.ply) && pr.comments[o.p || o.ply])) lireLigne(JSON.stringify(o)); });
     return tout;
@@ -4903,7 +4905,7 @@ function webSample() {
     const messages = fusion(typeof input === 'string' ? [{ role: 'user', content: input }] : input);
     let r;
     try {
-      r = await fetch('/api/prof', { method: 'POST', headers: { 'content-type': 'application/json', ...(opts.partie ? { 'x-bc-partie': String(opts.partie) } : {}) }, body: JSON.stringify({ messages, max_tokens: opts.maxTokens || 4096 }), signal: opts.signal });
+      r = await fetch('/api/prof', { method: 'POST', headers: { 'content-type': 'application/json', ...(opts.partie ? { 'x-bc-partie': String(opts.partie) } : {}), ...(opts.premier ? { 'x-bc-premier': '1' } : {}) }, body: JSON.stringify({ messages, max_tokens: opts.maxTokens || 4096 }), signal: opts.signal });
     } catch (e) { throw (e && e.name === 'AbortError') ? { code: 'cancelled' } : { code: 'network', message: 'Couldn\'t connect to the coach.' }; }
     if (!r.ok) {
       let msg = 'The coach is unavailable right now.';
@@ -7263,9 +7265,11 @@ async function commenterPartie(g, { silencieux = false } = {}) {
     majIA(g.id);
   };
   // Un appel par morceau de partie : le prof ne s'arrête plus en route
+  let dejaParti = false;   // le tout premier appel de la partie est compté comme « une partie commentée » dans les stats
   const morceau = async (idx, synthese) => {
     let pending = '', tout = '';
-    await IA.fn(promptProf(g, D, idx, synthese), { signal: IA.ctl.signal, maxTokens: 8192, partie: g.id, onText: ({ delta }) => { tout += delta; const ls = (pending + delta).split('\n'); pending = ls.pop(); ls.forEach(lireLigne); } });
+    const premier = !dejaParti; dejaParti = true;
+    await IA.fn(promptProf(g, D, idx, synthese), { signal: IA.ctl.signal, maxTokens: 8192, partie: g.id, premier, onText: ({ delta }) => { tout += delta; const ls = (pending + delta).split('\n'); pending = ls.pop(); ls.forEach(lireLigne); } });
     lireLigne(pending);
     objetsJSON(tout).forEach(o => { if (!((o.p || o.ply) && pr.comments[o.p || o.ply])) lireLigne(JSON.stringify(o)); });
     return tout;
@@ -9774,7 +9778,7 @@ function webSample() {
     const messages = fusion(typeof input === 'string' ? [{ role: 'user', content: input }] : input);
     let r;
     try {
-      r = await fetch('/api/prof', { method: 'POST', headers: { 'content-type': 'application/json', ...(opts.partie ? { 'x-bc-partie': String(opts.partie) } : {}) }, body: JSON.stringify({ messages, max_tokens: opts.maxTokens || 4096 }), signal: opts.signal });
+      r = await fetch('/api/prof', { method: 'POST', headers: { 'content-type': 'application/json', ...(opts.partie ? { 'x-bc-partie': String(opts.partie) } : {}), ...(opts.premier ? { 'x-bc-premier': '1' } : {}) }, body: JSON.stringify({ messages, max_tokens: opts.maxTokens || 4096 }), signal: opts.signal });
     } catch (e) { throw (e && e.name === 'AbortError') ? { code: 'cancelled' } : { code: 'network', message: 'Connexion impossible au prof.' }; }
     if (!r.ok) {
       let msg = 'Le prof est indisponible pour le moment.';
