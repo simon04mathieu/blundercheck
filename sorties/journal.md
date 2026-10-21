@@ -140,3 +140,6 @@
 ### commandes/coach_v_noe.json
     voix générée : 790 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/v_noe.mp4 {"voix_brute_s": 75.2, "tempo": 1.18, "video_s": 66.3, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 124}
+### commandes/coach_v_tarrasch.json
+    voix générée : 537 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/v_tarrasch.mp4 {"voix_brute_s": 40.8, "tempo": 1.0, "video_s": 43.8, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 93}
