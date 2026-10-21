@@ -131,3 +131,6 @@
 ### commandes/coach_v_foiefrit.json
     voix générée : 694 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/v_foiefrit.mp4 {"voix_brute_s": 51.6, "tempo": 1.0, "video_s": 54.6, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 111}
+### commandes/coach_v_halosar.json
+    voix générée : 636 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/v_halosar.mp4 {"voix_brute_s": 61.6, "tempo": 1.174, "video_s": 55.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 116}
