@@ -105,11 +105,12 @@ def video_voix(cmd):
     d1 = d0 + sum(d for _, d in spec.get("pauses", []))
     vmax = cmd.get("duree_max", 55.0)
     tempo = min(1.18, d1 / vmax) if d1 > vmax else 1.0
-    if cmd.get("sans_musique") is not True: spec["musique"] = 0.0  # la musique de fond vient d'ElevenLabs, pas du synthé
+    if cmd.get("sans_musique") is not True: spec["musique"] = 0.0
+    if cmd.get("hook") and spec.get("hook"): spec["hook"] = (cmd["hook"], spec["hook"][1])  # test A/B du hook (0 crédit)  # la musique de fond vient d'ElevenLabs, pas du synthé
     coach.FLIP = spec["noirs"]; coach.BG = coach.fond()
     muet, fx = os.path.join(tmp, "muet.mp4"), os.path.join(tmp, "fx.wav")
     coach.run(spec, muet, fx, tempo)
-    os.makedirs(SORTIES, exist_ok=True); out = os.path.join(SORTIES, f"{nom}.mp4")
+    os.makedirs(SORTIES, exist_ok=True); out = os.path.join(SORTIES, f"{cmd.get('sortie', nom)}.mp4")
     mus = None if cmd.get("sans_musique") else musique_fond(cmd)
     vol = cmd.get("volume_musique", 0.14)  # ≈ -20 dB, encore baissée sous la voix par le compresseur
     if mus:
