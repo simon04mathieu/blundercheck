@@ -72,8 +72,8 @@ def construire(nom, mots):
     for t, (s, e) in zip(toks, times):
         if not cur: t0 = s
         cur.append(t["w"])
-        fin_phrase = t["w"][-1] in ".!?,:…"
-        if (fin_phrase and len(cur) >= 2) or len(cur) >= 5:
+        w = t["w"]; fin_phrase = w[-1] in ".!?…"; virgule = w[-1] in ",:;"
+        if fin_phrase or (virgule and len(cur) >= 3) or len(cur) >= 6:
             caps.append((t0, e, " ".join(cur))); cur = []
     if cur:
         caps.append((t0, times[-1][1], " ".join(cur)))
