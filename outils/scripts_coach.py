@@ -424,3 +424,17 @@ Il ne le prend pas ? [p """ + LASKER_PONEY.replace(" ", " ") + """] Roi [m Ke1] 
 Le pigeon, c'était lui. Analyse tes parties sur BlunderCheck.""",
 },
 }
+
+# ---------- hooks affichés dès l'image 1 (règle 2) pour les scripts coach ; le bandeau tient jusqu'à la fin de la 1re phrase ----------
+HOOKS = {
+    "v_stafford": "Il prend ta dame…|et il perd la partie.",
+    "v_englund": "Ce gambit douteux|fait mat en 8 coups.",
+    "v_noe": "Ton fou peut être|enfermé vivant.",
+    "v_halosar": "Il laisse sa dame…|et fait mat.",
+    "v_foiefrit": "Tu connais|l'attaque du foie frit ?",
+    "v_kieninger": "Prends ce fou|et c'est mat en d3.",
+    "v_tennison": "Sa dame tombe|en 8 coups.",
+    "v_tarrasch": "Le piège qui gagne la dame|dans l'espagnole.",
+    "v_siberien": "Mat en h2 :|le piège sibérien.",
+    "v_mortimer": "Laisse ce pion en prise.|Exprès.",
+}

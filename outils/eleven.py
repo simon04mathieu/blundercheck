@@ -46,3 +46,10 @@ def ajouter(v):
         if x.get("name") == "BC " + v["nom"]: return x["voice_id"]
     js = json.loads(_req("POST", f"/voices/add/{v['public_owner_id']}/{v['voice_id']}", body={"new_name": "BC " + v["nom"]}))
     return js["voice_id"]
+
+def musique(prompt, out_mp3, ms=60000):
+    """Musique instrumentale ElevenLabs Music (licence commerciale de l'abonnement)."""
+    audio = _req("POST", "/music", accept="audio/mpeg", params={"output_format": "mp3_44100_128"},
+                 body={"prompt": prompt, "music_length_ms": ms, "model_id": "music_v1"})
+    open(out_mp3, "wb").write(audio)
+    return out_mp3

@@ -14,7 +14,7 @@ concurrency:
 jobs:
   fabrique:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
         with: { ref: videos }
@@ -31,6 +31,8 @@ jobs:
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
         run: |
+          git config user.name "BlunderCheck vidéos"
+          git config user.email "actions@users.noreply.github.com"
           mkdir -p sorties commandes/faites
           echo "## $(date -u '+%Y-%m-%d %H:%M') UTC · run ${{ github.run_id }}" >> sorties/journal.md
           for c in commandes/*.json; do
@@ -43,12 +45,15 @@ jobs:
               echo "ÉCHEC :" >> sorties/journal.md
               grep -v -i "warn" /tmp/log.txt | tail -n 25 | sed 's/^/    /' >> sorties/journal.md
             fi
+            # dépôt après chaque vidéo : rien n'est perdu si la suite échoue
+            git add -A sorties commandes outils/musique
+            git commit -qm "Vidéo : $c (run ${{ github.run_id }})" && git pull -q --rebase origin videos && git push -q origin HEAD:videos || true
           done
       - name: Dépôt des vidéos
         if: always()
         run: |
           git config user.name "BlunderCheck vidéos"
           git config user.email "actions@users.noreply.github.com"
-          git add -A sorties commandes
+          git add -A sorties commandes outils/musique
           git commit -m "Vidéos fabriquées (run ${{ github.run_id }})" || exit 0
           git pull --rebase -q origin videos && git push -q origin HEAD:videos

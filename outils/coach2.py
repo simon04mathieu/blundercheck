@@ -5,7 +5,7 @@ mots.txt : lignes « début-fin mot » (sortie de faster-whisper).
 import sys, re, difflib, unicodedata
 import chess
 import coach
-from scripts_coach import SCRIPTS, PERSO
+from scripts_coach import SCRIPTS, PERSO, HOOKS
 
 def norm(w):
     w = unicodedata.normalize("NFD", w.lower())
@@ -93,6 +93,9 @@ def construire(nom, mots):
     caps = [(a, b, re.sub(r"[,:]$", "", c)) for a, b, c in caps]
     duree = times[-1][1] + 0.3
     spec = {"duree": duree, "captions": caps, "actions": actions, "noirs": cote == "noirs"}
+    if not opts and nom in HOOKS:  # coach : bandeau jusqu'à la fin de la première phrase
+        fin = next((e for t, (s, e) in zip(toks, times) if t["w"][-1] in ".!?…"), 2.0)
+        spec["hook"] = (HOOKS[nom], fin)
     if opts:
         # mot géant : chaque mot du script, en majuscules, sans ponctuation (« ? » et « ! » gardés)
         spec["mots"] = [(s, e, re.sub(r"[.,:;…]", "", t["w"]).upper()) for t, (s, e) in zip(toks, times)
