@@ -111,3 +111,6 @@
 ### commandes/coach_v_siberien.json
     voix générée : 732 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/v_siberien.mp4 {"voix_brute_s": 56.0, "tempo": 1.076, "video_s": 52.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 115}
+### commandes/coach_v_stafford.json
+    voix générée : 773 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/v_stafford.mp4 {"voix_brute_s": 60.0, "tempo": 1.154, "video_s": 52.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 132}
