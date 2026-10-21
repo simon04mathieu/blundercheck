@@ -31,8 +31,13 @@ def voix_defaut():
 
 def transcrire(audio):
     from faster_whisper import WhisperModel
+    import numpy as np
+    from scipy.io import wavfile
+    w16 = audio + ".16k.wav"  # on décode nous-mêmes : la lecture de fichier de faster-whisper casse avec PyAV récent
+    sh("ffmpeg", "-y", "-loglevel", "error", "-i", audio, "-ac", "1", "-ar", "16000", w16)
+    sr, x = wavfile.read(w16)
     m = WhisperModel("small", device="cpu", compute_type="int8")
-    segs, _ = m.transcribe(audio, language="fr", word_timestamps=True)
+    segs, _ = m.transcribe(x.astype(np.float32) / 32768.0, language="fr", word_timestamps=True)
     return [(w.start, w.end, w.word.strip()) for s in segs for w in s.words]
 
 def echantillons(cmd):
