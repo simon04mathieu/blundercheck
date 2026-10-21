@@ -29,6 +29,39 @@ export async function onRequestPost({ request, env }) {
   const cle = `email:${email}`;
   if (!(await env.LISTE.get(cle))) {
     await env.LISTE.put(cle, JSON.stringify({ date: new Date().toISOString(), langue: b.lang === 'en' ? 'en' : 'fr', source: String(b.source || '').slice(0, 30) }));
+    // e-mail de confirmation, si l'envoi d'e-mails est configuré (Resend) ; une erreur d'envoi ne bloque pas l'inscription
+    if (env.RESEND_API_KEY) {
+      const en = b.lang === 'en', site = new URL(request.url).origin;
+      const sujet = en ? "You're on the BlunderCheck+ waiting list" : 'Tu es sur la liste d’attente de BlunderCheck+';
+      const texte = en
+        ? `Hi,
+
+You're on the list! We'll send you a single e-mail on the day BlunderCheck+ launches, with the launch price for early sign-ups.
+
+Until then, analysis stays free: ${site}
+
+To be removed from the list, just reply to this e-mail.
+
+BlunderCheck`
+        : `Bonjour,
+
+C’est noté ! Tu recevras un seul e-mail, le jour du lancement de BlunderCheck+, avec le prix de lancement réservé aux premiers inscrits.
+
+En attendant, l’analyse reste gratuite : ${site}
+
+Pour être retiré de la liste, réponds simplement à cet e-mail.
+
+BlunderCheck`;
+      const html = `<div style="font-family:system-ui,sans-serif;max-width:480px;margin:auto;color:#1b1f1d"><h2 style="color:#2f4a3e">BlunderCheck</h2>${texte.split('\n\n').slice(1, -1).map(p => `<p>${p.replace(site, `<a href="${site}" style="color:#2f4a3e">${site.replace(/^https?:\/\//, '')}</a>`)}</p>`).join('')}</div>`;
+      try {
+        const r = await fetch('https://api.resend.com/emails', {
+          method: 'POST',
+          headers: { Authorization: 'Bearer ' + env.RESEND_API_KEY, 'content-type': 'application/json' },
+          body: JSON.stringify({ from: env.EMAIL_FROM || 'BlunderCheck <connexion@blundercheck.app>', reply_to: 'contact@blundercheck.app', to: [email], subject: sujet, text: texte, html }),
+        });
+        if (!r.ok) console.log('Erreur Resend (liste)', r.status, (await r.text()).slice(0, 300));
+      } catch (e) { console.log('Erreur Resend (liste)', String(e)); }
+    }
   }
   return json(200, { ok: true });
 }
