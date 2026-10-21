@@ -22,6 +22,8 @@ LETTRES = {"a": "a", "b": "bé", "c": "cé", "d": "dé", "e": "e", "f": "effe", 
 CHIFFRES = {"1": "un", "2": "deux", "3": "trois", "4": "quatre", "5": "cinq", "6": "six", "7": "sept", "8": "huit"}
 def texte_parle(script):
     """Script à repères -> texte lu (cases en toutes lettres : « dé quatre »)."""
+    # « d prend [m dxc3] c3 » s'entendait « dé prend c'est trois » : on dit « le pion prend en c3 » (remarque de Simon, 21/10)
+    script = re.sub(r"\b[a-h] prend (\[m [a-h]x[a-h][1-8][^\]]*\]\s*)", r"le pion prend en \1", script)
     t = re.sub(r"\[[^\]]*\]\s*", "", script)
     return re.sub(r"\b([a-h])([1-8])\b", lambda m: f"{LETTRES[m.group(1)]} {CHIFFRES[m.group(2)]}", t)
 

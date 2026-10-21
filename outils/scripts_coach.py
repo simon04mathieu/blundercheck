@@ -267,8 +267,8 @@ Si d prend [m dxe4] e4, la colonne s'ouvre, et dame prend [m Qxd7] d7. La dame n
 Le bon coup pour les Noirs, c'était [p e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Be7 Re1 O-O Nd4] cavalier prend [m Nxe5 meilleur] e5.
 Analyse tes parties gratuitement sur BlunderCheck."""),
 
-"v_siberien": ("noirs", """Le piège sibérien. Si on te joue le gambit Smith-Morra contre ta sicilienne, garde-le en tête.
-[m e4] e4, [m c5] c5, [m d4] d4, c prend [m cxd4] d4, [m c3] c3 : les Blancs offrent un pion. d prend [m dxc3] c3, cavalier prend [m Nxc3] c3.
+"v_siberien": ("noirs", """S'il prend ce cavalier, c'est mat en h2. Voici le piège sibérien, contre le gambit Smith-Morra.
+[m e4] e4, [m c5] c5, [m d4] d4, c prend [m cxd4] d4, [m c3] le pion c3 : les Blancs offrent un pion. d prend [m dxc3] c3, cavalier prend [m Nxc3] c3.
 [p e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 e6 Bc4 Qc7 O-O Nf6 Qe2] Quelques coups plus tard, les Blancs ont roqué, leur dame est en e2.
 Tu joues cavalier [m Ng4 bizarre] g4. Il vise h2, [f c7h2] avec ta dame. Les Blancs le chassent : [m h3] h3.
 [q 3 Trouve_le_coup_des_Noirs] Et toi, au lieu de reculer : cavalier [m Nd4 bon] d4 ! Tu attaques la dame. Les Blancs prennent : [m Nxd4 gaffe] cavalier prend d4.
