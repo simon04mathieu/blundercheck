@@ -4,7 +4,7 @@ name: Fabrique vidéos
 on:
   push:
     branches: [videos]
-    paths: ["commandes/*.json"]
+    paths: ["commandes/*.json", ".github/workflows/fabrique-videos.yml"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v4
         with: { ref: videos }
       - uses: actions/setup-python@v5
-        with: { python-version: "3.12", cache: pip }
+        with: { python-version: "3.12" }
       - name: Outils
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg libcairo2 > /dev/null
