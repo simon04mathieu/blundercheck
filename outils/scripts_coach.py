@@ -228,7 +228,7 @@ Analyse tes parties gratuitement sur BlunderCheck."""),
 [m d4] d4, [m e5 bizarre] e5 ! Tu donnes un pion. d prend [m dxe5] e5, cavalier [m Nc6] c6, cavalier [m Nf3] f3, dame [m Qe7] e7.
 Fou [m Bf4] f4 pour défendre le pion. Et là, dame [m Qb4+ bon] b4, échec ! Elle vise aussi b2. Fou [m Bd2] d2, dame prend [m Qxb2] b2.
 La tour a1 est attaquée. Le réflexe des Blancs : fou [m Bc3 gaffe] c3, pour chasser ta dame. Erreur fatale.
-Fou [m Bb4 meilleur] b4 ! Tu cloues le fou contre le roi. Dame [m Qd2] d2 pour le protéger, fou prend [m Bxc3] c3, dame prend [m Qxc3] c3.
+[q 3 Trouve_le_coup_des_Noirs] Fou [m Bb4 meilleur] b4 ! Tu cloues le fou contre le roi. Dame [m Qd2] d2 pour le protéger, fou prend [m Bxc3] c3, dame prend [m Qxc3] c3.
 Et dame [m Qc1# mat] c1. Échec et mat.
 Le bon coup, c'était [p d4 e5 dxe5 Nc6 Nf3 Qe7 Bf4 Qb4+ Bd2 Qxb2] cavalier [m Nc3 meilleur] c3.
 Analyse tes parties gratuitement sur BlunderCheck."""),
@@ -245,7 +245,7 @@ Analyse tes parties gratuitement sur BlunderCheck."""),
 "v_noe": ("noirs", """Le piège de l'arche de Noé. Il est très ancien, et il attrape encore des joueurs tous les jours.
 Partie espagnole : [m e4] e4, [m e5] e5, cavalier [m Nf3] f3, cavalier [m Nc6] c6, fou [m Bb5] b5, [m a6] a6, fou [m Ba4] a4, [m d6] d6.
 [m d4] d4, [m b5] b5, fou [m Bb3] b3. Et là, cavalier prend [m Nxd4 bizarre] d4 ! Cavalier [m Nxd4] reprend, e prend [m exd4] d4.
-Les Blancs reprennent avec la dame : [m Qxd4 gaffe] dame prend d4. Erreur. Pion [m c5 bon] c5 ! La dame doit partir, [m Qd5] en d5, pour attaquer la tour a8.
+Les Blancs reprennent avec la dame : [m Qxd4 gaffe] dame prend d4. Erreur. [q 3 Trouve_le_coup_des_Noirs] Pion [m c5 bon] c5 ! La dame doit partir, [m Qd5] en d5, pour attaquer la tour a8.
 Fou [m Be6] e6, dame [m Qc6+] c6, échec, fou [m Bd7] d7, dame [m Qd5] d5. Et pion [m c4 meilleur] c4.
 Le fou b3 est enfermé : tes pions b5 et c4 le bloquent, et ses propres pions a2 et c2 aussi. Il est perdu.
 Le bon coup, c'était [p e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 d4 b5 Bb3 Nxd4 Nxd4 exd4] [m c3 meilleur] c3 : on donne un pion, pas une pièce.
@@ -262,7 +262,7 @@ Analyse tes parties gratuitement sur BlunderCheck."""),
 "v_tarrasch": ("blancs", """Le piège Tarrasch, dans l'espagnole ouverte. Une position très jouée en club.
 [p e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Be7 Re1 O-O] Les Blancs jouent cavalier [m Nd4 bon] d4. Il attaque le fou e6 et le cavalier c6.
 Les Noirs protègent tout avec dame [m Qd7 gaffe] d7. Erreur. Cavalier prend [m Nxe6] e6, f prend [m fxe6] e6.
-Et maintenant : tour prend [m Rxe4 meilleur] e4 ! Le pion d5 est le seul qui bloque la colonne d. [f d1d7]
+[q 3 Trouve_le_coup_des_Blancs] Et maintenant : tour prend [m Rxe4 meilleur] e4 ! Le pion d5 est le seul qui bloque la colonne d. [f d1d7]
 Si d prend [m dxe4] e4, la colonne s'ouvre, et dame prend [m Qxd7] d7. La dame noire tombe.
 Le bon coup pour les Noirs, c'était [p e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Be7 Re1 O-O Nd4] cavalier prend [m Nxe5 meilleur] e5.
 Analyse tes parties gratuitement sur BlunderCheck."""),
@@ -279,7 +279,7 @@ Analyse tes parties gratuitement sur BlunderCheck."""),
 "v_kieninger": ("noirs", """Le piège Kieninger, dans le gambit de Budapest.
 [m d4] d4, cavalier [m Nf6] f6, [m c4] c4, [m e5 bizarre] e5 ! d prend [m dxe5] e5, cavalier [m Ng4] g4 : tu vas récupérer le pion.
 Fou [m Bf4] f4, cavalier [m Nc6] c6, cavalier [m Nf3] f3, fou [m Bb4+] b4, échec, cavalier [m Nbd2] d2, dame [m Qe7] e7.
-Les Blancs chassent ton fou : [m a3] a3. Et tu reprends le pion, cavalier prend [m Ngxe5 bon] e5, en laissant ton fou !
+Les Blancs chassent ton fou : [m a3] a3. [q 3 Trouve_le_coup_des_Noirs] Et tu reprends le pion, cavalier prend [m Ngxe5 bon] e5, en laissant ton fou !
 Les Blancs le prennent : [m axb4 gaffe] a prend b4. Et cavalier [m Nd3# mat] d3. Échec et mat !
 Le pion e2 pourrait prendre… mais il est cloué par ta dame. [f e7e1]
 Le bon coup, c'était [p d4 Nf6 c4 e5 dxe5 Ng4 Bf4 Nc6 Nf3 Bb4+ Nbd2 Qe7 a3 Ngxe5] cavalier prend [m Nxe5 meilleur] e5.
@@ -288,7 +288,7 @@ Analyse tes parties gratuitement sur BlunderCheck."""),
 "v_foiefrit": ("blancs", """L'attaque du foie frit. Une des attaques les plus connues sur Internet.
 [m e4] e4, [m e5] e5, cavalier [m Nf3] f3, cavalier [m Nc6] c6, fou [m Bc4] c4, cavalier [m Nf6] f6.
 Cavalier [m Ng5 bizarre] g5 ! Tu vises f7 [f g5f7 c4f7] avec deux pièces. Les Noirs bloquent : [m d5] d5, e prend [m exd5] d5.
-Et beaucoup reprennent avec le cavalier : [m Nxd5 erreur] cavalier prend d5. C'est là que tu sacrifies.
+Et beaucoup reprennent avec le cavalier : [m Nxd5 erreur] cavalier prend d5. [q 3 Trouve_le_coup_des_Blancs] C'est là que tu sacrifies.
 Cavalier prend [m Nxf7 bon] f7 ! Le roi [m Kxf7] prend, dame [m Qf3+] f3, échec. Le roi monte [m Ke6] en e6 pour protéger son cavalier.
 Cavalier [m Nc3] c3 : tu attaques le cavalier cloué, et le roi noir est au milieu de l'échiquier. Ça, c'est le foie frit.
 Pour les Noirs, le bon coup était [p e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5] cavalier [m Na5 meilleur] a5.
@@ -297,7 +297,7 @@ Analyse tes parties gratuitement sur BlunderCheck."""),
 "v_tennison": ("blancs", """Le gambit Tennison. Peu de gens le connaissent, et c'est pour ça qu'il marche.
 Cavalier [m Nf3] f3, [m d5] d5, [m e4 bizarre] e4 ! Tu donnes un pion. d prend [m dxe4] e4, cavalier [m Ng5] g5 : tu vas le récupérer.
 Cavalier [m Nf6] f6, [m d3] d3, e prend [m exd3] d3, fou prend [m Bxd3] d3.
-Les Noirs veulent chasser ton cavalier : [m h6 gaffe] h6. Erreur. Cavalier prend [m Nxf7 bon] f7 ! Le roi [m Kxf7] prend… et fou [m Bg6+ meilleur] g6, échec !
+Les Noirs veulent chasser ton cavalier : [m h6 gaffe] h6. Erreur. [q 3 Trouve_le_coup_des_Blancs] Cavalier prend [m Nxf7 bon] f7 ! Le roi [m Kxf7] prend… et fou [m Bg6+ meilleur] g6, échec !
 Si le roi prend [m Kxg6] le fou, dame prend [m Qxd8] d8. La colonne d s'est ouverte, et la dame noire tombe.
 Le bon coup pour les Noirs, c'était [p Nf3 d5 e4 dxe4 Ng5 Nf6 d3 exd3 Bxd3] cavalier [m Nc6 meilleur] c6.
 Analyse tes parties gratuitement sur BlunderCheck."""),
@@ -305,7 +305,7 @@ Analyse tes parties gratuitement sur BlunderCheck."""),
 "v_halosar": ("blancs", """Le piège Halosar, dans le gambit Blackmar-Diemer.
 [m d4] d4, [m d5] d5, [m e4 bizarre] e4 ! d prend [m dxe4] e4, cavalier [m Nc3] c3, cavalier [m Nf6] f6, [m f3] f3, e prend [m exf3] f3, dame prend [m Qxf3] f3.
 Les Noirs prennent un deuxième pion : dame prend [m Qxd4] d4. Fou [m Be3] e3, dame [m Qb4] b4, et grand roque [m O-O-O] : ta tour arrive sur la colonne d.
-Les Noirs attaquent ta dame : fou [m Bg4 gaffe] g4. Et toi, tu la laisses ! Cavalier [m Nb5 meilleur] b5 ! [f b5c7]
+Les Noirs attaquent ta dame : fou [m Bg4 gaffe] g4. [q 3 Trouve_le_coup_des_Blancs] Et toi, tu la laisses ! Cavalier [m Nb5 meilleur] b5 ! [f b5c7]
 Si le fou prend [m Bxf3] ta dame, cavalier prend [m Nxc7# mat] c7. Échec et mat ! La tour d1 tient la case d8.
 Le bon coup pour les Noirs, c'était [p d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Qxf3 Qxd4 Be3 Qb4 O-O-O] [m c6 meilleur] c6, qui contrôle b5.
 Analyse tes parties gratuitement sur BlunderCheck."""),
@@ -443,6 +443,13 @@ HOOKS = {
 TEASERS = {
     "v_siberien": "e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 e6 Bc4 Qc7 O-O Nf6 Qe2 Ng4 h3 Nd4 Nxd4 Qh2#",
     "v_stafford": "e4 e5 Nf3 Nf6 Nxe5 Nc6 Nxc6 dxc6 d3 Bc5 Bg5 Nxe4 Bxd8 Bxf2+ Ke2 Bg4#",
+    "v_englund": "d4 e5 dxe5 Nc6 Nf3 Qe7 Bf4 Qb4+ Bd2 Qxb2 Bc3 Bb4 Qd2 Bxc3 Qxc3 Qc1#",
+    "v_noe": "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 d4 b5 Bb3 Nxd4 Nxd4 exd4 Qxd4 c5 Qd5 Be6 Qc6+ Bd7 Qd5 c4",
+    "v_halosar": "d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Qxf3 Qxd4 Be3 Qb4 O-O-O Bg4 Nb5 Bxf3 Nxc7#",
+    "v_foiefrit": "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nxd5 Nxf7 Kxf7 Qf3+ Ke6 Nc3",
+    "v_kieninger": "d4 Nf6 c4 e5 dxe5 Ng4 Bf4 Nc6 Nf3 Bb4+ Nbd2 Qe7 a3 Ngxe5 axb4 Nd3#",
+    "v_tennison": "Nf3 d5 e4 dxe4 Ng5 Nf6 d3 exd3 Bxd3 h6 Nxf7 Kxf7 Bg6+ Kxg6 Qxd8",
+    "v_tarrasch": "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Be7 Re1 O-O Nd4 Qd7 Nxe6 fxe6 Rxe4 dxe4 Qxd7",
 }
 # ---------- question affichée sur les dernières secondes (pousse aux commentaires) ----------
 QUESTIONS = {}

@@ -385,8 +385,9 @@ def run(spec, out_video, out_wav, tempo=1.0):
                 events.append((at, "check" if b.is_check() and not b.is_checkmate() else ("capture" if cap else "move")))
                 if badge:
                     icons = [(mv.to_square, badge)]; badge_fx(at, badge)
-                    if badge in ("mat", "brillant") and not any(abs(z0 - at) < 1 for z0, *_ in zooms):
-                        zooms.append((at, chess.square_name(mv.to_square), 1.5, 1.8))  # règle 12 : zoom au payoff
+                    if badge in ("mat", "brillant", "gaffe") and not any(abs(z0 - at) < 1 for z0, *_ in zooms):
+                        fz, dz = (1.35, 1.1) if badge == "gaffe" else (1.5, 1.8)  # règle 12 : zoom au payoff (et sur la gaffe, pour le rythme)
+                        zooms.append((at, chess.square_name(mv.to_square), fz, dz))
                 anim = None
                 frame = image(b, last, None, icons, arrows, stickers, t, zf)
             else:
