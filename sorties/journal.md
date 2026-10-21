@@ -123,3 +123,8 @@
 ### commandes/v2_v_stafford.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/v_stafford.mp4 {"voix_brute_s": 60.0, "tempo": 1.146, "video_s": 55.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 149}
+## 2026-10-21 21:25 UTC · run 39678398757
+### commandes/coach_v_englund.json
+    voix générée : 645 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/v_englund.mp4 {"voix_brute_s": 54.7, "tempo": 1.049, "video_s": 55.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 102}
