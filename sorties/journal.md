@@ -108,3 +108,6 @@
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
       File "av/container/core.py", line 479, in av.container.core.open
     TypeError: open() got an unexpected keyword argument 'metadata_errors'
+### commandes/coach_v_siberien.json
+    voix générée : 732 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/v_siberien.mp4 {"voix_brute_s": 56.0, "tempo": 1.076, "video_s": 52.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 115}
