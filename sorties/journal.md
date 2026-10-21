@@ -128,3 +128,6 @@
     voix générée : 645 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/v_englund.mp4 {"voix_brute_s": 54.7, "tempo": 1.049, "video_s": 55.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 102}
+### commandes/coach_v_foiefrit.json
+    voix générée : 694 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/v_foiefrit.mp4 {"voix_brute_s": 51.6, "tempo": 1.0, "video_s": 54.6, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 111}
