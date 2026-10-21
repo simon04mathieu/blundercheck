@@ -79,8 +79,17 @@ def video_voix(cmd):
     if not voice_id:
         voice_id = eleven.ajouter(eleven.voix_francaises(1)[0])
     tmp = tempfile.mkdtemp()
-    brut = os.path.join(tmp, "voix.mp3")
-    eleven.tts(lu or texte_parle(script), voice_id, brut, cmd.get("stabilite", vd.get("stabilite", 0.5)))
+    # voix gardée dans le dépôt (sorties/voix/) : une relance ne repaie jamais les crédits ElevenLabs
+    texte = lu or texte_parle(script)
+    import hashlib
+    cle = hashlib.sha1(f"{voice_id}|{texte}".encode()).hexdigest()[:10]
+    dv = os.path.join(SORTIES, "voix"); os.makedirs(dv, exist_ok=True)
+    brut = os.path.join(dv, f"{nom}_{cle}.mp3")
+    if not os.path.exists(brut):
+        eleven.tts(texte, voice_id, brut, cmd.get("stabilite", vd.get("stabilite", 0.5)))
+        print("voix générée :", len(texte), "caractères", flush=True)
+    else:
+        print("voix réutilisée (0 crédit)", flush=True)
     d0 = duree(brut)
     vmax = cmd.get("duree_max", 52.0)
     tempo = min(1.18, d0 / vmax) if d0 > vmax else 1.0
