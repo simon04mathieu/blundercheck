@@ -157,3 +157,8 @@
 ## 2026-10-21 21:41 UTC · run 39680711782
 ### commandes/gaffe_demo.json
     OK /home/runner/work/blundercheck/blundercheck/sorties/gaffe_Jwt6l2NL.mp4 {"partie": "Jwt6l2NL", "coup": "25. Rxc1", "camp": "Blancs", "solution": ["Rxc1+", "Bf1", "Rxf1+"], "classement": 1976, "controle": {"meilleur": "Bf1", "eval_meilleur": 72, "eval_gaffe": -9995, "perte": 10067}, "video_s": 16.3}
+## 2026-10-21 21:52 UTC · run 39682133461
+### commandes/v3_v_siberien.json
+    voix générée : 767 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/v_siberien_v3.mp4 {"voix_brute_s": 55.0, "tempo": 1.054, "video_s": 55.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 128}
