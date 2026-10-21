@@ -46,7 +46,7 @@ jobs:
               grep -v -i "warn" /tmp/log.txt | tail -n 25 | sed 's/^/    /' >> sorties/journal.md
             fi
             # dépôt après chaque vidéo : rien n'est perdu si la suite échoue
-            git add -A sorties commandes outils/musique
+            git add -A sorties commandes outils/musique || true
             git commit -qm "Vidéo : $c (run ${{ github.run_id }})" && git pull -q --rebase origin videos && git push -q origin HEAD:videos || true
           done
       - name: Dépôt des vidéos
@@ -54,6 +54,6 @@ jobs:
         run: |
           git config user.name "BlunderCheck vidéos"
           git config user.email "actions@users.noreply.github.com"
-          git add -A sorties commandes outils/musique
+          git add -A sorties commandes outils/musique || true
           git commit -m "Vidéos fabriquées (run ${{ github.run_id }})" || exit 0
           git pull --rebase -q origin videos && git push -q origin HEAD:videos
