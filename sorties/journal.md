@@ -146,3 +146,6 @@
 ### commandes/coach_v_tennison.json
     voix générée : 587 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/v_tennison.mp4 {"voix_brute_s": 42.9, "tempo": 1.0, "video_s": 45.9, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 96}
+### commandes/perso_lasker.json
+    voix générée : 895 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/perso_lasker.mp4 {"voix_brute_s": 64.1, "tempo": 1.166, "video_s": 55.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 152}
