@@ -308,7 +308,10 @@ def run(spec, out_video, out_wav, tempo=1.0):
     zooms = []; stickers = []; stamps = []; quizs = []
     # règle 3 : image 1 = position finale (teaser) sous le hook, puis on rembobine
     teaser = None
-    if spec.get("teaser"):
+    if spec.get("teaser_board") is not None:
+        tb = spec["teaser_board"]; mv_ = tb.peek()
+        teaser = (tb, [mv_.from_square, mv_.to_square], [(mv_.to_square, "gaffe")])
+    elif spec.get("teaser"):
         tb = chess.Board()
         for s_ in spec["teaser"].split(): tb.push_san(s_)
         mv_ = tb.peek(); teaser = (tb, [mv_.from_square, mv_.to_square],

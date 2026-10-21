@@ -27,6 +27,7 @@ jobs:
           sudo cp outils/fonts/Inter*.otf /usr/share/fonts/opentype/inter/
           sudo cp outils/fonts/DejaVu*.ttf /usr/share/fonts/truetype/dejavu/
           pip install -q pillow numpy scipy cairosvg faster-whisper
+          sudo apt-get install -y -qq stockfish > /dev/null || true
       - name: Fabrication
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}

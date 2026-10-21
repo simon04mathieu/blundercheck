@@ -130,6 +130,25 @@ def video_voix(cmd):
 
 perso = video_voix
 
+def gaffe(cmd):
+    """Démo « Ta pire gaffe » sans voix : puzzle du jour Lichess, bruitages + musique jazz chill."""
+    import coach, gaffe as G
+    spec, info = G.spec_depuis_puzzle(G.puzzle_du_jour())
+    coach.FLIP = spec["noirs"]; coach.BG = coach.fond()
+    tmp = tempfile.mkdtemp(); muet, fx = os.path.join(tmp, "muet.mp4"), os.path.join(tmp, "fx.wav")
+    coach.run(spec, muet, fx, 1.0)
+    os.makedirs(SORTIES, exist_ok=True); out = os.path.join(SORTIES, f"gaffe_{info['partie']}.mp4")
+    mus = musique_fond(cmd)
+    if mus:
+        fc = ("[1:a]aresample=48000,aformat=channel_layouts=mono[f];[2:a]aresample=48000,aformat=channel_layouts=mono,volume=0.35[m];"
+              "[f][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]")
+        sh("ffmpeg", "-y", "-loglevel", "error", "-i", muet, "-i", fx, "-stream_loop", "-1", "-i", mus, "-filter_complex", fc,
+           "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", out)
+    else:
+        sh("ffmpeg", "-y", "-loglevel", "error", "-i", muet, "-i", fx, "-c:v", "copy", "-c:a", "aac", "-shortest", out)
+    info["video_s"] = round(duree(out), 1)
+    return out, info
+
 def boucle(cmd):
     import boucle as B
     out = os.path.join(SORTIES, f"boucle_{cmd['nom']}.mp4")
@@ -139,5 +158,5 @@ def boucle(cmd):
 if __name__ == "__main__":
     os.makedirs(SORTIES, exist_ok=True)
     cmd = json.load(open(sys.argv[1]))
-    res = {"echantillons": lambda c: (echantillons(c), {}), "perso": video_voix, "coach": video_voix, "boucle": boucle}[cmd["type"]](cmd)
+    res = {"echantillons": lambda c: (echantillons(c), {}), "perso": video_voix, "coach": video_voix, "boucle": boucle, "gaffe": gaffe}[cmd["type"]](cmd)
     print("OK", res[0], json.dumps(res[1], ensure_ascii=False))
