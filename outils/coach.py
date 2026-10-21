@@ -159,8 +159,11 @@ def run(spec, out_video, out_wav, tempo):
             elif typ == "fleches":
                 arrows = [(chess.parse_square(a), chess.parse_square(c)) for a, c in data]
             elif typ == "position":
-                b = chess.Board()
-                for s in data: b.push_san(s)
+                if data and data[0].startswith("fen:"):
+                    b = chess.Board(data[0][4:].replace("_", " ")); rest = data[1:]
+                else:
+                    b = chess.Board(); rest = data
+                for s in rest: b.push_san(s)
                 last = [b.peek().from_square, b.peek().to_square] if b.move_stack else None
                 icons = []; arrows = []; events.append((t, "rewind"))
             elif typ == "son":

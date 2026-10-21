@@ -98,3 +98,112 @@ import re
 def texte_voix(s):
     t = re.sub(r"\[[^\]]*\]", "", s)
     return re.sub(r"\s+", " ", t).strip()
+
+# ---------- lot 2 : quiz, légendes, rafales (21/10) ----------
+F_TOUR = "fen:r1bqk2r/ppppbpp1/2n2n2/4p3/2B1P3/5N2/PPPP1PP1/RNBQK2R_w_KQkq_-_0_6"
+F_CASE = "fen:r1bqk1nr/pppp1ppp/2n5/4p3/2b1P3/5N2/PPP2PPP/RNBQK2R_w_KQkq_-_0_6"
+F_ROIS = "fen:8/8/4k3/8/4K3/8/8/8_w_-_-_0_1"
+F_DAMES = "fen:6k1/1P3ppp/8/8/8/8/5PPP/3Q2K1_w_-_-_0_1"
+OPERA = "e4 e5 Nf3 d6 d4 Bg4 dxe5 Bxf3 Qxf3 dxe5 Bc4 Nf6 Qb3 Qe7 Nc3 c6 Bg5 b5"
+IMM = "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 b5 Bxb5 Nf6 Nf3 Qh6 d3 Nh5 Nh4 Qg5 Nf5 c6 g4 Nf6 Rg1 cxb5"
+SCRIPTS.update({
+"enpassant": ("blancs", """Ce pion va prendre… dans le vide. Et pourtant, c'est un coup légal. Regarde. [m e4] e4, cavalier [m Nf6] f6.
+Le pion avance en [m e5] e5 et chasse le cavalier. Les Noirs jouent [m d5] d5 : leur pion avance de deux cases, [f d7d5] et arrive juste à côté du pion blanc.
+Et là, le pion blanc prend [m exd6 bon] en d6, sur une case vide. Le pion d5 disparaît.
+C'est la prise en passant. Quand un pion avance de deux cases et arrive à côté d'un pion adverse, celui-ci peut le prendre comme s'il n'avait avancé que d'une case.
+Une seule condition : il faut le faire tout de suite, au coup suivant. Si tu attends, c'est trop tard.
+Beaucoup de joueurs croient à un bug quand ça leur arrive en ligne. Maintenant, tu sais.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"tour_attaquee": ("blancs", f"""[p {F_TOUR}] Les Blancs veulent roquer. Mais regarde : la tour h1 est attaquée [f h8h1] par la tour noire.
+Est-ce qu'ils ont le droit de roquer ? Réfléchis deux secondes…
+La réponse : oui ! [m O-O bon] Le roque est légal.
+Pour roquer, il y a trois conditions, et elles concernent toutes le roi.
+Un : le roi ne doit pas être en échec. Deux : il ne doit pas traverser une case attaquée. Trois : il ne doit pas arriver sur une case attaquée.
+Ici, le roi passe par f1 et arrive en g1, deux cases que personne n'attaque. La tour, elle, a le droit d'être attaquée.
+Beaucoup de joueurs n'osent pas roquer dans cette situation, alors qu'ils pourraient.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"case_attaquee": ("blancs", f"""[p {F_CASE}] Les Blancs veulent roquer. Le roi n'est pas en échec, il n'a jamais bougé, la tour non plus.
+Alors, le roque est permis ? Réfléchis…
+La réponse : non, c'est interdit ! Regarde le fou noir en c4. [f c4f1] Il contrôle la case f1.
+Et pour roquer, le roi doit passer par f1. [f e1g1 c4f1] Or le roi n'a jamais le droit de traverser une case attaquée.
+Même s'il n'est pas en échec au départ, et même s'il n'est pas en échec à l'arrivée.
+La bonne idée, c'est de bloquer la diagonale du fou. Par exemple, dame [m Qe2 meilleur] e2.
+La case f1 n'est plus attaquée, et le roque redevient possible.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"rois": ("blancs", f"""[p {F_ROIS}] Le roi blanc veut avancer en e5, [f e4e5] pour se rapprocher du roi noir.
+Est-ce que c'est permis ? Réfléchis…
+Non ! C'est interdit. La case e5 touche le roi noir : [f e6e5] elle est attaquée par lui.
+Et un roi n'a jamais le droit d'aller sur une case attaquée.
+Donc deux rois ne peuvent jamais se toucher. Il reste toujours au moins une case entre eux.
+C'est ce qu'on appelle l'opposition, et en finale, elle décide souvent de la partie : le roi qui doit jouer est obligé de céder le passage.
+Ici, les Blancs peuvent jouer roi [m Kd4 bon] d4, ou f4, mais jamais e5.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"deux_dames": ("blancs", f"""[p {F_DAMES}] Les Blancs ont déjà une dame. Et leur pion b7 arrive au bout de l'échiquier.
+Est-ce qu'il a le droit de devenir une deuxième dame ? Réfléchis…
+Oui ! Pion b8, [m b8=Q# mat] dame. Et en plus, c'est échec et mat !
+La nouvelle dame attaque le roi sur la dernière rangée, [f b8g8] et ses propres pions l'empêchent de fuir.
+La règle est simple : quand un pion arrive au bout, il se transforme en la pièce de ton choix. Dame, tour, fou ou cavalier, mais jamais un roi.
+Et ça ne dépend pas des pièces que tu as déjà. En théorie, tu peux avoir jusqu'à neuf dames en même temps.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"opera": ("blancs", f"""Paris, 1858. Paul Morphy joue contre deux nobles, pendant un opéra. Il va gagner en dix-sept coups.
+[p {OPERA}] Après neuf coups, Morphy a sorti toutes ses pièces. Les Noirs, eux, n'ont presque rien développé.
+Alors il frappe : cavalier prend [m Nxb5 bon] b5 ! [m cxb5] Les Noirs prennent. Fou prend [m Bxb5+] b5, échec. [m Nbd7] Cavalier d7.
+[m O-O-O] Grand roque, [m Rd8] tour d8. Tour prend [m Rxd7 bon] d7 ! Encore un sacrifice.
+[m Rxd7] Tour prend, [m Rd1] l'autre tour arrive. [m Qe6] Dame e6. Fou prend [m Bxd7+] d7, échec, [m Nxd7] cavalier prend.
+Et maintenant, dame [m Qb8+ meilleur] b8, échec ! Il donne sa dame. [m Nxb8] Le cavalier la prend, et tour [m Rd8# mat] d8. Échec et mat.
+Tu veux savoir si tu développes tes pièces assez vite ? Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"reti": ("blancs", """Vienne, 1910. Réti contre Tartakower, un grand maître. La partie va durer onze coups.
+[m e4] e4, [m c6] c6, [m d4] d4, [m d5] d5, cavalier [m Nc3] c3, d prend [m dxe4] e4, cavalier prend [m Nxe4] e4, cavalier [m Nf6] f6.
+Dame [m Qd3] d3, [m e5] e5. d prend [m dxe5] e5, dame [m Qa5+] a5, échec, fou [m Bd2] d2, dame prend [m Qxe5] e5.
+Et là, Réti fait le grand roque, [m O-O-O bizarre] et laisse son cavalier e4 en prise.
+Les Noirs le prennent. [m Nxe4 erreur] Erreur. Dame [m Qd8+ meilleur] d8, échec ! Il sacrifie sa dame. Le roi doit [m Kxd8] la prendre.
+Fou [m Bg5+ bon] g5 : échec double, du fou et de la tour. [f g5d8 d1d8] Le roi fuit en [m Kc7] c7.
+Et fou [m Bd8# mat] d8. Échec et mat, en onze coups.
+Tu veux voir les coups que tu rates dans tes parties ? Analyse-les gratuitement sur BlunderCheck."""),
+
+"lasker": ("blancs", """Londres, 1912. Edward Lasker contre George Thomas. Un roi va traverser tout l'échiquier… pour mourir.
+[p d4 e6 Nf3 f5 Nc3 Nf6 Bg5 Be7 Bxf6 Bxf6 e4 fxe4 Nxe4 b6 Ne5 O-O Bd3 Bb7] Après neuf coups, tout a l'air calme.
+Dame [m Qh5 bizarre] h5, [m Qe7] dame e7. Et là : dame prend [m Qxh7+ meilleur] h7, échec ! Il sacrifie sa dame. [m Kxh7] Le roi prend.
+Cavalier prend [m Nxf6+] f6, échec double. [m Kh6] Le roi monte en h6. Cavalier [m Neg4+] g4, échec, [m Kg5] le roi avance.
+[m h4+] h4, échec, [m Kf4] f4. [m g3+] g3, échec, [m Kf3] f3. Fou [m Be2+] e2, échec, [m Kg2] g2. Tour [m Rh2+] h2, échec, [m Kg1] g1.
+Le roi est parti de g8. Il est arrivé en g1. Et le mat, c'est un coup de roi : [m Kd2# mat] roi d2. La tour a1 donne échec, à la découverte.
+Tu veux savoir quelles erreurs te coûtent tes parties ? Analyse-les gratuitement sur BlunderCheck."""),
+
+"immortelle": ("blancs", f"""Londres, 1851. Anderssen contre Kieseritzky. Une partie qu'on appelle l'Immortelle.
+[p {IMM}] Les Blancs ont déjà laissé un fou. Et ce n'est que le début.
+[p {IMM} h4 Qg6 h5 Qg5 Qf3 Ng8 Bxf4 Qf6 Nc3 Bc5] Cavalier [m Nd5 bon] d5. La dame noire prend [m Qxb2] b2 et attaque la tour a1.
+Anderssen s'en fiche. Fou [m Bd6 meilleur] d6 ! [m Bxg1] Les Noirs prennent la tour g1. Pion [m e5] e5.
+[m Qxa1+] Et la dame prend l'autre tour, échec. Deux tours en moins. Roi [m Ke2] e2, [m Na6] cavalier a6.
+Cavalier prend [m Nxg7+] g7, échec, [m Kd8] roi d8. Et maintenant, dame [m Qf6+ meilleur] f6, échec ! Il donne aussi sa dame.
+[m Nxf6] Le cavalier prend, et fou [m Be7# mat] e7. Échec et mat, avec trois petites pièces.
+Tu veux savoir quelles erreurs te coûtent tes parties ? Analyse-les gratuitement sur BlunderCheck."""),
+
+"rafale1": ("blancs", """Cinq positions. À chaque fois, un seul coup fait mat. Tu as trois secondes.
+[p fen:6k1/5ppp/8/8/8/8/5PPP/3R2K1_w_-_-_0_1] Un. Les Blancs jouent. Trois… deux… un… Tour [m Rd8# mat] d8 ! Le roi est enfermé par ses propres pions.
+[p fen:6rk/6pp/8/6N1/8/8/6PP/6K1_w_-_-_0_1] Deux. Les Blancs jouent. Trois… deux… un… Cavalier [m Nf7# mat] f7 ! Le mat à l'étouffée.
+[p e4 e5 Bc4 Nc6 Qh5 Nf6] Trois. Les Blancs jouent. Trois… deux… un… Dame prend [m Qxf7# mat] f7 ! Le coup du berger.
+[p fen:7k/8/5K2/8/8/8/8/6Q1_w_-_-_0_1] Quatre. Les Blancs jouent. Trois… deux… un… Dame [m Qg7# mat] g7 ! Protégée par le roi.
+[p fen:3r2k1/8/8/8/8/8/5PPP/6K1_b_-_-_0_1] Cinq. Cette fois, ce sont les Noirs. Trois… deux… un… Tour [m Rd1# mat] d1 ! Le mat du couloir.
+Alors, combien sur cinq ? Dis-le en commentaire. Et pour t'entraîner sur tes propres erreurs, analyse tes parties gratuitement sur BlunderCheck."""),
+
+"rafale2": ("blancs", """Cinq mats en un, niveau deux. Ils viennent tous de pièges et de parties célèbres. Trois secondes à chaque fois.
+[p e4 e5 Nf3 d6 Bc4 Bg4 Nc3 g6 Nxe5 Bxd1 Bxf7+ Ke7] Un. Les Blancs jouent. Trois… deux… un… Cavalier [m Nd5# mat] d5 ! Le mat de Légal.
+[p e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nd7 Qe2 Ngf6] Deux. Les Blancs jouent. Trois… deux… un… Cavalier [m Nd6# mat] d6 ! Le pion e7 est cloué.
+[p e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 e6 Bc4 Qc7 O-O Nf6 Qe2 Ng4 h3 Nd4 Nxd4] Trois. Les Noirs jouent. Trois… deux… un… Dame [m Qh2# mat] h2 ! Le piège sibérien.
+[p d4 Nf6 c4 e5 dxe5 Ng4 Bf4 Nc6 Nf3 Bb4+ Nbd2 Qe7 a3 Ngxe5 axb4] Quatre. Les Noirs jouent. Trois… deux… un… Cavalier [m Nd3# mat] d3 ! Le pion e2 ne peut pas prendre : il est cloué par la dame.
+[p e4 e5 Nf3 d6 d4 Bg4 dxe5 Bxf3 Qxf3 dxe5 Bc4 Nf6 Qb3 Qe7 Nc3 c6 Bg5 b5 Nxb5 cxb5 Bxb5+ Nbd7 O-O-O Rd8 Rxd7 Rxd7 Rd1 Qe6 Bxd7+ Nxd7 Qb8+ Nxb8] Cinq. Les Blancs jouent. Trois… deux… un… Tour [m Rd8# mat] d8 ! La fin de la partie de l'Opéra.
+Combien sur cinq ? Dis-le en commentaire. Et analyse tes propres parties gratuitement sur BlunderCheck."""),
+
+"rafale3": ("blancs", """Quatre mats en un, niveau trois. Trois secondes à chaque fois.
+[p d4 e5 dxe5 Nc6 Nf3 Qe7 Bf4 Qb4+ Bd2 Qxb2 Bc3 Bb4 Qd2 Bxc3 Qxc3] Un. Le gambit Englund. Les Noirs jouent. Trois… deux… un… Dame [m Qc1# mat] c1 !
+[p e4 e5 Nf3 Nf6 Nxe5 Nc6 Nxc6 dxc6 d3 Bc5 Bg5 Nxe4 Bxd8 Bxf2+ Ke2] Deux. Le gambit Stafford. Les Noirs jouent. Trois… deux… un… Fou [m Bg4# mat] g4 ! Les Blancs ont pris la dame, et ils sont mat.
+[p e4 e5 Nf3 Nc6 Bc4 Nd4 Nxe5 Qg5 Nxf7 Qxg2 Rf1 Qxe4+ Be2] Trois. Le piège Blackburne. Les Noirs jouent. Trois… deux… un… Cavalier [m Nf3# mat] f3 !
+[p e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Qd3 e5 dxe5 Qa5+ Bd2 Qxe5 O-O-O Nxe4 Qd8+ Kxd8 Bg5+ Kc7] Quatre. Réti contre Tartakower. Les Blancs jouent. Trois… deux… un… Fou [m Bd8# mat] d8 ! Un grand maître, mat en onze coups.
+Tu les as tous trouvés ? Dis-le en commentaire. Et analyse tes propres parties gratuitement sur BlunderCheck."""),
+})
