@@ -1,0 +1,90 @@
+"""Fabrication automatique (GitHub Actions) : une commande JSON -> une vidéo finie dans sorties/.
+Commandes (fichiers commandes/*.json) :
+  {"type": "boucle", "nom": "lasker"}                          BOUCLE sans voix (outils/boucle.py)
+  {"type": "perso", "nom": "perso_lasker", "voix": "<id>"?}     voix ElevenLabs + calage + rendu + mixage
+  {"type": "echantillons", "n": 5}                              voix françaises de la bibliothèque, à écouter
+La voix par défaut est dans outils/voix.json ; sinon la première voix des échantillons.
+"""
+import sys, os, json, re, subprocess, tempfile
+HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
+ROOT = os.path.dirname(HERE); SORTIES = os.path.join(ROOT, "sorties")
+import eleven
+
+def sh(*a): subprocess.run(a, check=True)
+
+def duree(f):
+    return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f],
+                                capture_output=True, text=True, check=True).stdout)
+
+LETTRES = {"a": "a", "b": "bé", "c": "cé", "d": "dé", "e": "e", "f": "effe", "g": "gé", "h": "hache"}
+CHIFFRES = {"1": "un", "2": "deux", "3": "trois", "4": "quatre", "5": "cinq", "6": "six", "7": "sept", "8": "huit"}
+def texte_parle(script):
+    """Script à repères -> texte lu (cases en toutes lettres : « dé quatre »)."""
+    t = re.sub(r"\[[^\]]*\]\s*", "", script)
+    return re.sub(r"\b([a-h])([1-8])\b", lambda m: f"{LETTRES[m.group(1)]} {CHIFFRES[m.group(2)]}", t)
+
+def voix_defaut():
+    f = os.path.join(HERE, "voix.json")
+    return json.load(open(f)) if os.path.exists(f) else {}
+
+def transcrire(audio):
+    from faster_whisper import WhisperModel
+    m = WhisperModel("small", device="cpu", compute_type="int8")
+    segs, _ = m.transcribe(audio, language="fr", word_timestamps=True)
+    return [(w.start, w.end, w.word.strip()) for s in segs for w in s.words]
+
+def echantillons(cmd):
+    d = os.path.join(SORTIES, "echantillons"); os.makedirs(d, exist_ok=True)
+    phrase = cmd.get("texte", "[mischievously] Arrête de faire une dame à chaque promotion. Ici, tu fais un poney. "
+                              "[excited] Il prend le poney ? Fou gé quatre, échec. [laughs] Et la Gourmande tombe.")
+    lignes = ["# Échantillons de voix (ElevenLabs v3)", "", "| # | Nom | voice_id | Accent | Fichier |", "|---|---|---|---|---|"]
+    for i, v in enumerate(eleven.voix_francaises(cmd.get("n", 5), cmd.get("genre", "male")), 1):
+        vid = eleven.ajouter(v)
+        nom = re.sub(r"[^A-Za-z0-9]+", "_", v["nom"])[:30]
+        f = os.path.join(d, f"{i}_{nom}.mp3"); eleven.tts(phrase, vid, f)
+        lignes.append(f"| {i} | {v['nom']} | `{vid}` | {v.get('accent') or ''} | {os.path.basename(f)} |")
+        print("échantillon", i, v["nom"], flush=True)
+    open(os.path.join(d, "liste.md"), "w").write("\n".join(lignes) + "\n")
+    return d
+
+def perso(cmd):
+    import coach, coach2
+    from scripts_coach import PERSO
+    nom = cmd["nom"]; P = PERSO[nom]
+    vd = voix_defaut(); voice_id = cmd.get("voix") or vd.get("voice_id")
+    if not voice_id:
+        voice_id = eleven.ajouter(eleven.voix_francaises(1)[0])
+    tmp = tempfile.mkdtemp()
+    brut = os.path.join(tmp, "voix.mp3")
+    eleven.tts(P.get("voix") or texte_parle(P["script"]), voice_id, brut, cmd.get("stabilite", vd.get("stabilite", 0.5)))
+    d0 = duree(brut)
+    vmax = cmd.get("duree_max", 49.0)
+    tempo = min(1.18, max(1.0, d0 / vmax)) if d0 > vmax else 1.0
+    wav = os.path.join(tmp, "voix.wav")
+    sh("ffmpeg", "-y", "-loglevel", "error", "-i", brut, "-ac", "1", "-ar", "48000", wav)
+    mots = transcrire(wav)
+    spec = coach2.construire(nom, mots)
+    coach.FLIP = spec["noirs"]; coach.BG = coach.fond()
+    muet, fx = os.path.join(tmp, "muet.mp4"), os.path.join(tmp, "fx.wav")
+    dur = coach.run(spec, muet, fx, tempo)
+    os.makedirs(SORTIES, exist_ok=True); out = os.path.join(SORTIES, f"{nom}.mp4")
+    # voix devant (accélérée si besoin), bruitages dessous, pas de musique ; volume final -14 LUFS (standard TikTok)
+    sh("ffmpeg", "-y", "-loglevel", "error", "-i", muet, "-i", wav, "-i", fx, "-filter_complex",
+       f"[1:a]atempo={tempo:.4f},volume=1.0[v];[2:a]volume=0.45[f];[v][f]amix=inputs=2:duration=longest:normalize=0,"
+       "loudnorm=I=-14:TP=-1.5:LRA=11[a]",
+       "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest",
+       "-movflags", "+faststart", out)
+    return out, {"voix_brute_s": round(d0, 1), "tempo": round(tempo, 3), "video_s": round(duree(out), 1),
+                 "voice_id": voice_id, "mots_transcrits": len(mots)}
+
+def boucle(cmd):
+    import boucle as B
+    out = os.path.join(SORTIES, f"boucle_{cmd['nom']}.mp4")
+    B.fabriquer(cmd["nom"], out)
+    return out, {"video_s": round(duree(out), 1)}
+
+if __name__ == "__main__":
+    os.makedirs(SORTIES, exist_ok=True)
+    cmd = json.load(open(sys.argv[1]))
+    res = {"echantillons": lambda c: (echantillons(c), {}), "perso": perso, "boucle": boucle}[cmd["type"]](cmd)
+    print("OK", res[0], json.dumps(res[1], ensure_ascii=False))

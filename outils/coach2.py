@@ -5,7 +5,7 @@ mots.txt : lignes « début-fin mot » (sortie de faster-whisper).
 import sys, re, difflib, unicodedata
 import chess
 import coach
-from scripts_coach import SCRIPTS
+from scripts_coach import SCRIPTS, PERSO
 
 def norm(w):
     w = unicodedata.normalize("NFD", w.lower())
@@ -54,10 +54,15 @@ def aligner(toks, mots):
     return times
 
 def construire(nom, mots):
-    cote, script = SCRIPTS[nom]
+    """Scripts coach (SCRIPTS) ou PERSO (dict avec cote, script, hook)."""
+    opts = {}
+    if nom in PERSO:
+        opts = PERSO[nom]; cote, script = opts["cote"], opts["script"]
+    else:
+        cote, script = SCRIPTS[nom]
     toks = tokens(script)
     times = aligner(toks, mots)
-    actions = []
+    actions = []; hook_end = None
     for t, (s, e) in zip(toks, times):
         for mk in t["marks"]:
             typ = mk[0]
@@ -65,8 +70,16 @@ def construire(nom, mots):
                 actions.append((s, "coup", (mk[1], mk[2] if len(mk) > 2 else None)))
             elif typ == "f":
                 actions.append((s, "fleches", [(x[:2], x[2:]) for x in mk[1:]]))
-            elif typ == "p":
-                actions.append((s - 0.05, "position", mk[1:]))
+            elif typ == "p":  # une position posée sur le premier mot vaut dès l'image 1
+                actions.append((0.0 if not actions and s < 0.6 else s - 0.05, "position", mk[1:]))
+            elif typ == "s":   # autocollant : genre case durée [texte]
+                actions.append((s, "sticker", tuple(mk[1:])))
+            elif typ == "z":   # zoom : case(s) facteur durée
+                actions.append((s, "zoom", (mk[1], float(mk[2]), float(mk[3]))))
+            elif typ == "x":   # bruitage
+                actions.append((s, "son", mk[1]))
+            elif typ == "h":   # fin du hook
+                hook_end = s
     # sous-titres : groupes de 2 à 5 mots, coupés sur la ponctuation
     caps = []; cur = []; t0 = None
     for t, (s, e) in zip(toks, times):
@@ -77,10 +90,19 @@ def construire(nom, mots):
             caps.append((t0, e, " ".join(cur))); cur = []
     if cur:
         caps.append((t0, times[-1][1], " ".join(cur)))
-    # retire la ponctuation faible en fin de sous-titre
     caps = [(a, b, re.sub(r"[,:]$", "", c)) for a, b, c in caps]
     duree = times[-1][1] + 0.3
-    return {"duree": duree, "captions": caps, "actions": actions, "noirs": cote == "noirs"}
+    spec = {"duree": duree, "captions": caps, "actions": actions, "noirs": cote == "noirs"}
+    if opts:
+        # mot géant : chaque mot du script, en majuscules, sans ponctuation (« ? » et « ! » gardés)
+        spec["mots"] = [(s, e, re.sub(r"[.,:;…]", "", t["w"]).upper()) for t, (s, e) in zip(toks, times)
+                        if re.search(r"\w", t["w"])]  # « ? » ou « ! » isolés ne deviennent pas un mot géant
+        spec["sous_titres"] = opts.get("sous_titres", "mot")
+        spec["musique"] = opts.get("musique", 0.0)          # PERSO : pas de musique sous la voix
+        spec["fx"] = opts.get("fx", {"gaffe": "bwomp", "brillant": "impact"})
+        if opts.get("hook"):
+            spec["hook"] = (opts["hook"], hook_end if hook_end is not None else 2.0)
+    return spec
 
 if __name__ == "__main__":
     nom, fmots, out_v, out_a, tempo = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], float(sys.argv[5])

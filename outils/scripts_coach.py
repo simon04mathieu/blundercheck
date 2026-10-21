@@ -384,3 +384,43 @@ Le roi ne peut pas la prendre, le cavalier la protège. Alors la tour [m Rxg8] p
 Le roi est enfermé par ses propres pièces. On l'appelle aussi le legs de Philidor, du nom d'un joueur français.
 Analyse tes parties gratuitement sur BlunderCheck."""),
 })
+
+# ---------- format PERSO (21/10, 21 h 45) : personnages BlunderCheck, voix expressive, pas de musique ----------
+# Repères en plus : [s genre case durée texte?] autocollant (bonbon, couronne, tag), [z case(s) facteur durée] zoom,
+# [x son] bruitage, [h] fin du hook (le bandeau fixe s'arrête là). Personnages : la Gourmande (dame adverse),
+# les bonbons (pions ou pièces offerts), le poney (cavalier), le pigeon (l'adversaire), toi.
+LASKER_PONEY = "d4 d5 c4 e5 dxe5 d4 e3 Bb4+ Bd2 dxe3 Bxb4 exf2+ Ke2 fxg1=N+"
+PERSO = {
+"perso_lasker": {
+    "cote": "noirs",
+    "hook": "Arrête de faire une dame.|Ici, fais un poney.",
+    # texte lu par ElevenLabs v3 (indications de jeu entre crochets, non prononcées ; cases en toutes lettres)
+    "voix": """[mischievously] Arrête de faire une dame à chaque promotion. Ici, tu fais un poney.
+[fast] On rembobine. Il joue dé quatre, dé cinq, cé quatre.
+Toi, tu lui poses un bonbon : e cinq. Le pigeon le mange. [amused] Miam.
+Tu avances dé quatre. Ça le gêne. Il joue e trois.
+Fou bé quatre, échec. Fou dé deux. Tu prends e trois.
+[whispers] Et là, il voit un gros bonbon : ton fou. [mocking] Il le mange. Erreur !
+Tu prends effe deux, échec. Son roi monte en e deux.
+Ton pion arrive au bout. Tout le monde fait une dame. Pas toi.
+[excited] Tu fais un poney. Échec ! Une dame ? La Gourmande prenait la tienne, avec échec. Fini.
+Le poney, lui, donne échec. Pas le temps.
+Il prend le poney ? Fou gé quatre, échec. Son roi bouge… [laughs] et la Gourmande tombe.
+Il ne le prend pas ? Roi e un, dame hache quatre, échec. Son roi se promène.
+[smug] Le pigeon, c'était lui. Analyse tes parties sur BlunderCheck.""",
+    "script": """[p d4 d5 c4 e5 dxe5 d4 e3 Bb4+ Bd2 dxe3 Bxb4 exf2+ Ke2] [f f2g1] Arrête de faire une dame à chaque promotion. [s tag e2 3.5 LE_PIGEON] Ici, tu fais un poney.
+[h] [p] On rembobine. Il joue [m d4] d4, [m d5] d5, [m c4] c4.
+Toi, tu lui poses un bonbon : [m e5 bizarre] e5. [s bonbon e5 2.5] Le pigeon le mange. [m dxe5] Miam.
+Tu avances [m d4] d4. Ça le gêne. Il joue [m e3 erreur] e3.
+Fou [m Bb4+] b4, échec. Fou [m Bd2] d2. Tu prends [m dxe3] e3.
+Et là, il voit un gros bonbon : [s bonbon b4 2.5] ton fou. Il le mange. [m Bxb4 gaffe] Erreur !
+Tu prends [m exf2+] f2, échec. Son roi monte [m Ke2] en e2.
+Ton pion arrive au bout. [f f2g1] Tout le monde fait une dame. Pas toi.
+Tu fais un poney. [m fxg1=N+ brillant] [z e2g1 1.45 2.6] Échec ! [s tag g1 2.5 LE_PONEY]
+Une dame ? [s couronne d1 3.5] La Gourmande prenait la tienne, [f d1d8] avec échec. Fini.
+Le poney, lui, donne échec. Pas le temps.
+Il prend le poney ? [m Rxg1] Fou [m Bg4+ bon] g4, échec. [f g4d1] [s couronne d1 2.6] Son roi bouge, [m Kf2] et la Gourmande [m Bxd1] [z d1 1.6 2.0] [x impact] tombe.
+Il ne le prend pas ? [p """ + LASKER_PONEY.replace(" ", " ") + """] Roi [m Ke1] e1, dame [m Qh4+ bon] h4, échec. [z e1 1.4 1.8] Son roi se promène.
+Le pigeon, c'était lui. Analyse tes parties sur BlunderCheck.""",
+},
+}

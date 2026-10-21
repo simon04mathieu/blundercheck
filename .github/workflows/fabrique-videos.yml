@@ -1,0 +1,54 @@
+# Fabrique automatiquement les vidéos commandées dans commandes/*.json (branche videos).
+# Voix : ElevenLabs (secret ELEVENLABS_API_KEY). Sorties : sorties/*.mp4, journal : sorties/journal.md
+name: Fabrique vidéos
+on:
+  push:
+    branches: [videos]
+    paths: ["commandes/*.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: fabrique-videos
+  cancel-in-progress: false
+jobs:
+  fabrique:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: videos }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - name: Outils
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg libcairo2 > /dev/null
+          sudo mkdir -p /usr/share/fonts/opentype/inter /usr/share/fonts/truetype/dejavu
+          sudo cp outils/fonts/Inter*.otf /usr/share/fonts/opentype/inter/
+          sudo cp outils/fonts/DejaVu*.ttf /usr/share/fonts/truetype/dejavu/
+          pip install -q pillow numpy scipy cairosvg faster-whisper
+      - name: Fabrication
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          mkdir -p sorties commandes/faites
+          echo "## $(date -u '+%Y-%m-%d %H:%M') UTC · run ${{ github.run_id }}" >> sorties/journal.md
+          for c in commandes/*.json; do
+            [ -e "$c" ] || continue
+            echo "### $c" >> sorties/journal.md
+            if python3 outils/fabrique.py "$c" > /tmp/log.txt 2>&1; then
+              tail -n 3 /tmp/log.txt | sed 's/^/    /' >> sorties/journal.md
+              git mv "$c" commandes/faites/ 2>/dev/null || mv "$c" commandes/faites/
+            else
+              echo "ÉCHEC :" >> sorties/journal.md
+              grep -v -i "warn" /tmp/log.txt | tail -n 25 | sed 's/^/    /' >> sorties/journal.md
+            fi
+          done
+      - name: Dépôt des vidéos
+        if: always()
+        run: |
+          git config user.name "BlunderCheck vidéos"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A sorties commandes
+          git commit -m "Vidéos fabriquées (run ${{ github.run_id }})" || exit 0
+          git pull --rebase -q origin videos && git push -q origin HEAD:videos
