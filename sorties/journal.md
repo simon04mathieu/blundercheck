@@ -28,3 +28,23 @@
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
       File "av/container/core.py", line 479, in av.container.core.open
     TypeError: open() got an unexpected keyword argument 'metadata_errors'
+### commandes/coach_v_foiefrit.json
+ÉCHEC :
+    Traceback (most recent call last):
+      File "/home/runner/work/blundercheck/blundercheck/outils/fabrique.py", line 119, in <module>
+        res = {"echantillons": lambda c: (echantillons(c), {}), "perso": video_voix, "coach": video_voix, "boucle": boucle}[cmd["type"]](cmd)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/runner/work/blundercheck/blundercheck/outils/fabrique.py", line 84, in video_voix
+        mots = transcrire(wav)
+               ^^^^^^^^^^^^^^^
+      File "/home/runner/work/blundercheck/blundercheck/outils/fabrique.py", line 35, in transcrire
+        segs, _ = m.transcribe(audio, language="fr", word_timestamps=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/faster_whisper/transcribe.py", line 876, in transcribe
+        audio = decode_audio(audio, sampling_rate=sampling_rate)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/faster_whisper/audio.py", line 46, in decode_audio
+        with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "av/container/core.py", line 479, in av.container.core.open
+    TypeError: open() got an unexpected keyword argument 'metadata_errors'
