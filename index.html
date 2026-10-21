@@ -5185,6 +5185,7 @@ async function chargerCompte() {
     if (r.ok) Object.assign(COMPTE, await r.json(), { charge: true });
   } catch { }
   emit('compte');
+  if (typeof majProfil === 'function') majProfil();
   if (COMPTE.connecte) synchroParties();
 }
 
@@ -5350,7 +5351,7 @@ function pageCompte(view) {
   view.innerHTML = `${tete}<div class="grid2" style="max-width:900px;margin-inline:auto;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))">
     <div class="card"><div class="card-h"><h3>Plan</h3><span class="tag ${plus ? 'tag-ia' : ''}">${plus ? 'BlunderCheck+' : 'Free'}</span></div><div class="card-b" style="display:grid;gap:12px">
       <p class="muted">${esc(COMPTE.email)}</p>
-      ${plus ? `<p>${fin ? `Next renewal: <b>${esc(fin)}</b>.` : 'Subscription active.'}</p>` : `<p class="muted">The coach comments on ${q ? q.limites.parties : 3} games a month for free. BlunderCheck+ goes up to 100 games, for ${PRIX.anMois} per month.</p>`}
+      ${plus ? `<p>${fin ? `Next renewal: <b>${esc(fin)}</b>.` : 'Subscription active.'}</p>` : COMPTE.paiement ? `<p class="muted">The coach comments on ${q ? q.limites.parties : 3} games a month for free. BlunderCheck+ goes up to 100 games, for ${PRIX.anMois} per month.</p>` : `<p class="muted">During the beta, the coach is free. When BlunderCheck+ launches, the free plan will keep 3 commented games a month.</p>`}
       <div style="display:flex;gap:8px;flex-wrap:wrap">
         ${!plus && COMPTE.paiement ? `<button class="btn primary" data-abo="an">${ico('send')}Upgrade to BlunderCheck+</button>` : ''}
         ${COMPTE.abonne ? `<button class="btn" id="cpPortail">${ico('parametres')}Manage my subscription</button>` : ''}
@@ -5724,7 +5725,8 @@ function majCompteurs() {
 }
 function majProfil() {
   const p = REGLAGES.pseudos.split(',')[0].trim();
-  $('#profBtn').textContent = p ? p[0].toUpperCase() : '?';
+  const e = window.COMPTE && COMPTE.connecte && COMPTE.email;
+  $('#profBtn').textContent = p ? p[0].toUpperCase() : e ? e[0].toUpperCase() : '?';
 }
 function menuProfil() {
   const m = $('#profMenu'), p = REGLAGES.pseudos.split(',')[0].trim();
@@ -10054,6 +10056,7 @@ async function chargerCompte() {
     if (r.ok) Object.assign(COMPTE, await r.json(), { charge: true });
   } catch { }
   emit('compte');
+  if (typeof majProfil === 'function') majProfil();
   if (COMPTE.connecte) synchroParties();
 }
 
@@ -10219,7 +10222,7 @@ function pageCompte(view) {
   view.innerHTML = `${tete}<div class="grid2" style="max-width:900px;margin-inline:auto;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))">
     <div class="card"><div class="card-h"><h3>Formule</h3><span class="tag ${plus ? 'tag-ia' : ''}">${plus ? 'BlunderCheck+' : 'Gratuit'}</span></div><div class="card-b" style="display:grid;gap:12px">
       <p class="muted">${esc(COMPTE.email)}</p>
-      ${plus ? `<p>${fin ? `Prochaine échéance : <b>${esc(fin)}</b>.` : 'Abonnement actif.'}</p>` : `<p class="muted">Le prof commente ${q ? q.limites.parties : 3} parties par mois en gratuit. BlunderCheck+ monte à 100 parties, pour ${PRIX.anMois} par mois.</p>`}
+      ${plus ? `<p>${fin ? `Prochaine échéance : <b>${esc(fin)}</b>.` : 'Abonnement actif.'}</p>` : COMPTE.paiement ? `<p class="muted">Le prof commente ${q ? q.limites.parties : 3} parties par mois en gratuit. BlunderCheck+ monte à 100 parties, pour ${PRIX.anMois} par mois.</p>` : `<p class="muted">Pendant la bêta, le prof est gratuit. Au lancement de BlunderCheck+, la formule gratuite gardera 3 parties commentées par mois.</p>`}
       <div style="display:flex;gap:8px;flex-wrap:wrap">
         ${!plus && COMPTE.paiement ? `<button class="btn primary" data-abo="an">${ico('send')}Passer à BlunderCheck+</button>` : ''}
         ${COMPTE.abonne ? `<button class="btn" id="cpPortail">${ico('parametres')}Gérer mon abonnement</button>` : ''}
@@ -10593,7 +10596,8 @@ function majCompteurs() {
 }
 function majProfil() {
   const p = REGLAGES.pseudos.split(',')[0].trim();
-  $('#profBtn').textContent = p ? p[0].toUpperCase() : '?';
+  const e = window.COMPTE && COMPTE.connecte && COMPTE.email;
+  $('#profBtn').textContent = p ? p[0].toUpperCase() : e ? e[0].toUpperCase() : '?';
 }
 function menuProfil() {
   const m = $('#profMenu'), p = REGLAGES.pseudos.split(',')[0].trim();
