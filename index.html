@@ -840,6 +840,11 @@ a.btn { text-decoration: none; }
 .quota-h{display:flex;justify-content:space-between;gap:8px;font-size:13px;color:var(--fg-2)}
 .quota-h b{color:var(--fg);font-variant-numeric:tabular-nums}
 
+.lang-top { padding: 2px; }
+.lang-top button { padding: 5px 9px; font-size: 12.5px; font-weight: 650; letter-spacing: .04em; min-width: 34px; }
+.lang-top button.on { background: var(--accent); color: #111614; }
+@media (max-width: 600px) { .lang-top button { padding: 5px 7px; min-width: 30px; } }
+
 </style>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
     
@@ -1022,6 +1027,7 @@ a.btn { text-decoration: none; }
       </div>
       <div class="top-actions">
         <button class="btn primary" data-route="import" aria-label="Analyser une partie"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>Analyser une partie</span></button>
+        <div class="seg lang-top" role="group" aria-label="Langue / Language" title="Langue / Language"><button data-lang="fr" lang="fr" aria-label="Français">FR</button><button data-lang="en" lang="en" aria-label="English">EN</button></div>
         <div class="profile">
           <button class="avatar" id="profBtn" aria-haspopup="menu" aria-expanded="false" aria-label="Menu du profil">?</button>
           <div class="menu" id="profMenu" role="menu" hidden></div>
