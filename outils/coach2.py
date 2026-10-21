@@ -5,7 +5,7 @@ mots.txt : lignes « début-fin mot » (sortie de faster-whisper).
 import sys, re, difflib, unicodedata
 import chess
 import coach
-from scripts_coach import SCRIPTS, PERSO, HOOKS
+from scripts_coach import SCRIPTS, PERSO, HOOKS, TEASERS, QUESTIONS, QUESTION_DEFAUT
 
 def norm(w):
     w = unicodedata.normalize("NFD", w.lower())
@@ -62,7 +62,7 @@ def construire(nom, mots):
         cote, script = SCRIPTS[nom]
     toks = tokens(script)
     times = aligner(toks, mots)
-    actions = []; hook_end = None
+    actions = []; hook_end = None; pauses = []
     for t, (s, e) in zip(toks, times):
         for mk in t["marks"]:
             typ = mk[0]
@@ -80,6 +80,8 @@ def construire(nom, mots):
                 actions.append((s, "son", mk[1]))
             elif typ == "h":   # fin du hook
                 hook_end = s
+            elif typ == "q":   # pause « trouve le coup » : secondes, texte (silence inséré dans la voix)
+                pauses.append((s - 0.02, float(mk[1]), " ".join(mk[2:]).replace("_", " ")))
     # sous-titres : groupes de 2 à 5 mots, coupés sur la ponctuation
     caps = []; cur = []; t0 = None
     for t, (s, e) in zip(toks, times):
@@ -105,7 +107,23 @@ def construire(nom, mots):
         spec["fx"] = opts.get("fx", {"gaffe": "bwomp", "brillant": "impact"})
         if opts.get("hook"):
             spec["hook"] = (opts["hook"], hook_end if hook_end is not None else 2.0)
+    spec["teaser"] = TEASERS.get(nom)
+    spec["question"] = QUESTIONS.get(nom, QUESTION_DEFAUT)
+    if pauses: decaler(spec, pauses)
     return spec
+
+def decaler(spec, pauses):
+    """Insère les pauses « trouve le coup » : tout ce qui suit est décalé, et la pause devient une action quiz."""
+    def sh(t): return t + sum(d for p, d, _ in pauses if t >= p)
+    spec["actions"] = [(sh(t), typ, data) for t, typ, data in spec["actions"]]
+    spec["captions"] = [(sh(a), sh(b), c) for a, b, c in spec["captions"]]
+    if "mots" in spec: spec["mots"] = [(sh(a), sh(b), w) for a, b, w in spec["mots"]]
+    if spec.get("hook"): spec["hook"] = (spec["hook"][0], sh(spec["hook"][1]))
+    spec["duree"] = sh(spec["duree"])
+    for k, (p, d, txt) in enumerate(pauses):
+        t0 = p + sum(dd for pp, dd, _ in pauses[:k])
+        spec["actions"].append((t0, "quiz", (d, txt)))
+    spec["pauses"] = [(p, d) for p, d, _ in pauses]  # en temps de voix d'origine, pour couper l'audio
 
 if __name__ == "__main__":
     nom, fmots, out_v, out_a, tempo = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], float(sys.argv[5])

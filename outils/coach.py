@@ -274,6 +274,13 @@ def tampon(im, texte, col, age, sous=""):
         d.text(((W - tw) / 2, cy + r + 24), sous, font=f2, fill=(255, 255, 255, 255), stroke_width=8, stroke_fill=(0, 0, 0, 255))
     im.alpha_composite(lay)
 
+def decompte(im, n, age):
+    """Chiffre du décompte, entre le bandeau et l'échiquier (ne cache pas la position à chercher)."""
+    d = ImageDraw.Draw(im); s = 1 + 0.25 * (1 - ease(age / 0.15)); r = int(62 * s); cx, cy = W // 2, BY - 92
+    d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(245, 239, 225), outline=(0, 0, 0), width=6)
+    f = font(F_BLACK, int(88 * s)); bb = d.textbbox((0, 0), n, font=f)
+    d.text((cx - (bb[0] + bb[2]) / 2, cy - (bb[1] + bb[3]) / 2), n, font=f, fill=(16, 28, 22))
+
 FX_BADGE = {"gaffe": "bwomp", "mat": "impact", "meilleur": "chime"}
 
 def run(spec, out_video, out_wav, tempo=1.0):
@@ -298,7 +305,17 @@ def run(spec, out_video, out_wav, tempo=1.0):
     fxmap = spec.get("fx", FX_BADGE)
     b = chess.Board(spec["fen"]) if spec.get("fen") else chess.Board()
     last = None; icons = []; arrows = []; events = []
-    zooms = []; stickers = []; stamps = []
+    zooms = []; stickers = []; stamps = []; quizs = []
+    # règle 3 : image 1 = position finale (teaser) sous le hook, puis on rembobine
+    teaser = None
+    if spec.get("teaser"):
+        tb = chess.Board()
+        for s_ in spec["teaser"].split(): tb.push_san(s_)
+        mv_ = tb.peek(); teaser = (tb, [mv_.from_square, mv_.to_square],
+                                   [(mv_.to_square, "mat" if tb.is_checkmate() else "brillant")])
+    teaser_end = hook_end if teaser else 0
+    if teaser: events.append((teaser_end, "rewind"))
+    question = spec.get("question"); q_start = dur - 3.2 if question else dur + 1
     p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
                           "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "medium", "-crf", "20",
                           "-pix_fmt", "yuv420p", out_video], stdin=subprocess.PIPE)
@@ -347,9 +364,18 @@ def run(spec, out_video, out_wav, tempo=1.0):
                 stickers.append((t, t + float(data[2]) * k, data[0], data[1], data[3] if len(data) > 3 else ""))
             elif typ == "tampon":
                 stamps.append((t, t + float(data[2]) * k, data[0], data[1], data[3] if len(data) > 3 else ""))
+            elif typ == "quiz":  # pause « trouve le coup » : décompte 3-2-1
+                d_, txt_ = data; quizs.append((t, t + float(d_) * k, txt_))
+                for i_ in range(int(float(d_) * k)): events.append((t + i_, "tick_hi" if i_ == 0 else "tick"))
             elif typ == "son":
                 events.append((t, data))
         zf = zoom_factor(t, zooms)
+        if teaser and t < teaser_end:  # image 1 : la fin de l'histoire
+            frame = image(teaser[0], teaser[1], None, teaser[2], (), (), t, (1.0, None))
+            bandeau_hook(frame, hook[0])
+            p.stdin.write(frame.convert("RGB").tobytes())
+            if first is None: first = frame.copy()
+            continue
         if anim:
             prog = (t - anim["t0"]) / SLIDE
             if prog >= 1:
@@ -359,6 +385,8 @@ def run(spec, out_video, out_wav, tempo=1.0):
                 events.append((at, "check" if b.is_check() and not b.is_checkmate() else ("capture" if cap else "move")))
                 if badge:
                     icons = [(mv.to_square, badge)]; badge_fx(at, badge)
+                    if badge in ("mat", "brillant") and not any(abs(z0 - at) < 1 for z0, *_ in zooms):
+                        zooms.append((at, chess.square_name(mv.to_square), 1.5, 1.8))  # règle 12 : zoom au payoff
                 anim = None
                 frame = image(b, last, None, icons, arrows, stickers, t, zf)
             else:
@@ -367,9 +395,17 @@ def run(spec, out_video, out_wav, tempo=1.0):
             frame = image(b, last, None, icons, arrows, stickers, t, zf)
         for t0, t1, txt, col, sous in stamps:
             if t0 <= t < t1: tampon(frame, txt, tuple(col), t - t0, sous)
-        if hook and t < hook_end + 0.25:
+        qz = next(((a, b2, tx) for a, b2, tx in quizs if a <= t < b2), None)
+        if qz:  # décompte au centre + consigne en haut
+            bandeau_hook(frame, qz[2])
+            decompte(frame, str(max(1, math.ceil(qz[1] - t))), (t - qz[0]) % 1.0)
+        if t >= q_start:
+            bandeau_hook(frame, question, min(1.0, (t - q_start) / 0.25))
+        if qz or t >= q_start: pass
+        elif hook and t < hook_end + 0.25:
             bandeau_hook(frame, hook[0], 1.0 if t < hook_end else 1 - (t - hook_end) / 0.25)
-        if spec.get("sous_titres") == "mot":
+        if qz or t >= q_start: pass  # pas de sous-titres sous un bandeau
+        elif spec.get("sous_titres") == "mot":
             cur = None
             for i2, (a, z2, w) in enumerate(mots):
                 nxt = mots[i2 + 1][0] if i2 + 1 < len(mots) else z2 + 0.4

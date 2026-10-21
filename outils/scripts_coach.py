@@ -219,7 +219,7 @@ SCRIPTS.update({
 [m e4] e4, [m e5] e5, cavalier [m Nf3] f3, cavalier [m Nf6 livre] f6. Les Blancs prennent [m Nxe5] e5, et toi, cavalier [m Nc6 bizarre] c6 ! C'est le gambit Stafford : tu donnes un pion.
 Cavalier prend [m Nxc6] c6, d prend [m dxc6] c6. Tes pièces sortent toutes seules. [m d3] d3, fou [m Bc5] c5.
 Et là, les Blancs attaquent ta dame : fou [m Bg5 gaffe] g5. Tout le monde pense que ta dame est perdue.
-Mais tu joues cavalier prend [m Nxe4 meilleur] e4 ! Tu laisses ta dame. Fou prend [m Bxd8] d8 : oh no, my queen.
+[q 3 Trouve_le_coup_des_Noirs] Mais tu joues cavalier prend [m Nxe4 meilleur] e4 ! Tu laisses ta dame. Fou prend [m Bxd8] d8 : oh no, my queen.
 Fou prend [m Bxf2+] f2, échec. Le roi doit aller [m Ke2] en e2, et fou [m Bg4# mat] g4. Échec et mat.
 Le bon coup pour les Blancs, c'était [p e4 e5 Nf3 Nf6 Nxe5 Nc6 Nxc6 dxc6 d3 Bc5] fou [m Be2 meilleur] e2. Le Stafford gagne vite, mais il perd contre la bonne défense.
 Analyse tes parties gratuitement sur BlunderCheck."""),
@@ -271,7 +271,7 @@ Analyse tes parties gratuitement sur BlunderCheck."""),
 [m e4] e4, [m c5] c5, [m d4] d4, c prend [m cxd4] d4, [m c3] c3 : les Blancs offrent un pion. d prend [m dxc3] c3, cavalier prend [m Nxc3] c3.
 [p e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 e6 Bc4 Qc7 O-O Nf6 Qe2] Quelques coups plus tard, les Blancs ont roqué, leur dame est en e2.
 Tu joues cavalier [m Ng4 bizarre] g4. Il vise h2, [f c7h2] avec ta dame. Les Blancs le chassent : [m h3] h3.
-Et toi, au lieu de reculer : cavalier [m Nd4 bon] d4 ! Tu attaques la dame. Les Blancs prennent : [m Nxd4 gaffe] cavalier prend d4.
+[q 3 Trouve_le_coup_des_Noirs] Et toi, au lieu de reculer : cavalier [m Nd4 bon] d4 ! Tu attaques la dame. Les Blancs prennent : [m Nxd4 gaffe] cavalier prend d4.
 Et dame [m Qh2# mat] h2. Échec et mat ! Le cavalier g4 protège ta dame.
 Et s'ils avaient pris le cavalier g4, tu prenais leur dame en e2, avec échec.
 Analyse tes parties gratuitement sur BlunderCheck."""),
@@ -427,7 +427,7 @@ Le pigeon, c'était lui. Analyse tes parties sur BlunderCheck.""",
 
 # ---------- hooks affichés dès l'image 1 (règle 2) pour les scripts coach ; le bandeau tient jusqu'à la fin de la 1re phrase ----------
 HOOKS = {
-    "v_stafford": "Il prend ta dame…|et il perd la partie.",
+    "v_stafford": "Il prend ta dame…|et il se fait mater.",
     "v_englund": "Ce gambit douteux|fait mat en 8 coups.",
     "v_noe": "Ton fou peut être|enfermé vivant.",
     "v_halosar": "Il laisse sa dame…|et fait mat.",
@@ -435,6 +435,15 @@ HOOKS = {
     "v_kieninger": "Prends ce fou|et c'est mat en d3.",
     "v_tennison": "Sa dame tombe|en 8 coups.",
     "v_tarrasch": "Le piège qui gagne la dame|dans l'espagnole.",
-    "v_siberien": "Mat en h2 :|le piège sibérien.",
+    "v_siberien": "Il prend ce cavalier ?|Mat en h2.",
     "v_mortimer": "Laisse ce pion en prise.|Exprès.",
 }
+
+# ---------- image 1 = la position finale (règle 3), montrée sous le hook avant de rembobiner ----------
+TEASERS = {
+    "v_siberien": "e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 e6 Bc4 Qc7 O-O Nf6 Qe2 Ng4 h3 Nd4 Nxd4 Qh2#",
+    "v_stafford": "e4 e5 Nf3 Nf6 Nxe5 Nc6 Nxc6 dxc6 d3 Bc5 Bg5 Nxe4 Bxd8 Bxf2+ Ke2 Bg4#",
+}
+# ---------- question affichée sur les dernières secondes (pousse aux commentaires) ----------
+QUESTIONS = {}
+QUESTION_DEFAUT = "Tu l'aurais vu ?|Réponds en commentaire."

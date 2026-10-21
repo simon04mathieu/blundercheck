@@ -91,12 +91,20 @@ def video_voix(cmd):
     else:
         print("voix réutilisée (0 crédit)", flush=True)
     d0 = duree(brut)
-    vmax = cmd.get("duree_max", 52.0)
-    tempo = min(1.18, d0 / vmax) if d0 > vmax else 1.0
     wav = os.path.join(tmp, "voix.wav")
     sh("ffmpeg", "-y", "-loglevel", "error", "-i", brut, "-ac", "1", "-ar", "48000", wav)
     mots = transcrire(wav)
     spec = coach2.construire(nom, mots)
+    if spec.get("pauses"):  # silences « trouve le coup » insérés dans la voix
+        import numpy as np
+        from scipy.io import wavfile
+        sr, x = wavfile.read(wav); parts = []; prev = 0
+        for p0, d in sorted(spec["pauses"]):
+            i = int(p0 * sr); parts += [x[prev:i], np.zeros(int(d * sr), x.dtype)]; prev = i
+        parts.append(x[prev:]); wavfile.write(wav, sr, np.concatenate(parts))
+    d1 = d0 + sum(d for _, d in spec.get("pauses", []))
+    vmax = cmd.get("duree_max", 55.0)
+    tempo = min(1.18, d1 / vmax) if d1 > vmax else 1.0
     if cmd.get("sans_musique") is not True: spec["musique"] = 0.0  # la musique de fond vient d'ElevenLabs, pas du synthé
     coach.FLIP = spec["noirs"]; coach.BG = coach.fond()
     muet, fx = os.path.join(tmp, "muet.mp4"), os.path.join(tmp, "fx.wav")
