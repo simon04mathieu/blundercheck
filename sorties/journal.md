@@ -137,3 +137,6 @@
 ### commandes/coach_v_kieninger.json
     voix générée : 616 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/v_kieninger.mp4 {"voix_brute_s": 51.5, "tempo": 1.0, "video_s": 54.5, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 94}
+### commandes/coach_v_noe.json
+    voix générée : 790 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/v_noe.mp4 {"voix_brute_s": 75.2, "tempo": 1.18, "video_s": 66.3, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 124}
