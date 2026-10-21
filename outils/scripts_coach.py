@@ -207,3 +207,180 @@ Combien sur cinq ? Dis-le en commentaire. Et analyse tes propres parties gratuit
 [p e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Qd3 e5 dxe5 Qa5+ Bd2 Qxe5 O-O-O Nxe4 Qd8+ Kxd8 Bg5+ Kc7] Quatre. Réti contre Tartakower. Les Blancs jouent. Trois… deux… un… Fou [m Bd8# mat] d8 ! Un grand maître, mat en onze coups.
 Tu les as tous trouvés ? Dis-le en commentaire. Et analyse tes propres parties gratuitement sur BlunderCheck."""),
 })
+
+# ---------- lot 3 : formats viraux US adaptés (21/10, 17 h 30) ----------
+FISCH = "Nf3 Nf6 c4 g6 Nc3 Bg7 d4 O-O Bf4 d5 Qb3 dxc4 Qxc4 c6 e4 Nbd7 Rd1 Nb6 Qc5 Bg4 Bg5 Na4 Qa3 Nxc3 bxc3 Nxe4 Bxe7 Qb6 Bc4 Nxc3 Bc5 Rfe8+ Kf1"
+FISCH_FIN = FISCH + " Be6 Bxb6 Bxc4+ Kg1 Ne2+ Kf1 Nxd4+ Kg1 Ne2+ Kf1 Nc3+ Kg1 axb6 Qb4 Ra4 Qxb6 Nxd1 h3 Rxa2 Kh2 Nxf2 Re1 Rxe1 Qd8+ Bf8 Nxe1 Bd5 Nf3 Ne4 Qb8 b5 h4 h5 Ne5 Kg7 Kg1 Bc5+ Kf1 Ng3+ Ke1 Bb4+ Kd1 Bb3+ Kc1 Ne2+ Kb1 Nc3+ Kc1"
+KASP = "e4 d6 d4 Nf6 Nc3 g6 Be3 Bg7 Qd2 c6 f3 b5 Nge2 Nbd7 Bh6 Bxh6 Qxh6 Bb7 a3 e5 O-O-O Qe7 Kb1 a6 Nc1 O-O-O Nb3 exd4 Rxd4 c5 Rd1 Nb6 g3 Kb8 Na5 Ba8 Bh3 d5 Qf4+ Ka7 Rhe1 d4 Nd5 Nbxd5 exd5 Qd6"
+KASP_FIN = KASP + " Rxd4 cxd4 Re7+ Kb6 Qxd4+ Kxa5 b4+ Ka4 Qc3 Qxd5 Ra7 Bb7 Rxb7 Qc4 Qxf6 Kxa3 Qxa6+ Kxb4 c3+ Kxc3 Qa1+ Kd2 Qb2+ Kd1 Bf1 Rd2 Rd7 Rxd7 Bxc4 bxc4 Qxh8 Rd3 Qa8 c3 Qa4+ Ke1 f4 f5 Kc1 Rd2 Qa7"
+BODEN = "e4 e5 Nf3 d6 c3 f5 Bc4 Nf6 d4 fxe4 dxe5 exf3 exf6 Qxf6 gxf3 Nc6 f4 Bd7 Be3 O-O-O Nd2 Re8 Qf3 Bf5"
+SCRIPTS.update({
+"v_stafford": ("noirs", """Ce piège a rendu Eric Rosen célèbre sur Internet. Son nom : oh no, my queen.
+[m e4] e4, [m e5] e5, cavalier [m Nf3] f3, cavalier [m Nf6 livre] f6. Les Blancs prennent [m Nxe5] e5, et toi, cavalier [m Nc6 bizarre] c6 ! C'est le gambit Stafford : tu donnes un pion.
+Cavalier prend [m Nxc6] c6, d prend [m dxc6] c6. Tes pièces sortent toutes seules. [m d3] d3, fou [m Bc5] c5.
+Et là, les Blancs attaquent ta dame : fou [m Bg5 gaffe] g5. Tout le monde pense que ta dame est perdue.
+Mais tu joues cavalier prend [m Nxe4 meilleur] e4 ! Tu laisses ta dame. Fou prend [m Bxd8] d8 : oh no, my queen.
+Fou prend [m Bxf2+] f2, échec. Le roi doit aller [m Ke2] en e2, et fou [m Bg4# mat] g4. Échec et mat.
+Le bon coup pour les Blancs, c'était [p e4 e5 Nf3 Nf6 Nxe5 Nc6 Nxc6 dxc6 d3 Bc5] fou [m Be2 meilleur] e2. Le Stafford gagne vite, mais il perd contre la bonne défense.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_englund": ("noirs", """Le gambit Englund. Une ouverture douteuse… qui cache un piège mortel.
+[m d4] d4, [m e5 bizarre] e5 ! Tu donnes un pion. d prend [m dxe5] e5, cavalier [m Nc6] c6, cavalier [m Nf3] f3, dame [m Qe7] e7.
+Fou [m Bf4] f4 pour défendre le pion. Et là, dame [m Qb4+ bon] b4, échec ! Elle vise aussi b2. Fou [m Bd2] d2, dame prend [m Qxb2] b2.
+La tour a1 est attaquée. Le réflexe des Blancs : fou [m Bc3 gaffe] c3, pour chasser ta dame. Erreur fatale.
+Fou [m Bb4 meilleur] b4 ! Tu cloues le fou contre le roi. Dame [m Qd2] d2 pour le protéger, fou prend [m Bxc3] c3, dame prend [m Qxc3] c3.
+Et dame [m Qc1# mat] c1. Échec et mat.
+Le bon coup, c'était [p d4 e5 dxe5 Nc6 Nf3 Qe7 Bf4 Qb4+ Bd2 Qxb2] cavalier [m Nc3 meilleur] c3.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_lasker": ("noirs", """Le piège de Lasker. Il finit par un coup que tu ne verras presque jamais : une promotion en cavalier.
+Contre le gambit dame, [m d4] d4, [m d5] d5, [m c4] c4, tu joues [m e5 bizarre] e5 : le contre-gambit Albin.
+d prend [m dxe5] e5, [m d4] d4. Ce pion gêne énormément les Blancs. Ils jouent [m e3 erreur] e3 pour s'en débarrasser.
+Fou [m Bb4+] b4, échec, fou [m Bd2] d2, d prend [m dxe3] e3. Et les Blancs prennent ton fou : [m Bxb4 gaffe] fou prend b4. Grave erreur.
+e prend [m exf2+ bon] f2, échec. Le roi va [m Ke2] en e2. Et maintenant : f prend [m fxg1=N+ meilleur] g1, et le pion devient… un cavalier ! Échec !
+Une dame en g1 ne donnait pas échec. Le cavalier, si. Roi [m Ke1] e1, dame [m Qh4+] h4, échec, et l'attaque noire est gagnante.
+Le bon coup, c'était [p d4 d5 c4 e5 dxe5 d4 e3 Bb4+ Bd2 dxe3] f prend [m fxe3 meilleur] e3.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_noe": ("noirs", """Le piège de l'arche de Noé. Il est très ancien, et il attrape encore des joueurs tous les jours.
+Partie espagnole : [m e4] e4, [m e5] e5, cavalier [m Nf3] f3, cavalier [m Nc6] c6, fou [m Bb5] b5, [m a6] a6, fou [m Ba4] a4, [m d6] d6.
+[m d4] d4, [m b5] b5, fou [m Bb3] b3. Et là, cavalier prend [m Nxd4 bizarre] d4 ! Cavalier [m Nxd4] reprend, e prend [m exd4] d4.
+Les Blancs reprennent avec la dame : [m Qxd4 gaffe] dame prend d4. Erreur. Pion [m c5 bon] c5 ! La dame doit partir, [m Qd5] en d5, pour attaquer la tour a8.
+Fou [m Be6] e6, dame [m Qc6+] c6, échec, fou [m Bd7] d7, dame [m Qd5] d5. Et pion [m c4 meilleur] c4.
+Le fou b3 est enfermé : tes pions b5 et c4 le bloquent, et ses propres pions a2 et c2 aussi. Il est perdu.
+Le bon coup, c'était [p e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 d4 b5 Bb3 Nxd4 Nxd4 exd4] [m c3 meilleur] c3 : on donne un pion, pas une pièce.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_mortimer": ("noirs", """Le piège Mortimer. Tu laisses un pion en prise… exprès.
+Partie espagnole, défense berlinoise : [m e4] e4, [m e5] e5, cavalier [m Nf3] f3, cavalier [m Nc6] c6, fou [m Bb5] b5, cavalier [m Nf6] f6.
+Les Blancs jouent tranquille, [m d3] d3. Et toi, cavalier [m Ne7 bizarre] e7 ! Un coup bizarre. Le pion e5 n'est plus défendu.
+Les Blancs le prennent : cavalier prend [m Nxe5 gaffe] e5. Et là, [m c6 meilleur] c6 ! Le fou b5 est attaqué.
+Si le fou recule [m Bc4] en c4, dame [m Qa5+ bon] a5, échec, [f a5e5] et ta dame attaque aussi le cavalier e5. Les Blancs perdent une pièce.
+Le bon coup, c'était de ne pas toucher au pion : [p e4 e5 Nf3 Nc6 Bb5 Nf6 d3 Ne7] petit roque, [m O-O meilleur] et la partie est égale.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_tarrasch": ("blancs", """Le piège Tarrasch, dans l'espagnole ouverte. Une position très jouée en club.
+[p e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Be7 Re1 O-O] Les Blancs jouent cavalier [m Nd4 bon] d4. Il attaque le fou e6 et le cavalier c6.
+Les Noirs protègent tout avec dame [m Qd7 gaffe] d7. Erreur. Cavalier prend [m Nxe6] e6, f prend [m fxe6] e6.
+Et maintenant : tour prend [m Rxe4 meilleur] e4 ! Le pion d5 est le seul qui bloque la colonne d. [f d1d7]
+Si d prend [m dxe4] e4, la colonne s'ouvre, et dame prend [m Qxd7] d7. La dame noire tombe.
+Le bon coup pour les Noirs, c'était [p e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Nxe4 d4 b5 Bb3 d5 dxe5 Be6 c3 Be7 Re1 O-O Nd4] cavalier prend [m Nxe5 meilleur] e5.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_siberien": ("noirs", """Le piège sibérien. Si on te joue le gambit Smith-Morra contre ta sicilienne, garde-le en tête.
+[m e4] e4, [m c5] c5, [m d4] d4, c prend [m cxd4] d4, [m c3] c3 : les Blancs offrent un pion. d prend [m dxc3] c3, cavalier prend [m Nxc3] c3.
+[p e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 e6 Bc4 Qc7 O-O Nf6 Qe2] Quelques coups plus tard, les Blancs ont roqué, leur dame est en e2.
+Tu joues cavalier [m Ng4 bizarre] g4. Il vise h2, [f c7h2] avec ta dame. Les Blancs le chassent : [m h3] h3.
+Et toi, au lieu de reculer : cavalier [m Nd4 bon] d4 ! Tu attaques la dame. Les Blancs prennent : [m Nxd4 gaffe] cavalier prend d4.
+Et dame [m Qh2# mat] h2. Échec et mat ! Le cavalier g4 protège ta dame.
+Et s'ils avaient pris le cavalier g4, tu prenais leur dame en e2, avec échec.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_kieninger": ("noirs", """Le piège Kieninger, dans le gambit de Budapest.
+[m d4] d4, cavalier [m Nf6] f6, [m c4] c4, [m e5 bizarre] e5 ! d prend [m dxe5] e5, cavalier [m Ng4] g4 : tu vas récupérer le pion.
+Fou [m Bf4] f4, cavalier [m Nc6] c6, cavalier [m Nf3] f3, fou [m Bb4+] b4, échec, cavalier [m Nbd2] d2, dame [m Qe7] e7.
+Les Blancs chassent ton fou : [m a3] a3. Et tu reprends le pion, cavalier prend [m Ngxe5 bon] e5, en laissant ton fou !
+Les Blancs le prennent : [m axb4 gaffe] a prend b4. Et cavalier [m Nd3# mat] d3. Échec et mat !
+Le pion e2 pourrait prendre… mais il est cloué par ta dame. [f e7e1]
+Le bon coup, c'était [p d4 Nf6 c4 e5 dxe5 Ng4 Bf4 Nc6 Nf3 Bb4+ Nbd2 Qe7 a3 Ngxe5] cavalier prend [m Nxe5 meilleur] e5.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_foiefrit": ("blancs", """L'attaque du foie frit. Une des attaques les plus connues sur Internet.
+[m e4] e4, [m e5] e5, cavalier [m Nf3] f3, cavalier [m Nc6] c6, fou [m Bc4] c4, cavalier [m Nf6] f6.
+Cavalier [m Ng5 bizarre] g5 ! Tu vises f7 [f g5f7 c4f7] avec deux pièces. Les Noirs bloquent : [m d5] d5, e prend [m exd5] d5.
+Et beaucoup reprennent avec le cavalier : [m Nxd5 erreur] cavalier prend d5. C'est là que tu sacrifies.
+Cavalier prend [m Nxf7 bon] f7 ! Le roi [m Kxf7] prend, dame [m Qf3+] f3, échec. Le roi monte [m Ke6] en e6 pour protéger son cavalier.
+Cavalier [m Nc3] c3 : tu attaques le cavalier cloué, et le roi noir est au milieu de l'échiquier. Ça, c'est le foie frit.
+Pour les Noirs, le bon coup était [p e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5] cavalier [m Na5 meilleur] a5.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_tennison": ("blancs", """Le gambit Tennison. Peu de gens le connaissent, et c'est pour ça qu'il marche.
+Cavalier [m Nf3] f3, [m d5] d5, [m e4 bizarre] e4 ! Tu donnes un pion. d prend [m dxe4] e4, cavalier [m Ng5] g5 : tu vas le récupérer.
+Cavalier [m Nf6] f6, [m d3] d3, e prend [m exd3] d3, fou prend [m Bxd3] d3.
+Les Noirs veulent chasser ton cavalier : [m h6 gaffe] h6. Erreur. Cavalier prend [m Nxf7 bon] f7 ! Le roi [m Kxf7] prend… et fou [m Bg6+ meilleur] g6, échec !
+Si le roi prend [m Kxg6] le fou, dame prend [m Qxd8] d8. La colonne d s'est ouverte, et la dame noire tombe.
+Le bon coup pour les Noirs, c'était [p Nf3 d5 e4 dxe4 Ng5 Nf6 d3 exd3 Bxd3] cavalier [m Nc6 meilleur] c6.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_halosar": ("blancs", """Le piège Halosar, dans le gambit Blackmar-Diemer.
+[m d4] d4, [m d5] d5, [m e4 bizarre] e4 ! d prend [m dxe4] e4, cavalier [m Nc3] c3, cavalier [m Nf6] f6, [m f3] f3, e prend [m exf3] f3, dame prend [m Qxf3] f3.
+Les Noirs prennent un deuxième pion : dame prend [m Qxd4] d4. Fou [m Be3] e3, dame [m Qb4] b4, et grand roque [m O-O-O] : ta tour arrive sur la colonne d.
+Les Noirs attaquent ta dame : fou [m Bg4 gaffe] g4. Et toi, tu la laisses ! Cavalier [m Nb5 meilleur] b5 ! [f b5c7]
+Si le fou prend [m Bxf3] ta dame, cavalier prend [m Nxc7# mat] c7. Échec et mat ! La tour d1 tient la case d8.
+Le bon coup pour les Noirs, c'était [p d4 d5 e4 dxe4 Nc3 Nf6 f3 exf3 Qxf3 Qxd4 Be3 Qb4 O-O-O] [m c6 meilleur] c6, qui contrôle b5.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_philidor": ("blancs", """Un piège de la défense Philidor. Philidor, c'était un Français, le meilleur joueur du dix-huitième siècle.
+[m e4] e4, [m e5] e5, cavalier [m Nf3] f3, [m d6] d6, [m d4] d4, cavalier [m Nd7] d7, fou [m Bc4] c4.
+Les Noirs sortent leur fou : [m Be7 gaffe] e7. Erreur ! d prend [m dxe5] e5, d prend [m dxe5] e5. Dame [m Qd5 meilleur] d5 !
+[f d5f7 c4f7] Elle menace dame prend f7, échec et mat. Les Noirs défendent avec cavalier [m Nh6] h6.
+Et fou prend [m Bxh6 bon] h6 ! Si g prend h6, dame prend f7, et c'est mat. Les Noirs perdent une pièce.
+Le bon coup, c'était [p e4 e5 Nf3 d6 d4 Nd7 Bc4] [m c6 meilleur] c6.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_francaise": ("noirs", """Tu joues la défense française ? Alors ce piège est pour toi.
+[m e4] e4, [m e6 livre] e6, [m d4] d4, [m d5] d5, [m e5] e5 : la variante d'avance. [m c5] c5, [m c3] c3, cavalier [m Nc6] c6, cavalier [m Nf3] f3, dame [m Qb6] b6.
+Tout le monde attaque d4. Fou [m Bd3] d3, c prend [m cxd4] d4, c prend [m cxd4] d4. Le pion d4 a l'air faible.
+Cavalier prend [m Nxd4 gaffe] d4 ? Cavalier [m Nxd4] reprend, dame prend [m Qxd4] d4… et fou [m Bb5+ meilleur] b5, échec !
+[f d1d4] La dame d1 voit ta dame. Quoi que tu joues, elle la prend.
+Le bon coup, c'était [p e4 e6 d4 d5 e5 c5 c3 Nc6 Nf3 Qb6 Bd3 cxd4 cxd4] fou [m Bd7 meilleur] d7.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_legal": ("blancs", """Le mat de Légal. Légal, c'était un joueur français du dix-huitième siècle, au café de la Régence, à Paris.
+[m e4] e4, [m e5] e5, cavalier [m Nf3] f3, [m d6] d6, fou [m Bc4] c4, fou [m Bg4] g4 : il cloue ton cavalier sur ta dame.
+Cavalier [m Nc3] c3, [m g6 erreur] g6. Et là, tu fais l'impensable : cavalier prend [m Nxe5 meilleur] e5 ! Tu laisses ta dame.
+Les Noirs la prennent : fou prend [m Bxd1 gaffe] d1. Fou prend [m Bxf7+] f7, échec, le roi doit aller [m Ke7] en e7,
+et cavalier [m Nd5# mat] d5. Échec et mat avec trois petites pièces.
+Pour les Noirs, il fallait reprendre le cavalier, d prend e5 : ils perdaient un pion, pas la partie.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_qga": ("blancs", """Gambit dame accepté. Les Noirs prennent le pion c4… et veulent le garder. Grosse erreur.
+[m d4] d4, [m d5] d5, [m c4] c4, d prend [m dxc4] c4, [m e3] e3. Les Noirs défendent leur pion avec [m b5 gaffe] b5.
+[m a4] a4 ! Tu attaques la chaîne. [m c6] c6 pour tenir, a prend [m axb5] b5, c prend [m cxb5] b5.
+Et maintenant : dame [m Qf3 meilleur] f3 ! [f f3a8] La grande diagonale est ouverte, la dame attaque la tour a8.
+Les Noirs ne peuvent pas tout sauver : ils perdent du matériel.
+Le bon coup, c'était [p d4 d5 c4 dxc4 e3] cavalier [m Nf6 meilleur] f6, sans s'accrocher au pion.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_bongcloud": ("blancs", """Le champion du monde a ouvert une partie avec le pire coup possible.
+Magnus Carlsen contre Hikaru Nakamura, mars 2021, en ligne. [m e4] e4, [m e5] e5. Et Magnus joue… roi [m Ke2 bizarre] e2.
+C'est le Bongcloud, une ouverture-blague. Et Nakamura répond pareil : roi [m Ke7 bizarre] e7 !
+Roi [m Ke1] e1, roi [m Ke8] e8. Roi [m Ke2] e2, roi [m Ke7] e7. Et ils répètent les coups : nulle.
+Pourquoi ? Les deux étaient déjà qualifiés, la partie ne comptait plus. Alors ils se sont amusés.
+En vrai, ce roi en e2 bloque ton fou et ta dame, et il perd le droit de roquer. C'est juste mauvais.
+Mais quand tu es champion du monde, tu as le droit. Toi, tu joues quoi au premier coup ? Dis-le en commentaire.
+Et analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_fischer": ("noirs", f"""New York, 1956. Bobby Fischer a treize ans. En face, Donald Byrne, un des meilleurs joueurs américains. On l'appelle la partie du siècle.
+[p {FISCH}] Au dix-septième coup, la dame noire est attaquée [f c5b6] par le fou c5. Tout le monde attend que Fischer la sauve.
+Et il joue fou [m Be6 meilleur] e6 ! Il laisse sa dame. Byrne la prend : fou prend [m Bxb6] b6.
+Et Fischer lance un moulin : fou prend [m Bxc4+ bon] c4, échec. Roi [m Kg1] g1, cavalier [m Ne2+] e2, échec, roi [m Kf1] f1,
+cavalier prend [m Nxd4+] d4, échec, roi [m Kg1] g1, cavalier [m Ne2+] e2, roi [m Kf1] f1, cavalier [m Nc3+] c3, roi [m Kg1] g1, et a prend [m axb6] b6.
+Pour sa dame, Fischer récupère deux fous, un pion, et bientôt une tour.
+[p {FISCH_FIN}] Vingt coups plus tard, tour [m Rc2# mat] c2. Échec et mat, par un gamin de treize ans.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_kasparov": ("blancs", f"""Wijk aan Zee, 1999. Kasparov contre Topalov. Pour beaucoup, c'est la plus belle partie de Kasparov.
+[p {KASP}] Position tendue. Et Kasparov joue tour prend [m Rxd4 meilleur] d4 ! Il donne une tour.
+Topalov [m cxd4] prend. Tour [m Re7+ bon] e7, échec ! Roi [m Kb6] b6, dame prend [m Qxd4+] d4, échec, le roi prend [m Kxa5] le cavalier,
+[m b4+] b4, échec, roi [m Ka4] a4. Le roi noir part en promenade… dans le camp blanc. Dame [m Qc3] c3, et la chasse continue.
+[p {KASP_FIN}] Le roi noir finit par descendre jusqu'en d1, et Topalov abandonne au quarante-quatrième coup.
+Une tour donnée au vingt-quatrième coup, et vingt coups de chasse au roi. Toi, tu aurais osé ?
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_boden": ("noirs", f"""Le mat de Boden. Deux fous qui se croisent, et le roi est mort.
+Londres, 1853, Schulder contre Boden. [p {BODEN}] Les Blancs font le grand roque : [m O-O-O erreur] grand roque.
+Boden joue [m d5 bon] d5 ! Il ouvre la diagonale de son fou. Si fou prend [m Bxd5] d5 :
+dame prend [m Qxc3+ meilleur] c3, échec ! Sacrifice de dame. b prend [m bxc3] c3, et fou [m Ba3# mat] a3. Échec et mat !
+Les deux fous, [f f5b1 a3c1] en croix, ferment toutes les cases du roi. C'est le mat de Boden.
+Retiens ce dessin : il peut tomber dès que tu fais le grand roque.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+
+"v_etouffee": ("blancs", """Le mat à l'étouffée. Le plus beau mat des échecs, et il se joue avec un cavalier.
+[p fen:r3r2k/pp4pp/8/6N1/2Q5/q7/P4PPP/6K1_w_-_-_0_1] Les Blancs jouent. Cavalier [m Nf7+ bon] f7, échec. Le roi doit aller [m Kg8] en g8.
+Cavalier [m Nh6+] h6 : échec double, de la dame et du cavalier ! Le roi retourne [m Kh8] en h8. S'il va en f8, dame f7, c'est mat.
+Et maintenant, le coup de génie : dame [m Qg8+ meilleur] g8, échec ! Tu sacrifies ta dame.
+Le roi ne peut pas la prendre, le cavalier la protège. Alors la tour [m Rxg8] prend. Et cavalier [m Nf7# mat] f7. Échec et mat !
+Le roi est enfermé par ses propres pièces. On l'appelle aussi le legs de Philidor, du nom d'un joueur français.
+Analyse tes parties gratuitement sur BlunderCheck."""),
+})
