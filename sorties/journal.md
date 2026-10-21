@@ -149,3 +149,8 @@
 ### commandes/perso_lasker.json
     voix générée : 895 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/perso_lasker.mp4 {"voix_brute_s": 64.1, "tempo": 1.166, "video_s": 55.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 152}
+## 2026-10-21 21:38 UTC · run 39679534038
+### commandes/ab_v_siberien_hookB.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/v_siberien_hookB.mp4 {"voix_brute_s": 56.0, "tempo": 1.072, "video_s": 55.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 115}
