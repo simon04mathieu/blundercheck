@@ -2,6 +2,9 @@
 # puis toutes les heures : publie publications/tiktok/*.json dont l'heure est venue et relève les chiffres.
 name: TikTok
 on:
+  push:
+    branches: [videos]
+    paths: ["publications/tiktok/*.json"]
   workflow_dispatch:
     inputs:
       code:
