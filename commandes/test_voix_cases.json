@@ -1,0 +1,11 @@
+{
+ "type": "test_voix",
+ "nom": "cases",
+ "versions": [
+  "Version un. Tu joues fou cé quatre, puis pion e quatre, et cavalier effe sept.",
+  "Version deux. Tu joues fou C4, puis pion E4, et cavalier F7.",
+  "Version trois. Tu joues fou c4, puis pion e4, et cavalier f7.",
+  "Version quatre. Tu joues fou sé quatre, puis pion eu quatre, et cavalier èf sept.",
+  "Version cinq. Tu joues le fou en C4, puis le pion en E4, et le cavalier en F7."
+ ]
+}

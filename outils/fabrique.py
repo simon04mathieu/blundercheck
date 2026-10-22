@@ -4,6 +4,7 @@ Commandes (fichiers commandes/*.json) :
   {"type": "perso", "nom": "perso_lasker", "voix": "<id>"?}     voix ElevenLabs + calage + rendu + mixage
   {"type": "coach", "nom": "v_stafford"}                        idem pour un script coach (sous-titres en phrases)
   options : "sans_musique": true, "volume_musique": 0.14, "duree_max": 52
+  {"type": "test_voix", "nom": "cases", "versions": ["..."]}  une phrase par version, voix habituelle
   {"type": "echantillons", "n": 5}                              voix françaises de la bibliothèque, à écouter
 La voix par défaut est dans outils/voix.json ; sinon la première voix des échantillons.
 """
@@ -26,6 +27,15 @@ def texte_parle(script):
     script = re.sub(r"\b[a-h] prend (\[m [a-h]x[a-h][1-8][^\]]*\]\s*)", r"le pion prend en \1", script)
     t = re.sub(r"\[[^\]]*\]\s*", "", script)
     return re.sub(r"\b([a-h])([1-8])\b", lambda m: f"{LETTRES[m.group(1)]} {CHIFFRES[m.group(2)]}", t)
+
+def test_voix(cmd):
+    """Plusieurs écritures lues par la voix habituelle, un mp3 par version (sorties/echantillons/test_<nom>_<n>.mp3)."""
+    d = os.path.join(SORTIES, "echantillons"); os.makedirs(d, exist_ok=True)
+    vd = voix_defaut(); vid = cmd.get("voix") or vd.get("voice_id")
+    for i, t in enumerate(cmd["versions"], 1):
+        f = os.path.join(d, f"test_{cmd['nom']}_{i}.mp3")
+        eleven.tts(t, vid, f, vd.get("stabilite", 0.5)); print("version", i, ":", t, flush=True)
+    return d, {"versions": len(cmd["versions"])}
 
 def voix_defaut():
     f = os.path.join(HERE, "voix.json")
@@ -160,5 +170,5 @@ def boucle(cmd):
 if __name__ == "__main__":
     os.makedirs(SORTIES, exist_ok=True)
     cmd = json.load(open(sys.argv[1]))
-    res = {"echantillons": lambda c: (echantillons(c), {}), "perso": video_voix, "coach": video_voix, "boucle": boucle, "gaffe": gaffe}[cmd["type"]](cmd)
+    res = {"echantillons": lambda c: (echantillons(c), {}), "perso": video_voix, "coach": video_voix, "boucle": boucle, "gaffe": gaffe, "test_voix": test_voix}[cmd["type"]](cmd)
     print("OK", res[0], json.dumps(res[1], ensure_ascii=False))
