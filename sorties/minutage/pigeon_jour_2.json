@@ -1,0 +1,135 @@
+{
+ "nom": "pigeon_jour_2",
+ "tempo": 1.0,
+ "duree_s": 36.6,
+ "hook": {
+  "texte": "S'il mange ce bonbon,|il est mat.",
+  "fin": 3.04
+ },
+ "question": {
+  "texte": "Analyse ta partie :|lien en bio",
+  "t": 33.4
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "S'il mange ce bonbon il est mat."
+  },
+  {
+   "t": 3.04,
+   "texte": "Tu as les Noirs."
+  },
+  {
+   "t": 4.58,
+   "texte": "Tu laisses un pion tout seul au milieu."
+  },
+  {
+   "t": 6.54,
+   "texte": "Un bonbon."
+  },
+  {
+   "t": 7.92,
+   "texte": "Le poney du pigeon le mange."
+  },
+  {
+   "t": 9.82,
+   "texte": "Puis il en mange un deuxième et attaque ta dame et ta tour."
+  },
+  {
+   "t": 13.58,
+   "texte": "Il se croit malin."
+  },
+  {
+   "t": 15.4,
+   "texte": "Ta dame s'en fiche."
+  },
+  {
+   "t": 16.64,
+   "texte": "Elle mange un pion."
+  },
+  {
+   "t": 17.78,
+   "texte": "Elle en mange un deuxième."
+  },
+  {
+   "t": 19.3,
+   "texte": "Échec."
+  },
+  {
+   "t": 20.52,
+   "texte": "Il cache son roi derrière son fou."
+  },
+  {
+   "t": 22.9,
+   "texte": "Et là, ton poney saute."
+  },
+  {
+   "t": 24.64,
+   "texte": "Mat."
+  },
+  {
+   "t": 26.56,
+   "texte": "Il a mangé tes bonbons."
+  },
+  {
+   "t": 28.68,
+   "texte": "Toi, tu as mangé la partie."
+  },
+  {
+   "t": 31.46,
+   "texte": "Tes pièges à toi le prof les trouve."
+  },
+  {
+   "t": 34.4,
+   "texte": "Analyse ta partie  lien en bio."
+  }
+ ],
+ "coups": [
+  {
+   "t": 4.9,
+   "coup": "Nd4",
+   "badge": "bizarre"
+  },
+  {
+   "t": 8.84,
+   "coup": "Nxe5",
+   "badge": "gaffe"
+  },
+  {
+   "t": 9.82,
+   "coup": "Qg5",
+   "badge": null
+  },
+  {
+   "t": 10.52,
+   "coup": "Nxf7",
+   "badge": null
+  },
+  {
+   "t": 16.98,
+   "coup": "Qxg2",
+   "badge": null
+  },
+  {
+   "t": 17.78,
+   "coup": "Rf1",
+   "badge": null
+  },
+  {
+   "t": 18.22,
+   "coup": "Qxe4+",
+   "badge": null
+  },
+  {
+   "t": 21.52,
+   "coup": "Be2",
+   "badge": null
+  },
+  {
+   "t": 23.9,
+   "coup": "Nf3#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
