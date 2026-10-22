@@ -3979,7 +3979,7 @@ function pageAccueil(view) {
 }
 
 // ---------- Pages d'entreprise : tarifs, FAQ, à propos, contact, légal + pied de page ----------
-const MAJ_LEGAL = 'October 20, 2026';
+const MAJ_LEGAL = 'October 22, 2026';
 const CONTACT = 'contact@blundercheck.app';
 const mail = (sujet, txt = CONTACT) => `<a href="mailto:${CONTACT}${sujet ? '?subject=' + encodeURIComponent(sujet) : ''}">${txt}</a>`;
 
@@ -4102,7 +4102,8 @@ function pageCgu(view) {
       <p><b>Duration and renewal.</b> The subscription renews automatically at the end of each period (month or year), at the same price unless notified in advance. You can cancel at any time from “My account”, under “Manage my subscription”: it then stops at the end of the period already paid, with no further charge.</p>
       <p><b>Right of withdrawal.</b> The service is digital content supplied immediately. By ticking the box before payment, you request immediate access and acknowledge that you lose your 14-day right of withdrawal once access starts (article L221-28 of the French Consumer Code). If something goes wrong, write to us: we always look for a solution.</p>
       <p><b>Complaints and mediation.</b> For any complaint: ${mail('Subscription')}. If a dispute is not resolved, you can use a consumer mediator for free; their details are in the legal notice.</p>` : "<p>The terms of sale of BlunderCheck+ (price, payment, cancellation, right of withdrawal) will be published before payment opens. No payment is requested during the beta.</p>"],
-    ['9. Changes and governing law', `<p>These terms may be updated; the date at the top of the page shows it. They are governed by French law. For any question: ${mail('Terms')}.</p>`],
+    ['9. Our videos', `<p>BlunderCheck's videos are published on YouTube and TikTok. Watching or interacting with them on these platforms is governed by their own terms, including the <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a>. Our publishing tool uses YouTube API Services: see the privacy policy, section “Our YouTube and TikTok channels”.</p>`],
+    ['10. Changes and governing law', `<p>These terms may be updated; the date at the top of the page shows it. They are governed by French law. For any question: ${mail('Terms')}.</p>`],
   ]);
 }
 function pageConfidentialite(view) {
@@ -4119,6 +4120,9 @@ function pageConfidentialite(view) {
     ['Usage limits', "<p>To prevent abuse of the AI coach, a daily counter linked to your IP address is kept for at most 26 hours, then deleted automatically.</p>"],
     ['Cookies', COMPTE.connexion ? "<p>The site sets no advertising or analytics cookies. A single, strictly necessary cookie keeps your session open if you sign in (90 days). Local storage is only used to run the service. None of this requires consent.</p>" : "<p>The site sets no advertising or audience-measurement cookies. Local storage is only used to make the service work; it therefore doesn't require consent.</p>"],
     ['Your rights', `<p>Under the GDPR, you can request access to, correction or deletion of data about you, and object to its processing, by writing to ${mail('Personal data')}. You can also contact the CNIL, the French data protection authority (cnil.fr).</p>`],
+    ['Our YouTube and TikTok channels', `<p>BlunderCheck publishes its own chess videos on its <a href="https://www.youtube.com/channel/UCOeNkeulS5bvT5MQ9ZjhqmA" target="_blank" rel="noopener">YouTube channel</a> and its TikTok account. To do so, an internal tool uses <b>YouTube API Services</b> (YouTube Data API and YouTube Analytics API) and TikTok's Content Posting API. Only the publisher uses it, on BlunderCheck's own accounts: site visitors never sign in to it with their Google or TikTok account.</p>
+      <p><b>Data involved</b>: the access authorizations for BlunderCheck's accounts (stored encrypted, never published), the uploaded videos with their titles and descriptions, and the statistics of our own videos (views, likes, comments, watch time, subscribers gained). These are only per-video totals: no personal data about viewers is collected, stored or shared. Statistics are refreshed several times a day.</p>
+      <p>By using YouTube API Services, BlunderCheck is bound by the <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a>; data obtained through these services is also governed by the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>. The access granted to the tool can be revoked at any time from the <a href="https://security.google.com/settings/security/permissions" target="_blank" rel="noopener">Google Account permissions page</a>, or in TikTok's security settings.</p>`],
     ['Data controller', "<p>The publisher of the site, presented in the legal notice.</p>"],
   ]);
 }
@@ -4133,12 +4137,12 @@ function pageMentions(view) {
 
 // --- Pied de page ---
 function piedDePage() {
-  const col = (t, ls) => `<div><b>${t}</b>${ls.map(([r, l]) => r.startsWith('mailto') ? `<a href="${r}">${l}</a>` : `<a href="#${r}" data-route="${r}">${l}</a>`).join('')}</div>`;
+  const col = (t, ls) => `<div><b>${t}</b>${ls.map(([r, l]) => r.startsWith('mailto') ? `<a href="${r}">${l}</a>` : r.startsWith('https') ? `<a href="${r}" target="_blank" rel="noopener">${l}</a>` : `<a href="#${r}" data-route="${r}">${l}</a>`).join('')}</div>`;
   return `<footer class="foot">
     <div class="foot-brand"><span class="brand-txt">Blunder<span style="color:var(--accent)">Check</span></span><p>The chess coach that analyzes all your games.</p></div>
     ${col('Product', [['import', 'Analyze a game'], ['tarifs', 'Pricing'], ['entrainement', 'Training'], ['prof', 'My coach']])}
     ${col('Help', [['faq', 'Frequently asked questions'], ['contact', 'Contact'], ['mailto:' + CONTACT + '?subject=Bug', 'Report a bug']])}
-    ${col('BlunderCheck', [['apropos', 'About'], ['cgu', "Terms of use"], ['confidentialite', 'Privacy'], ['mentions', 'Legal notice']])}
+    ${col('BlunderCheck', [['apropos', 'About'], ['cgu', "Terms of use"], ['confidentialite', 'Privacy'], ['mentions', 'Legal notice'], ['https://www.youtube.com/channel/UCOeNkeulS5bvT5MQ9ZjhqmA', 'YouTube channel']])}
     <p class="foot-legal">© 2026 BlunderCheck · Analysis by Stockfish · Not affiliated with Chess.com or Lichess</p>
   </footer>`;
 }
@@ -8852,7 +8856,7 @@ function pageAccueil(view) {
 }
 
 // ---------- Pages d'entreprise : tarifs, FAQ, à propos, contact, légal + pied de page ----------
-const MAJ_LEGAL = '20 octobre 2026';
+const MAJ_LEGAL = '22 octobre 2026';
 const CONTACT = 'contact@blundercheck.app';
 const mail = (sujet, txt = CONTACT) => `<a href="mailto:${CONTACT}${sujet ? '?subject=' + encodeURIComponent(sujet) : ''}">${txt}</a>`;
 
@@ -8975,7 +8979,8 @@ function pageCgu(view) {
       <p><b>Durée et renouvellement.</b> L'abonnement se renouvelle automatiquement à la fin de chaque période (mois ou année), au même prix sauf information préalable. Tu peux le résilier à tout moment depuis « Mon compte », rubrique « Gérer mon abonnement » : il s'arrête alors à la fin de la période déjà payée, sans nouveau prélèvement.</p>
       <p><b>Droit de rétractation.</b> Le service est un contenu numérique fourni immédiatement. En cochant la case prévue avant le paiement, tu demandes l'accès immédiat et tu reconnais perdre ton droit de rétractation de 14 jours une fois l'accès ouvert (article L221-28 du Code de la consommation). En cas de problème, écris-nous : nous cherchons toujours une solution.</p>
       <p><b>Réclamations et médiation.</b> Pour toute réclamation : ${mail('Abonnement')}. En cas de litige non résolu, tu peux recourir gratuitement à un médiateur de la consommation, dont les coordonnées figurent dans les mentions légales.</p>` : "<p>Les conditions de vente de BlunderCheck+ (prix, paiement, résiliation, droit de rétractation) seront publiées avant l'ouverture du paiement. Aucun paiement n'est demandé pendant la bêta.</p>"],
-    ['9. Modification et droit applicable', `<p>Ces conditions peuvent être mises à jour ; la date en haut de page l'indique. Elles sont soumises au droit français. Pour toute question : ${mail('CGU')}.</p>`],
+    ['9. Nos vidéos', `<p>Les vidéos de BlunderCheck sont publiées sur YouTube et TikTok. Les regarder ou y réagir sur ces plateformes relève de leurs propres conditions, notamment les <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">Conditions d'utilisation de YouTube</a>. Notre outil de publication utilise les services API YouTube : voir la politique de confidentialité, section « Nos chaînes YouTube et TikTok ».</p>`],
+    ['10. Modification et droit applicable', `<p>Ces conditions peuvent être mises à jour ; la date en haut de page l'indique. Elles sont soumises au droit français. Pour toute question : ${mail('CGU')}.</p>`],
   ]);
 }
 function pageConfidentialite(view) {
@@ -8992,6 +8997,9 @@ function pageConfidentialite(view) {
     ['Limitation d’usage', "<p>Pour éviter les abus du prof IA, un compteur journalier associé à ton adresse IP est conservé au maximum 26 heures, puis supprimé automatiquement.</p>"],
     ['Cookies', COMPTE.connexion ? "<p>Le site ne dépose aucun cookie publicitaire ni de mesure d'audience. Un seul cookie, strictement nécessaire, garde ta session ouverte si tu te connectes (90 jours). Le stockage local sert uniquement au fonctionnement du service. Rien de cela ne nécessite de consentement.</p>" : "<p>Le site ne dépose aucun cookie publicitaire ni de mesure d'audience. Le stockage local sert uniquement au fonctionnement du service ; il ne nécessite donc pas de consentement.</p>"],
     ['Tes droits', `<p>Conformément au RGPD, tu peux demander l'accès, la rectification ou l'effacement des données te concernant, et t'opposer à leur traitement, en écrivant à ${mail('Données personnelles')}. Tu peux aussi saisir la CNIL (cnil.fr).</p>`],
+    ['Nos chaînes YouTube et TikTok', `<p>BlunderCheck publie ses propres vidéos d'échecs sur sa <a href="https://www.youtube.com/channel/UCOeNkeulS5bvT5MQ9ZjhqmA" target="_blank" rel="noopener">chaîne YouTube</a> et son compte TikTok. Pour cela, un outil interne utilise les <b>services API YouTube</b> (YouTube Data API et YouTube Analytics API) et la Content Posting API de TikTok. Seul l'éditeur s'en sert, sur les comptes de BlunderCheck : les visiteurs du site ne s'y connectent jamais avec leur compte Google ou TikTok.</p>
+      <p><b>Données concernées</b> : les autorisations d'accès aux comptes de BlunderCheck (conservées chiffrées, jamais publiées), les vidéos envoyées avec leurs titres et descriptions, et les statistiques de nos propres vidéos (vues, j'aime, commentaires, durée de visionnage, abonnés gagnés). Ce sont uniquement des totaux par vidéo : aucune donnée personnelle des spectateurs n'est collectée, stockée ni partagée. Les statistiques sont actualisées plusieurs fois par jour.</p>
+      <p>En utilisant les services API YouTube, BlunderCheck est soumis aux <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">Conditions d'utilisation de YouTube</a> ; les données obtenues via ces services sont aussi régies par les <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Règles de confidentialité de Google</a>. L'accès accordé à l'outil peut être retiré à tout moment depuis la <a href="https://security.google.com/settings/security/permissions" target="_blank" rel="noopener">page des autorisations du compte Google</a>, ou dans les réglages de sécurité de TikTok.</p>`],
     ['Responsable du traitement', "<p>L'éditeur du site, présenté dans les mentions légales.</p>"],
   ]);
 }
@@ -9006,12 +9014,12 @@ function pageMentions(view) {
 
 // --- Pied de page ---
 function piedDePage() {
-  const col = (t, ls) => `<div><b>${t}</b>${ls.map(([r, l]) => r.startsWith('mailto') ? `<a href="${r}">${l}</a>` : `<a href="#${r}" data-route="${r}">${l}</a>`).join('')}</div>`;
+  const col = (t, ls) => `<div><b>${t}</b>${ls.map(([r, l]) => r.startsWith('mailto') ? `<a href="${r}">${l}</a>` : r.startsWith('https') ? `<a href="${r}" target="_blank" rel="noopener">${l}</a>` : `<a href="#${r}" data-route="${r}">${l}</a>`).join('')}</div>`;
   return `<footer class="foot">
     <div class="foot-brand"><span class="brand-txt">Blunder<span style="color:var(--accent)">Check</span></span><p>Le prof d'échecs qui analyse toutes tes parties.</p></div>
     ${col('Produit', [['import', 'Analyser une partie'], ['tarifs', 'Tarifs'], ['entrainement', 'Entraînement'], ['prof', 'Mon prof']])}
     ${col('Aide', [['faq', 'Questions fréquentes'], ['contact', 'Contact'], ['mailto:' + CONTACT + '?subject=Bug', 'Signaler un bug']])}
-    ${col('BlunderCheck', [['apropos', 'À propos'], ['cgu', "Conditions d'utilisation"], ['confidentialite', 'Confidentialité'], ['mentions', 'Mentions légales']])}
+    ${col('BlunderCheck', [['apropos', 'À propos'], ['cgu', "Conditions d'utilisation"], ['confidentialite', 'Confidentialité'], ['mentions', 'Mentions légales'], ['https://www.youtube.com/channel/UCOeNkeulS5bvT5MQ9ZjhqmA', 'Chaîne YouTube']])}
     <p class="foot-legal">© 2026 BlunderCheck · Analyse par Stockfish · Non affilié à Chess.com ni à Lichess</p>
   </footer>`;
 }
