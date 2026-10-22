@@ -162,3 +162,8 @@
     voix générée : 767 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/v_siberien_v3.mp4 {"voix_brute_s": 55.0, "tempo": 1.054, "video_s": 55.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 128}
+## 2026-10-22 14:54 UTC · run 39798794701
+### commandes/perso_legal.json
+    voix générée : 742 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/perso_legal.mp4 {"voix_brute_s": 56.6, "tempo": 1.029, "video_s": 55.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 133}
