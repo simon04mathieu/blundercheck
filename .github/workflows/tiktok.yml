@@ -31,10 +31,13 @@ jobs:
           CODE: ${{ github.event.inputs.code }}
         run: |
           echo "::add-mask::$CODE"
-          python3 outils/tiktok.py code "$CODE" | tee -a stats/tiktok-journal.md
+          set -o pipefail
+          python3 outils/tiktok.py code "$CODE" 2>&1 | tee -a stats/tiktok-journal.md
       - name: Compte
         if: ${{ hashFiles('tiktok/jeton.enc') != '' || github.event.inputs.code != '' }}
-        run: python3 outils/tiktok.py moi | tee -a stats/tiktok-journal.md
+        run: |
+          set -o pipefail
+          python3 outils/tiktok.py moi 2>&1 | tee -a stats/tiktok-journal.md
       - name: Envois
         if: ${{ hashFiles('tiktok/jeton.enc') != '' }}
         run: |
@@ -56,6 +59,6 @@ jobs:
         if: always()
         run: |
           git config user.name "BlunderCheck vidéos"; git config user.email "actions@users.noreply.github.com"
-          git add -A stats publications tiktok || true
+          mkdir -p tiktok; git add -A stats publications tiktok || true
           git commit -qm "TikTok : envois et chiffres (run ${{ github.run_id }})" || exit 0
           for i in 1 2 3; do git pull -q --rebase origin videos && git push -q origin HEAD:videos && break; sleep 5; done
