@@ -167,3 +167,7 @@
     voix générée : 742 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/perso_legal.mp4 {"voix_brute_s": 56.6, "tempo": 1.029, "video_s": 55.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 133}
+### commandes/test_voix_cases.json
+    version 4 : Version quatre. Tu joues fou sé quatre, puis pion eu quatre, et cavalier èf sept.
+    version 5 : Version cinq. Tu joues le fou en C4, puis le pion en E4, et le cavalier en F7.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/echantillons {"versions": 5}
