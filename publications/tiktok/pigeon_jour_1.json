@@ -1,0 +1,26 @@
+{
+ "fichier": "sorties/pigeon_jour_1.mp4",
+ "legende": "Le pigeon du jour #1 🐦 S'il mange ton poney, il est mat. Tu serais tombé dedans ? A : oui, B : jamais 👇 #echecs #chess #chesstok #echecsfr #piege",
+ "envoyer_apres": "2026-10-23T08:00:00+02:00",
+ "heure_conseillee": "2026-10-23T14:00:00+02:00",
+ "ia": true,
+ "marque": true,
+ "concept": "pigeon_jour",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "hook": "perte_1re_phrase",
+  "premiers_mots": "S'il mange ton poney",
+  "duree_s": 40,
+  "personnages": [
+   "poney",
+   "pigeon",
+   "bonbon",
+   "toi"
+  ],
+  "musique": "aucune",
+  "fin": "commente_A_ou_B",
+  "test": "FIN",
+  "variante": "A"
+ }
+}

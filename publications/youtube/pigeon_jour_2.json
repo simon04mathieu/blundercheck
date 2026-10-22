@@ -1,0 +1,30 @@
+{
+ "fichier": "sorties/pigeon_jour_2.mp4",
+ "envoyer_apres": "2026-10-23T18:00:00+02:00",
+ "titre": "S'il mange ce bonbon, il est mat 🍬 Le pigeon du jour #2 #echecs #shorts",
+ "description": "Le pigeon du jour #2 : le piège Blackburne-Shilling. Tes pièges à toi, le prof les trouve.\n\nAnalyse tes parties gratuitement : https://blundercheck.app/?src=youtube\n\n#echecs #chess #piege",
+ "tags": [
+  "échecs",
+  "chess",
+  "piège",
+  "poney"
+ ],
+ "concept": "pigeon_jour",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "hook": "perte_1re_phrase",
+  "premiers_mots": "S'il mange ce bonbon",
+  "duree_s": 37,
+  "personnages": [
+   "poney",
+   "pigeon",
+   "bonbon",
+   "toi"
+  ],
+  "musique": "aucune",
+  "fin": "lien_bio",
+  "test": "FIN",
+  "variante": "B"
+ }
+}

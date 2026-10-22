@@ -1,0 +1,26 @@
+{
+ "fichier": "sorties/quiz_legal_2.mp4",
+ "legende": "Ton pion devient poney et fait mat 🐴 Légal ou pas ? Réponds en un mot 👇 #echecs #chess #chesstok #echecsfr #quiz",
+ "envoyer_apres": "2026-10-23T08:00:00+02:00",
+ "heure_conseillee": "2026-10-23T11:00:00+02:00",
+ "ia": true,
+ "marque": true,
+ "concept": "quiz_legal",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "hook": "mat_1re_phrase+question",
+  "premiers_mots": "Ton pion devient poney",
+  "duree_s": 48,
+  "personnages": [
+   "poney",
+   "Gourmande",
+   "bonbon",
+   "toi"
+  ],
+  "musique": "aucune",
+  "fin": "oui_non",
+  "test": null,
+  "variante": null
+ }
+}

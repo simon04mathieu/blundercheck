@@ -1,0 +1,26 @@
+{
+ "fichier": "sorties/pigeon_jour_2.mp4",
+ "legende": "Le pigeon du jour #2 🍬 S'il mange ce bonbon, il est mat. Analyse ta partie : lien en bio #echecs #chess #chesstok #echecsfr #piege",
+ "envoyer_apres": "2026-10-23T08:00:00+02:00",
+ "heure_conseillee": "2026-10-23T17:00:00+02:00",
+ "ia": true,
+ "marque": true,
+ "concept": "pigeon_jour",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "hook": "perte_1re_phrase",
+  "premiers_mots": "S'il mange ce bonbon",
+  "duree_s": 37,
+  "personnages": [
+   "poney",
+   "pigeon",
+   "bonbon",
+   "toi"
+  ],
+  "musique": "aucune",
+  "fin": "lien_bio",
+  "test": "FIN",
+  "variante": "B"
+ }
+}

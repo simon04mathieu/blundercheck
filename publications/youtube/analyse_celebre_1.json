@@ -1,0 +1,29 @@
+{
+ "fichier": "sorties/analyse_celebre_1.mp4",
+ "envoyer_apres": "2026-10-23T21:00:00+02:00",
+ "titre": "Tu vois le mat en un qu'il n'a pas vu ? Deep Fritz – Kramnik 2006 #echecs #shorts",
+ "description": "Deep Fritz – Kramnik, Bonn 2006, partie 2 : 34…Qe3?? 35.Qh7#. Même les champions font le pigeon. Tu l'avais vu ?\n\nAnalyse tes parties gratuitement : https://blundercheck.app/?src=youtube\n\n#echecs #chess #piege",
+ "tags": [
+  "échecs",
+  "chess",
+  "piège",
+  "poney"
+ ],
+ "concept": "analyse_celebre",
+ "etiquettes": {
+  "format": "ANALYSE",
+  "langue": "fr",
+  "hook": "mat_1re_phrase",
+  "premiers_mots": "Tu vois le mat",
+  "duree_s": 29,
+  "personnages": [
+   "pigeon",
+   "toi",
+   "prof"
+  ],
+  "musique": "fond1 (lo-fi maison) très basse",
+  "fin": "oui_non+lien_bio",
+  "test": "ANALYSE",
+  "variante": null
+ }
+}

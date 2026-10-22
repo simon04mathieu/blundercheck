@@ -1,0 +1,25 @@
+{
+ "fichier": "sorties/analyse_celebre_1.mp4",
+ "legende": "Un champion du monde rate un mat en un contre l'ordinateur 🤯 Tu l'avais vu ? Oui ou non ? #echecs #chess #chesstok #echecsfr #kramnik",
+ "envoyer_apres": "2026-10-23T08:00:00+02:00",
+ "heure_conseillee": "2026-10-23T20:00:00+02:00",
+ "ia": true,
+ "marque": true,
+ "concept": "analyse_celebre",
+ "etiquettes": {
+  "format": "ANALYSE",
+  "langue": "fr",
+  "hook": "mat_1re_phrase",
+  "premiers_mots": "Tu vois le mat",
+  "duree_s": 29,
+  "personnages": [
+   "pigeon",
+   "toi",
+   "prof"
+  ],
+  "musique": "fond1 (lo-fi maison) très basse",
+  "fin": "oui_non+lien_bio",
+  "test": "ANALYSE",
+  "variante": null
+ }
+}

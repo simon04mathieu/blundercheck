@@ -1,0 +1,30 @@
+{
+ "fichier": "sorties/pigeon_jour_1.mp4",
+ "envoyer_apres": "2026-10-23T15:00:00+02:00",
+ "titre": "S'il mange ton poney, il est mat 🐦 Le pigeon du jour #1 #echecs #shorts",
+ "description": "Le pigeon du jour #1 : le piège de la canne à pêche. Tu serais tombé dedans ? Commente A : oui, ou B : jamais.\n\nAnalyse tes parties gratuitement : https://blundercheck.app/?src=youtube\n\n#echecs #chess #piege",
+ "tags": [
+  "échecs",
+  "chess",
+  "piège",
+  "poney"
+ ],
+ "concept": "pigeon_jour",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "hook": "perte_1re_phrase",
+  "premiers_mots": "S'il mange ton poney",
+  "duree_s": 40,
+  "personnages": [
+   "poney",
+   "pigeon",
+   "bonbon",
+   "toi"
+  ],
+  "musique": "aucune",
+  "fin": "commente_A_ou_B",
+  "test": "FIN",
+  "variante": "A"
+ }
+}
