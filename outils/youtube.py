@@ -9,7 +9,8 @@ Usage :
 
 Fichier d'envoi (publications/youtube/*.json) :
   {"fichier": "sorties/v_englund.mp4", "titre": "...", "description": "...", "tags": ["échecs"],
-   "publier_le": "2026-10-23T12:00:00+02:00"}   # facultatif : programmé (la vidéo reste privée jusque-là)
+   "envoyer_apres": "2026-10-23T12:00:00+02:00"}  # facultatif : le workflow horaire l'envoie (en public) à partir de cette heure
+  ("publier_le" existe aussi : programmation YouTube native, mais elle passe par le mode privé, à éviter avant l'audit)
 Note : tant que Google n'a pas audité l'appli, YouTube peut forcer les vidéos envoyées par l'API en privé.
 """
 import os, sys, json, datetime, urllib.request, urllib.parse

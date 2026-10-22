@@ -6,7 +6,7 @@ on:
     branches: [videos]
     paths: ["publications/youtube/*.json", ".github/workflows/youtube.yml"]
   schedule:
-    - cron: "17 5 * * *"   # relevé quotidien, ~7 h 17 à Zurich
+    - cron: "7 * * * *"    # toutes les heures : envoie les vidéos dont l'heure est venue (+ relevé des chiffres)
   workflow_dispatch:
 permissions:
   contents: write
@@ -31,6 +31,7 @@ jobs:
           mkdir -p publications/youtube/faites
           for c in publications/youtube/*.json; do
             [ -e "$c" ] || continue
+            python3 -c "import json,sys,datetime as d; a=json.load(open(sys.argv[1])).get('envoyer_apres'); sys.exit(0 if not a or d.datetime.fromisoformat(a)<=d.datetime.now(d.timezone.utc) else 1)" "$c" || continue
             echo "### $(date -u '+%F %H:%M') $c" >> stats/youtube-journal.md
             if python3 outils/youtube.py envoi "$c" > /tmp/r.txt 2>&1; then
               cat /tmp/r.txt >> stats/youtube-journal.md; git mv "$c" publications/youtube/faites/ 2>/dev/null || mv "$c" publications/youtube/faites/
