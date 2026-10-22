@@ -119,7 +119,7 @@ def video_voix(cmd):
     tempo = min(1.18, d1 / vmax) if d1 > vmax else 1.0
     if cmd.get("sans_musique") is not True: spec["musique"] = 0.0
     if cmd.get("hook") and spec.get("hook"): spec["hook"] = (cmd["hook"], spec["hook"][1])  # test A/B du hook (0 crédit)  # la musique de fond vient d'ElevenLabs, pas du synthé
-    ecrire_minutage(cmd.get("sortie", nom), spec, tempo)
+    minutage = ecrire_minutage(cmd.get("sortie", nom), spec, tempo)
     coach.FLIP = spec["noirs"]; coach.BG = coach.fond()
     muet, fx = os.path.join(tmp, "muet.mp4"), os.path.join(tmp, "fx.wav")
     coach.run(spec, muet, fx, tempo)
@@ -139,7 +139,7 @@ def video_voix(cmd):
        "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest",
        "-movflags", "+faststart", out)
     return out, {"voix_brute_s": round(d0, 1), "tempo": round(tempo, 3), "video_s": round(duree(out), 1),
-                 "voice_id": voice_id, "musique": os.path.basename(mus) if mus else "aucune", "mots_transcrits": len(mots)}
+                 "voice_id": voice_id, "musique": os.path.basename(mus) if mus else "aucune", "mots_transcrits": len(mots), "minutage": minutage}
 
 perso = video_voix
 
@@ -165,7 +165,7 @@ def ecrire_minutage(nom, spec, tempo=1.0):
          "phrases": phrases, "coups": coups, "pauses": pauses}
     d = os.path.join(SORTIES, "minutage"); os.makedirs(d, exist_ok=True)
     json.dump(m, open(os.path.join(d, f"{nom}.json"), "w"), ensure_ascii=False, indent=1)
-    print("minutage :", len(phrases), "phrases,", len(coups), "coups,", len(pauses), "pauses", flush=True)
+    return f"{len(phrases)} phrases, {len(coups)} coups, {len(pauses)} pauses"  # dans la ligne OK : le journal ne garde que 3 lignes
 
 def gaffe(cmd):
     """Démo « Ta pire gaffe » sans voix : puzzle du jour Lichess, bruitages + musique jazz chill."""
