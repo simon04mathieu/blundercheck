@@ -1,0 +1,61 @@
+# TikTok sans Metricool. Lancement manuel avec le code de blundercheck.app/tiktok/retour (une seule fois),
+# puis toutes les heures : publie publications/tiktok/*.json dont l'heure est venue et relève les chiffres.
+name: TikTok
+on:
+  workflow_dispatch:
+    inputs:
+      code:
+        description: "Code affiché par blundercheck.app/tiktok/retour (laisser vide pour un passage normal)"
+        required: false
+  schedule:
+    - cron: "37 * * * *"
+permissions:
+  contents: write
+concurrency:
+  group: tiktok
+  cancel-in-progress: false
+jobs:
+  tiktok:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+      TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+      TIKTOK_CHIFFRE: ${{ secrets.TIKTOK_CHIFFRE }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: videos }
+      - name: Connexion (code)
+        if: ${{ github.event.inputs.code != '' }}
+        env:
+          CODE: ${{ github.event.inputs.code }}
+        run: |
+          echo "::add-mask::$CODE"
+          python3 outils/tiktok.py code "$CODE" | tee -a stats/tiktok-journal.md
+      - name: Compte
+        if: ${{ hashFiles('tiktok/jeton.enc') != '' || github.event.inputs.code != '' }}
+        run: python3 outils/tiktok.py moi | tee -a stats/tiktok-journal.md
+      - name: Envois
+        if: ${{ hashFiles('tiktok/jeton.enc') != '' }}
+        run: |
+          mkdir -p publications/tiktok/faites
+          for c in publications/tiktok/*.json; do
+            [ -e "$c" ] || continue
+            python3 -c "import json,sys,datetime as d; a=json.load(open(sys.argv[1])).get('envoyer_apres'); sys.exit(0 if not a or d.datetime.fromisoformat(a)<=d.datetime.now(d.timezone.utc) else 1)" "$c" || continue
+            echo "### $(date -u '+%F %H:%M') $c" >> stats/tiktok-journal.md
+            if python3 outils/tiktok.py envoi "$c" > /tmp/r.txt 2>&1; then
+              cat /tmp/r.txt >> stats/tiktok-journal.md; git mv "$c" publications/tiktok/faites/ 2>/dev/null || mv "$c" publications/tiktok/faites/
+            else
+              echo "ÉCHEC : $(tail -c 600 /tmp/r.txt)" >> stats/tiktok-journal.md
+            fi
+          done
+      - name: Chiffres
+        if: ${{ hashFiles('tiktok/jeton.enc') != '' }}
+        run: python3 outils/tiktok.py stats stats/tiktok.json || true
+      - name: Dépôt
+        if: always()
+        run: |
+          git config user.name "BlunderCheck vidéos"; git config user.email "actions@users.noreply.github.com"
+          git add -A stats publications tiktok || true
+          git commit -qm "TikTok : envois et chiffres (run ${{ github.run_id }})" || exit 0
+          for i in 1 2 3; do git pull -q --rebase origin videos && git push -q origin HEAD:videos && break; sleep 5; done
