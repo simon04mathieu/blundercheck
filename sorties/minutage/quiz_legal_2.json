@@ -1,0 +1,109 @@
+{
+ "nom": "quiz_legal_2",
+ "tempo": 1.0,
+ "duree_s": 47.08,
+ "hook": {
+  "texte": "Ton pion devient poney|et fait mat : légal ?",
+  "fin": 5.1
+ },
+ "question": {
+  "texte": "Tu aurais pris la dame ?|Oui ou non ?",
+  "t": 43.88
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Ton pion devient poney et fait mat."
+  },
+  {
+   "t": 3.22,
+   "texte": "Légal ou pas ?"
+  },
+  {
+   "t": 5.1,
+   "texte": "Regarde."
+  },
+  {
+   "t": 6.02,
+   "texte": "Son roi s'est caché dans un coin, entouré de ses bonbons de son fou et de la Gourmande."
+  },
+  {
+   "t": 12.52,
+   "texte": "Ton pion arrive au bout."
+  },
+  {
+   "t": 14.54,
+   "texte": "Tout le monde prend une dame."
+  },
+  {
+   "t": 16.34,
+   "texte": "Pas toi."
+  },
+  {
+   "t": 17.64,
+   "texte": "Tu choisis…"
+  },
+  {
+   "t": 18.34,
+   "texte": "un poney."
+  },
+  {
+   "t": 20.82,
+   "texte": "Le poney saute  échec."
+  },
+  {
+   "t": 23.02,
+   "texte": "Le roi ne peut aller nulle part, ses propres pièces le bloquent."
+  },
+  {
+   "t": 26.86,
+   "texte": "Mat."
+  },
+  {
+   "t": 28.56,
+   "texte": "Légal ou pas ?"
+  },
+  {
+   "t": 30.2,
+   "texte": "Réponds en un mot."
+  },
+  {
+   "t": 32.6,
+   "texte": "…"
+  },
+  {
+   "t": 35.08,
+   "texte": "Légal !"
+  },
+  {
+   "t": 36.18,
+   "texte": "Tu peux changer ton pion en n'importe quelle pièce même en poney."
+  },
+  {
+   "t": 40.54,
+   "texte": "Et avec une dame ici, ce n'était même pas échec."
+  },
+  {
+   "t": 44.54,
+   "texte": "Tu aurais pris la dame ?"
+  },
+  {
+   "t": 46.06,
+   "texte": "Oui ou non ?"
+  }
+ ],
+ "coups": [
+  {
+   "t": 20.82,
+   "coup": "f8=N#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 33.06,
+   "duree": 2.0,
+   "texte": "Légal ou pas ?"
+  }
+ ]
+}
