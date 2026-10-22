@@ -1,6 +1,7 @@
 """YouTube : envoi de Shorts et relevé des chiffres, sans Metricool.
 Identifiants (secrets GitHub Actions, jamais dans le code) : YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN
-(autorisations : youtube.upload, youtube.readonly, yt-analytics.readonly ; compte de la chaîne : ben.white).
+(autorisations : youtube.upload, youtube.readonly ; compte de la chaîne : ben.white).
+Seuls des chiffres publics (vues, j'aime, commentaires) sont enregistrés : le dépôt est public.
 
 Usage :
   python3 youtube.py chaine                       -> nom et identifiant de la chaîne (test)
@@ -76,19 +77,7 @@ def stats(tok, jours=28):
                                "statut": v["status"]["privacyStatus"], "duree": v["contentDetails"]["duration"],
                                "vues": int(s.get("viewCount", 0)), "jaime": int(s.get("likeCount", 0)),
                                "commentaires": int(s.get("commentCount", 0))}
-    fin = datetime.date.today(); debut = fin - datetime.timedelta(days=jours)
-    q = urllib.parse.urlencode({"ids": "channel==MINE", "startDate": debut.isoformat(), "endDate": fin.isoformat(),
-                                "metrics": "views,estimatedMinutesWatched,averageViewDuration,averageViewPercentage,"
-                                           "likes,shares,subscribersGained",
-                                "dimensions": "video", "sort": "-views", "maxResults": "200"})
-    try:
-        _, _, b = appel("https://youtubeanalytics.googleapis.com/v2/reports?" + q, tok)
-        js = json.loads(b); cols = [h["name"] for h in js.get("columnHeaders", [])]
-        for row in js.get("rows", []):
-            d = dict(zip(cols, row)); vid = d.pop("video")
-            videos.setdefault(vid, {}).update({"analytics": d})
-    except SystemExit as e:
-        print("Analytics indisponible :", e, flush=True)
+    # Pas de YouTube Analytics : le dépôt est public, on n'y garde que des chiffres publics (décision du 22/10).
     return {"date": datetime.datetime.now(datetime.timezone.utc).isoformat(), "chaine": c, "videos": videos}
 
 if __name__ == "__main__":
