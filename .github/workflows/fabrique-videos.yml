@@ -21,14 +21,17 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - name: Outils
+        timeout-minutes: 10   # bloqué au-delà = serveur de paquets en panne : la tâche s'arrête au lieu de mouliner (outils/diagnostic.py)
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg libcairo2 > /dev/null
+          APT="-o Acquire::Retries=3 -o Acquire::http::Timeout=30"
+          sudo apt-get $APT update -qq && sudo apt-get $APT install -y -qq ffmpeg libcairo2 > /dev/null
           sudo mkdir -p /usr/share/fonts/opentype/inter /usr/share/fonts/truetype/dejavu
           sudo cp outils/fonts/Inter*.otf /usr/share/fonts/opentype/inter/
           sudo cp outils/fonts/DejaVu*.ttf /usr/share/fonts/truetype/dejavu/
-          pip install -q pillow numpy scipy cairosvg faster-whisper
-          sudo apt-get install -y -qq stockfish > /dev/null || true
+          pip install -q --timeout 60 --retries 3 pillow numpy scipy cairosvg faster-whisper
+          sudo apt-get $APT install -y -qq stockfish > /dev/null || true
       - name: Fabrication
+        timeout-minutes: 60
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
         run: |
