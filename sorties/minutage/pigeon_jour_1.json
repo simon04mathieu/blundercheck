@@ -1,0 +1,145 @@
+{
+ "nom": "pigeon_jour_1",
+ "tempo": 1.0,
+ "duree_s": 39.46,
+ "hook": {
+  "texte": "S'il mange ton poney,|il est mat.",
+  "fin": 3.06
+ },
+ "question": {
+  "texte": "A = oui · B = jamais.|Commente !",
+  "t": 36.26
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "S'il mange ton poney il est mat."
+  },
+  {
+   "t": 3.06,
+   "texte": "Tu as les Noirs."
+  },
+  {
+   "t": 4.52,
+   "texte": "Ton poney saute tout près de son roi."
+  },
+  {
+   "t": 6.66,
+   "texte": "Le pigeon le chasse avec un pion."
+  },
+  {
+   "t": 8.5,
+   "texte": "Toi, tu ne bouges pas."
+  },
+  {
+   "t": 10.52,
+   "texte": "Tu avances un pion juste à côté."
+  },
+  {
+   "t": 13.32,
+   "texte": "Il mange ton poney."
+  },
+  {
+   "t": 15.72,
+   "texte": "Le plus gros bonbon du monde."
+  },
+  {
+   "t": 17.72,
+   "texte": "Tu reprends."
+  },
+  {
+   "t": 18.94,
+   "texte": "Et là, une autoroute s'ouvre vers son roi."
+  },
+  {
+   "t": 21.46,
+   "texte": "Ta dame fonce."
+  },
+  {
+   "t": 22.86,
+   "texte": "Ton pion pousse encore."
+  },
+  {
+   "t": 24.74,
+   "texte": "Ta dame plonge à côté de son roi."
+  },
+  {
+   "t": 27.2,
+   "texte": "Mat."
+  },
+  {
+   "t": 28.94,
+   "texte": "Il a mangé ton poney."
+  },
+  {
+   "t": 31.28,
+   "texte": "Toi, tu as mangé la partie."
+  },
+  {
+   "t": 34.64,
+   "texte": "Tu serais tombé dedans ?"
+  },
+  {
+   "t": 36.51,
+   "texte": "Commente A  oui, ou B  jamais."
+  }
+ ],
+ "coups": [
+  {
+   "t": 5.28,
+   "coup": "Ng4",
+   "badge": "bizarre"
+  },
+  {
+   "t": 7.52,
+   "coup": "h3",
+   "badge": null
+  },
+  {
+   "t": 10.98,
+   "coup": "h5",
+   "badge": "brillant"
+  },
+  {
+   "t": 13.86,
+   "coup": "hxg4",
+   "badge": "gaffe"
+  },
+  {
+   "t": 17.9,
+   "coup": "hxg4",
+   "badge": null
+  },
+  {
+   "t": 19.22,
+   "coup": "Ne1",
+   "badge": null
+  },
+  {
+   "t": 21.82,
+   "coup": "Qh4",
+   "badge": null
+  },
+  {
+   "t": 23.24,
+   "coup": "f3",
+   "badge": null
+  },
+  {
+   "t": 23.6,
+   "coup": "g3",
+   "badge": null
+  },
+  {
+   "t": 25.2,
+   "coup": "d4",
+   "badge": null
+  },
+  {
+   "t": 25.64,
+   "coup": "Qh2#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}

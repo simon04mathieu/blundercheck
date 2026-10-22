@@ -172,3 +172,8 @@
     version 5 : Version cinq. Tu joues le fou en C4, puis le pion en E4, et le cavalier en F7.
     OK /home/runner/work/blundercheck/blundercheck/sorties/echantillons {"versions": 5}
 ## 2026-10-22 14:58 UTC · run 39800012297
+## 2026-10-22 23:04 UTC · run 39869295076
+### commandes/perso_pigeon_jour_1.json
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    minutage : 18 phrases, 11 coups, 0 pauses
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_jour_1.mp4 {"voix_brute_s": 39.6, "tempo": 1.0, "video_s": 40.1, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 99}
