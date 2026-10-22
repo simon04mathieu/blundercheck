@@ -477,3 +477,89 @@ TEASERS = {
 # ---------- question affichée sur les dernières secondes (pousse aux commentaires) ----------
 QUESTIONS = {}
 QUESTION_DEFAUT = "Tu l'aurais vu ?|Réponds en commentaire."
+
+# ---------- file du 22-23/10 (scénariste) : test FIN (pigeon_jour #1 A, #2 B), quiz_legal #2, ANALYSE n° 1 ----------
+# Coups vérifiés python-chess + Stockfish 19 par le producteur (23/10, 1 h). Aucune case dite.
+PIGEON1 = "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Ng4 h3 h5 hxg4 hxg4 Ne1 Qh4 f3 g3 d4 Qh2#"
+PIGEON2 = "e4 e5 Nf3 Nc6 Bc4 Nd4 Nxe5 Qg5 Nxf7 Qxg2 Rf1 Qxe4+ Be2 Nf3#"
+KRAMNIK_34 = "d4 d5 c4 dxc4 e4 b5 a4 c6 Nc3 b4 Na2 Nf6 e5 Nd5 Bxc4 e6 Nf3 a5 Bg5 Qb6 Nc1 Ba6 Qe2 h6 Be3 Bxc4 Qxc4 Nd7 Nb3 Be7 Rc1 O-O O-O Rfc8 Qe2 c5 Nfd2 Qc6 Qh5 Qxa4 Nxc5 Nxc5 dxc5 Nxe3 fxe3 Bxc5 Qxf7+ Kh8 Qf3 Rf8 Qe4 Qd7 Nb3 Bb6 Rfd1 Qf7 Rf1 Qa7 Rxf8+ Rxf8 Nd4 a4 Nxe6 Bxe3+ Kh1 Bxc1 Nxf8"
+PERSO.update({
+"pigeon_jour_1": {
+    "cote": "noirs",
+    "hook": "S'il mange ton poney,|il est mat.",
+    "voix": """[mischievously] S'il mange ton poney, il est mat.
+[fast] Tu as les Noirs. Ton poney saute tout près de son roi. Le pigeon le chasse avec un pion.
+Toi, tu ne bouges pas. [whispers] Tu avances un pion juste à côté.
+[amused] Il mange ton poney. Le plus gros bonbon du monde. Tu reprends.
+[excited] Et là, une autoroute s'ouvre vers son roi. Ta dame fonce. Ton pion pousse encore.
+Ta dame plonge à côté de son roi. [laughs] Mat.
+[smug] Il a mangé ton poney. Toi, tu as mangé la partie.
+Tu serais tombé dedans ? Commente A : oui, ou B : jamais.""",
+    "script": """[p e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Ng4 h3 h5 hxg4 hxg4 Ne1 Qh4 f3 g3 d4 Qh2#] [s tag h2 3.0 MAT] S'il mange ton poney, il est mat.
+[h] [p e4 e5 Nf3 Nc6 Bb5 Nf6 O-O] Tu as les Noirs. Ton poney saute [m Ng4 bizarre] tout près de son roi. Le pigeon le chasse [m h3] avec un pion.
+Toi, tu ne bouges pas. [s bonbon g4 3.0] Tu avances [m h5 brillant] un pion juste à côté.
+Il mange [m hxg4 gaffe] ton poney. [s tag g4 2.5 LE_PIGEON] Le plus gros bonbon du monde. Tu [m hxg4] reprends.
+Et là, [m Ne1] une autoroute s'ouvre [f h8h2] vers son roi. Ta dame [m Qh4] fonce. Ton pion [m f3] pousse [m g3] encore.
+Ta dame [m d4] plonge [m Qh2# mat] [z h2 1.45 2.6] [x impact] à côté de son roi. Mat.
+Il a mangé ton poney. Toi, tu as mangé la partie.
+Tu serais tombé dedans ? Commente A : oui, ou B : jamais.""",
+},
+"pigeon_jour_2": {
+    "cote": "noirs",
+    "hook": "S'il mange ce bonbon,|il est mat.",
+    "voix": """[mischievously] S'il mange ce bonbon, il est mat.
+[fast] Tu as les Noirs. Tu laisses un pion tout seul au milieu. Un bonbon.
+[amused] Le poney du pigeon le mange. Puis il en mange un deuxième et attaque ta dame et ta tour.
+[mocking] Il se croit malin. Ta dame s'en fiche. Elle mange un pion. Elle en mange un deuxième. Échec.
+Il cache son roi derrière son fou. [excited] Et là, ton poney saute. [laughs] Mat.
+[smug] Il a mangé tes bonbons. Toi, tu as mangé la partie.
+Tes pièges à toi, le prof les trouve. Analyse ta partie : lien en bio.""",
+    "script": """[p e4 e5 Nf3 Nc6 Bc4 Nd4 Nxe5 Qg5 Nxf7 Qxg2 Rf1 Qxe4+ Be2 Nf3#] [s tag f3 3.0 MAT] S'il mange ce bonbon, il est mat.
+[h] [p e4 e5 Nf3 Nc6 Bc4] Tu as les Noirs. Tu laisses [m Nd4 bizarre] un pion tout seul au milieu. [s bonbon e5 2.5] Un bonbon.
+Le poney du pigeon [m Nxe5 gaffe] le mange. [s tag e5 2.0 LE_PIGEON] [m Qg5] Puis il en mange [m Nxf7] un deuxième et attaque [f f7g5 f7h8] ta dame et ta tour.
+Il se croit malin. Ta dame s'en fiche. Elle mange [m Qxg2] un pion. [m Rf1] Elle en mange [m Qxe4+] un deuxième. Échec.
+Il cache son roi [m Be2] derrière son fou. Et là, ton poney [m Nf3# mat] [z f3e1 1.45 2.6] [x impact] saute. Mat.
+Il a mangé tes bonbons. Toi, tu as mangé la partie.
+Tes pièges à toi, le prof les trouve. Analyse ta partie : lien en bio.""",
+},
+"quiz_legal_2": {
+    "cote": "blancs",
+    "hook": "Ton pion devient poney|et fait mat : légal ?",
+    "voix": """[mischievously] Ton pion devient poney et fait mat. Légal ou pas ?
+Regarde. Son roi s'est caché dans un coin, entouré de ses bonbons, de son fou et de la Gourmande.
+Ton pion arrive au bout. Tout le monde prend une dame. Pas toi. [whispers] Tu choisis… un poney.
+[excited] Le poney saute : échec. Le roi ne peut aller nulle part, ses propres pièces le bloquent. [laughs] Mat.
+Légal ou pas ? Réponds en un mot. … [excited] Légal ! Tu peux changer ton pion en n'importe quelle pièce, même en poney.
+Et avec une dame, ici, ce n'était même pas échec. [smug] Tu aurais pris la dame ? Oui ou non ?""",
+    "script": """[p fen:6bq/5Ppk/6pp/8/8/8/8/2K5_w_-_-_0_1] [s tag f7 3.0 TON_PION] Ton pion devient poney et fait mat. Légal ou pas ?
+[h] Regarde. Son roi s'est caché [z h7 1.4 2.2] dans un coin, entouré de ses bonbons, [s bonbon g6 2.5] de son fou et de la Gourmande. [s couronne h8 2.5]
+Ton pion arrive [f f7f8] au bout. Tout le monde prend une dame. Pas toi. Tu choisis… un poney.
+[m f8=N# mat] [z h7f8 1.45 2.6] [x impact] Le poney saute : échec. Le roi ne peut aller nulle part, ses propres pièces le bloquent. Mat.
+Légal ou pas ? Réponds en un mot. … [q 2 Légal_ou_pas_?] Légal ! Tu peux changer ton pion en n'importe quelle pièce, même en poney.
+Et avec une dame, ici, ce n'était même pas échec. Tu aurais pris la dame ? Oui ou non ?""",
+},
+"analyse_celebre_1": {
+    # Deep Fritz – Kramnik, Bonn, 27/11/2006, partie 2 : 34…Qe3?? 35.Qh7# (PGN : chessprogramming.org ; Stockfish : 0.00 avant, mat en 1 après)
+    "cote": "blancs",
+    "hook": "Tu vois le mat en un|qu'il n'a pas vu ?",
+    "voix": """[curious] Tu vois le mat en un qu'il n'a pas vu ?
+2006. Un champion du monde contre un ordinateur.
+Sa dame part à l'attaque, loin de son roi.
+[whispers] Et derrière son dos, la dame de l'ordinateur se glisse à côté de son roi. [excited] Mat. En un coup.
+Passe la partie dans BlunderCheck : la gaffe sort en rouge, double point d'interrogation.
+[amused] Même les champions font le pigeon. Tu l'avais vu ? Oui ou non ?""",
+    "script": """[p d4 d5 c4 dxc4 e4 b5 a4 c6 Nc3 b4 Na2 Nf6 e5 Nd5 Bxc4 e6 Nf3 a5 Bg5 Qb6 Nc1 Ba6 Qe2 h6 Be3 Bxc4 Qxc4 Nd7 Nb3 Be7 Rc1 O-O O-O Rfc8 Qe2 c5 Nfd2 Qc6 Qh5 Qxa4 Nxc5 Nxc5 dxc5 Nxe3 fxe3 Bxc5 Qxf7+ Kh8 Qf3 Rf8 Qe4 Qd7 Nb3 Bb6 Rfd1 Qf7 Rf1 Qa7 Rxf8+ Rxf8 Nd4 a4 Nxe6 Bxe3+ Kh1 Bxc1 Nxf8] [s tag h8 3.0 ROI_NOIR] Tu vois le mat en un qu'il n'a pas vu ?
+[h] 2006. Un champion du monde contre un ordinateur.
+Sa dame [m Qe3 gaffe] part à l'attaque, loin de son roi.
+Et derrière son dos, [f e4h7] la dame de l'ordinateur se glisse [m Qh7# mat] [z h7 1.5 2.6] [x impact] à côté de son roi. Mat. En un coup.
+Passe la partie dans BlunderCheck : la gaffe sort en rouge, double point d'interrogation.
+Même les champions font le pigeon. Tu l'avais vu ? Oui ou non ?""",
+    "musique": 0.0,
+},
+})
+QUESTIONS.update({
+    "pigeon_jour_1": "A = oui · B = jamais.|Commente !",
+    "pigeon_jour_2": "Analyse ta partie :|lien en bio",
+    "quiz_legal_2": "Tu aurais pris la dame ?|Oui ou non ?",
+    "analyse_celebre_1": "Analyse ta partie :|lien dans la bio",
+})

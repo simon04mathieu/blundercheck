@@ -119,6 +119,7 @@ def video_voix(cmd):
     tempo = min(1.18, d1 / vmax) if d1 > vmax else 1.0
     if cmd.get("sans_musique") is not True: spec["musique"] = 0.0
     if cmd.get("hook") and spec.get("hook"): spec["hook"] = (cmd["hook"], spec["hook"][1])  # test A/B du hook (0 crédit)  # la musique de fond vient d'ElevenLabs, pas du synthé
+    ecrire_minutage(cmd.get("sortie", nom), spec, tempo)
     coach.FLIP = spec["noirs"]; coach.BG = coach.fond()
     muet, fx = os.path.join(tmp, "muet.mp4"), os.path.join(tmp, "fx.wav")
     coach.run(spec, muet, fx, tempo)
@@ -141,6 +142,30 @@ def video_voix(cmd):
                  "voice_id": voice_id, "musique": os.path.basename(mus) if mus else "aucune", "mots_transcrits": len(mots)}
 
 perso = video_voix
+
+def ecrire_minutage(nom, spec, tempo=1.0):
+    """sorties/minutage/<nom>.json : seconde (dans la vidéo finie) du début de chaque phrase lue, de chaque coup
+    montré, de chaque pause, du hook et de la question finale. Sert au data analyst (rétention seconde par seconde)."""
+    k = 1.0 / tempo if tempo else 1.0
+    r = lambda t: round(float(t) * k, 2)
+    phrases, cur, t0 = [], [], None
+    for a, b, txt in spec.get("captions", []):
+        if not cur: t0 = a
+        cur.append(txt)
+        if txt.rstrip()[-1:] in ".!?…":
+            phrases.append({"t": r(t0), "texte": " ".join(cur)}); cur = []
+    if cur: phrases.append({"t": r(t0), "texte": " ".join(cur)})
+    coups = [{"t": r(t), "coup": d[0], "badge": d[1]} for t, typ, d in spec.get("actions", []) if typ == "coup"]
+    pauses = [{"t": r(t), "duree": round(float(d[0]) * k, 2), "texte": d[1]}
+              for t, typ, d in spec.get("actions", []) if typ == "quiz"]
+    duree_v = r(spec.get("duree", 0))
+    m = {"nom": nom, "tempo": round(tempo, 3), "duree_s": duree_v,
+         "hook": {"texte": spec["hook"][0], "fin": r(spec["hook"][1])} if spec.get("hook") else None,
+         "question": {"texte": spec.get("question"), "t": round(max(0.0, duree_v - 3.2), 2)} if spec.get("question") else None,
+         "phrases": phrases, "coups": coups, "pauses": pauses}
+    d = os.path.join(SORTIES, "minutage"); os.makedirs(d, exist_ok=True)
+    json.dump(m, open(os.path.join(d, f"{nom}.json"), "w"), ensure_ascii=False, indent=1)
+    print("minutage :", len(phrases), "phrases,", len(coups), "coups,", len(pauses), "pauses", flush=True)
 
 def gaffe(cmd):
     """Démo « Ta pire gaffe » sans voix : puzzle du jour Lichess, bruitages + musique jazz chill."""
