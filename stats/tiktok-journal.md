@@ -9,3 +9,4 @@ Jetons TikTok enregistrés (chiffrés). Portées : user.info.basic,user.info.pro
 {"publish_id": "v_inbox_file~v2.7699440796818819094", "mode": "brouillon", "vie_privee": null, "legende": "Arrête de faire une dame à chaque promotion. Ici, fais un poney 🐴 Le piège de Lasker. Tu l'aurais vu ? Analyse tes parties gratuitement : lien en bio #echecs #chess #chesstok #echecsfr #piege #promotion"}
 {"compte": "BlunderCheck", "abonnes": 1, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "abonnes": 1, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "abonnes": 1, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
