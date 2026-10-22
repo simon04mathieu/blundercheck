@@ -12,3 +12,6 @@ Jetons TikTok enregistrés (chiffrés). Portées : user.info.basic,user.info.pro
 {"compte": "BlunderCheck", "abonnes": 1, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "abonnes": 1, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "abonnes": 1, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "abonnes": 1, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-10-22 15:11 publications/tiktok/perso_legal.json
+{"publish_id": "v_inbox_file~v2.7699510000074491926", "mode": "brouillon", "vie_privee": null, "legende": "Donne ta dame au pigeon 🐦 Le mat de Légal : trois petites pièces suffisent. Tu aurais osé ? #echecs #chess #chesstok #echecsfr #piege"}
