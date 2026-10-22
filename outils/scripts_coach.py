@@ -423,6 +423,29 @@ Il prend le poney ? [m Rxg1] Fou [m Bg4+ bon] g4, échec. [f g4d1] [s couronne d
 Il ne le prend pas ? [p """ + LASKER_PONEY.replace(" ", " ") + """] Roi [m Ke1] e1, dame [m Qh4+ bon] h4, échec. [z e1 1.4 1.8] Son roi se promène.
 Le pigeon, c'était lui. Analyse tes parties sur BlunderCheck.""",
 },
+"perso_legal": {
+    # 22/10 (Simon) : style « bonbon / pigeon » enfantin mais percutant ; la voix ne dit aucune case (pas de souci de prononciation)
+    "cote": "blancs",
+    "hook": "Donne ta dame au pigeon.|Oui, ta dame.",
+    "voix": """[mischievously] Donne ta dame au pigeon. Oui, ta dame entière.
+[fast] On rembobine. Ton pion avance de deux cases. Il fait pareil. Ton poney sort. Lui avance un petit pion. Ton fou sort et vise son roi.
+Son fou sort aussi, et il cloue ton poney sur ta dame. [mocking] Il est fier.
+Ton deuxième poney sort. Lui joue un petit pion, sans réfléchir.
+[whispers] Et là, tu lui tends le plus gros bonbon du monde. Ton poney mange son pion, et tu laisses ta dame.
+[amused] Le pigeon la voit toute seule. Il la mange. Miam.
+[excited] Ton fou fonce : échec ! Son roi n'a qu'une case.
+Ton deuxième poney saute. [laughs] Échec et mat. Avec trois petites pièces.
+[smug] Il a mangé ta dame. Toi, tu as mangé la partie. Analyse tes parties sur BlunderCheck.""",
+    "script": """[p e4 e5 Nf3 d6 Bc4 Bg4 Nc3 g6 Nxe5] [f g4d1] Donne ta dame au pigeon. [s tag d1 3.0 CADEAU] Oui, ta dame entière.
+[h] [p] On rembobine. Ton pion [m e4] avance de deux cases. Il fait [m e5] pareil. Ton poney [m Nf3] sort. Lui avance un [m d6] petit pion. Ton fou [m Bc4] sort [f c4f7] et vise son roi.
+Son fou sort aussi, [m Bg4] et il cloue ton poney [f g4d1] sur ta dame. Il est fier.
+Ton deuxième poney [m Nc3] sort. Lui joue un petit pion, [m g6 erreur] sans réfléchir.
+Et là, tu lui tends le plus gros bonbon du monde. [s bonbon d1 3.0] Ton poney mange son pion, [m Nxe5 brillant] et tu laisses ta dame.
+Le pigeon la voit toute seule. Il la mange. [m Bxd1 gaffe] Miam. [s tag d1 2.5 LE_PIGEON]
+Ton fou fonce : [m Bxf7+] échec ! Son roi n'a qu'une case. [m Ke7]
+Ton deuxième poney saute. [m Nd5# mat] [z e7d5 1.45 2.6] [x impact] Échec et mat. Avec trois petites pièces.
+Il a mangé ta dame. Toi, tu as mangé la partie. Analyse tes parties sur BlunderCheck.""",
+},
 }
 
 # ---------- hooks affichés dès l'image 1 (règle 2) pour les scripts coach ; le bandeau tient jusqu'à la fin de la 1re phrase ----------
