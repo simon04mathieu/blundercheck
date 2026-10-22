@@ -11,3 +11,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "0"}
 ### 2026-10-22 15:37 publications/youtube/v_halosar.json
 {"id": "xFSnLJ_yBrk", "url": "https://www.youtube.com/shorts/xFSnLJ_yBrk", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "0"}

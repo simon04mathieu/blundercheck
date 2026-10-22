@@ -1,5 +1,5 @@
 {
- "date": "2026-10-22T15:37:22.221020+00:00",
+ "date": "2026-10-22T16:37:02.916651+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,6 +7,24 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "3C3VYTd6Ajg": {
+   "titre": "2 dames en même temps aux échecs : c'est permis ? #Shorts",
+   "publiee": "2026-10-22T16:32:29Z",
+   "statut": "public",
+   "duree": "PT44S",
+   "vues": 0,
+   "jaime": 0,
+   "commentaires": 0
+  },
+  "xFSnLJ_yBrk": {
+   "titre": "Il laisse sa dame… et fait mat : le piège Halosar ♟️ #echecs #shorts",
+   "publiee": "2026-10-22T15:37:43Z",
+   "statut": "public",
+   "duree": "PT56S",
+   "vues": 0,
+   "jaime": 0,
+   "commentaires": 0
+  },
   "RUCFdjDaLDg": {
    "titre": "Mat en 11 coups contre un maître : Réti – Tartakower, 1910 #Shorts",
    "publiee": "2026-10-22T15:31:31Z",
@@ -21,7 +39,7 @@
    "publiee": "2026-10-22T14:31:41Z",
    "statut": "public",
    "duree": "PT47S",
-   "vues": 0,
+   "vues": 4,
    "jaime": 0,
    "commentaires": 0
   },
@@ -30,8 +48,8 @@
    "publiee": "2026-10-22T13:44:04Z",
    "statut": "public",
    "duree": "PT55S",
-   "vues": 0,
-   "jaime": 0,
+   "vues": 28,
+   "jaime": 1,
    "commentaires": 0
   },
   "qXUtz9Ty04k": {
@@ -39,7 +57,7 @@
    "publiee": "2026-10-22T08:58:52Z",
    "statut": "public",
    "duree": "PT56S",
-   "vues": 218,
+   "vues": 251,
    "jaime": 10,
    "commentaires": 0
   },
