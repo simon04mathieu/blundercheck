@@ -1,0 +1,50 @@
+# YouTube sans Metricool : envoie les vidéos décrites dans publications/youtube/*.json
+# et relève les chiffres de la chaîne chaque matin dans stats/youtube.json.
+name: YouTube
+on:
+  push:
+    branches: [videos]
+    paths: ["publications/youtube/*.json", ".github/workflows/youtube.yml"]
+  schedule:
+    - cron: "7 * * * *"    # toutes les heures : envoie les vidéos dont l'heure est venue (+ relevé des chiffres)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: youtube
+  cancel-in-progress: false
+jobs:
+  youtube:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: videos }
+      - name: Chaîne
+        run: python3 outils/youtube.py chaine | tee -a stats/youtube-journal.md
+      - name: Envois
+        run: |
+          mkdir -p publications/youtube/faites
+          for c in publications/youtube/*.json; do
+            [ -e "$c" ] || continue
+            python3 -c "import json,sys,datetime as d; a=json.load(open(sys.argv[1])).get('envoyer_apres'); sys.exit(0 if not a or d.datetime.fromisoformat(a)<=d.datetime.now(d.timezone.utc) else 1)" "$c" || continue
+            echo "### $(date -u '+%F %H:%M') $c" >> stats/youtube-journal.md
+            if python3 outils/youtube.py envoi "$c" > /tmp/r.txt 2>&1; then
+              cat /tmp/r.txt >> stats/youtube-journal.md; git mv "$c" publications/youtube/faites/ 2>/dev/null || mv "$c" publications/youtube/faites/
+            else
+              echo "ÉCHEC : $(tail -c 600 /tmp/r.txt)" >> stats/youtube-journal.md
+            fi
+          done
+      - name: Chiffres
+        run: python3 outils/youtube.py stats stats/youtube.json 28 || true
+      - name: Dépôt
+        if: always()
+        run: |
+          git config user.name "BlunderCheck vidéos"; git config user.email "actions@users.noreply.github.com"
+          git add -A stats publications || true
+          git commit -qm "YouTube : envois et chiffres (run ${{ github.run_id }})" || exit 0
+          for i in 1 2 3; do git pull -q --rebase origin videos && git push -q origin HEAD:videos && break; sleep 5; done
