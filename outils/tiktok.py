@@ -74,9 +74,15 @@ def envoi(cmd, tok):
             "disable_comment": False, "disable_duet": False, "disable_stitch": False,
             "brand_content_toggle": False, "brand_organic_toggle": bool(cmd.get("marque", True)),
             "is_aigc": bool(cmd.get("ia", True))}
-    d = _api(tok, "POST", "/v2/post/publish/video/init/",
-             {"post_info": post, "source_info": {"source": "FILE_UPLOAD", "video_size": taille,
-                                                 "chunk_size": morceau, "total_chunk_count": n}})
+    source = {"source": "FILE_UPLOAD", "video_size": taille, "chunk_size": morceau, "total_chunk_count": n}
+    mode = "direct"
+    try:
+        d = _api(tok, "POST", "/v2/post/publish/video/init/", {"post_info": post, "source_info": source})
+    except SystemExit as e:
+        if "unaudited_client" not in str(e): raise
+        # appli pas encore auditée : la vidéo part dans la boîte de réception TikTok du compte (brouillon),
+        # Simon la publie depuis l'appli TikTok (légende à recoller : journal stats/tiktok-journal.md)
+        d = _api(tok, "POST", "/v2/post/publish/inbox/video/init/", {"source_info": source}); mode = "brouillon"
     with open(cmd["fichier"], "rb") as f:
         donnees = f.read()
     for i in range(n):
@@ -84,7 +90,8 @@ def envoi(cmd, tok):
         _http("PUT", d["upload_url"], donnees[debut:fin],
               {"Content-Type": "video/mp4", "Content-Length": str(fin - debut),
                "Content-Range": f"bytes {debut}-{fin - 1}/{taille}"})
-    return {"publish_id": d["publish_id"], "vie_privee": vie_privee}
+    return {"publish_id": d["publish_id"], "mode": mode, "vie_privee": vie_privee if mode == "direct" else None,
+            "legende": cmd["legende"] if mode == "brouillon" else None}
 
 def statut(tok, publish_id):
     return _api(tok, "POST", "/v2/post/publish/status/fetch/", {"publish_id": publish_id})
