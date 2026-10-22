@@ -1,0 +1,72 @@
+{
+ "nom": "analyse_celebre_1",
+ "tempo": 1.0,
+ "duree_s": 28.68,
+ "hook": {
+  "texte": "Tu vois le mat en un|qu'il n'a pas vu ?",
+  "fin": 3.04
+ },
+ "question": {
+  "texte": "Analyse ta partie :|lien dans la bio",
+  "t": 25.48
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Tu vois le mat en un qu'il n'a pas vu ?"
+  },
+  {
+   "t": 3.04,
+   "texte": "2006."
+  },
+  {
+   "t": 4.46,
+   "texte": "Un champion du monde contre un ordinateur."
+  },
+  {
+   "t": 7.36,
+   "texte": "Sa dame part à l'attaque loin de son roi."
+  },
+  {
+   "t": 10.48,
+   "texte": "Et derrière son dos la dame de l'ordinateur se glisse à côté de son roi."
+  },
+  {
+   "t": 15.42,
+   "texte": "Mat."
+  },
+  {
+   "t": 16.3,
+   "texte": "En un coup."
+  },
+  {
+   "t": 17.98,
+   "texte": "Passe la partie dans BlunderCheck  la gaffe sort en rouge double point d'interrogation."
+  },
+  {
+   "t": 23.9,
+   "texte": "Même les champions font le pigeon."
+  },
+  {
+   "t": 26.42,
+   "texte": "Tu l'avais vu ?"
+  },
+  {
+   "t": 27.46,
+   "texte": "Oui ou non ?"
+  }
+ ],
+ "coups": [
+  {
+   "t": 7.88,
+   "coup": "Qe3",
+   "badge": "gaffe"
+  },
+  {
+   "t": 13.36,
+   "coup": "Qh7#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
