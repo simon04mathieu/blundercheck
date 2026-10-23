@@ -11,6 +11,7 @@ META_PAGE_ID (id de la Page). La vidéo doit être publique : on donne à Meta l
 Code retour : 0 = envoyé ou rien à faire (pas encore l'heure, outil inactif) ; 1 = échec (message « ÉCHEC : ... »).
 """
 import sys, os, json, time, urllib.request, urllib.parse, datetime
+from garde_fou import verifier   # liste fermée des comptes BlunderCheck autorisés
 API = "https://graph.facebook.com/v26.0"   # version de l'API (vérifiée à l'activation le 23/10/2026)
 RAW = "https://raw.githubusercontent.com/simon04mathieu/blundercheck/videos/"
 ESSAI = False
@@ -63,6 +64,13 @@ def envoi(chemin):
         print("outil Meta inactif : secrets META_* absents (normal tant que Simon n'a pas ouvert les comptes)"); return None
     for k in ("fichier", "legende", "concept", "etiquettes"):
         if k not in d: sys.exit(f"ÉCHEC : champ « {k} » manquant dans {chemin}")
+    # garde-fou : identité réelle de la cible lue chez Meta juste avant l'envoi (jamais un compte personnel)
+    if not ESSAI:
+        if reseau == "instagram":
+            verifier("instagram", req("GET", f"{API}/{ig}", {"fields": "username", "access_token": tok}).get("username"))
+        else:
+            p = req("GET", f"{API}/{page}", {"fields": "name,category", "access_token": tok})   # un profil perso n'a pas de « category » : refusé
+            verifier("facebook", p.get("name"), page=bool(p.get("category")))
     r = instagram(d, tok, ig) if reseau == "instagram" else facebook(d, tok, page)
     print(json.dumps(r, ensure_ascii=False)); return r
 

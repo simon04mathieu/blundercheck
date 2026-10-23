@@ -15,6 +15,7 @@ Fichier d'envoi (publications/youtube/*.json) :
 Note : tant que Google n'a pas audité l'appli, YouTube peut forcer les vidéos envoyées par l'API en privé.
 """
 import os, sys, json, datetime, urllib.request, urllib.parse
+from garde_fou import verifier   # liste fermée des comptes BlunderCheck autorisés
 
 def jeton():
     data = urllib.parse.urlencode({
@@ -39,6 +40,7 @@ def chaine(tok):
             "uploads": it["contentDetails"]["relatedPlaylists"]["uploads"]}
 
 def envoi(cmd, tok):
+    verifier("youtube", chaine(tok)["id"])   # garde-fou : chaîne réellement connectée au jeton (1 unité de quota)
     status = {"privacyStatus": "public", "selfDeclaredMadeForKids": False, "containsSyntheticMedia": False}
     if cmd.get("publier_le"):
         status["privacyStatus"] = "private"

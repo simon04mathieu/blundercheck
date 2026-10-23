@@ -12,6 +12,7 @@ La vidéo doit être publique : on donne à Threads l'URL brute GitHub de la bra
 Code retour : 0 = envoyé ou rien à faire (pas encore l'heure, outil inactif) ; 1 = échec (message « ÉCHEC : ... »).
 """
 import sys, os, json, time, subprocess, urllib.request, urllib.parse, datetime
+from garde_fou import verifier   # liste fermée des comptes BlunderCheck autorisés
 API = "https://graph.threads.com/v1.0"
 BASE = "https://graph.threads.com"
 RAW = "https://raw.githubusercontent.com/simon04mathieu/blundercheck/videos/"
@@ -65,6 +66,8 @@ def heure_venue(d):
     return not ea or datetime.datetime.now(datetime.timezone.utc) >= datetime.datetime.fromisoformat(ea)
 
 def publier(d, tok):
+    if not ESSAI:   # garde-fou : profil réellement connecté au jeton
+        verifier("threads", req("GET", f"{API}/me", {"fields": "id,username", "access_token": tok}).get("username"))
     c = req("POST", f"{API}/me/threads", {"media_type": "VIDEO", "video_url": RAW + d["fichier"],
             "text": d["legende"].encode()[:500].decode(errors="ignore"), "access_token": tok})
     for _ in range(40):  # Threads télécharge et encode la vidéo : jusqu'à ~10 min

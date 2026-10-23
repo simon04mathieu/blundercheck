@@ -17,6 +17,7 @@ Fichier d'envoi : {"fichier": "sorties/v_noe.mp4", "legende": "...", "envoyer_ap
 Tant que l'appli n'est pas auditée par TikTok, les vidéos publiées par l'API sont forcément privées (SELF_ONLY).
 """
 import os, sys, json, math, subprocess, urllib.request, urllib.parse, datetime
+from garde_fou import verifier   # liste fermée des comptes BlunderCheck autorisés
 
 API = "https://open.tiktokapis.com"
 REDIRECT = "https://blundercheck.app/tiktok/retour"
@@ -71,6 +72,7 @@ def moi(tok):
 
 def envoi(cmd, tok):
     info = _api(tok, "POST", "/v2/post/publish/creator_info/query/", {})
+    verifier("tiktok", info.get("creator_username"))   # garde-fou : compte réellement autorisé par ce jeton
     options = info.get("privacy_level_options", [])
     vie_privee = "PUBLIC_TO_EVERYONE" if "PUBLIC_TO_EVERYONE" in options else (options[-1] if options else "SELF_ONLY")
     taille = os.path.getsize(cmd["fichier"])
