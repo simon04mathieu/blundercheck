@@ -1,0 +1,91 @@
+{
+ "nom": "pigeon_jour_3",
+ "tempo": 1.0,
+ "duree_s": 24.88,
+ "hook": {
+  "texte": "S'il mange ta dame,|il est mat.",
+  "fin": 2.66
+ },
+ "question": {
+  "texte": "A = oui · B = jamais.|Commente !",
+  "t": 21.68
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "S'il mange ta dame il est mat."
+  },
+  {
+   "t": 2.66,
+   "texte": "Tu as les Blancs."
+  },
+  {
+   "t": 3.88,
+   "texte": "Ton poney avale un pion."
+  },
+  {
+   "t": 5.96,
+   "texte": "Le pigeon voit ta dame sans défense."
+  },
+  {
+   "t": 8.68,
+   "texte": "Le plus gros bonbon du monde."
+  },
+  {
+   "t": 10.78,
+   "texte": "Il la mange."
+  },
+  {
+   "t": 12.26,
+   "texte": "Ton fou croque un pion échec."
+  },
+  {
+   "t": 14.98,
+   "texte": "Son roi avance."
+  },
+  {
+   "t": 16.84,
+   "texte": "Ton poney saute."
+  },
+  {
+   "t": 18.44,
+   "texte": "Mat."
+  },
+  {
+   "t": 19.36,
+   "texte": "Tu serais tombé dedans ?"
+  },
+  {
+   "t": 21.26,
+   "texte": "Commente A  oui, ou B  jamais."
+  }
+ ],
+ "coups": [
+  {
+   "t": 4.3,
+   "coup": "Nxe5",
+   "badge": "brillant"
+  },
+  {
+   "t": 11.12,
+   "coup": "Bxd1",
+   "badge": "gaffe"
+  },
+  {
+   "t": 12.74,
+   "coup": "Bxf7+",
+   "badge": null
+  },
+  {
+   "t": 15.6,
+   "coup": "Ke7",
+   "badge": null
+  },
+  {
+   "t": 17.44,
+   "coup": "Nd5#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
