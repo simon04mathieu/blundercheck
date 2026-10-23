@@ -1,0 +1,38 @@
+{
+ "fichier": "sorties/pigeon_jour_3.mp4",
+ "envoyer_apres": "2026-10-24T14:00:00+02:00",
+ "titre": "Le piège de Légal : mat en 7 coups 🐦 #echecs #shorts",
+ "description": "Le pigeon du jour #3 : s'il mange ta dame, il est mat. Tu serais tombé dedans ? Commente A : oui, ou B : jamais.\n\nAnalyse tes parties gratuitement : https://blundercheck.app/?src=youtube\n\n#echecs #chess #shorts",
+ "tags": [
+  "échecs",
+  "chess",
+  "piège",
+  "poney",
+  "quiz échecs"
+ ],
+ "concept": "pigeon_jour",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "hook": "perte_1re_phrase",
+  "premiers_mots": "S'il mange ta dame",
+  "duree_s": 26,
+  "personnages": [
+   "poney",
+   "pigeon",
+   "bonbon",
+   "toi"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "commente_A_ou_B",
+  "test": "T1-fin",
+  "variante": "A"
+ },
+ "format": "PERSO",
+ "langue": "fr",
+ "test": "T1-fin",
+ "variante": "A",
+ "duree": 26,
+ "voix": "oui"
+}

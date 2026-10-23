@@ -1,0 +1,38 @@
+{
+ "fichier": "sorties/pigeon_jour_4.mp4",
+ "envoyer_apres": "2026-10-24T20:00:00+02:00",
+ "titre": "Le piège Kieninger (gambit Budapest) : mat en 8 coups 🐦 #echecs #shorts",
+ "description": "Le pigeon du jour #4 : s'il mange ton fou, il est mat. Tu serais tombé dedans ? Suis la chaîne pour la suite.\n\nAnalyse tes parties gratuitement : https://blundercheck.app/?src=youtube\n\n#echecs #chess #shorts",
+ "tags": [
+  "échecs",
+  "chess",
+  "piège",
+  "poney",
+  "quiz échecs"
+ ],
+ "concept": "pigeon_jour",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "hook": "perte_1re_phrase",
+  "premiers_mots": "S'il mange ton fou",
+  "duree_s": 22,
+  "personnages": [
+   "poney",
+   "pigeon",
+   "bonbon",
+   "toi"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "suis_le_compte",
+  "test": "T1-fin",
+  "variante": "B"
+ },
+ "format": "PERSO",
+ "langue": "fr",
+ "test": "T1-fin",
+ "variante": "B",
+ "duree": 22,
+ "voix": "oui"
+}

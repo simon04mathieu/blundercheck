@@ -1,0 +1,33 @@
+{
+ "fichier": "sorties/pigeon_en_1.mp4",
+ "legende": "Pigeon Trap of the Day #1 🐦 If he eats your candy, he's mated. Would you fall for it? Yes or no 👇 #chess #chesstok #chesstrap #blackburne",
+ "envoyer_apres": "2026-10-24T08:00:00+02:00",
+ "heure_conseillee": "2026-10-24T14:00:00+02:00",
+ "ia": true,
+ "marque": true,
+ "concept": "pigeon_en",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "en",
+  "hook": "perte_1re_phrase",
+  "premiers_mots": "If he eats",
+  "duree_s": 23,
+  "personnages": [
+   "pony",
+   "pigeon",
+   "candy",
+   "you"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "yes_no",
+  "test": null,
+  "variante": null
+ },
+ "format": "PERSO",
+ "langue": "en",
+ "test": null,
+ "variante": null,
+ "duree": 23,
+ "voix": "oui"
+}

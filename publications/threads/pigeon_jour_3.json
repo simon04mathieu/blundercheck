@@ -1,0 +1,30 @@
+{
+ "fichier": "sorties/pigeon_jour_3.mp4",
+ "legende": "Le pigeon du jour #3 🐦 S'il mange ta dame, il est mat. Tu serais tombé dedans ? Commente A (oui) ou B (jamais) 👇\n\n#echecs #chess #piegeechecs #echecsfr #chesstok",
+ "envoyer_apres": "2026-10-24T14:00:00+02:00",
+ "concept": "pigeon_jour",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "hook": "perte_1re_phrase",
+  "premiers_mots": "S'il mange ta dame",
+  "duree_s": 26,
+  "personnages": [
+   "poney",
+   "pigeon",
+   "bonbon",
+   "toi"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "commente_A_ou_B",
+  "test": "T1-fin",
+  "variante": "A"
+ },
+ "format": "PERSO",
+ "langue": "fr",
+ "test": "T1-fin",
+ "variante": "A",
+ "duree": 26,
+ "voix": "oui"
+}

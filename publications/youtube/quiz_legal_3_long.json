@@ -1,0 +1,37 @@
+{
+ "fichier": "sorties/quiz_legal_3_long.mp4",
+ "envoyer_apres": "2026-10-24T11:00:00+02:00",
+ "titre": "Mat en passant : légal ou pas ? 🤔 #echecs #shorts",
+ "description": "Ton pion mange le vide et fait mat. Légal ou pas ? Tu le savais ? Oui ou non ?\n\nAnalyse tes parties gratuitement : https://blundercheck.app/?src=youtube\n\n#echecs #chess #shorts",
+ "tags": [
+  "échecs",
+  "chess",
+  "piège",
+  "poney",
+  "quiz échecs"
+ ],
+ "concept": "quiz_legal",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "hook": "mat_1re_phrase+question",
+  "premiers_mots": "Ton pion mange",
+  "duree_s": 68,
+  "personnages": [
+   "pigeon",
+   "poney",
+   "toi"
+  ],
+  "musique": "fond1_lofi",
+  "voix": "non",
+  "fin": "oui_non",
+  "test": "T6-durée",
+  "variante": "A"
+ },
+ "format": "PERSO",
+ "langue": "fr",
+ "test": "T6-durée",
+ "variante": "A",
+ "duree": 68,
+ "voix": "non"
+}
