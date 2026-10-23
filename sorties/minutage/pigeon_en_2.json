@@ -1,0 +1,121 @@
+{
+ "nom": "pigeon_en_2",
+ "tempo": 1.0,
+ "duree_s": 24.58,
+ "hook": {
+  "texte": "If he eats your pony,|he's mated.",
+  "fin": 3.52
+ },
+ "question": {
+  "texte": "Would you fall for it?|Yes or no?",
+  "t": 21.38
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "If he eats your pony he's mated."
+  },
+  {
+   "t": 3.52,
+   "texte": "You're Black."
+  },
+  {
+   "t": 4.78,
+   "texte": "You park your pony next to his king."
+  },
+  {
+   "t": 7.54,
+   "texte": "His pigeon pawn chases it."
+  },
+  {
+   "t": 9.96,
+   "texte": "You push a pawn."
+  },
+  {
+   "t": 11.54,
+   "texte": "He eats your pony the biggest candy ever."
+  },
+  {
+   "t": 15.3,
+   "texte": "You take back."
+  },
+  {
+   "t": 16.72,
+   "texte": "A highway opens."
+  },
+  {
+   "t": 18.46,
+   "texte": "Your queen dives."
+  },
+  {
+   "t": 20.64,
+   "texte": "Mate."
+  },
+  {
+   "t": 21.96,
+   "texte": "Would you fall for it?"
+  },
+  {
+   "t": 23.68,
+   "texte": "Yes or no?"
+  }
+ ],
+ "coups": [
+  {
+   "t": 5.2,
+   "coup": "Ng4",
+   "badge": "bizarre"
+  },
+  {
+   "t": 8.34,
+   "coup": "h3",
+   "badge": null
+  },
+  {
+   "t": 10.4,
+   "coup": "h5",
+   "badge": "brillant"
+  },
+  {
+   "t": 11.9,
+   "coup": "hxg4",
+   "badge": "gaffe"
+  },
+  {
+   "t": 15.72,
+   "coup": "hxg4",
+   "badge": null
+  },
+  {
+   "t": 17.14,
+   "coup": "Ne1",
+   "badge": null
+  },
+  {
+   "t": 18.92,
+   "coup": "Qh4",
+   "badge": null
+  },
+  {
+   "t": 20.64,
+   "coup": "f3",
+   "badge": null
+  },
+  {
+   "t": 20.64,
+   "coup": "g3",
+   "badge": null
+  },
+  {
+   "t": 20.64,
+   "coup": "d4",
+   "badge": null
+  },
+  {
+   "t": 20.64,
+   "coup": "Qh2#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
