@@ -1,9 +1,9 @@
 {
- "date": "2026-10-23T17:32:15.907357+00:00",
+ "date": "2026-10-23T18:37:12.346980+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
-  "abonnes": "4",
+  "abonnes": "5",
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
@@ -12,7 +12,7 @@
    "publiee": "2026-10-23T16:37:35Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 0,
+   "vues": 1,
    "jaime": 0,
    "commentaires": 0
   },
@@ -21,8 +21,8 @@
    "publiee": "2026-10-23T13:41:41Z",
    "statut": "public",
    "duree": "PT41S",
-   "vues": 92,
-   "jaime": 4,
+   "vues": 108,
+   "jaime": 5,
    "commentaires": 0
   },
   "Nba9AMF5N7Y": {
@@ -30,16 +30,16 @@
    "publiee": "2026-10-23T10:34:00Z",
    "statut": "public",
    "duree": "PT48S",
-   "vues": 237,
-   "jaime": 6,
-   "commentaires": 2
+   "vues": 272,
+   "jaime": 9,
+   "commentaires": 3
   },
   "3C3VYTd6Ajg": {
    "titre": "2 dames en même temps aux échecs : c'est permis ? #Shorts",
    "publiee": "2026-10-22T16:32:29Z",
    "statut": "public",
    "duree": "PT44S",
-   "vues": 185,
+   "vues": 237,
    "jaime": 6,
    "commentaires": 0
   },
@@ -48,7 +48,7 @@
    "publiee": "2026-10-22T15:37:43Z",
    "statut": "public",
    "duree": "PT56S",
-   "vues": 80,
+   "vues": 99,
    "jaime": 0,
    "commentaires": 0
   },
@@ -57,7 +57,7 @@
    "publiee": "2026-10-22T15:31:31Z",
    "statut": "public",
    "duree": "PT51S",
-   "vues": 57,
+   "vues": 76,
    "jaime": 2,
    "commentaires": 0
   },
@@ -66,7 +66,7 @@
    "publiee": "2026-10-22T14:31:41Z",
    "statut": "public",
    "duree": "PT47S",
-   "vues": 447,
+   "vues": 486,
    "jaime": 10,
    "commentaires": 2
   },
@@ -75,7 +75,7 @@
    "publiee": "2026-10-22T13:44:04Z",
    "statut": "public",
    "duree": "PT55S",
-   "vues": 218,
+   "vues": 226,
    "jaime": 7,
    "commentaires": 0
   },
@@ -84,7 +84,7 @@
    "publiee": "2026-10-22T08:58:52Z",
    "statut": "public",
    "duree": "PT56S",
-   "vues": 1140,
+   "vues": 1148,
    "jaime": 17,
    "commentaires": 0
   },
