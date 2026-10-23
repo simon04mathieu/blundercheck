@@ -16,8 +16,9 @@ var P='appli',u=new URL(location.href),q=u.searchParams,s=(q.get('src')||'').toL
 try{ls=window.localStorage;}catch(e){}
 if(!ok.test(s))s=P==='tiktok'?'tiktok':'';
 var c=document.cookie.match(/(?:^|;\s*)bc_src=([a-z0-9-]{1,30})/);
-var sec=location.protocol==='https:'?'; Secure':'',moi=q.has('admin');
-if(q.has('src')){q.delete('src');history.replaceState(history.state,'',u.pathname+(q.toString()?'?'+q:'')+u.hash);}
+var sec=location.protocol==='https:'?'; Secure':'',moi=q.has('admin'),rf=(q.get('ref')||'').toLowerCase();
+if(/^[a-z2-9]{7}$/.test(rf)){document.cookie='bc_ref='+rf+'; Path=/; Max-Age=2592000; SameSite=Lax'+sec;if(!s)s='parrainage';}
+if(q.has('src')||q.has('ref')){q.delete('src');q.delete('ref');history.replaceState(history.state,'',u.pathname+(q.toString()?'?'+q:'')+u.hash);}
 if(moi&&ls)try{ls.setItem('bc-moi','1');}catch(e){}
 if(moi||(ls&&ls.getItem('bc-moi'))){document.cookie='bc_src=moi; Path=/; Max-Age=31536000; SameSite=Lax'+sec;return;}
 if(s&&!c)document.cookie='bc_src='+s+'; Path=/; Max-Age=2592000; SameSite=Lax'+sec;
@@ -30,6 +31,30 @@ var b=JSON.stringify({src:src,evts:ev}),fini=function(){vu[src]=1;if(P==='appli'
 if(navigator.sendBeacon&&navigator.sendBeacon('/api/src',new Blob([b],{type:'application/json'})))fini();
 else fetch('/api/src',{method:'POST',body:b,keepalive:true,headers:{'content-type':'application/json'}}).then(fini,function(){});
 }catch(e){}})();</script>
+<script>/* Parrainage (fiche site/parrainage.md) : juste après une inscription à la liste d'attente, montre le lien personnel. */
+(function(){var f=window.fetch;if(!f)return;
+window.fetch=function(u,o){var p=f.apply(this,arguments);try{if(String(u)==='/api/liste'&&o&&o.method==='POST')p.then(function(r){if(r.ok)r.clone().json().then(function(j){if(j&&j.code)setTimeout(function(){montrer(j);},400);}).catch(function(){});},function(){});}catch(e){}return p;};
+function montrer(j){try{localStorage.setItem('bc-parrain',j.code);}catch(e){}
+var en=window.BC_LANG==='en',lien='https://blundercheck.app/'+(en?'en':'')+'?ref='+j.code,suivi='/parrainage?c='+j.code+(en?'&lang=en':'');
+var T=en?{t:"You're #"+j.numero+" on the list 🎉",p:"Invite 3 friends with your link: you'll be in the <b>priority group</b> at launch (first access, before everyone else).",c:'Copy',ok:'Copied!',s:'Share',w:'WhatsApp',v:'Track my invites',x:'Close',m:'Analyze your chess games for free, with an AI coach that explains every move: '}
+:{t:'Tu es n°'+j.numero+' sur la liste 🎉',p:'Invite 3 amis avec ton lien : tu passes dans le <b>groupe prioritaire</b> au lancement (accès en premier, avant tout le monde).',c:'Copier',ok:'Copié !',s:'Partager',w:'WhatsApp',v:'Suivre mes invitations',x:'Fermer',m:"Analyse tes parties d'échecs gratuitement, avec un prof IA qui explique chaque coup : "};
+var d=document.createElement('div');d.setAttribute('role','dialog');d.setAttribute('aria-modal','true');
+d.style.cssText='position:fixed;inset:0;z-index:99999;background:rgba(8,11,10,.72);display:flex;align-items:center;justify-content:center;padding:16px;font-family:Geist,system-ui,sans-serif';
+var b='display:inline-flex;align-items:center;justify-content:center;gap:6px;border-radius:10px;padding:11px 14px;font:600 14px Geist,system-ui,sans-serif;cursor:pointer;text-decoration:none;';
+d.innerHTML='<div style="background:#18201C;color:#EDE7D8;border:1px solid #2A342F;border-radius:16px;max-width:440px;width:100%;padding:22px;box-shadow:0 20px 60px rgba(0,0,0,.5)">'
++'<div style="font-size:20px;font-weight:700;margin:0 0 8px">'+T.t+'</div><p style="margin:0 0 14px;color:#C9CBBE;line-height:1.5;font-size:15px">'+T.p+'</p>'
++'<div style="display:flex;gap:8px;margin-bottom:10px"><input readonly value="'+lien+'" style="flex:1;min-width:0;background:#111614;color:#EDE7D8;border:1px solid #2A342F;border-radius:10px;padding:10px;font:13px Geist Mono,monospace">'
++'<button data-a="c" style="'+b+'background:#C9A45C;color:#1A1407;border:0">'+T.c+'</button></div>'
++'<div style="display:flex;gap:8px;flex-wrap:wrap"><button data-a="s" style="'+b+'background:#2F4A3E;color:#EDE7D8;border:0;flex:1">'+T.s+'</button>'
++'<a href="https://wa.me/?text='+encodeURIComponent(T.m+lien)+'" target="_blank" rel="noopener" style="'+b+'background:#2F4A3E;color:#EDE7D8;flex:1">'+T.w+'</a></div>'
++'<div style="display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-size:13px"><a href="'+suivi+'" style="color:#C9A45C">'+T.v+'</a>'
++'<button data-a="x" style="background:none;border:0;color:#A8A99A;cursor:pointer;font:13px Geist,system-ui,sans-serif">'+T.x+'</button></div></div>';
+document.body.appendChild(d);
+d.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('[data-a]');if(e.target===d||(a&&a.dataset.a==='x')){d.remove();return;}if(!a)return;
+if(a.dataset.a==='c'){var i=d.querySelector('input');i.select();(navigator.clipboard?navigator.clipboard.writeText(lien):Promise.reject()).catch(function(){document.execCommand('copy');}).then(function(){a.textContent=T.ok;});}
+if(a.dataset.a==='s'){if(navigator.share)navigator.share({text:T.m,url:lien}).catch(function(){});else window.open('https://wa.me/?text='+encodeURIComponent(T.m+lien),'_blank');}});
+document.addEventListener('keydown',function k(e){if(e.key==='Escape'){d.remove();document.removeEventListener('keydown',k);}});}
+})();</script>
 <title>BlunderCheck</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">

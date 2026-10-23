@@ -3,6 +3,7 @@
 // GET ?token=... : exporte la liste en CSV (jeton secret ADMIN_TOKEN, à garder pour toi).
 
 import { srcDe, compterPlusTard } from '../../lib/src.js';
+import { refDe, inscrire } from '../../lib/parrainage.js';
 
 const json = (status, obj) => new Response(JSON.stringify(obj), { status, headers: { 'content-type': 'application/json; charset=utf-8' } });
 const EMAIL = /^[^\s@<>"']{1,64}@[^\s@<>"']{1,190}\.[a-z]{2,24}$/i;
@@ -30,19 +31,26 @@ export async function onRequestPost(ctx) {
   await env.LISTE.put(cleIp, String(n + 1), { expirationTtl: 60 * 60 * 26 });
 
   const cle = `email:${email}`;
+  let parrainage = null;
   if (!(await env.LISTE.get(cle))) {
-    await env.LISTE.put(cle, JSON.stringify({ date: new Date().toISOString(), langue: b.lang === 'en' ? 'en' : 'fr', source: String(b.source || '').slice(0, 30), canal: srcDe(request) }));
+    // parrainage : code personnel de la personne, et un filleul de plus pour celui qui l'a invitée (cookie bc_ref)
+    parrainage = await inscrire(env, email, refDe(request), b.lang === 'en' ? 'en' : 'fr');
+    await env.LISTE.put(cle, JSON.stringify({ date: new Date().toISOString(), langue: b.lang === 'en' ? 'en' : 'fr', source: String(b.source || '').slice(0, 30), canal: srcDe(request), parrain: refDe(request) || undefined, code: parrainage ? parrainage.code : undefined }));
     compterPlusTard(ctx, srcDe(request), ['liste']);
     // e-mail de confirmation, si l'envoi d'e-mails est configuré (Resend) ; une erreur d'envoi ne bloque pas l'inscription
     if (env.RESEND_API_KEY) {
       const en = b.lang === 'en', site = new URL(request.url).origin;
+      const lien = parrainage ? `https://blundercheck.app/${en ? 'en' : ''}?ref=${parrainage.code}` : '';
+      const invite = !lien ? '' : en
+        ? `\n\nWant to be in the priority group at launch? Invite 3 friends with your personal link: ${lien}\nTrack your invites: https://blundercheck.app/parrainage?c=${parrainage.code}`
+        : `\n\nTu veux être dans le groupe prioritaire au lancement ? Invite 3 amis avec ton lien perso : ${lien}\nSuis tes invitations : https://blundercheck.app/parrainage?c=${parrainage.code}`;
       const sujet = en ? "You're on the BlunderCheck+ waiting list" : 'Tu es sur la liste d’attente de BlunderCheck+';
       const texte = en
         ? `Hi,
 
 You're on the list! We'll send you a single e-mail on the day BlunderCheck+ launches, with the launch price for early sign-ups.
 
-Until then, analysis stays free: ${site}
+Until then, analysis stays free: ${site}${invite}
 
 To be removed from the list, just reply to this e-mail.
 
@@ -51,12 +59,12 @@ BlunderCheck`
 
 C’est noté ! Tu recevras un seul e-mail, le jour du lancement de BlunderCheck+, avec le prix de lancement réservé aux premiers inscrits.
 
-En attendant, l’analyse reste gratuite : ${site}
+En attendant, l’analyse reste gratuite : ${site}${invite}
 
 Pour être retiré de la liste, réponds simplement à cet e-mail.
 
 BlunderCheck`;
-      const html = `<div style="font-family:system-ui,sans-serif;max-width:480px;margin:auto;color:#1b1f1d"><h2 style="color:#2f4a3e">BlunderCheck</h2>${texte.split('\n\n').slice(1, -1).map(p => `<p>${p.replace(site, `<a href="${site}" style="color:#2f4a3e">${site.replace(/^https?:\/\//, '')}</a>`)}</p>`).join('')}</div>`;
+      const html = `<div style="font-family:system-ui,sans-serif;max-width:480px;margin:auto;color:#1b1f1d"><h2 style="color:#2f4a3e">BlunderCheck</h2>${texte.split('\n\n').slice(1, -1).map(p => `<p>${p.replace(/https?:\/\/[^\s]+/g, u => `<a href="${u}" style="color:#2f4a3e">${u.replace(/^https?:\/\//, '')}</a>`).replace(/\n/g, '<br>')}</p>`).join('')}</div>`;
       try {
         const r = await fetch('https://api.resend.com/emails', {
           method: 'POST',
@@ -67,7 +75,7 @@ BlunderCheck`;
       } catch (e) { console.log('Erreur Resend (liste)', String(e)); }
     }
   }
-  return json(200, { ok: true });
+  return json(200, parrainage ? { ok: true, code: parrainage.code, numero: parrainage.numero } : { ok: true });
 }
 
 export async function onRequestGet({ request, env }) {

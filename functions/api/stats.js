@@ -3,6 +3,7 @@
 // Les visites (pages vues, provenance) sont dans Cloudflare Web Analytics.
 
 import { ETAPES } from '../../lib/src.js';
+import { resume as resumeParrainage, OBJECTIF } from '../../lib/parrainage.js';
 
 const PRIX_PARTIE = 0.3;     // centimes de dollar, mesuré le 21/10/2026
 const PRIX_QUESTION = 0.05;  // estimation
@@ -107,7 +108,7 @@ export async function onRequestGet({ request, env }) {
       cout_estime_dollars: { aujourdhui: cout(1), sept_jours: cout(7), trente_jours: cout(30) },
       par_jour: jours,
     },
-    comptes, liste, sources,
+    comptes, liste, sources, parrainage: await resumeParrainage(env),
   };
   if (url.searchParams.get('format') === 'json') return new Response(JSON.stringify(data, null, 2), { headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' } });
 
@@ -142,6 +143,7 @@ ${comptes ? tuile('Comptes créés', comptes.total, `+${comptes.nouveaux7j} cett
 </div>
 <h2>Liste d'attente</h2><div class="g">
 ${liste ? tuile('Inscrits', liste.total, `+${liste.nouveaux7j} cette semaine`) + tuile('Par source', '', liste_(liste.sources)) + tuile('Par langue', '', liste_(liste.langues)) : tuile('Liste', 'non configurée')}
+${data.parrainage ? tuile('Parrainage', data.parrainage.venus_par_parrain || 0, `inscrits venus par un lien d'ami · ${data.parrainage.prioritaires || 0} parrain${(data.parrainage.prioritaires || 0) > 1 ? 's' : ''} à ${OBJECTIF} filleuls ou plus`) : ''}
 </div>
 <p class="m" style="margin-top:22px">Export de la liste : <code>/api/liste?token=…</code> · Chiffres bruts : ajoute <code>&amp;format=json</code> à l'adresse. Le coût est une estimation (${String(PRIX_PARTIE).replace('.', ',')} centime par partie) : le vrai montant est dans la console Anthropic.</p>
 </main></body></html>`;
