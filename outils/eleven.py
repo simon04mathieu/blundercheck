@@ -19,11 +19,11 @@ def _req(method, path, body=None, params=None, accept="application/json"):
     except urllib.error.HTTPError as e:
         raise SystemExit(f"ElevenLabs {method} {path} -> {e.code} : {e.read()[:400].decode(errors='replace')}")
 
-def tts(texte, voice_id, out_mp3, stabilite=0.5, modele=MODELE):
+def tts(texte, voice_id, out_mp3, stabilite=0.5, modele=MODELE, langue="fr"):
     """stabilite (v3) : 0 = créatif (très expressif, parfois instable), 0,5 = naturel, 1 = stable."""
     audio = _req("POST", f"/text-to-speech/{voice_id}", accept="audio/mpeg",
                  params={"output_format": "mp3_44100_128"},
-                 body={"text": texte, "model_id": modele, "language_code": "fr",
+                 body={"text": texte, "model_id": modele, "language_code": langue,
                        "voice_settings": {"stability": stabilite}})
     open(out_mp3, "wb").write(audio)
     return out_mp3

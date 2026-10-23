@@ -41,7 +41,7 @@ def voix_defaut():
     f = os.path.join(HERE, "voix.json")
     return json.load(open(f)) if os.path.exists(f) else {}
 
-def transcrire(audio):
+def transcrire(audio, langue="fr"):
     from faster_whisper import WhisperModel
     import numpy as np
     from scipy.io import wavfile
@@ -49,7 +49,7 @@ def transcrire(audio):
     sh("ffmpeg", "-y", "-loglevel", "error", "-i", audio, "-ac", "1", "-ar", "16000", w16)
     sr, x = wavfile.read(w16)
     m = WhisperModel("small", device="cpu", compute_type="int8")
-    segs, _ = m.transcribe(x.astype(np.float32) / 32768.0, language="fr", word_timestamps=True)
+    segs, _ = m.transcribe(x.astype(np.float32) / 32768.0, language=langue, word_timestamps=True)
     return [(w.start, w.end, w.word.strip()) for s in segs for w in s.words]
 
 def echantillons(cmd):
@@ -97,15 +97,28 @@ def video_voix(cmd):
     cle = hashlib.sha1(f"{voice_id}|{texte}".encode()).hexdigest()[:10]
     dv = os.path.join(SORTIES, "voix"); os.makedirs(dv, exist_ok=True)
     brut = os.path.join(dv, f"{nom}_{cle}.mp3")
-    if not os.path.exists(brut):
-        eleven.tts(texte, voice_id, brut, cmd.get("stabilite", vd.get("stabilite", 0.5)))
-        print("voix générée :", len(texte), "caractères", flush=True)
-    else:
-        print("voix réutilisée (0 crédit)", flush=True)
-    d0 = duree(brut)
+    langue = cmd.get("langue", "fr")
     wav = os.path.join(tmp, "voix.wav")
-    sh("ffmpeg", "-y", "-loglevel", "error", "-i", brut, "-ac", "1", "-ar", "48000", wav)
-    mots = transcrire(wav)
+    if cmd.get("muet"):  # vidéo SANS voix (sous-titres + musique, 0 crédit) : mots calés à vitesse de lecture
+        mots = mots_muets(texte, cmd.get("duree_cible", 35.0))
+        import numpy as np
+        from scipy.io import wavfile
+        d0 = mots[-1][1] + 0.3; wavfile.write(wav, 48000, np.zeros(int(d0 * 48000), np.int16))
+        print("sans voix (0 crédit)", flush=True)
+    else:
+        if not os.path.exists(brut):
+            try:
+                eleven.tts(texte, voice_id, brut, cmd.get("stabilite", vd.get("stabilite", 0.5)), langue=langue)
+            except SystemExit as e:  # voix demandée indisponible (404…) : voix habituelle, rien n'est facturé sur un refus
+                if not cmd.get("voix"): raise
+                print("VOIX INDISPONIBLE, voix habituelle :", str(e)[:120], flush=True)
+                voice_id = vd.get("voice_id"); eleven.tts(texte, voice_id, brut, vd.get("stabilite", 0.5), langue=langue)
+            print("voix générée :", len(texte), "caractères", flush=True)
+        else:
+            print("voix réutilisée (0 crédit)", flush=True)
+        d0 = duree(brut)
+        sh("ffmpeg", "-y", "-loglevel", "error", "-i", brut, "-ac", "1", "-ar", "48000", wav)
+        mots = transcrire(wav, langue)
     spec = coach2.construire(nom, mots)
     if spec.get("pauses"):  # silences « trouve le coup » insérés dans la voix
         import numpy as np
@@ -139,9 +152,20 @@ def video_voix(cmd):
        "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest",
        "-movflags", "+faststart", out)
     return out, {"voix_brute_s": round(d0, 1), "tempo": round(tempo, 3), "video_s": round(duree(out), 1),
-                 "voice_id": voice_id, "musique": os.path.basename(mus) if mus else "aucune", "mots_transcrits": len(mots), "minutage": minutage}
+                 "voice_id": "aucune" if cmd.get("muet") else voice_id, "musique": os.path.basename(mus) if mus else "aucune", "mots_transcrits": len(mots), "minutage": minutage}
 
 perso = video_voix
+
+def mots_muets(texte, cible):
+    """Horodatage synthétique pour une vidéo sans voix : durée de lecture par mot + respiration en fin de phrase,
+    le tout mis à l'échelle de `cible` secondes (pauses « [q] » non comprises)."""
+    ws = [w for w in re.sub(r"\[[^\]]*\]", " ", texte).split()]
+    base = [(0.28 + 0.045 * len(w), 0.75 if w[-1] in ".!?…" else (0.25 if w[-1] in ",:;" else 0.0)) for w in ws]
+    k = cible / max(0.1, sum(a + b for a, b in base))
+    out, t = [], 0.2
+    for w, (a, b) in zip(ws, base):
+        out.append((t, t + (a + b) * k - 0.05, w)); t += (a + b) * k  # sous-titre gardé jusqu'au suivant (rien à entendre)
+    return out
 
 def ecrire_minutage(nom, spec, tempo=1.0):
     """sorties/minutage/<nom>.json : seconde (dans la vidéo finie) du début de chaque phrase lue, de chaque coup

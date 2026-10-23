@@ -563,3 +563,100 @@ QUESTIONS.update({
     "quiz_legal_2": "Tu aurais pris la dame ?|Oui ou non ?",
     "analyse_celebre_1": "Analyse ta partie :|lien dans la bio",
 })
+
+# ---------- file du 23-24/10 (scénariste) : T1-fin (pigeon_jour #3 A, #4 B), T6-durée (quiz_legal #3 long/court, sans voix), pigeon_en #1-#2 ----------
+# Coups vérifiés python-chess 1.11.2 + Stockfish 19 (WASM) par le producteur (24/10, 1 h) : 5 mats confirmés. Aucune case dite.
+LEGAL_PIEGE = "e4 e5 Nf3 d6 Bc4 Bg4 Nc3 g6 Nxe5 Bxd1"          # + Bxf7+ Ke7 Nd5#
+KIENINGER = "d4 Nf6 c4 e5 dxe5 Ng4 Bf4 Nc6 Nf3 Bb4+ Nbd2 Qe7 a3 Ngxe5 axb4"   # + Nd3#
+EP_AVANT = "fen:1Q6/1N1pk3/8/4PQ2/8/8/8/K7_b_-_-_0_1"           # les Noirs jouent d5, puis exd6# (en passant)
+EP_APRES = "fen:1Q6/1N2k3/8/3pPQ2/8/8/8/K7_w_-_d6_0_2"
+PERSO.update({
+"pigeon_jour_3": {
+    "cote": "blancs",
+    "hook": "S'il mange ta dame,|il est mat.",
+    "voix": """[mischievously] S'il mange ta dame, il est mat.
+Tu as les Blancs. Ton poney avale un pion. Le pigeon voit ta dame sans défense. Le plus gros bonbon du monde. Il la mange.
+Ton fou croque un pion, échec. Son roi avance. Ton poney saute. Mat.
+Tu serais tombé dedans ? Commente A : oui, ou B : jamais.""",
+    "script": """[p e4 e5 Nf3 d6 Bc4 Bg4 Nc3 g6 Nxe5 Bxd1] [s tag d1 3.0 LE_PIGEON] S'il mange ta dame, il est mat.
+[h] [p e4 e5 Nf3 d6 Bc4 Bg4 Nc3 g6] Tu as les Blancs. Ton poney [m Nxe5 brillant] avale un pion. Le pigeon voit [f g4d1] ta dame sans défense. [s bonbon d1 2.5] Le plus gros bonbon du monde. Il la [m Bxd1 gaffe] mange.
+Ton fou [m Bxf7+] croque un pion, échec. Son roi [m Ke7] avance. Ton poney [m Nd5# mat] [z d5e7 1.45 2.6] [x impact] saute. Mat.
+Tu serais tombé dedans ? Commente A : oui, ou B : jamais.""",
+},
+"pigeon_jour_4": {
+    "cote": "noirs",
+    "hook": "S'il mange ton fou,|il est mat.",
+    "voix": """[mischievously] S'il mange ton fou, il est mat.
+Tu as les Noirs. Tu offres un pion. Il le mange. Ton poney vise ce pion. Ton fou donne échec.
+Son pion attaque ton fou. Laisse-le faire. Ton poney reprend. Il mange ton fou. Mat du poney.
+Tu serais tombé dedans ? Suis le compte pour la suite.""",
+    "script": """[p d4 Nf6 c4 e5 dxe5 Ng4 Bf4 Nc6 Nf3 Bb4+ Nbd2 Qe7 a3 Ngxe5 axb4] [s tag b4 3.0 LE_PIGEON] S'il mange ton fou, il est mat.
+[h] [p d4 Nf6 c4] Tu as les Noirs. Tu offres [m e5 bizarre] un pion. Il le [m dxe5] mange. Ton poney [m Ng4] vise [m Bf4] ce [m Nc6] pion. [m Nf3] Ton fou donne [m Bb4+] échec.
+[m Nbd2] Son [m Qe7] pion [m a3] attaque ton fou. Laisse-le faire. [s bonbon b4 2.5] Ton poney [m Ngxe5 brillant] reprend. Il [m axb4 gaffe] mange ton fou. [s tag b4 2.0 LE_PIGEON] Mat [m Nd3# mat] [z d3e1 1.45 2.6] [x impact] du poney.
+Tu serais tombé dedans ? Suis le compte pour la suite.""",
+},
+"quiz_legal_3_long": {   # SANS VOIX (commande "muet") : sous-titres en phrases + musique
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Ton pion mange le vide|et fait mat. Légal ?",
+    "voix": """Ton pion mange le vide et fait mat. Légal ?
+Le pigeon pousse son pion de deux cases. Tes deux dames et ton poney attendent.
+Ton pion mange… un pion qui n'est plus là. Légal ou pas ?
+Une dame peut mater ? Oui. Mais ce n'est pas la question. Ton poney ? Il ne fait rien. La question, c'est ton pion.
+Mat. LÉGAL ! Juste après un saut de deux cases, ton pion peut le manger au passage. Son nom : la prise en passant.
+Et si tu joues autre chose d'abord ? Ton roi bouge. Le pion est toujours là. Trop tard. Une seule chance.
+Tu le savais ? Oui ou non ?""",
+    "script": """[p """ + EP_APRES.replace(" ", "_") + """] [f e5d6] [s tag d5 3.0 LE_PIGEON] Ton pion mange le vide et fait mat. Légal ?
+[h] [p """ + EP_AVANT + """] Le pigeon pousse [m d5 bizarre] son pion de deux cases. [s tag d5 2.5 LE_PIGEON] Tes deux dames et ton poney attendent. [z e5 1.3 2.5]
+Ton pion mange… un pion qui n'est plus là. Légal ou pas ? [q 3 Légal_ou_pas_?]
+Une dame peut [f b8d8] mater ? Oui. Mais ce n'est pas la question. Ton poney ? [f b7d8] Il ne fait rien. La question, c'est [f e5d6] ton pion.
+[m exd6# mat] [z d6e7 1.45 2.6] [x impact] Mat. LÉGAL ! Juste après un saut de deux cases, ton pion peut le manger au passage. Son nom : la prise en passant.
+[p """ + EP_APRES + """] Et si tu joues autre chose d'abord ? Ton roi [m Ka2] bouge. Le pion est toujours là. [s tag d5 2.5 TROP_TARD] Trop tard. Une seule chance.
+Tu le savais ? Oui ou non ?""",
+},
+"quiz_legal_3_court": {  # SANS VOIX : même position, sans rembobinage, sans fausses pistes, sans rebondissement final
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Ton pion mange le vide|et fait mat. Légal ?",
+    "voix": """Ton pion mange le vide et fait mat. Légal ?
+Le pigeon vient de pousser son pion de deux cases.
+Ton pion mange au passage. Légal ou pas ?
+Mat. Légal !
+Tu le savais ? Oui ou non ?""",
+    "script": """[p """ + EP_APRES + """] [f e5d6] [s tag d5 3.0 LE_PIGEON] Ton pion mange le vide et fait mat. Légal ?
+[h] Le pigeon vient de pousser son pion de deux cases. [z d5 1.3 2.0]
+Ton pion mange [f e5d6] au passage. Légal ou pas ? [q 3 Légal_ou_pas_?]
+[m exd6# mat] [z d6e7 1.45 2.6] [x impact] Mat. Légal !
+Tu le savais ? Oui ou non ?""",
+},
+"pigeon_en_1": {
+    "cote": "noirs",
+    "hook": "If he eats your candy,|he's mated.",
+    "voix": """[mischievously] If he eats your candy, he's mated.
+You're Black. You leave a pawn alone. His pony eats it, then another, hitting your queen and your rook.
+Your queen eats two pawns, check. He hides behind his bishop. Your pony jumps. [laughs] Mate.
+Would you fall for it? Yes or no?""",
+    "script": """[p e4 e5 Nf3 Nc6 Bc4 Nd4 Nxe5 Qg5 Nxf7 Qxg2 Rf1 Qxe4+ Be2 Nf3#] [s tag f3 3.0 MATE] If he eats your candy, he's mated.
+[h] [p e4 e5 Nf3 Nc6 Bc4] You're Black. You leave [m Nd4 bizarre] a pawn alone. [s bonbon e5 2.5] His pony [m Nxe5 gaffe] eats it, [s tag e5 2.0 PIGEON] [m Qg5] then [m Nxf7] another, hitting [f f7g5 f7h8] your queen and your rook.
+Your queen [m Qxg2] eats two [m Rf1] pawns, [m Qxe4+] check. He hides [m Be2] behind his bishop. Your pony [m Nf3# mat] [z f3e1 1.45 2.6] [x impact] jumps. Mate.
+Would you fall for it? Yes or no?""",
+},
+"pigeon_en_2": {
+    "cote": "noirs",
+    "hook": "If he eats your pony,|he's mated.",
+    "voix": """[mischievously] If he eats your pony, he's mated.
+You're Black. You park your pony next to his king. His pigeon pawn chases it. You push a pawn.
+He eats your pony: the biggest candy ever. You take back. A highway opens. Your queen dives. [laughs] Mate.
+Would you fall for it? Yes or no?""",
+    "script": """[p e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Ng4 h3 h5 hxg4 hxg4 Ne1 Qh4 f3 g3 d4 Qh2#] [s tag h2 3.0 MATE] If he eats your pony, he's mated.
+[h] [p e4 e5 Nf3 Nc6 Bb5 Nf6 O-O] You're Black. You park [m Ng4 bizarre] your pony next to his king. His pigeon pawn [m h3] chases it. You push [m h5 brillant] a pawn.
+He eats [m hxg4 gaffe] your pony: [s tag g4 2.5 PIGEON] the biggest candy ever. You take [m hxg4] back. A highway [m Ne1] opens. [f h8h2] Your queen [m Qh4] dives. [m f3] [m g3] [m d4] [m Qh2# mat] [z h2 1.45 2.6] [x impact] Mate.
+Would you fall for it? Yes or no?""",
+},
+})
+QUESTIONS.update({
+    "pigeon_jour_3": "A = oui · B = jamais.|Commente !",
+    "pigeon_jour_4": "Suis le compte|pour la suite",
+    "quiz_legal_3_long": "Tu le savais ?|Oui ou non ?",
+    "quiz_legal_3_court": "Tu le savais ?|Oui ou non ?",
+    "pigeon_en_1": "Would you fall for it?|Yes or no?",
+    "pigeon_en_2": "Would you fall for it?|Yes or no?",
+})
