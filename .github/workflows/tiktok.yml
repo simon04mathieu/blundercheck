@@ -1,15 +1,23 @@
-# TikTok sans Metricool. Lancement manuel avec le code de blundercheck.app/tiktok/retour (une seule fois),
-# puis toutes les heures : publie publications/tiktok/*.json dont l'heure est venue et relève les chiffres.
+# TikTok sans Metricool, deux comptes : fr (@blundercheckapp) et en (@blundercheck.ches), depuis le 23/10/2026.
+# Lancement manuel avec le code de blundercheck.app/tiktok/retour (une seule fois par compte, en choisissant le compte),
+# puis toutes les heures : envoie en brouillon publications/tiktok/*.json (fr) et publications/tiktok-en/*.json (en)
+# dont l'heure est venue, et relève les chiffres (stats/tiktok.json, stats/tiktok-en.json).
+# À garder identique sur `videos` et `main` (les tâches horaires ne partent que de main).
 name: TikTok
 on:
   push:
     branches: [videos]
-    paths: ["publications/tiktok/*.json"]
+    paths: ["publications/tiktok/*.json", "publications/tiktok-en/*.json"]
   workflow_dispatch:
     inputs:
       code:
         description: "Code affiché par blundercheck.app/tiktok/retour (laisser vide pour un passage normal)"
         required: false
+      compte:
+        description: "Compte autorisé avec ce code"
+        type: choice
+        options: [fr, en]
+        default: fr
   schedule:
     - cron: "37 * * * *"
 permissions:
@@ -20,7 +28,7 @@ concurrency:
 jobs:
   tiktok:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     env:
       TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
       TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
@@ -32,32 +40,33 @@ jobs:
         if: ${{ github.event.inputs.code != '' }}
         env:
           CODE: ${{ github.event.inputs.code }}
+          TIKTOK_COMPTE: ${{ github.event.inputs.compte || 'fr' }}
         run: |
           echo "::add-mask::$CODE"
           set -o pipefail
-          python3 outils/tiktok.py code "$CODE" 2>&1 | tee -a stats/tiktok-journal.md
-      - name: Compte
-        if: ${{ hashFiles('tiktok/jeton.enc') != '' || github.event.inputs.code != '' }}
+          j=stats/tiktok-journal.md; [ "$TIKTOK_COMPTE" = en ] && j=stats/tiktok-en-journal.md
+          python3 outils/tiktok.py code "$CODE" 2>&1 | tee -a $j
+      - name: Envois et chiffres (fr puis en)
         run: |
-          set -o pipefail
-          python3 outils/tiktok.py moi 2>&1 | tee -a stats/tiktok-journal.md
-      - name: Envois
-        if: ${{ hashFiles('tiktok/jeton.enc') != '' }}
-        run: |
-          mkdir -p publications/tiktok/faites
-          for c in publications/tiktok/*.json; do
-            [ -e "$c" ] || continue
-            python3 -c "import json,sys,datetime as d; a=json.load(open(sys.argv[1])).get('envoyer_apres'); sys.exit(0 if not a or d.datetime.fromisoformat(a)<=d.datetime.now(d.timezone.utc) else 1)" "$c" || continue
-            echo "### $(date -u '+%F %H:%M') $c" >> stats/tiktok-journal.md
-            if python3 outils/tiktok.py envoi "$c" > /tmp/r.txt 2>&1; then
-              cat /tmp/r.txt >> stats/tiktok-journal.md; git mv "$c" publications/tiktok/faites/ 2>/dev/null || mv "$c" publications/tiktok/faites/
-            else
-              echo "ÉCHEC : $(tail -c 600 /tmp/r.txt)" >> stats/tiktok-journal.md
-            fi
+          for compte in fr en; do
+            if [ $compte = fr ]; then jeton=tiktok/jeton.enc; dossier=publications/tiktok; suffixe=""; else jeton=tiktok/jeton-$compte.enc; dossier=publications/tiktok-$compte; suffixe="-$compte"; fi
+            [ -e "$jeton" ] || { echo "$compte : pas encore autorisé"; continue; }
+            export TIKTOK_COMPTE=$compte
+            journal=stats/tiktok$suffixe-journal.md
+            python3 outils/tiktok.py moi >> $journal 2>&1 || echo "ÉCHEC compte $compte" >> $journal
+            mkdir -p $dossier/faites
+            for c in $dossier/*.json; do
+              [ -e "$c" ] || continue
+              python3 -c "import json,sys,datetime as d; a=json.load(open(sys.argv[1])).get('envoyer_apres'); sys.exit(0 if not a or d.datetime.fromisoformat(a)<=d.datetime.now(d.timezone.utc) else 1)" "$c" || continue
+              echo "### $(date -u '+%F %H:%M') $c" >> $journal
+              if python3 outils/tiktok.py envoi "$c" > /tmp/r.txt 2>&1; then
+                cat /tmp/r.txt >> $journal; git mv "$c" $dossier/faites/ 2>/dev/null || mv "$c" $dossier/faites/
+              else
+                echo "ÉCHEC : $(tail -c 600 /tmp/r.txt)" >> $journal
+              fi
+            done
+            python3 outils/tiktok.py stats stats/tiktok$suffixe.json || true
           done
-      - name: Chiffres
-        if: ${{ hashFiles('tiktok/jeton.enc') != '' }}
-        run: python3 outils/tiktok.py stats stats/tiktok.json || true
       - name: Dépôt
         if: always()
         run: |

@@ -1,10 +1,10 @@
-# Reels Instagram + Facebook sans Metricool (outils/meta.py). À copier par Simon dans .github/workflows/meta.yml
-# sur `videos` ET sur `main` (les tâches horaires ne partent que de main). Inactif tant que les secrets META_* manquent.
+# Reels Instagram + Facebook (outils/meta.py) et vidéos Threads (outils/threads.py, depuis le 23/10/2026), sans Metricool. À copier par Simon dans .github/workflows/meta.yml
+# sur `videos` ET sur `main` (les tâches horaires ne partent que de main). Inactif tant que les secrets META_* (et THREADS_TOKEN pour Threads) manquent.
 name: Meta
 on:
   push:
     branches: [videos]
-    paths: ["publications/instagram/*.json", "publications/facebook/*.json"]
+    paths: ["publications/instagram/*.json", "publications/facebook/*.json", "publications/threads/*.json"]
   workflow_dispatch:
   schedule:
     - cron: "17 * * * *"
@@ -26,23 +26,32 @@ jobs:
           META_TOKEN: ${{ secrets.META_TOKEN }}
           META_IG_ID: ${{ secrets.META_IG_ID }}
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          CHIFFRE: ${{ secrets.TIKTOK_CHIFFRE }}
         run: |
           mkdir -p stats
           { echo "### $(date -u '+%Y-%m-%d %H:%M') vérification"; python3 outils/meta.py verif 2>&1 | tail -n 3; } >> stats/meta-journal.md
           cat stats/meta-journal.md | tail -n 3
+          if [ -n "$THREADS_TOKEN" ]; then
+            { echo "### $(date -u '+%Y-%m-%d %H:%M') vérification"; python3 outils/threads.py verif 2>&1 | tail -n 3; } >> stats/threads-journal.md
+            tail -n 2 stats/threads-journal.md
+          fi
       - name: Envoi
         env:
           META_TOKEN: ${{ secrets.META_TOKEN }}
           META_IG_ID: ${{ secrets.META_IG_ID }}
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          CHIFFRE: ${{ secrets.TIKTOK_CHIFFRE }}
         run: |
           git config user.name "BlunderCheck vidéos"
           git config user.email "actions@users.noreply.github.com"
-          for r in instagram facebook; do
+          for r in instagram facebook threads; do
+            outil=outils/meta.py; [ $r = threads ] && outil=outils/threads.py
             mkdir -p publications/$r/faites
             for c in publications/$r/*.json; do
               [ -e "$c" ] || continue
-              if python3 outils/meta.py envoi "$c" > /tmp/r.txt 2>&1; then
+              if python3 $outil envoi "$c" > /tmp/r.txt 2>&1; then
                 if grep -q '"id"' /tmp/r.txt; then
                   { echo "### $(date -u '+%Y-%m-%d %H:%M') $c"; cat /tmp/r.txt; } >> stats/$r-journal.md
                   git mv "$c" publications/$r/faites/ 2>/dev/null || mv "$c" publications/$r/faites/
@@ -52,6 +61,6 @@ jobs:
               fi
             done
           done
-          git add -A stats publications || true
+          git add -A stats publications threads 2>/dev/null || git add -A stats publications || true
           git commit -qm "Meta : envois (run ${{ github.run_id }})" || exit 0
           git pull -q --rebase origin videos && git push -q origin HEAD:videos

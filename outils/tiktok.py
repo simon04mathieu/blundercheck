@@ -3,6 +3,9 @@ Secrets GitHub Actions : TIKTOK_CLIENT_KEY, TIKTOK_CLIENT_SECRET (appli « Blund
 production après l'audit), TIKTOK_CHIFFRE (mot de passe qui chiffre le jeton rangé dans tiktok/jeton.enc).
 Le jeton d'accès dure 24 h, le jeton de rafraîchissement 365 jours ; il est renouvelé et re-chiffré à chaque passage.
 
+Deux comptes (23/10/2026) : variable TIKTOK_COMPTE = fr (défaut, @blundercheckapp, jeton tiktok/jeton.enc)
+ou en (@blundercheck.ches, jeton tiktok/jeton-en.enc). Même appli TikTok et mêmes secrets pour les deux.
+
 Usage :
   python3 tiktok.py code <code>              -> échange le code de blundercheck.app/tiktok/retour contre les jetons
   python3 tiktok.py moi                      -> compte autorisé + options de publication (test)
@@ -17,7 +20,10 @@ import os, sys, json, math, subprocess, urllib.request, urllib.parse, datetime
 
 API = "https://open.tiktokapis.com"
 REDIRECT = "https://blundercheck.app/tiktok/retour"
-JETON = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "tiktok", "jeton.enc")
+COMPTE = os.environ.get("TIKTOK_COMPTE", "fr")
+if COMPTE not in ("fr", "en"): raise SystemExit(f"TIKTOK_COMPTE inconnu : {COMPTE}")
+JETON = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "tiktok",
+                     "jeton.enc" if COMPTE == "fr" else f"jeton-{COMPTE}.enc")
 
 def _http(method, url, data=None, headers=None):
     req = urllib.request.Request(url, data=data, headers=headers or {}, method=method)
@@ -113,7 +119,7 @@ if __name__ == "__main__":
     action = sys.argv[1]
     if action == "code":
         js = _oauth({"grant_type": "authorization_code", "code": sys.argv[2].strip(), "redirect_uri": REDIRECT})
-        _chiffrer(js); print("Jetons TikTok enregistrés (chiffrés). Portées :", js.get("scope"))
+        _chiffrer(js); print(f"Jetons TikTok ({COMPTE}) enregistrés (chiffrés). Portées :", js.get("scope"))
     else:
         tok = jeton()
         if action == "moi":
