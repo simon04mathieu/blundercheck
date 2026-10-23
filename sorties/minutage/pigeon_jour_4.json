@@ -1,0 +1,135 @@
+{
+ "nom": "pigeon_jour_4",
+ "tempo": 1.0,
+ "duree_s": 21.72,
+ "hook": {
+  "texte": "S'il mange ton fou,|il est mat.",
+  "fin": 3.32
+ },
+ "question": {
+  "texte": "Suis le compte|pour la suite",
+  "t": 18.52
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "S'il mange ton fou il est mat."
+  },
+  {
+   "t": 3.32,
+   "texte": "Tu as les Noirs."
+  },
+  {
+   "t": 4.82,
+   "texte": "Tu offres un pion."
+  },
+  {
+   "t": 6.06,
+   "texte": "Il le mange."
+  },
+  {
+   "t": 7.28,
+   "texte": "Ton poney vise ce pion."
+  },
+  {
+   "t": 9.42,
+   "texte": "Ton fou donne échec."
+  },
+  {
+   "t": 10.9,
+   "texte": "Son pion attaque ton fou."
+  },
+  {
+   "t": 12.76,
+   "texte": "Laisse-le faire."
+  },
+  {
+   "t": 13.94,
+   "texte": "Ton poney reprend."
+  },
+  {
+   "t": 15.3,
+   "texte": "Il mange ton fou."
+  },
+  {
+   "t": 16.84,
+   "texte": "Mat du poney."
+  },
+  {
+   "t": 18.5,
+   "texte": "Tu serais tombé dedans ?"
+  },
+  {
+   "t": 20.14,
+   "texte": "Suis le compte pour la suite."
+  }
+ ],
+ "coups": [
+  {
+   "t": 5.22,
+   "coup": "e5",
+   "badge": "bizarre"
+  },
+  {
+   "t": 6.32,
+   "coup": "dxe5",
+   "badge": null
+  },
+  {
+   "t": 7.74,
+   "coup": "Ng4",
+   "badge": null
+  },
+  {
+   "t": 8.38,
+   "coup": "Bf4",
+   "badge": null
+  },
+  {
+   "t": 8.58,
+   "coup": "Nc6",
+   "badge": null
+  },
+  {
+   "t": 9.42,
+   "coup": "Nf3",
+   "badge": null
+  },
+  {
+   "t": 10.02,
+   "coup": "Bb4+",
+   "badge": null
+  },
+  {
+   "t": 10.9,
+   "coup": "Nbd2",
+   "badge": null
+  },
+  {
+   "t": 11.1,
+   "coup": "Qe7",
+   "badge": null
+  },
+  {
+   "t": 11.34,
+   "coup": "a3",
+   "badge": null
+  },
+  {
+   "t": 14.32,
+   "coup": "Ngxe5",
+   "badge": "brillant"
+  },
+  {
+   "t": 15.5,
+   "coup": "axb4",
+   "badge": "gaffe"
+  },
+  {
+   "t": 17.18,
+   "coup": "Nd3#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
