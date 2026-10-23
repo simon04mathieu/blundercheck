@@ -1,0 +1,35 @@
+# Relevés quotidiens Instagram, Facebook, Threads (lecture seule) : outils/stats_meta.py -> stats/instagram.json, facebook.json, threads.json.
+# Créé le 24/10/2026 (chantier du chef d'orchestre). En double sur `videos` et `main` (les tâches horaires ne partent que de main).
+name: Stats Meta
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "43 16 * * *"   # 16 h 43 UTC = 18 h 43 à Paris l'été, 17 h 43 l'hiver : avant le data analyst (20 h 17)
+permissions:
+  contents: write
+concurrency:
+  group: meta            # même file que meta.yml : le jeton Threads n'est jamais renouvelé deux fois en même temps
+  cancel-in-progress: false
+jobs:
+  releve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: videos }
+      - name: Relevés
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          META_IG_ID: ${{ secrets.META_IG_ID }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          CHIFFRE: ${{ secrets.TIKTOK_CHIFFRE }}
+        run: |
+          git config user.name "BlunderCheck vidéos"
+          git config user.email "actions@users.noreply.github.com"
+          mkdir -p stats
+          { echo "### $(date -u '+%Y-%m-%d %H:%M') relevé"; python3 outils/stats_meta.py 2>&1 | tail -n 4; } >> stats/stats-meta-journal.md
+          tail -n 5 stats/stats-meta-journal.md
+          git add -A stats threads 2>/dev/null || git add -A stats || true
+          git commit -qm "Stats Meta : relevé (run ${{ github.run_id }})" || exit 0
+          git pull -q --rebase origin videos && git push -q origin HEAD:videos
