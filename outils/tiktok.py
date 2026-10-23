@@ -125,7 +125,7 @@ if __name__ == "__main__":
     else:
         tok = jeton()
         if action == "moi":
-            r = moi(tok); print(json.dumps({"compte": r["compte"].get("display_name"), "abonnes": r["compte"].get("follower_count"),
+            r = moi(tok); print(json.dumps({"compte": r["compte"].get("display_name"), "utilisateur": r["options"].get("creator_username"), "abonnes": r["compte"].get("follower_count"),
                                             "options_vie_privee": r["options"].get("privacy_level_options")}, ensure_ascii=False))
         elif action == "envoi":
             r = envoi(json.load(open(sys.argv[2])), tok); print(json.dumps(r, ensure_ascii=False))
