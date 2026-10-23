@@ -31,3 +31,12 @@ Jetons TikTok enregistrés (chiffrés). Portées : user.info.basic,user.info.pro
 {"compte": "BlunderCheck", "abonnes": 1, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "abonnes": 1, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "abonnes": 1, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "abonnes": 1, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-10-23 06:07 publications/tiktok/analyse_celebre_1.json
+{"publish_id": "v_inbox_file~v2.7699740696462575638", "mode": "brouillon", "vie_privee": null, "legende": "Un champion du monde rate un mat en un contre l'ordinateur 🤯 Tu l'avais vu ? Oui ou non ? #echecs #chess #chesstok #echecsfr #kramnik"}
+### 2026-10-23 06:07 publications/tiktok/pigeon_jour_1.json
+{"publish_id": "v_inbox_file~v2.7699740756038223894", "mode": "brouillon", "vie_privee": null, "legende": "Le pigeon du jour #1 🐦 S'il mange ton poney, il est mat. Tu serais tombé dedans ? A : oui, B : jamais 👇 #echecs #chess #chesstok #echecsfr #piege"}
+### 2026-10-23 06:07 publications/tiktok/pigeon_jour_2.json
+{"publish_id": "v_inbox_file~v2.7699740696462641174", "mode": "brouillon", "vie_privee": null, "legende": "Le pigeon du jour #2 🍬 S'il mange ce bonbon, il est mat. Analyse ta partie : lien en bio #echecs #chess #chesstok #echecsfr #piege"}
+### 2026-10-23 06:08 publications/tiktok/quiz_legal_2.json
+{"publish_id": "v_inbox_file~v2.7699740696462673942", "mode": "brouillon", "vie_privee": null, "legende": "Ton pion devient poney et fait mat 🐴 Légal ou pas ? Réponds en un mot 👇 #echecs #chess #chesstok #echecsfr #quiz"}
