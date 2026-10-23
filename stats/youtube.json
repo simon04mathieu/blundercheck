@@ -1,5 +1,5 @@
 {
- "date": "2026-10-23T20:32:53.976625+00:00",
+ "date": "2026-10-23T21:32:23.284137+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -12,7 +12,7 @@
    "publiee": "2026-10-23T19:34:44Z",
    "statut": "public",
    "duree": "PT29S",
-   "vues": 2,
+   "vues": 1,
    "jaime": 1,
    "commentaires": 0
   },
@@ -21,8 +21,8 @@
    "publiee": "2026-10-23T16:37:35Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 148,
-   "jaime": 1,
+   "vues": 203,
+   "jaime": 2,
    "commentaires": 0
   },
   "BBzdCeeUJe4": {
@@ -30,7 +30,7 @@
    "publiee": "2026-10-23T13:41:41Z",
    "statut": "public",
    "duree": "PT41S",
-   "vues": 121,
+   "vues": 130,
    "jaime": 5,
    "commentaires": 0
   },
@@ -39,7 +39,7 @@
    "publiee": "2026-10-23T10:34:00Z",
    "statut": "public",
    "duree": "PT48S",
-   "vues": 331,
+   "vues": 364,
    "jaime": 9,
    "commentaires": 3
   },
@@ -48,8 +48,8 @@
    "publiee": "2026-10-22T16:32:29Z",
    "statut": "public",
    "duree": "PT44S",
-   "vues": 259,
-   "jaime": 6,
+   "vues": 272,
+   "jaime": 7,
    "commentaires": 0
   },
   "xFSnLJ_yBrk": {
@@ -57,7 +57,7 @@
    "publiee": "2026-10-22T15:37:43Z",
    "statut": "public",
    "duree": "PT56S",
-   "vues": 116,
+   "vues": 123,
    "jaime": 0,
    "commentaires": 0
   },
@@ -66,7 +66,7 @@
    "publiee": "2026-10-22T15:31:31Z",
    "statut": "public",
    "duree": "PT51S",
-   "vues": 79,
+   "vues": 77,
    "jaime": 2,
    "commentaires": 0
   },
@@ -75,7 +75,7 @@
    "publiee": "2026-10-22T14:31:41Z",
    "statut": "public",
    "duree": "PT47S",
-   "vues": 508,
+   "vues": 515,
    "jaime": 10,
    "commentaires": 2
   },
@@ -84,7 +84,7 @@
    "publiee": "2026-10-22T13:44:04Z",
    "statut": "public",
    "duree": "PT55S",
-   "vues": 235,
+   "vues": 236,
    "jaime": 7,
    "commentaires": 0
   },
@@ -93,7 +93,7 @@
    "publiee": "2026-10-22T08:58:52Z",
    "statut": "public",
    "duree": "PT56S",
-   "vues": 1151,
+   "vues": 1149,
    "jaime": 17,
    "commentaires": 0
   },
