@@ -31,3 +31,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "2"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "2"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "2"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "2"}
+### 2026-10-23 10:33 publications/youtube/quiz_legal_2.json
+{"id": "Nba9AMF5N7Y", "url": "https://www.youtube.com/shorts/Nba9AMF5N7Y", "statut": "public", "publier_le": null}
