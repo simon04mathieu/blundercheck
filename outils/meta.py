@@ -3,6 +3,7 @@ Usage :
   python3 meta.py envoi publications/instagram/<nom>.json     -> Reel Instagram (compte pro relié à la Page)
   python3 meta.py envoi publications/facebook/<nom>.json      -> Reel de Page Facebook
   python3 meta.py essai <fichier.json>                        -> affiche les requêtes sans rien envoyer (test sans secret)
+  python3 meta.py verif                                       -> vérifie les 3 secrets (lit le nom de la Page et du compte Instagram, ne publie rien)
 Fichier : {"fichier": "sorties/x.mp4", "legende": "...", "envoyer_apres": "2026-10-24T12:00:00+02:00",
            "concept": "...", "etiquettes": {...}}
 Secrets GitHub (jamais dans le dépôt) : META_TOKEN (jeton de Page longue durée), META_IG_ID (id du compte Instagram pro),
@@ -10,7 +11,7 @@ META_PAGE_ID (id de la Page). La vidéo doit être publique : on donne à Meta l
 Code retour : 0 = envoyé ou rien à faire (pas encore l'heure, outil inactif) ; 1 = échec (message « ÉCHEC : ... »).
 """
 import sys, os, json, time, urllib.request, urllib.parse, datetime
-API = "https://graph.facebook.com/v21.0"   # version de l'API : à vérifier sur developers.facebook.com à l'activation
+API = "https://graph.facebook.com/v26.0"   # version de l'API (vérifiée à l'activation le 23/10/2026)
 RAW = "https://raw.githubusercontent.com/simon04mathieu/blundercheck/videos/"
 ESSAI = False
 
@@ -46,7 +47,7 @@ def instagram(d, tok, ig):
 def facebook(d, tok, page):
     s = req("POST", f"{API}/{page}/video_reels", {"upload_phase": "start", "access_token": tok})
     vid = s["video_id"]
-    req("POST", s.get("upload_url") or f"https://rupload.facebook.com/video-upload/v21.0/{vid}", None,
+    req("POST", s.get("upload_url") or f"https://rupload.facebook.com/video-upload/v26.0/{vid}", None,
         {"Authorization": f"OAuth {tok}", "file_url": RAW + d["fichier"]})
     f = req("POST", f"{API}/{page}/video_reels", {"upload_phase": "finish", "video_id": vid, "video_state": "PUBLISHED",
             "description": d["legende"], "access_token": tok})
@@ -65,7 +66,19 @@ def envoi(chemin):
     r = instagram(d, tok, ig) if reseau == "instagram" else facebook(d, tok, page)
     print(json.dumps(r, ensure_ascii=False)); return r
 
+def verif():
+    tok, ig, page = (os.environ.get(k) for k in ("META_TOKEN", "META_IG_ID", "META_PAGE_ID"))
+    manque = [k for k, v in (("META_TOKEN", tok), ("META_IG_ID", ig), ("META_PAGE_ID", page)) if not v]
+    if manque: sys.exit("ÉCHEC : secrets absents : " + ", ".join(manque))
+    p = req("GET", f"{API}/{page}", {"fields": "name", "access_token": tok})
+    i = req("GET", f"{API}/{ig}", {"fields": "username,followers_count", "access_token": tok})
+    d = req("GET", f"{API}/debug_token", {"input_token": tok, "access_token": tok}).get("data", {})
+    exp = d.get("expires_at", 0)
+    print(f"VÉRIF OK : Page « {p.get('name')} », Instagram @{i.get('username')} ({i.get('followers_count')} abonnés), "
+          f"jeton de type {d.get('type')}, expire : {'jamais' if not exp else datetime.datetime.fromtimestamp(exp).isoformat()}")
+
 if __name__ == "__main__":
+    if len(sys.argv) == 2 and sys.argv[1] == "verif": verif(); sys.exit(0)
     if len(sys.argv) < 3 or sys.argv[1] not in ("envoi", "essai"): sys.exit(__doc__)
     ESSAI = sys.argv[1] == "essai"
     envoi(sys.argv[2])

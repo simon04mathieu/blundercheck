@@ -20,6 +20,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: { ref: videos }
+      - name: Vérification des secrets (lancement à la main seulement, ne publie rien)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          META_IG_ID: ${{ secrets.META_IG_ID }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+        run: |
+          mkdir -p stats
+          { echo "### $(date -u '+%Y-%m-%d %H:%M') vérification"; python3 outils/meta.py verif 2>&1 | tail -n 3; } >> stats/meta-journal.md
+          cat stats/meta-journal.md | tail -n 3
       - name: Envoi
         env:
           META_TOKEN: ${{ secrets.META_TOKEN }}
