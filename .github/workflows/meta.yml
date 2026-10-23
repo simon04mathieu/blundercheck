@@ -1,0 +1,47 @@
+# Reels Instagram + Facebook sans Metricool (outils/meta.py). À copier par Simon dans .github/workflows/meta.yml
+# sur `videos` ET sur `main` (les tâches horaires ne partent que de main). Inactif tant que les secrets META_* manquent.
+name: Meta
+on:
+  push:
+    branches: [videos]
+    paths: ["publications/instagram/*.json", "publications/facebook/*.json"]
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+permissions:
+  contents: write
+concurrency:
+  group: meta
+  cancel-in-progress: false
+jobs:
+  envoi:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: videos }
+      - name: Envoi
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          META_IG_ID: ${{ secrets.META_IG_ID }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+        run: |
+          git config user.name "BlunderCheck vidéos"
+          git config user.email "actions@users.noreply.github.com"
+          for r in instagram facebook; do
+            mkdir -p publications/$r/faites
+            for c in publications/$r/*.json; do
+              [ -e "$c" ] || continue
+              if python3 outils/meta.py envoi "$c" > /tmp/r.txt 2>&1; then
+                if grep -q '"id"' /tmp/r.txt; then
+                  { echo "### $(date -u '+%Y-%m-%d %H:%M') $c"; cat /tmp/r.txt; } >> stats/$r-journal.md
+                  git mv "$c" publications/$r/faites/ 2>/dev/null || mv "$c" publications/$r/faites/
+                fi
+              else
+                { echo "### $(date -u '+%Y-%m-%d %H:%M') $c"; echo "ÉCHEC :"; tail -n 5 /tmp/r.txt; } >> stats/$r-journal.md
+              fi
+            done
+          done
+          git add -A stats publications || true
+          git commit -qm "Meta : envois (run ${{ github.run_id }})" || exit 0
+          git pull -q --rebase origin videos && git push -q origin HEAD:videos
