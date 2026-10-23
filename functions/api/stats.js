@@ -46,12 +46,13 @@ async function provenance(env, nbJours) {
     vuesParSource(nbJours ? debut : '2000-01-01'),
   ]);
   const par = {};
-  for (const x of r.results || []) (par[x.src] ||= { src: x.src })[x.evt] = x.n;
+  const moi = {};
+  for (const x of r.results || []) { if (x.src === 'moi') { moi[x.evt] = x.n; continue; } (par[x.src] ||= { src: x.src })[x.evt] = x.n; }
   for (const k of Object.keys(vues)) (par[k] ||= { src: k }).vues = vues[k].vues;
   const lignes = Object.values(par).sort((a, b) => (b.visite || 0) - (a.visite || 0) || (b.vues || 0) - (a.vues || 0));
   const total = { src: 'total' }; for (const l of lignes) for (const e of [...ETAPES, 'vues']) if (l[e] != null) total[e] = (total[e] || 0) + l[e];
   const premier = await env.STATS.prepare('SELECT MIN(jour) AS j FROM compteur').first('j').catch(() => null);
-  return { debut: nbJours ? debut : premier, depuis: premier, lignes, total, releves: Object.fromEntries(Object.entries(vues).map(([k, v]) => [k, v.releve])) };
+  return { debut: nbJours ? debut : premier, depuis: premier, lignes, total, moi, releves: Object.fromEntries(Object.entries(vues).map(([k, v]) => [k, v.releve])) };
 }
 
 export async function onRequestGet({ request, env }) {
@@ -161,5 +162,5 @@ function blocSources(S, nbJours, url) {
   return `<h2>Provenance (?src) · vues → visites → inscriptions</h2>
 <p class="per">${per}</p>
 <div class="tw"><table><thead><tr><th>Source</th><th>Vues vidéos</th><th>Visiteurs</th><th>→ Appli</th><th>Liste</th><th>Comptes</th><th>Parties prof</th><th>Abonnés</th></tr></thead><tbody>${corps}</tbody></table></div>
-<p class="m">Vues : vidéos publiées sur la période (TikTok et YouTube seulement pour l'instant${rel ? ' ; ' + rel : ''}). Visiteurs : une fois par jour, par navigateur et par source ; le % = visiteurs ÷ vues. Appli, liste, comptes, parties : le % est rapporté aux visiteurs. Les étapes après la visite sont rattachées à la source de la 1re arrivée (cookie de 30 jours). « direct » = arrivé sans ?src. Compteur démarré le ${esc((S.depuis || "2026-10-23").split("-").reverse().join("/"))}.</p>`;
+<p class="m">Vues : vidéos publiées sur la période (TikTok et YouTube seulement pour l'instant${rel ? ' ; ' + rel : ''}). Visiteurs : une fois par jour, par navigateur et par source ; le % = visiteurs ÷ vues. Appli, liste, comptes, parties : le % est rapporté aux visiteurs. Les étapes après la visite sont rattachées à la source de la 1re arrivée (cookie de 30 jours). « direct » = arrivé sans ?src. ${Object.keys(S.moi || {}).length ? 'Non comptés (toi, navigateurs passés par ?admin) : ' + esc(Object.entries(S.moi).map(([k, v]) => v + ' ' + k).join(', ')) + '. ' : ''}Compteur démarré le ${esc((S.depuis || "2026-10-23").split("-").reverse().join("/"))}.</p>`;
 }

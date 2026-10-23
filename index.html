@@ -15,10 +15,11 @@ var P='appli',u=new URL(location.href),q=u.searchParams,s=(q.get('src')||'').toL
 try{ls=window.localStorage;}catch(e){}
 if(!ok.test(s))s=P==='tiktok'?'tiktok':'';
 var c=document.cookie.match(/(?:^|;\s*)bc_src=([a-z0-9-]{1,30})/);
-if(s&&!c)document.cookie='bc_src='+s+'; Path=/; Max-Age=2592000; SameSite=Lax'+(location.protocol==='https:'?'; Secure':'');
+var sec=location.protocol==='https:'?'; Secure':'',moi=q.has('admin');
 if(q.has('src')){q.delete('src');history.replaceState(history.state,'',u.pathname+(q.toString()?'?'+q:'')+u.hash);}
-if(q.has('admin')&&ls)try{ls.setItem('bc-moi','1');}catch(e){}
-if(ls&&ls.getItem('bc-moi'))return;
+if(moi&&ls)try{ls.setItem('bc-moi','1');}catch(e){}
+if(moi||(ls&&ls.getItem('bc-moi'))){document.cookie='bc_src=moi; Path=/; Max-Age=31536000; SameSite=Lax'+sec;return;}
+if(s&&!c)document.cookie='bc_src='+s+'; Path=/; Max-Age=2592000; SameSite=Lax'+sec;
 var src=s||'direct',j=new Date().toISOString().slice(0,10),vu={};
 try{vu=JSON.parse(ls&&ls.getItem('bc-vu')||'{}');}catch(e){}
 if(vu.j!==j)vu={j:j};
