@@ -1,27 +1,36 @@
 {
- "date": "2026-10-23T13:41:24.718638+00:00",
+ "date": "2026-10-23T14:39:04.115471+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
-  "abonnes": "2",
+  "abonnes": "3",
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "BBzdCeeUJe4": {
+   "titre": "S'il mange ton poney, il est mat 🐦 Le pigeon du jour #1 #echecs #shorts",
+   "publiee": "2026-10-23T13:41:41Z",
+   "statut": "public",
+   "duree": "PT41S",
+   "vues": 2,
+   "jaime": 1,
+   "commentaires": 0
+  },
   "Nba9AMF5N7Y": {
    "titre": "Ton pion devient poney et fait mat. Légal ou pas ? 🐴 #echecs #shorts",
    "publiee": "2026-10-23T10:34:00Z",
    "statut": "public",
    "duree": "PT48S",
-   "vues": 78,
-   "jaime": 2,
-   "commentaires": 1
+   "vues": 134,
+   "jaime": 3,
+   "commentaires": 2
   },
   "3C3VYTd6Ajg": {
    "titre": "2 dames en même temps aux échecs : c'est permis ? #Shorts",
    "publiee": "2026-10-22T16:32:29Z",
    "statut": "public",
    "duree": "PT44S",
-   "vues": 144,
+   "vues": 170,
    "jaime": 5,
    "commentaires": 0
   },
@@ -30,7 +39,7 @@
    "publiee": "2026-10-22T15:37:43Z",
    "statut": "public",
    "duree": "PT56S",
-   "vues": 41,
+   "vues": 43,
    "jaime": 0,
    "commentaires": 0
   },
@@ -39,7 +48,7 @@
    "publiee": "2026-10-22T15:31:31Z",
    "statut": "public",
    "duree": "PT51S",
-   "vues": 47,
+   "vues": 52,
    "jaime": 1,
    "commentaires": 0
   },
@@ -48,7 +57,7 @@
    "publiee": "2026-10-22T14:31:41Z",
    "statut": "public",
    "duree": "PT47S",
-   "vues": 399,
+   "vues": 416,
    "jaime": 9,
    "commentaires": 2
   },
@@ -57,8 +66,8 @@
    "publiee": "2026-10-22T13:44:04Z",
    "statut": "public",
    "duree": "PT55S",
-   "vues": 206,
-   "jaime": 5,
+   "vues": 212,
+   "jaime": 6,
    "commentaires": 0
   },
   "qXUtz9Ty04k": {
@@ -66,7 +75,7 @@
    "publiee": "2026-10-22T08:58:52Z",
    "statut": "public",
    "duree": "PT56S",
-   "vues": 1113,
+   "vues": 1096,
    "jaime": 16,
    "commentaires": 0
   },
@@ -75,7 +84,7 @@
    "publiee": "2026-10-21T23:04:38Z",
    "statut": "public",
    "duree": "PT56S",
-   "vues": 31,
+   "vues": 29,
    "jaime": 2,
    "commentaires": 0
   },

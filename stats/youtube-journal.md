@@ -39,3 +39,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "2"}
 ### 2026-10-23 13:41 publications/youtube/pigeon_jour_1.json
 {"id": "BBzdCeeUJe4", "url": "https://www.youtube.com/shorts/BBzdCeeUJe4", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "3"}
