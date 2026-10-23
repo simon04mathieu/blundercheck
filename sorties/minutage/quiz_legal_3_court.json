@@ -1,0 +1,65 @@
+{
+ "nom": "quiz_legal_3_court",
+ "tempo": 1.0,
+ "duree_s": 37.45,
+ "hook": {
+  "texte": "Ton pion mange le vide|et fait mat. Légal ?",
+  "fin": 8.4
+ },
+ "question": {
+  "texte": "Tu le savais ?|Oui ou non ?",
+  "t": 34.25
+ },
+ "phrases": [
+  {
+   "t": 0.2,
+   "texte": "Ton pion mange le vide et fait mat."
+  },
+  {
+   "t": 6.18,
+   "texte": "Légal ?"
+  },
+  {
+   "t": 8.4,
+   "texte": "Le pigeon vient de pousser son pion de deux cases."
+  },
+  {
+   "t": 16.0,
+   "texte": "Ton pion mange au passage."
+  },
+  {
+   "t": 20.42,
+   "texte": "Légal ou pas ?"
+  },
+  {
+   "t": 26.74,
+   "texte": "Mat."
+  },
+  {
+   "t": 28.45,
+   "texte": "Légal !"
+  },
+  {
+   "t": 30.67,
+   "texte": "Tu le savais ?"
+  },
+  {
+   "t": 34.0,
+   "texte": "Oui ou non ?"
+  }
+ ],
+ "coups": [
+  {
+   "t": 26.74,
+   "coup": "exd6#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 23.72,
+   "duree": 3.0,
+   "texte": "Légal ou pas ?"
+  }
+ ]
+}
