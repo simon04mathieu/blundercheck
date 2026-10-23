@@ -2,10 +2,13 @@
 // POST : inscrit une adresse e-mail sur la liste d'attente de BlunderCheck+ (espace KV « LISTE »).
 // GET ?token=... : exporte la liste en CSV (jeton secret ADMIN_TOKEN, à garder pour toi).
 
+import { srcDe, compterPlusTard } from '../../lib/src.js';
+
 const json = (status, obj) => new Response(JSON.stringify(obj), { status, headers: { 'content-type': 'application/json; charset=utf-8' } });
 const EMAIL = /^[^\s@<>"']{1,64}@[^\s@<>"']{1,190}\.[a-z]{2,24}$/i;
 
-export async function onRequestPost({ request, env }) {
+export async function onRequestPost(ctx) {
+  const { request, env } = ctx;
   if (!env.LISTE) return json(503, { error: "La liste d'attente n'est pas encore configurée." });
   const origin = request.headers.get('Origin');
   if (origin) {
@@ -28,7 +31,8 @@ export async function onRequestPost({ request, env }) {
 
   const cle = `email:${email}`;
   if (!(await env.LISTE.get(cle))) {
-    await env.LISTE.put(cle, JSON.stringify({ date: new Date().toISOString(), langue: b.lang === 'en' ? 'en' : 'fr', source: String(b.source || '').slice(0, 30) }));
+    await env.LISTE.put(cle, JSON.stringify({ date: new Date().toISOString(), langue: b.lang === 'en' ? 'en' : 'fr', source: String(b.source || '').slice(0, 30), canal: srcDe(request) }));
+    compterPlusTard(ctx, srcDe(request), ['liste']);
     // e-mail de confirmation, si l'envoi d'e-mails est configuré (Resend) ; une erreur d'envoi ne bloque pas l'inscription
     if (env.RESEND_API_KEY) {
       const en = b.lang === 'en', site = new URL(request.url).origin;
@@ -69,13 +73,13 @@ BlunderCheck`;
 export async function onRequestGet({ request, env }) {
   const token = new URL(request.url).searchParams.get('token');
   if (!env.LISTE || !env.ADMIN_TOKEN || token !== env.ADMIN_TOKEN) return new Response('Non autorisé', { status: 401 });
-  const lignes = ['email,date,langue,source'];
+  const lignes = ['email,date,langue,source,canal'];
   let cursor;
   do {
     const r = await env.LISTE.list({ prefix: 'email:', cursor });
     for (const k of r.keys) {
       const v = JSON.parse(await env.LISTE.get(k.name) || '{}');
-      lignes.push([k.name.slice(6), v.date || '', v.langue || '', v.source || ''].join(','));
+      lignes.push([k.name.slice(6), v.date || '', v.langue || '', v.source || '', v.canal || ''].join(','));
     }
     cursor = r.list_complete ? null : r.cursor;
   } while (cursor);

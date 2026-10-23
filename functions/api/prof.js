@@ -7,11 +7,13 @@ const LIMITE_JOUR = 60;          // appels au prof par visiteur et par jour
 const MAX_CARACTERES = 60000;    // taille maximale d'une demande
 const MAX_TOKENS = 8192;
 
+import { srcDe, compterPlusTard } from '../../lib/src.js';
 import { quotasActifs, lireSession, lireCompte, formule, lireQuota, ecrireQuota, LIMITES, APPELS_PAR_PARTIE } from '../../lib/compte.js';
 
 const json = (status, obj) => new Response(JSON.stringify(obj), { status, headers: { 'content-type': 'application/json; charset=utf-8' } });
 
-export async function onRequestPost({ request, env }) {
+export async function onRequestPost(ctx) {
+  const { request, env } = ctx;
   if (!env.ANTHROPIC_API_KEY) return json(503, { error: "Le prof n'est pas encore configuré sur ce site." });
 
   const origin = request.headers.get('Origin');
@@ -63,7 +65,7 @@ export async function onRequestPost({ request, env }) {
       const s = JSON.parse(await env.QUOTA.get(cle) || '{"appels":0,"parties":0,"questions":0}');
       s.appels++;
       if (!request.headers.get('x-bc-partie')) s.questions++;
-      else if (request.headers.get('x-bc-premier') === '1') s.parties++;
+      else if (request.headers.get('x-bc-premier') === '1') { s.parties++; compterPlusTard(ctx, srcDe(request), ['partie']); }
       await env.QUOTA.put(cle, JSON.stringify(s), { expirationTtl: 60 * 60 * 24 * 400 });
     } catch { }
   }

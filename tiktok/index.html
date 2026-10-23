@@ -1,6 +1,25 @@
 <!doctype html>
 <html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Les pièges de nos vidéos · BlunderCheck</title>
+<script>/* Compteur de provenance ?src (fiche site/compteur-src.md). Une arrivée par jour et par source ; ?admin exclut ce navigateur. */
+(function(){try{
+var P='tiktok',u=new URL(location.href),q=u.searchParams,s=(q.get('src')||'').toLowerCase(),ok=/^[a-z0-9][a-z0-9-]{0,29}$/,ls=null;
+try{ls=window.localStorage;}catch(e){}
+if(!ok.test(s))s=P==='tiktok'?'tiktok':'';
+var c=document.cookie.match(/(?:^|;\s*)bc_src=([a-z0-9-]{1,30})/);
+if(s&&!c)document.cookie='bc_src='+s+'; Path=/; Max-Age=2592000; SameSite=Lax'+(location.protocol==='https:'?'; Secure':'');
+if(q.has('src')){q.delete('src');history.replaceState(history.state,'',u.pathname+(q.toString()?'?'+q:'')+u.hash);}
+if(q.has('admin')&&ls)try{ls.setItem('bc-moi','1');}catch(e){}
+if(ls&&ls.getItem('bc-moi'))return;
+var src=s||'direct',j=new Date().toISOString().slice(0,10),vu={};
+try{vu=JSON.parse(ls&&ls.getItem('bc-vu')||'{}');}catch(e){}
+if(vu.j!==j)vu={j:j};
+var ev=[];if(!vu[src])ev.push('visite');if(P==='appli'&&!vu[src+':a'])ev.push('appli');
+if(!ev.length)return;
+var b=JSON.stringify({src:src,evts:ev}),fini=function(){vu[src]=1;if(P==='appli')vu[src+':a']=1;try{ls&&ls.setItem('bc-vu',JSON.stringify(vu));}catch(e){}};
+if(navigator.sendBeacon&&navigator.sendBeacon('/api/src',new Blob([b],{type:'application/json'})))fini();
+else fetch('/api/src',{method:'POST',body:b,keepalive:true,headers:{'content-type':'application/json'}}).then(fini,function(){});
+}catch(e){}})();</script>
 <meta name="description" content="Rejoue les pièges d'échecs de nos vidéos TikTok, puis analyse tes propres parties gratuitement.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">

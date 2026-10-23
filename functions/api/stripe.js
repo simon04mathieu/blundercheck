@@ -2,6 +2,7 @@
 // Met à jour la formule du compte quand un abonnement est payé, renouvelé, en retard ou résilié.
 // Événements à cocher dans Stripe : checkout.session.completed, customer.subscription.created,
 // customer.subscription.updated, customer.subscription.deleted
+import { compterPlusTard } from '../../lib/src.js';
 import { json, signatureStripeOk, lireCompte, compteOuCree, ecrireCompte } from '../../lib/compte.js';
 
 const ACTIFS = ['active', 'trialing', 'past_due'];
@@ -22,7 +23,8 @@ async function majAbonnement(env, sub) {
   if (u.client) await env.COMPTES.put('client:' + u.client, email);
 }
 
-export async function onRequestPost({ request, env }) {
+export async function onRequestPost(ctx) {
+  const { request, env } = ctx;
   if (!env.COMPTES || !env.STRIPE_WEBHOOK_SECRET) return json(503, { error: 'Non configuré.' });
   const corps = await request.text();
   if (!(await signatureStripeOk(env.STRIPE_WEBHOOK_SECRET, request.headers.get('Stripe-Signature'), corps))) return json(400, { error: 'Signature invalide.' });
@@ -34,6 +36,7 @@ export async function onRequestPost({ request, env }) {
     if (email && o.customer) {
       const u = await compteOuCree(env, email);
       u.client = o.customer;
+      if (o.mode === 'subscription' && u.plan !== 'plus') compterPlusTard(ctx, u.src || 'direct', ['abonne']);
       if (o.mode === 'subscription') { u.plan = 'plus'; u.statut = 'active'; u.fin = u.fin || Math.floor(Date.now() / 1000) + 31 * 86400; }
       await ecrireCompte(env, u);
       await env.COMPTES.put('client:' + o.customer, email);
