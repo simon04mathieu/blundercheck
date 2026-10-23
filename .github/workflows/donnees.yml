@@ -1,0 +1,31 @@
+# Vérifie l'accès au dépôt privé simon04mathieu/blundercheck-donnees (secret DONNEES_TOKEN), sans rien publier.
+# Lancement à la main : Actions › Données privées › Run workflow. La rétention YouTube s'y écrira ensuite (chantier du producteur).
+name: Données privées
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verif:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: videos }
+      - name: Écrire une ligne de test dans le dépôt privé
+        env:
+          DONNEES_TOKEN: ${{ secrets.DONNEES_TOKEN }}
+        run: |
+          mkdir -p stats
+          if [ -z "$DONNEES_TOKEN" ]; then r="ÉCHEC : secret DONNEES_TOKEN absent"; else
+            if git clone -q --depth 1 "https://x-access-token:${DONNEES_TOKEN}@github.com/simon04mathieu/blundercheck-donnees.git" d 2>/dev/null; then
+              cd d && git config user.name "BlunderCheck données" && git config user.email "actions@users.noreply.github.com"
+              mkdir -p retention && date -u '+%Y-%m-%d %H:%M vérification de l accès' >> retention/verif.txt
+              git add retention/verif.txt && git commit -qm "Vérification de l'accès" && git push -q && r="OK : écriture dans blundercheck-donnees réussie" || r="ÉCHEC : écriture refusée (droit Contents en lecture-écriture ?)"
+              cd ..
+            else r="ÉCHEC : dépôt privé inaccessible avec DONNEES_TOKEN"; fi
+          fi
+          echo "$r"
+          git config user.name "BlunderCheck vidéos"; git config user.email "actions@users.noreply.github.com"
+          echo "### $(date -u '+%Y-%m-%d %H:%M') $r" >> stats/donnees-journal.md
+          git add stats/donnees-journal.md && git commit -qm "Données privées : vérification" && git pull -q --rebase origin videos && git push -q origin HEAD:videos
