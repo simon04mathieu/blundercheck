@@ -41,3 +41,4 @@ Jetons TikTok enregistrés (chiffrés). Portées : user.info.basic,user.info.pro
 ### 2026-10-23 06:08 publications/tiktok/quiz_legal_2.json
 {"publish_id": "v_inbox_file~v2.7699740696462673942", "mode": "brouillon", "vie_privee": null, "legende": "Ton pion devient poney et fait mat 🐴 Légal ou pas ? Réponds en un mot 👇 #echecs #chess #chesstok #echecsfr #quiz"}
 {"compte": "BlunderCheck", "abonnes": 1, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "abonnes": 1, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
