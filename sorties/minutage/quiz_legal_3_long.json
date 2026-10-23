@@ -1,0 +1,135 @@
+{
+ "nom": "quiz_legal_3_long",
+ "tempo": 1.0,
+ "duree_s": 67.45,
+ "hook": {
+  "texte": "Ton pion mange le vide|et fait mat. Légal ?",
+  "fin": 5.5
+ },
+ "question": {
+  "texte": "Tu le savais ?|Oui ou non ?",
+  "t": 64.25
+ },
+ "phrases": [
+  {
+   "t": 0.2,
+   "texte": "Ton pion mange le vide et fait mat."
+  },
+  {
+   "t": 4.06,
+   "texte": "Légal ?"
+  },
+  {
+   "t": 5.5,
+   "texte": "Le pigeon pousse son pion de deux cases."
+  },
+  {
+   "t": 9.57,
+   "texte": "Tes deux dames et ton poney attendent."
+  },
+  {
+   "t": 13.34,
+   "texte": "Ton pion mange…"
+  },
+  {
+   "t": 15.32,
+   "texte": "un pion qui n'est plus là."
+  },
+  {
+   "t": 18.39,
+   "texte": "Légal ou pas ?"
+  },
+  {
+   "t": 23.54,
+   "texte": "Une dame peut mater ?"
+  },
+  {
+   "t": 26.19,
+   "texte": "Oui."
+  },
+  {
+   "t": 27.29,
+   "texte": "Mais ce n'est pas la question."
+  },
+  {
+   "t": 30.52,
+   "texte": "Ton poney ?"
+  },
+  {
+   "t": 32.34,
+   "texte": "Il ne fait rien."
+  },
+  {
+   "t": 34.57,
+   "texte": "La question, c'est ton pion."
+  },
+  {
+   "t": 37.73,
+   "texte": "Mat."
+  },
+  {
+   "t": 38.83,
+   "texte": "LÉGAL !"
+  },
+  {
+   "t": 40.27,
+   "texte": "Juste après un saut de deux cases, ton pion peut le manger au passage."
+  },
+  {
+   "t": 47.07,
+   "texte": "Son nom  la prise en passant."
+  },
+  {
+   "t": 50.75,
+   "texte": "Et si tu joues autre chose d'abord ?"
+  },
+  {
+   "t": 54.65,
+   "texte": "Ton roi bouge."
+  },
+  {
+   "t": 56.59,
+   "texte": "Le pion est toujours là."
+  },
+  {
+   "t": 59.36,
+   "texte": "Trop tard."
+  },
+  {
+   "t": 60.92,
+   "texte": "Une seule chance."
+  },
+  {
+   "t": 62.98,
+   "texte": "Tu le savais ?"
+  },
+  {
+   "t": 65.13,
+   "texte": "Oui ou non ?"
+  }
+ ],
+ "coups": [
+  {
+   "t": 6.84,
+   "coup": "d5",
+   "badge": "bizarre"
+  },
+  {
+   "t": 37.73,
+   "coup": "exd6#",
+   "badge": "mat"
+  },
+  {
+   "t": 55.41,
+   "coup": "Ka2",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 20.52,
+   "duree": 3.0,
+   "texte": "Légal ou pas ?"
+  }
+ ]
+}
