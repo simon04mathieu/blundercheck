@@ -1,0 +1,103 @@
+{
+ "nom": "pigeon_en_1",
+ "tempo": 1.0,
+ "duree_s": 22.58,
+ "hook": {
+  "texte": "If he eats your candy,|he's mated.",
+  "fin": 3.56
+ },
+ "question": {
+  "texte": "Would you fall for it?|Yes or no?",
+  "t": 19.38
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "If he eats your candy he's mated."
+  },
+  {
+   "t": 3.56,
+   "texte": "You're Black."
+  },
+  {
+   "t": 4.64,
+   "texte": "You leave a pawn alone."
+  },
+  {
+   "t": 6.66,
+   "texte": "His pony eats it then another, hitting your queen and your rook."
+  },
+  {
+   "t": 11.46,
+   "texte": "Your queen eats two pawns check."
+  },
+  {
+   "t": 14.66,
+   "texte": "He hides behind his bishop."
+  },
+  {
+   "t": 16.66,
+   "texte": "Your pony jumps."
+  },
+  {
+   "t": 18.38,
+   "texte": "Mate."
+  },
+  {
+   "t": 19.78,
+   "texte": "Would you fall for it?"
+  },
+  {
+   "t": 21.6,
+   "texte": "Yes or no?"
+  }
+ ],
+ "coups": [
+  {
+   "t": 4.92,
+   "coup": "Nd4",
+   "badge": "bizarre"
+  },
+  {
+   "t": 7.12,
+   "coup": "Nxe5",
+   "badge": "gaffe"
+  },
+  {
+   "t": 8.04,
+   "coup": "Qg5",
+   "badge": null
+  },
+  {
+   "t": 8.22,
+   "coup": "Nxf7",
+   "badge": null
+  },
+  {
+   "t": 11.92,
+   "coup": "Qxg2",
+   "badge": null
+  },
+  {
+   "t": 12.56,
+   "coup": "Rf1",
+   "badge": null
+  },
+  {
+   "t": 13.54,
+   "coup": "Qxe4+",
+   "badge": null
+  },
+  {
+   "t": 15.2,
+   "coup": "Be2",
+   "badge": null
+  },
+  {
+   "t": 17.14,
+   "coup": "Nf3#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
