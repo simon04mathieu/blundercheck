@@ -1,0 +1,93 @@
+{
+ "nom": "pigeon_jour_6",
+ "tempo": 1.0,
+ "duree_s": 22.7,
+ "hook": {
+  "texte": "S'il mange ton fou,|tu le mates en 5 coups.",
+  "fin": 4.58
+ },
+ "question": {
+  "texte": "Suis le compte|pour la suite",
+  "t": 19.5
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "S'il mange ton fou tu le mates en cinq coups."
+  },
+  {
+   "t": 4.58,
+   "texte": "Tu as les Blancs."
+  },
+  {
+   "t": 5.9,
+   "texte": "Ton fou attaque."
+  },
+  {
+   "t": 7.36,
+   "texte": "Le pigeon le chasse avec deux pions."
+  },
+  {
+   "t": 10.3,
+   "texte": "Tu libères le chemin de ta dame."
+  },
+  {
+   "t": 12.8,
+   "texte": "Il mange ton fou le bonbon."
+  },
+  {
+   "t": 15.32,
+   "texte": "Ta dame bondit."
+  },
+  {
+   "t": 16.84,
+   "texte": "Mat."
+  },
+  {
+   "t": 18.52,
+   "texte": "Tu serais tombé dedans ?"
+  },
+  {
+   "t": 20.76,
+   "texte": "Suis le compte pour la suite."
+  }
+ ],
+ "coups": [
+  {
+   "t": 6.26,
+   "coup": "Bg5",
+   "badge": null
+  },
+  {
+   "t": 8.44,
+   "coup": "h6",
+   "badge": null
+  },
+  {
+   "t": 8.74,
+   "coup": "Bh4",
+   "badge": null
+  },
+  {
+   "t": 9.02,
+   "coup": "g5",
+   "badge": null
+  },
+  {
+   "t": 10.84,
+   "coup": "e3",
+   "badge": "brillant"
+  },
+  {
+   "t": 14.14,
+   "coup": "gxh4",
+   "badge": "gaffe"
+  },
+  {
+   "t": 15.74,
+   "coup": "Qh5#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
