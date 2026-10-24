@@ -72,3 +72,4 @@
 ### 2026-10-24 12:35 publications/youtube/pigeon_jour_3.json
 {"id": "gJJc-vOWfjE", "url": "https://www.youtube.com/shorts/gJJc-vOWfjE", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "11"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "12"}
