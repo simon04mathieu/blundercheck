@@ -1,0 +1,88 @@
+{
+ "nom": "pigeon_en_3",
+ "tempo": 1.0,
+ "duree_s": 22.56,
+ "hook": {
+  "texte": "If he plays this pony,|you mate him.",
+  "fin": 2.84
+ },
+ "question": {
+  "texte": "A = yes · B = never.|Comment!",
+  "t": 19.36
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "If he plays this pony you mate him."
+  },
+  {
+   "t": 2.84,
+   "texte": "You're White."
+  },
+  {
+   "t": 4.18,
+   "texte": "He eats a pawn you take it back."
+  },
+  {
+   "t": 7.16,
+   "texte": "Your queen eyes his king."
+  },
+  {
+   "t": 9.66,
+   "texte": "The pigeon brings out his other pony."
+  },
+  {
+   "t": 11.86,
+   "texte": "Big mistake."
+  },
+  {
+   "t": 13.42,
+   "texte": "Your pony jumps in front of his king."
+  },
+  {
+   "t": 15.86,
+   "texte": "Smothered mate."
+  },
+  {
+   "t": 17.58,
+   "texte": "Would you fall for it?"
+  },
+  {
+   "t": 19.24,
+   "texte": "Comment A: yes or B: never."
+  }
+ ],
+ "coups": [
+  {
+   "t": 4.58,
+   "coup": "dxe4",
+   "badge": null
+  },
+  {
+   "t": 5.92,
+   "coup": "Nxe4",
+   "badge": null
+  },
+  {
+   "t": 7.16,
+   "coup": "Nd7",
+   "badge": null
+  },
+  {
+   "t": 7.72,
+   "coup": "Qe2",
+   "badge": null
+  },
+  {
+   "t": 10.96,
+   "coup": "Ngf6",
+   "badge": "gaffe"
+  },
+  {
+   "t": 13.92,
+   "coup": "Nd6#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}

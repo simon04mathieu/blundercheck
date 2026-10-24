@@ -225,3 +225,7 @@
 ### commandes/perso_analyse_celebre_2_long.json
     sans voix (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/analyse_celebre_2_long.mp4 {"voix_brute_s": 64.4, "tempo": 1.0, "video_s": 64.5, "voice_id": "aucune", "musique": "fond1.mp3", "mots_transcrits": 116, "minutage": "32 phrases, 33 coups, 0 pauses"}
+### commandes/perso_pigeon_en_3.json
+    voix générée : 292 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_3.mp4 {"voix_brute_s": 22.5, "tempo": 1.0, "video_s": 23.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 53, "minutage": "10 phrases, 6 coups, 0 pauses"}
