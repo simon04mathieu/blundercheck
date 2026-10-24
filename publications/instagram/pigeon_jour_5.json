@@ -1,0 +1,33 @@
+{
+ "fichier": "sorties/pigeon_jour_5.mp4",
+ "legende": "Le pigeon du jour #5 🐦 S'il sort ce poney, tu le mates. Tu serais tombé dedans ? Commente A : oui, ou B : jamais 👇\n\n#echecs #chess #piegeechecs #carokann #echecsfr",
+ "envoyer_apres": "2026-10-25T11:00:00+01:00",
+ "concept": "pigeon_jour",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "hook": "perte_1re_phrase",
+  "premiers_mots": "S'il sort ce poney",
+  "duree_s": 21,
+  "personnages": [
+   "poney",
+   "pigeon",
+   "dame",
+   "toi"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "commente_A_ou_B",
+  "test": "T1-fin",
+  "variante": "A",
+  "paire": "T7-1",
+  "tirage": "seed 2510252233"
+ },
+ "format": "PERSO",
+ "langue": "fr",
+ "test": "T1-fin",
+ "variante": "A",
+ "duree": 21,
+ "voix": "oui",
+ "paire": "T7-1"
+}

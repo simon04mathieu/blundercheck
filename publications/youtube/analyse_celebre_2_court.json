@@ -1,0 +1,39 @@
+{
+ "fichier": "sorties/analyse_celebre_2_court.mp4",
+ "envoyer_apres": "2026-10-25T20:00:00+01:00",
+ "titre": "Opéra, 1858 : il mange tout… et il est mat 🎭 #echecs #shorts",
+ "description": "Tu donnes un poney, une tour, puis ta dame. Mat en 17 coups. Tu l'avais vu ? Oui ou non ?\n\n#echecs #chess #shorts",
+ "tags": [
+  "échecs",
+  "chess",
+  "piège",
+  "poney",
+  "partie célèbre"
+ ],
+ "concept": "analyse_celebre",
+ "etiquettes": {
+  "format": "ANALYSE",
+  "langue": "fr",
+  "hook": "mat_1re_phrase+question",
+  "premiers_mots": "Tu joues pendant",
+  "duree_s": 36,
+  "personnages": [
+   "pigeon",
+   "poney",
+   "dame",
+   "toi"
+  ],
+  "musique": "fond1.mp3",
+  "voix": "non",
+  "fin": "oui_non",
+  "test": "T6-durée",
+  "variante": "B"
+ },
+ "format": "ANALYSE",
+ "langue": "fr",
+ "test": "T6-durée",
+ "variante": "B",
+ "duree": 36,
+ "voix": "non",
+ "paire": null
+}

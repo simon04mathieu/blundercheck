@@ -1,0 +1,35 @@
+{
+ "fichier": "sorties/analyse_celebre_2_court.mp4",
+ "legende": "Tu donnes tout… et c'est mat 🎭 Tu l'avais vu ? Oui ou non 👇 #echecs #chess #echecsfr #partiecelebre #chesstok",
+ "envoyer_apres": "2026-10-25T08:00:00+01:00",
+ "heure_conseillee": "2026-10-25T20:00:00+01:00",
+ "repere": "20 h · analyse_celebre_2_court · 36 s",
+ "ia": true,
+ "marque": true,
+ "concept": "analyse_celebre",
+ "etiquettes": {
+  "format": "ANALYSE",
+  "langue": "fr",
+  "hook": "mat_1re_phrase+question",
+  "premiers_mots": "Tu joues pendant",
+  "duree_s": 36,
+  "personnages": [
+   "pigeon",
+   "poney",
+   "dame",
+   "toi"
+  ],
+  "musique": "fond1.mp3",
+  "voix": "non",
+  "fin": "oui_non",
+  "test": "T6-durée",
+  "variante": "B"
+ },
+ "format": "ANALYSE",
+ "langue": "fr",
+ "test": "T6-durée",
+ "variante": "B",
+ "duree": 36,
+ "voix": "non",
+ "paire": null
+}

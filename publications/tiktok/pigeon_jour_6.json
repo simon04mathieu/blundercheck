@@ -1,0 +1,37 @@
+{
+ "fichier": "sorties/pigeon_jour_6.mp4",
+ "legende": "Le pigeon du jour #6 🐦 S'il mange ton fou, tu le mates en 5 coups. Suis pour la suite 👉 #echecs #chess #piege #echecsfr #hollandaise",
+ "envoyer_apres": "2026-10-25T08:00:00+01:00",
+ "heure_conseillee": "2026-10-25T17:00:00+01:00",
+ "repere": "17 h · pigeon_jour_6 · 23 s",
+ "ia": true,
+ "marque": true,
+ "concept": "pigeon_jour",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "hook": "mat_1re_phrase",
+  "premiers_mots": "S'il mange ton fou",
+  "duree_s": 23,
+  "personnages": [
+   "fou",
+   "pigeon",
+   "bonbon",
+   "toi"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "suis_le_compte",
+  "test": "T1-fin",
+  "variante": "B",
+  "paire": "T7-2",
+  "tirage": "seed 2510252233"
+ },
+ "format": "PERSO",
+ "langue": "fr",
+ "test": "T1-fin",
+ "variante": "B",
+ "duree": 23,
+ "voix": "oui",
+ "paire": "T7-2"
+}

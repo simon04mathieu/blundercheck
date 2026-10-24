@@ -1,0 +1,39 @@
+{
+ "fichier": "sorties/analyse_celebre_2_long.mp4",
+ "envoyer_apres": "2026-10-25T14:00:00+01:00",
+ "titre": "La Partie de l'Opéra : mat en 17 coups 🎭 #echecs #shorts",
+ "description": "Paris, 1858 : tu joues pendant l'opéra et tu donnes tout… jusqu'au mat. Tu l'avais vu ? Oui ou non ?\n\n#echecs #chess #shorts",
+ "tags": [
+  "échecs",
+  "chess",
+  "piège",
+  "poney",
+  "partie célèbre"
+ ],
+ "concept": "analyse_celebre",
+ "etiquettes": {
+  "format": "ANALYSE",
+  "langue": "fr",
+  "hook": "mat_1re_phrase+question",
+  "premiers_mots": "Tu joues pendant",
+  "duree_s": 64,
+  "personnages": [
+   "pigeon",
+   "poney",
+   "dame",
+   "toi"
+  ],
+  "musique": "fond1.mp3",
+  "voix": "non",
+  "fin": "oui_non",
+  "test": "T6-durée",
+  "variante": "A"
+ },
+ "format": "ANALYSE",
+ "langue": "fr",
+ "test": "T6-durée",
+ "variante": "A",
+ "duree": 64,
+ "voix": "non",
+ "paire": null
+}

@@ -1,0 +1,36 @@
+{
+ "fichier": "sorties/pigeon_en_4.mp4",
+ "legende": "Pigeon Trap of the Day #4 🐦 If he eats your bishop, you mate him in five. Follow for the next trap 👉 #chess #chesstok #chesstrap #dutchdefense",
+ "envoyer_apres": "2026-10-25T08:00:00+01:00",
+ "heure_conseillee": "2026-10-25T20:00:00+01:00",
+ "repere": "20 h · pigeon_en_4 · 22 s",
+ "ia": true,
+ "marque": true,
+ "concept": "pigeon_en",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "en",
+  "hook": "mat_1re_phrase",
+  "premiers_mots": "If he eats",
+  "duree_s": 22,
+  "personnages": [
+   "bishop",
+   "pigeon",
+   "candy",
+   "you"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "suis_le_compte",
+  "test": "T7-langue",
+  "variante": "en",
+  "paire": "T7-2"
+ },
+ "format": "PERSO",
+ "langue": "en",
+ "test": "T7-langue",
+ "variante": "en",
+ "duree": 22,
+ "voix": "oui",
+ "paire": "T7-2"
+}

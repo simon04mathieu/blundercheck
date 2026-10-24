@@ -1,0 +1,31 @@
+{
+ "fichier": "sorties/analyse_celebre_2_long.mp4",
+ "legende": "Tu joues pendant l'opéra ? Mat en 17 coups 🎭 Tu l'avais vu ? Oui ou non 👇\n\n#echecs #chess #echecsfr #partiecelebre #chesstok",
+ "envoyer_apres": "2026-10-25T14:00:00+01:00",
+ "concept": "analyse_celebre",
+ "etiquettes": {
+  "format": "ANALYSE",
+  "langue": "fr",
+  "hook": "mat_1re_phrase+question",
+  "premiers_mots": "Tu joues pendant",
+  "duree_s": 64,
+  "personnages": [
+   "pigeon",
+   "poney",
+   "dame",
+   "toi"
+  ],
+  "musique": "fond1.mp3",
+  "voix": "non",
+  "fin": "oui_non",
+  "test": "T6-durée",
+  "variante": "A"
+ },
+ "format": "ANALYSE",
+ "langue": "fr",
+ "test": "T6-durée",
+ "variante": "A",
+ "duree": 64,
+ "voix": "non",
+ "paire": null
+}
