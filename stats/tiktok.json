@@ -1,187 +1,187 @@
 {
- "date": "2026-10-24T06:03:35.608376+00:00",
+ "date": "2026-10-24T07:16:59.828550+00:00",
  "compte": {
-  "likes_count": 113,
   "video_count": 16,
   "display_name": "BlunderCheck",
-  "follower_count": 3
+  "follower_count": 3,
+  "likes_count": 113
  },
  "videos": [
   {
    "create_time": 1792767932,
+   "duration": 37,
    "id": "7699879615535369505",
    "like_count": 30,
    "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699879615535369505?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "title": "#BlunderCheck #chess ",
    "comment_count": 0,
-   "duration": 37,
-   "share_count": 1,
-   "view_count": 325
+   "title": "#BlunderCheck #chess ",
+   "view_count": 332,
+   "share_count": 1
   },
   {
-   "title": "Le pigeon du jour #1 🐦 S'il mange ton poney, il est mat. Tu serais tombé dedans ? A : oui, B : jamais 👇 #echecs #chess #chesstok #echecsfr ",
    "comment_count": 0,
-   "duration": 40,
-   "like_count": 18,
-   "share_count": 0,
    "create_time": 1792756591,
    "id": "7699830914209074464",
+   "share_count": 0,
+   "view_count": 232,
+   "duration": 40,
+   "like_count": 18,
    "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699830914209074464?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "view_count": 230
+   "title": "Le pigeon du jour #1 🐦 S'il mange ton poney, il est mat. Tu serais tombé dedans ? A : oui, B : jamais 👇 #echecs #chess #chesstok #echecsfr "
   },
   {
-   "title": "Ton pion devient poney et fait mat pas ? Réponds en un mot #chesstok #echecsfr #quiz Légal ou #echecs #chess",
    "comment_count": 2,
+   "duration": 47,
+   "view_count": 439,
    "create_time": 1792746207,
    "id": "7699786295370943776",
    "like_count": 14,
-   "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699786295370943776?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "duration": 47,
    "share_count": 0,
-   "view_count": 437
+   "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699786295370943776?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "title": "Ton pion devient poney et fait mat pas ? Réponds en un mot #chesstok #echecsfr #quiz Légal ou #echecs #chess"
   },
   {
    "title": "#BlunderCheck #chess #games #tutorial #tips ",
-   "view_count": 192,
-   "share_count": 0,
-   "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699522615894986017?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "create_time": 1792684810,
    "duration": 55,
-   "id": "7699522615894986017",
    "like_count": 9,
+   "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699522615894986017?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "comment_count": 1,
-   "create_time": 1792684810
+   "id": "7699522615894986017",
+   "share_count": 0,
+   "view_count": 192
   },
   {
-   "create_time": 1792665952,
-   "id": "7699441622500511009",
-   "like_count": 1,
-   "view_count": 0,
    "comment_count": 0,
-   "duration": 55,
+   "id": "7699441622500511009",
    "share_count": 0,
    "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699441622500511009?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "title": "#BlunderCheck #chess "
+   "title": "#BlunderCheck #chess ",
+   "view_count": 0,
+   "create_time": 1792665952,
+   "duration": 55,
+   "like_count": 1
   },
   {
-   "comment_count": 0,
-   "like_count": 1,
-   "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699368565685718294?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "share_count": 0,
-   "title": "Le gambit Tennison : sa dame tombe en 8 coups ♟️ Tu aurais trouvé le coup ? Rejoue-le sur blundercheck.app/tiktok #echecs #chess #piege #tennison #ouverture",
-   "view_count": 1,
    "create_time": 1792648931,
    "duration": 45,
-   "id": "7699368565685718294"
+   "id": "7699368565685718294",
+   "like_count": 1,
+   "share_count": 0,
+   "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699368565685718294?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "title": "Le gambit Tennison : sa dame tombe en 8 coups ♟️ Tu aurais trouvé le coup ? Rejoue-le sur blundercheck.app/tiktok #echecs #chess #piege #tennison #ouverture",
+   "comment_count": 0,
+   "view_count": 1
   },
   {
+   "share_count": 0,
+   "title": "Le piège Tarrasch : une tour sacrifiée et la dame noire tombe ♟️ Tu aurais trouvé le coup ? Rejoue-le sur blundercheck.app/tiktok #echecs #chess #piege #espagnole #ouverture",
+   "duration": 43,
+   "like_count": 1,
+   "id": "7699353008794094870",
    "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699353008794094870?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "view_count": 0,
    "comment_count": 0,
-   "create_time": 1792645309,
-   "duration": 43,
-   "id": "7699353008794094870",
-   "like_count": 1,
-   "share_count": 0,
-   "title": "Le piège Tarrasch : une tour sacrifiée et la dame noire tombe ♟️ Tu aurais trouvé le coup ? Rejoue-le sur blundercheck.app/tiktok #echecs #chess #piege #espagnole #ouverture"
+   "create_time": 1792645309
   },
   {
-   "comment_count": 0,
-   "create_time": 1792641740,
+   "duration": 66,
    "id": "7699337570647510274",
+   "like_count": 1,
+   "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699337570647510274?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "title": "Le piège de l'arche de Noé : son fou se retrouve enfermé vivant ♟️ Tu aurais trouvé le coup ? Rejoue-le sur blundercheck.app/tiktok #echecs #chess #piege #espagnole #ouverture",
    "view_count": 1,
-   "duration": 66,
-   "like_count": 1,
-   "share_count": 0,
-   "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699337570647510274?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm"
+   "comment_count": 0,
+   "create_time": 1792641740,
+   "share_count": 0
   },
   {
-   "create_time": 1792638109,
-   "share_count": 0,
    "view_count": 1,
    "comment_count": 0,
+   "create_time": 1792638109,
    "duration": 54,
+   "share_count": 0,
    "id": "7699321903739178262",
    "like_count": 0,
    "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699321903739178262?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "title": "Tu laisses ton fou… et c'est mat en d3 : le piège Kieninger du gambit de Budapest ♟️ Tu aurais trouvé le coup ? Rejoue-le sur blundercheck.app/tiktok #echecs #chess #piege #budapest #ouverture"
   },
   {
-   "title": "Il laisse sa dame… et fait mat : le piège Halosar ♟️ Tu aurais trouvé le coup ? Analyse tes parties gratuitement sur blundercheck.app #echecs #chess #piege #blackmardiemer #ouverture",
    "comment_count": 0,
-   "duration": 55,
-   "id": "7699306528616025366",
-   "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699306528616025366?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "create_time": 1792634517,
+   "id": "7699306528616025366",
+   "title": "Il laisse sa dame… et fait mat : le piège Halosar ♟️ Tu aurais trouvé le coup ? Analyse tes parties gratuitement sur blundercheck.app #echecs #chess #piege #blackmardiemer #ouverture",
+   "duration": 55,
    "like_count": 0,
    "share_count": 0,
+   "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699306528616025366?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "view_count": 1
   },
   {
-   "view_count": 2,
    "create_time": 1792630947,
    "duration": 54,
    "id": "7699291321860672790",
-   "share_count": 0,
-   "comment_count": 1,
    "like_count": 1,
+   "share_count": 0,
    "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699291321860672790?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "title": "L'attaque du foie frit : tu sacrifies ton cavalier et le roi noir se retrouve au milieu ♟️ Tu aurais osé ? Analyse tes parties gratuitement sur blundercheck.app #echecs #chess #fegatello #foiefrit #ouverture"
+   "title": "L'attaque du foie frit : tu sacrifies ton cavalier et le roi noir se retrouve au milieu ♟️ Tu aurais osé ? Analyse tes parties gratuitement sur blundercheck.app #echecs #chess #fegatello #foiefrit #ouverture",
+   "comment_count": 1,
+   "view_count": 2
   },
   {
    "comment_count": 0,
-   "id": "7699276084998655254",
-   "like_count": 1,
-   "title": "Le gambit Englund : une ouverture douteuse… avec un mat caché ♟️ Tu aurais trouvé le coup ? Analyse tes parties gratuitement sur blundercheck.app #echecs #chess #piege #englund #ouverture",
-   "view_count": 1,
    "create_time": 1792627417,
    "duration": 55,
+   "title": "Le gambit Englund : une ouverture douteuse… avec un mat caché ♟️ Tu aurais trouvé le coup ? Analyse tes parties gratuitement sur blundercheck.app #echecs #chess #piege #englund #ouverture",
+   "view_count": 1,
+   "id": "7699276084998655254",
+   "like_count": 1,
    "share_count": 0,
    "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699276084998655254?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm"
   },
   {
-   "title": "S'il prend ce cavalier, c'est mat en h2 ♟️ Le piège sibérien contre le gambit Smith-Morra. Tu l'aurais vu ? Rejoue-le sur blundercheck.app/tiktok #echecs #chess #piege #ouverture #sicilienne",
+   "comment_count": 0,
    "duration": 55,
+   "like_count": 9,
+   "title": "S'il prend ce cavalier, c'est mat en h2 ♟️ Le piège sibérien contre le gambit Smith-Morra. Tu l'aurais vu ? Rejoue-le sur blundercheck.app/tiktok #echecs #chess #piege #ouverture #sicilienne",
+   "view_count": 634,
    "create_time": 1792620236,
    "id": "7699245313378290966",
-   "like_count": 9,
    "share_count": 0,
-   "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699245313378290966?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "view_count": 634,
-   "comment_count": 0
+   "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699245313378290966?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm"
   },
   {
-   "comment_count": 0,
-   "create_time": 1792597763,
-   "duration": 50,
-   "id": "7699148848014314785",
    "view_count": 0,
-   "like_count": 1,
+   "comment_count": 0,
+   "duration": 50,
+   "title": "Oh no, my queen… le piège du gambit Stafford",
    "share_count": 0,
    "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699148848014314785?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "title": "Oh no, my queen… le piège du gambit Stafford"
+   "create_time": 1792597763,
+   "id": "7699148848014314785",
+   "like_count": 1
   },
   {
+   "like_count": 16,
+   "share_count": 0,
    "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699131393330203936?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "title": "Le coup du berger : mat en 4 coups… et comment l'éviter",
+   "view_count": 634,
+   "comment_count": 0,
    "create_time": 1792593703,
    "duration": 50,
-   "id": "7699131393330203936",
-   "like_count": 16,
-   "comment_count": 0,
-   "share_count": 0,
-   "view_count": 634
+   "id": "7699131393330203936"
   },
   {
-   "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699050484686048545?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "title": "Il donne sa dame et gagne quand même 🤯",
-   "view_count": 628,
-   "id": "7699050484686048545",
-   "share_count": 0,
    "duration": 28,
    "like_count": 10,
+   "share_count": 0,
    "comment_count": 0,
-   "create_time": 1792574865
+   "create_time": 1792574865,
+   "id": "7699050484686048545",
+   "share_url": "https://www.tiktok.com/@blundercheckapp/video/7699050484686048545?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "title": "Il donne sa dame et gagne quand même 🤯",
+   "view_count": 628
   }
  ]
 }
