@@ -1,0 +1,93 @@
+{
+ "nom": "pigeon_en_4",
+ "tempo": 1.0,
+ "duree_s": 21.04,
+ "hook": {
+  "texte": "If he eats your bishop,|you mate him in five.",
+  "fin": 3.82
+ },
+ "question": {
+  "texte": "Follow for|the next trap",
+  "t": 17.84
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "If he eats your bishop you mate him in five."
+  },
+  {
+   "t": 3.82,
+   "texte": "You're White."
+  },
+  {
+   "t": 5.04,
+   "texte": "Your bishop attacks."
+  },
+  {
+   "t": 6.7,
+   "texte": "The pigeon chases it with two pawns."
+  },
+  {
+   "t": 9.44,
+   "texte": "You open the road for your queen."
+  },
+  {
+   "t": 12.04,
+   "texte": "He eats your bishop the candy."
+  },
+  {
+   "t": 14.5,
+   "texte": "Your queen leaps across the board."
+  },
+  {
+   "t": 16.68,
+   "texte": "Mate."
+  },
+  {
+   "t": 18.08,
+   "texte": "Would you fall for it?"
+  },
+  {
+   "t": 19.6,
+   "texte": "Follow for the next trap."
+  }
+ ],
+ "coups": [
+  {
+   "t": 5.5,
+   "coup": "Bg5",
+   "badge": null
+  },
+  {
+   "t": 7.74,
+   "coup": "h6",
+   "badge": null
+  },
+  {
+   "t": 7.92,
+   "coup": "Bh4",
+   "badge": null
+  },
+  {
+   "t": 8.18,
+   "coup": "g5",
+   "badge": null
+  },
+  {
+   "t": 9.88,
+   "coup": "e3",
+   "badge": "brillant"
+  },
+  {
+   "t": 13.36,
+   "coup": "gxh4",
+   "badge": "gaffe"
+  },
+  {
+   "t": 14.98,
+   "coup": "Qh5#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
