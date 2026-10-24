@@ -73,3 +73,6 @@
 {"id": "gJJc-vOWfjE", "url": "https://www.youtube.com/shorts/gJJc-vOWfjE", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "11"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "12"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "12"}
+### 2026-10-24 15:29 publications/youtube/quiz_legal_3_court.json
+{"id": "PVn1xPvydaA", "url": "https://www.youtube.com/shorts/PVn1xPvydaA", "statut": "public", "publier_le": null}
