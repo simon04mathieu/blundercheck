@@ -1,0 +1,88 @@
+{
+ "nom": "pigeon_jour_5",
+ "tempo": 1.0,
+ "duree_s": 20.78,
+ "hook": {
+  "texte": "S'il sort ce poney,|tu le mates.",
+  "fin": 2.78
+ },
+ "question": {
+  "texte": "A = oui · B = jamais.|Commente !",
+  "t": 17.58
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "S'il sort ce poney tu le mates."
+  },
+  {
+   "t": 2.78,
+   "texte": "Tu as les Blancs."
+  },
+  {
+   "t": 3.76,
+   "texte": "Il mange un pion tu le reprends."
+  },
+  {
+   "t": 6.04,
+   "texte": "Ta dame vise son roi."
+  },
+  {
+   "t": 8.34,
+   "texte": "Le pigeon sort son autre poney."
+  },
+  {
+   "t": 10.74,
+   "texte": "Erreur."
+  },
+  {
+   "t": 11.84,
+   "texte": "Ton poney saute devant son roi."
+  },
+  {
+   "t": 14.76,
+   "texte": "Mat étouffé."
+  },
+  {
+   "t": 15.94,
+   "texte": "Tu serais tombé dedans ?"
+  },
+  {
+   "t": 17.5,
+   "texte": "Commente A  oui, ou B  jamais."
+  }
+ ],
+ "coups": [
+  {
+   "t": 4.14,
+   "coup": "dxe4",
+   "badge": null
+  },
+  {
+   "t": 5.08,
+   "coup": "Nxe4",
+   "badge": null
+  },
+  {
+   "t": 6.04,
+   "coup": "Nd7",
+   "badge": null
+  },
+  {
+   "t": 6.44,
+   "coup": "Qe2",
+   "badge": null
+  },
+  {
+   "t": 9.74,
+   "coup": "Ngf6",
+   "badge": "gaffe"
+  },
+  {
+   "t": 12.34,
+   "coup": "Nd6#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}

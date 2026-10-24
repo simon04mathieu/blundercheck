@@ -213,3 +213,8 @@
 ### commandes/perso_quiz_legal_3_long.json
     sans voix (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/quiz_legal_3_long.mp4 {"voix_brute_s": 64.5, "tempo": 1.0, "video_s": 67.5, "voice_id": "aucune", "musique": "fond1.mp3", "mots_transcrits": 115, "minutage": "24 phrases, 3 coups, 1 pauses"}
+## 2026-10-24 23:04 UTC · run 40141175568
+### commandes/perso_pigeon_jour_5.json
+    voix générée : 274 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_jour_5.mp4 {"voix_brute_s": 20.9, "tempo": 1.0, "video_s": 20.9, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 57, "minutage": "10 phrases, 6 coups, 0 pauses"}
