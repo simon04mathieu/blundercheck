@@ -660,3 +660,112 @@ QUESTIONS.update({
     "pigeon_en_1": "Would you fall for it?|Yes or no?",
     "pigeon_en_2": "Would you fall for it?|Yes or no?",
 })
+
+# ---------- file du 24-25/10 (scénariste) : T1-fin (pigeon_jour #5 A Caro-Kann, #6 B Hollandais), T6-durée paire 2 (Opéra long/court, sans voix), T7-langue (pigeon_en #3-#4) ----------
+# Producteur (25/10, 1 h) : coups vérifiés python-chess + Stockfish 19 (WASM) : 3 mats confirmés (Nd6#, Qh5#, Rd8#) ; gaffes Ngf6 et gxh4 = mat en 1.
+# 1re phrase réécrite pour s'adresser à « tu » (règle du producteur) ; « veut la bloquer » retiré (inexact : Ngf6 ne bloque pas la dame).
+CARO_PIEGE = "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nd7 Qe2 Ngf6"          # + Nd6#
+DUTCH_PIEGE = "d4 f5 Bg5 h6 Bh4 g5 e3"                          # + gxh4 Qh5#
+OPERA_FIN = OPERA + " Nxb5 cxb5 Bxb5+ Nbd7 O-O-O Rd8 Rxd7 Rxd7 Rd1 Qe6 Bxd7+ Nxd7 Qb8+ Nxb8 Rd8#"
+PERSO.update({
+"pigeon_jour_5": {
+    "cote": "blancs",
+    "hook": "S'il sort ce poney,|tu le mates.",
+    "voix": """[mischievously] S'il sort ce poney, tu le mates.
+Tu as les Blancs. Il mange un pion, tu le reprends. Ta dame vise son roi. Le pigeon sort son autre poney. Erreur.
+Ton poney saute devant son roi. [laughs] Mat étouffé.
+Tu serais tombé dedans ? Commente A : oui, ou B : jamais.""",
+    "script": """[p """ + CARO_PIEGE + """] [s tag f6 3.0 LE_PIGEON] S'il sort ce poney, tu le mates.
+[h] [p e4 c6 d4 d5 Nc3] Tu as les Blancs. Il mange [m dxe4] un pion, tu le [m Nxe4] reprends. [m Nd7] Ta dame [m Qe2] [f e2e8] vise son roi. Le pigeon sort son autre [m Ngf6 gaffe] poney. [s tag f6 2.0 LE_PIGEON] Erreur.
+Ton poney [m Nd6# mat] [z d6e8 1.45 2.6] [x impact] saute devant son roi. Mat étouffé.
+Tu serais tombé dedans ? Commente A : oui, ou B : jamais.""",
+},
+"pigeon_jour_6": {
+    "cote": "blancs",
+    "hook": "S'il mange ton fou,|tu le mates en 5 coups.",
+    "voix": """[mischievously] S'il mange ton fou, tu le mates en cinq coups.
+Tu as les Blancs. Ton fou attaque. Le pigeon le chasse avec deux pions. Tu libères le chemin de ta dame. Il mange ton fou, le bonbon. Ta dame bondit. [laughs] Mat.
+Tu serais tombé dedans ? Suis le compte pour la suite.""",
+    "script": """[p """ + DUTCH_PIEGE + """] [s tag h4 3.0 LE_BONBON] S'il mange ton fou, tu le mates en cinq coups.
+[h] [p d4 f5] Tu as les Blancs. Ton fou [m Bg5] attaque. Le pigeon le chasse [m h6] avec [m Bh4] deux [m g5] pions. Tu libères [m e3 brillant] le chemin [f d1h5] de ta dame. Il mange ton fou, [m gxh4 gaffe] [s tag h4 2.0 LE_PIGEON] le bonbon. Ta dame [m Qh5# mat] [z h5e8 1.45 2.6] [x impact] bondit. Mat.
+Tu serais tombé dedans ? Suis le compte pour la suite.""",
+},
+"analyse_celebre_2_long": {   # SANS VOIX (commande "muet") : sous-titres en phrases + musique ; vraie partie de 1858, aucun nom de joueur
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Tu joues pendant l'opéra ?|Mat en 17 coups.",
+    "voix": """Tu joues pendant l'opéra ? Mat en 17 coups.
+Paris, 1858. Tu as les Blancs. Le pigeon a deux conseillers.
+Tes pièces sortent vite. Ta dame gagne du temps.
+Ta dame attaque deux choses d'un coup.
+Il se défend. Puis il rate un détail : il pousse un pion.
+Tu donnes ton poney. Le bonbon. Il le mange.
+Ton fou donne échec. Son poney se met en travers.
+Tu roques loin. Et tu donnes une tour.
+Il la mange. Sa dame se range.
+Ton fou donne échec. Il le mange.
+Puis… ta dame. Le plus gros bonbon du monde.
+Il la mange. Trois… deux… un…
+Ta tour. Mat.
+Tu l'avais vu ? Oui ou non ?""",
+    "script": """[p """ + OPERA_FIN + """] [s tag d8 3.0 MAT] Tu joues pendant l'opéra ? Mat en 17 coups.
+[h] [p] Paris, 1858. Tu as les Blancs. Le pigeon a deux conseillers.
+Tes [m e4] pièces [m e5] sortent [m Nf3] vite. [m d6] Ta [m d4] dame [m Bg4] gagne [m dxe5] du [m Bxf3] temps.
+[m Qxf3] Ta [m dxe5] dame [m Bc4] attaque [m Nf6] deux [m Qb3] [f b3b7 b3f7] choses d'un coup.
+Il se [m Qe7] défend. Puis [m Nc3] il rate [m c6] un [m Bg5] détail : il pousse [m b5 erreur] un pion.
+Tu donnes [m Nxb5 brillant] ton poney. [s bonbon b5 2.5] Le bonbon. Il le [m cxb5] mange.
+Ton fou donne [m Bxb5+] échec. Son poney se met [m Nbd7] en travers.
+Tu roques [m O-O-O] loin. [m Rd8] Et tu donnes [m Rxd7 brillant] une tour.
+Il la [m Rxd7] mange. [m Rd1] Sa dame [m Qe6] se range.
+Ton fou donne [m Bxd7+] échec. Il le [m Nxd7] mange.
+Puis… [m Qb8+ brillant] ta dame. [s bonbon b8 2.5] Le plus gros bonbon du monde.
+Il la [m Nxb8 gaffe] mange. Trois… deux… un…
+Ta tour. [m Rd8# mat] [z d8e8 1.45 2.6] [x impact] Mat.
+Tu l'avais vu ? Oui ou non ?""",
+},
+"analyse_celebre_2_court": {  # SANS VOIX : même partie, sans explication ni rebondissement intermédiaire
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Tu joues pendant l'opéra ?|Mat en 17 coups.",
+    "voix": """Tu joues pendant l'opéra ? Mat en 17 coups.
+Tu as les Blancs. Tu donnes un poney.
+Puis une tour. Il mange tout.
+Puis ta dame. Le plus gros bonbon.
+Mat.
+Tu l'avais vu ? Oui ou non ?""",
+    "script": """[p """ + OPERA_FIN + """] [s tag d8 3.0 MAT] Tu joues pendant l'opéra ? Mat en 17 coups.
+[h] [p """ + OPERA + """] Tu as les Blancs. Tu donnes [m Nxb5 brillant] un [m cxb5] poney.
+[m Bxb5+] Puis [m Nbd7] une [m O-O-O] tour. [m Rd8] Il [m Rxd7 brillant] mange [m Rxd7] tout. [m Rd1] [m Qe6]
+[m Bxd7+] Puis [m Nxd7] ta [m Qb8+ brillant] dame. Le plus [m Nxb8 gaffe] gros bonbon.
+[m Rd8# mat] [z d8e8 1.45 2.6] [x impact] Mat.
+Tu l'avais vu ? Oui ou non ?""",
+},
+"pigeon_en_3": {
+    "cote": "blancs",
+    "hook": "If he plays this pony,|you mate him.",
+    "voix": """[mischievously] If he plays this pony, you mate him.
+You're White. He eats a pawn, you take it back. Your queen eyes his king. The pigeon brings out his other pony. Big mistake.
+Your pony jumps in front of his king. [laughs] Smothered mate.
+Would you fall for it? Comment A: yes, or B: never.""",
+    "script": """[p """ + CARO_PIEGE + """] [s tag f6 3.0 PIGEON] If he plays this pony, you mate him.
+[h] [p e4 c6 d4 d5 Nc3] You're White. He eats [m dxe4] a pawn, you take it [m Nxe4] back. [m Nd7] Your queen [m Qe2] [f e2e8] eyes his king. The pigeon brings out his other [m Ngf6 gaffe] pony. [s tag f6 2.0 PIGEON] Big mistake.
+Your pony [m Nd6# mat] [z d6e8 1.45 2.6] [x impact] jumps in front of his king. Smothered mate.
+Would you fall for it? Comment A: yes, or B: never.""",
+},
+"pigeon_en_4": {
+    "cote": "blancs",
+    "hook": "If he eats your bishop,|you mate him in five.",
+    "voix": """[mischievously] If he eats your bishop, you mate him in five.
+You're White. Your bishop attacks. The pigeon chases it with two pawns. You open the road for your queen. He eats your bishop, the candy. Your queen leaps across the board. [laughs] Mate.
+Would you fall for it? Follow for the next trap.""",
+    "script": """[p """ + DUTCH_PIEGE + """] [s tag h4 3.0 CANDY] If he eats your bishop, you mate him in five.
+[h] [p d4 f5] You're White. Your bishop [m Bg5] attacks. The pigeon chases it [m h6] with [m Bh4] two [m g5] pawns. You open [m e3 brillant] the road [f d1h5] for your queen. He eats your bishop, [m gxh4 gaffe] [s tag h4 2.0 PIGEON] the candy. Your queen [m Qh5# mat] [z h5e8 1.45 2.6] [x impact] leaps across the board. Mate.
+Would you fall for it? Follow for the next trap.""",
+},
+})
+QUESTIONS.update({
+    "pigeon_jour_5": "A = oui · B = jamais.|Commente !",
+    "pigeon_jour_6": "Suis le compte|pour la suite",
+    "analyse_celebre_2_long": "Tu l'avais vu ?|Oui ou non ?",
+    "analyse_celebre_2_court": "Tu l'avais vu ?|Oui ou non ?",
+    "pigeon_en_3": "A = yes · B = never.|Comment!",
+    "pigeon_en_4": "Follow for|the next trap",
+})
