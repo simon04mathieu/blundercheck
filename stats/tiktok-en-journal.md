@@ -26,3 +26,4 @@ Jetons TikTok (en) enregistrés (chiffrés). Portées : user.info.basic,user.inf
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 0, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 ### 2026-10-24 07:17 publications/tiktok-en/pigeon_en_2.json
 {"publish_id": "v_inbox_file~v2.7700129634209433622", "mode": "brouillon", "vie_privee": null, "legende": "Pigeon Trap of the Day #2 🐦 If he eats your pony, he's mated. Would you fall for it? Yes or no 👇 #chess #chesstok #chesstrap #fishingpole"}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 0, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
