@@ -124,3 +124,12 @@ urllib.error.URLError: <urlopen error [Errno 104] Connection reset by peer>
 ÉCHEC compte fr
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 3, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 3, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 3, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-10-24 06:03 publications/tiktok/pigeon_jour_3.json
+{"publish_id": "v_inbox_file~v2.7700110888996702230", "mode": "brouillon", "vie_privee": null, "legende": "Le pigeon du jour #3 🐦 S'il mange ta dame, il est mat. Tu serais tombé dedans ? A ou B 👇 #echecs #chess #piege #echecsfr #chesstok"}
+### 2026-10-24 06:03 publications/tiktok/pigeon_jour_4.json
+{"publish_id": "v_inbox_file~v2.7700110921061959702", "mode": "brouillon", "vie_privee": null, "legende": "Le pigeon du jour #4 🐦 S'il mange ton fou, il est mat. Suis pour la suite 👉 #echecs #chess #piege #echecsfr #budapest"}
+### 2026-10-24 06:03 publications/tiktok/quiz_legal_3_court.json
+{"publish_id": "v_inbox_file~v2.7700110917585209366", "mode": "brouillon", "vie_privee": null, "legende": "Ton pion mange le vide et fait mat 😳 Légal ? Oui ou non 👇 #echecs #chess #echecsfr #enpassant #chesstok"}
+### 2026-10-24 06:03 publications/tiktok/quiz_legal_3_long.json
+{"publish_id": "v_inbox_file~v2.7700110921062058006", "mode": "brouillon", "vie_privee": null, "legende": "Ton pion mange le vide et fait mat 😳 Légal ? Tu le savais ? Oui ou non 👇 #echecs #chess #echecsfr #enpassant #chesstok"}
