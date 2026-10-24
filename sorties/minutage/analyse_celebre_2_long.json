@@ -1,0 +1,311 @@
+{
+ "nom": "analyse_celebre_2_long",
+ "tempo": 1.0,
+ "duree_s": 64.45,
+ "hook": {
+  "texte": "Tu joues pendant l'opéra ?|Mat en 17 coups.",
+  "fin": 4.83
+ },
+ "question": {
+  "texte": "Tu l'avais vu ?|Oui ou non ?",
+  "t": 61.25
+ },
+ "phrases": [
+  {
+   "t": 0.2,
+   "texte": "Tu joues pendant l'opéra ?"
+  },
+  {
+   "t": 2.8,
+   "texte": "Mat en 17 coups."
+  },
+  {
+   "t": 4.83,
+   "texte": "Paris, 1858."
+  },
+  {
+   "t": 6.53,
+   "texte": "Tu as les Blancs."
+  },
+  {
+   "t": 8.6,
+   "texte": "Le pigeon a deux conseillers."
+  },
+  {
+   "t": 11.31,
+   "texte": "Tes pièces sortent vite."
+  },
+  {
+   "t": 13.64,
+   "texte": "Ta dame gagne du temps."
+  },
+  {
+   "t": 16.13,
+   "texte": "Ta dame attaque deux choses d'un coup."
+  },
+  {
+   "t": 19.56,
+   "texte": "Il se défend."
+  },
+  {
+   "t": 21.29,
+   "texte": "Puis il rate un détail  il pousse un pion."
+  },
+  {
+   "t": 25.7,
+   "texte": "Tu donnes ton poney."
+  },
+  {
+   "t": 27.88,
+   "texte": "Le bonbon."
+  },
+  {
+   "t": 29.3,
+   "texte": "Il le mange."
+  },
+  {
+   "t": 30.99,
+   "texte": "Ton fou donne échec."
+  },
+  {
+   "t": 33.17,
+   "texte": "Son poney se met en travers."
+  },
+  {
+   "t": 36.04,
+   "texte": "Tu roques loin."
+  },
+  {
+   "t": 37.84,
+   "texte": "Et tu donnes une tour."
+  },
+  {
+   "t": 40.29,
+   "texte": "Il la mange."
+  },
+  {
+   "t": 41.98,
+   "texte": "Sa dame se range."
+  },
+  {
+   "t": 44.05,
+   "texte": "Ton fou donne échec."
+  },
+  {
+   "t": 46.23,
+   "texte": "Il le mange."
+  },
+  {
+   "t": 47.92,
+   "texte": "Puis…"
+  },
+  {
+   "t": 48.96,
+   "texte": "ta dame."
+  },
+  {
+   "t": 50.3,
+   "texte": "Le plus gros bonbon du monde."
+  },
+  {
+   "t": 53.21,
+   "texte": "Il la mange."
+  },
+  {
+   "t": 54.9,
+   "texte": "Trois…"
+  },
+  {
+   "t": 55.97,
+   "texte": "deux…"
+  },
+  {
+   "t": 57.01,
+   "texte": "un…"
+  },
+  {
+   "t": 57.98,
+   "texte": "Ta tour."
+  },
+  {
+   "t": 59.32,
+   "texte": "Mat."
+  },
+  {
+   "t": 60.32,
+   "texte": "Tu l'avais vu ?"
+  },
+  {
+   "t": 62.32,
+   "texte": "Oui ou non ?"
+  }
+ ],
+ "coups": [
+  {
+   "t": 11.66,
+   "coup": "e4",
+   "badge": null
+  },
+  {
+   "t": 12.11,
+   "coup": "e5",
+   "badge": null
+  },
+  {
+   "t": 12.6,
+   "coup": "Nf3",
+   "badge": null
+  },
+  {
+   "t": 13.64,
+   "coup": "d6",
+   "badge": null
+  },
+  {
+   "t": 13.95,
+   "coup": "d4",
+   "badge": null
+  },
+  {
+   "t": 14.33,
+   "coup": "Bg4",
+   "badge": null
+  },
+  {
+   "t": 14.75,
+   "coup": "dxe5",
+   "badge": null
+  },
+  {
+   "t": 15.05,
+   "coup": "Bxf3",
+   "badge": null
+  },
+  {
+   "t": 16.13,
+   "coup": "Qxf3",
+   "badge": null
+  },
+  {
+   "t": 16.44,
+   "coup": "dxe5",
+   "badge": null
+  },
+  {
+   "t": 16.82,
+   "coup": "Bc4",
+   "badge": null
+  },
+  {
+   "t": 17.31,
+   "coup": "Nf6",
+   "badge": null
+  },
+  {
+   "t": 17.69,
+   "coup": "Qb3",
+   "badge": null
+  },
+  {
+   "t": 20.18,
+   "coup": "Qe7",
+   "badge": null
+  },
+  {
+   "t": 21.67,
+   "coup": "Nc3",
+   "badge": null
+  },
+  {
+   "t": 22.36,
+   "coup": "c6",
+   "badge": null
+  },
+  {
+   "t": 22.66,
+   "coup": "Bg5",
+   "badge": null
+  },
+  {
+   "t": 24.36,
+   "coup": "b5",
+   "badge": "erreur"
+  },
+  {
+   "t": 26.46,
+   "coup": "Nxb5",
+   "badge": "brillant"
+  },
+  {
+   "t": 29.92,
+   "coup": "cxb5",
+   "badge": null
+  },
+  {
+   "t": 32.1,
+   "coup": "Bxb5+",
+   "badge": null
+  },
+  {
+   "t": 34.58,
+   "coup": "Nbd7",
+   "badge": null
+  },
+  {
+   "t": 36.8,
+   "coup": "O-O-O",
+   "badge": null
+  },
+  {
+   "t": 37.84,
+   "coup": "Rd8",
+   "badge": null
+  },
+  {
+   "t": 38.91,
+   "coup": "Rxd7",
+   "badge": "brillant"
+  },
+  {
+   "t": 40.9,
+   "coup": "Rxd7",
+   "badge": null
+  },
+  {
+   "t": 41.98,
+   "coup": "Rd1",
+   "badge": null
+  },
+  {
+   "t": 42.67,
+   "coup": "Qe6",
+   "badge": null
+  },
+  {
+   "t": 45.15,
+   "coup": "Bxd7+",
+   "badge": null
+  },
+  {
+   "t": 46.84,
+   "coup": "Nxd7",
+   "badge": null
+  },
+  {
+   "t": 48.96,
+   "coup": "Qb8+",
+   "badge": "brillant"
+  },
+  {
+   "t": 53.82,
+   "coup": "Nxb8",
+   "badge": "gaffe"
+  },
+  {
+   "t": 59.32,
+   "coup": "Rd8#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
