@@ -1,22 +1,22 @@
 {
- "date": "2026-10-24T10:04:01.744789+00:00",
+ "date": "2026-10-24T11:02:03.001234+00:00",
  "compte": {
+  "video_count": 1,
   "display_name": "BlunderCheck • Chess",
   "follower_count": 0,
-  "likes_count": 49,
-  "video_count": 1
+  "likes_count": 54
  },
  "videos": [
   {
    "create_time": 1792833149,
-   "like_count": 49,
+   "id": "7700159699777359106",
    "share_count": 0,
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700159699777359106?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "title": "#BlunderCheck #trap #chess #short ",
-   "view_count": 1266,
    "comment_count": 0,
    "duration": 23,
-   "id": "7700159699777359106",
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700159699777359106?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm"
+   "like_count": 54,
+   "view_count": 1367
   }
  ]
 }
