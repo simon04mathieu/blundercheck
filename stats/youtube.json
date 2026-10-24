@@ -1,5 +1,5 @@
 {
- "date": "2026-10-24T15:29:30.887671+00:00",
+ "date": "2026-10-24T16:29:59.892088+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,6 +7,15 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "PVn1xPvydaA": {
+   "titre": "Mat en passant : légal ou pas ? (version courte) #echecs #shorts",
+   "publiee": "2026-10-24T15:29:49Z",
+   "statut": "public",
+   "duree": "PT38S",
+   "vues": 0,
+   "jaime": 0,
+   "commentaires": 0
+  },
   "gJJc-vOWfjE": {
    "titre": "Le piège de Légal : mat en 7 coups 🐦 #echecs #shorts",
    "publiee": "2026-10-24T12:36:05Z",
@@ -48,8 +57,8 @@
    "publiee": "2026-10-23T13:41:41Z",
    "statut": "public",
    "duree": "PT41S",
-   "vues": 608,
-   "jaime": 12,
+   "vues": 642,
+   "jaime": 13,
    "commentaires": 0
   },
   "Nba9AMF5N7Y": {
@@ -201,7 +210,7 @@
    "publiee": "2026-10-21T13:31:36Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 6,
+   "vues": 7,
    "jaime": 1,
    "commentaires": 0
   }
