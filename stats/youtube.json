@@ -1,5 +1,5 @@
 {
- "date": "2026-10-24T19:28:04.664046+00:00",
+ "date": "2026-10-24T20:27:49.476858+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -39,7 +39,7 @@
    "publiee": "2026-10-24T09:31:48Z",
    "statut": "public",
    "duree": "PT1M8S",
-   "vues": 71,
+   "vues": 78,
    "jaime": 2,
    "commentaires": 0
   },
@@ -48,7 +48,7 @@
    "publiee": "2026-10-23T19:34:44Z",
    "statut": "public",
    "duree": "PT29S",
-   "vues": 265,
+   "vues": 254,
    "jaime": 8,
    "commentaires": 0
   },
@@ -57,7 +57,7 @@
    "publiee": "2026-10-23T16:37:35Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 989,
+   "vues": 1014,
    "jaime": 10,
    "commentaires": 1
   },
@@ -66,8 +66,8 @@
    "publiee": "2026-10-23T13:41:41Z",
    "statut": "public",
    "duree": "PT41S",
-   "vues": 760,
-   "jaime": 14,
+   "vues": 783,
+   "jaime": 17,
    "commentaires": 0
   },
   "Nba9AMF5N7Y": {
@@ -75,7 +75,7 @@
    "publiee": "2026-10-23T10:34:00Z",
    "statut": "public",
    "duree": "PT48S",
-   "vues": 965,
+   "vues": 961,
    "jaime": 23,
    "commentaires": 5
   },
@@ -93,7 +93,7 @@
    "publiee": "2026-10-22T15:37:43Z",
    "statut": "public",
    "duree": "PT56S",
-   "vues": 300,
+   "vues": 298,
    "jaime": 6,
    "commentaires": 0
   },
@@ -102,7 +102,7 @@
    "publiee": "2026-10-22T15:31:31Z",
    "statut": "public",
    "duree": "PT51S",
-   "vues": 175,
+   "vues": 167,
    "jaime": 4,
    "commentaires": 0
   },
@@ -120,7 +120,7 @@
    "publiee": "2026-10-22T13:44:04Z",
    "statut": "public",
    "duree": "PT55S",
-   "vues": 394,
+   "vues": 395,
    "jaime": 8,
    "commentaires": 0
   },
@@ -129,7 +129,7 @@
    "publiee": "2026-10-22T08:58:52Z",
    "statut": "public",
    "duree": "PT56S",
-   "vues": 1623,
+   "vues": 1628,
    "jaime": 21,
    "commentaires": 0
   },
