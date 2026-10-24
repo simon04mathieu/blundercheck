@@ -135,3 +135,4 @@ urllib.error.URLError: <urlopen error [Errno 104] Connection reset by peer>
 {"publish_id": "v_inbox_file~v2.7700110921062058006", "mode": "brouillon", "vie_privee": null, "legende": "Ton pion mange le vide et fait mat 😳 Légal ? Tu le savais ? Oui ou non 👇 #echecs #chess #echecsfr #enpassant #chesstok"}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 3, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 3, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 3, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
