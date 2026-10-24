@@ -1,8 +1,51 @@
 {
- "releve": "2026-10-23T23:11:47Z",
+ "releve": "2026-10-24T17:05:38Z",
  "page": "BlunderCheck",
  "abonnes": 0,
  "fans": 0,
- "publications": [],
- "erreurs": []
+ "publications": [
+  {
+   "id": "4517991405185665",
+   "description": "Ton pion mange le vide et fait mat 😳 Légal ? Tu le savais ? Oui ou non 👇\n\n#echec",
+   "created_time": "2026-10-24T15:40:21+0000",
+   "permalink_url": "/reel/4517991405185665/",
+   "insights": {
+    "blue_reels_play_count": 0,
+    "post_video_likes_by_reaction_type": {},
+    "post_video_social_actions": {},
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "986356113871290",
+   "description": "Le pigeon du jour #3 🐦 S'il mange ta dame, il est mat. Tu serais tombé dedans ? ",
+   "created_time": "2026-10-24T12:46:48+0000",
+   "permalink_url": "/reel/986356113871290/",
+   "insights": {
+    "blue_reels_play_count": 5,
+    "post_video_likes_by_reaction_type": {
+     "REACTION_LIKE": 1
+    },
+    "post_video_social_actions": {},
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "2529380210881451",
+   "description": "Ton pion mange le vide… et fait mat 😳 Légal ou pas ? Tu le savais ? Oui ou non 👇",
+   "created_time": "2026-10-24T09:40:00+0000",
+   "permalink_url": "/reel/2529380210881451/",
+   "insights": {
+    "blue_reels_play_count": 4,
+    "post_video_likes_by_reaction_type": {},
+    "post_video_social_actions": {}
+   }
+  }
+ ],
+ "erreurs": [
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ARTwEz7gk2yWbbQvFYQ",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AvjCSnCZLS6O-UzWc4R",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AxOss3f1hlOjjlCatwi",
+  "post_video_followers : 500 video_insights : {\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\""
+ ]
 }

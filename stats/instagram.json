@@ -1,7 +1,56 @@
 {
- "releve": "2026-10-23T23:11:47Z",
+ "releve": "2026-10-24T17:05:30Z",
  "compte": "blundercheckapp",
  "abonnes": 0,
- "publications": [],
+ "publications": [
+  {
+   "id": "17911730910559840",
+   "caption": "Ton pion mange le vide et fait mat 😳 Légal ? Tu le savais ? Oui ou non 👇\n\n#echec",
+   "comments_count": 0,
+   "like_count": 0,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/De4eX5GlIGJ/",
+   "timestamp": "2026-10-24T15:40:12+0000",
+   "insights": {
+    "views": 0,
+    "reach": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0
+   }
+  },
+  {
+   "id": "18489952603129768",
+   "caption": "Le pigeon du jour #3 🐦 S'il mange ta dame, il est mat. Tu serais tombé dedans ? ",
+   "comments_count": 0,
+   "like_count": 3,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/De4KjCxD67n/",
+   "timestamp": "2026-10-24T12:46:40+0000",
+   "insights": {
+    "views": 158,
+    "reach": 132,
+    "shares": 1,
+    "saved": 0,
+    "total_interactions": 4
+   }
+  },
+  {
+   "id": "18637822060039776",
+   "caption": "Ton pion mange le vide… et fait mat 😳 Légal ou pas ? Tu le savais ? Oui ou non 👇",
+   "comments_count": 0,
+   "like_count": 1,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/De31IfsDRns/",
+   "timestamp": "2026-10-24T09:39:53+0000",
+   "insights": {
+    "views": 143,
+    "reach": 130,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1
+   }
+  }
+ ],
  "erreurs": []
 }

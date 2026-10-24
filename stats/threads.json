@@ -1,7 +1,53 @@
 {
- "releve": "2026-10-23T23:11:48Z",
+ "releve": "2026-10-24T17:05:41Z",
  "compte": "blundercheckapp",
  "abonnes": 0,
- "publications": [],
+ "publications": [
+  {
+   "id": "18106581176524467",
+   "text": "Ton pion mange le vide et fait mat 😳 Légal ? Tu le savais ? Oui ou non 👇\n\nechecs",
+   "timestamp": "2026-10-24T15:41:04+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/De4egvrCn3c",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 0,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18142021696722853",
+   "text": "Le pigeon du jour #3 🐦 S'il mange ta dame, il est mat. Tu serais tombé dedans ? ",
+   "timestamp": "2026-10-24T12:47:37+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/De4KqQdDyM2",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 1,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "17971870116158053",
+   "text": "Ton pion mange le vide… et fait mat 😳 Légal ou pas ? Tu le savais ? Oui ou non 👇",
+   "timestamp": "2026-10-24T09:40:41+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/De31RIyD5MY",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 10,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  }
+ ],
  "erreurs": []
 }
