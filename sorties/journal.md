@@ -218,3 +218,7 @@
     voix générée : 274 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_jour_5.mp4 {"voix_brute_s": 20.9, "tempo": 1.0, "video_s": 20.9, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fond1.mp3", "mots_transcrits": 57, "minutage": "10 phrases, 6 coups, 0 pauses"}
+## 2026-10-24 23:07 UTC · run 40141386955
+### commandes/perso_analyse_celebre_2_court.json
+    sans voix (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/analyse_celebre_2_court.mp4 {"voix_brute_s": 35.5, "tempo": 1.0, "video_s": 35.5, "voice_id": "aucune", "musique": "fond1.mp3", "mots_transcrits": 39, "minutage": "11 phrases, 15 coups, 0 pauses"}

@@ -1,0 +1,137 @@
+{
+ "nom": "analyse_celebre_2_court",
+ "tempo": 1.0,
+ "duree_s": 35.45,
+ "hook": {
+  "texte": "Tu joues pendant l'opéra ?|Mat en 17 coups.",
+  "fin": 7.86
+ },
+ "question": {
+  "texte": "Tu l'avais vu ?|Oui ou non ?",
+  "t": 32.25
+ },
+ "phrases": [
+  {
+   "t": 0.2,
+   "texte": "Tu joues pendant l'opéra ?"
+  },
+  {
+   "t": 4.5,
+   "texte": "Mat en 17 coups."
+  },
+  {
+   "t": 7.86,
+   "texte": "Tu as les Blancs."
+  },
+  {
+   "t": 11.28,
+   "texte": "Tu donnes un poney."
+  },
+  {
+   "t": 14.83,
+   "texte": "Puis une tour."
+  },
+  {
+   "t": 17.75,
+   "texte": "Il mange tout."
+  },
+  {
+   "t": 20.66,
+   "texte": "Puis ta dame."
+  },
+  {
+   "t": 23.52,
+   "texte": "Le plus gros bonbon."
+  },
+  {
+   "t": 27.13,
+   "texte": "Mat."
+  },
+  {
+   "t": 28.78,
+   "texte": "Tu l'avais vu ?"
+  },
+  {
+   "t": 32.08,
+   "texte": "Oui ou non ?"
+  }
+ ],
+ "coups": [
+  {
+   "t": 12.54,
+   "coup": "Nxb5",
+   "badge": "brillant"
+  },
+  {
+   "t": 13.05,
+   "coup": "cxb5",
+   "badge": null
+  },
+  {
+   "t": 14.83,
+   "coup": "Bxb5+",
+   "badge": null
+  },
+  {
+   "t": 15.46,
+   "coup": "Nbd7",
+   "badge": null
+  },
+  {
+   "t": 16.03,
+   "coup": "O-O-O",
+   "badge": null
+  },
+  {
+   "t": 17.75,
+   "coup": "Rd8",
+   "badge": null
+  },
+  {
+   "t": 18.25,
+   "coup": "Rxd7",
+   "badge": "brillant"
+  },
+  {
+   "t": 18.95,
+   "coup": "Rxd7",
+   "badge": null
+  },
+  {
+   "t": 20.66,
+   "coup": "Rd1",
+   "badge": null
+  },
+  {
+   "t": 20.66,
+   "coup": "Qe6",
+   "badge": null
+  },
+  {
+   "t": 20.66,
+   "coup": "Bxd7+",
+   "badge": null
+  },
+  {
+   "t": 21.29,
+   "coup": "Nxd7",
+   "badge": null
+  },
+  {
+   "t": 21.8,
+   "coup": "Qb8+",
+   "badge": "brillant"
+  },
+  {
+   "t": 24.66,
+   "coup": "Nxb8",
+   "badge": "gaffe"
+  },
+  {
+   "t": 27.13,
+   "coup": "Rd8#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
