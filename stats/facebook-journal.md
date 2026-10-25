@@ -10,3 +10,5 @@
 {"reseau": "facebook", "id": "2177897992808092", "ok": true}
 ### 2026-10-25 13:40 publications/facebook/analyse_celebre_2_long.json
 {"reseau": "facebook", "id": "5615362332022081", "ok": true}
+### 2026-10-25 16:41 publications/facebook/pigeon_jour_6.json
+{"reseau": "facebook", "id": "1154075637299279", "ok": true}
