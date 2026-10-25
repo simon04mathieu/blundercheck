@@ -1,44 +1,44 @@
 {
- "date": "2026-10-25T14:02:42.811554+00:00",
+ "date": "2026-10-25T15:02:39.362371+00:00",
  "compte": {
-  "display_name": "BlunderCheck • Chess",
-  "follower_count": 0,
-  "likes_count": 88,
-  "video_count": 3
+  "follower_count": 1,
+  "likes_count": 108,
+  "video_count": 3,
+  "display_name": "BlunderCheck • Chess"
  },
  "videos": [
   {
-   "create_time": 1792936867,
    "duration": 21,
+   "like_count": 21,
+   "share_count": 1,
+   "view_count": 658,
+   "comment_count": 1,
+   "create_time": 1792936867,
    "id": "7700605174578007318",
-   "like_count": 1,
    "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700605174578007318?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "comment_count": 0,
-   "share_count": 0,
-   "title": "#BlunderCheck ",
-   "view_count": 0
+   "title": "#BlunderCheck "
   },
   {
-   "comment_count": 1,
-   "create_time": 1792843054,
    "duration": 25,
-   "id": "7700202259220598039",
    "like_count": 29,
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700202259220598039?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "view_count": 755,
    "share_count": 0,
-   "title": "#BlunderCheck #chess #game #halloween "
+   "view_count": 756,
+   "create_time": 1792843054,
+   "id": "7700202259220598039",
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700202259220598039?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "title": "#BlunderCheck #chess #game #halloween ",
+   "comment_count": 1
   },
   {
    "comment_count": 0,
    "create_time": 1792833149,
+   "title": "#BlunderCheck #trap #chess #short ",
    "duration": 23,
-   "like_count": 58,
-   "view_count": 1513,
    "id": "7700159699777359106",
+   "like_count": 58,
    "share_count": 0,
    "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700159699777359106?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "title": "#BlunderCheck #trap #chess #short "
+   "view_count": 1513
   }
  ]
 }
