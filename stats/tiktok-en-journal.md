@@ -50,3 +50,8 @@ Jetons TikTok (en) enregistrés (chiffrés). Portées : user.info.basic,user.inf
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 0, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 0, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 0, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 0, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-10-25 07:18 publications/tiktok-en/pigeon_en_3.json
+{"publish_id": "v_inbox_file~v2.7700501255391135766", "mode": "brouillon", "vie_privee": null, "legende": "Pigeon Trap of the Day #3 🐦 If he plays this pony, you mate him. Would you fall for it? A or B 👇 #chess #chesstok #chesstrap #carokann"}
+### 2026-10-25 07:18 publications/tiktok-en/pigeon_en_4.json
+{"publish_id": "v_inbox_file~v2.7700501343726782486", "mode": "brouillon", "vie_privee": null, "legende": "Pigeon Trap of the Day #4 🐦 If he eats your bishop, you mate him in five. Follow for the next trap 👉 #chess #chesstok #chesstrap #dutchdefense"}
