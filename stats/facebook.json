@@ -1,16 +1,64 @@
 {
- "releve": "2026-10-24T17:05:38Z",
+ "releve": "2026-10-25T17:06:32Z",
  "page": "BlunderCheck",
  "abonnes": 0,
  "fans": 0,
  "publications": [
+  {
+   "id": "1154075637299279",
+   "description": "Le pigeon du jour #6 🐦 S'il mange ton fou, tu le mates en 5 coups. Suis le compt",
+   "created_time": "2026-10-25T16:41:17+0000",
+   "permalink_url": "/reel/1154075637299279/",
+   "insights": {
+    "blue_reels_play_count": 0,
+    "post_video_likes_by_reaction_type": {},
+    "post_video_social_actions": {},
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "5615362332022081",
+   "description": "Tu joues pendant l'opéra ? Mat en 17 coups 🎭 Tu l'avais vu ? Oui ou non 👇\n\n#eche",
+   "created_time": "2026-10-25T13:40:04+0000",
+   "permalink_url": "/reel/5615362332022081/",
+   "insights": {
+    "blue_reels_play_count": 0,
+    "post_video_likes_by_reaction_type": {},
+    "post_video_social_actions": {},
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "2177897992808092",
+   "description": "Le pigeon du jour #5 🐦 S'il sort ce poney, tu le mates. Tu serais tombé dedans ?",
+   "created_time": "2026-10-25T10:39:59+0000",
+   "permalink_url": "/reel/2177897992808092/",
+   "insights": {
+    "blue_reels_play_count": 0,
+    "post_video_likes_by_reaction_type": {},
+    "post_video_social_actions": {},
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "4721360031426619",
+   "description": "Le pigeon du jour #4 🐦 S'il mange ton fou, il est mat. Suis le compte pour la su",
+   "created_time": "2026-10-24T18:41:29+0000",
+   "permalink_url": "/reel/4721360031426619/",
+   "insights": {
+    "blue_reels_play_count": 0,
+    "post_video_likes_by_reaction_type": {},
+    "post_video_social_actions": {},
+    "post_video_followers": 0
+   }
+  },
   {
    "id": "4517991405185665",
    "description": "Ton pion mange le vide et fait mat 😳 Légal ? Tu le savais ? Oui ou non 👇\n\n#echec",
    "created_time": "2026-10-24T15:40:21+0000",
    "permalink_url": "/reel/4517991405185665/",
    "insights": {
-    "blue_reels_play_count": 0,
+    "blue_reels_play_count": 1,
     "post_video_likes_by_reaction_type": {},
     "post_video_social_actions": {},
     "post_video_followers": 0
@@ -22,7 +70,7 @@
    "created_time": "2026-10-24T12:46:48+0000",
    "permalink_url": "/reel/986356113871290/",
    "insights": {
-    "blue_reels_play_count": 5,
+    "blue_reels_play_count": 6,
     "post_video_likes_by_reaction_type": {
      "REACTION_LIKE": 1
     },
@@ -36,16 +84,20 @@
    "created_time": "2026-10-24T09:40:00+0000",
    "permalink_url": "/reel/2529380210881451/",
    "insights": {
-    "blue_reels_play_count": 4,
+    "blue_reels_play_count": 5,
     "post_video_likes_by_reaction_type": {},
-    "post_video_social_actions": {}
+    "post_video_social_actions": {},
+    "post_video_followers": 0
    }
   }
  ],
  "erreurs": [
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ARTwEz7gk2yWbbQvFYQ",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AvjCSnCZLS6O-UzWc4R",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AxOss3f1hlOjjlCatwi",
-  "post_video_followers : 500 video_insights : {\"error\":{\"message\":\"An unexpected error has occurred. Please retry your request later.\",\"type\":\"OAuthException\",\"is_transient\":true,\"code\""
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A8oY9APqEorw-ecFyYb",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A9eksWiAGgDr1moR0NW",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AEAXesszGEP2LlL_I_C",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AG6zNdUjbzju1hUCm1c",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AIxT4061BNlL2yP3uwg",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"Am2hdW6CVNSTBBaQ10a",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ApPT5GwiokAjMKP3Kwv"
  ]
 }
