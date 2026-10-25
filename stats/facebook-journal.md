@@ -6,3 +6,5 @@
 {"reseau": "facebook", "id": "4517991405185665", "ok": true}
 ### 2026-10-24 18:41 publications/facebook/pigeon_jour_4.json
 {"reseau": "facebook", "id": "4721360031426619", "ok": true}
+### 2026-10-25 10:40 publications/facebook/pigeon_jour_5.json
+{"reseau": "facebook", "id": "2177897992808092", "ok": true}
