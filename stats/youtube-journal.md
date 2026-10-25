@@ -105,3 +105,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "12"}
 ### 2026-10-25 13:32 publications/youtube/analyse_celebre_2_long.json
 {"id": "LyMbYt1JgTM", "url": "https://www.youtube.com/shorts/LyMbYt1JgTM", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "12"}

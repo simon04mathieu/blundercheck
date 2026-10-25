@@ -1,5 +1,5 @@
 {
- "date": "2026-10-25T13:32:33.220802+00:00",
+ "date": "2026-10-25T14:29:11.905295+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,21 +7,30 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "LyMbYt1JgTM": {
+   "titre": "La Partie de l'Opéra : mat en 17 coups 🎭 #echecs #shorts",
+   "publiee": "2026-10-25T13:32:59Z",
+   "statut": "public",
+   "duree": "PT1M5S",
+   "vues": 1,
+   "jaime": 0,
+   "commentaires": 0
+  },
   "I7Shje_xTKk": {
    "titre": "Le piège du Caro-Kann : mat étouffé en 6 coups 🐦 #echecs #shorts",
    "publiee": "2026-10-25T10:30:22Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 70,
+   "vues": 105,
    "jaime": 1,
-   "commentaires": 0
+   "commentaires": 1
   },
   "wZ9nzOw-h24": {
    "titre": "Le piège Kieninger (gambit Budapest) : mat en 8 coups 🐦 #echecs #shorts",
    "publiee": "2026-10-24T18:32:00Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 304,
+   "vues": 416,
    "jaime": 7,
    "commentaires": 0
   },
@@ -30,7 +39,7 @@
    "publiee": "2026-10-24T15:29:49Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 700,
+   "vues": 752,
    "jaime": 5,
    "commentaires": 0
   },
@@ -39,8 +48,8 @@
    "publiee": "2026-10-24T12:36:05Z",
    "statut": "public",
    "duree": "PT26S",
-   "vues": 694,
-   "jaime": 18,
+   "vues": 925,
+   "jaime": 19,
    "commentaires": 0
   },
   "hdh6OodzwkU": {
@@ -48,7 +57,7 @@
    "publiee": "2026-10-24T09:31:48Z",
    "statut": "public",
    "duree": "PT1M8S",
-   "vues": 114,
+   "vues": 125,
    "jaime": 3,
    "commentaires": 0
   },
@@ -57,7 +66,7 @@
    "publiee": "2026-10-23T19:34:44Z",
    "statut": "public",
    "duree": "PT29S",
-   "vues": 733,
+   "vues": 753,
    "jaime": 13,
    "commentaires": 0
   },
@@ -66,7 +75,7 @@
    "publiee": "2026-10-23T16:37:35Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 1024,
+   "vues": 1025,
    "jaime": 11,
    "commentaires": 1
   },
@@ -75,8 +84,8 @@
    "publiee": "2026-10-23T13:41:41Z",
    "statut": "public",
    "duree": "PT41S",
-   "vues": 1018,
-   "jaime": 19,
+   "vues": 1026,
+   "jaime": 20,
    "commentaires": 1
   },
   "Nba9AMF5N7Y": {
@@ -84,8 +93,8 @@
    "publiee": "2026-10-23T10:34:00Z",
    "statut": "public",
    "duree": "PT48S",
-   "vues": 983,
-   "jaime": 25,
+   "vues": 991,
+   "jaime": 27,
    "commentaires": 5
   },
   "3C3VYTd6Ajg": {
@@ -120,7 +129,7 @@
    "publiee": "2026-10-22T14:31:41Z",
    "statut": "public",
    "duree": "PT47S",
-   "vues": 875,
+   "vues": 877,
    "jaime": 14,
    "commentaires": 3
   },
@@ -138,7 +147,7 @@
    "publiee": "2026-10-22T08:58:52Z",
    "statut": "public",
    "duree": "PT56S",
-   "vues": 1715,
+   "vues": 1719,
    "jaime": 21,
    "commentaires": 0
   },
