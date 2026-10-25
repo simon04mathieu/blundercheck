@@ -111,3 +111,4 @@
 ### 2026-10-25 16:30 publications/youtube/pigeon_jour_6.json
 {"id": "CrZMI8-MbqQ", "url": "https://www.youtube.com/shorts/CrZMI8-MbqQ", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "12"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "13"}
