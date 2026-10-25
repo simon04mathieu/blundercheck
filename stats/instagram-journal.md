@@ -12,3 +12,5 @@
 {"reseau": "instagram", "id": "18102380909376860"}
 ### 2026-10-25 16:41 publications/instagram/pigeon_jour_6.json
 {"reseau": "instagram", "id": "18153009499539521"}
+### 2026-10-25 19:36 publications/instagram/analyse_celebre_2_court.json
+{"reseau": "instagram", "id": "18475859386113016"}
