@@ -116,3 +116,4 @@
 ### 2026-10-25 19:28 publications/youtube/analyse_celebre_2_court.json
 {"id": "KSGU7-Vt67A", "url": "https://www.youtube.com/shorts/KSGU7-Vt67A", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "15"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "15"}
