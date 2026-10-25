@@ -1,5 +1,5 @@
 {
- "date": "2026-10-25T16:30:47.161141+00:00",
+ "date": "2026-10-25T17:28:53.318054+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,6 +7,15 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "CrZMI8-MbqQ": {
+   "titre": "Le piège du Hollandais : mat en 5 coups 🐦 #echecs #shorts",
+   "publiee": "2026-10-25T16:31:03Z",
+   "statut": "public",
+   "duree": "PT24S",
+   "vues": 0,
+   "jaime": 0,
+   "commentaires": 0
+  },
   "LyMbYt1JgTM": {
    "titre": "La Partie de l'Opéra : mat en 17 coups 🎭 #echecs #shorts",
    "publiee": "2026-10-25T13:32:59Z",
@@ -21,7 +30,7 @@
    "publiee": "2026-10-25T10:30:22Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 174,
+   "vues": 200,
    "jaime": 2,
    "commentaires": 1
   },
@@ -30,7 +39,7 @@
    "publiee": "2026-10-24T18:32:00Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 450,
+   "vues": 579,
    "jaime": 7,
    "commentaires": 0
   },
@@ -39,7 +48,7 @@
    "publiee": "2026-10-24T15:29:49Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 778,
+   "vues": 888,
    "jaime": 6,
    "commentaires": 0
   },
@@ -48,7 +57,7 @@
    "publiee": "2026-10-24T12:36:05Z",
    "statut": "public",
    "duree": "PT26S",
-   "vues": 951,
+   "vues": 971,
    "jaime": 20,
    "commentaires": 0
   },
@@ -57,7 +66,7 @@
    "publiee": "2026-10-24T09:31:48Z",
    "statut": "public",
    "duree": "PT1M8S",
-   "vues": 127,
+   "vues": 147,
    "jaime": 3,
    "commentaires": 0
   },
@@ -66,7 +75,7 @@
    "publiee": "2026-10-23T19:34:44Z",
    "statut": "public",
    "duree": "PT29S",
-   "vues": 828,
+   "vues": 753,
    "jaime": 13,
    "commentaires": 0
   },
@@ -84,8 +93,8 @@
    "publiee": "2026-10-23T13:41:41Z",
    "statut": "public",
    "duree": "PT41S",
-   "vues": 1041,
-   "jaime": 20,
+   "vues": 1052,
+   "jaime": 21,
    "commentaires": 1
   },
   "Nba9AMF5N7Y": {
@@ -93,7 +102,7 @@
    "publiee": "2026-10-23T10:34:00Z",
    "statut": "public",
    "duree": "PT48S",
-   "vues": 1000,
+   "vues": 1003,
    "jaime": 27,
    "commentaires": 5
   },
@@ -147,7 +156,7 @@
    "publiee": "2026-10-22T08:58:52Z",
    "statut": "public",
    "duree": "PT56S",
-   "vues": 1723,
+   "vues": 1729,
    "jaime": 21,
    "commentaires": 0
   },
