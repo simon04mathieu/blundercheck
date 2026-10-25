@@ -8,3 +8,5 @@
 {"reseau": "facebook", "id": "4721360031426619", "ok": true}
 ### 2026-10-25 10:40 publications/facebook/pigeon_jour_5.json
 {"reseau": "facebook", "id": "2177897992808092", "ok": true}
+### 2026-10-25 13:40 publications/facebook/analyse_celebre_2_long.json
+{"reseau": "facebook", "id": "5615362332022081", "ok": true}
