@@ -112,3 +112,6 @@
 {"id": "CrZMI8-MbqQ", "url": "https://www.youtube.com/shorts/CrZMI8-MbqQ", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "12"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "13"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "14"}
+### 2026-10-25 19:28 publications/youtube/analyse_celebre_2_court.json
+{"id": "KSGU7-Vt67A", "url": "https://www.youtube.com/shorts/KSGU7-Vt67A", "statut": "public", "publier_le": null}
