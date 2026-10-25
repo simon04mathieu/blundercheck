@@ -1,5 +1,5 @@
 {
- "date": "2026-10-25T10:30:02.187392+00:00",
+ "date": "2026-10-25T11:29:48.787375+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,6 +7,15 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "I7Shje_xTKk": {
+   "titre": "Le piège du Caro-Kann : mat étouffé en 6 coups 🐦 #echecs #shorts",
+   "publiee": "2026-10-25T10:30:22Z",
+   "statut": "public",
+   "duree": "PT22S",
+   "vues": 0,
+   "jaime": 0,
+   "commentaires": 0
+  },
   "wZ9nzOw-h24": {
    "titre": "Le piège Kieninger (gambit Budapest) : mat en 8 coups 🐦 #echecs #shorts",
    "publiee": "2026-10-24T18:32:00Z",
@@ -30,7 +39,7 @@
    "publiee": "2026-10-24T12:36:05Z",
    "statut": "public",
    "duree": "PT26S",
-   "vues": 476,
+   "vues": 594,
    "jaime": 17,
    "commentaires": 0
   },
@@ -112,7 +121,7 @@
    "statut": "public",
    "duree": "PT47S",
    "vues": 875,
-   "jaime": 13,
+   "jaime": 14,
    "commentaires": 3
   },
   "baab1KXGqu8": {
