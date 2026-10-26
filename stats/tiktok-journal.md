@@ -191,3 +191,12 @@ urllib.error.URLError: <urlopen error [Errno 104] Connection reset by peer>
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 5, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 5, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 5, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 5, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-10-26 07:31 publications/tiktok/pigeon_jour_7.json
+{"publish_id": "v_inbox_file~v2.7700875797917091862", "mode": "brouillon", "vie_privee": null, "legende": "Le pigeon du jour #7 🐦 S'il sort ce fou, ta dame menace le mat. Tu serais tombé dedans ? A ou B 👇 #echecs #chess #piege #echecsfr #philidor"}
+### 2026-10-26 07:31 publications/tiktok/pigeon_jour_8.json
+{"publish_id": "v_inbox_file~v2.7700875784608925718", "mode": "brouillon", "vie_privee": null, "legende": "Le pigeon du jour #8 🐦 Donne ta dame au pigeon : il est mat. Suis pour la suite 👉 #echecs #chess #piege #echecsfr #matdeboden"}
+### 2026-10-26 07:31 publications/tiktok/quiz_legal_4_court.json
+{"publish_id": "v_inbox_file~v2.7700875784608974870", "mode": "brouillon", "vie_privee": null, "legende": "Ta tour est clouée… mais elle fait mat ♟️ Légal ? Oui ou non 👇 #echecs #chess #echecsfr #quizechecs #chesstok"}
+### 2026-10-26 07:31 publications/tiktok/quiz_legal_4_long.json
+{"publish_id": "v_inbox_file~v2.7700875784609024022", "mode": "brouillon", "vie_privee": null, "legende": "Une tour clouée peut-elle faire mat ? ♟️ Légal ? Oui ou non 👇 #echecs #chess #echecsfr #quizechecs #chesstok"}
