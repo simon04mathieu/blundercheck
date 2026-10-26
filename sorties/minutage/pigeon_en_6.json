@@ -1,0 +1,88 @@
+{
+ "nom": "pigeon_en_6",
+ "tempo": 1.0,
+ "duree_s": 22.04,
+ "hook": {
+  "texte": "Give your queen to the pigeon:|he's mated.",
+  "fin": 3.6
+ },
+ "question": {
+  "texte": "Follow for|the next trap",
+  "t": 18.84
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Give your queen to the pigeon he's mated."
+  },
+  {
+   "t": 3.6,
+   "texte": "You're Black."
+  },
+  {
+   "t": 5.24,
+   "texte": "The pigeon castles long."
+  },
+  {
+   "t": 7.5,
+   "texte": "You push a pawn he eats it."
+  },
+  {
+   "t": 10.14,
+   "texte": "You offer your queen the biggest candy in the world."
+  },
+  {
+   "t": 13.76,
+   "texte": "He eats it."
+  },
+  {
+   "t": 15.36,
+   "texte": "Your two bishops cross."
+  },
+  {
+   "t": 17.62,
+   "texte": "Mate."
+  },
+  {
+   "t": 18.88,
+   "texte": "Would you fall for it?"
+  },
+  {
+   "t": 20.6,
+   "texte": "Follow for the next trap."
+  }
+ ],
+ "coups": [
+  {
+   "t": 6.4,
+   "coup": "O-O-O",
+   "badge": null
+  },
+  {
+   "t": 7.9,
+   "coup": "d5",
+   "badge": "brillant"
+  },
+  {
+   "t": 8.84,
+   "coup": "Bxd5",
+   "badge": "gaffe"
+  },
+  {
+   "t": 10.52,
+   "coup": "Qxc3+",
+   "badge": "brillant"
+  },
+  {
+   "t": 13.92,
+   "coup": "bxc3",
+   "badge": "gaffe"
+  },
+  {
+   "t": 17.62,
+   "coup": "Ba3#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
