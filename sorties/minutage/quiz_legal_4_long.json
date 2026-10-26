@@ -1,0 +1,109 @@
+{
+ "nom": "quiz_legal_4_long",
+ "tempo": 1.0,
+ "duree_s": 69.45,
+ "hook": {
+  "texte": "Ta tour est clouée,|mais elle fait mat. Légal ?",
+  "fin": 7.5
+ },
+ "question": {
+  "texte": "Tu le savais ?|Oui ou non ?",
+  "t": 66.25
+ },
+ "phrases": [
+  {
+   "t": 0.2,
+   "texte": "Ta tour est clouée mais elle fait mat."
+  },
+  {
+   "t": 5.66,
+   "texte": "Légal ?"
+  },
+  {
+   "t": 7.5,
+   "texte": "Tu as les Blancs."
+  },
+  {
+   "t": 10.42,
+   "texte": "Le pigeon cloue ta tour sur ton roi."
+  },
+  {
+   "t": 15.43,
+   "texte": "Une tour clouée ne peut pas sauter de côté."
+  },
+  {
+   "t": 21.09,
+   "texte": "Vers la gauche ?"
+  },
+  {
+   "t": 23.95,
+   "texte": "Illégal."
+  },
+  {
+   "t": 25.57,
+   "texte": "Vers la droite ?"
+  },
+  {
+   "t": 28.44,
+   "texte": "Illégal."
+  },
+  {
+   "t": 30.06,
+   "texte": "Mais sur la colonne elle a le droit."
+  },
+  {
+   "t": 35.42,
+   "texte": "Six coups légaux."
+  },
+  {
+   "t": 38.06,
+   "texte": "Un seul est le bon."
+  },
+  {
+   "t": 41.36,
+   "texte": "Un de ces coups mange la tour du pigeon."
+  },
+  {
+   "t": 46.85,
+   "texte": "Légal ou pas ?"
+  },
+  {
+   "t": 52.61,
+   "texte": "Son roi est enfermé par ses propres pions."
+  },
+  {
+   "t": 57.94,
+   "texte": "Tour prend tour."
+  },
+  {
+   "t": 60.53,
+   "texte": "Mat."
+  },
+  {
+   "t": 61.94,
+   "texte": "LÉGAL !"
+  },
+  {
+   "t": 63.79,
+   "texte": "Tu le savais ?"
+  },
+  {
+   "t": 66.55,
+   "texte": "Oui ou non ?"
+  }
+ ],
+ "coups": [
+  {
+   "t": 60.53,
+   "coup": "Rxe8#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 49.59,
+   "duree": 3.0,
+   "texte": "Légal ou pas ?"
+  }
+ ]
+}
