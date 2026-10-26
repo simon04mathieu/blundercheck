@@ -1,9 +1,57 @@
 {
- "releve": "2026-10-25T17:06:32Z",
+ "releve": "2026-10-26T17:23:08Z",
  "page": "BlunderCheck",
  "abonnes": 0,
  "fans": 0,
  "publications": [
+  {
+   "id": "4628867854026190",
+   "description": "Une tour clouée peut-elle faire mat ? Légal ou pas ? Oui ou non 👇\n\n#echecs #ches",
+   "created_time": "2026-10-26T16:10:45+0000",
+   "permalink_url": "/reel/4628867854026190/",
+   "insights": {
+    "blue_reels_play_count": 0,
+    "post_video_likes_by_reaction_type": {},
+    "post_video_social_actions": {},
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "2108227719822985",
+   "description": "Le pigeon du jour #7 🐦 S'il sort ce fou, ta dame menace le mat. Tu serais tombé ",
+   "created_time": "2026-10-26T15:12:48+0000",
+   "permalink_url": "/reel/2108227719822985/",
+   "insights": {
+    "blue_reels_play_count": 0,
+    "post_video_likes_by_reaction_type": {},
+    "post_video_social_actions": {},
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "1092571733683485",
+   "description": "Ta tour est clouée… mais elle fait mat. Légal ? Oui ou non 👇\n\n#echecs #chess #qu",
+   "created_time": "2026-10-26T10:49:56+0000",
+   "permalink_url": "/reel/1092571733683485/",
+   "insights": {
+    "blue_reels_play_count": 2,
+    "post_video_likes_by_reaction_type": {},
+    "post_video_social_actions": {},
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "1312016024351056",
+   "description": "Tu donnes un poney, une tour, puis ta dame… et c'est mat 🎭 Tu l'avais vu ? Oui o",
+   "created_time": "2026-10-25T19:36:39+0000",
+   "permalink_url": "/reel/1312016024351056/",
+   "insights": {
+    "blue_reels_play_count": 0,
+    "post_video_likes_by_reaction_type": {},
+    "post_video_social_actions": {},
+    "post_video_followers": 0
+   }
+  },
   {
    "id": "1154075637299279",
    "description": "Le pigeon du jour #6 🐦 S'il mange ton fou, tu le mates en 5 coups. Suis le compt",
@@ -92,12 +140,16 @@
   }
  ],
  "erreurs": [
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A8oY9APqEorw-ecFyYb",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A9eksWiAGgDr1moR0NW",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AEAXesszGEP2LlL_I_C",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AG6zNdUjbzju1hUCm1c",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AIxT4061BNlL2yP3uwg",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"Am2hdW6CVNSTBBaQ10a",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ApPT5GwiokAjMKP3Kwv"
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A34PDnC6Pxlx3TQJhFX",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AF5tc9Qymk4RQo-RI3l",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ANT-EZ_XNUIaFesxFwj",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"APL4Lj4XBeL_pOR-B3R",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AV4oXxOHwnAn5ECU6XT",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A_XcDPabaAdg2mjtvGY",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A_mGMT30A1LCDXVhaMQ",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AbIo9g9vneM7gszJGCR",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AdHOn7syn65l3aW4eZH",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AfMipXmF_DjGibrGBWe",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ApZnJMW6TgKh-dQB2rL"
  ]
 }
