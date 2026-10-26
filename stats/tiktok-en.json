@@ -1,44 +1,44 @@
 {
- "date": "2026-10-26T00:22:53.264780+00:00",
+ "date": "2026-10-26T01:25:41.516219+00:00",
  "compte": {
+  "display_name": "BlunderCheck • Chess",
   "follower_count": 1,
   "likes_count": 110,
-  "video_count": 3,
-  "display_name": "BlunderCheck • Chess"
+  "video_count": 3
  },
  "videos": [
   {
-   "view_count": 690,
-   "duration": 21,
    "id": "7700605174578007318",
-   "share_count": 1,
    "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700605174578007318?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "title": "#BlunderCheck ",
+   "view_count": 690,
    "comment_count": 1,
    "create_time": 1792936867,
+   "share_count": 1,
+   "duration": 21,
    "like_count": 23
   },
   {
-   "like_count": 29,
-   "share_count": 0,
-   "comment_count": 1,
-   "duration": 25,
-   "id": "7700202259220598039",
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700202259220598039?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "title": "#BlunderCheck #chess #game #halloween ",
    "view_count": 757,
-   "create_time": 1792843054
+   "id": "7700202259220598039",
+   "share_count": 0,
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700202259220598039?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "like_count": 29,
+   "title": "#BlunderCheck #chess #game #halloween ",
+   "comment_count": 1,
+   "create_time": 1792843054,
+   "duration": 25
   },
   {
-   "share_count": 0,
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700159699777359106?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "title": "#BlunderCheck #trap #chess #short ",
-   "view_count": 1517,
    "comment_count": 0,
    "duration": 23,
    "id": "7700159699777359106",
+   "like_count": 58,
+   "title": "#BlunderCheck #trap #chess #short ",
+   "view_count": 1518,
    "create_time": 1792833149,
-   "like_count": 58
+   "share_count": 0,
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700159699777359106?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm"
   }
  ]
 }
