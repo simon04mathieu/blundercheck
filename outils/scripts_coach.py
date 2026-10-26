@@ -769,3 +769,97 @@ QUESTIONS.update({
     "pigeon_en_3": "A = yes · B = never.|Comment!",
     "pigeon_en_4": "Follow for|the next trap",
 })
+
+# ---------- file du 25-26/10 (scénariste) : T1-fin (pigeon_jour #7 A Philidor, #8 B Boden), T6-durée paire 3 (quiz « tour clouée » long/court, sans voix), T7-langue (pigeon_en #5-#6) ----------
+# Producteur (26/10, 1 h) : coups vérifiés python-chess + Stockfish 19 (WASM) : 4...Be7 = +2,6 ; 7...gxh6 = mat en 1 (8.Qxf7#) ; 14.Bxd5 = mat en 2 (Qxc3+ bxc3 Ba3#) ; quiz : Rxe8# (6 coups de tour légaux).
+# Hook #8 « mat en trois » remplacé par « il est mat » (après 13...d5 le mat n'est pas forcé : seul 14.Bxd5 le permet) ; même phrase en EN.
+PHILIDOR_PIEGE = "e4 e5 Nf3 d6 d4 Nd7 Bc4 Be7 dxe5 dxe5 Qd5"       # + Nh6 Bxh6 gxh6 Qxf7#
+CLOUEE = "fen:4r1k1/5ppp/8/8/8/8/4R3/4K3_w_-_-_0_1"                 # + Rxe8#
+PERSO.update({
+"pigeon_jour_7": {
+    "cote": "blancs",
+    "hook": "S'il sort ce fou,|ta dame menace le mat.",
+    "voix": """[mischievously] S'il sort ce fou, ta dame menace le mat.
+Tu as les Blancs. Le pigeon sort son fou. Tu échanges les pions, ta dame fonce au centre. Elle vise le point faible de son roi. Il défend avec un poney. Tu le manges. S'il reprend, [laughs] c'est mat.
+Tu serais tombé dedans ? Commente A : oui, ou B : jamais.""",
+    "script": """[p """ + PHILIDOR_PIEGE + """] [f d5f7 c4f7] [s tag f7 3.0 MENACE] S'il sort ce fou, ta dame menace le mat.
+[h] [p e4 e5 Nf3 d6 d4 Nd7 Bc4] Tu as les Blancs. Le pigeon sort [m Be7 gaffe] son fou. [s tag e7 2.0 LE_PIGEON] Tu échanges [m dxe5] les [m dxe5] pions, ta dame [m Qd5 brillant] fonce au centre. Elle vise [f d5f7 c4f7] le point faible de son roi. Il défend avec [m Nh6] un poney. Tu le [m Bxh6] manges. S'il [m gxh6 gaffe] reprend, c'est [m Qxf7# mat] [z f7e8 1.45 2.6] [x impact] mat.
+Tu serais tombé dedans ? Commente A : oui, ou B : jamais.""",
+},
+"pigeon_jour_8": {
+    "cote": "noirs",
+    "hook": "Donne ta dame au pigeon :|il est mat.",
+    "voix": """[mischievously] Donne ta dame au pigeon : il est mat.
+Tu as les Noirs. Le pigeon fait le grand roque. Tu avances un pion, il le mange. Tu offres ta dame, le plus gros bonbon du monde. Il la mange. Tes deux fous se croisent. [laughs] Mat.
+Tu serais tombé dedans ? Suis le compte pour la suite.""",
+    "script": """[p """ + BODEN + """ O-O-O d5 Bxd5 Qxc3+] [s bonbon c3 3.0] Donne ta dame au pigeon : il est mat.
+[h] [p """ + BODEN + """] Tu as les Noirs. Le pigeon fait [m O-O-O] le grand roque. Tu avances [m d5 brillant] un pion, il le [m Bxd5 gaffe] mange. [s tag d5 2.0 LE_PIGEON] Tu offres [m Qxc3+ brillant] ta dame, [s bonbon c3 2.5] le plus gros bonbon du monde. Il la [m bxc3 gaffe] mange. Tes deux fous [f f5b1 f8a3] se croisent. [m Ba3# mat] [z a3c1 1.45 2.6] [x impact] Mat.
+Tu serais tombé dedans ? Suis le compte pour la suite.""",
+},
+"quiz_legal_4_long": {   # SANS VOIX (commande "muet") : sous-titres en phrases + musique
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Ta tour est clouée,|mais elle fait mat. Légal ?",
+    "voix": """Ta tour est clouée, mais elle fait mat. Légal ?
+Tu as les Blancs. Le pigeon cloue ta tour sur ton roi.
+Une tour clouée ne peut pas sauter de côté.
+Vers la gauche ? Illégal. Vers la droite ? Illégal.
+Mais sur la colonne, elle a le droit.
+Six coups légaux. Un seul est le bon.
+Un de ces coups mange la tour du pigeon. Légal ou pas ?
+Son roi est enfermé par ses propres pions.
+Tour prend tour. Mat. LÉGAL !
+Tu le savais ? Oui ou non ?""",
+    "script": """[p """ + CLOUEE + """] [f e2e8] [s tag e8 3.0 LE_PIGEON] Ta tour est clouée, mais elle fait mat. Légal ?
+[h] Tu as les Blancs. Le pigeon [f e8e1] cloue ta tour sur ton roi. [s tag e8 2.5 LE_PIGEON]
+Une tour clouée ne peut pas sauter de côté. [z e2 1.3 2.0]
+Vers la gauche ? [f e2a2] [s tag a2 2.0 ILLEGAL] Illégal. Vers la droite ? [f e2h2] [s tag h2 2.0 ILLEGAL] Illégal.
+Mais sur la colonne, [f e2e7] elle a le droit.
+Six coups légaux. [s tag e5 2.5 6_COUPS] Un seul est le bon.
+Un de ces coups [f e2e8] mange la tour du pigeon. Légal ou pas ? [q 3 Légal_ou_pas_?]
+Son roi est enfermé [z g7 1.3 2.0] par ses propres pions.
+Tour prend tour. [m Rxe8# mat] [z e8g8 1.45 2.6] [x impact] Mat. LÉGAL !
+Tu le savais ? Oui ou non ?""",
+},
+"quiz_legal_4_court": {  # SANS VOIX : même position, sans essais illégaux ni compteur
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Ta tour est clouée,|mais elle fait mat. Légal ?",
+    "voix": """Ta tour est clouée, mais elle fait mat. Légal ?
+Ton roi est derrière ta tour. Le pigeon la cloue.
+Elle ne peut pas sortir de la colonne… mais elle peut la suivre. Légal ou pas ?
+Tour prend tour. Mat. Légal !
+Tu le savais ? Oui ou non ?""",
+    "script": """[p """ + CLOUEE + """] [f e2e8] [s tag e8 3.0 LE_PIGEON] Ta tour est clouée, mais elle fait mat. Légal ?
+[h] Ton roi est derrière ta tour. Le pigeon [f e8e1] la cloue. [z e2 1.3 2.0]
+Elle ne peut pas sortir de la colonne… mais elle peut [f e2e8] la suivre. Légal ou pas ? [q 3 Légal_ou_pas_?]
+Tour prend tour. [m Rxe8# mat] [z e8g8 1.45 2.6] [x impact] Mat. Légal !
+Tu le savais ? Oui ou non ?""",
+},
+"pigeon_en_5": {
+    "cote": "blancs",
+    "hook": "If he plays this bishop,|your queen threatens mate.",
+    "voix": """[mischievously] If he plays this bishop, your queen threatens mate.
+You're White. You trade pawns and your queen jumps to the center, eyeing his weak spot. He defends with a pony. You take it. If he takes back, [laughs] it's mate.
+Would you fall for it? Comment A: yes, or B: never.""",
+    "script": """[p """ + PHILIDOR_PIEGE + """] [f d5f7 c4f7] [s tag f7 3.0 THREAT] If he plays this bishop, your queen threatens mate.
+[h] [p e4 e5 Nf3 d6 d4 Nd7 Bc4] You're [m Be7 gaffe] White. [s tag e7 2.0 PIGEON] You trade [m dxe5] pawns [m dxe5] and your queen [m Qd5 brillant] jumps to the center, eyeing [f d5f7 c4f7] his weak spot. He defends with [m Nh6] a pony. You [m Bxh6] take it. If he [m gxh6 gaffe] takes back, it's [m Qxf7# mat] [z f7e8 1.45 2.6] [x impact] mate.
+Would you fall for it? Comment A: yes, or B: never.""",
+},
+"pigeon_en_6": {
+    "cote": "noirs",
+    "hook": "Give your queen to the pigeon:|he's mated.",
+    "voix": """[mischievously] Give your queen to the pigeon: he's mated.
+You're Black. The pigeon castles long. You push a pawn, he eats it. You offer your queen, the biggest candy in the world. He eats it. Your two bishops cross. [laughs] Mate.
+Would you fall for it? Follow for the next trap.""",
+    "script": """[p """ + BODEN + """ O-O-O d5 Bxd5 Qxc3+] [s bonbon c3 3.0] Give your queen to the pigeon: he's mated.
+[h] [p """ + BODEN + """] You're Black. The pigeon castles [m O-O-O] long. You push [m d5 brillant] a pawn, he [m Bxd5 gaffe] eats it. [s tag d5 2.0 PIGEON] You offer [m Qxc3+ brillant] your queen, [s bonbon c3 2.5] the biggest candy in the world. He [m bxc3 gaffe] eats it. Your two bishops [f f5b1 f8a3] cross. [m Ba3# mat] [z a3c1 1.45 2.6] [x impact] Mate.
+Would you fall for it? Follow for the next trap.""",
+},
+})
+QUESTIONS.update({
+    "pigeon_jour_7": "A = oui · B = jamais.|Commente !",
+    "pigeon_jour_8": "Suis le compte|pour la suite",
+    "quiz_legal_4_long": "Tu le savais ?|Oui ou non ?",
+    "quiz_legal_4_court": "Tu le savais ?|Oui ou non ?",
+    "pigeon_en_5": "A = yes · B = never.|Comment!",
+    "pigeon_en_6": "Follow for|the next trap",
+})
