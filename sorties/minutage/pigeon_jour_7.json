@@ -1,0 +1,98 @@
+{
+ "nom": "pigeon_jour_7",
+ "tempo": 1.0,
+ "duree_s": 21.8,
+ "hook": {
+  "texte": "S'il sort ce fou,|ta dame menace le mat.",
+  "fin": 3.06
+ },
+ "question": {
+  "texte": "A = oui · B = jamais.|Commente !",
+  "t": 18.6
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "S'il sort ce fou ta dame menace le mat."
+  },
+  {
+   "t": 3.06,
+   "texte": "Tu as les Blancs."
+  },
+  {
+   "t": 4.58,
+   "texte": "Le pigeon sort son fou."
+  },
+  {
+   "t": 6.14,
+   "texte": "Tu échanges les pions ta dame fonce au centre."
+  },
+  {
+   "t": 9.24,
+   "texte": "Elle vise le point faible de son roi."
+  },
+  {
+   "t": 11.6,
+   "texte": "Il défend avec un poney."
+  },
+  {
+   "t": 13.2,
+   "texte": "Tu le manges."
+  },
+  {
+   "t": 14.48,
+   "texte": "S'il reprend, c'est mat."
+  },
+  {
+   "t": 17.06,
+   "texte": "Tu serais tombé dedans ?"
+  },
+  {
+   "t": 18.78,
+   "texte": "Commente A  oui, ou B  jamais."
+  }
+ ],
+ "coups": [
+  {
+   "t": 5.24,
+   "coup": "Be7",
+   "badge": "gaffe"
+  },
+  {
+   "t": 6.62,
+   "coup": "dxe5",
+   "badge": null
+  },
+  {
+   "t": 6.82,
+   "coup": "dxe5",
+   "badge": null
+  },
+  {
+   "t": 7.78,
+   "coup": "Qd5",
+   "badge": "brillant"
+  },
+  {
+   "t": 12.28,
+   "coup": "Nh6",
+   "badge": null
+  },
+  {
+   "t": 13.48,
+   "coup": "Bxh6",
+   "badge": null
+  },
+  {
+   "t": 14.74,
+   "coup": "gxh6",
+   "badge": "gaffe"
+  },
+  {
+   "t": 16.4,
+   "coup": "Qxf7#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
