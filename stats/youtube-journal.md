@@ -137,3 +137,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "22"}
 ### 2026-10-26 14:46 publications/youtube/pigeon_jour_7.json
 {"id": "MN6aHqkl5_s", "url": "https://www.youtube.com/shorts/MN6aHqkl5_s", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "21"}
+### 2026-10-26 16:03 publications/youtube/quiz_legal_4_long.json
+{"id": "9ugWBVisImo", "url": "https://www.youtube.com/shorts/9ugWBVisImo", "statut": "public", "publier_le": null}
