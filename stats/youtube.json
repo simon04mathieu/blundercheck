@@ -1,5 +1,5 @@
 {
- "date": "2026-10-26T16:03:58.367055+00:00",
+ "date": "2026-10-26T16:47:34.065139+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,6 +7,15 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "9ugWBVisImo": {
+   "titre": "Une tour clouée peut-elle faire mat ? Légal ou pas ♟️ #echecs #shorts",
+   "publiee": "2026-10-26T16:04:24Z",
+   "statut": "public",
+   "duree": "PT1M10S",
+   "vues": 0,
+   "jaime": 0,
+   "commentaires": 0
+  },
   "MN6aHqkl5_s": {
    "titre": "Le piège de la défense Philidor : mat en 8 coups 🐦 #echecs #shorts",
    "publiee": "2026-10-26T14:46:54Z",
@@ -21,7 +30,7 @@
    "publiee": "2026-10-26T10:41:17Z",
    "statut": "public",
    "duree": "PT40S",
-   "vues": 124,
+   "vues": 143,
    "jaime": 1,
    "commentaires": 0
   },
@@ -30,7 +39,7 @@
    "publiee": "2026-10-25T19:28:37Z",
    "statut": "public",
    "duree": "PT36S",
-   "vues": 598,
+   "vues": 604,
    "jaime": 5,
    "commentaires": 0
   },
@@ -39,7 +48,7 @@
    "publiee": "2026-10-25T16:31:03Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 925,
+   "vues": 924,
    "jaime": 15,
    "commentaires": 0
   },
@@ -57,7 +66,7 @@
    "publiee": "2026-10-25T10:30:22Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 658,
+   "vues": 666,
    "jaime": 10,
    "commentaires": 1
   },
@@ -66,7 +75,7 @@
    "publiee": "2026-10-24T18:32:00Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 965,
+   "vues": 963,
    "jaime": 8,
    "commentaires": 1
   },
@@ -84,7 +93,7 @@
    "publiee": "2026-10-24T12:36:05Z",
    "statut": "public",
    "duree": "PT26S",
-   "vues": 1160,
+   "vues": 1193,
    "jaime": 21,
    "commentaires": 0
   },
@@ -102,7 +111,7 @@
    "publiee": "2026-10-23T19:34:44Z",
    "statut": "public",
    "duree": "PT29S",
-   "vues": 1018,
+   "vues": 1040,
    "jaime": 13,
    "commentaires": 0
   },
@@ -111,7 +120,7 @@
    "publiee": "2026-10-23T16:37:35Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 1039,
+   "vues": 1041,
    "jaime": 11,
    "commentaires": 1
   },
@@ -120,7 +129,7 @@
    "publiee": "2026-10-23T13:41:41Z",
    "statut": "public",
    "duree": "PT41S",
-   "vues": 1166,
+   "vues": 1181,
    "jaime": 25,
    "commentaires": 1
   },
@@ -138,7 +147,7 @@
    "publiee": "2026-10-22T16:32:29Z",
    "statut": "public",
    "duree": "PT44S",
-   "vues": 959,
+   "vues": 966,
    "jaime": 13,
    "commentaires": 0
   },
@@ -165,7 +174,7 @@
    "publiee": "2026-10-22T14:31:41Z",
    "statut": "public",
    "duree": "PT47S",
-   "vues": 893,
+   "vues": 897,
    "jaime": 14,
    "commentaires": 3
   },
@@ -246,7 +255,7 @@
    "publiee": "2026-10-21T16:30:46Z",
    "statut": "public",
    "duree": "PT52S",
-   "vues": 1,
+   "vues": 2,
    "jaime": 0,
    "commentaires": 0
   },
@@ -273,7 +282,7 @@
    "publiee": "2026-10-21T13:31:36Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 9,
+   "vues": 10,
    "jaime": 1,
    "commentaires": 0
   }
