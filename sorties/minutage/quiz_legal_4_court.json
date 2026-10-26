@@ -1,0 +1,77 @@
+{
+ "nom": "quiz_legal_4_court",
+ "tempo": 1.0,
+ "duree_s": 39.45,
+ "hook": {
+  "texte": "Ta tour est clouée,|mais elle fait mat. Légal ?",
+  "fin": 7.27
+ },
+ "question": {
+  "texte": "Tu le savais ?|Oui ou non ?",
+  "t": 36.25
+ },
+ "phrases": [
+  {
+   "t": 0.2,
+   "texte": "Ta tour est clouée mais elle fait mat."
+  },
+  {
+   "t": 5.49,
+   "texte": "Légal ?"
+  },
+  {
+   "t": 7.27,
+   "texte": "Ton roi est derrière ta tour."
+  },
+  {
+   "t": 11.24,
+   "texte": "Le pigeon la cloue."
+  },
+  {
+   "t": 14.17,
+   "texte": "Elle ne peut pas sortir de la colonne…"
+  },
+  {
+   "t": 19.12,
+   "texte": "mais elle peut la suivre."
+  },
+  {
+   "t": 22.62,
+   "texte": "Légal ou pas ?"
+  },
+  {
+   "t": 28.29,
+   "texte": "Tour prend tour."
+  },
+  {
+   "t": 30.8,
+   "texte": "Mat."
+  },
+  {
+   "t": 32.17,
+   "texte": "Légal !"
+  },
+  {
+   "t": 33.96,
+   "texte": "Tu le savais ?"
+  },
+  {
+   "t": 36.63,
+   "texte": "Oui ou non ?"
+  }
+ ],
+ "coups": [
+  {
+   "t": 30.8,
+   "coup": "Rxe8#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 25.27,
+   "duree": 3.0,
+   "texte": "Légal ou pas ?"
+  }
+ ]
+}
