@@ -1,0 +1,90 @@
+{
+ "nom": "pigeon_en_5",
+ "tempo": 1.0,
+ "duree_s": 20.9,
+ "hook": {
+  "texte": "If he plays this bishop,|your queen threatens mate.",
+  "fin": 3.66
+ },
+ "question": {
+  "texte": "A = yes · B = never.|Comment!",
+  "t": 17.7
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "If he plays this bishop your queen threatens mate."
+  },
+  {
+   "t": 3.66,
+   "texte": "You're White."
+  },
+  {
+   "t": 4.96,
+   "texte": "You trade pawns and your queen jumps to the center eyeing his weak spot."
+  },
+  {
+   "t": 10.18,
+   "texte": "He defends with a pony."
+  },
+  {
+   "t": 12.0,
+   "texte": "You take it."
+  },
+  {
+   "t": 13.32,
+   "texte": "If he takes back it's mate."
+  },
+  {
+   "t": 15.84,
+   "texte": "Would you fall for it?"
+  },
+  {
+   "t": 17.58,
+   "texte": "Comment A: yes or B: never."
+  }
+ ],
+ "coups": [
+  {
+   "t": 3.96,
+   "coup": "Be7",
+   "badge": "gaffe"
+  },
+  {
+   "t": 5.4,
+   "coup": "dxe5",
+   "badge": null
+  },
+  {
+   "t": 6.02,
+   "coup": "dxe5",
+   "badge": null
+  },
+  {
+   "t": 6.68,
+   "coup": "Qd5",
+   "badge": "brillant"
+  },
+  {
+   "t": 10.86,
+   "coup": "Nh6",
+   "badge": null
+  },
+  {
+   "t": 12.16,
+   "coup": "Bxh6",
+   "badge": null
+  },
+  {
+   "t": 13.6,
+   "coup": "gxh6",
+   "badge": "gaffe"
+  },
+  {
+   "t": 14.8,
+   "coup": "Qxf7#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
