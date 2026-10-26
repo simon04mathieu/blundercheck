@@ -84,3 +84,4 @@ Jetons TikTok (en) enregistrés (chiffrés). Portées : user.info.basic,user.inf
 {"publish_id": "v_inbox_file~v2.7700875784609171478", "mode": "brouillon", "vie_privee": null, "legende": "Pigeon Trap of the Day #5 🐦 If he plays this bishop, your queen threatens mate. Would you fall for it? A or B 👇 #chess #chesstok #chesstrap #philidordefense"}
 ### 2026-10-26 07:31 publications/tiktok-en/pigeon_en_6.json
 {"publish_id": "v_inbox_file~v2.7700875783690225686", "mode": "brouillon", "vie_privee": null, "legende": "Pigeon Trap of the Day #6 🐦 Give your queen to the pigeon: he's mated. Follow for the next trap 👉 #chess #chesstok #chesstrap #bodensmate"}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 1, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}

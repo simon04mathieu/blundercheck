@@ -1,44 +1,55 @@
 {
- "date": "2026-10-26T07:31:57.226869+00:00",
+ "date": "2026-10-26T08:23:16.338590+00:00",
  "compte": {
   "display_name": "BlunderCheck • Chess",
   "follower_count": 1,
-  "likes_count": 110,
-  "video_count": 3
+  "likes_count": 111,
+  "video_count": 4
  },
  "videos": [
   {
-   "view_count": 691,
+   "title": "#BlunderCheck ",
+   "duration": 23,
+   "id": "7700880100975250710",
+   "like_count": 1,
+   "share_count": 0,
+   "comment_count": 0,
+   "create_time": 1793000884,
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700880100975250710?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "view_count": 6
+  },
+  {
    "comment_count": 1,
+   "share_count": 1,
+   "title": "#BlunderCheck ",
    "create_time": 1792936867,
    "duration": 21,
    "id": "7700605174578007318",
    "like_count": 23,
-   "share_count": 1,
    "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700605174578007318?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "title": "#BlunderCheck "
+   "view_count": 691
   },
   {
+   "title": "#BlunderCheck #chess #game #halloween ",
    "comment_count": 1,
-   "view_count": 757,
-   "create_time": 1792843054,
    "duration": 25,
    "id": "7700202259220598039",
-   "like_count": 29,
    "share_count": 0,
+   "create_time": 1792843054,
+   "like_count": 29,
    "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700202259220598039?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "title": "#BlunderCheck #chess #game #halloween "
+   "view_count": 757
   },
   {
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700159699777359106?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "view_count": 1518,
+   "comment_count": 0,
+   "like_count": 58,
    "share_count": 0,
    "title": "#BlunderCheck #trap #chess #short ",
-   "comment_count": 0,
-   "duration": 23,
-   "id": "7700159699777359106",
-   "like_count": 58,
    "create_time": 1792833149,
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700159699777359106?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "view_count": 1518
+   "duration": 23,
+   "id": "7700159699777359106"
   }
  ]
 }

@@ -200,3 +200,4 @@ urllib.error.URLError: <urlopen error [Errno 104] Connection reset by peer>
 {"publish_id": "v_inbox_file~v2.7700875784608974870", "mode": "brouillon", "vie_privee": null, "legende": "Ta tour est clouée… mais elle fait mat ♟️ Légal ? Oui ou non 👇 #echecs #chess #echecsfr #quizechecs #chesstok"}
 ### 2026-10-26 07:31 publications/tiktok/quiz_legal_4_long.json
 {"publish_id": "v_inbox_file~v2.7700875784609024022", "mode": "brouillon", "vie_privee": null, "legende": "Une tour clouée peut-elle faire mat ? ♟️ Légal ? Oui ou non 👇 #echecs #chess #echecsfr #quizechecs #chesstok"}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 5, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
