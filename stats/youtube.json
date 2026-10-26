@@ -1,5 +1,5 @@
 {
- "date": "2026-10-26T10:40:52.280114+00:00",
+ "date": "2026-10-26T11:43:13.668333+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,12 +7,21 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "5s_MAAzoJno": {
+   "titre": "Une tour clouée peut-elle faire mat ? (version courte) ♟️ #echecs #shorts",
+   "publiee": "2026-10-26T10:41:17Z",
+   "statut": "public",
+   "duree": "PT40S",
+   "vues": 3,
+   "jaime": 0,
+   "commentaires": 0
+  },
   "KSGU7-Vt67A": {
    "titre": "Opéra, 1858 : il mange tout… et il est mat 🎭 #echecs #shorts",
    "publiee": "2026-10-25T19:28:37Z",
    "statut": "public",
    "duree": "PT36S",
-   "vues": 428,
+   "vues": 463,
    "jaime": 5,
    "commentaires": 0
   },
@@ -21,8 +30,8 @@
    "publiee": "2026-10-25T16:31:03Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 818,
-   "jaime": 17,
+   "vues": 878,
+   "jaime": 15,
    "commentaires": 0
   },
   "LyMbYt1JgTM": {
@@ -39,8 +48,8 @@
    "publiee": "2026-10-25T10:30:22Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 468,
-   "jaime": 8,
+   "vues": 524,
+   "jaime": 9,
    "commentaires": 1
   },
   "wZ9nzOw-h24": {
@@ -111,7 +120,7 @@
    "publiee": "2026-10-23T10:34:00Z",
    "statut": "public",
    "duree": "PT48S",
-   "vues": 1018,
+   "vues": 1022,
    "jaime": 27,
    "commentaires": 5
   },
@@ -165,7 +174,7 @@
    "publiee": "2026-10-22T08:58:52Z",
    "statut": "public",
    "duree": "PT56S",
-   "vues": 1766,
+   "vues": 1782,
    "jaime": 23,
    "commentaires": 0
   },
