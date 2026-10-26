@@ -1,0 +1,88 @@
+{
+ "nom": "pigeon_jour_8",
+ "tempo": 1.0,
+ "duree_s": 23.9,
+ "hook": {
+  "texte": "Donne ta dame au pigeon :|il est mat.",
+  "fin": 3.32
+ },
+ "question": {
+  "texte": "Suis le compte|pour la suite",
+  "t": 20.7
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Donne ta dame au pigeon  il est mat."
+  },
+  {
+   "t": 3.32,
+   "texte": "Tu as les Noirs."
+  },
+  {
+   "t": 5.44,
+   "texte": "Le pigeon fait le grand roque."
+  },
+  {
+   "t": 8.16,
+   "texte": "Tu avances un pion il le mange."
+  },
+  {
+   "t": 11.16,
+   "texte": "Tu offres ta dame le plus gros bonbon du monde."
+  },
+  {
+   "t": 14.8,
+   "texte": "Il la mange."
+  },
+  {
+   "t": 16.38,
+   "texte": "Tes deux fous se croisent."
+  },
+  {
+   "t": 18.62,
+   "texte": "Mat."
+  },
+  {
+   "t": 20.28,
+   "texte": "Tu serais tombé dedans ?"
+  },
+  {
+   "t": 22.42,
+   "texte": "Suis le compte pour la suite."
+  }
+ ],
+ "coups": [
+  {
+   "t": 6.3,
+   "coup": "O-O-O",
+   "badge": null
+  },
+  {
+   "t": 8.7,
+   "coup": "d5",
+   "badge": "brillant"
+  },
+  {
+   "t": 9.92,
+   "coup": "Bxd5",
+   "badge": "gaffe"
+  },
+  {
+   "t": 11.66,
+   "coup": "Qxc3+",
+   "badge": "brillant"
+  },
+  {
+   "t": 15.12,
+   "coup": "bxc3",
+   "badge": "gaffe"
+  },
+  {
+   "t": 18.62,
+   "coup": "Ba3#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
