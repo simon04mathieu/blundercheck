@@ -1,9 +1,9 @@
 {
- "date": "2026-10-26T11:43:13.668333+00:00",
+ "date": "2026-10-26T14:46:32.157956+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
-  "abonnes": "21",
+  "abonnes": "22",
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
@@ -12,8 +12,8 @@
    "publiee": "2026-10-26T10:41:17Z",
    "statut": "public",
    "duree": "PT40S",
-   "vues": 3,
-   "jaime": 0,
+   "vues": 99,
+   "jaime": 1,
    "commentaires": 0
   },
   "KSGU7-Vt67A": {
@@ -21,7 +21,7 @@
    "publiee": "2026-10-25T19:28:37Z",
    "statut": "public",
    "duree": "PT36S",
-   "vues": 463,
+   "vues": 598,
    "jaime": 5,
    "commentaires": 0
   },
@@ -48,8 +48,8 @@
    "publiee": "2026-10-25T10:30:22Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 524,
-   "jaime": 9,
+   "vues": 572,
+   "jaime": 11,
    "commentaires": 1
   },
   "wZ9nzOw-h24": {
@@ -57,16 +57,16 @@
    "publiee": "2026-10-24T18:32:00Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 941,
+   "vues": 965,
    "jaime": 8,
-   "commentaires": 0
+   "commentaires": 1
   },
   "PVn1xPvydaA": {
    "titre": "Mat en passant : légal ou pas ? (version courte) #echecs #shorts",
    "publiee": "2026-10-24T15:29:49Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 889,
+   "vues": 942,
    "jaime": 7,
    "commentaires": 1
   },
@@ -75,7 +75,7 @@
    "publiee": "2026-10-24T12:36:05Z",
    "statut": "public",
    "duree": "PT26S",
-   "vues": 1123,
+   "vues": 1160,
    "jaime": 21,
    "commentaires": 0
   },
@@ -84,7 +84,7 @@
    "publiee": "2026-10-24T09:31:48Z",
    "statut": "public",
    "duree": "PT1M8S",
-   "vues": 209,
+   "vues": 215,
    "jaime": 6,
    "commentaires": 0
   },
@@ -93,7 +93,7 @@
    "publiee": "2026-10-23T19:34:44Z",
    "statut": "public",
    "duree": "PT29S",
-   "vues": 1010,
+   "vues": 1018,
    "jaime": 13,
    "commentaires": 0
   },
@@ -102,7 +102,7 @@
    "publiee": "2026-10-23T16:37:35Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 1034,
+   "vues": 1035,
    "jaime": 11,
    "commentaires": 1
   },
@@ -111,7 +111,7 @@
    "publiee": "2026-10-23T13:41:41Z",
    "statut": "public",
    "duree": "PT41S",
-   "vues": 1138,
+   "vues": 1166,
    "jaime": 25,
    "commentaires": 1
   },
@@ -120,7 +120,7 @@
    "publiee": "2026-10-23T10:34:00Z",
    "statut": "public",
    "duree": "PT48S",
-   "vues": 1022,
+   "vues": 1026,
    "jaime": 27,
    "commentaires": 5
   },
@@ -129,8 +129,8 @@
    "publiee": "2026-10-22T16:32:29Z",
    "statut": "public",
    "duree": "PT44S",
-   "vues": 950,
-   "jaime": 12,
+   "vues": 959,
+   "jaime": 13,
    "commentaires": 0
   },
   "xFSnLJ_yBrk": {
@@ -156,7 +156,7 @@
    "publiee": "2026-10-22T14:31:41Z",
    "statut": "public",
    "duree": "PT47S",
-   "vues": 890,
+   "vues": 893,
    "jaime": 14,
    "commentaires": 3
   },
@@ -174,7 +174,7 @@
    "publiee": "2026-10-22T08:58:52Z",
    "statut": "public",
    "duree": "PT56S",
-   "vues": 1782,
+   "vues": 1784,
    "jaime": 23,
    "commentaires": 0
   },
