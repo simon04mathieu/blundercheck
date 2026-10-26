@@ -14,3 +14,5 @@
 {"reseau": "facebook", "id": "1154075637299279", "ok": true}
 ### 2026-10-25 19:36 publications/facebook/analyse_celebre_2_court.json
 {"reseau": "facebook", "id": "1312016024351056", "ok": true}
+### 2026-10-26 10:50 publications/facebook/quiz_legal_4_court.json
+{"reseau": "facebook", "id": "1092571733683485", "ok": true}
