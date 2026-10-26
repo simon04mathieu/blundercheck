@@ -1,55 +1,55 @@
 {
- "date": "2026-10-26T08:23:16.338590+00:00",
+ "date": "2026-10-26T09:21:10.371421+00:00",
  "compte": {
+  "video_count": 4,
   "display_name": "BlunderCheck • Chess",
   "follower_count": 1,
-  "likes_count": 111,
-  "video_count": 4
+  "likes_count": 111
  },
  "videos": [
   {
-   "title": "#BlunderCheck ",
+   "create_time": 1793000884,
    "duration": 23,
    "id": "7700880100975250710",
-   "like_count": 1,
    "share_count": 0,
-   "comment_count": 0,
-   "create_time": 1793000884,
    "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700880100975250710?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "view_count": 6
+   "view_count": 6,
+   "comment_count": 0,
+   "like_count": 1,
+   "title": "#BlunderCheck "
   },
   {
-   "comment_count": 1,
-   "share_count": 1,
-   "title": "#BlunderCheck ",
    "create_time": 1792936867,
    "duration": 21,
    "id": "7700605174578007318",
+   "title": "#BlunderCheck ",
+   "comment_count": 1,
    "like_count": 23,
+   "share_count": 1,
    "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700605174578007318?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "view_count": 691
+   "view_count": 693
   },
   {
    "title": "#BlunderCheck #chess #game #halloween ",
-   "comment_count": 1,
+   "share_count": 0,
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700202259220598039?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "duration": 25,
    "id": "7700202259220598039",
-   "share_count": 0,
-   "create_time": 1792843054,
    "like_count": 29,
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700202259220598039?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "view_count": 757
+   "view_count": 757,
+   "comment_count": 1,
+   "create_time": 1792843054
   },
   {
    "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700159699777359106?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "view_count": 1518,
-   "comment_count": 0,
-   "like_count": 58,
-   "share_count": 0,
-   "title": "#BlunderCheck #trap #chess #short ",
    "create_time": 1792833149,
    "duration": 23,
-   "id": "7700159699777359106"
+   "id": "7700159699777359106",
+   "like_count": 58,
+   "comment_count": 0,
+   "share_count": 0,
+   "title": "#BlunderCheck #trap #chess #short "
   }
  ]
 }
