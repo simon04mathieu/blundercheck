@@ -1,5 +1,5 @@
 {
- "date": "2026-10-26T19:42:13.840889+00:00",
+ "date": "2026-10-26T20:35:17.794030+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,12 +7,21 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "JtIIHvkqiP8": {
+   "titre": "Le mat de Boden : donne ta dame, il est mat 🐦 #echecs #shorts",
+   "publiee": "2026-10-26T19:42:30Z",
+   "statut": "public",
+   "duree": "PT25S",
+   "vues": 1,
+   "jaime": 0,
+   "commentaires": 0
+  },
   "9ugWBVisImo": {
    "titre": "Une tour clouée peut-elle faire mat ? Légal ou pas ♟️ #echecs #shorts",
    "publiee": "2026-10-26T16:04:24Z",
    "statut": "public",
    "duree": "PT1M10S",
-   "vues": 0,
+   "vues": 1,
    "jaime": 0,
    "commentaires": 0
   },
@@ -30,8 +39,8 @@
    "publiee": "2026-10-26T10:41:17Z",
    "statut": "public",
    "duree": "PT40S",
-   "vues": 143,
-   "jaime": 1,
+   "vues": 205,
+   "jaime": 2,
    "commentaires": 0
   },
   "KSGU7-Vt67A": {
@@ -66,7 +75,7 @@
    "publiee": "2026-10-25T10:30:22Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 694,
+   "vues": 717,
    "jaime": 10,
    "commentaires": 1
   },
@@ -120,7 +129,7 @@
    "publiee": "2026-10-23T16:37:35Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 1041,
+   "vues": 1048,
    "jaime": 11,
    "commentaires": 1
   },
@@ -138,7 +147,7 @@
    "publiee": "2026-10-23T10:34:00Z",
    "statut": "public",
    "duree": "PT48S",
-   "vues": 1026,
+   "vues": 1036,
    "jaime": 27,
    "commentaires": 5
   },
