@@ -1,0 +1,32 @@
+{
+ "fichier": "sorties/quiz_legal_4_court.mp4",
+ "legende": "Ta tour est clouée… mais elle fait mat. Légal ? Oui ou non 👇\n\n#echecs #chess #quizechecs #regleechecs #echecsfr",
+ "envoyer_apres": "2026-10-26T11:00:00+01:00",
+ "concept": "quiz_legal",
+ "etiquettes": {
+  "format": "QUIZ",
+  "langue": "fr",
+  "hook": "question+mat",
+  "premiers_mots": "Ta tour est",
+  "duree_s": 40,
+  "personnages": [
+   "tour",
+   "pigeon",
+   "roi",
+   "toi"
+  ],
+  "musique": "fond1 (lo-fi)",
+  "voix": "non",
+  "fin": "oui_non",
+  "test": "T6-durée",
+  "variante": "B",
+  "paire": "T6-3"
+ },
+ "format": "QUIZ",
+ "langue": "fr",
+ "test": "T6-durée",
+ "variante": "B",
+ "duree": 40,
+ "voix": "non",
+ "paire": "T6-3"
+}

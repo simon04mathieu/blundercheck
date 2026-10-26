@@ -1,0 +1,42 @@
+{
+ "fichier": "sorties/pigeon_jour_8.mp4",
+ "envoyer_apres": "2026-10-26T20:00:00+01:00",
+ "titre": "Le mat de Boden : donne ta dame, il est mat 🐦 #echecs #shorts",
+ "description": "Le pigeon du jour #8 🐦 Donne ta dame au pigeon : il est mat. Suis le compte pour la suite 👉\n\n#echecs #chess #shorts",
+ "tags": [
+  "échecs",
+  "chess",
+  "piège",
+  "poney",
+  "pigeon"
+ ],
+ "concept": "pigeon_jour",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "hook": "ordre_provocateur+mat",
+  "premiers_mots": "Donne ta dame",
+  "duree_s": 24,
+  "personnages": [
+   "dame",
+   "fou",
+   "pigeon",
+   "bonbon",
+   "toi"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "suis_le_compte",
+  "test": "T1-fin",
+  "variante": "B",
+  "paire": "T7-4",
+  "tirage": "seed 2610262233"
+ },
+ "format": "PERSO",
+ "langue": "fr",
+ "test": "T1-fin",
+ "variante": "B",
+ "duree": 24,
+ "voix": "oui",
+ "paire": "T7-4"
+}

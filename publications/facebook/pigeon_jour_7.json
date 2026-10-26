@@ -1,0 +1,34 @@
+{
+ "fichier": "sorties/pigeon_jour_7.mp4",
+ "legende": "Le pigeon du jour #7 🐦 S'il sort ce fou, ta dame menace le mat. Tu serais tombé dedans ? Commente A ou B 👇\n\n#echecs #chess #piegeechecs #defensephilidor #echecsfr",
+ "envoyer_apres": "2026-10-26T14:00:00+01:00",
+ "concept": "pigeon_jour",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "hook": "mat_1re_phrase",
+  "premiers_mots": "S'il sort ce fou",
+  "duree_s": 22,
+  "personnages": [
+   "fou",
+   "dame",
+   "poney",
+   "pigeon",
+   "toi"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "commente_A_ou_B",
+  "test": "T1-fin",
+  "variante": "A",
+  "paire": "T7-3",
+  "tirage": "seed 2610262233"
+ },
+ "format": "PERSO",
+ "langue": "fr",
+ "test": "T1-fin",
+ "variante": "A",
+ "duree": 22,
+ "voix": "oui",
+ "paire": "T7-3"
+}

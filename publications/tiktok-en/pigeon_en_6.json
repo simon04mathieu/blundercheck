@@ -1,0 +1,37 @@
+{
+ "fichier": "sorties/pigeon_en_6.mp4",
+ "legende": "Pigeon Trap of the Day #6 🐦 Give your queen to the pigeon: he's mated. Follow for the next trap 👉 #chess #chesstok #chesstrap #bodensmate",
+ "envoyer_apres": "2026-10-26T08:00:00+01:00",
+ "heure_conseillee": "2026-10-26T20:00:00+01:00",
+ "repere": "20 h · pigeon_en_6 · 23 s",
+ "ia": true,
+ "marque": true,
+ "concept": "pigeon_en",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "en",
+  "hook": "ordre_provocateur+mat",
+  "premiers_mots": "Give your queen",
+  "duree_s": 23,
+  "personnages": [
+   "queen",
+   "bishop",
+   "pigeon",
+   "candy",
+   "you"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "suis_le_compte",
+  "test": "T7-langue",
+  "variante": "en",
+  "paire": "T7-4"
+ },
+ "format": "PERSO",
+ "langue": "en",
+ "test": "T7-langue",
+ "variante": "en",
+ "duree": 23,
+ "voix": "oui",
+ "paire": "T7-4"
+}

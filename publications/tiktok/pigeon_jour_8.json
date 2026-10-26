@@ -1,0 +1,38 @@
+{
+ "fichier": "sorties/pigeon_jour_8.mp4",
+ "legende": "Le pigeon du jour #8 🐦 Donne ta dame au pigeon : il est mat. Suis pour la suite 👉 #echecs #chess #piege #echecsfr #matdeboden",
+ "envoyer_apres": "2026-10-26T08:00:00+01:00",
+ "heure_conseillee": "2026-10-26T20:00:00+01:00",
+ "repere": "20 h · pigeon_jour_8 · 24 s",
+ "ia": true,
+ "marque": true,
+ "concept": "pigeon_jour",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "hook": "ordre_provocateur+mat",
+  "premiers_mots": "Donne ta dame",
+  "duree_s": 24,
+  "personnages": [
+   "dame",
+   "fou",
+   "pigeon",
+   "bonbon",
+   "toi"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "suis_le_compte",
+  "test": "T1-fin",
+  "variante": "B",
+  "paire": "T7-4",
+  "tirage": "seed 2610262233"
+ },
+ "format": "PERSO",
+ "langue": "fr",
+ "test": "T1-fin",
+ "variante": "B",
+ "duree": 24,
+ "voix": "oui",
+ "paire": "T7-4"
+}

@@ -1,0 +1,36 @@
+{
+ "fichier": "sorties/quiz_legal_4_long.mp4",
+ "legende": "Une tour clouée peut-elle faire mat ? ♟️ Légal ? Oui ou non 👇 #echecs #chess #echecsfr #quizechecs #chesstok",
+ "envoyer_apres": "2026-10-26T08:00:00+01:00",
+ "heure_conseillee": "2026-10-26T17:00:00+01:00",
+ "repere": "17 h · quiz_legal_4_long · 70 s",
+ "ia": true,
+ "marque": true,
+ "concept": "quiz_legal",
+ "etiquettes": {
+  "format": "QUIZ",
+  "langue": "fr",
+  "hook": "question+mat",
+  "premiers_mots": "Ta tour est",
+  "duree_s": 70,
+  "personnages": [
+   "tour",
+   "pigeon",
+   "roi",
+   "toi"
+  ],
+  "musique": "fond1 (lo-fi)",
+  "voix": "non",
+  "fin": "oui_non",
+  "test": "T6-durée",
+  "variante": "A",
+  "paire": "T6-3"
+ },
+ "format": "QUIZ",
+ "langue": "fr",
+ "test": "T6-durée",
+ "variante": "A",
+ "duree": 70,
+ "voix": "non",
+ "paire": "T6-3"
+}
