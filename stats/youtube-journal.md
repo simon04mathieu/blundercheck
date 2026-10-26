@@ -141,3 +141,4 @@
 ### 2026-10-26 16:03 publications/youtube/quiz_legal_4_long.json
 {"id": "9ugWBVisImo", "url": "https://www.youtube.com/shorts/9ugWBVisImo", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "21"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "21"}
