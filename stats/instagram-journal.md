@@ -20,3 +20,5 @@
 {"reseau": "instagram", "id": "18130042423887659"}
 ### 2026-10-26 16:10 publications/instagram/quiz_legal_4_long.json
 {"reseau": "instagram", "id": "18132003781748639"}
+### 2026-10-26 19:48 publications/instagram/pigeon_jour_8.json
+{"reseau": "instagram", "id": "17988490614087417"}
