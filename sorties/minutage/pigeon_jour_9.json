@@ -1,0 +1,103 @@
+{
+ "nom": "pigeon_jour_9",
+ "tempo": 1.0,
+ "duree_s": 19.72,
+ "hook": {
+  "texte": "Perds ta dame,|mate avec ton fou.",
+  "fin": 2.78
+ },
+ "question": {
+  "texte": "Suis le compte|pour la suite",
+  "t": 16.52
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Perds ta dame mate avec ton fou."
+  },
+  {
+   "t": 2.78,
+   "texte": "Tu as les Blancs."
+  },
+  {
+   "t": 4.14,
+   "texte": "Le pigeon mange un bonbon chez toi."
+  },
+  {
+   "t": 6.58,
+   "texte": "Ta dame sort avec échec."
+  },
+  {
+   "t": 8.58,
+   "texte": "Tu pousses tes pions il doit parer."
+  },
+  {
+   "t": 10.9,
+   "texte": "Il mange ta dame avec un poney."
+  },
+  {
+   "t": 13.42,
+   "texte": "Ton fou glisse."
+  },
+  {
+   "t": 14.56,
+   "texte": "Mat."
+  },
+  {
+   "t": 15.84,
+   "texte": "Tu serais tombé dedans ?"
+  },
+  {
+   "t": 17.76,
+   "texte": "Suis le compte pour la suite."
+  }
+ ],
+ "coups": [
+  {
+   "t": 3.06,
+   "coup": "exf5",
+   "badge": null
+  },
+  {
+   "t": 4.88,
+   "coup": "Bxg2",
+   "badge": null
+  },
+  {
+   "t": 6.92,
+   "coup": "Qh5+",
+   "badge": "brillant"
+  },
+  {
+   "t": 8.58,
+   "coup": "g6",
+   "badge": null
+  },
+  {
+   "t": 9.12,
+   "coup": "fxg6",
+   "badge": null
+  },
+  {
+   "t": 10.1,
+   "coup": "Nf6",
+   "badge": "gaffe"
+  },
+  {
+   "t": 10.9,
+   "coup": "gxh7",
+   "badge": "brillant"
+  },
+  {
+   "t": 11.84,
+   "coup": "Nxh5",
+   "badge": null
+  },
+  {
+   "t": 13.82,
+   "coup": "Bg6#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
