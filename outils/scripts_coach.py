@@ -863,3 +863,108 @@ QUESTIONS.update({
     "pigeon_en_5": "A = yes · B = never.|Comment!",
     "pigeon_en_6": "Follow for|the next trap",
 })
+
+# ---------- file du 26-27/10 (scénariste) : 2 FR + 4 EN. T1-fin (Owen = B, Traxler = A, seed 2710262233), T7-5/T7-6, T6-4 EN (ANALYSE « Game of the Century », sans voix) ----------
+# Producteur (27/10, 1 h) : python-chess + Stockfish 19 (WASM) : Owen 3...f5 = +3,5, 6...Nf6 = mat en 2, 7...Nxh5 8.Bg6# ;
+# Traxler 7.Kg1 = 0,0 puis 8.Nxh8 = mat en 1 (Qf2#) ; partie de 1956 : 41 coups légaux, 41...Rc2# mat, 17...Be6 = -2,9, 18.Bxb6 = -7,1.
+OWEN_PIEGE = "e4 b6 d4 Bb7 Bd3 f5 exf5 Bxg2 Qh5+ g6 fxg6 Nf6 gxh7 Nxh5"        # + Bg6#
+TRAXLER_PIEGE = "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Bc5 Nxf7 Bxf2+ Kxf2 Nxe4+ Kg1 Qh4"  # + Nxh8 Qf2#
+GOTC = ("Nf3 Nf6 c4 g6 Nc3 Bg7 d4 O-O Bf4 d5 Qb3 dxc4 Qxc4 c6 e4 Nbd7 Rd1 Nb6 Qc5 Bg4 Bg5 Na4 Qa3 Nxc3 bxc3 Nxe4 "
+        "Bxe7 Qb6 Bc4 Nxc3 Bc5 Rfe8+ Kf1 Be6 Bxb6 Bxc4+ Kg1 Ne2+ Kf1 Nxd4+ Kg1 Ne2+ Kf1 Nc3+ Kg1 axb6 Qb4 Ra4 Qxb6 Nxd1 "
+        "h3 Rxa2 Kh2 Nxf2 Re1 Rxe1 Qd8+ Bf8 Nxe1 Bd5 Nf3 Ne4 Qb8 b5 h4 h5 Ne5 Kg7 Kg1 Bc5+ Kf1 Ng3+ Ke1 Bb4+ Kd1 Bb3+ "
+        "Kc1 Ne2+ Kb1 Nc3+ Kc1 Rc2#")
+_G = GOTC.split()
+GOTC_12 = " ".join(_G[:23])   # jusqu'à 12.Qa3
+GOTC_17 = " ".join(_G[:34])   # jusqu'à 17...Be6 (image 1)
+GOTC_35 = " ".join(_G[:69])   # jusqu'à 35.Kg1
+GOTC_41 = " ".join(_G[:81])   # jusqu'à 41.Kc1
+PERSO.update({
+"pigeon_en_7": {
+    "cote": "blancs",
+    "hook": "Lose your queen,|then mate with a bishop.",
+    "voix": """[mischievously] Lose your queen, then mate with a bishop.
+You're White. The pigeon eats a candy on your side. Your queen jumps out with check. You push pawns, he must block. He eats your queen with a pony. Your bishop slides in. [laughs] Mate.
+Would you fall for it? Follow for the next trap.""",
+    "script": """[p """ + OWEN_PIEGE + """] [f d3g6] [s tag g6 3.0 MATE] Lose your queen, then mate with a bishop.
+[h] [p e4 b6 d4 Bb7 Bd3 f5] You're [m exf5] White. The pigeon eats [m Bxg2] a candy [s bonbon g2 2.0] on your side. Your queen [m Qh5+ brillant] jumps out with check. [m g6] You push [m fxg6] pawns, he must [m Nf6 gaffe] block. [m gxh7 brillant] He eats your queen [m Nxh5] [s tag h5 2.0 PIGEON] with a pony. Your bishop [m Bg6# mat] [z g6e8 1.45 2.6] [x impact] slides in. Mate.
+Would you fall for it? Follow for the next trap.""",
+},
+"pigeon_jour_9": {
+    "cote": "blancs",
+    "hook": "Perds ta dame,|mate avec ton fou.",
+    "voix": """[mischievously] Perds ta dame, mate avec ton fou.
+Tu as les Blancs. Le pigeon mange un bonbon chez toi. Ta dame sort avec échec. Tu pousses tes pions, il doit parer. Il mange ta dame avec un poney. Ton fou glisse. [laughs] Mat.
+Tu serais tombé dedans ? Suis le compte pour la suite.""",
+    "script": """[p """ + OWEN_PIEGE + """] [f d3g6] [s tag g6 3.0 MAT] Perds ta dame, mate avec ton fou.
+[h] [p e4 b6 d4 Bb7 Bd3 f5] Tu as [m exf5] les Blancs. Le pigeon mange [m Bxg2] un bonbon [s bonbon g2 2.0] chez toi. Ta dame [m Qh5+ brillant] sort avec échec. [m g6] Tu pousses [m fxg6] tes pions, il doit [m Nf6 gaffe] parer. [m gxh7 brillant] Il mange ta dame [m Nxh5] [s tag h5 2.0 LE_PIGEON] avec un poney. Ton fou [m Bg6# mat] [z g6e8 1.45 2.6] [x impact] glisse. Mat.
+Tu serais tombé dedans ? Suis le compte pour la suite.""",
+},
+"pigeon_en_8": {
+    "cote": "noirs",
+    "hook": "He eats your rook,|and you mate him.",
+    "voix": """[mischievously] He eats your rook, and you mate him.
+You're Black. The pigeon grabs a candy. You give him your bishop, he eats it. Your pony strikes with check. Your queen leaps out. He eats your rook. [laughs] Mate.
+Would you fall for it? Comment A: yes, or B: never.""",
+    "script": """[p """ + TRAXLER_PIEGE + """] [f h4f2] [s tag f2 3.0 MATE] He eats your rook, and you mate him.
+[h] [p e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Bc5] You're Black. The pigeon grabs [m Nxf7] a candy. [s bonbon f7 2.0] You give him [m Bxf2+ brillant] your bishop, he [m Kxf2] eats it. Your pony [m Nxe4+] strikes with check. [m Kg1] Your queen [m Qh4 brillant] leaps out. He eats [m Nxh8 gaffe] [s tag h8 2.0 PIGEON] your rook. [m Qf2# mat] [z f2g1 1.45 2.6] [x impact] Mate.
+Would you fall for it? Comment A: yes, or B: never.""",
+},
+"pigeon_jour_10": {
+    "cote": "noirs",
+    "hook": "Il mange ta tour,|et tu lui mets mat.",
+    "voix": """[mischievously] Il mange ta tour, et tu lui mets mat.
+Tu as les Noirs. Le pigeon prend un bonbon. Tu lui offres ton fou, il le mange. Ton poney attaque avec échec. Ta dame sort. Il mange ta tour. [laughs] Mat.
+Tu serais tombé dedans ? Commente A : oui, ou B : jamais.""",
+    "script": """[p """ + TRAXLER_PIEGE + """] [f h4f2] [s tag f2 3.0 MAT] Il mange ta tour, et tu lui mets mat.
+[h] [p e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Bc5] Tu as les Noirs. Le pigeon prend [m Nxf7] un bonbon. [s bonbon f7 2.0] Tu lui offres [m Bxf2+ brillant] ton fou, il le [m Kxf2] mange. Ton poney [m Nxe4+] attaque avec échec. [m Kg1] Ta dame [m Qh4 brillant] sort. Il mange [m Nxh8 gaffe] [s tag h8 2.0 LE_PIGEON] ta tour. [m Qf2# mat] [z f2g1 1.45 2.6] [x impact] Mat.
+Tu serais tombé dedans ? Commente A : oui, ou B : jamais.""",
+},
+"analyse_celebre_3_court": {  # SANS VOIX (commande "muet") ; vraie partie de 1956, aucun nom de joueur ; T6-4 variante B
+    "cote": "noirs", "sous_titres": "phrase",
+    "hook": "A 13-year-old gives|his queen away. And wins.",
+    "voix": """A 13-year-old gives his queen away. And wins.
+White takes his queen. He lets it go.
+Check! And check. And check. His pony will not stop.
+Queen gone? Black now has more material.
+16 moves later… MATE.
+Would you have seen it? Yes or no?""",
+    "script": """[p """ + GOTC_17 + """] [s tag b6 3.0 QUEEN] A 13-year-old gives his queen away. And wins.
+[h] [p """ + GOTC_17 + """] White takes [m Bxb6] his queen. [s tag b6 2.0 GONE] He lets it go.
+[m Bxc4+ brillant] Check! [m Kg1] And [m Ne2+] check. [m Kf1] And [m Nxd4+] check. [m Kg1] His [m Ne2+] pony [m Kf1] will [m Nc3+] not [m Kg1] stop.
+Queen gone? [m axb6] Black [m Qb4] now [m Ra4] has [m Qxb6] more [m Nxd1 brillant] material.
+[p """ + GOTC_41 + """] 16 moves later… [m Rc2# mat] [z c2c1 1.45 2.6] [x impact] MATE.
+Would you have seen it? Yes or no?""",
+},
+"analyse_celebre_3_long": {   # SANS VOIX (commande "muet") ; même partie ; T6-4 variante A (61-75 s)
+    "cote": "noirs", "sous_titres": "phrase",
+    "hook": "A 13-year-old gives|his queen away. And wins.",
+    "voix": """A 13-year-old gives his queen away. And wins.
+White has just won a pawn. He is a grown-up. Black is 13.
+Black's queen is hanging. He ignores it.
+White's bishop takes the queen. Then… check.
+Again: check. Again: check. Again: check. And check.
+His pony hits the rook. The queen is gone, but Black has more material.
+White still has the queen. But no way out.
+His king runs. And runs. Left. Left. Left. Trapped.
+MATE.
+Would you have seen it? Yes or no?""",
+    "script": """[p """ + GOTC_17 + """] [s tag b6 3.0 QUEEN] A 13-year-old gives his queen away. And wins.
+[h] [p """ + GOTC_12 + """] [m Nxc3] White [m bxc3] has [m Nxe4] just [m Bxe7] won a pawn. He [m Qb6] is [m Bc4] a [m Nxc3] grown-up. [m Bc5] Black [m Rfe8+] is [m Kf1] 13. [m Be6]
+Black's queen [z b6 1.3 2.0] [s tag b6 2.5 HANGING] is hanging. He ignores it.
+White's bishop [m Bxb6] takes the queen. Then… [m Bxc4+ brillant] check.
+[m Kg1] Again: [m Ne2+] check. [m Kf1] Again: [m Nxd4+] check. [m Kg1] Again: [m Ne2+] check. [m Kf1] And [m Nc3+] check. [m Kg1]
+[m axb6] His pony [m Qb4] hits [m Ra4] the [m Qxb6] rook. [m Nxd1 brillant] The queen is gone, but Black has more material.
+[m h3] White [m Rxa2] still [m Kh2] has [m Nxf2] the [m Re1] queen. [m Rxe1] But [m Qd8+] no [m Bf8] way [m Nxe1] out.
+[p """ + GOTC_35 + """] His [m Bc5+] king [m Kf1] runs. [m Ng3+] And [m Ke1] runs. [m Bb4+] Left. [m Kd1] [m Bb3+] Left. [m Kc1] [m Ne2+] Left. [m Kb1] [m Nc3+] Trapped. [m Kc1]
+[m Rc2# mat] [z c2c1 1.45 2.6] [x impact] MATE.
+Would you have seen it? Yes or no?""",
+},
+})
+QUESTIONS.update({
+    "pigeon_en_7": "Follow for|the next trap",
+    "pigeon_jour_9": "Suis le compte|pour la suite",
+    "pigeon_en_8": "A = yes · B = never.|Comment!",
+    "pigeon_jour_10": "A = oui · B = jamais.|Commente !",
+    "analyse_celebre_3_court": "Would you have|seen it? Yes or no?",
+    "analyse_celebre_3_long": "Would you have|seen it? Yes or no?",
+})
