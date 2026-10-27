@@ -226,3 +226,4 @@ urllib.error.URLError: <urlopen error [Errno 104] Connection reset by peer>
 {"publish_id": "v_inbox_file~v2.7701245050658965526", "mode": "brouillon", "vie_privee": null, "legende": "Le pigeon du jour #10 🐦 Il mange ta tour, et tu lui mets mat. Tu serais tombé dedans ? A ou B 👇 #echecs #chess #piege #echecsfr #traxler"}
 ### 2026-10-27 07:27 publications/tiktok/pigeon_jour_9.json
 {"publish_id": "v_inbox_file~v2.7701245050658998294", "mode": "brouillon", "vie_privee": null, "legende": "Le pigeon du jour #9 🐦 Perds ta dame, mate avec ton fou. Suis pour la suite 👉 #echecs #chess #piege #echecsfr #defenseowen"}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 5, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
