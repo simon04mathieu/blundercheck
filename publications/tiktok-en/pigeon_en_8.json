@@ -1,0 +1,40 @@
+{
+ "fichier": "sorties/pigeon_en_8.mp4",
+ "legende": "Pigeon Trap of the Day #8 🐦 He eats your rook, and you mate him. Would you fall for it? A or B 👇 #chess #chesstok #chesstrap #traxler",
+ "envoyer_apres": "2026-10-27T08:00:00+01:00",
+ "heure_conseillee": "2026-10-27T17:00:00+01:00",
+ "repere": "17 h · pigeon_en_8 · 22 s",
+ "ia": true,
+ "marque": true,
+ "concept": "pigeon_en",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "en",
+  "hook": "perte_tour+mat",
+  "premiers_mots": "He eats your",
+  "duree_s": 22,
+  "personnages": [
+   "rook",
+   "bishop",
+   "queen",
+   "pony",
+   "pigeon",
+   "candy",
+   "you"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "commente_A_ou_B",
+  "test": "T1-fin",
+  "variante": "A",
+  "paire": "T7-6",
+  "tirage": "seed 2710262233"
+ },
+ "format": "PERSO",
+ "langue": "en",
+ "test": "T1-fin",
+ "variante": "A",
+ "duree": 22,
+ "voix": "oui",
+ "paire": "T7-6"
+}

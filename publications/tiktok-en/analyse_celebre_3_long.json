@@ -1,0 +1,36 @@
+{
+ "fichier": "sorties/analyse_celebre_3_long.mp4",
+ "legende": "A 13-year-old sacrifices his queen and wins the Game of the Century ♟️ Would you have seen it? Yes or no 👇 #chess #chesstok #gameofthecentury #queensacrifice",
+ "envoyer_apres": "2026-10-27T08:00:00+01:00",
+ "heure_conseillee": "2026-10-27T20:00:00+01:00",
+ "repere": "20 h · analyse_celebre_3_long · 66 s",
+ "ia": true,
+ "marque": true,
+ "concept": "analyse_celebre",
+ "etiquettes": {
+  "format": "ANALYSE",
+  "langue": "en",
+  "hook": "perte_dame+victoire",
+  "premiers_mots": "A 13-year-old",
+  "duree_s": 66,
+  "personnages": [
+   "queen",
+   "pony",
+   "bishop",
+   "you"
+  ],
+  "musique": "fond1",
+  "voix": "non",
+  "fin": "oui_non",
+  "test": "T6-durée",
+  "variante": "A",
+  "paire": "T6-4"
+ },
+ "format": "ANALYSE",
+ "langue": "en",
+ "test": "T6-durée",
+ "variante": "A",
+ "duree": 66,
+ "voix": "non",
+ "paire": "T6-4"
+}

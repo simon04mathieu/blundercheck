@@ -1,0 +1,39 @@
+{
+ "fichier": "sorties/pigeon_en_7.mp4",
+ "legende": "Pigeon Trap of the Day #7 🐦 Lose your queen, then mate with a bishop. Follow for the next trap 👉 #chess #chesstok #chesstrap #owensdefense",
+ "envoyer_apres": "2026-10-27T08:00:00+01:00",
+ "heure_conseillee": "2026-10-27T11:00:00+01:00",
+ "repere": "11 h · pigeon_en_7 · 21 s",
+ "ia": true,
+ "marque": true,
+ "concept": "pigeon_en",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "en",
+  "hook": "perte_dame+mat",
+  "premiers_mots": "Lose your queen",
+  "duree_s": 21,
+  "personnages": [
+   "queen",
+   "bishop",
+   "pony",
+   "pigeon",
+   "candy",
+   "you"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "suis_le_compte",
+  "test": "T1-fin",
+  "variante": "B",
+  "paire": "T7-5",
+  "tirage": "seed 2710262233"
+ },
+ "format": "PERSO",
+ "langue": "en",
+ "test": "T1-fin",
+ "variante": "B",
+ "duree": 21,
+ "voix": "oui",
+ "paire": "T7-5"
+}

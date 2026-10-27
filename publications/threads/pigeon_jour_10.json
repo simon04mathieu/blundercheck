@@ -1,0 +1,36 @@
+{
+ "fichier": "sorties/pigeon_jour_10.mp4",
+ "legende": "Le pigeon du jour #10 🐦 Il mange ta tour… et tu lui mets mat. Tu serais tombé dedans ? Commente A (oui) ou B (jamais) 👇\n\n#echecs #chess #piege #traxler #echecsfr",
+ "envoyer_apres": "2026-10-27T20:00:00+01:00",
+ "concept": "pigeon_jour",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "hook": "perte_tour+mat",
+  "premiers_mots": "Il mange ta tour",
+  "duree_s": 23,
+  "personnages": [
+   "tour",
+   "fou",
+   "dame",
+   "poney",
+   "pigeon",
+   "bonbon",
+   "toi"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "commente_A_ou_B",
+  "test": "T1-fin",
+  "variante": "A",
+  "paire": "T7-6",
+  "tirage": "seed 2710262233"
+ },
+ "format": "PERSO",
+ "langue": "fr",
+ "test": "T1-fin",
+ "variante": "A",
+ "duree": 23,
+ "voix": "oui",
+ "paire": "T7-6"
+}

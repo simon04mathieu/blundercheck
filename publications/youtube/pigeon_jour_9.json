@@ -1,0 +1,43 @@
+{
+ "fichier": "sorties/pigeon_jour_9.mp4",
+ "envoyer_apres": "2026-10-27T14:00:00+01:00",
+ "titre": "Le piège de la défense Owen : ta dame tombe, ton fou fait mat 🐦 #echecs #shorts",
+ "description": "Le pigeon du jour\n\n#echecs #chess #shorts",
+ "tags": [
+  "échecs",
+  "chess",
+  "piège",
+  "poney",
+  "pigeon"
+ ],
+ "concept": "pigeon_jour",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "hook": "perte_dame+mat",
+  "premiers_mots": "Perds ta dame",
+  "duree_s": 20,
+  "personnages": [
+   "dame",
+   "fou",
+   "poney",
+   "pigeon",
+   "bonbon",
+   "toi"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "suis_le_compte",
+  "test": "T1-fin",
+  "variante": "B",
+  "paire": "T7-5",
+  "tirage": "seed 2710262233"
+ },
+ "format": "PERSO",
+ "langue": "fr",
+ "test": "T1-fin",
+ "variante": "B",
+ "duree": 20,
+ "voix": "oui",
+ "paire": "T7-5"
+}
