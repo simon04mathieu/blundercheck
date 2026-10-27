@@ -267,3 +267,6 @@
 ### commandes/perso_analyse_celebre_3_court.json
     sans voix (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/analyse_celebre_3_court.mp4 {"voix_brute_s": 38.5, "tempo": 1.0, "video_s": 38.5, "voice_id": "aucune", "musique": "fond1.mp3", "mots_transcrits": 45, "minutage": "14 phrases, 17 coups, 0 pauses"}
+### commandes/perso_analyse_celebre_3_long.json
+    sans voix (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/analyse_celebre_3_long.mp4 {"voix_brute_s": 66.4, "tempo": 1.0, "video_s": 66.5, "voice_id": "aucune", "musique": "fond1.mp3", "mots_transcrits": 84, "minutage": "27 phrases, 49 coups, 0 pauses"}

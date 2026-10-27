@@ -1,0 +1,371 @@
+{
+ "nom": "analyse_celebre_3_long",
+ "tempo": 1.0,
+ "duree_s": 66.45,
+ "hook": {
+  "texte": "A 13-year-old gives|his queen away. And wins.",
+  "fin": 6.07
+ },
+ "question": {
+  "texte": "Would you have|seen it? Yes or no?",
+  "t": 63.25
+ },
+ "phrases": [
+  {
+   "t": 0.2,
+   "texte": "A 13-year-old gives his queen away."
+  },
+  {
+   "t": 4.27,
+   "texte": "And wins."
+  },
+  {
+   "t": 6.07,
+   "texte": "White has just won a pawn."
+  },
+  {
+   "t": 9.7,
+   "texte": "He is a grown-up."
+  },
+  {
+   "t": 12.4,
+   "texte": "Black is 13."
+  },
+  {
+   "t": 14.59,
+   "texte": "Black's queen is hanging."
+  },
+  {
+   "t": 17.67,
+   "texte": "He ignores it."
+  },
+  {
+   "t": 19.97,
+   "texte": "White's bishop takes the queen."
+  },
+  {
+   "t": 23.59,
+   "texte": "Then…"
+  },
+  {
+   "t": 24.94,
+   "texte": "check."
+  },
+  {
+   "t": 26.34,
+   "texte": "Again: check."
+  },
+  {
+   "t": 28.6,
+   "texte": "Again: check."
+  },
+  {
+   "t": 30.87,
+   "texte": "Again: check."
+  },
+  {
+   "t": 33.13,
+   "texte": "And check."
+  },
+  {
+   "t": 34.97,
+   "texte": "His pony hits the rook."
+  },
+  {
+   "t": 38.21,
+   "texte": "The queen is gone but Black has more material."
+  },
+  {
+   "t": 43.89,
+   "texte": "White still has the queen."
+  },
+  {
+   "t": 47.27,
+   "texte": "But no way out."
+  },
+  {
+   "t": 49.87,
+   "texte": "His king runs."
+  },
+  {
+   "t": 52.16,
+   "texte": "And runs."
+  },
+  {
+   "t": 53.96,
+   "texte": "Left."
+  },
+  {
+   "t": 55.31,
+   "texte": "Left."
+  },
+  {
+   "t": 56.66,
+   "texte": "Left."
+  },
+  {
+   "t": 58.02,
+   "texte": "Trapped."
+  },
+  {
+   "t": 59.51,
+   "texte": "MATE."
+  },
+  {
+   "t": 60.86,
+   "texte": "Would you have seen it?"
+  },
+  {
+   "t": 64.1,
+   "texte": "Yes or no?"
+  }
+ ],
+ "coups": [
+  {
+   "t": 6.07,
+   "coup": "Nxc3",
+   "badge": null
+  },
+  {
+   "t": 6.61,
+   "coup": "bxc3",
+   "badge": null
+  },
+  {
+   "t": 7.06,
+   "coup": "Nxe4",
+   "badge": null
+  },
+  {
+   "t": 7.56,
+   "coup": "Bxe7",
+   "badge": null
+  },
+  {
+   "t": 10.1,
+   "coup": "Qb6",
+   "badge": null
+  },
+  {
+   "t": 10.5,
+   "coup": "Bc4",
+   "badge": null
+  },
+  {
+   "t": 10.85,
+   "coup": "Nxc3",
+   "badge": null
+  },
+  {
+   "t": 12.4,
+   "coup": "Bc5",
+   "badge": null
+  },
+  {
+   "t": 12.94,
+   "coup": "Rfe8+",
+   "badge": null
+  },
+  {
+   "t": 13.34,
+   "coup": "Kf1",
+   "badge": null
+  },
+  {
+   "t": 14.59,
+   "coup": "Be6",
+   "badge": null
+  },
+  {
+   "t": 21.2,
+   "coup": "Bxb6",
+   "badge": null
+  },
+  {
+   "t": 24.94,
+   "coup": "Bxc4+",
+   "badge": "brillant"
+  },
+  {
+   "t": 26.34,
+   "coup": "Kg1",
+   "badge": null
+  },
+  {
+   "t": 27.2,
+   "coup": "Ne2+",
+   "badge": null
+  },
+  {
+   "t": 28.6,
+   "coup": "Kf1",
+   "badge": null
+  },
+  {
+   "t": 29.47,
+   "coup": "Nxd4+",
+   "badge": null
+  },
+  {
+   "t": 30.87,
+   "coup": "Kg1",
+   "badge": null
+  },
+  {
+   "t": 31.73,
+   "coup": "Ne2+",
+   "badge": null
+  },
+  {
+   "t": 33.13,
+   "coup": "Kf1",
+   "badge": null
+  },
+  {
+   "t": 33.57,
+   "coup": "Nc3+",
+   "badge": null
+  },
+  {
+   "t": 34.97,
+   "coup": "Kg1",
+   "badge": null
+  },
+  {
+   "t": 34.97,
+   "coup": "axb6",
+   "badge": null
+  },
+  {
+   "t": 35.92,
+   "coup": "Qb4",
+   "badge": null
+  },
+  {
+   "t": 36.41,
+   "coup": "Ra4",
+   "badge": null
+  },
+  {
+   "t": 36.86,
+   "coup": "Qxb6",
+   "badge": null
+  },
+  {
+   "t": 38.21,
+   "coup": "Nxd1",
+   "badge": "brillant"
+  },
+  {
+   "t": 43.89,
+   "coup": "h3",
+   "badge": null
+  },
+  {
+   "t": 44.44,
+   "coup": "Rxa2",
+   "badge": null
+  },
+  {
+   "t": 44.98,
+   "coup": "Kh2",
+   "badge": null
+  },
+  {
+   "t": 45.43,
+   "coup": "Nxf2",
+   "badge": null
+  },
+  {
+   "t": 45.87,
+   "coup": "Re1",
+   "badge": null
+  },
+  {
+   "t": 47.27,
+   "coup": "Rxe1",
+   "badge": null
+  },
+  {
+   "t": 47.72,
+   "coup": "Qd8+",
+   "badge": null
+  },
+  {
+   "t": 48.12,
+   "coup": "Bf8",
+   "badge": null
+  },
+  {
+   "t": 48.57,
+   "coup": "Nxe1",
+   "badge": null
+  },
+  {
+   "t": 50.32,
+   "coup": "Bc5+",
+   "badge": null
+  },
+  {
+   "t": 50.81,
+   "coup": "Kf1",
+   "badge": null
+  },
+  {
+   "t": 52.16,
+   "coup": "Ng3+",
+   "badge": null
+  },
+  {
+   "t": 52.61,
+   "coup": "Ke1",
+   "badge": null
+  },
+  {
+   "t": 53.96,
+   "coup": "Bb4+",
+   "badge": null
+  },
+  {
+   "t": 55.31,
+   "coup": "Kd1",
+   "badge": null
+  },
+  {
+   "t": 55.31,
+   "coup": "Bb3+",
+   "badge": null
+  },
+  {
+   "t": 56.66,
+   "coup": "Kc1",
+   "badge": null
+  },
+  {
+   "t": 56.66,
+   "coup": "Ne2+",
+   "badge": null
+  },
+  {
+   "t": 58.02,
+   "coup": "Kb1",
+   "badge": null
+  },
+  {
+   "t": 58.02,
+   "coup": "Nc3+",
+   "badge": null
+  },
+  {
+   "t": 59.51,
+   "coup": "Kc1",
+   "badge": null
+  },
+  {
+   "t": 59.51,
+   "coup": "Rc2#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
