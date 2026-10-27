@@ -1,5 +1,5 @@
 {
- "date": "2026-10-27T13:51:51.795612+00:00",
+ "date": "2026-10-27T14:49:06.583997+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,13 +7,22 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "tmo47GivqzQ": {
+   "titre": "Le piège de la défense Owen : ta dame tombe, ton fou fait mat 🐦 #echecs #shorts",
+   "publiee": "2026-10-27T13:52:08Z",
+   "statut": "public",
+   "duree": "PT21S",
+   "vues": 1,
+   "jaime": 1,
+   "commentaires": 0
+  },
   "Ia8tWZg6RyM": {
    "titre": "Owen's Defense trap: lose your queen, mate with a bishop 🐦 #chess #shorts",
    "publiee": "2026-10-27T10:39:20Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 335,
-   "jaime": 4,
+   "vues": 604,
+   "jaime": 9,
    "commentaires": 0
   },
   "JtIIHvkqiP8": {
@@ -39,8 +48,8 @@
    "publiee": "2026-10-26T14:46:54Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 313,
-   "jaime": 2,
+   "vues": 343,
+   "jaime": 3,
    "commentaires": 0
   },
   "5s_MAAzoJno": {
@@ -66,7 +75,7 @@
    "publiee": "2026-10-25T16:31:03Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 993,
+   "vues": 1017,
    "jaime": 15,
    "commentaires": 0
   },
@@ -84,7 +93,7 @@
    "publiee": "2026-10-25T10:30:22Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 763,
+   "vues": 771,
    "jaime": 11,
    "commentaires": 1
   },
@@ -93,7 +102,7 @@
    "publiee": "2026-10-24T18:32:00Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 1002,
+   "vues": 1006,
    "jaime": 8,
    "commentaires": 1
   },
@@ -111,7 +120,7 @@
    "publiee": "2026-10-24T12:36:05Z",
    "statut": "public",
    "duree": "PT26S",
-   "vues": 1219,
+   "vues": 1227,
    "jaime": 21,
    "commentaires": 0
   },
@@ -138,7 +147,7 @@
    "publiee": "2026-10-23T16:37:35Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 1059,
+   "vues": 1062,
    "jaime": 11,
    "commentaires": 1
   },
