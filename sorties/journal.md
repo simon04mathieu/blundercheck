@@ -263,3 +263,7 @@
 ### commandes/perso_pigeon_en_7.json
     voix générée : 292 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_7.mp4 {"voix_brute_s": 20.4, "tempo": 1.0, "video_s": 21.1, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 52, "minutage": "10 phrases, 9 coups, 0 pauses"}
+## 2026-10-27 00:17 UTC · run 40425357818
+### commandes/perso_analyse_celebre_3_court.json
+    sans voix (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/analyse_celebre_3_court.mp4 {"voix_brute_s": 38.5, "tempo": 1.0, "video_s": 38.5, "voice_id": "aucune", "musique": "fond1.mp3", "mots_transcrits": 45, "minutage": "14 phrases, 17 coups, 0 pauses"}

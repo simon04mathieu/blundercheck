@@ -1,0 +1,159 @@
+{
+ "nom": "analyse_celebre_3_court",
+ "tempo": 1.0,
+ "duree_s": 38.45,
+ "hook": {
+  "texte": "A 13-year-old gives|his queen away. And wins.",
+  "fin": 6.74
+ },
+ "question": {
+  "texte": "Would you have|seen it? Yes or no?",
+  "t": 35.25
+ },
+ "phrases": [
+  {
+   "t": 0.2,
+   "texte": "A 13-year-old gives his queen away."
+  },
+  {
+   "t": 4.74,
+   "texte": "And wins."
+  },
+  {
+   "t": 6.74,
+   "texte": "White takes his queen."
+  },
+  {
+   "t": 10.02,
+   "texte": "He lets it go."
+  },
+  {
+   "t": 12.85,
+   "texte": "Check!"
+  },
+  {
+   "t": 14.42,
+   "texte": "And check."
+  },
+  {
+   "t": 16.47,
+   "texte": "And check."
+  },
+  {
+   "t": 18.53,
+   "texte": "His pony will not stop."
+  },
+  {
+   "t": 22.14,
+   "texte": "Queen gone?"
+  },
+  {
+   "t": 24.25,
+   "texte": "Black now has more material."
+  },
+  {
+   "t": 28.13,
+   "texte": "16 moves later…"
+  },
+  {
+   "t": 30.74,
+   "texte": "MATE."
+  },
+  {
+   "t": 32.25,
+   "texte": "Would you have seen it?"
+  },
+  {
+   "t": 35.86,
+   "texte": "Yes or no?"
+  }
+ ],
+ "coups": [
+  {
+   "t": 7.96,
+   "coup": "Bxb6",
+   "badge": null
+  },
+  {
+   "t": 12.85,
+   "coup": "Bxc4+",
+   "badge": "brillant"
+  },
+  {
+   "t": 14.42,
+   "coup": "Kg1",
+   "badge": null
+  },
+  {
+   "t": 14.91,
+   "coup": "Ne2+",
+   "badge": null
+  },
+  {
+   "t": 16.47,
+   "coup": "Kf1",
+   "badge": null
+  },
+  {
+   "t": 16.97,
+   "coup": "Nxd4+",
+   "badge": null
+  },
+  {
+   "t": 18.53,
+   "coup": "Kg1",
+   "badge": null
+  },
+  {
+   "t": 19.03,
+   "coup": "Ne2+",
+   "badge": null
+  },
+  {
+   "t": 19.58,
+   "coup": "Kf1",
+   "badge": null
+  },
+  {
+   "t": 20.14,
+   "coup": "Nc3+",
+   "badge": null
+  },
+  {
+   "t": 20.63,
+   "coup": "Kg1",
+   "badge": null
+  },
+  {
+   "t": 24.25,
+   "coup": "axb6",
+   "badge": null
+  },
+  {
+   "t": 24.86,
+   "coup": "Qb4",
+   "badge": null
+  },
+  {
+   "t": 25.36,
+   "coup": "Ra4",
+   "badge": null
+  },
+  {
+   "t": 25.86,
+   "coup": "Qxb6",
+   "badge": null
+  },
+  {
+   "t": 26.41,
+   "coup": "Nxd1",
+   "badge": "brillant"
+  },
+  {
+   "t": 30.74,
+   "coup": "Rc2#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
