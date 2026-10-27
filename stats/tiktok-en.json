@@ -1,5 +1,5 @@
 {
- "date": "2026-10-27T06:11:15.071134+00:00",
+ "date": "2026-10-27T07:27:29.409910+00:00",
  "compte": {
   "display_name": "BlunderCheck • Chess",
   "follower_count": 1,
@@ -8,70 +8,70 @@
  },
  "videos": [
   {
+   "title": "#BlunderCheck ",
+   "view_count": 170,
    "comment_count": 0,
    "create_time": 1793022675,
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700973722513034518?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "share_count": 2,
-   "title": "#BlunderCheck ",
-   "view_count": 164,
    "duration": 21,
    "id": "7700973722513034518",
-   "like_count": 6,
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700973722513034518?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm"
+   "like_count": 6
   },
   {
+   "comment_count": 0,
    "duration": 22,
    "id": "7700917551781465366",
-   "share_count": 0,
    "title": "#BlunderCheck ",
-   "comment_count": 0,
+   "view_count": 677,
    "create_time": 1793009598,
    "like_count": 17,
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700917551781465366?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "view_count": 677
-  },
-  {
-   "title": "#BlunderCheck ",
-   "view_count": 6,
-   "duration": 23,
-   "id": "7700880100975250710",
    "share_count": 0,
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700880100975250710?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "comment_count": 0,
-   "create_time": 1793000884,
-   "like_count": 1
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700917551781465366?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm"
   },
   {
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700880100975250710?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "title": "#BlunderCheck ",
+   "create_time": 1793000884,
+   "id": "7700880100975250710",
+   "like_count": 1,
+   "view_count": 6,
+   "comment_count": 0,
+   "duration": 23,
+   "share_count": 0
+  },
+  {
+   "create_time": 1792936867,
    "duration": 21,
+   "like_count": 23,
    "share_count": 1,
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700605174578007318?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "title": "#BlunderCheck ",
    "comment_count": 1,
-   "create_time": 1792936867,
-   "view_count": 694,
    "id": "7700605174578007318",
-   "like_count": 23
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700605174578007318?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "view_count": 694
   },
   {
-   "create_time": 1792843054,
-   "duration": 25,
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700202259220598039?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "like_count": 29,
    "title": "#BlunderCheck #chess #game #halloween ",
    "comment_count": 1,
-   "id": "7700202259220598039",
-   "like_count": 29,
+   "duration": 25,
    "share_count": 0,
-   "view_count": 758
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700202259220598039?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "view_count": 758,
+   "create_time": 1792843054,
+   "id": "7700202259220598039"
   },
   {
-   "like_count": 58,
+   "duration": 23,
    "share_count": 0,
    "title": "#BlunderCheck #trap #chess #short ",
-   "create_time": 1792833149,
-   "duration": 23,
+   "comment_count": 0,
+   "id": "7700159699777359106",
+   "like_count": 58,
    "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700159699777359106?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "view_count": 1529,
-   "comment_count": 0,
-   "id": "7700159699777359106"
+   "create_time": 1792833149
   }
  ]
 }
