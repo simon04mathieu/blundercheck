@@ -1,0 +1,103 @@
+{
+ "nom": "pigeon_en_7",
+ "tempo": 1.0,
+ "duree_s": 20.52,
+ "hook": {
+  "texte": "Lose your queen,|then mate with a bishop.",
+  "fin": 3.06
+ },
+ "question": {
+  "texte": "Follow for|the next trap",
+  "t": 17.32
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Lose your queen then mate with a bishop."
+  },
+  {
+   "t": 3.06,
+   "texte": "You're White."
+  },
+  {
+   "t": 4.7,
+   "texte": "The pigeon eats a candy on your side."
+  },
+  {
+   "t": 7.4,
+   "texte": "Your queen jumps out with check."
+  },
+  {
+   "t": 9.72,
+   "texte": "You push pawns he must block."
+  },
+  {
+   "t": 12.5,
+   "texte": "He eats your queen with a pony."
+  },
+  {
+   "t": 14.84,
+   "texte": "Your bishop slides in."
+  },
+  {
+   "t": 16.44,
+   "texte": "Mate."
+  },
+  {
+   "t": 17.68,
+   "texte": "Would you fall for it?"
+  },
+  {
+   "t": 19.08,
+   "texte": "Follow for the next trap."
+  }
+ ],
+ "coups": [
+  {
+   "t": 3.2,
+   "coup": "exf5",
+   "badge": null
+  },
+  {
+   "t": 5.52,
+   "coup": "Bxg2",
+   "badge": null
+  },
+  {
+   "t": 7.88,
+   "coup": "Qh5+",
+   "badge": "brillant"
+  },
+  {
+   "t": 9.72,
+   "coup": "g6",
+   "badge": null
+  },
+  {
+   "t": 10.18,
+   "coup": "fxg6",
+   "badge": null
+  },
+  {
+   "t": 11.4,
+   "coup": "Nf6",
+   "badge": "gaffe"
+  },
+  {
+   "t": 12.5,
+   "coup": "gxh7",
+   "badge": "brillant"
+  },
+  {
+   "t": 13.46,
+   "coup": "Nxh5",
+   "badge": null
+  },
+  {
+   "t": 15.24,
+   "coup": "Bg6#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}

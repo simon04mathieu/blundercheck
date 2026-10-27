@@ -259,3 +259,7 @@
 ### commandes/perso_quiz_legal_4_long.json
     sans voix (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/quiz_legal_4_long.mp4 {"voix_brute_s": 66.4, "tempo": 1.0, "video_s": 69.5, "voice_id": "aucune", "musique": "fond1.mp3", "mots_transcrits": 92, "minutage": "20 phrases, 1 coups, 1 pauses"}
+## 2026-10-27 00:13 UTC · run 40423998653
+### commandes/perso_pigeon_en_7.json
+    voix générée : 292 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_7.mp4 {"voix_brute_s": 20.4, "tempo": 1.0, "video_s": 21.1, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 52, "minutage": "10 phrases, 9 coups, 0 pauses"}
