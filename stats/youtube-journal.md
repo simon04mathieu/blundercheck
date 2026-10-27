@@ -165,3 +165,4 @@
 ### 2026-10-27 10:38 publications/youtube/pigeon_en_7.json
 {"id": "Ia8tWZg6RyM", "url": "https://www.youtube.com/shorts/Ia8tWZg6RyM", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "22"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "22"}
