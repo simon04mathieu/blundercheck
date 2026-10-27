@@ -166,3 +166,6 @@
 {"id": "Ia8tWZg6RyM", "url": "https://www.youtube.com/shorts/Ia8tWZg6RyM", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "22"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "22"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "22"}
+### 2026-10-27 13:51 publications/youtube/pigeon_jour_9.json
+{"id": "tmo47GivqzQ", "url": "https://www.youtube.com/shorts/tmo47GivqzQ", "statut": "public", "publier_le": null}
