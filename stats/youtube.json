@@ -1,5 +1,5 @@
 {
- "date": "2026-10-27T10:38:59.704935+00:00",
+ "date": "2026-10-27T11:37:13.427632+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,6 +7,15 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "Ia8tWZg6RyM": {
+   "titre": "Owen's Defense trap: lose your queen, mate with a bishop 🐦 #chess #shorts",
+   "publiee": "2026-10-27T10:39:20Z",
+   "statut": "public",
+   "duree": "PT22S",
+   "vues": 25,
+   "jaime": 0,
+   "commentaires": 0
+  },
   "JtIIHvkqiP8": {
    "titre": "Le mat de Boden : donne ta dame, il est mat 🐦 #echecs #shorts",
    "publiee": "2026-10-26T19:42:30Z",
@@ -39,7 +48,7 @@
    "publiee": "2026-10-26T10:41:17Z",
    "statut": "public",
    "duree": "PT40S",
-   "vues": 423,
+   "vues": 499,
    "jaime": 6,
    "commentaires": 0
   },
