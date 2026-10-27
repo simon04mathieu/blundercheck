@@ -1,5 +1,5 @@
 {
- "date": "2026-10-27T15:46:45.457770+00:00",
+ "date": "2026-10-27T16:48:03.283737+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -12,7 +12,7 @@
    "publiee": "2026-10-27T13:52:08Z",
    "statut": "public",
    "duree": "PT21S",
-   "vues": 4,
+   "vues": 21,
    "jaime": 1,
    "commentaires": 0
   },
@@ -21,7 +21,7 @@
    "publiee": "2026-10-27T10:39:20Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 707,
+   "vues": 841,
    "jaime": 9,
    "commentaires": 0
   },
@@ -30,7 +30,7 @@
    "publiee": "2026-10-26T19:42:30Z",
    "statut": "public",
    "duree": "PT25S",
-   "vues": 84,
+   "vues": 124,
    "jaime": 1,
    "commentaires": 0
   },
@@ -48,8 +48,8 @@
    "publiee": "2026-10-26T14:46:54Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 343,
-   "jaime": 3,
+   "vues": 390,
+   "jaime": 4,
    "commentaires": 0
   },
   "5s_MAAzoJno": {
@@ -57,7 +57,7 @@
    "publiee": "2026-10-26T10:41:17Z",
    "statut": "public",
    "duree": "PT40S",
-   "vues": 578,
+   "vues": 587,
    "jaime": 7,
    "commentaires": 0
   },
@@ -75,7 +75,7 @@
    "publiee": "2026-10-25T16:31:03Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 1022,
+   "vues": 1025,
    "jaime": 15,
    "commentaires": 0
   },
@@ -93,7 +93,7 @@
    "publiee": "2026-10-25T10:30:22Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 769,
+   "vues": 771,
    "jaime": 11,
    "commentaires": 1
   },
@@ -120,7 +120,7 @@
    "publiee": "2026-10-24T12:36:05Z",
    "statut": "public",
    "duree": "PT26S",
-   "vues": 1229,
+   "vues": 1232,
    "jaime": 21,
    "commentaires": 0
   },
@@ -147,7 +147,7 @@
    "publiee": "2026-10-23T16:37:35Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 1064,
+   "vues": 1065,
    "jaime": 11,
    "commentaires": 1
   },
@@ -156,7 +156,7 @@
    "publiee": "2026-10-23T13:41:41Z",
    "statut": "public",
    "duree": "PT41S",
-   "vues": 1196,
+   "vues": 1197,
    "jaime": 26,
    "commentaires": 1
   },
