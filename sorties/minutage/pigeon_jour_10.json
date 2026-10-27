@@ -1,0 +1,98 @@
+{
+ "nom": "pigeon_jour_10",
+ "tempo": 1.0,
+ "duree_s": 22.08,
+ "hook": {
+  "texte": "Il mange ta tour,|et tu lui mets mat.",
+  "fin": 3.06
+ },
+ "question": {
+  "texte": "A = oui · B = jamais.|Commente !",
+  "t": 18.88
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Il mange ta tour et tu lui mets mat."
+  },
+  {
+   "t": 3.06,
+   "texte": "Tu as les Noirs."
+  },
+  {
+   "t": 4.94,
+   "texte": "Le pigeon prend un bonbon."
+  },
+  {
+   "t": 6.84,
+   "texte": "Tu lui offres ton fou il le mange."
+  },
+  {
+   "t": 9.82,
+   "texte": "Ton poney attaque avec échec."
+  },
+  {
+   "t": 12.08,
+   "texte": "Ta dame sort."
+  },
+  {
+   "t": 13.36,
+   "texte": "Il mange ta tour."
+  },
+  {
+   "t": 14.88,
+   "texte": "Mat."
+  },
+  {
+   "t": 16.42,
+   "texte": "Tu serais tombé dedans ?"
+  },
+  {
+   "t": 18.38,
+   "texte": "Commente A  oui, ou B  jamais."
+  }
+ ],
+ "coups": [
+  {
+   "t": 5.82,
+   "coup": "Nxf7",
+   "badge": null
+  },
+  {
+   "t": 7.42,
+   "coup": "Bxf2+",
+   "badge": "brillant"
+  },
+  {
+   "t": 8.48,
+   "coup": "Kxf2",
+   "badge": null
+  },
+  {
+   "t": 10.5,
+   "coup": "Nxe4+",
+   "badge": null
+  },
+  {
+   "t": 12.08,
+   "coup": "Kg1",
+   "badge": null
+  },
+  {
+   "t": 12.38,
+   "coup": "Qh4",
+   "badge": "brillant"
+  },
+  {
+   "t": 13.82,
+   "coup": "Nxh8",
+   "badge": "gaffe"
+  },
+  {
+   "t": 14.88,
+   "coup": "Qf2#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
