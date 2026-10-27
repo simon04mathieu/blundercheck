@@ -1,0 +1,98 @@
+{
+ "nom": "pigeon_en_8",
+ "tempo": 1.0,
+ "duree_s": 21.12,
+ "hook": {
+  "texte": "He eats your rook,|and you mate him.",
+  "fin": 2.68
+ },
+ "question": {
+  "texte": "A = yes · B = never.|Comment!",
+  "t": 17.92
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "He eats your rook and you mate him."
+  },
+  {
+   "t": 2.68,
+   "texte": "You're Black."
+  },
+  {
+   "t": 4.3,
+   "texte": "The pigeon grabs a candy."
+  },
+  {
+   "t": 6.18,
+   "texte": "You give him your bishop he eats it."
+  },
+  {
+   "t": 8.9,
+   "texte": "Your pony strikes with check."
+  },
+  {
+   "t": 11.08,
+   "texte": "Your queen leaps out."
+  },
+  {
+   "t": 12.92,
+   "texte": "He eats your rook."
+  },
+  {
+   "t": 14.6,
+   "texte": "Mate."
+  },
+  {
+   "t": 16.0,
+   "texte": "Would you fall for it?"
+  },
+  {
+   "t": 17.8,
+   "texte": "Comment A: yes or B: never."
+  }
+ ],
+ "coups": [
+  {
+   "t": 5.02,
+   "coup": "Nxf7",
+   "badge": null
+  },
+  {
+   "t": 6.66,
+   "coup": "Bxf2+",
+   "badge": "brillant"
+  },
+  {
+   "t": 7.74,
+   "coup": "Kxf2",
+   "badge": null
+  },
+  {
+   "t": 9.36,
+   "coup": "Nxe4+",
+   "badge": null
+  },
+  {
+   "t": 11.08,
+   "coup": "Kg1",
+   "badge": null
+  },
+  {
+   "t": 11.62,
+   "coup": "Qh4",
+   "badge": "brillant"
+  },
+  {
+   "t": 13.32,
+   "coup": "Nxh8",
+   "badge": "gaffe"
+  },
+  {
+   "t": 14.6,
+   "coup": "Qf2#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
