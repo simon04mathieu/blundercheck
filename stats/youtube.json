@@ -1,5 +1,5 @@
 {
- "date": "2026-10-27T21:36:05.314388+00:00",
+ "date": "2026-10-27T22:37:36.730507+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -12,7 +12,7 @@
    "publiee": "2026-10-27T19:40:53Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 3,
+   "vues": 41,
    "jaime": 1,
    "commentaires": 0
   },
@@ -21,7 +21,7 @@
    "publiee": "2026-10-27T16:48:22Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 224,
+   "vues": 284,
    "jaime": 2,
    "commentaires": 0
   },
@@ -30,7 +30,7 @@
    "publiee": "2026-10-27T13:52:08Z",
    "statut": "public",
    "duree": "PT21S",
-   "vues": 44,
+   "vues": 40,
    "jaime": 1,
    "commentaires": 0
   },
@@ -39,7 +39,7 @@
    "publiee": "2026-10-27T10:39:20Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 1031,
+   "vues": 1033,
    "jaime": 8,
    "commentaires": 0
   },
@@ -48,8 +48,8 @@
    "publiee": "2026-10-26T19:42:30Z",
    "statut": "public",
    "duree": "PT25S",
-   "vues": 171,
-   "jaime": 3,
+   "vues": 161,
+   "jaime": 2,
    "commentaires": 0
   },
   "9ugWBVisImo": {
@@ -66,7 +66,7 @@
    "publiee": "2026-10-26T14:46:54Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 471,
+   "vues": 482,
    "jaime": 5,
    "commentaires": 0
   },
@@ -75,9 +75,9 @@
    "publiee": "2026-10-26T10:41:17Z",
    "statut": "public",
    "duree": "PT40S",
-   "vues": 808,
+   "vues": 830,
    "jaime": 7,
-   "commentaires": 0
+   "commentaires": 1
   },
   "KSGU7-Vt67A": {
    "titre": "Opéra, 1858 : il mange tout… et il est mat 🎭 #echecs #shorts",
@@ -93,7 +93,7 @@
    "publiee": "2026-10-25T16:31:03Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 1042,
+   "vues": 1045,
    "jaime": 15,
    "commentaires": 0
   },
@@ -111,7 +111,7 @@
    "publiee": "2026-10-25T10:30:22Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 774,
+   "vues": 776,
    "jaime": 11,
    "commentaires": 1
   },
@@ -120,7 +120,7 @@
    "publiee": "2026-10-24T18:32:00Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 1012,
+   "vues": 1014,
    "jaime": 8,
    "commentaires": 1
   },
@@ -138,7 +138,7 @@
    "publiee": "2026-10-24T12:36:05Z",
    "statut": "public",
    "duree": "PT26S",
-   "vues": 1240,
+   "vues": 1245,
    "jaime": 21,
    "commentaires": 0
   },
