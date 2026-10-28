@@ -10896,5 +10896,23 @@ document.addEventListener('keydown', e => {
 
 })();
 document.querySelectorAll('[data-lang]').forEach(function (b) { b.classList.toggle('on', b.dataset.lang === window.BC_LANG); });
+/* Page /try (fiche site/page-try.md) : /en?u=<pseudo>&s=chesscom|lichess importe la DERNIÈRE partie du joueur et ouvre son analyse, sans autre clic. */
+window.addEventListener('load', function () { try {
+  var q = new URLSearchParams(location.search), u = (q.get('u') || '').trim().replace(/^@/, ''), s = q.get('s') === 'lichess' ? 'lichess' : 'chesscom';
+  if (!/^[\w-]{2,30}$/.test(u)) return;
+  q.delete('u'); q.delete('s'); history.replaceState(history.state, '', location.pathname + (q.toString() ? '?' + q : '') + location.hash);
+  setTimeout(function () {
+    PS.site = s; PS.pseudo = u; PS.n = 5; PS.list = null; PS.etat = ''; PS.autoGo = true; IMP.tab = 'pseudo'; aller('import');
+    var t0 = Date.now(), iv = setInterval(function () {
+      if (Date.now() - t0 > 30000 || PS.etat === 'erreur') { clearInterval(iv); return; }
+      var cases = document.querySelectorAll('#impBody input[data-k]'), go = document.getElementById('psGo');
+      if (!PS.list || !cases.length || !go) return;
+      clearInterval(iv);
+      if (cases[0].disabled) { var P = chargerPartie(PS.list[0]), d = P && LIB.find(function (g) { return clePartie(g.pgn) === clePartie(PS.list[0]); }); if (d) ouvrirAnalyse(d.id, 0); return; }
+      cases.forEach(function (x, k) { x.checked = k === 0; });
+      go.click();
+    }, 300);
+  }, 50);
+} catch (e) { } });
 
 </script>

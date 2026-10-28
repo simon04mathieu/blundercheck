@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Free AI review of your last chess game · BlunderCheck</title>
+<script>/* Compteur de provenance ?src (fiche site/compteur-src.md). Une arrivée par jour et par source ; ?admin exclut ce navigateur. Page « try » (fiche site/page-try.md). */
+(function(){try{
+var P='try',u=new URL(location.href),q=u.searchParams,s=(q.get('src')||'').toLowerCase(),ok=/^[a-z0-9][a-z0-9-]{0,29}$/,ls=null;
+try{ls=window.localStorage;}catch(e){}
+if(!ok.test(s))s='';
+var c=document.cookie.match(/(?:^|;\s*)bc_src=([a-z0-9-]{1,30})/);
+var sec=location.protocol==='https:'?'; Secure':'',moi=q.has('admin'),rf=(q.get('ref')||'').toLowerCase();
+if(/^[a-z2-9]{7}$/.test(rf)){document.cookie='bc_ref='+rf+'; Path=/; Max-Age=2592000; SameSite=Lax'+sec;if(!s)s='parrainage';}
+if(q.has('src')||q.has('ref')){q.delete('src');q.delete('ref');history.replaceState(history.state,'',u.pathname+(q.toString()?'?'+q:'')+u.hash);}
+if(moi&&ls)try{ls.setItem('bc-moi','1');}catch(e){}
+if(moi||(ls&&ls.getItem('bc-moi'))){document.cookie='bc_src=moi; Path=/; Max-Age=31536000; SameSite=Lax'+sec;return;}
+if(s&&!c)document.cookie='bc_src='+s+'; Path=/; Max-Age=2592000; SameSite=Lax'+sec;
+var src=s||'direct',j=new Date().toISOString().slice(0,10),vu={};
+try{vu=JSON.parse(ls&&ls.getItem('bc-vu')||'{}');}catch(e){}
+if(vu.j!==j)vu={j:j};
+var ev=[];if(!vu[src])ev.push('visite');
+if(!ev.length)return;
+var b=JSON.stringify({src:src,evts:ev}),fini=function(){vu[src]=1;try{ls&&ls.setItem('bc-vu',JSON.stringify(vu));}catch(e){}};
+if(navigator.sendBeacon&&navigator.sendBeacon('/api/src',new Blob([b],{type:'application/json'})))fini();
+else fetch('/api/src',{method:'POST',body:b,keepalive:true,headers:{'content-type':'application/json'}}).then(fini,function(){});
+}catch(e){}})();</script>
+<meta name="description" content="Type your Chess.com or Lichess username: Stockfish finds your blunders and an AI coach explains every move of your last game. Free, no sign-up.">
+<meta property="og:title" content="Your last chess game, reviewed by an AI coach">
+<meta property="og:description" content="Free, no sign-up: type your username, see your blunders explained move by move.">
+<meta name="theme-color" content="#111614">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@144,800&family=Geist:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#111614;--card:#18201C;--line:#29332D;--fg:#EDE7D8;--mut:#A7B0A8;--accent:#C9A45C;--ink:#1A1407;--green:#1F3B30;--light:#D9D0BC;--bad:#E5534B}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:Geist,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:520px;margin:0 auto;padding:28px 16px 40px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;font-size:15px;color:var(--fg);text-decoration:none}
+.logo svg{flex:none}
+h1{font-family:Fraunces,Georgia,serif;font-weight:800;font-size:40px;line-height:1.05;letter-spacing:-.02em;margin:26px 0 12px}
+h1 em{font-style:normal;color:var(--accent)}
+.lead{color:var(--mut);font-size:17px;line-height:1.5;margin:0 0 22px}
+form{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;display:grid;gap:14px}
+.seg{display:grid;grid-template-columns:1fr 1fr;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:4px;gap:4px}
+.seg button{border:0;background:none;color:var(--mut);font:600 15px Geist,system-ui,sans-serif;padding:10px;border-radius:9px;cursor:pointer;min-height:44px}
+.seg button[aria-pressed="true"]{background:var(--green);color:var(--fg)}
+label{font-size:14px;font-weight:600;color:var(--mut)}
+input{width:100%;background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:12px;padding:14px;font:500 18px Geist,system-ui,sans-serif;margin-top:6px;min-height:52px}
+input:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:transparent}
+.go{border:0;background:var(--accent);color:var(--ink);font:700 18px Geist,system-ui,sans-serif;padding:16px;border-radius:14px;cursor:pointer;min-height:56px}
+.go:hover{filter:brightness(1.06)}
+.err{color:var(--bad);font-size:14px;min-height:0;margin:-4px 0 0}
+.err:empty{display:none}
+.free{font-size:13px;color:var(--mut);text-align:center;margin:-2px 0 0}
+ol{list-style:none;padding:0;margin:26px 0 0;display:grid;gap:14px}
+ol li{display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:start;font-size:15px;line-height:1.45;color:var(--mut)}
+ol li b{color:var(--fg);display:block;font-size:16px}
+ol li span.n{width:34px;height:34px;border-radius:50%;background:var(--card);border:1px solid var(--line);display:grid;place-items:center;font-weight:700;color:var(--accent)}
+footer{color:var(--mut);font-size:13px;text-align:center;margin-top:32px}
+footer a{color:var(--accent)}
+</style></head><body><main>
+<a class="logo" href="/en"><svg width="34" height="34" viewBox="0 0 512 512" aria-hidden="true"><rect width="512" height="512" rx="110" fill="#EDE7D8"/><g transform="translate(90 162)"><rect width="264" height="264" rx="22" fill="#1F3B30"/><rect x="66" width="66" height="66" fill="#D9D0BC"/><rect x="198" width="66" height="66" fill="#D9D0BC"/><rect y="66" width="66" height="66" fill="#D9D0BC"/><rect x="132" y="66" width="66" height="66" fill="#D9D0BC"/><rect x="66" y="132" width="66" height="66" fill="#D9D0BC"/><rect x="198" y="132" width="66" height="66" fill="#D9D0BC"/><rect y="198" width="66" height="66" fill="#D9D0BC"/><rect x="132" y="198" width="66" height="66" fill="#D9D0BC"/></g><circle cx="346" cy="170" r="76" fill="#C9A45C" stroke="#EDE7D8" stroke-width="12"/></svg>BlunderCheck</a>
+<h1>Your last game,<br><em>reviewed by an AI coach.</em></h1>
+<p class="lead">Type your username. Stockfish finds your blunders, the coach explains every move in plain English. Free, no sign-up.</p>
+<form id="f" novalidate>
+<div class="seg" role="group" aria-label="Where do you play?">
+<button type="button" data-s="chesscom" aria-pressed="true">Chess.com</button>
+<button type="button" data-s="lichess" aria-pressed="false">Lichess</button>
+</div>
+<div><label for="u">Your username</label>
+<input id="u" name="u" autocomplete="username" autocapitalize="off" spellcheck="false" placeholder="e.g. chessfan42" required></div>
+<p class="err" id="e" role="alert"></p>
+<button class="go" type="submit">Review my last game</button>
+<p class="free">Reads only your public games. No password, no account.</p>
+</form>
+<ol>
+<li><span class="n">1</span><span><b>Your real game, not a puzzle</b>The last game you played, analyzed in your browser by Stockfish.</span></li>
+<li><span class="n">2</span><span><b>Every blunder explained</b>What you missed, the better move, and a tip you can use next game.</span></li>
+<li><span class="n">3</span><span><b>Your mistakes become exercises</b>Replay the positions you got wrong until you find the right move.</span></li>
+</ol>
+<footer>BlunderCheck · <a href="/en">blundercheck.app</a></footer>
+</main>
+<script>
+(function(){
+var site='chesscom',f=document.getElementById('f'),u=document.getElementById('u'),e=document.getElementById('e');
+document.querySelectorAll('.seg button').forEach(function(b){b.onclick=function(){site=b.dataset.s;document.querySelectorAll('.seg button').forEach(function(x){x.setAttribute('aria-pressed',String(x===b));});u.focus();};});
+f.onsubmit=function(ev){ev.preventDefault();var v=u.value.trim().replace(/^@/,'');
+if(!/^[\w-]{2,30}$/.test(v)){e.textContent='Type your username (letters, numbers, - or _).';u.focus();return;}
+location.href='/en?u='+encodeURIComponent(v)+'&s='+site;};
+})();
+</script></body></html>
