@@ -1,0 +1,78 @@
+{
+ "nom": "pigeon_en_9",
+ "tempo": 1.0,
+ "duree_s": 22.36,
+ "hook": {
+  "texte": "He eats your pony.|Then you checkmate him.",
+  "fin": 4.42
+ },
+ "question": {
+  "texte": "A = yes · B = never.|Comment!",
+  "t": 19.16
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "He eats your pony."
+  },
+  {
+   "t": 2.18,
+   "texte": "Then you checkmate him."
+  },
+  {
+   "t": 4.42,
+   "texte": "You're White."
+  },
+  {
+   "t": 6.02,
+   "texte": "The pigeon grabs a candy."
+  },
+  {
+   "t": 8.02,
+   "texte": "Your queen sneaks out."
+  },
+  {
+   "t": 10.2,
+   "texte": "Greedy pigeon eats your pony too."
+  },
+  {
+   "t": 13.06,
+   "texte": "Your queen takes the last candy."
+  },
+  {
+   "t": 15.9,
+   "texte": "Mate."
+  },
+  {
+   "t": 17.26,
+   "texte": "Would you fall for it?"
+  },
+  {
+   "t": 19.16,
+   "texte": "Comment A: yes or B: never."
+  }
+ ],
+ "coups": [
+  {
+   "t": 6.74,
+   "coup": "Nxe4",
+   "badge": "gaffe"
+  },
+  {
+   "t": 8.46,
+   "coup": "Qh5",
+   "badge": "brillant"
+  },
+  {
+   "t": 10.86,
+   "coup": "Nxc3",
+   "badge": "gaffe"
+  },
+  {
+   "t": 13.86,
+   "coup": "Qxf7#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}

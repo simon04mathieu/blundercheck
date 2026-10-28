@@ -280,3 +280,8 @@
 ### commandes/perso_pigeon_jour_9.json
     voix générée : 282 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_jour_9.mp4 {"voix_brute_s": 19.7, "tempo": 1.0, "video_s": 20.3, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 52, "minutage": "10 phrases, 9 coups, 0 pauses"}
+## 2026-10-28 00:03 UTC · run 40606224095
+### commandes/perso_pigeon_en_9.json
+    voix générée : 255 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_9.mp4 {"voix_brute_s": 22.3, "tempo": 1.0, "video_s": 23.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 45, "minutage": "10 phrases, 4 coups, 0 pauses"}
