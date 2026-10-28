@@ -61,7 +61,7 @@ document.addEventListener('keydown',function k(e){if(e.key==='Escape'){d.remove(
 (function(){
 var EN=function(){return window.BC_LANG==='en';};
 var T=function(){return EN()?{
-eye:'BlunderCheck+ · at launch',an:'Yearly',anP:'€17.99',anU:'/ year',anS:'that’s €1.50 a month',best:'Best value',anB:'Choose yearly',
+eye:'BlunderCheck+ · at launch',prof:'Your AI coach comments on every game',profS:'Up to 100 games a month, a concrete tip on every move, unlimited questions to the coach and your weekly plan.',an:'Yearly',anP:'€17.99',anU:'/ year',anS:'that’s €1.50 a month',best:'Best value',anB:'Choose yearly',
 mo:'Monthly',moP:'€2.99',moU:'/ month',moS:'no commitment, cancel anytime',moB:'Choose monthly',
 anC:'yearly, €17.99 a year',moC:'monthly, €2.99 a month',
 h:'Payment isn’t open yet',p1:function(c){return 'Thanks! Your choice is noted: <b>'+c+'</b>. No payment has been taken and no card is asked for.';},
@@ -69,7 +69,7 @@ oui:'You’re on the waiting list: you’ll be told first when BlunderCheck+ ope
 non:'To be told first when it opens, join the waiting list (just your e-mail).',
 q:'What would make you pay?',opt:'optional',ph:'A feature, a price, a reason…',
 go:'Notify me first',fe:'Close',fe2:'Send and close',ok:'Thanks, noted!',x:'Close'}:{
-eye:'BlunderCheck+ · au lancement',an:'Annuel',anP:'17,99 €',anU:'/ an',anS:'soit 1,50 € par mois',best:'Le plus avantageux',anB:'Choisir l’annuel',
+eye:'BlunderCheck+ · au lancement',prof:'Le prof IA commente toutes tes parties',profS:'Jusqu\u2019à 100 parties par mois, un conseil concret à chaque coup, tes questions au prof sans limite et ton plan de la semaine.',an:'Annuel',anP:'17,99 €',anU:'/ an',anS:'soit 1,50 € par mois',best:'Le plus avantageux',anB:'Choisir l’annuel',
 mo:'Mensuel',moP:'2,99 €',moU:'/ mois',moS:'sans engagement, résiliable à tout moment',moB:'Choisir le mensuel',
 anC:'annuel, 17,99 € par an',moC:'mensuel, 2,99 € par mois',
 h:'Le paiement n’est pas encore ouvert',p1:function(c){return 'Merci ! Ton choix est noté : <b>'+c+'</b>. Aucun paiement n’a été pris et aucune carte ne t’est demandée.';},
@@ -88,6 +88,7 @@ var inscrit=function(){try{return !!(window.dejaInscrit&&window.dejaInscrit());}
 // Carte de l'offre, appelée par pageTarifs (FR et EN) à la place de la carte « BlunderCheck+ · au lancement »
 window.BC_OFFRE=function(){var t=T();uneFois('offre');
 return '<div class="card price best offre-test"><span class="eyebrow" style="color:var(--accent)">'+t.eye+'</span>'
++'<div class="offre-prof"><span class="offre-prof-i">'+ico('ia')+'</span><div><b>'+t.prof+'</b><p class="muted">'+t.profS+'</p></div></div>'
 +'<div class="offre-opt on"><div class="offre-l"><b>'+t.an+'</b><span class="tag offre-best">'+t.best+'</span></div><div class="pv">'+t.anP+'<small> '+t.anU+'</small></div><p class="muted">'+t.anS+'</p>'
 +'<button class="btn primary" data-intention="an">'+t.anB+'</button></div>'
 +'<div class="offre-opt"><div class="offre-l"><b>'+t.mo+'</b></div><div class="pv">'+t.moP+'<small> '+t.moU+'</small></div><p class="muted">'+t.moS+'</p>'
@@ -666,6 +667,10 @@ textarea.input { width: 100%; resize: vertical; font: 12.5px/1.55 var(--f-mono);
 .offre-l { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .offre-best { color: var(--accent); border-color: var(--accent-line); }
 .offre-opt .pv { font-size: 30px; }
+.offre-prof { display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 12px; align-items: start; margin-bottom: 4px; }
+.offre-prof b { display: block; font-size: 17px; line-height: 1.3; }
+.offre-prof p { margin: 4px 0 0; font-size: 13.5px; line-height: 1.45; }
+.offre-prof-i { width: 36px; height: 36px; border-radius: 10px; display: grid; place-items: center; background: var(--accent-soft); color: var(--accent); }
 .cmp { min-width: 460px; }
 .cmp th, .cmp td { padding-inline: 16px !important; }
 .cmp thead th { padding-top: 14px; }
