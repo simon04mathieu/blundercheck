@@ -250,3 +250,8 @@ urllib.error.URLError: <urlopen error [Errno 104] Connection reset by peer>
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 5, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 5, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 5, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 5, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-10-28 07:37 publications/tiktok/pigeon_jour_11.json
+{"publish_id": "v_inbox_file~v2.7701619237378459671", "mode": "brouillon", "vie_privee": null, "legende": "Le pigeon du jour #11 🐦 Il mange ton poney… puis tu lui mets mat. A ou B ? 👇 #echecs #chess #piege #echecsfr"}
+### 2026-10-28 07:37 publications/tiktok/pigeon_jour_12.json
+{"publish_id": "v_inbox_file~v2.7701619237378525207", "mode": "brouillon", "vie_privee": null, "legende": "Le pigeon du jour #12 🐦 Il mange un pion gratuit… mat en un coup. Suis le compte pour la suite ! #echecs #chess #piege #echecsfr"}
