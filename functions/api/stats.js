@@ -2,7 +2,7 @@
 // Tableau de bord privé : usage du prof, comptes, liste d'attente. &format=json pour les chiffres bruts.
 // Les visites (pages vues, provenance) sont dans Cloudflare Web Analytics.
 
-import { ETAPES } from '../../lib/src.js';
+import { ETAPES, OFFRE } from '../../lib/src.js';
 import { resume as resumeParrainage, OBJECTIF } from '../../lib/parrainage.js';
 
 const PRIX_PARTIE = 0.3;     // centimes de dollar, mesuré le 21/10/2026
@@ -53,9 +53,12 @@ async function provenance(env, nbJours) {
   for (const x of r.results || []) { if (x.src === 'moi') { moi[x.evt] = x.n; continue; } (par[x.src] ||= { src: x.src })[x.evt] = x.n; }
   for (const k of Object.keys(vues)) (par[k] ||= { src: k }).vues = vues[k].vues;
   const lignes = Object.values(par).sort((a, b) => (b.visite || 0) - (a.visite || 0) || (b.vues || 0) - (a.vues || 0));
-  const total = { src: 'total' }; for (const l of lignes) for (const e of [...ETAPES, 'vues']) if (l[e] != null) total[e] = (total[e] || 0) + l[e];
+  const total = { src: 'total' }; for (const l of lignes) for (const e of [...ETAPES, ...OFFRE, 'vues']) if (l[e] != null) total[e] = (total[e] || 0) + l[e];
   const premier = await env.STATS.prepare('SELECT MIN(jour) AS j FROM compteur').first('j').catch(() => null);
-  return { debut: nbJours ? debut : premier, depuis: premier, lignes, total, moi, releves: Object.fromEntries(Object.entries(vues).map(([k, v]) => [k, v.releve])) };
+  // Réponses libres du test d'intention de paiement (les 200 dernières de la période ; la table peut manquer)
+  const reponses = await env.STATS.prepare("SELECT date, src, choix, langue, texte FROM intention_reponses WHERE date >= ?1 AND src <> 'moi' ORDER BY id DESC LIMIT 200").bind(debut).all().then(x => x.results || [], () => null);
+  const debutOffre = await env.STATS.prepare("SELECT MIN(jour) AS j FROM compteur WHERE evt = 'offre'").first('j').catch(() => null);
+  return { debut: nbJours ? debut : premier, depuis: premier, debutOffre, reponses, lignes, total, moi, releves: Object.fromEntries(Object.entries(vues).map(([k, v]) => [k, v.releve])) };
 }
 
 export async function onRequestGet({ request, env }) {
@@ -131,6 +134,7 @@ a{color:var(--a)}p{margin:6px 0}
 </style></head><body><main>
 <h1>Stats BlunderCheck</h1><p class="m">Mis à jour le ${esc(new Date().toLocaleString('fr-FR', { timeZone: 'Europe/Paris' }))}. Les visites du site (pages vues, provenance TikTok/Google…) sont dans Cloudflare › blundercheck.app › Web Analytics.</p>
 ${blocSources(sources, nbJours, url)}
+${blocIntention(sources)}
 <h2>Prof IA · aujourd'hui</h2><div class="g">
 ${tuile('Parties commentées', data.prof.aujourdhui.parties)}${tuile('Questions', data.prof.aujourdhui.questions)}${tuile('Visiteurs ayant utilisé le prof', visiteursProf)}${tuile('Coût estimé', dollars(cout(1)))}
 </div>
@@ -167,4 +171,28 @@ function blocSources(S, nbJours, url) {
 <p class="per">${per}</p>
 <div class="tw"><table><thead><tr><th>Source</th><th>Vues vidéos</th><th>Visiteurs</th><th>→ Appli</th><th>Liste</th><th>Comptes</th><th>Parties prof</th><th>Abonnés</th></tr></thead><tbody>${corps}</tbody></table></div>
 <p class="m">Vues : vidéos publiées sur la période (TikTok FR et EN, YouTube seulement pour l'instant${rel ? ' ; ' + rel : ''}). Visiteurs : une fois par jour, par navigateur et par source ; le % = visiteurs ÷ vues. Appli, liste, comptes, parties : le % est rapporté aux visiteurs. Les étapes après la visite sont rattachées à la source de la 1re arrivée (cookie de 30 jours). « direct » = arrivé sans ?src. ${Object.keys(S.moi || {}).length ? 'Non comptés (toi, navigateurs passés par ?admin) : ' + esc(Object.entries(S.moi).map(([k, v]) => v + ' ' + k).join(', ')) + '. ' : ''}Compteur démarré le ${esc((S.depuis || "2026-10-23").split("-").reverse().join("/"))}.</p>`;
+}
+
+// ---------- Test d'intention de paiement (fiche site/test-intention-paiement.md) ----------
+function blocIntention(S) {
+  if (!S || S.erreur) return '';
+  const n = v => v == null ? '<span class="m">—</span>' : v.toLocaleString('fr-FR');
+  const pc = (a, b) => b ? (a / b * 100).toLocaleString('fr-FR', { maximumFractionDigits: 1 }) + ' %' : '—';
+  const lignes = S.lignes.filter(l => l.offre || l.clic || l['clic-an'] || l['clic-mois'] || l.reponse);
+  const tot = S.total;
+  const ligne = (l, t) => {
+    const c = (l['clic-an'] || 0) + (l['clic-mois'] || 0);
+    return `<tr${t ? ' class="tot"' : ''}><td>${esc(t ? 'Total' : l.src)}</td><td>${n(l.offre)}</td><td><b>${n(l.clic)}</b><small>${pc(l.clic || 0, l.offre)}</small></td><td>${n(l['clic-an'])}</td><td>${n(l['clic-mois'])}</td><td>${c ? pc(l['clic-an'] || 0, c) : '—'}</td><td>${n(l.reponse)}</td></tr>`;
+  };
+  const corps = lignes.length ? lignes.map(l => ligne(l)).join('') + (lignes.length > 1 ? ligne(tot, true) : '') : '<tr><td colspan="7" class="m" style="text-align:left">Aucune vue de l’offre sur cette période.</td></tr>';
+  const nomChoix = { an: 'annuel', mois: 'mensuel' };
+  const reps = S.reponses == null
+    ? '<p class="m">Table des réponses absente : créer <code>intention_reponses</code> dans la base D1 (voir la fiche).</p>'
+    : S.reponses.length
+      ? `<div class="tw"><table class="rep"><thead><tr><th>Date</th><th>Source</th><th>Choix</th><th>Réponse</th></tr></thead><tbody>${S.reponses.map(r => `<tr><td>${esc(new Date(r.date).toLocaleString('fr-FR', { timeZone: 'Europe/Paris', dateStyle: 'short', timeStyle: 'short' }))}</td><td>${esc(r.src)}</td><td>${esc(nomChoix[r.choix] || '—')}${r.langue === 'en' ? ' · EN' : ''}</td><td style="text-align:left;white-space:normal;min-width:260px">${esc(r.texte)}</td></tr>`).join('')}</tbody></table></div>`
+      : '<p class="m">Aucune réponse libre sur cette période.</p>';
+  return `<h2>Test d'intention de paiement · offre → clic sur un prix</h2>
+<div class="tw"><table><thead><tr><th>Source</th><th>Visiteurs de l'offre</th><th>Ont cliqué un prix</th><th>Clics annuel</th><th>Clics mensuel</th><th>Part annuel</th><th>Réponses libres</th></tr></thead><tbody>${corps}</tbody></table></div>
+<p class="m">Offre affichée sur la page Tarifs (blundercheck.app/#tarifs), où se fait la pré-inscription. Visiteurs de l'offre et clics : une fois par jour et par navigateur. « Ont cliqué un prix » compte une personne une seule fois même si elle clique les deux ; son % = clics ÷ visiteurs de l'offre. Source = 1re arrivée avec ?src (cookie de 30 jours), sinon « direct ». Indicateur principal : ce % ; secondaire : part de l'annuel parmi les clics. Un clic n'est pas un achat. ${S.debutOffre ? 'Test démarré le ' + esc(S.debutOffre.split('-').reverse().join('/')) + '.' : ''}</p>
+<h2>Réponses à « Qu'est-ce qui te ferait payer ? »</h2>${reps}`;
 }

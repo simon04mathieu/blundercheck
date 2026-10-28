@@ -55,6 +55,60 @@ if(a.dataset.a==='c'){var i=d.querySelector('input');i.select();(navigator.clipb
 if(a.dataset.a==='s'){if(navigator.share)navigator.share({text:T.m,url:lien}).catch(function(){});else window.open('https://wa.me/?text='+encodeURIComponent(T.m+lien),'_blank');}});
 document.addEventListener('keydown',function k(e){if(e.key==='Escape'){d.remove();document.removeEventListener('keydown',k);}});}
 })();</script>
+<script>/* Test d'intention de paiement (fiche site/test-intention-paiement.md) : offre BlunderCheck+ sur la page Tarifs tant que le paiement est fermé.
+   Au clic sur un prix : fenêtre honnête (paiement pas ouvert, rien n'est pris), question facultative. Aucun moyen de paiement, aucune donnée en plus de l'e-mail de la liste d'attente.
+   Comptage /api/intention : vue de l'offre, clic annuel, clic mensuel (une fois par jour et par navigateur), réponse libre. */
+(function(){
+var EN=function(){return window.BC_LANG==='en';};
+var T=function(){return EN()?{
+eye:'BlunderCheck+ · at launch',an:'Yearly',anP:'€17.99',anU:'/ year',anS:'that’s €1.50 a month',best:'Best value',anB:'Choose yearly',
+mo:'Monthly',moP:'€2.99',moU:'/ month',moS:'no commitment, cancel anytime',moB:'Choose monthly',
+anC:'yearly, €17.99 a year',moC:'monthly, €2.99 a month',
+h:'Payment isn’t open yet',p1:function(c){return 'Thanks! Your choice is noted: <b>'+c+'</b>. No payment has been taken and no card is asked for.';},
+oui:'You’re on the waiting list: you’ll be told first when BlunderCheck+ opens.',
+non:'To be told first when it opens, join the waiting list (just your e-mail).',
+q:'What would make you pay?',opt:'optional',ph:'A feature, a price, a reason…',
+go:'Notify me first',fe:'Close',fe2:'Send and close',ok:'Thanks, noted!',x:'Close'}:{
+eye:'BlunderCheck+ · au lancement',an:'Annuel',anP:'17,99 €',anU:'/ an',anS:'soit 1,50 € par mois',best:'Le plus avantageux',anB:'Choisir l’annuel',
+mo:'Mensuel',moP:'2,99 €',moU:'/ mois',moS:'sans engagement, résiliable à tout moment',moB:'Choisir le mensuel',
+anC:'annuel, 17,99 € par an',moC:'mensuel, 2,99 € par mois',
+h:'Le paiement n’est pas encore ouvert',p1:function(c){return 'Merci ! Ton choix est noté : <b>'+c+'</b>. Aucun paiement n’a été pris et aucune carte ne t’est demandée.';},
+oui:'Tu es sur la liste d’attente : tu seras prévenu(e) en premier à l’ouverture de BlunderCheck+.',
+non:'Pour être prévenu(e) en premier à l’ouverture, inscris-toi sur la liste d’attente (juste ton e-mail).',
+q:'Qu’est-ce qui te ferait payer ?',opt:'facultatif',ph:'Une fonction, un prix, une raison…',
+go:'Me prévenir en premier',fe:'Fermer',fe2:'Envoyer et fermer',ok:'Merci, c’est noté !',x:'Fermer'};};
+var jour=function(){return new Date().toISOString().slice(0,10);};
+function envoyer(o){if(!window.BC_WEB)return;var b=JSON.stringify(o);
+try{if(navigator.sendBeacon&&navigator.sendBeacon('/api/intention',new Blob([b],{type:'application/json'})))return;}catch(e){}
+try{fetch('/api/intention',{method:'POST',body:b,keepalive:true,headers:{'content-type':'application/json'}}).catch(function(){});}catch(e){}}
+function uneFois(evt){var k='bc-intention',v={};try{v=JSON.parse(localStorage.getItem(k)||'{}')||{};}catch(e){}
+if(v.j!==jour())v={j:jour()};if(v[evt])return;v[evt]=1;try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}envoyer({evt:evt});}
+var ico=function(n){try{return window.ico?window.ico(n):'';}catch(e){return '';}};
+var inscrit=function(){try{return !!(window.dejaInscrit&&window.dejaInscrit());}catch(e){return false;}};
+// Carte de l'offre, appelée par pageTarifs (FR et EN) à la place de la carte « BlunderCheck+ · au lancement »
+window.BC_OFFRE=function(){var t=T();uneFois('offre');
+return '<div class="card price best offre-test"><span class="eyebrow" style="color:var(--accent)">'+t.eye+'</span>'
++'<div class="offre-opt on"><div class="offre-l"><b>'+t.an+'</b><span class="tag offre-best">'+t.best+'</span></div><div class="pv">'+t.anP+'<small> '+t.anU+'</small></div><p class="muted">'+t.anS+'</p>'
++'<button class="btn primary" data-intention="an">'+t.anB+'</button></div>'
++'<div class="offre-opt"><div class="offre-l"><b>'+t.mo+'</b></div><div class="pv">'+t.moP+'<small> '+t.moU+'</small></div><p class="muted">'+t.moS+'</p>'
++'<button class="btn" data-intention="mois">'+t.moB+'</button></div>'
++(inscrit()?'<span class="tag liste-tag">'+ico('check')+(EN()?'On the waitlist':'Inscrit à la liste d’attente')+'</span>':'')+'</div>';};
+function fenetre(choix){var t=T(),ok=inscrit(),q=function(s){return document.querySelector(s);};
+if(!window.ouvrirModal)return;
+window.ouvrirModal('<div class="card-h"><h2>'+t.h+'</h2><button class="icon-btn" data-close aria-label="'+t.x+'">'+ico('close')+'</button></div>'
++'<div class="liste" id="itBox"><p>'+t.p1(choix==='an'?t.anC:t.moC)+'</p><p class="muted">'+(ok?t.oui:t.non)+'</p>'
++'<div class="field"><label for="itTxt">'+t.q+' <span class="faint">('+t.opt+')</span></label>'
++'<textarea class="input" id="itTxt" maxlength="500" rows="3" placeholder="'+t.ph+'" style="font:14px/1.5 var(--f-ui);min-height:84px"></textarea></div>'
++'<div style="display:flex;gap:8px;flex-wrap:wrap">'+(ok?'':'<button class="btn primary" id="itGo">'+ico('send')+t.go+'</button>')
++'<button class="btn'+(ok?' primary':' ghost')+'" id="itFe">'+t.fe+'</button></div></div>');
+var txt=q('#itTxt'),fe=q('#itFe'),go=q('#itGo'),parti=false;
+function repondre(){var v=(txt.value||'').trim();if(!v||parti)return false;parti=true;envoyer({evt:'reponse',choix:choix,texte:v.slice(0,500),lang:EN()?'en':'fr'});return true;}
+txt.addEventListener('input',function(){fe.textContent=txt.value.trim()?t.fe2:t.fe;});
+fe.onclick=function(){var r=repondre();if(window.fermerModal)window.fermerModal();if(r&&window.toast)window.toast(t.ok);};
+if(go)go.onclick=function(){repondre();if(window.ouvrirListe)window.ouvrirListe('offre');};}
+document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('[data-intention]');if(!b)return;
+var c=b.dataset.intention==='mois'?'mois':'an';uneFois('clic');uneFois('clic-'+c);fenetre(c);});
+})();</script>
 <title>BlunderCheck</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -604,6 +658,14 @@ textarea.input { width: 100%; resize: vertical; font: 12.5px/1.55 var(--f-mono);
 .price li { display: grid; grid-template-columns: 18px minmax(0, 1fr); gap: 8px; font-size: 13.5px; }
 .price li .ico { color: var(--accent); margin-top: 2px; }
 .price .btn { justify-self: start; }
+/* Test d'intention de paiement (fiche site/test-intention-paiement.md) */
+.offre-test { gap: 10px; }
+.offre-opt { display: grid; gap: 8px; padding: 14px; border: 1px solid var(--line); border-radius: 10px; }
+.offre-opt.on { border-color: var(--accent-line); background: var(--accent-soft); }
+.offre-opt p { margin: -2px 0 2px; font-size: 13px; }
+.offre-l { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.offre-best { color: var(--accent); border-color: var(--accent-line); }
+.offre-opt .pv { font-size: 30px; }
 .cmp { min-width: 460px; }
 .cmp th, .cmp td { padding-inline: 16px !important; }
 .cmp thead th { padding-top: 14px; }
@@ -4056,8 +4118,8 @@ function pageTarifs(view) {
   <div class="price-grid" style="margin-inline:auto">
     <div class="card price"><span class="eyebrow">Free</span><div class="pv">€0</div><p class="muted" style="margin-top:-6px">Forever, no credit card</p>
       <button class="btn" data-route="import">${ico('analyser')}Analyze a game</button></div>
-    <div class="card price best"><span class="eyebrow" style="color:var(--accent)">${COMPTE.paiement ? 'BlunderCheck+' : 'BlunderCheck+ · at launch'}</span><div class="pv">${PRIX.anMois}<small> / month</small></div><p class="muted" style="margin-top:-6px">${PRIX.an} per year, or ${PRIX.mois} monthly with no commitment</p>
-      ${boutonListe('tarifs')}</div>
+    ${!COMPTE.paiement && window.BC_WEB && window.BC_OFFRE ? window.BC_OFFRE() : `<div class="card price best"><span class="eyebrow" style="color:var(--accent)">${COMPTE.paiement ? 'BlunderCheck+' : 'BlunderCheck+ · at launch'}</span><div class="pv">${PRIX.anMois}<small> / month</small></div><p class="muted" style="margin-top:-6px">${PRIX.an} per year, or ${PRIX.mois} monthly with no commitment</p>
+      ${boutonListe('tarifs')}</div>`}
   </div>
   <div class="card" style="margin-top:20px;overflow-x:auto">
     <table class="dist cmp offre"><thead><tr><th>Feature</th><th>Free</th><th>BlunderCheck+</th></tr></thead><tbody>
@@ -8933,8 +8995,8 @@ function pageTarifs(view) {
   <div class="price-grid" style="margin-inline:auto">
     <div class="card price"><span class="eyebrow">Gratuit</span><div class="pv">0 €</div><p class="muted" style="margin-top:-6px">Pour toujours, sans carte bancaire</p>
       <button class="btn" data-route="import">${ico('analyser')}Analyser une partie</button></div>
-    <div class="card price best"><span class="eyebrow" style="color:var(--accent)">${COMPTE.paiement ? 'BlunderCheck+' : 'BlunderCheck+ · au lancement'}</span><div class="pv">${PRIX.anMois}<small> / mois</small></div><p class="muted" style="margin-top:-6px">${PRIX.an} par an, ou ${PRIX.mois} au mois sans engagement</p>
-      ${boutonListe('tarifs')}</div>
+    ${!COMPTE.paiement && window.BC_WEB && window.BC_OFFRE ? window.BC_OFFRE() : `<div class="card price best"><span class="eyebrow" style="color:var(--accent)">${COMPTE.paiement ? 'BlunderCheck+' : 'BlunderCheck+ · au lancement'}</span><div class="pv">${PRIX.anMois}<small> / mois</small></div><p class="muted" style="margin-top:-6px">${PRIX.an} par an, ou ${PRIX.mois} au mois sans engagement</p>
+      ${boutonListe('tarifs')}</div>`}
   </div>
   <div class="card" style="margin-top:20px;overflow-x:auto">
     <table class="dist cmp offre"><thead><tr><th>Fonction</th><th>Gratuit</th><th>BlunderCheck+</th></tr></thead><tbody>
