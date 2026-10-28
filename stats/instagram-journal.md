@@ -28,3 +28,5 @@
 {"reseau": "instagram", "id": "17921307327448704"}
 ### 2026-10-28 13:03 publications/instagram/pigeon_jour_11.json
 {"reseau": "instagram", "id": "18103908296292562"}
+### 2026-10-28 19:54 publications/instagram/pigeon_jour_12.json
+{"reseau": "instagram", "id": "18149073514571791"}
