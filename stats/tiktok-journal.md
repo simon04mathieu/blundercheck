@@ -257,3 +257,4 @@ urllib.error.URLError: <urlopen error [Errno 104] Connection reset by peer>
 {"publish_id": "v_inbox_file~v2.7701619237378525207", "mode": "brouillon", "vie_privee": null, "legende": "Le pigeon du jour #12 🐦 Il mange un pion gratuit… mat en un coup. Suis le compte pour la suite ! #echecs #chess #piege #echecsfr"}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 5, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 5, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 5, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
