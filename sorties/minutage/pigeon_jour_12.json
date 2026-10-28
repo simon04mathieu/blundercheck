@@ -1,0 +1,87 @@
+{
+ "nom": "pigeon_jour_12",
+ "tempo": 1.0,
+ "duree_s": 19.74,
+ "hook": {
+  "texte": "Il mange un pion gratuit.|Tu lui mets mat.",
+  "fin": 3.28
+ },
+ "question": {
+  "texte": "Suis le compte|pour la suite",
+  "t": 16.54
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Il mange un pion gratuit."
+  },
+  {
+   "t": 2.06,
+   "texte": "Tu lui mets mat."
+  },
+  {
+   "t": 3.28,
+   "texte": "Tu as les Noirs."
+  },
+  {
+   "t": 4.38,
+   "texte": "Ton fou vise sa faille."
+  },
+  {
+   "t": 6.14,
+   "texte": "Ta dame sort."
+  },
+  {
+   "t": 7.72,
+   "texte": "Le pigeon voit un pion gratuit et le prend avec son poney."
+  },
+  {
+   "t": 11.06,
+   "texte": "Gourmand."
+  },
+  {
+   "t": 12.48,
+   "texte": "Ta dame mange le bonbon devant son roi."
+  },
+  {
+   "t": 15.6,
+   "texte": "Mat."
+  },
+  {
+   "t": 16.7,
+   "texte": "Tu serais tombé dedans ?"
+  },
+  {
+   "t": 18.24,
+   "texte": "Suis le compte pour la suite."
+  }
+ ],
+ "coups": [
+  {
+   "t": 4.8,
+   "coup": "Bc5",
+   "badge": "brillant"
+  },
+  {
+   "t": 6.14,
+   "coup": "Bc4",
+   "badge": null
+  },
+  {
+   "t": 6.56,
+   "coup": "Qf6",
+   "badge": "brillant"
+  },
+  {
+   "t": 9.84,
+   "coup": "Nxe5",
+   "badge": "gaffe"
+  },
+  {
+   "t": 13.5,
+   "coup": "Qxf2#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
