@@ -1,0 +1,73 @@
+{
+ "nom": "quiz_legal_5_court",
+ "tempo": 1.0,
+ "duree_s": 23.38,
+ "hook": {
+  "texte": "This capture is illegal.|Can you see why?",
+  "fin": 3.8
+ },
+ "question": {
+  "texte": "Would you have|taken it? Yes or no?",
+  "t": 20.18
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "This capture is illegal."
+  },
+  {
+   "t": 2.08,
+   "texte": "Can you see why?"
+  },
+  {
+   "t": 3.8,
+   "texte": "The pigeon jumps his pawn right next to yours."
+  },
+  {
+   "t": 6.88,
+   "texte": "You can take it in passing."
+  },
+  {
+   "t": 8.84,
+   "texte": "Tempting!"
+  },
+  {
+   "t": 10.12,
+   "texte": "Legal or illegal?"
+  },
+  {
+   "t": 12.04,
+   "texte": "Decide before the timer ends."
+  },
+  {
+   "t": 16.48,
+   "texte": "Illegal!"
+  },
+  {
+   "t": 17.6,
+   "texte": "Both pawns vanish and his rook hits your king."
+  },
+  {
+   "t": 20.94,
+   "texte": "Would you have taken it?"
+  },
+  {
+   "t": 22.38,
+   "texte": "Yes or no?"
+  }
+ ],
+ "coups": [
+  {
+   "t": 4.56,
+   "coup": "c5",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 14.46,
+   "duree": 2.0,
+   "texte": "Legal or illegal?"
+  }
+ ]
+}
