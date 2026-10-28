@@ -1,0 +1,50 @@
+{
+ "nom": "essai_1",
+ "partie": 1,
+ "couleur_de_simon": "w",
+ "demi_coups": 52,
+ "prof": {
+  "erreur": "",
+  "n": 35
+ },
+ "resume_du_prof": "You had a good start and a clear advantage around move 20, but several moves in the middlegame lost that advantage. Your biggest problem was missing checks and attacks on your king, which gave Black chances to get back into the game.",
+ "lecons_du_prof": [
+  "Always check for checks and forcing moves before every move.",
+  "Before each move, look at which of your pieces and pawns are left undefended.",
+  "Before moving a piece, check what your opponent can attack next move, especially your king and queen."
+ ],
+ "moments": [
+  {
+   "ply": 5,
+   "san": "Nc3",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.067,
+   "commentaire": "Good move: the knight develops and protects the center while you aim at the d5 square.",
+   "conseil": "",
+   "ecran": "ecran_005.png"
+  },
+  {
+   "ply": 40,
+   "san": "f6",
+   "camp": "b",
+   "tag": "gaffe",
+   "delta": 0.551,
+   "commentaire": "f6 misses Qd2+, which wins material, and it lets Black's queen and rook take over.",
+   "conseil": "Always look for checks first in every position, since they often lead to combinations.",
+   "ecran": "ecran_040.png"
+  },
+  {
+   "ply": 43,
+   "san": "Nxc6",
+   "camp": "w",
+   "tag": "gaffe",
+   "delta": 0.866,
+   "commentaire": "Nxc6 gives back the advantage, Qc3 was the strong move that keeps control.",
+   "conseil": "Before capturing a pawn, look at what your opponent gets in return, such as a queen check.",
+   "ecran": "ecran_043.png"
+  }
+ ],
+ "ecran_depart": "ecran_000.png",
+ "regle": "Commentaires du vrai prof, à montrer tels quels (on peut couper, jamais réécrire). Partie anonyme : aucun nom à l'écran ni dans la voix."
+}
