@@ -194,3 +194,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "21"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "21"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "21"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "21"}
+### 2026-10-28 10:45 publications/youtube/pigeon_en_9.json
+{"id": "lE6_RINx-wI", "url": "https://www.youtube.com/shorts/lE6_RINx-wI", "statut": "public", "publier_le": null}
