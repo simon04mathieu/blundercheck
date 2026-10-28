@@ -1,0 +1,46 @@
+{
+ "fichier": "sorties/pigeon_jour_11.mp4",
+ "envoyer_apres": "2026-10-28T14:00:00+01:00",
+ "titre": "Il mange ton poney, tu lui mets mat : piège de la partie viennoise 🐦 #echecs #shorts",
+ "description": "Le pigeon du jour #11. Tu serais tombé dedans ? Commente A (oui) ou B (jamais) !\n\n#echecs #chess #shorts",
+ "tags": [
+  "échecs",
+  "piège",
+  "partie viennoise",
+  "poney",
+  "pigeon"
+ ],
+ "concept": "pigeon_jour",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "hook": "perte_poney+mat",
+  "premiers_mots": "Il mange ton",
+  "duree_s": 23,
+  "personnages": [
+   "dame",
+   "poney",
+   "fou",
+   "pigeon",
+   "bonbon",
+   "toi"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "commente_A_ou_B",
+  "ouverture": "boucle_ouverte",
+  "pause_chrono": "non",
+  "titre": "resultat",
+  "test": "T1-fin",
+  "variante": "A",
+  "paire": "T7-7",
+  "tirage": "seed 2810262233"
+ },
+ "format": "PERSO",
+ "langue": "fr",
+ "test": "T1-fin",
+ "variante": "A",
+ "duree": 23,
+ "voix": "oui",
+ "paire": "T7-7"
+}

@@ -1,0 +1,42 @@
+{
+ "fichier": "sorties/pigeon_en_9.mp4",
+ "legende": "Pigeon Trap of the Day #9 🐦 He eats your pony… then you mate him. A or B? 👇 #chess #chesstok #chesstrap #viennagame",
+ "envoyer_apres": "2026-10-28T08:00:00+01:00",
+ "heure_conseillee": "2026-10-28T11:00:00+01:00",
+ "repere": "11 h · pigeon_en_9 · 23 s",
+ "ia": true,
+ "marque": true,
+ "concept": "pigeon_en",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "en",
+  "hook": "perte_poney+mat",
+  "premiers_mots": "He eats your",
+  "duree_s": 23,
+  "personnages": [
+   "queen",
+   "pony",
+   "bishop",
+   "pigeon",
+   "candy",
+   "you"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "commente_A_ou_B",
+  "ouverture": "boucle_ouverte",
+  "pause_chrono": "non",
+  "titre": "resultat",
+  "test": "T1-fin",
+  "variante": "A",
+  "paire": "T7-7",
+  "tirage": "seed 2810262233"
+ },
+ "format": "PERSO",
+ "langue": "en",
+ "test": "T1-fin",
+ "variante": "A",
+ "duree": 23,
+ "voix": "oui",
+ "paire": "T7-7"
+}

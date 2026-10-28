@@ -1,0 +1,42 @@
+{
+ "fichier": "sorties/pigeon_jour_12.mp4",
+ "legende": "Le pigeon du jour #12 🐦 Il mange un pion gratuit… mat en un coup. Suis le compte pour la suite ! #echecs #chess #piege #echecsfr",
+ "envoyer_apres": "2026-10-28T08:00:00+01:00",
+ "heure_conseillee": "2026-10-28T20:00:00+01:00",
+ "repere": "20 h · pigeon_jour_12 · 20 s",
+ "ia": true,
+ "marque": true,
+ "concept": "pigeon_jour",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "hook": "pion_gratuit+mat",
+  "premiers_mots": "Il mange un",
+  "duree_s": 20,
+  "personnages": [
+   "dame",
+   "fou",
+   "poney",
+   "pigeon",
+   "bonbon",
+   "toi"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "suis_le_compte",
+  "ouverture": "boucle_ouverte",
+  "pause_chrono": "non",
+  "titre": "resultat",
+  "test": "T1-fin",
+  "variante": "B",
+  "paire": "T7-8",
+  "tirage": "seed 2810262233"
+ },
+ "format": "PERSO",
+ "langue": "fr",
+ "test": "T1-fin",
+ "variante": "B",
+ "duree": 20,
+ "voix": "oui",
+ "paire": "T7-8"
+}

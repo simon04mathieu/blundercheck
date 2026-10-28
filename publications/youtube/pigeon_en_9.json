@@ -1,0 +1,46 @@
+{
+ "fichier": "sorties/pigeon_en_9.mp4",
+ "envoyer_apres": "2026-10-28T11:00:00+01:00",
+ "titre": "He eats your pony, you checkmate him: Vienna Game trap 🐦 #chess #shorts",
+ "description": "Pigeon Trap of the Day #9. Would you fall for it? Comment A (yes) or B (never)!\n\n#chess #chesstrap #shorts",
+ "tags": [
+  "chess",
+  "chess trap",
+  "vienna game",
+  "pony",
+  "pigeon"
+ ],
+ "concept": "pigeon_en",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "en",
+  "hook": "perte_poney+mat",
+  "premiers_mots": "He eats your",
+  "duree_s": 23,
+  "personnages": [
+   "queen",
+   "pony",
+   "bishop",
+   "pigeon",
+   "candy",
+   "you"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "commente_A_ou_B",
+  "ouverture": "boucle_ouverte",
+  "pause_chrono": "non",
+  "titre": "resultat",
+  "test": "T1-fin",
+  "variante": "A",
+  "paire": "T7-7",
+  "tirage": "seed 2810262233"
+ },
+ "format": "PERSO",
+ "langue": "en",
+ "test": "T1-fin",
+ "variante": "A",
+ "duree": 23,
+ "voix": "oui",
+ "paire": "T7-7"
+}

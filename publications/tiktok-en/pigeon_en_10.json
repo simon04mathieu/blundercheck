@@ -1,0 +1,42 @@
+{
+ "fichier": "sorties/pigeon_en_10.mp4",
+ "legende": "Pigeon Trap of the Day #10 🐦 He grabs a free pawn… mate in one. Follow for the next trap! #chess #chesstok #chesstrap #italiangame",
+ "envoyer_apres": "2026-10-28T08:00:00+01:00",
+ "heure_conseillee": "2026-10-28T17:00:00+01:00",
+ "repere": "17 h · pigeon_en_10 · 22 s",
+ "ia": true,
+ "marque": true,
+ "concept": "pigeon_en",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "en",
+  "hook": "pion_gratuit+mat",
+  "premiers_mots": "He eats a",
+  "duree_s": 22,
+  "personnages": [
+   "queen",
+   "bishop",
+   "pony",
+   "pigeon",
+   "candy",
+   "you"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "suis_le_compte",
+  "ouverture": "boucle_ouverte",
+  "pause_chrono": "non",
+  "titre": "resultat",
+  "test": "T1-fin",
+  "variante": "B",
+  "paire": "T7-8",
+  "tirage": "seed 2810262233"
+ },
+ "format": "PERSO",
+ "langue": "en",
+ "test": "T1-fin",
+ "variante": "B",
+ "duree": 22,
+ "voix": "oui",
+ "paire": "T7-8"
+}

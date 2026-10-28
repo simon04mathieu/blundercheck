@@ -1,0 +1,44 @@
+{
+ "fichier": "sorties/quiz_legal_5_court.mp4",
+ "envoyer_apres": "2026-10-28T20:00:00+01:00",
+ "titre": "This capture is illegal (can you see why?) ♟️ #chess #shorts",
+ "description": "Legal or illegal? Yes or no in the comments!\n\n#chess #enpassant #shorts",
+ "tags": [
+  "chess",
+  "en passant",
+  "chess quiz",
+  "pigeon"
+ ],
+ "concept": "quiz_legal",
+ "etiquettes": {
+  "format": "QUIZ",
+  "langue": "en",
+  "hook": "interdit+question",
+  "premiers_mots": "This capture is",
+  "duree_s": 24,
+  "personnages": [
+   "pawn",
+   "king",
+   "rook",
+   "pigeon",
+   "candy",
+   "you"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "oui_non",
+  "ouverture": "frame0_texte",
+  "pause_chrono": "oui",
+  "titre": "resultat",
+  "test": "T6-durée",
+  "variante": "B",
+  "paire": "T6-5"
+ },
+ "format": "QUIZ",
+ "langue": "en",
+ "test": "T6-durée",
+ "variante": "B",
+ "duree": 24,
+ "voix": "oui",
+ "paire": "T6-5"
+}

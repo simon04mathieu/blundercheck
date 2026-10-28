@@ -1,0 +1,41 @@
+{
+ "fichier": "sorties/quiz_legal_5_long.mp4",
+ "legende": "This capture is illegal. Can you see why? 🤔 Yes or no? 👇 #chess #chesstok #enpassant #chessquiz",
+ "envoyer_apres": "2026-10-28T08:00:00+01:00",
+ "heure_conseillee": "2026-10-28T14:00:00+01:00",
+ "repere": "14 h · quiz_legal_5_long · 62 s",
+ "ia": true,
+ "marque": true,
+ "concept": "quiz_legal",
+ "etiquettes": {
+  "format": "QUIZ",
+  "langue": "en",
+  "hook": "interdit+question",
+  "premiers_mots": "This capture is",
+  "duree_s": 62,
+  "personnages": [
+   "pawn",
+   "king",
+   "rook",
+   "pigeon",
+   "candy",
+   "you"
+  ],
+  "musique": "aucune",
+  "voix": "oui",
+  "fin": "oui_non",
+  "ouverture": "frame0_texte",
+  "pause_chrono": "oui",
+  "titre": "resultat",
+  "test": "T6-durée",
+  "variante": "A",
+  "paire": "T6-5"
+ },
+ "format": "QUIZ",
+ "langue": "en",
+ "test": "T6-durée",
+ "variante": "A",
+ "duree": 62,
+ "voix": "oui",
+ "paire": "T6-5"
+}
