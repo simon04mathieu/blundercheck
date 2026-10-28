@@ -1,0 +1,78 @@
+{
+ "nom": "pigeon_jour_11",
+ "tempo": 1.0,
+ "duree_s": 22.24,
+ "hook": {
+  "texte": "Il mange ton poney.|Puis tu lui mets mat.",
+  "fin": 3.92
+ },
+ "question": {
+  "texte": "A = oui · B = jamais.|Commente !",
+  "t": 19.04
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Il mange ton poney."
+  },
+  {
+   "t": 2.18,
+   "texte": "Puis tu lui mets mat."
+  },
+  {
+   "t": 3.92,
+   "texte": "Tu as les Blancs."
+  },
+  {
+   "t": 5.64,
+   "texte": "Le pigeon prend un bonbon."
+  },
+  {
+   "t": 7.38,
+   "texte": "Ta dame sort en douce."
+  },
+  {
+   "t": 9.4,
+   "texte": "Gourmand, il mange aussi ton poney."
+  },
+  {
+   "t": 12.28,
+   "texte": "Ta dame prend le dernier bonbon."
+  },
+  {
+   "t": 15.46,
+   "texte": "Mat."
+  },
+  {
+   "t": 16.6,
+   "texte": "Tu serais tombé dedans ?"
+  },
+  {
+   "t": 17.96,
+   "texte": "Commente A  oui, ou B  jamais."
+  }
+ ],
+ "coups": [
+  {
+   "t": 6.38,
+   "coup": "Nxe4",
+   "badge": "gaffe"
+  },
+  {
+   "t": 7.78,
+   "coup": "Qh5",
+   "badge": "brillant"
+  },
+  {
+   "t": 10.54,
+   "coup": "Nxc3",
+   "badge": "gaffe"
+  },
+  {
+   "t": 13.36,
+   "coup": "Qxf7#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
