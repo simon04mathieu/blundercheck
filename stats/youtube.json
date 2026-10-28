@@ -1,5 +1,5 @@
 {
- "date": "2026-10-27T23:33:04.345094+00:00",
+ "date": "2026-10-28T00:13:41.629630+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -12,8 +12,8 @@
    "publiee": "2026-10-27T19:40:53Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 80,
-   "jaime": 1,
+   "vues": 87,
+   "jaime": 3,
    "commentaires": 0
   },
   "C_cVscc2QuA": {
@@ -21,8 +21,8 @@
    "publiee": "2026-10-27T16:48:22Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 350,
-   "jaime": 4,
+   "vues": 393,
+   "jaime": 5,
    "commentaires": 0
   },
   "tmo47GivqzQ": {
@@ -30,7 +30,7 @@
    "publiee": "2026-10-27T13:52:08Z",
    "statut": "public",
    "duree": "PT21S",
-   "vues": 79,
+   "vues": 85,
    "jaime": 2,
    "commentaires": 0
   },
@@ -48,7 +48,7 @@
    "publiee": "2026-10-26T19:42:30Z",
    "statut": "public",
    "duree": "PT25S",
-   "vues": 194,
+   "vues": 195,
    "jaime": 3,
    "commentaires": 0
   },
@@ -57,7 +57,7 @@
    "publiee": "2026-10-26T16:04:24Z",
    "statut": "public",
    "duree": "PT1M10S",
-   "vues": 3,
+   "vues": 4,
    "jaime": 0,
    "commentaires": 0
   },
@@ -66,7 +66,7 @@
    "publiee": "2026-10-26T14:46:54Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 577,
+   "vues": 589,
    "jaime": 5,
    "commentaires": 0
   },
@@ -75,7 +75,7 @@
    "publiee": "2026-10-26T10:41:17Z",
    "statut": "public",
    "duree": "PT40S",
-   "vues": 830,
+   "vues": 831,
    "jaime": 7,
    "commentaires": 1
   },
@@ -93,7 +93,7 @@
    "publiee": "2026-10-25T16:31:03Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 1045,
+   "vues": 1046,
    "jaime": 15,
    "commentaires": 0
   },
@@ -111,7 +111,7 @@
    "publiee": "2026-10-25T10:30:22Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 783,
+   "vues": 776,
    "jaime": 11,
    "commentaires": 1
   },
@@ -138,7 +138,7 @@
    "publiee": "2026-10-24T12:36:05Z",
    "statut": "public",
    "duree": "PT26S",
-   "vues": 1245,
+   "vues": 1249,
    "jaime": 21,
    "commentaires": 0
   },
