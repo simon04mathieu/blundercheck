@@ -1,5 +1,5 @@
 {
- "date": "2026-10-28T13:58:33.249583+00:00",
+ "date": "2026-10-28T14:54:48.170820+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,13 +7,22 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "kLr6H397LrQ": {
+   "titre": "Il mange ton poney, tu lui mets mat : piège de la partie viennoise 🐦 #echecs #shorts",
+   "publiee": "2026-10-28T13:58:43Z",
+   "statut": "public",
+   "duree": "PT23S",
+   "vues": 0,
+   "jaime": 1,
+   "commentaires": 0
+  },
   "lE6_RINx-wI": {
    "titre": "He eats your pony, you checkmate him: Vienna Game trap 🐦 #chess #shorts",
    "publiee": "2026-10-28T10:46:09Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 221,
-   "jaime": 3,
+   "vues": 321,
+   "jaime": 4,
    "commentaires": 0
   },
   "_73Apn88-y8": {
@@ -21,7 +30,7 @@
    "publiee": "2026-10-27T19:40:53Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 214,
+   "vues": 211,
    "jaime": 5,
    "commentaires": 0
   },
@@ -30,7 +39,7 @@
    "publiee": "2026-10-27T16:48:22Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 917,
+   "vues": 920,
    "jaime": 11,
    "commentaires": 1
   },
@@ -39,7 +48,7 @@
    "publiee": "2026-10-27T13:52:08Z",
    "statut": "public",
    "duree": "PT21S",
-   "vues": 142,
+   "vues": 143,
    "jaime": 2,
    "commentaires": 0
   },
@@ -57,7 +66,7 @@
    "publiee": "2026-10-26T19:42:30Z",
    "statut": "public",
    "duree": "PT25S",
-   "vues": 237,
+   "vues": 235,
    "jaime": 5,
    "commentaires": 0
   },
@@ -84,7 +93,7 @@
    "publiee": "2026-10-26T10:41:17Z",
    "statut": "public",
    "duree": "PT40S",
-   "vues": 944,
+   "vues": 933,
    "jaime": 7,
    "commentaires": 1
   },
@@ -120,7 +129,7 @@
    "publiee": "2026-10-25T10:30:22Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 799,
+   "vues": 801,
    "jaime": 11,
    "commentaires": 1
   },
@@ -147,7 +156,7 @@
    "publiee": "2026-10-24T12:36:05Z",
    "statut": "public",
    "duree": "PT26S",
-   "vues": 1264,
+   "vues": 1266,
    "jaime": 21,
    "commentaires": 0
   },
