@@ -968,3 +968,93 @@ QUESTIONS.update({
     "analyse_celebre_3_court": "Would you have|seen it? Yes or no?",
     "analyse_celebre_3_long": "Would you have|seen it? Yes or no?",
 })
+
+# ---------- file du 27-28/10 (scénariste) : 2 FR + 4 EN. T1-fin (Vienne = A, Italienne = B, seed 2810262233), T7-7/T7-8, T6-5 EN (quiz « prise en passant clouée », avec voix) ----------
+# Producteur (28/10, 1 h) : python-chess + Stockfish 19 (WASM, prof. 16) : Vienne 4...Nxc3?? = mat en 1 (5.Qxf7#), 4...Nd6 était le coup ;
+# Italienne 3...Qf6 = +1,1 pour les Blancs, 4.Nxe5?? = mat en 1 (4...Qxf2#) ; quiz : b5xc6 e.p. pseudo-légal mais illégal (tour h5 sur la 5e rangée), coups légaux Kb6 Ka6 Ka4 b6.
+# Aucune musique (décision de Simon du 27/10) : "sans_musique": true dans toutes les commandes. Image 1 = position finale (boucle ouverte) + étiquette REWIND.
+VIENNE_PIEGE = "e4 e5 Nc3 Nf6 Bc4 Nxe4 Qh5 Nxc3"          # + Qxf7#
+ITALIENNE_PIEGE = "e4 e5 Nf3 Bc5 Bc4 Qf6 Nxe5"            # + Qxf2#
+EPC_AVANT = "fen:7k/2p5/8/KP5r/8/8/8/8_b_-_-_0_1"          # le pigeon joue c5
+EPC_QUIZ = "fen:7k/8/8/KPp4r/8/8/8/8_w_-_c6_0_2"           # bxc6 e.p. ? illégal
+EPC_SI = "fen:7k/8/2P5/K6r/8/8/8/8_b_-_-_0_2"              # si on prenait : la tour voit le roi
+PERSO.update({
+"pigeon_en_9": {
+    "cote": "blancs",
+    "hook": "He eats your pony.|Then you checkmate him.",
+    "voix": """[mischievously] He eats your pony. Then you checkmate him.
+You're White. The pigeon grabs a candy. Your queen sneaks out. Greedy pigeon eats your pony too. Your queen takes the last candy. [laughs] Mate.
+Would you fall for it? Comment A: yes, or B: never.""",
+    "script": """[p """ + VIENNE_PIEGE + """ Qxf7#] [s tag f7 1.0 REWIND] He eats your pony. Then you checkmate him.
+[h] [p e4 e5 Nc3 Nf6 Bc4] You're White. The pigeon grabs [m Nxe4 gaffe] a candy. [s bonbon e4 2.0] Your queen [m Qh5 brillant] sneaks out. Greedy pigeon [m Nxc3 gaffe] eats your pony [s tag c3 2.0 PIGEON] too. Your queen takes [m Qxf7# mat] [z f7e8 1.45 2.6] [x impact] the last candy. Mate.
+Would you fall for it? Comment A: yes, or B: never.""",
+},
+"pigeon_jour_11": {
+    "cote": "blancs",
+    "hook": "Il mange ton poney.|Puis tu lui mets mat.",
+    "voix": """[mischievously] Il mange ton poney. Puis tu lui mets mat.
+Tu as les Blancs. Le pigeon prend un bonbon. Ta dame sort en douce. Gourmand, il mange aussi ton poney. Ta dame prend le dernier bonbon. [laughs] Mat.
+Tu serais tombé dedans ? Commente A : oui, ou B : jamais.""",
+    "script": """[p """ + VIENNE_PIEGE + """ Qxf7#] [s tag f7 1.0 REWIND] Il mange ton poney. Puis tu lui mets mat.
+[h] [p e4 e5 Nc3 Nf6 Bc4] Tu as les Blancs. Le pigeon prend [m Nxe4 gaffe] un bonbon. [s bonbon e4 2.0] Ta dame [m Qh5 brillant] sort en douce. Gourmand, il mange [m Nxc3 gaffe] aussi ton poney. [s tag c3 2.0 LE_PIGEON] Ta dame prend [m Qxf7# mat] [z f7e8 1.45 2.6] [x impact] le dernier bonbon. Mat.
+Tu serais tombé dedans ? Commente A : oui, ou B : jamais.""",
+},
+"pigeon_en_10": {
+    "cote": "noirs",
+    "hook": "He eats a free pawn.|You mate him.",
+    "voix": """[mischievously] He eats a free pawn. You mate him.
+You're Black. Your bishop eyes his weak spot. Your queen steps out. The pigeon sees a free pawn and grabs it with his pony. Greedy. Your queen eats the candy in front of his king. [laughs] Mate.
+Would you fall for it? Follow for the next trap.""",
+    "script": """[p """ + ITALIENNE_PIEGE + """ Qxf2#] [s tag f2 1.0 REWIND] He eats a free pawn. You mate him.
+[h] [p e4 e5 Nf3] You're Black. Your bishop [m Bc5 brillant] eyes [f c5f2] his weak spot. [m Bc4] Your queen [m Qf6 brillant] steps out. The pigeon sees a free pawn and grabs it [m Nxe5 gaffe] with his pony. [s tag e5 2.0 PIGEON] Greedy. Your queen eats [m Qxf2# mat] [z f2e1 1.45 2.6] [x impact] the candy in front of his king. Mate.
+Would you fall for it? Follow for the next trap.""",
+},
+"pigeon_jour_12": {
+    "cote": "noirs",
+    "hook": "Il mange un pion gratuit.|Tu lui mets mat.",
+    "voix": """[mischievously] Il mange un pion gratuit. Tu lui mets mat.
+Tu as les Noirs. Ton fou vise sa faille. Ta dame sort. Le pigeon voit un pion gratuit et le prend avec son poney. Gourmand. Ta dame mange le bonbon devant son roi. [laughs] Mat.
+Tu serais tombé dedans ? Suis le compte pour la suite.""",
+    "script": """[p """ + ITALIENNE_PIEGE + """ Qxf2#] [s tag f2 1.0 REWIND] Il mange un pion gratuit. Tu lui mets mat.
+[h] [p e4 e5 Nf3] Tu as les Noirs. Ton fou [m Bc5 brillant] vise [f c5f2] sa faille. [m Bc4] Ta dame [m Qf6 brillant] sort. Le pigeon voit un pion gratuit et le prend [m Nxe5 gaffe] avec son poney. [s tag e5 2.0 LE_PIGEON] Gourmand. Ta dame mange [m Qxf2# mat] [z f2e1 1.45 2.6] [x impact] le bonbon devant son roi. Mat.
+Tu serais tombé dedans ? Suis le compte pour la suite.""",
+},
+"quiz_legal_5_court": {   # AVEC VOIX ; T6-5 variante B (30-45 s), pause chrono 2 s
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "This capture is illegal.|Can you see why?",
+    "voix": """This capture is illegal. Can you see why?
+The pigeon jumps his pawn right next to yours. You can take it in passing. Tempting! Legal or illegal? Decide before the timer ends.
+Illegal! Both pawns vanish and his rook hits your king.
+Would you have taken it? Yes or no?""",
+    "script": """[p """ + EPC_QUIZ + """] [f b5c6] [s tag c6 3.0 WHY] This capture is illegal. Can you see why?
+[h] [p """ + EPC_AVANT + """] The pigeon jumps [m c5] his pawn right next to yours. [s tag c5 2.0 PIGEON] You can take it [f b5c6] in passing. Tempting! Legal or illegal? Decide before the timer ends. [q 2 Legal_or_illegal?]
+Illegal! [p """ + EPC_SI + """] Both pawns vanish and his rook [f h5a5] [z a5 1.3 2.0] [x impact] hits your king.
+Would you have taken it? Yes or no?""",
+},
+"quiz_legal_5_long": {    # AVEC VOIX LONGUE (≈ 700 car., élargissement de Simon du 27/10) ; T6-5 variante A (61-75 s), pause chrono 2 s
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "This capture is illegal.|Can you see why?",
+    "voix": """This capture is illegal. Can you see why?
+You're White. Your king hides on the edge, right behind your pawn. Far away on the same row, the pigeon's rook is waiting.
+Suddenly the pigeon jumps his pawn two steps, right next to yours. A special capture appears, just for this one turn. Tempting! You can take the candy in passing.
+But wait. Look along the row. Your king. Your pawn. His pawn. His rook. Legal or illegal? Decide before the timer ends.
+Illegal! If you take, both pawns vanish. The road opens. The rook hits your king. You can never leave your king in check.
+So you walk your king away, or push your pawn ahead. The candy stays on the plate. Next time, look at the whole row.
+Would you have taken it? Yes or no?""",
+    "script": """[p """ + EPC_QUIZ + """] [f b5c6] [s tag c6 3.0 WHY] This capture is illegal. Can you see why?
+[h] [p """ + EPC_AVANT + """] You're White. Your king [z a5 1.3 2.0] hides on the edge, right behind your pawn. Far away on the same row, the pigeon's rook [s tag h5 2.5 PIGEON] is waiting.
+Suddenly the pigeon jumps [m c5] his pawn two steps, right next to yours. A special capture [f b5c6] appears, just for this one turn. Tempting! You can take the candy [s bonbon c5 2.5] in passing.
+But wait. Look along the row. Your king. [z a5 1.3 1.5] Your pawn. [z b5 1.3 1.5] His pawn. [z c5 1.3 1.5] His rook. [z h5 1.3 1.5] Legal or illegal? Decide before the timer ends. [q 2 Legal_or_illegal?]
+Illegal! If you take, [p """ + EPC_SI + """] both pawns vanish. The road opens. [f h5a5] The rook hits your king. [x impact] [s tag a5 2.5 CHECK] You can never leave your king in check.
+[p """ + EPC_QUIZ + """] So you walk your king away, [f a5a4 a5b6] or push your pawn ahead. [f b5b6] The candy stays on the plate. Next time, look at the whole row. [f a5h5]
+Would you have taken it? Yes or no?""",
+},
+})
+QUESTIONS.update({
+    "pigeon_en_9": "A = yes · B = never.|Comment!",
+    "pigeon_jour_11": "A = oui · B = jamais.|Commente !",
+    "pigeon_en_10": "Follow for|the next trap",
+    "pigeon_jour_12": "Suis le compte|pour la suite",
+    "quiz_legal_5_court": "Would you have|taken it? Yes or no?",
+    "quiz_legal_5_long": "Would you have|taken it? Yes or no?",
+})
