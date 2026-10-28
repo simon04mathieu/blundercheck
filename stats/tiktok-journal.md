@@ -260,3 +260,44 @@ urllib.error.URLError: <urlopen error [Errno 104] Connection reset by peer>
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 5, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 5, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 5, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/client.py", line 584, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 551, in _read_next_chunk_size
+    return int(line, 16)
+           ^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 16: b''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/http/client.py", line 600, in _read_chunked
+    while (chunk_left := self._get_chunk_left()) is not None:
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 586, in _get_chunk_left
+    raise IncompleteRead(b'')
+http.client.IncompleteRead: IncompleteRead(0 bytes read)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/blundercheck/blundercheck/outils/tiktok.py", line 128, in <module>
+    r = moi(tok); print(json.dumps({"compte": r["compte"].get("display_name"), "utilisateur": r["options"].get("creator_username"), "abonnes": r["compte"].get("follower_count"),
+        ^^^^^^^^
+  File "/home/runner/work/blundercheck/blundercheck/outils/tiktok.py", line 69, in moi
+    u = _api(tok, "GET", "/v2/user/info/?fields=open_id,display_name,username,follower_count,likes_count,video_count")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/blundercheck/blundercheck/outils/tiktok.py", line 62, in _api
+    js = _http(method, API + chemin, json.dumps(corps).encode() if corps is not None else None,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/blundercheck/blundercheck/outils/tiktok.py", line 33, in _http
+    b = r.read(); return json.loads(b) if b else {}
+        ^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 478, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 612, in _read_chunked
+    raise IncompleteRead(b''.join(value)) from exc
+http.client.IncompleteRead: IncompleteRead(262 bytes read)
+ÉCHEC compte fr
