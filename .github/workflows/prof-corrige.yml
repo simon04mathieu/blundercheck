@@ -43,7 +43,7 @@ jobs:
             # le pseudo ne doit jamais entrer dans le journal public
             python3 -c "import os,re,sys;p=os.environ.get('CHESSCOM_PSEUDO','');t=open('/tmp/brut.txt').read();print(re.sub(re.escape(p),'***',t,flags=re.I) if p else t)" > /tmp/log.txt
             if [ $ok -eq 0 ]; then
-              tail -n 1 /tmp/log.txt | sed 's/^/    /' >> sorties/journal.md
+              grep -E '^OK' /tmp/log.txt | tail -n 1 | sed 's/^/    /' >> sorties/journal.md
               git mv "$c" commandes/prof/faites/ 2>/dev/null || mv "$c" commandes/prof/faites/
             else
               echo "ÉCHEC :" >> sorties/journal.md
