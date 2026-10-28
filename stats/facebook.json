@@ -1,17 +1,45 @@
 {
- "releve": "2026-10-27T17:26:14Z",
+ "releve": "2026-10-28T17:28:30Z",
  "page": "BlunderCheck",
  "abonnes": 0,
  "fans": 0,
  "publications": [
+  {
+   "id": "1014073155053824",
+   "description": "Le pigeon du jour #11 🐦 Il mange ton poney… puis tu lui mets mat. Tu serais tomb",
+   "created_time": "2026-10-28T13:03:18+0000",
+   "permalink_url": "/reel/1014073155053824/",
+   "insights": {
+    "blue_reels_play_count": 1,
+    "post_video_likes_by_reaction_type": {},
+    "post_video_social_actions": {},
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "1607670504435509",
+   "description": "Le pigeon du jour #10 🐦 Il mange ta tour… et tu lui mets mat. Tu serais tombé de",
+   "created_time": "2026-10-27T19:47:37+0000",
+   "permalink_url": "/reel/1607670504435509/",
+   "insights": {
+    "blue_reels_play_count": 4,
+    "post_video_likes_by_reaction_type": {
+     "REACTION_LIKE": 1
+    },
+    "post_video_social_actions": {},
+    "post_video_followers": 0
+   }
+  },
   {
    "id": "1149110267541114",
    "description": "Le pigeon du jour #9 🐦 Perds ta dame… et mate avec ton fou. Tu serais tombé deda",
    "created_time": "2026-10-27T13:58:18+0000",
    "permalink_url": "/reel/1149110267541114/",
    "insights": {
-    "blue_reels_play_count": 0,
-    "post_video_likes_by_reaction_type": {},
+    "blue_reels_play_count": 2,
+    "post_video_likes_by_reaction_type": {
+     "REACTION_LIKE": 1
+    },
     "post_video_social_actions": {},
     "post_video_followers": 0
    }
@@ -22,8 +50,10 @@
    "created_time": "2026-10-26T19:48:57+0000",
    "permalink_url": "/reel/1089484030654731/",
    "insights": {
-    "blue_reels_play_count": 0,
-    "post_video_likes_by_reaction_type": {},
+    "blue_reels_play_count": 2,
+    "post_video_likes_by_reaction_type": {
+     "REACTION_LIKE": 1
+    },
     "post_video_social_actions": {},
     "post_video_followers": 0
    }
@@ -34,8 +64,10 @@
    "created_time": "2026-10-26T16:10:45+0000",
    "permalink_url": "/reel/4628867854026190/",
    "insights": {
-    "blue_reels_play_count": 0,
-    "post_video_likes_by_reaction_type": {},
+    "blue_reels_play_count": 2,
+    "post_video_likes_by_reaction_type": {
+     "REACTION_LIKE": 1
+    },
     "post_video_social_actions": {},
     "post_video_followers": 0
    }
@@ -46,8 +78,10 @@
    "created_time": "2026-10-26T15:12:48+0000",
    "permalink_url": "/reel/2108227719822985/",
    "insights": {
-    "blue_reels_play_count": 0,
-    "post_video_likes_by_reaction_type": {},
+    "blue_reels_play_count": 2,
+    "post_video_likes_by_reaction_type": {
+     "REACTION_LIKE": 1
+    },
     "post_video_social_actions": {},
     "post_video_followers": 0
    }
@@ -58,7 +92,7 @@
    "created_time": "2026-10-26T10:49:56+0000",
    "permalink_url": "/reel/1092571733683485/",
    "insights": {
-    "blue_reels_play_count": 2,
+    "blue_reels_play_count": 3,
     "post_video_likes_by_reaction_type": {},
     "post_video_social_actions": {},
     "post_video_followers": 0
@@ -70,7 +104,7 @@
    "created_time": "2026-10-25T19:36:39+0000",
    "permalink_url": "/reel/1312016024351056/",
    "insights": {
-    "blue_reels_play_count": 0,
+    "blue_reels_play_count": 1,
     "post_video_likes_by_reaction_type": {},
     "post_video_social_actions": {},
     "post_video_followers": 0
@@ -82,7 +116,7 @@
    "created_time": "2026-10-25T16:41:17+0000",
    "permalink_url": "/reel/1154075637299279/",
    "insights": {
-    "blue_reels_play_count": 0,
+    "blue_reels_play_count": 1,
     "post_video_likes_by_reaction_type": {},
     "post_video_social_actions": {},
     "post_video_followers": 0
@@ -94,7 +128,7 @@
    "created_time": "2026-10-25T13:40:04+0000",
    "permalink_url": "/reel/5615362332022081/",
    "insights": {
-    "blue_reels_play_count": 0,
+    "blue_reels_play_count": 1,
     "post_video_likes_by_reaction_type": {},
     "post_video_social_actions": {},
     "post_video_followers": 0
@@ -106,7 +140,7 @@
    "created_time": "2026-10-25T10:39:59+0000",
    "permalink_url": "/reel/2177897992808092/",
    "insights": {
-    "blue_reels_play_count": 0,
+    "blue_reels_play_count": 1,
     "post_video_likes_by_reaction_type": {},
     "post_video_social_actions": {},
     "post_video_followers": 0
@@ -164,18 +198,20 @@
   }
  ],
  "erreurs": [
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A3vcM4GGMVQ2L0OBRFO",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ACHOW3UqhWwo6orj2k3",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AGh30OXhE7QRAlLxQOe",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AKXLBH2zT1lUiIjhorp",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AOY6BQHp9l9ppWxAwbA",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AP-osErFR871SNVbNYz",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AQ4vBMNqxbEcUAwHhyD",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ATIYwsSbgVX4oj7dL2c",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AbAv09UqqphQkPFQmC-",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AftD8OxWIzdbzIb1pR2",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AgKq5TKq5wuhwoe-zK_",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"Agr6ODpH1EaSIp1OQ6k",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AuJqxhJV08VqObtInqG"
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A1Kg3kV0-aBwI0QYqs1",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A25muU_bf9FF-SffcfW",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A7o97x8S3VZy9N-Yu8q",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A8a_M2QgLSRzGdMVZ0S",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AAiPPao69-rFUBnVFd1",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AD2VW5t91h33oyPKKYH",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AF6i4W6O1IPOUzaQQoA",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AGP6J8tJu_a7bVhWpJi",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ARD5__jEcE-3NiQn5aZ",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AStKUICsnwJwL8gvsPM",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AVsYdsvJLeuwfw60hib",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AaoAqmZA_wZoFOohXPt",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AnGuy4JI94GR3KXLY5K",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ArLN0STFdpGeDXlz9en",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AxTfCASTxKokpeTaSqM"
  ]
 }

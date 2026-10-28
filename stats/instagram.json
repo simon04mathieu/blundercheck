@@ -1,29 +1,61 @@
 {
- "releve": "2026-10-27T17:25:41Z",
+ "releve": "2026-10-28T17:27:58Z",
  "compte": "blundercheckapp",
  "abonnes": 1,
  "publications": [
   {
+   "id": "18103908296292562",
+   "caption": "Le pigeon du jour #11 🐦 Il mange ton poney… puis tu lui mets mat. Tu serais tomb",
+   "comments_count": 0,
+   "like_count": 1,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfCfnmFkpsi/",
+   "timestamp": "2026-10-28T13:03:13+0000",
+   "insights": {
+    "views": 143,
+    "reach": 135,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1
+   }
+  },
+  {
+   "id": "17921307327448704",
+   "caption": "Le pigeon du jour #10 🐦 Il mange ta tour… et tu lui mets mat. Tu serais tombé de",
+   "comments_count": 0,
+   "like_count": 2,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfApFYLkpgx/",
+   "timestamp": "2026-10-27T19:47:29+0000",
+   "insights": {
+    "views": 191,
+    "reach": 167,
+    "shares": 0,
+    "saved": 1,
+    "total_interactions": 3
+   }
+  },
+  {
    "id": "18104155097454994",
    "caption": "Le pigeon du jour #9 🐦 Perds ta dame… et mate avec ton fou. Tu serais tombé deda",
    "comments_count": 0,
-   "like_count": 4,
+   "like_count": 5,
    "media_product_type": "REELS",
    "permalink": "https://www.instagram.com/reel/DfABGPziTz6/",
    "timestamp": "2026-10-27T13:58:10+0000",
    "insights": {
-    "views": 207,
-    "reach": 175,
+    "views": 209,
+    "reach": 178,
     "shares": 0,
-    "saved": 0,
-    "total_interactions": 4
+    "saved": 1,
+    "total_interactions": 6
    }
   },
   {
    "id": "17988490614087417",
    "caption": "Le pigeon du jour #8 🐦 Donne ta dame au pigeon : il est mat. Suis le compte pour",
    "comments_count": 0,
-   "like_count": 2,
+   "like_count": 3,
    "media_product_type": "REELS",
    "permalink": "https://www.instagram.com/reel/De-EdbNgHJ5/",
    "timestamp": "2026-10-26T19:48:49+0000",
@@ -31,8 +63,8 @@
     "views": 247,
     "reach": 200,
     "shares": 0,
-    "saved": 0,
-    "total_interactions": 2
+    "saved": 1,
+    "total_interactions": 4
    }
   },
   {
@@ -60,8 +92,8 @@
    "permalink": "https://www.instagram.com/reel/De9k27KAfL8/",
    "timestamp": "2026-10-26T15:12:42+0000",
    "insights": {
-    "views": 1810,
-    "reach": 1382,
+    "views": 1812,
+    "reach": 1384,
     "shares": 1,
     "saved": 0,
     "total_interactions": 17
@@ -76,8 +108,8 @@
    "permalink": "https://www.instagram.com/reel/De9GxOVDVjE/",
    "timestamp": "2026-10-26T10:49:49+0000",
    "insights": {
-    "views": 156,
-    "reach": 136,
+    "views": 157,
+    "reach": 137,
     "shares": 0,
     "saved": 0,
     "total_interactions": 0
