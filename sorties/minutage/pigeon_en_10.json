@@ -1,0 +1,87 @@
+{
+ "nom": "pigeon_en_10",
+ "tempo": 1.0,
+ "duree_s": 21.5,
+ "hook": {
+  "texte": "He eats a free pawn.|You mate him.",
+  "fin": 3.26
+ },
+ "question": {
+  "texte": "Follow for|the next trap",
+  "t": 18.3
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "He eats a free pawn."
+  },
+  {
+   "t": 1.92,
+   "texte": "You mate him."
+  },
+  {
+   "t": 3.26,
+   "texte": "You're Black."
+  },
+  {
+   "t": 4.48,
+   "texte": "Your bishop eyes his weak spot."
+  },
+  {
+   "t": 6.82,
+   "texte": "Your queen steps out."
+  },
+  {
+   "t": 8.86,
+   "texte": "The pigeon sees a free pawn and grabs it with his pony."
+  },
+  {
+   "t": 12.9,
+   "texte": "Greedy."
+  },
+  {
+   "t": 14.28,
+   "texte": "Your queen eats the candy in front of his king."
+  },
+  {
+   "t": 17.62,
+   "texte": "Mate."
+  },
+  {
+   "t": 18.48,
+   "texte": "Would you fall for it?"
+  },
+  {
+   "t": 20.0,
+   "texte": "Follow for the next trap."
+  }
+ ],
+ "coups": [
+  {
+   "t": 4.96,
+   "coup": "Bc5",
+   "badge": "brillant"
+  },
+  {
+   "t": 6.82,
+   "coup": "Bc4",
+   "badge": null
+  },
+  {
+   "t": 7.28,
+   "coup": "Qf6",
+   "badge": "brillant"
+  },
+  {
+   "t": 11.3,
+   "coup": "Nxe5",
+   "badge": "gaffe"
+  },
+  {
+   "t": 15.1,
+   "coup": "Qxf2#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}

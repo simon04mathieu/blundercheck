@@ -285,3 +285,8 @@
     voix générée : 255 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_9.mp4 {"voix_brute_s": 22.3, "tempo": 1.0, "video_s": 23.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 45, "minutage": "10 phrases, 4 coups, 0 pauses"}
+## 2026-10-28 00:07 UTC · run 40606554508
+### commandes/perso_pigeon_en_10.json
+    voix générée : 294 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_10.mp4 {"voix_brute_s": 21.4, "tempo": 1.0, "video_s": 22.1, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 56, "minutage": "11 phrases, 5 coups, 0 pauses"}
