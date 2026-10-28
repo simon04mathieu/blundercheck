@@ -147,3 +147,4 @@ Jetons TikTok (en) enregistrés (chiffrés). Portées : user.info.basic,user.inf
 {"publish_id": "v_inbox_file~v2.7701619252612597762", "mode": "brouillon", "vie_privee": null, "legende": "This capture is illegal. Can you see why? 🤔 Yes or no? 👇 #chess #chesstok #enpassant #chessquiz"}
 ### 2026-10-28 07:38 publications/tiktok-en/quiz_legal_5_long.json
 {"publish_id": "v_inbox_file~v2.7701619397051369494", "mode": "brouillon", "vie_privee": null, "legende": "This capture is illegal. Can you see why? 🤔 Yes or no? 👇 #chess #chesstok #enpassant #chessquiz"}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 2, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
