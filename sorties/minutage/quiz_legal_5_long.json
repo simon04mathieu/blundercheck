@@ -1,0 +1,137 @@
+{
+ "nom": "quiz_legal_5_long",
+ "tempo": 1.0,
+ "duree_s": 61.1,
+ "hook": {
+  "texte": "This capture is illegal.|Can you see why?",
+  "fin": 3.8
+ },
+ "question": {
+  "texte": "Would you have|taken it? Yes or no?",
+  "t": 57.9
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "This capture is illegal."
+  },
+  {
+   "t": 1.92,
+   "texte": "Can you see why?"
+  },
+  {
+   "t": 3.8,
+   "texte": "You're White."
+  },
+  {
+   "t": 5.26,
+   "texte": "Your king hides on the edge right behind your pawn."
+  },
+  {
+   "t": 9.14,
+   "texte": "Far away on the same row the pigeon's rook is waiting."
+  },
+  {
+   "t": 13.2,
+   "texte": "Suddenly the pigeon jumps his pawn two steps, right next to yours."
+  },
+  {
+   "t": 18.2,
+   "texte": "A special capture appears just for this one turn."
+  },
+  {
+   "t": 22.2,
+   "texte": "Tempting!"
+  },
+  {
+   "t": 23.28,
+   "texte": "You can take the candy in passing."
+  },
+  {
+   "t": 25.68,
+   "texte": "But wait."
+  },
+  {
+   "t": 26.36,
+   "texte": "Look along the row."
+  },
+  {
+   "t": 28.66,
+   "texte": "Your king."
+  },
+  {
+   "t": 29.92,
+   "texte": "Your pawn."
+  },
+  {
+   "t": 31.1,
+   "texte": "His pawn."
+  },
+  {
+   "t": 32.38,
+   "texte": "His rook."
+  },
+  {
+   "t": 33.6,
+   "texte": "Legal or illegal?"
+  },
+  {
+   "t": 35.56,
+   "texte": "Decide before the timer ends."
+  },
+  {
+   "t": 40.08,
+   "texte": "Illegal!"
+  },
+  {
+   "t": 41.34,
+   "texte": "If you take both pawns vanish."
+  },
+  {
+   "t": 43.8,
+   "texte": "The road opens."
+  },
+  {
+   "t": 45.2,
+   "texte": "The rook hits your king."
+  },
+  {
+   "t": 47.08,
+   "texte": "You can never leave your king in check."
+  },
+  {
+   "t": 49.38,
+   "texte": "So you walk your king away or push your pawn ahead."
+  },
+  {
+   "t": 53.64,
+   "texte": "The candy stays on the plate."
+  },
+  {
+   "t": 55.84,
+   "texte": "Next time, look at the whole row."
+  },
+  {
+   "t": 58.38,
+   "texte": "Would you have taken it?"
+  },
+  {
+   "t": 60.02,
+   "texte": "Yes or no?"
+  }
+ ],
+ "coups": [
+  {
+   "t": 14.46,
+   "coup": "c5",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 38.06,
+   "duree": 2.0,
+   "texte": "Legal or illegal?"
+  }
+ ]
+}
