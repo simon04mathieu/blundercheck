@@ -1,0 +1,55 @@
+# Format « Le prof corrige ma partie » : capture une vraie partie de Simon (Chess.com) corrigée par le vrai site.
+# Déclenché par une commande commandes/prof/<nom>.json (branche videos) : {"nom": "prof_1", "partie": 1, "moments": 3}
+# Sorties : sorties/prof/<nom>/ (partie.pgn sans aucun en-tête, moments.json, ecran_*.png) ; journal : sorties/journal.md
+# Secret à poser par Simon : CHESSCOM_PSEUDO (son pseudo Chess.com ; jamais écrit dans le dépôt ni dans les journaux).
+name: Prof corrige ma partie
+on:
+  push:
+    branches: [videos]
+    paths: ["commandes/prof/*.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: prof-corrige
+  cancel-in-progress: false
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: videos, sparse-checkout: "outils\ncommandes\nsorties/prof\nsorties/journal.md", sparse-checkout-cone-mode: false }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Navigateur
+        timeout-minutes: 10
+        run: |
+          pip install -q --timeout 60 --retries 3 playwright
+          python -m playwright install --with-deps chromium > /dev/null
+      - name: Capture
+        timeout-minutes: 30
+        env:
+          CHESSCOM_PSEUDO: ${{ secrets.CHESSCOM_PSEUDO }}
+        run: |
+          git config user.name "BlunderCheck vidéos"
+          git config user.email "actions@users.noreply.github.com"
+          mkdir -p sorties/prof commandes/prof/faites
+          echo "## $(date -u '+%Y-%m-%d %H:%M') UTC · prof corrige · run ${{ github.run_id }}" >> sorties/journal.md
+          for c in commandes/prof/*.json; do
+            [ -e "$c" ] || continue
+            echo "### $c" >> sorties/journal.md
+            ok=0; python3 outils/prof_corrige.py "$c" > /tmp/brut.txt 2>&1 || ok=$?   # bash -e : sans « || » la tâche s'arrêterait ici
+            # le pseudo ne doit jamais entrer dans le journal public
+            python3 -c "import os,re,sys;p=os.environ.get('CHESSCOM_PSEUDO','');t=open('/tmp/brut.txt').read();print(re.sub(re.escape(p),'***',t,flags=re.I) if p else t)" > /tmp/log.txt
+            if [ $ok -eq 0 ]; then
+              tail -n 1 /tmp/log.txt | sed 's/^/    /' >> sorties/journal.md
+              git mv "$c" commandes/prof/faites/ 2>/dev/null || mv "$c" commandes/prof/faites/
+            else
+              echo "ÉCHEC :" >> sorties/journal.md
+              grep -i "ÉCHEC\|Error\|Timeout" /tmp/log.txt | tail -n 5 | sed 's/^/    /' >> sorties/journal.md
+            fi
+          done
+          git add -A sorties/prof sorties/journal.md commandes/prof || true
+          git commit -qm "Prof corrige : captures (run ${{ github.run_id }})" || exit 0
+          git pull -q --rebase origin videos && git push -q origin HEAD:videos
