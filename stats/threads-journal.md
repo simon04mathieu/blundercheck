@@ -29,3 +29,5 @@ jeton Threads renouvelé (valable 60 jours)
 {"reseau": "threads", "id": "18101531081385360"}
 ### 2026-10-27 19:48 publications/threads/pigeon_jour_10.json
 {"reseau": "threads", "id": "17884357761691530"}
+### 2026-10-28 13:04 publications/threads/pigeon_jour_11.json
+{"reseau": "threads", "id": "17926875936205924"}
