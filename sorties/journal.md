@@ -305,3 +305,8 @@
 ## 2026-10-28 17:08 UTC · prof corrige · run 40732831561
 ### commandes/prof/essai_1.json
     
+## 2026-10-29 00:04 UTC · run 40791525991
+### commandes/perso_pigeon_en_11.json
+    voix générée : 119 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_11.mp4 {"voix_brute_s": 9.8, "tempo": 1.0, "video_s": 10.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 19, "minutage": "6 phrases, 5 coups, 0 pauses"}

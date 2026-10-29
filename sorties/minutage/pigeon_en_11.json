@@ -1,0 +1,64 @@
+{
+ "nom": "pigeon_en_11",
+ "tempo": 1.0,
+ "duree_s": 9.84,
+ "hook": {
+  "texte": "Give your queen.|Win.",
+  "fin": 1.86
+ },
+ "question": null,
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "He eats your queen."
+  },
+  {
+   "t": 1.86,
+   "texte": "Smile."
+  },
+  {
+   "t": 3.26,
+   "texte": "Your bishop checks."
+  },
+  {
+   "t": 4.76,
+   "texte": "His king steps aside."
+  },
+  {
+   "t": 6.84,
+   "texte": "Your pony jumps in."
+  },
+  {
+   "t": 9.32,
+   "texte": "Mate."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.2,
+   "coup": "Nxe5",
+   "badge": "brillant"
+  },
+  {
+   "t": 0.54,
+   "coup": "Bxd1",
+   "badge": "gaffe"
+  },
+  {
+   "t": 3.66,
+   "coup": "Bxf7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 5.18,
+   "coup": "Ke7",
+   "badge": null
+  },
+  {
+   "t": 7.32,
+   "coup": "Nd5#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
