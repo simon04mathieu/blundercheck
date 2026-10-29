@@ -1,0 +1,41 @@
+{
+ "legende": "Ton roi a pris un échec. Tu peux encore roquer ? 🤔 Légal ? #echecs #chess #echecsfr #roque",
+ "envoyer_apres": "2026-10-29T08:00:00+01:00",
+ "heure_conseillee": "2026-10-29T14:00:00+01:00",
+ "repere": "14 h · quiz_legal_6_fr · 16 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/quiz_legal_6_fr.mp4",
+ "concept": "quiz_legal",
+ "etiquettes": {
+  "format": "QUIZ",
+  "langue": "fr",
+  "duree_s": 16,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T13-fin-quiz",
+  "hook": "regle_piege",
+  "premiers_mots": "Ton roi a",
+  "personnages": [
+   "roi",
+   "dame",
+   "tour",
+   "toi"
+  ],
+  "fin": "reponse_nette",
+  "ouverture": "echec_en_mouvement",
+  "pause_chrono": "oui",
+  "titre": "question",
+  "tirage": "seed 2910262233",
+  "interet": "regle_qui_piege",
+  "appel_site": "non",
+  "jumeau": "E4",
+  "variante": "B"
+ },
+ "format": "QUIZ",
+ "langue": "fr",
+ "test": "T13-fin-quiz",
+ "variante": "B",
+ "duree": 16,
+ "voix": "oui"
+}

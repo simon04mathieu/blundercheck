@@ -1,0 +1,36 @@
+{
+ "legende": "He eats your queen. Smile: your bishop checks, your knight jumps in. Mate. ♟️ Légal's trap, still deadly at 1000+ Elo.\n\nAnalyze your own games, free: https://blundercheck.app/try?src=facebook-en\n\n#chess #chesstrap #chessquiz",
+ "envoyer_apres": "2026-10-29T11:00:00+01:00",
+ "fichier": "sorties/pigeon_en_11.mp4",
+ "concept": "pigeon_en",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "en",
+  "duree_s": 10,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T11-série",
+  "hook": "sacrifice_dame",
+  "premiers_mots": "He eats your",
+  "personnages": [
+   "queen",
+   "bishop",
+   "pony",
+   "pigeon",
+   "you"
+  ],
+  "fin": "boucle_sans_texte",
+  "ouverture": "boucle_ouverte",
+  "titre": "resultat",
+  "tirage": "seed 2910262233",
+  "interet": "sacrifice_dame+mat_surprise",
+  "appel_site": "non",
+  "variante": "B"
+ },
+ "format": "PERSO",
+ "langue": "en",
+ "test": "T11-série",
+ "variante": "B",
+ "duree": 10,
+ "voix": "oui"
+}

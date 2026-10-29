@@ -1,0 +1,45 @@
+{
+ "titre": "Chess Trap #1: he eats your bishop, you mate him ♟️ #chess #shorts",
+ "description": "Chess Trap #1 🪤 He eats your bishop… your knight mates him. The Budapest trap. Trap #2 tomorrow: follow so you don't miss it!\n\nAnalyze your own games for free: https://blundercheck.app/try?src=youtube-en\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess trap",
+  "budapest gambit",
+  "kieninger trap"
+ ],
+ "envoyer_apres": "2026-10-29T17:00:00+01:00",
+ "fichier": "sorties/pigeon_en_12.mp4",
+ "concept": "pigeon_en",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "en",
+  "duree_s": 13,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T11-série",
+  "hook": "perte_fou+mat",
+  "premiers_mots": "He eats your",
+  "personnages": [
+   "pawn",
+   "bishop",
+   "queen",
+   "pony",
+   "pigeon",
+   "you"
+  ],
+  "fin": "teaser_serie",
+  "ouverture": "boucle_ouverte",
+  "titre": "resultat",
+  "serie": "Chess Trap #1",
+  "tirage": "seed 2910262233",
+  "interet": "mat_cavalier+leurre",
+  "appel_site": "non",
+  "variante": "A"
+ },
+ "format": "PERSO",
+ "langue": "en",
+ "test": "T11-série",
+ "variante": "A",
+ "duree": 13,
+ "voix": "oui"
+}

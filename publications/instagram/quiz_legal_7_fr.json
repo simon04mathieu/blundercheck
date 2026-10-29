@@ -1,0 +1,38 @@
+{
+ "legende": "Ton roi peut manger ce pion ? Le fou est cloué… mais il protège quand même ! ♟️ Tu le savais ? Oui ou non ?\n\n#echecs #chess #echecsfr #clouage #quiz",
+ "envoyer_apres": "2026-10-29T20:00:00+01:00",
+ "fichier": "sorties/quiz_legal_7_fr.mp4",
+ "concept": "quiz_legal",
+ "etiquettes": {
+  "format": "QUIZ",
+  "langue": "fr",
+  "duree_s": 19,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T13-fin-quiz",
+  "hook": "regle_piege",
+  "premiers_mots": "Ton roi peut",
+  "personnages": [
+   "roi",
+   "tour",
+   "fou",
+   "pion",
+   "toi"
+  ],
+  "fin": "question_oui_non",
+  "ouverture": "fleche_rouge",
+  "pause_chrono": "oui",
+  "titre": "question",
+  "tirage": "seed 2910262233",
+  "interet": "regle_qui_piege",
+  "appel_site": "non",
+  "jumeau": "E2'",
+  "variante": "A"
+ },
+ "format": "QUIZ",
+ "langue": "fr",
+ "test": "T13-fin-quiz",
+ "variante": "A",
+ "duree": 19,
+ "voix": "oui"
+}

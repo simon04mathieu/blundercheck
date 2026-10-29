@@ -1,0 +1,37 @@
+{
+ "legende": "Can your king take this pawn? The bishop is pinned… but a pinned piece still guards! ♟️\n\nFree game analysis: https://blundercheck.app/try?src=threads-en\n#chess",
+ "envoyer_apres": "2026-10-29T14:00:00+01:00",
+ "fichier": "sorties/quiz_legal_7_en.mp4",
+ "concept": "quiz_legal",
+ "etiquettes": {
+  "format": "QUIZ",
+  "langue": "en",
+  "duree_s": 20,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "aucun",
+  "hook": "regle_piege",
+  "premiers_mots": "Can your king",
+  "personnages": [
+   "king",
+   "rook",
+   "bishop",
+   "pawn",
+   "you"
+  ],
+  "fin": "appel_site",
+  "ouverture": "fleche_rouge",
+  "pause_chrono": "oui",
+  "titre": "question",
+  "interet": "regle_qui_piege",
+  "appel_site": "oui",
+  "jumeau": "F2",
+  "remplace": "E2 prof_corrige (reporté)"
+ },
+ "format": "QUIZ",
+ "langue": "en",
+ "test": "aucun",
+ "variante": null,
+ "duree": 20,
+ "voix": "oui"
+}
