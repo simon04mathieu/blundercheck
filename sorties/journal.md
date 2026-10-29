@@ -353,3 +353,11 @@
       File "/home/runner/work/blundercheck/blundercheck/outils/coach.py", line 8, in <module>
         from PIL import Image, ImageDraw, ImageFilter
     ModuleNotFoundError: No module named 'PIL'
+## 2026-10-29 12:17 UTC · pièges · run 40871952185
+### commandes/pieges/reserve_2.json
+ÉCHEC :
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/PIL/ImageFont.py", line 302, in __init__
+        self.font = core.getfont(
+                    ^^^^^^^^^^^^^
+    OSError: cannot open resource
