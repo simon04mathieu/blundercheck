@@ -13,7 +13,7 @@
   "duree_s": 26,
   "musique": "aucune",
   "voix": "oui",
-  "test": "aucun",
+  "test": "T-prof-format",
   "hook": "pire_moment",
   "premiers_mots": "Before capturing a",
   "personnages": [
@@ -26,12 +26,14 @@
   "interet": "vraie_partie+site",
   "appel_site": "oui",
   "source": "essai_1",
-  "ecrans_site": 3
+  "ecrans_site": 3,
+  "variante": "A",
+  "variante_format": "3_arrets"
  },
  "format": "PROF",
  "langue": "en",
- "test": "aucun",
- "variante": null,
+ "test": "T-prof-format",
+ "variante": "A",
  "duree": 26,
  "voix": "oui"
 }

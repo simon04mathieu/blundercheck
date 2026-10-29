@@ -1240,8 +1240,27 @@
    "threads": "programmé 2026-10-30"
   },
   "statut": "programmé",
-  "test": "aucun",
-  "variante": null,
+  "test": "T-prof-format",
+  "variante": "A",
+  "position_depart": null,
+  "position_finale": null,
+  "positions": [],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "prof_partie_1",
+  "langue": "en",
+  "concept": "prof_corrige",
+  "sujet": "The AI teacher checked every move of my chess game ♟️",
+  "reseaux": {
+   "youtube": "programmé 2026-10-31",
+   "tiktok-en": "programmé 2026-10-31",
+   "facebook": "programmé 2026-10-31",
+   "threads": "programmé 2026-10-31"
+  },
+  "statut": "programmé",
+  "test": "T-prof-format",
+  "variante": "B",
   "position_depart": null,
   "position_finale": null,
   "positions": [],
