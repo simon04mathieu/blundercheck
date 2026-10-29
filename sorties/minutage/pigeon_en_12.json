@@ -1,0 +1,105 @@
+{
+ "nom": "pigeon_en_12",
+ "tempo": 1.0,
+ "duree_s": 12.16,
+ "hook": {
+  "texte": "Chess Trap #1|He eats your bishop. You mate.",
+  "fin": 2.56
+ },
+ "question": {
+  "texte": "Trap #2 tomorrow|Follow",
+  "t": 8.96
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "He eats your bishop."
+  },
+  {
+   "t": 1.52,
+   "texte": "You mate."
+  },
+  {
+   "t": 2.56,
+   "texte": "You give a pawn."
+  },
+  {
+   "t": 4.06,
+   "texte": "Your bishop checks."
+  },
+  {
+   "t": 5.7,
+   "texte": "Your queen steps out."
+  },
+  {
+   "t": 7.74,
+   "texte": "He takes the bishop."
+  },
+  {
+   "t": 9.46,
+   "texte": "Your pony jumps."
+  },
+  {
+   "t": 11.74,
+   "texte": "Mate."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.48,
+   "coup": "axb4",
+   "badge": "gaffe"
+  },
+  {
+   "t": 1.62,
+   "coup": "Nd3#",
+   "badge": "mat"
+  },
+  {
+   "t": 2.82,
+   "coup": "e5",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.06,
+   "coup": "dxe5",
+   "badge": null
+  },
+  {
+   "t": 4.56,
+   "coup": "Bb4+",
+   "badge": "brillant"
+  },
+  {
+   "t": 5.7,
+   "coup": "Nbd2",
+   "badge": null
+  },
+  {
+   "t": 6.18,
+   "coup": "Qe7",
+   "badge": null
+  },
+  {
+   "t": 6.54,
+   "coup": "a3",
+   "badge": null
+  },
+  {
+   "t": 7.74,
+   "coup": "Ngxe5",
+   "badge": null
+  },
+  {
+   "t": 8.1,
+   "coup": "axb4",
+   "badge": "gaffe"
+  },
+  {
+   "t": 9.92,
+   "coup": "Nd3#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
