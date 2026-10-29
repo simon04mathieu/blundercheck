@@ -24,7 +24,7 @@ jobs:
         timeout-minutes: 10
         run: |
           sudo apt-get install -y -qq stockfish > /dev/null
-          pip install -q --timeout 60 --retries 3 zstandard
+          pip install -q --timeout 60 --retries 3 zstandard pillow numpy scipy cairosvg
       - name: Recherche
         timeout-minutes: 30
         run: |
