@@ -1,0 +1,83 @@
+{
+ "nom": "quiz_legal_6_fr",
+ "tempo": 1.0,
+ "duree_s": 15.46,
+ "hook": {
+  "texte": "Ton roi a pris un échec.|Tu peux roquer ?",
+  "fin": 3.68
+ },
+ "question": null,
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Ton roi a pris un échec."
+  },
+  {
+   "t": 1.8,
+   "texte": "Tu peux roquer ?"
+  },
+  {
+   "t": 3.68,
+   "texte": "La dame noire t'a mis en échec."
+  },
+  {
+   "t": 5.72,
+   "texte": "Tu as bloqué."
+  },
+  {
+   "t": 6.8,
+   "texte": "Maintenant elle est partie."
+  },
+  {
+   "t": 8.52,
+   "texte": "Légal ou pas ?"
+  },
+  {
+   "t": 12.04,
+   "texte": "Légal !"
+  },
+  {
+   "t": 13.3,
+   "texte": "Seul un échec en ce moment t'en empêche."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.5,
+   "coup": "Qe5+",
+   "badge": "gaffe"
+  },
+  {
+   "t": 5.82,
+   "coup": "Be2",
+   "badge": null
+  },
+  {
+   "t": 6.8,
+   "coup": "Nf6",
+   "badge": null
+  },
+  {
+   "t": 7.24,
+   "coup": "Nf3",
+   "badge": null
+  },
+  {
+   "t": 7.32,
+   "coup": "Qa5",
+   "badge": null
+  },
+  {
+   "t": 13.3,
+   "coup": "O-O",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 10.02,
+   "duree": 2.0,
+   "texte": "Légal ou pas ?"
+  }
+ ]
+}
