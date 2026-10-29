@@ -1,0 +1,40 @@
+{
+ "titre": "The AI teacher found my worst chess move ♟️ #chess #shorts",
+ "description": "I let the AI teacher check my real game. It found my worst move in seconds. ♟️\n\nAnalyze your own games for free: https://blundercheck.app/try?src=youtube-en\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess analysis",
+  "AI chess coach",
+  "blunder"
+ ],
+ "envoyer_apres": "2026-10-30T14:00:00+01:00",
+ "fichier": "sorties/prof_corrige_1.mp4",
+ "concept": "prof_corrige",
+ "etiquettes": {
+  "format": "PROF",
+  "langue": "en",
+  "duree_s": 26,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "aucun",
+  "hook": "pire_moment",
+  "premiers_mots": "Before capturing a",
+  "personnages": [
+   "you",
+   "AI teacher"
+  ],
+  "fin": "appel_site",
+  "ouverture": "gaffe_image0",
+  "titre": "resultat",
+  "interet": "vraie_partie+site",
+  "appel_site": "oui",
+  "source": "essai_1",
+  "ecrans_site": 3
+ },
+ "format": "PROF",
+ "langue": "en",
+ "test": "aucun",
+ "variante": null,
+ "duree": 26,
+ "voix": "oui"
+}

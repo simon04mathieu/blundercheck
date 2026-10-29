@@ -1229,6 +1229,25 @@
   "ligne_uci": "e2e4 b7b6 d2d4 c8b7 f1d3 f7f5 e4f5 b7g2 d1h5 g7g6 f5g6 g8f6 g6h7 f6h5 d3g6"
  },
  {
+  "nom": "prof_corrige_1",
+  "langue": "en",
+  "concept": "prof_corrige",
+  "sujet": "The AI teacher found my worst chess move ♟️",
+  "reseaux": {
+   "youtube": "programmé 2026-10-30",
+   "tiktok-en": "programmé 2026-10-30",
+   "facebook": "programmé 2026-10-30",
+   "threads": "programmé 2026-10-30"
+  },
+  "statut": "programmé",
+  "test": "aucun",
+  "variante": null,
+  "position_depart": null,
+  "position_finale": null,
+  "positions": [],
+  "ligne_uci": ""
+ },
+ {
   "nom": "quiz_legal_2",
   "langue": "fr",
   "concept": "quiz_legal",

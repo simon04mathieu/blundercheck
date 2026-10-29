@@ -34,6 +34,7 @@ quels que soient le nom, la langue ou le texte. Avant d'écrire une fiche : cher
 | Owen's Defense trap: lose your queen, mate with a bishop 🐦 | `pigeon_jour_9` (facebook 2026-10-27, instagram 2026-10-27, threads 2026-10-27, tiktok 2026-10-27, youtube 2026-10-27) | `pigeon_en_7` (tiktok-en 2026-10-27, youtube 2026-10-27) | pigeon_en | publié | `rn1qkb1r/p1ppp2P/1p4B1/7n/3P4/8/PPP2PbP/RNB1K1NR b` |
 | Traxler Counterattack trap: he eats your rook, you mate him 🐦 | `pigeon_jour_10` (facebook 2026-10-27, instagram 2026-10-27, threads 2026-10-27, tiktok 2026-10-27, youtube 2026-10-27) | `pigeon_en_8` (tiktok-en 2026-10-27, youtube 2026-10-27) | pigeon_en | publié | `r1b1k2N/pppp2pp/2n5/4p3/2B1n3/8/PPPP1qPP/RNBQ2KR w` |
 | He eats your pony, you checkmate him: Vienna Game trap 🐦 | `pigeon_jour_11` (facebook 2026-10-28, instagram 2026-10-28, threads 2026-10-28, tiktok 2026-10-28, youtube 2026-10-28) | `pigeon_en_9` (tiktok-en 2026-10-28, youtube 2026-10-28) | pigeon_en | publié | `rnbqkb1r/pppp1Qpp/8/4p3/2B5/2n5/PPPP1PPP/R1B1K1NR b` |
+| The AI teacher found my worst chess move ♟️ | — | `prof_corrige_1` (facebook 2026-10-30, threads 2026-10-30, tiktok-en 2026-10-30, youtube 2026-10-30) | prof_corrige | programmé |  |
 | Ton pion devient poney et fait mat. Légal ou pas ? 🐴 | `quiz_legal_2` (tiktok 2026-10-23, youtube 2026-10-23) | — | quiz_legal | publié | `5Nbq/6pk/6pp/8/8/8/8/2K5 b` |
 | Mat en passant : légal ou pas ? (version courte) | `quiz_legal_3_court` (facebook 2026-10-24, instagram 2026-10-24, threads 2026-10-24, tiktok 2026-10-24, youtube 2026-10-24) | — | quiz_legal | publié | `1Q6/1N2k3/3P4/5Q2/8/8/8/K7 b` |
 | Mat en passant : légal ou pas ? 🤔 | `quiz_legal_3_long` (facebook 2026-10-24, instagram 2026-10-24, threads 2026-10-24, tiktok 2026-10-24, youtube 2026-10-24) | — | quiz_legal | publié | `1Q6/1N2k3/8/3pPQ2/8/8/K7/8 b` |
@@ -66,5 +67,5 @@ quels que soient le nom, la langue ou le texte. Avant d'écrire une fiche : cher
 | Une tour sacrifiée et la dame tombe : le piège Tarrasch ♟️ | `v_tarrasch` (youtube 2026-10-23) | — | v_tarrasch | réserve | `r2q1rk1/2p1bppp/p3b3/1p1pn3/3Nn3/1BP5/PP3PPP/RNBQR1K1 w` |
 | Sa dame tombe en 8 coups : le gambit Tennison ♟️ | `v_tennison` (youtube 2026-10-23) | — | v_tennison | réserve | `r1bqkb1r/ppp1pppp/2n2n2/6N1/8/3B4/PPP2PPP/RNBQK2R w` |
 
-Total : 82 vidéos (63 FR, 19 EN), 60 sujets distincts.
+Total : 83 vidéos (63 FR, 20 EN), 61 sujets distincts.
 « script seulement » = fabriqué dans le dépôt mais sans fichier de publication (publié avant le 22/10 par Metricool ou jamais) : à considérer comme déjà fait.
