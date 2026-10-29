@@ -1,22 +1,54 @@
 {
- "releve": "2026-10-28T17:27:58Z",
+ "releve": "2026-10-29T17:27:51Z",
  "compte": "blundercheckapp",
  "abonnes": 1,
  "publications": [
   {
+   "id": "18393842923233922",
+   "caption": "Ton roi a pris un échec. Tu peux encore roquer ? ♟️ Légal ou pas ?\n\n#echecs #che",
+   "comments_count": 0,
+   "like_count": 1,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfFEefvDaCj/",
+   "timestamp": "2026-10-29T13:03:36+0000",
+   "insights": {
+    "views": 262,
+    "reach": 162,
+    "shares": 0,
+    "saved": 1,
+    "total_interactions": 2
+   }
+  },
+  {
+   "id": "18149073514571791",
+   "caption": "Le pigeon du jour #12 🐦 Il mange un pion gratuit… et tu lui mets mat en un coup.",
+   "comments_count": 0,
+   "like_count": 1,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfDOsYLEwD8/",
+   "timestamp": "2026-10-28T19:54:32+0000",
+   "insights": {
+    "views": 205,
+    "reach": 172,
+    "shares": 0,
+    "saved": 1,
+    "total_interactions": 2
+   }
+  },
+  {
    "id": "18103908296292562",
    "caption": "Le pigeon du jour #11 🐦 Il mange ton poney… puis tu lui mets mat. Tu serais tomb",
    "comments_count": 0,
-   "like_count": 1,
+   "like_count": 2,
    "media_product_type": "REELS",
    "permalink": "https://www.instagram.com/reel/DfCfnmFkpsi/",
    "timestamp": "2026-10-28T13:03:13+0000",
    "insights": {
-    "views": 143,
-    "reach": 135,
+    "views": 146,
+    "reach": 137,
     "shares": 0,
     "saved": 0,
-    "total_interactions": 1
+    "total_interactions": 2
    }
   },
   {
@@ -92,7 +124,7 @@
    "permalink": "https://www.instagram.com/reel/De9k27KAfL8/",
    "timestamp": "2026-10-26T15:12:42+0000",
    "insights": {
-    "views": 1812,
+    "views": 1813,
     "reach": 1384,
     "shares": 1,
     "saved": 0,
