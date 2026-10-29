@@ -170,3 +170,12 @@ Jetons TikTok (en) enregistrés (chiffrés). Portées : user.info.basic,user.inf
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 3, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 3, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 3, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 3, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-10-29 07:40 publications/tiktok-en/pigeon_en_11.json
+{"publish_id": "v_inbox_file~v2.7701991184922757142", "mode": "brouillon", "vie_privee": null, "legende": "He eats your queen… and gets mated 😈 Would you see it? #chess #chesstok #chesstrap #legalmate"}
+### 2026-10-29 07:40 publications/tiktok-en/pigeon_en_12.json
+{"publish_id": "v_inbox_file~v2.7701991232309970966", "mode": "brouillon", "vie_privee": null, "legende": "Chess Trap #1 🪤 He eats your bishop. You mate. Trap #2 tomorrow! #chess #chesstok #chesstrap #budapestgambit"}
+### 2026-10-29 07:40 publications/tiktok-en/quiz_legal_6_en.json
+{"publish_id": "v_inbox_file~v2.7701991232310069270", "mode": "brouillon", "vie_privee": null, "legende": "Your king was in check. Can you still castle? 🤔 Legal or illegal? #chess #chesstok #chessquiz #castling"}
+### 2026-10-29 07:40 publications/tiktok-en/quiz_legal_7_en.json
+{"publish_id": "v_inbox_file~v2.7701991184922871830", "mode": "brouillon", "vie_privee": null, "legende": "Can your king take this pawn? 🤔 Legal or illegal? #chess #chesstok #chessquiz #chessrules"}
