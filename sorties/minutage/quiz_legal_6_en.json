@@ -1,0 +1,90 @@
+{
+ "nom": "quiz_legal_6_en",
+ "tempo": 1.0,
+ "duree_s": 20.22,
+ "hook": {
+  "texte": "Your king was in check.|Can you castle?",
+  "fin": 3.66
+ },
+ "question": {
+  "texte": "Analyze your own game, free|blundercheck.app/try",
+  "t": 17.02
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Your king was in check."
+  },
+  {
+   "t": 1.8,
+   "texte": "Can you castle?"
+  },
+  {
+   "t": 3.66,
+   "texte": "The queen checked your king."
+  },
+  {
+   "t": 5.7,
+   "texte": "You blocked it."
+  },
+  {
+   "t": 6.9,
+   "texte": "Now she is gone."
+  },
+  {
+   "t": 8.7,
+   "texte": "Legal or illegal?"
+  },
+  {
+   "t": 12.74,
+   "texte": "Legal!"
+  },
+  {
+   "t": 13.68,
+   "texte": "Only a check right now stops you."
+  },
+  {
+   "t": 16.24,
+   "texte": "Find your own mistakes free: blundercheck dot app."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.4,
+   "coup": "Qe5+",
+   "badge": "gaffe"
+  },
+  {
+   "t": 5.78,
+   "coup": "Be2",
+   "badge": null
+  },
+  {
+   "t": 6.08,
+   "coup": "Nf6",
+   "badge": null
+  },
+  {
+   "t": 6.9,
+   "coup": "Nf3",
+   "badge": null
+  },
+  {
+   "t": 7.24,
+   "coup": "Qa5",
+   "badge": null
+  },
+  {
+   "t": 13.68,
+   "coup": "O-O",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 10.72,
+   "duree": 2.0,
+   "texte": "Legal or illegal?"
+  }
+ ]
+}

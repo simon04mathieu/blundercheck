@@ -315,3 +315,6 @@
     voix générée : 158 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_12.mp4 {"voix_brute_s": 12.1, "tempo": 1.0, "video_s": 12.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 27, "minutage": "8 phrases, 11 coups, 0 pauses"}
+### commandes/perso_quiz_legal_6_en.json
+    voix générée : 212 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/quiz_legal_6_en.mp4 {"voix_brute_s": 18.2, "tempo": 1.0, "video_s": 20.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 38, "minutage": "9 phrases, 6 coups, 1 pauses"}
