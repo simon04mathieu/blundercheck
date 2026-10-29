@@ -1,187 +1,187 @@
 {
- "date": "2026-10-29T15:28:38.023795+00:00",
+ "date": "2026-10-29T16:28:37.344316+00:00",
  "compte": {
   "display_name": "BlunderCheck • Chess",
   "follower_count": 3,
-  "likes_count": 260,
+  "likes_count": 266,
   "video_count": 16
  },
  "videos": [
   {
-   "comment_count": 0,
    "create_time": 1793286716,
-   "like_count": 2,
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7702107771436666134?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "duration": 10,
    "id": "7702107771436666134",
-   "share_count": 0,
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7702107771436666134?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "title": "#BlunderCheck ",
-   "view_count": 111
+   "view_count": 353,
+   "comment_count": 0,
+   "duration": 10,
+   "like_count": 8,
+   "share_count": 0
   },
   {
    "id": "7702056871196249366",
-   "like_count": 6,
-   "title": "#BlunderCheck ",
-   "view_count": 275,
+   "view_count": 276,
    "comment_count": 0,
    "create_time": 1793274865,
    "duration": 12,
+   "like_count": 6,
    "share_count": 0,
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7702056871196249366?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm"
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7702056871196249366?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "title": "#BlunderCheck "
   },
   {
-   "title": "#BlunderCheck ",
-   "view_count": 393,
    "duration": 19,
    "id": "7702002045716352278",
    "like_count": 10,
    "share_count": 0,
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7702002045716352278?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "comment_count": 0,
-   "create_time": 1793262102,
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7702002045716352278?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm"
+   "title": "#BlunderCheck ",
+   "view_count": 393,
+   "create_time": 1793262102
   },
   {
-   "id": "7701731741576269078",
    "like_count": 15,
+   "share_count": 0,
    "comment_count": 0,
    "create_time": 1793199166,
+   "duration": 22,
+   "id": "7701731741576269078",
    "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7701731741576269078?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "title": "#BlunderCheck ",
-   "view_count": 355,
-   "duration": 22,
-   "share_count": 0
+   "view_count": 355
   },
   {
-   "share_count": 0,
+   "view_count": 528,
+   "create_time": 1793186220,
+   "id": "7701676134601133334",
+   "like_count": 20,
    "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7701676134601133334?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "title": "#BlunderCheck #chess ",
    "comment_count": 3,
-   "create_time": 1793186220,
    "duration": 61,
-   "id": "7701676134601133334",
-   "like_count": 20,
-   "view_count": 528
+   "share_count": 0
   },
   {
-   "share_count": 0,
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7701624417717128470?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "title": "#BlunderCheck ",
    "create_time": 1793174176,
+   "duration": 22,
    "id": "7701624417717128470",
    "like_count": 9,
+   "share_count": 0,
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7701624417717128470?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "comment_count": 2,
-   "duration": 22,
+   "title": "#BlunderCheck ",
    "view_count": 307
   },
   {
    "create_time": 1793116220,
-   "duration": 66,
-   "like_count": 18,
-   "title": "#BlunderCheck ",
-   "view_count": 311,
-   "comment_count": 0,
    "id": "7701375481488215318",
    "share_count": 0,
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7701375481488215318?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm"
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7701375481488215318?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "title": "#BlunderCheck ",
+   "comment_count": 0,
+   "like_count": 18,
+   "view_count": 311,
+   "duration": 66
   },
   {
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7701374848622218518?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "title": "#BlunderCheck ",
    "view_count": 282,
    "comment_count": 1,
+   "id": "7701374848622218518",
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7701374848622218518?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "share_count": 0,
    "create_time": 1793116073,
    "duration": 21,
-   "id": "7701374848622218518",
-   "like_count": 9,
-   "share_count": 0
+   "like_count": 9
   },
   {
-   "id": "7701330097395059990",
-   "like_count": 19,
-   "share_count": 0,
-   "view_count": 373,
-   "duration": 21,
-   "create_time": 1793105652,
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7701330097395059990?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "title": "#BlunderCheck ",
-   "comment_count": 0
+   "view_count": 373,
+   "comment_count": 0,
+   "id": "7701330097395059990",
+   "share_count": 0,
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7701330097395059990?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "create_time": 1793105652,
+   "duration": 21,
+   "like_count": 19
   },
   {
+   "duration": 38,
+   "like_count": 14,
    "share_count": 1,
    "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7701268840688225558?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "title": "#BlunderCheck ",
-   "view_count": 376,
    "comment_count": 0,
-   "duration": 38,
-   "id": "7701268840688225558",
    "create_time": 1793091392,
-   "like_count": 14
+   "id": "7701268840688225558",
+   "view_count": 376
   },
   {
-   "like_count": 10,
+   "comment_count": 0,
+   "id": "7700973722513034518",
+   "share_count": 2,
    "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700973722513034518?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "title": "#BlunderCheck ",
-   "comment_count": 0,
    "create_time": 1793022675,
-   "share_count": 2,
-   "view_count": 220,
    "duration": 21,
-   "id": "7700973722513034518"
+   "like_count": 10,
+   "view_count": 220
   },
   {
+   "id": "7700917551781465366",
+   "share_count": 0,
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700917551781465366?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "title": "#BlunderCheck ",
+   "view_count": 680,
    "comment_count": 0,
    "create_time": 1793009598,
    "duration": 22,
-   "id": "7700917551781465366",
-   "like_count": 17,
-   "title": "#BlunderCheck ",
-   "share_count": 0,
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700917551781465366?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "view_count": 680
+   "like_count": 17
   },
   {
+   "comment_count": 0,
+   "duration": 23,
+   "share_count": 0,
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700880100975250710?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "create_time": 1793000884,
    "id": "7700880100975250710",
    "like_count": 1,
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700880100975250710?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "view_count": 6,
-   "duration": 23,
-   "create_time": 1793000884,
-   "share_count": 0,
    "title": "#BlunderCheck ",
-   "comment_count": 0
+   "view_count": 6
   },
   {
-   "duration": 21,
-   "id": "7700605174578007318",
-   "like_count": 23,
    "share_count": 1,
    "title": "#BlunderCheck ",
-   "view_count": 694,
    "create_time": 1792936867,
+   "duration": 21,
+   "like_count": 23,
    "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700605174578007318?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
-   "comment_count": 1
+   "view_count": 694,
+   "comment_count": 1,
+   "id": "7700605174578007318"
   },
   {
-   "comment_count": 1,
    "create_time": 1792843054,
    "duration": 25,
    "id": "7700202259220598039",
-   "like_count": 29,
-   "share_count": 0,
    "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700202259220598039?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
    "title": "#BlunderCheck #chess #game #halloween ",
-   "view_count": 760
+   "view_count": 760,
+   "comment_count": 1,
+   "like_count": 29,
+   "share_count": 0
   },
   {
-   "like_count": 58,
-   "share_count": 0,
+   "view_count": 1544,
+   "create_time": 1792833149,
    "duration": 23,
    "id": "7700159699777359106",
-   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700159699777359106?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm",
+   "like_count": 58,
+   "share_count": 0,
    "title": "#BlunderCheck #trap #chess #short ",
-   "view_count": 1544,
    "comment_count": 0,
-   "create_time": 1792833149
+   "share_url": "https://www.tiktok.com/@blundercheck.ches/video/7700159699777359106?utm_campaign=tt4d_open_api&utm_source=sbawu2egei00cpbalm"
   }
  ]
 }
