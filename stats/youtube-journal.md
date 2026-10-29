@@ -248,3 +248,4 @@
 ### 2026-10-29 19:49 publications/youtube/quiz_legal_6_en.json
 {"id": "wLfJ4a7B1sg", "url": "https://www.youtube.com/shorts/wLfJ4a7B1sg", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "24"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "24"}
