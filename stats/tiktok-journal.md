@@ -324,3 +324,4 @@ http.client.IncompleteRead: IncompleteRead(262 bytes read)
 ### 2026-10-29 07:40 publications/tiktok/quiz_legal_7_fr.json
 {"publish_id": "v_inbox_file~v2.7701991184922724374", "mode": "brouillon", "vie_privee": null, "legende": "Ton roi peut manger ce pion ? 🤔 Oui ou non ? #echecs #chess #echecsfr #clouage"}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 6, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 6, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
