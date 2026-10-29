@@ -2,6 +2,7 @@
 Commandes (fichiers commandes/*.json) :
   {"type": "boucle", "nom": "lasker"}                          BOUCLE sans voix (outils/boucle.py)
   {"type": "perso", "nom": "perso_lasker", "voix": "<id>"?}     voix ElevenLabs + calage + rendu + mixage
+  {"type": "prof", "nom": "prof_1", "source": "essai_1", "langue": "en", "voix": "<id>"}  « Le prof corrige ma partie » (outils/prof_montage.py)
   {"type": "coach", "nom": "v_stafford"}                        idem pour un script coach (sous-titres en phrases)
   options : "sans_musique": true, "volume_musique": 0.14, "duree_max": 52
   {"type": "test_voix", "nom": "cases", "versions": ["..."]}  une phrase par version, voix habituelle
@@ -219,5 +220,6 @@ def boucle(cmd):
 if __name__ == "__main__":
     os.makedirs(SORTIES, exist_ok=True)
     cmd = json.load(open(sys.argv[1]))
-    res = {"echantillons": lambda c: (echantillons(c), {}), "perso": video_voix, "coach": video_voix, "boucle": boucle, "gaffe": gaffe, "test_voix": test_voix}[cmd["type"]](cmd)
+    res = {"echantillons": lambda c: (echantillons(c), {}), "perso": video_voix, "coach": video_voix, "boucle": boucle, "gaffe": gaffe, "test_voix": test_voix,
+           "prof": lambda c: __import__("prof_montage").prof_video(c)}[cmd["type"]](cmd)  # prof_corrige (Simon, 29/10)
     print("OK", res[0], json.dumps(res[1], ensure_ascii=False))
