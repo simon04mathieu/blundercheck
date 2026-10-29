@@ -9,7 +9,8 @@ python-chess (légalité, mat) + Stockfish (la gaffe perd vraiment, le coup just
 
     python3 outils/chercher_pieges.py [--max 20]       # dans GitHub Actions (réseau Lichess) : écrit stock/pieges-candidats.{json,md}
 Lancement : pousser commandes/pieges/<nom>.json ({"max": 20}) sur la branche videos (workflow « Chercher des pièges »).
-Lecture seule côté comptes : ne publie rien.
+Lecture seule côté comptes : ne publie rien. L'anti-doublon compare des positions : un même piège joué dans un autre ordre
+(ex. Caro-Kann Nd6#) n'est pas reconnu, le Scénariste vérifie aussi le nom de l'ouverture dans deja-fait.
 """
 import collections, csv, io, json, os, re, shutil, sys, time, urllib.request
 import chess, chess.engine, chess.pgn
@@ -40,7 +41,7 @@ def regrouper(lignes, rmin=1000, rmax=1800, ply_max=24):
         if not rmin <= r <= rmax: continue
         m = re.search(r"#(\d+)$", p["GameUrl"])
         if not m or int(m.group(1)) > ply_max: continue
-        cle = " ".join(p["FEN"].split()[:4])
+        cle = " ".join(p["FEN"].split()[:2])   # placement + trait : mêmes pièges même si droits de roque différents
         groupes[cle].append({"id": p["PuzzleId"], "fen": p["FEN"], "coups": p["Moves"].split(), "note": r, "mat": mat,
                              "pop": int(p["Popularity"]), "jeux": int(p["NbPlays"]), "url": p["GameUrl"],
                              "ouverture": p.get("OpeningTags", "")})
@@ -87,11 +88,11 @@ def principal(nmax=20):
             if p: connues.setdefault(p, set()).add(v["langue"])
     sf = shutil.which("stockfish") or "/usr/games/stockfish"
     moteur = chess.engine.SimpleEngine.popen_uci(sf)
-    tri = sorted(groupes.items(), key=lambda kv: -len(kv[1]))
+    tri = sorted(groupes.items(), key=lambda kv: (-len(kv[1]), min(int(re.search(r"#(\d+)$", p["url"]).group(1)) for p in kv[1])))
     sortie = []
     for cle, ps in tri:
         if len(sortie) >= nmax: break
-        if len(ps) < 3: break                                    # un piège = au moins 3 parties réelles
+        if len(ps) < 2: break                                    # un piège = au moins 2 parties réelles
         ex = max(ps, key=lambda p: (p["pop"], p["jeux"]))
         try:
             depart = ligne_depuis_partie(ex["url"], ex["fen"]); time.sleep(1.2)
@@ -102,13 +103,13 @@ def principal(nmax=20):
             ligne, ev, meilleur, mat = verifier(moteur, depart, ex["coups"][0], ex["coups"][1:])
         except Exception as e:
             print("ligne illégale écartée :", type(e).__name__, flush=True); continue
-        if not mat: continue
+        if not mat or ligne[len(depart)] == meilleur: continue   # la « gaffe » doit être une vraie faute
         fin = chess.Board(); [fin.push_san(s) for s in ligne]
         bb = chess.Board()
         for s in ligne[: len(depart) + 1]: bb.push_san(s)
         cles_ligne = {" ".join(bb.fen().split()[:2]), " ".join(fin.fen().split()[:2])}   # après la gaffe + mat final (pas l'ouverture commune)
         langues = set().union(*[connues[k] for k in cles_ligne if k in connues]) if any(k in connues for k in cles_ligne) else set()
-        sortie.append({"ouverture": ex["ouverture"].replace("_", " "), "parties_reelles": len(ps),
+        sortie.append({"ouverture": (ex["ouverture"].split() or [""])[-1].replace("_", " "), "parties_reelles": len(ps),
                        "note_moyenne": round(sum(p["note"] for p in ps) / len(ps)), "mat_en": ex["mat"],
                        "demi_coup_gaffe": len(depart) + 1, "ligne_san": " ".join(ligne),
                        "gaffe": ligne[len(depart)], "coup_juste": meilleur, "eval_avant_cp": ev,
