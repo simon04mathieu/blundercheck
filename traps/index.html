@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chess opening traps that real players fall for · BlunderCheck</title>
+<meta name="description" content="Short chess opening traps with mate, each shown in 3 boards: the setup, the blunder and the mate. Check your own games for free."><link rel="canonical" href="https://blundercheck.app/traps">
+<meta property="og:title" content="Chess opening traps that real players fall for"><meta property="og:description" content="Short chess opening traps with mate, each shown in 3 boards: the setup, the blunder and the mate. Check your own games for free."><meta property="og:type" content="article">
+<meta name="theme-color" content="#111614">
+<script>/* Compteur ?src (site/compteur-src.md) ; pages /traps : arrivée Google ou Bing comptée « google ». */
+(function(){try{var u=new URL(location.href),q=u.searchParams,s=(q.get('src')||'').toLowerCase(),ok=/^[a-z0-9][a-z0-9-]{0,29}$/,ls=null;
+try{ls=window.localStorage;}catch(e){}if(!ok.test(s))s='';
+if(!s&&/google\.|bing\.|duckduckgo\.|qwant\.|ecosia\./.test(document.referrer))s='google';
+var c=document.cookie.match(/(?:^|;\s*)bc_src=([a-z0-9-]{1,30})/),sec=location.protocol==='https:'?'; Secure':'';
+if(q.has('src')){q.delete('src');history.replaceState(history.state,'',u.pathname+(q.toString()?'?'+q:'')+u.hash);}
+if(ls&&ls.getItem('bc-moi'))return;
+if(s&&!c)document.cookie='bc_src='+s+'; Path=/; Max-Age=2592000; SameSite=Lax'+sec;
+var src=s||'direct',j=new Date().toISOString().slice(0,10),vu={};try{vu=JSON.parse(ls&&ls.getItem('bc-vu')||'{}');}catch(e){}
+if(vu.j!==j)vu={j:j};if(vu[src])return;
+var b=JSON.stringify({src:src,evts:['visite']}),fini=function(){vu[src]=1;try{ls&&ls.setItem('bc-vu',JSON.stringify(vu));}catch(e){}};
+if(navigator.sendBeacon&&navigator.sendBeacon('/api/src',new Blob([b],{type:'application/json'})))fini();
+else fetch('/api/src',{method:'POST',body:b,keepalive:true,headers:{'content-type':'application/json'}}).then(fini,function(){});
+}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@144,800&family=Geist:wght@400;600;700&display=swap" rel="stylesheet">
+<style>:root{--bg:#111614;--card:#18201C;--line:#29332D;--fg:#EDE7D8;--mut:#A7B0A8;--accent:#C9A45C;--ink:#1A1407;--bad:#E5534B;--good:#5DBB8A}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:Geist,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:640px;margin:0 auto;padding:24px 16px 48px}a{color:var(--accent)}
+.logo{display:inline-flex;align-items:center;gap:10px;font-weight:700;color:var(--fg);text-decoration:none}
+.logo i{width:28px;height:28px;border-radius:7px;background:#111614;border:1px solid var(--line);position:relative}
+.logo i:before,.logo i:after{content:"";position:absolute;width:9px;height:9px;border-radius:2px}
+.logo i:before{left:6px;top:6px;background:var(--accent)}.logo i:after{left:13px;top:13px;background:#fff}
+h1{font-family:Fraunces,Georgia,serif;font-weight:800;font-size:34px;line-height:1.1;letter-spacing:-.02em;margin:22px 0 10px}
+h2{font-size:20px;margin:30px 0 8px}p,li{color:var(--mut);font-size:16px;line-height:1.55}
+.step{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;margin:14px 0}
+.step h3{margin:0 0 8px;font-size:16px;color:var(--fg)}.board{width:100%;height:auto;max-width:360px;display:block;margin:0 auto}
+.moves{font-family:ui-monospace,Menlo,monospace;font-size:15px;color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;line-height:1.7;word-spacing:2px}
+.bad{color:var(--bad);font-weight:700}.good{color:var(--good);font-weight:700}
+.cta{display:block;text-align:center;background:var(--accent);color:var(--ink);font-weight:700;font-size:18px;padding:16px;border-radius:14px;text-decoration:none;margin:26px 0 6px}
+.small{font-size:13px;color:var(--mut);text-align:center}ul.list{padding-left:18px}ul.list li{margin:6px 0}
+footer{color:var(--mut);font-size:13px;text-align:center;margin-top:34px}</style></head><body><main>
+<a class="logo" href="/traps"><i></i>BlunderCheck · Chess Traps</a>
+<h1>Chess opening traps real players fall for</h1>
+<p>Each trap in 3 boards: the setup, the blunder, the mate. Most of them come from real online games.</p>
+<ul class="list"><li><a href="/traps/alekhine-defense-modern-variation-h6">Alekhine Defense Modern Variation trap: h6?? and mate in 2</a></li>
+<li><a href="/traps/benoni-defense-old-benoni-ke7">Benoni Defense Old Benoni trap: Ke7?? and mate in 1</a></li>
+<li><a href="/traps/bird-opening-froms-gambit-rxh2">Bird Opening Froms Gambit trap: Rxh2?? and mate in 1</a></li>
+<li><a href="/traps/caro-kann-defense-maroczy-variation-nf3">Caro-Kann Defense Maroczy Variation trap: Nf3?? and mate in 1</a></li>
+<li><a href="/traps/caro-kann-defense-other-variations-nd7">Caro-Kann Defense Other variations trap: Nd7?? and mate in 1</a></li>
+<li><a href="/traps/caro-kann-defense-two-knights-attack-ngf6">Caro-Kann Defense Two Knights Attack trap: Ngf6?? and mate in 1</a></li>
+<li><a href="/traps/caro-kann-defense-nbd7">Caro-Kann Defense trap: Nbd7?? and mate in 1</a></li>
+<li><a href="/traps/caro-kann-defense-ngf6">Caro-Kann Defense trap: Ngf6?? and mate in 1</a></li>
+<li><a href="/traps/dutch-defense-ne4">Dutch Defense trap: Ne4?? and mate in 1</a></li>
+<li><a href="/traps/elephant-gambit-other-variations-nc6">Elephant Gambit Other variations trap: Nc6?? and mate in 1</a></li>
+<li><a href="/traps/english-opening-kings-english-variation-d6">English Opening Kings English Variation trap: d6?? and mate in 2</a></li>
+<li><a href="/traps/englund-gambit-complex-englund-gambit-nb5">Englund Gambit Complex Englund Gambit trap: Nb5?? and mate in 2</a></li>
+<li><a href="/traps/french-defense-kf1">French Defense trap: Kf1?? and mate in 1</a></li>
+<li><a href="/traps/indian-defense-reversed-chigorin-defense-bxf6">Indian Defense Reversed Chigorin Defense trap: Bxf6?? and mate in 2</a></li>
+<li><a href="/traps/italian-game-queen-trap-nxe5">Italian Game Queen Trap: Nxe5?? and mate in 1</a></li>
+<li><a href="/traps/kieninger-trap-budapest-gambit-axb4">Kieninger Trap (Budapest Gambit): axb4?? and mate in 1</a></li>
+<li><a href="/traps/legals-mate-philidor-defense-bxd1">Légal&#x27;s Mate (Philidor Defense) trap: Bxd1?? and mate in 2</a></li>
+<li><a href="/traps/queens-pawn-game-krause-variation-bxf6">Queens Pawn Game Krause Variation trap: Bxf6?? and mate in 2</a></li>
+<li><a href="/traps/scandinavian-defense-main-line-qd8">Scandinavian Defense Main Line trap: Qd8?? and mate in 1</a></li>
+<li><a href="/traps/scandinavian-defense-modern-variation-nxd1">Scandinavian Defense Modern Variation trap: Nxd1?? and mate in 1</a></li>
+<li><a href="/traps/scandinavian-defense-qd8">Scandinavian Defense trap: Qd8?? and mate in 1</a></li>
+<li><a href="/traps/scotch-game-steinitz-variation-ndb5">Scotch Game Steinitz Variation trap: Ndb5?? and mate in 1</a></li>
+<li><a href="/traps/sicilian-defense-french-variation-bxf6">Sicilian Defense French Variation trap: Bxf6?? and mate in 2</a></li>
+<li><a href="/traps/sicilian-defense-french-variation-a6">Sicilian Defense French Variation trap: a6?? and mate in 1</a></li>
+<li><a href="/traps/sicilian-defense-old-sicilian-ndb4">Sicilian Defense Old Sicilian trap: Ndb4?? and mate in 1</a></li>
+<li><a href="/traps/sicilian-defense-smith-morra-gambit-bxb5">Sicilian Defense Smith-Morra Gambit trap: Bxb5?? and mate in 1</a></li>
+<li><a href="/traps/vienna-game-frankenstein-dracula-trap-nxc3">Vienna Game Frankenstein-Dracula Trap: Nxc3?? and mate in 1</a></li></ul>
+<a class="cta" href="/try">Check your last game for blunders, free</a>
+<footer><a href="/en">blundercheck.app</a></footer></main></body></html>
