@@ -4,7 +4,7 @@ name: Meta
 on:
   push:
     branches: [videos]
-    paths: ["publications/instagram/*.json", "publications/facebook/*.json", "publications/threads/*.json"]
+    paths: ["publications/instagram/*.json", "publications/facebook/*.json", "publications/threads/*.json", "publications/instagram-en/*.json"]
   workflow_dispatch:
   schedule:
     - cron: "17 * * * *"
@@ -27,6 +27,7 @@ jobs:
           META_IG_ID: ${{ secrets.META_IG_ID }}
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
           THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          INSTAGRAM_EN_TOKEN: ${{ secrets.INSTAGRAM_EN_TOKEN }}
           CHIFFRE: ${{ secrets.TIKTOK_CHIFFRE }}
         run: |
           mkdir -p stats
@@ -36,18 +37,23 @@ jobs:
             { echo "### $(date -u '+%Y-%m-%d %H:%M') vérification"; python3 outils/threads.py verif 2>&1 | tail -n 3; } >> stats/threads-journal.md
             tail -n 2 stats/threads-journal.md
           fi
+          if [ -n "$INSTAGRAM_EN_TOKEN" ]; then
+            { echo "### $(date -u '+%Y-%m-%d %H:%M') vérification"; python3 outils/instagram_en.py verif 2>&1 | tail -n 3; } >> stats/instagram-en-journal.md
+            tail -n 2 stats/instagram-en-journal.md
+          fi
       - name: Envoi
         env:
           META_TOKEN: ${{ secrets.META_TOKEN }}
           META_IG_ID: ${{ secrets.META_IG_ID }}
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
           THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+          INSTAGRAM_EN_TOKEN: ${{ secrets.INSTAGRAM_EN_TOKEN }}
           CHIFFRE: ${{ secrets.TIKTOK_CHIFFRE }}
         run: |
           git config user.name "BlunderCheck vidéos"
           git config user.email "actions@users.noreply.github.com"
-          for r in instagram facebook threads; do
-            outil=outils/meta.py; [ $r = threads ] && outil=outils/threads.py
+          for r in instagram facebook threads instagram-en; do
+            outil=outils/meta.py; [ $r = threads ] && outil=outils/threads.py; [ $r = instagram-en ] && outil=outils/instagram_en.py
             mkdir -p publications/$r/faites
             for c in publications/$r/*.json; do
               [ -e "$c" ] || continue
@@ -61,6 +67,6 @@ jobs:
               fi
             done
           done
-          git add -A stats publications threads 2>/dev/null || git add -A stats publications || true
+          git add -A stats publications threads instagram-en 2>/dev/null || git add -A stats publications || true
           git commit -qm "Meta : envois (run ${{ github.run_id }})" || exit 0
           git pull -q --rebase origin videos && git push -q origin HEAD:videos
