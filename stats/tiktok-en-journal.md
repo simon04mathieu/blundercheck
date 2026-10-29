@@ -181,3 +181,4 @@ Jetons TikTok (en) enregistrés (chiffrés). Portées : user.info.basic,user.inf
 {"publish_id": "v_inbox_file~v2.7701991184922871830", "mode": "brouillon", "vie_privee": null, "legende": "Can your king take this pawn? 🤔 Legal or illegal? #chess #chesstok #chessquiz #chessrules"}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 3, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 3, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 3, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
