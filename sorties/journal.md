@@ -340,3 +340,8 @@
     voix générée : 86 caractères
     voix générée : 97 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/prof_partie_1.mp4 {"video_s": 57.5, "demi_coups": 63, "rythme_s": 0.39, "arrets": 3, "ecrans": 4, "voix": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune"}
+## 2026-10-29 11:40 UTC · run 40867043136
+### commandes/prof_partie_1.json
+    voix réutilisée (0 crédit)
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/prof_partie_1.mp4 {"video_s": 57.5, "demi_coups": 63, "rythme_s": 0.39, "arrets": 3, "ecrans": 4, "voix": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune"}
