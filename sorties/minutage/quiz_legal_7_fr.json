@@ -1,0 +1,65 @@
+{
+ "nom": "quiz_legal_7_fr",
+ "tempo": 1.0,
+ "duree_s": 18.04,
+ "hook": {
+  "texte": "Ton roi peut manger|ce pion ?",
+  "fin": 2.42
+ },
+ "question": {
+  "texte": "Tu le savais ?|Oui ou non ?",
+  "t": 14.84
+ },
+ "phrases": [
+  {
+   "t": 0.1,
+   "texte": "Ton roi peut manger ce pion ?"
+  },
+  {
+   "t": 2.42,
+   "texte": "Un fou noir le protège."
+  },
+  {
+   "t": 4.22,
+   "texte": "Mais ta tour le cloue."
+  },
+  {
+   "t": 6.06,
+   "texte": "Légal ou pas ?"
+  },
+  {
+   "t": 9.94,
+   "texte": "Illégal !"
+  },
+  {
+   "t": 11.16,
+   "texte": "Un fou cloué protège toujours."
+  },
+  {
+   "t": 13.76,
+   "texte": "Prends-le avec ta tour."
+  },
+  {
+   "t": 15.52,
+   "texte": "Tu le savais ?"
+  },
+  {
+   "t": 16.78,
+   "texte": "Oui ou non ?"
+  }
+ ],
+ "coups": [
+  {
+   "t": 14.04,
+   "coup": "Rxf5+",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 7.92,
+   "duree": 2.0,
+   "texte": "Légal ou pas ?"
+  }
+ ]
+}
