@@ -1,0 +1,493 @@
+{
+ "nom": "partie_1",
+ "partie": 1,
+ "couleur_de_simon": "b",
+ "demi_coups": 63,
+ "prof": {
+  "erreur": "",
+  "n": 36
+ },
+ "resume_du_prof": "The game was lost in the middlegame and endgame. Your final recapture on e8 was correct, but the position was already very difficult after the exchanges.",
+ "lecons_du_prof": [
+  "Before each move, check which of your pieces become undefended after the exchange.",
+  "In endgames, count the material and find the most active king and rook placement.",
+  "When you are behind, look for counterattacks on open files and weak pawns."
+ ],
+ "moments": [
+  {
+   "ply": 32,
+   "san": "c5",
+   "camp": "b",
+   "tag": "erreur",
+   "delta": 0.212,
+   "commentaire": "You push c5 and weaken your queenside, leaving d5 without support.",
+   "conseil": "Before a pawn push, check which squares it stops defending and which enemy pieces it opens.",
+   "ecran": "ecran_032.png"
+  },
+  {
+   "ply": 42,
+   "san": "Rxf7",
+   "camp": "b",
+   "tag": "erreur",
+   "delta": 0.211,
+   "commentaire": "Rxf7 breaks the trade and leaves your d5 pawn hanging, when Kxf7 was simply winning.",
+   "conseil": "After an exchange, check whether your recapture gives up a pawn that was already weak.",
+   "ecran": "ecran_042.png"
+  },
+  {
+   "ply": 58,
+   "san": "Ke7",
+   "camp": "b",
+   "tag": "gaffe",
+   "delta": 0.49,
+   "commentaire": "Ke7 lets White win material with Rxe6, and Bxb3 would have traded the bishops safely.",
+   "conseil": "Before a king move in the endgame, check if an enemy rook or bishop attacks an unprotected piece.",
+   "ecran": "ecran_058.png"
+  }
+ ],
+ "ecran_depart": "ecran_000.png",
+ "coups": [
+  {
+   "ply": 1,
+   "san": "d4",
+   "camp": "w",
+   "tag": "imprecision",
+   "delta": 0.113
+  },
+  {
+   "ply": 2,
+   "san": "d5",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0
+  },
+  {
+   "ply": 3,
+   "san": "Bf4",
+   "camp": "w",
+   "tag": "bon",
+   "delta": 0.035
+  },
+  {
+   "ply": 4,
+   "san": "Nc6",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0
+  },
+  {
+   "ply": 5,
+   "san": "Nf3",
+   "camp": "w",
+   "tag": "bon",
+   "delta": 0.036
+  },
+  {
+   "ply": 6,
+   "san": "Nf6",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.04
+  },
+  {
+   "ply": 7,
+   "san": "h3",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.108
+  },
+  {
+   "ply": 8,
+   "san": "e6",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.193
+  },
+  {
+   "ply": 9,
+   "san": "e3",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.107
+  },
+  {
+   "ply": 10,
+   "san": "Be7",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.053
+  },
+  {
+   "ply": 11,
+   "san": "c3",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.094
+  },
+  {
+   "ply": 12,
+   "san": "O-O",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.055
+  },
+  {
+   "ply": 13,
+   "san": "Bd3",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.073
+  },
+  {
+   "ply": 14,
+   "san": "Ne4",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.121
+  },
+  {
+   "ply": 15,
+   "san": "Nbd2",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.137
+  },
+  {
+   "ply": 16,
+   "san": "Nxd2",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.029
+  },
+  {
+   "ply": 17,
+   "san": "Qxd2",
+   "camp": "w",
+   "tag": "bon",
+   "delta": 0.081
+  },
+  {
+   "ply": 18,
+   "san": "Bf6",
+   "camp": "b",
+   "tag": "imprecision",
+   "delta": 0.105
+  },
+  {
+   "ply": 19,
+   "san": "Ne5",
+   "camp": "w",
+   "tag": "imprecision",
+   "delta": 0.193
+  },
+  {
+   "ply": 20,
+   "san": "Nxe5",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.022
+  },
+  {
+   "ply": 21,
+   "san": "dxe5",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.071
+  },
+  {
+   "ply": 22,
+   "san": "Bg5",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.083
+  },
+  {
+   "ply": 23,
+   "san": "Qd1",
+   "camp": "w",
+   "tag": "bon",
+   "delta": 0.045
+  },
+  {
+   "ply": 24,
+   "san": "Bxf4",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.084
+  },
+  {
+   "ply": 25,
+   "san": "exf4",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.106
+  },
+  {
+   "ply": 26,
+   "san": "Qh4",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.079
+  },
+  {
+   "ply": 27,
+   "san": "g3",
+   "camp": "w",
+   "tag": "bon",
+   "delta": 0.032
+  },
+  {
+   "ply": 28,
+   "san": "Qe7",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.05
+  },
+  {
+   "ply": 29,
+   "san": "Qh5",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.036
+  },
+  {
+   "ply": 30,
+   "san": "h6",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.08
+  },
+  {
+   "ply": 31,
+   "san": "O-O-O",
+   "camp": "w",
+   "tag": "imprecision",
+   "delta": 0.112
+  },
+  {
+   "ply": 32,
+   "san": "c5",
+   "camp": "b",
+   "tag": "erreur",
+   "delta": 0.212
+  },
+  {
+   "ply": 33,
+   "san": "g4",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.142
+  },
+  {
+   "ply": 34,
+   "san": "c4",
+   "camp": "b",
+   "tag": "imprecision",
+   "delta": 0.143
+  },
+  {
+   "ply": 35,
+   "san": "Bc2",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.096
+  },
+  {
+   "ply": 36,
+   "san": "f5",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.019
+  },
+  {
+   "ply": 37,
+   "san": "gxf5",
+   "camp": "w",
+   "tag": "bon",
+   "delta": 0.086
+  },
+  {
+   "ply": 38,
+   "san": "exf5",
+   "camp": "b",
+   "tag": "imprecision",
+   "delta": 0.122
+  },
+  {
+   "ply": 39,
+   "san": "Rhg1",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.209
+  },
+  {
+   "ply": 40,
+   "san": "Qf7",
+   "camp": "b",
+   "tag": "imprecision",
+   "delta": 0.147
+  },
+  {
+   "ply": 41,
+   "san": "Qxf7+",
+   "camp": "w",
+   "tag": "gaffe",
+   "delta": 0.402
+  },
+  {
+   "ply": 42,
+   "san": "Rxf7",
+   "camp": "b",
+   "tag": "erreur",
+   "delta": 0.211
+  },
+  {
+   "ply": 43,
+   "san": "Rxd5",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.084
+  },
+  {
+   "ply": 44,
+   "san": "Be6",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.019
+  },
+  {
+   "ply": 45,
+   "san": "Rd6",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": -0.034
+  },
+  {
+   "ply": 46,
+   "san": "Re8",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.065
+  },
+  {
+   "ply": 47,
+   "san": "h4",
+   "camp": "w",
+   "tag": "imprecision",
+   "delta": 0.125
+  },
+  {
+   "ply": 48,
+   "san": "Rd7",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": -0.013
+  },
+  {
+   "ply": 49,
+   "san": "Rxd7",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.019
+  },
+  {
+   "ply": 50,
+   "san": "Bxd7",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.019
+  },
+  {
+   "ply": 51,
+   "san": "Rd1",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.006
+  },
+  {
+   "ply": 52,
+   "san": "Be6",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.003
+  },
+  {
+   "ply": 53,
+   "san": "Rd6",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.041
+  },
+  {
+   "ply": 54,
+   "san": "Kf7",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.102
+  },
+  {
+   "ply": 55,
+   "san": "b3",
+   "camp": "w",
+   "tag": "imprecision",
+   "delta": 0.125
+  },
+  {
+   "ply": 56,
+   "san": "cxb3",
+   "camp": "b",
+   "tag": "imprecision",
+   "delta": 0.137
+  },
+  {
+   "ply": 57,
+   "san": "Bxb3",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.02
+  },
+  {
+   "ply": 58,
+   "san": "Ke7",
+   "camp": "b",
+   "tag": "gaffe",
+   "delta": 0.49
+  },
+  {
+   "ply": 59,
+   "san": "Rxe6+",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.017
+  },
+  {
+   "ply": 60,
+   "san": "Kd7",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.021
+  },
+  {
+   "ply": 61,
+   "san": "Rxe8",
+   "camp": "w",
+   "tag": "bon",
+   "delta": 0.053
+  },
+  {
+   "ply": 62,
+   "san": "Kxe8",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.016
+  },
+  {
+   "ply": 63,
+   "san": "Be6",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.01
+  }
+ ],
+ "regle": "Commentaires du vrai prof, à montrer tels quels (on peut couper, jamais réécrire). Partie anonyme : aucun nom à l'écran ni dans la voix."
+}

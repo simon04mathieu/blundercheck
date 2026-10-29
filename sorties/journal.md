@@ -332,3 +332,6 @@
     voix générée : 374 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/prof_corrige_1.mp4 {"voix_brute_s": 26.1, "tempo": 1.0, "video_s": 26.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 65, "minutage": "5 phrases, 3 coups, 0 pauses", "ecrans": 3, "phrases_du_prof": 4}
+## 2026-10-29 11:30 UTC · prof corrige · run 40865847881
+### commandes/prof/partie_1.json
+    OK : partie_1, 63 demi-coups, 3 moments, 36 commentaires du prof
