@@ -231,3 +231,4 @@
 ### 2026-10-29 10:48 publications/youtube/pigeon_en_11.json
 {"id": "dTDzqnLFprY", "url": "https://www.youtube.com/shorts/dTDzqnLFprY", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "22"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "22"}
