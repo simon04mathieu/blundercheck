@@ -34,3 +34,5 @@
 {"reseau": "facebook", "id": "1428904226022947", "ok": true}
 ### 2026-10-29 13:03 publications/facebook/quiz_legal_7_en.json
 {"reseau": "facebook", "id": "1437016861203480", "ok": true}
+### 2026-10-29 16:59 publications/facebook/pigeon_en_12.json
+{"reseau": "facebook", "id": "1121082296950268", "ok": true}
