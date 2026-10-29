@@ -170,7 +170,13 @@ def _voix(texte, cmd, nom):
     wav = os.path.join(tempfile.mkdtemp(), "v.wav")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", mp3, "-ac", "1", "-ar", "48000", wav], check=True)
     _, x = wavfile.read(wav)
-    return x, fabrique.transcrire(wav, lg)
+    mots = fabrique.transcrire(wav, lg)
+    # sous-titres = le texte exact du prof (Whisper entend parfois mal : « pawn » → « porn ») ; seuls les temps viennent de Whisper
+    vrais = texte.split()
+    if mots and len(mots) != len(vrais):
+        a, z = mots[0][0], mots[-1][1]; pas = (z - a) / len(vrais)
+        mots = [(a + i * pas, a + (i + 1) * pas - 0.04, "") for i in range(len(vrais))]
+    return x, [(s_, e_, w_) for (s_, e_, _), w_ in zip(mots, vrais)]
 
 
 def _legendes(mots, t0):
