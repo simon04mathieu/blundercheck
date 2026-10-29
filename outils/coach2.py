@@ -105,6 +105,7 @@ def construire(nom, mots):
         spec["sous_titres"] = opts.get("sous_titres", "mot")
         spec["musique"] = opts.get("musique", 0.0)          # PERSO : pas de musique sous la voix
         spec["fx"] = opts.get("fx", {"gaffe": "bwomp", "brillant": "impact"})
+        spec["serie"] = opts.get("serie")               # badge de série permanent (29/10)
         if opts.get("hook"):
             spec["hook"] = (opts["hook"], hook_end if hook_end is not None else 2.0)
     spec["teaser"] = TEASERS.get(nom)
@@ -135,6 +136,6 @@ if __name__ == "__main__":
         a, b = tt.split("-"); mots.append((float(a), float(b), w))
     spec = construire(nom, mots)
     coach.FLIP = spec["noirs"]
-    coach.BG = coach.fond()
+    coach.BG = coach.fond(spec.get("serie"))
     d = coach.run(spec, out_v, out_a, tempo)
     print(nom, "durée", round(d, 1), "actions", len(spec["actions"]), "sous-titres", len(spec["captions"]))

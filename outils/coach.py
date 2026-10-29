@@ -58,9 +58,9 @@ def damier(s):
         _DAMIER[s] = im
     return _DAMIER[s]
 
-def fond():
+def fond(serie=None):
     _DAMIER.clear()
-    """Fond dégradé vert forêt + ombre du plateau + signature."""
+    """Fond dégradé vert forêt + ombre du plateau + signature (+ badge de série permanent, ex. « Chess Trap #2 », 29/10)."""
     g = Image.new("RGB", (1, 256))
     for i in range(256):
         k = i / 255; g.putpixel((0, i), (int(14 + 12 * k), int(30 + 16 * k), int(24 + 12 * k)))
@@ -70,6 +70,10 @@ def fond():
     im.alpha_composite(sh.filter(ImageFilter.GaussianBlur(22)))
     d = ImageDraw.Draw(im); fw = font(F_BOLD, 36); t = "blundercheck.app"
     d.text(((W - d.textlength(t, font=fw)) / 2, BY + 8 * SQ + 44), t, font=fw, fill=LAITON)
+    if serie:  # badge permanent juste au-dessus du plateau, à gauche (hors des zones d'interface TikTok)
+        fs = font(F_BLACK, 50); tw = d.textlength(serie, font=fs); x0, y0 = BX + 8, BY - 88
+        d.rounded_rectangle([x0, y0, x0 + tw + 56, y0 + 74], radius=37, fill=LAITON)
+        d.text((x0 + 28, y0 + 8), serie, font=fs, fill=(16, 28, 22))
     return im
 
 BG = fond()

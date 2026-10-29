@@ -134,7 +134,7 @@ def video_voix(cmd):
     if cmd.get("sans_musique") is not True: spec["musique"] = 0.0
     if cmd.get("hook") and spec.get("hook"): spec["hook"] = (cmd["hook"], spec["hook"][1])  # test A/B du hook (0 crédit)  # la musique de fond vient d'ElevenLabs, pas du synthé
     minutage = ecrire_minutage(cmd.get("sortie", nom), spec, tempo)
-    coach.FLIP = spec["noirs"]; coach.BG = coach.fond()
+    coach.FLIP = spec["noirs"]; coach.BG = coach.fond(spec.get("serie"))
     muet, fx = os.path.join(tmp, "muet.mp4"), os.path.join(tmp, "fx.wav")
     coach.run(spec, muet, fx, tempo)
     os.makedirs(SORTIES, exist_ok=True); out = os.path.join(SORTIES, f"{cmd.get('sortie', nom)}.mp4")
