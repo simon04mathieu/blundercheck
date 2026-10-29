@@ -1058,3 +1058,65 @@ QUESTIONS.update({
     "quiz_legal_5_court": "Would you have|taken it? Yes or no?",
     "quiz_legal_5_long": "Would you have|taken it? Yes or no?",
 })
+
+# ---------- file du 28-29/10 (scénariste) : 4 EN + 2 FR. T11-série (Kieninger = A « Chess Trap #1 », Légal = B isolée), T13-fin-quiz (#6 FR = B, #7 FR = A), seed 2910262233 ----------
+# Producteur (29/10, 1 h) : python-chess + Stockfish 17 natif (1,5 s) : Légal 5.Nxe5 = meilleur coup (+1,9), 5...Bxd1?? = mat en 2 ; Kieninger 8.axb4?? = mat en 1 (8.Nxe5 = +0,4) ;
+# quiz #6 : O-O légal, roi pas en échec ; quiz #7 : Kxd3 illégal (fou f5 cloué mais protège), seule prise Rxf5+ (+6,6). Aucune musique. Décompte silencieux de 2 s ([q 2]) à la place de « three, two, one » dit.
+LEGAL_AVANT = "e4 e5 Nf3 d6 Bc4 Bg4 Nc3 g6"
+KIENINGER_AVANT = "d4 Nf6 c4 e5 dxe5 Ng4 Bf4 Nc6 Nf3 Bb4+ Nbd2 Qe7 a3 Ngxe5"
+ROQUE_ECHEC = "e4 d5 exd5 Qxd5 Nc3"
+FOU_CLOUE = "fen:5k2/6pp/8/5b2/8/3pK3/6PP/5R2_w_-_-_0_1"
+PERSO.update({
+"pigeon_en_11": {   # Légal, T11-série B (isolée : ni numéro ni teaser)
+    "cote": "blancs",
+    "hook": "Give your queen.|Win.",
+    "voix": """[mischievously] He eats your queen. Smile. Your bishop checks. His king steps aside. Your pony jumps in. [laughs] Mate.""",
+    "script": """[p """ + LEGAL_AVANT + """] He [m Nxe5 brillant] eats [m Bxd1 gaffe] your queen. [s tag d1 1.5 PIGEON] [h] Smile. Your bishop [m Bxf7+ brillant] checks. His king [m Ke7] steps aside. Your pony [m Nd5# mat] [z d5e7 1.45 2.6] [x impact] jumps in. Mate.""",
+},
+"pigeon_en_12": {   # Kieninger, T11-série A (« Chess Trap #1 » + teaser final)
+    "cote": "noirs",
+    "hook": "Chess Trap #1|He eats your bishop. You mate.",
+    "voix": """[mischievously] He eats your bishop. You mate. You give a pawn. Your bishop checks. Your queen steps out. He takes the bishop. Your pony jumps. [laughs] Mate.""",
+    "script": """[p """ + KIENINGER_AVANT + """] He eats [m axb4 gaffe] your bishop. You [m Nd3# mat] [x impact] mate. [h] [p d4 Nf6 c4] You give [m e5 brillant] a pawn. [m dxe5] Your [p d4 Nf6 c4 e5 dxe5 Ng4 Bf4 Nc6 Nf3] bishop [m Bb4+ brillant] checks. [m Nbd2] Your queen [m Qe7] steps [m a3] out. [m Ngxe5] He takes [m axb4 gaffe] the bishop. [s tag b4 2.0 PIGEON] Your pony [m Nd3# mat] [z d3e1 1.45 2.6] [x impact] jumps. Mate.""",
+},
+"quiz_legal_6_en": {   # roque après un échec, EN, sans test, renvoi vers le site
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Your king was in check.|Can you castle?",
+    "voix": """Your king was in check. Can you castle? The queen checked your king. You blocked it. Now she is gone. Legal or illegal?
+Legal! Only a check right now stops you. Find your own mistakes, free: blundercheck dot app.""",
+    "script": """[p """ + ROQUE_ECHEC + """] Your king [m Qe5+ gaffe] [f e5e1] was in check. Can you castle? [h] The queen checked [f e5e1] your king. You [m Be2] blocked [m Nf6] it. [m Nf3] Now she [m Qa5] is gone. Legal or illegal? [q 2 Legal_or_illegal?]
+Legal! [m O-O brillant] [x impact] Only a check right now stops you. Find your own mistakes, free: blundercheck dot app.""",
+},
+"quiz_legal_6_fr": {   # roque après un échec, FR, T13-fin-quiz B (fin nette)
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Ton roi a pris un échec.|Tu peux roquer ?",
+    "voix": """Ton roi a pris un échec. Tu peux roquer ? La dame noire t'a mis en échec. Tu as bloqué. Maintenant elle est partie. Légal ou pas ?
+Légal ! Seul un échec en ce moment t'en empêche.""",
+    "script": """[p """ + ROQUE_ECHEC + """] Ton roi [m Qe5+ gaffe] [f e5e1] a pris un échec. Tu peux roquer ? [h] La dame noire [f e5e1] t'a mis en échec. Tu [m Be2] as bloqué. [m Nf6] Maintenant [m Nf3] elle [m Qa5] est partie. Légal ou pas ? [q 2 Légal_ou_pas_?]
+Légal ! [m O-O brillant] [x impact] Seul un échec en ce moment t'en empêche.""",
+},
+"quiz_legal_7_fr": {   # fou cloué, FR, T13-fin-quiz A (question finale)
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Ton roi peut manger|ce pion ?",
+    "voix": """Ton roi peut manger ce pion ? Un fou noir le protège. Mais ta tour le cloue. Légal ou pas ?
+Illégal ! Un fou cloué protège toujours. Prends-le avec ta tour. Tu le savais ? Oui ou non ?""",
+    "script": """[p """ + FOU_CLOUE + """] [f e3d3] Ton roi peut manger ce pion ? [h] Un fou noir [f f5d3] le protège. Mais ta tour [f f1f8] le cloue. Légal ou pas ? [q 2 Légal_ou_pas_?]
+Illégal ! [s tag d3 2.0 NON] [x impact] Un fou cloué protège toujours. Prends-le [m Rxf5+ brillant] avec ta tour. Tu le savais ? Oui ou non ?""",
+},
+"quiz_legal_7_en": {   # fou cloué, EN (E2' : remplace prof_corrige), renvoi vers le site
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Can your king|take this pawn?",
+    "voix": """Can your king take this pawn? A black bishop guards it. But your rook pins it. Legal or illegal?
+Illegal! A pinned bishop still guards. Take it with your rook. Analyze your own games, free: blundercheck dot app.""",
+    "script": """[p """ + FOU_CLOUE + """] [f e3d3] Can your king take this pawn? [h] A black bishop [f f5d3] guards it. But your rook [f f1f8] pins it. Legal or illegal? [q 2 Legal_or_illegal?]
+Illegal! [s tag d3 2.0 NO] [x impact] A pinned bishop still guards. Take it [m Rxf5+ brillant] with your rook. Analyze your own games, free: blundercheck dot app.""",
+},
+})
+QUESTIONS.update({
+    "pigeon_en_11": None,                                  # B : fin en boucle, sans texte
+    "pigeon_en_12": "Trap #2 tomorrow|Follow",             # A : teaser de série
+    "quiz_legal_6_en": "Analyze your own game, free|blundercheck.app/try",
+    "quiz_legal_6_fr": None,                               # T13 B : fin nette
+    "quiz_legal_7_fr": "Tu le savais ?|Oui ou non ?",      # T13 A
+    "quiz_legal_7_en": "Analyze your own games, free|blundercheck.app/try",
+})
