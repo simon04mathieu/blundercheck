@@ -74,7 +74,8 @@ def construire(nom, mots):
                 actions.append((0.0 if not actions and s < 0.6 else s - 0.05, "position", mk[1:]))
             elif typ == "s":   # autocollant : genre case durée [texte]
                 actions.append((s, "sticker", tuple(mk[1:])))
-            elif typ == "z":   # zoom : case(s) facteur durée
+            elif typ == "z":   # zoom : case(s) facteur durée ; 29/10 : un seul par vidéo (le dernier du script, sur le mat)
+                actions = [a_ for a_ in actions if a_[1] != "zoom"]
                 actions.append((s, "zoom", (mk[1], float(mk[2]), float(mk[3]))))
             elif typ == "x":   # bruitage
                 actions.append((s, "son", mk[1]))
@@ -102,7 +103,7 @@ def construire(nom, mots):
         # mot géant : chaque mot du script, en majuscules, sans ponctuation (« ? » et « ! » gardés)
         spec["mots"] = [(s, e, re.sub(r"[.,:;…]", "", t["w"]).upper()) for t, (s, e) in zip(toks, times)
                         if re.search(r"\w", t["w"])]  # « ? » ou « ! » isolés ne deviennent pas un mot géant
-        spec["sous_titres"] = opts.get("sous_titres", "mot")
+        spec["sous_titres"] = opts.get("sous_titres", "phrase")   # 29/10 : sous-titres en phrases par défaut (le mot géant au centre rendait la vidéo illisible)
         spec["musique"] = opts.get("musique", 0.0)          # PERSO : pas de musique sous la voix
         spec["fx"] = opts.get("fx", {"gaffe": "bwomp", "brillant": "impact"})
         spec["serie"] = opts.get("serie")               # badge de série permanent (29/10)
