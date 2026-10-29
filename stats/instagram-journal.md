@@ -30,3 +30,5 @@
 {"reseau": "instagram", "id": "18103908296292562"}
 ### 2026-10-28 19:54 publications/instagram/pigeon_jour_12.json
 {"reseau": "instagram", "id": "18149073514571791"}
+### 2026-10-29 13:03 publications/instagram/quiz_legal_6_fr.json
+{"reseau": "instagram", "id": "18393842923233922"}
