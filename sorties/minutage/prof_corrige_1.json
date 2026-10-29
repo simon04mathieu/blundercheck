@@ -1,0 +1,53 @@
+{
+ "nom": "prof_corrige_1_plateau",
+ "tempo": 1.0,
+ "duree_s": 26.26,
+ "hook": {
+  "texte": "The AI teacher found|my worst move.",
+  "fin": 6.02
+ },
+ "question": {
+  "texte": "Analyze your own game, free|blundercheck.app/try",
+  "t": 23.06
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Before capturing a pawn look at what your opponent gets in return, such as a queen check."
+  },
+  {
+   "t": 6.02,
+   "texte": "Good move: the knight develops and protects the center."
+  },
+  {
+   "t": 9.92,
+   "texte": "You had a good start and a clear advantage around move 20 but several moves in the middlegame lost that advantage."
+  },
+  {
+   "t": 17.58,
+   "texte": "Always check for checks and forcing moves before every move."
+  },
+  {
+   "t": 22.08,
+   "texte": "Analyze your own game free: blundercheck dot app."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.0,
+   "coup": "Nxc6",
+   "badge": "gaffe"
+  },
+  {
+   "t": 6.2,
+   "coup": "Nc3",
+   "badge": "brillant"
+  },
+  {
+   "t": 16.14,
+   "coup": "Nxc6",
+   "badge": "gaffe"
+  }
+ ],
+ "pauses": []
+}
