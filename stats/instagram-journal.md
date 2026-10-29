@@ -32,3 +32,5 @@
 {"reseau": "instagram", "id": "18149073514571791"}
 ### 2026-10-29 13:03 publications/instagram/quiz_legal_6_fr.json
 {"reseau": "instagram", "id": "18393842923233922"}
+### 2026-10-29 19:55 publications/instagram/quiz_legal_7_fr.json
+{"reseau": "instagram", "id": "18087490106325424"}

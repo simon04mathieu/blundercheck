@@ -43,3 +43,5 @@ VÉRIF OK : profil Threads @blundercheckapp (id 29353457984238691), jeton rangé
 VÉRIF OK : profil Threads @blundercheckapp (id 29353457984238691), jeton rangé chiffré dans threads/jeton.enc
 ### 2026-10-29 16:59 publications/threads/pigeon_en_12.json
 {"reseau": "threads", "id": "18147410620571691"}
+### 2026-10-29 19:56 publications/threads/quiz_legal_6_en.json
+{"reseau": "threads", "id": "17977934205158344"}
