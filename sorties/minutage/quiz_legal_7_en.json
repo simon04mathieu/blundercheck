@@ -1,0 +1,61 @@
+{
+ "nom": "quiz_legal_7_en",
+ "tempo": 1.0,
+ "duree_s": 19.3,
+ "hook": {
+  "texte": "Can your king|take this pawn?",
+  "fin": 2.36
+ },
+ "question": {
+  "texte": "Analyze your own games, free|blundercheck.app/try",
+  "t": 16.1
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Can your king take this pawn?"
+  },
+  {
+   "t": 2.36,
+   "texte": "A black bishop guards it."
+  },
+  {
+   "t": 4.02,
+   "texte": "But your rook pins it."
+  },
+  {
+   "t": 5.94,
+   "texte": "Legal or illegal?"
+  },
+  {
+   "t": 10.1,
+   "texte": "Illegal!"
+  },
+  {
+   "t": 11.22,
+   "texte": "A pinned bishop still guards."
+  },
+  {
+   "t": 13.3,
+   "texte": "Take it with your rook."
+  },
+  {
+   "t": 15.38,
+   "texte": "Analyze your own games free: blundercheck dot app."
+  }
+ ],
+ "coups": [
+  {
+   "t": 13.64,
+   "coup": "Rxf5+",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 8.08,
+   "duree": 2.0,
+   "texte": "Legal or illegal?"
+  }
+ ]
+}
