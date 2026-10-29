@@ -90,8 +90,12 @@ def principal(nmax=20):
     moteur = chess.engine.SimpleEngine.popen_uci(sf)
     tri = sorted(groupes.items(), key=lambda kv: (-len(kv[1]), min(int(re.search(r"#(\d+)$", p["url"]).group(1)) for p in kv[1])))
     sortie = []
+    essais, t_debut = 0, time.time()
     for cle, ps in tri:
         if len(sortie) >= nmax: break
+        essais += 1
+        if essais > 120 or time.time() - t_debut > 12 * 60:   # budget : 120 parties lues ou 12 min, on garde ce qui est trouvé
+            print("budget atteint :", essais - 1, "positions essayées", flush=True); break
         if len(ps) < 2: break                                    # un piège = au moins 2 parties réelles
         ex = max(ps, key=lambda p: (p["pop"], p["jeux"]))
         try:
