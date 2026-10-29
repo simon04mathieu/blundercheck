@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Format « Le prof corrige ma partie » (prof_corrige) : capture d'une vraie partie de Simon corrigée par le vrai site.
 
-Commande : commandes/prof/<nom>.json  {"nom": "prof_1", "partie": 1, "moments": 3}
+Commande : commandes/prof/<nom>.json  {"nom": "prof_1", "partie": 1, "moments": 3}  (+ "mode": "complet" : seulement les fautes de Simon)
   partie  = 1 pour la partie la plus récente (parties standard d'au moins 30 demi-coups), 2 pour l'avant-dernière…
 Pseudo Chess.com : variable d'environnement CHESSCOM_PSEUDO (secret GitHub posé par Simon). Il n'est JAMAIS écrit
 dans le dépôt ni affiché : le PGN est réduit aux coups (aucun en-tête, aucun nom, aucune date, aucun lien).
@@ -120,6 +120,9 @@ def main():
             if c not in choisis and c["commentaire"]:
                 choisis.append(c)
         choisis = sorted({c["ply"]: c for c in choisis}.values(), key=lambda c: c["ply"])[:nb_moments]
+        if cmd.get("mode") == "complet":   # format « partie complète » (Simon, 29/10) : seulement les fautes de Simon, les plus grosses
+            miennes = sorted([c for c in coups if c["camp"] == infos["color"] and c["tag"] in ("gaffe", "erreur")], key=lambda c: -c["delta"])
+            choisis = sorted(miennes[:nb_moments], key=lambda c: c["ply"])
 
         for c in choisis:
             page.evaluate("([id, ply]) => ouvrirAnalyse(id, ply)", [gid, c["ply"]])
@@ -138,6 +141,7 @@ def main():
     moments = {"nom": nom, "partie": n, "couleur_de_simon": infos["color"], "demi_coups": len(coups),
                "prof": prof, "resume_du_prof": infos["resume"], "lecons_du_prof": infos["lecons"],
                "moments": choisis, "ecran_depart": "ecran_000.png",
+               "coups": [{k: c[k] for k in ("ply", "san", "camp", "tag", "delta")} for c in coups],
                "regle": "Commentaires du vrai prof, à montrer tels quels (on peut couper, jamais réécrire). Partie anonyme : aucun nom à l'écran ni dans la voix."}
     (out / "moments.json").write_text(json.dumps(moments, ensure_ascii=False, indent=1))
     etat = "OK" if not prof.get("erreur") else "OK sans prof (" + prof["erreur"][:80] + ")"
