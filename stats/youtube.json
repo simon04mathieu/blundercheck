@@ -1,5 +1,5 @@
 {
- "date": "2026-10-29T14:00:54.077455+00:00",
+ "date": "2026-10-29T14:56:21.176013+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,13 +7,22 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "BbSHrB-HMV0": {
+   "titre": "Can your king take this pawn? (pinned bishop) ♟️ #chess #shorts",
+   "publiee": "2026-10-29T14:01:21Z",
+   "statut": "public",
+   "duree": "PT20S",
+   "vues": 2,
+   "jaime": 0,
+   "commentaires": 0
+  },
   "dTDzqnLFprY": {
    "titre": "Give your queen, win the game: Légal's mate trap ♟️ #chess #shorts",
    "publiee": "2026-10-29T10:48:25Z",
    "statut": "public",
    "duree": "PT11S",
-   "vues": 384,
-   "jaime": 4,
+   "vues": 821,
+   "jaime": 9,
    "commentaires": 0
   },
   "uGywEhTNoU4": {
@@ -21,8 +30,8 @@
    "publiee": "2026-10-28T19:47:32Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 1707,
-   "jaime": 14,
+   "vues": 2001,
+   "jaime": 17,
    "commentaires": 7
   },
   "k6mGbEI11mY": {
@@ -30,7 +39,7 @@
    "publiee": "2026-10-28T16:51:44Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 938,
+   "vues": 957,
    "jaime": 10,
    "commentaires": 1
   },
@@ -39,7 +48,7 @@
    "publiee": "2026-10-28T13:58:43Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 172,
+   "vues": 178,
    "jaime": 2,
    "commentaires": 0
   },
@@ -48,8 +57,8 @@
    "publiee": "2026-10-28T10:46:09Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 976,
-   "jaime": 4,
+   "vues": 987,
+   "jaime": 5,
    "commentaires": 1
   },
   "_73Apn88-y8": {
@@ -57,7 +66,7 @@
    "publiee": "2026-10-27T19:40:53Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 383,
+   "vues": 406,
    "jaime": 6,
    "commentaires": 0
   },
@@ -66,7 +75,7 @@
    "publiee": "2026-10-27T16:48:22Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 995,
+   "vues": 999,
    "jaime": 12,
    "commentaires": 1
   },
@@ -75,7 +84,7 @@
    "publiee": "2026-10-27T13:52:08Z",
    "statut": "public",
    "duree": "PT21S",
-   "vues": 210,
+   "vues": 234,
    "jaime": 2,
    "commentaires": 0
   },
@@ -84,7 +93,7 @@
    "publiee": "2026-10-27T10:39:20Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 1072,
+   "vues": 1073,
    "jaime": 8,
    "commentaires": 0
   },
@@ -138,7 +147,7 @@
    "publiee": "2026-10-25T16:31:03Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 1061,
+   "vues": 1062,
    "jaime": 15,
    "commentaires": 0
   },
@@ -156,7 +165,7 @@
    "publiee": "2026-10-25T10:30:22Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 825,
+   "vues": 826,
    "jaime": 11,
    "commentaires": 1
   },
@@ -309,7 +318,7 @@
    "publiee": "2026-10-21T20:31:06Z",
    "statut": "public",
    "duree": "PT51S",
-   "vues": 3,
+   "vues": 4,
    "jaime": 1,
    "commentaires": 0
   },
@@ -327,7 +336,7 @@
    "publiee": "2026-10-21T18:32:16Z",
    "statut": "public",
    "duree": "PT53S",
-   "vues": 0,
+   "vues": 1,
    "jaime": 1,
    "commentaires": 0
   },
@@ -336,7 +345,7 @@
    "publiee": "2026-10-21T17:30:40Z",
    "statut": "public",
    "duree": "PT51S",
-   "vues": 1,
+   "vues": 2,
    "jaime": 1,
    "commentaires": 0
   },
@@ -345,7 +354,7 @@
    "publiee": "2026-10-21T16:30:46Z",
    "statut": "public",
    "duree": "PT52S",
-   "vues": 2,
+   "vues": 3,
    "jaime": 0,
    "commentaires": 0
   },
@@ -363,7 +372,7 @@
    "publiee": "2026-10-21T14:31:44Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 0,
+   "vues": 1,
    "jaime": 1,
    "commentaires": 0
   },
