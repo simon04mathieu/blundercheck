@@ -335,3 +335,8 @@
 ## 2026-10-29 11:30 UTC · prof corrige · run 40865847881
 ### commandes/prof/partie_1.json
     OK : partie_1, 63 demi-coups, 3 moments, 36 commentaires du prof
+## 2026-10-29 11:34 UTC · run 40866269896
+### commandes/prof_partie_1.json
+    voix générée : 86 caractères
+    voix générée : 97 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/prof_partie_1.mp4 {"video_s": 57.5, "demi_coups": 63, "rythme_s": 0.39, "arrets": 3, "ecrans": 4, "voix": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune"}

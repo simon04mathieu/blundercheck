@@ -1,0 +1,379 @@
+{
+ "nom": "prof_partie_1",
+ "tempo": 1.0,
+ "duree_s": 57.5,
+ "hook": {
+  "texte": "The AI teacher checked|every move of my game.",
+  "fin": 2.0
+ },
+ "question": {
+  "texte": "Analyze your own game, free|blundercheck.app/try",
+  "t": 54.3
+ },
+ "phrases": [
+  {
+   "t": 2.2,
+   "texte": "The game was lost in the middle game and end game."
+  },
+  {
+   "t": 14.79,
+   "texte": "Before a pawn push, check which squares it stops defending and which enemy pieces it opens."
+  },
+  {
+   "t": 25.59,
+   "texte": "After an exchange, check whether your recapture gives up a porn that was already weak."
+  },
+  {
+   "t": 37.76,
+   "texte": "Before a king move in the endgame, check if an enemy rook or bishop attacks an unprotected piece."
+  },
+  {
+   "t": 47.08,
+   "texte": "Before each move, check which of your pieces become undefended after the exchange."
+  },
+  {
+   "t": 52.76,
+   "texte": "Analyze your own game free, blundercheck .app"
+  }
+ ],
+ "coups": [
+  {
+   "t": 2.0,
+   "coup": "d4",
+   "badge": null
+  },
+  {
+   "t": 2.39,
+   "coup": "d5",
+   "badge": "bon"
+  },
+  {
+   "t": 2.78,
+   "coup": "Bf4",
+   "badge": "bon"
+  },
+  {
+   "t": 3.17,
+   "coup": "Nc6",
+   "badge": "bon"
+  },
+  {
+   "t": 3.55,
+   "coup": "Nf3",
+   "badge": "bon"
+  },
+  {
+   "t": 3.94,
+   "coup": "Nf6",
+   "badge": "bon"
+  },
+  {
+   "t": 4.33,
+   "coup": "h3",
+   "badge": "meilleur"
+  },
+  {
+   "t": 4.72,
+   "coup": "e6",
+   "badge": "meilleur"
+  },
+  {
+   "t": 5.11,
+   "coup": "e3",
+   "badge": "meilleur"
+  },
+  {
+   "t": 5.5,
+   "coup": "Be7",
+   "badge": "bon"
+  },
+  {
+   "t": 5.89,
+   "coup": "c3",
+   "badge": "meilleur"
+  },
+  {
+   "t": 6.28,
+   "coup": "O-O",
+   "badge": "bon"
+  },
+  {
+   "t": 6.66,
+   "coup": "Bd3",
+   "badge": "meilleur"
+  },
+  {
+   "t": 7.05,
+   "coup": "Ne4",
+   "badge": "meilleur"
+  },
+  {
+   "t": 7.44,
+   "coup": "Nbd2",
+   "badge": "meilleur"
+  },
+  {
+   "t": 7.83,
+   "coup": "Nxd2",
+   "badge": "bon"
+  },
+  {
+   "t": 8.22,
+   "coup": "Qxd2",
+   "badge": "bon"
+  },
+  {
+   "t": 8.61,
+   "coup": "Bf6",
+   "badge": null
+  },
+  {
+   "t": 9.0,
+   "coup": "Ne5",
+   "badge": null
+  },
+  {
+   "t": 9.39,
+   "coup": "Nxe5",
+   "badge": "bon"
+  },
+  {
+   "t": 9.77,
+   "coup": "dxe5",
+   "badge": "meilleur"
+  },
+  {
+   "t": 10.16,
+   "coup": "Bg5",
+   "badge": "meilleur"
+  },
+  {
+   "t": 10.55,
+   "coup": "Qd1",
+   "badge": "bon"
+  },
+  {
+   "t": 10.94,
+   "coup": "Bxf4",
+   "badge": "bon"
+  },
+  {
+   "t": 11.33,
+   "coup": "exf4",
+   "badge": "meilleur"
+  },
+  {
+   "t": 11.72,
+   "coup": "Qh4",
+   "badge": "bon"
+  },
+  {
+   "t": 12.11,
+   "coup": "g3",
+   "badge": "bon"
+  },
+  {
+   "t": 12.5,
+   "coup": "Qe7",
+   "badge": "bon"
+  },
+  {
+   "t": 12.88,
+   "coup": "Qh5",
+   "badge": "meilleur"
+  },
+  {
+   "t": 13.27,
+   "coup": "h6",
+   "badge": "bon"
+  },
+  {
+   "t": 13.66,
+   "coup": "O-O-O",
+   "badge": null
+  },
+  {
+   "t": 14.05,
+   "coup": "c5",
+   "badge": "erreur"
+  },
+  {
+   "t": 21.35,
+   "coup": "g4",
+   "badge": "meilleur"
+  },
+  {
+   "t": 21.74,
+   "coup": "c4",
+   "badge": null
+  },
+  {
+   "t": 22.13,
+   "coup": "Bc2",
+   "badge": "meilleur"
+  },
+  {
+   "t": 22.52,
+   "coup": "f5",
+   "badge": "bon"
+  },
+  {
+   "t": 22.9,
+   "coup": "gxf5",
+   "badge": "bon"
+  },
+  {
+   "t": 23.29,
+   "coup": "exf5",
+   "badge": null
+  },
+  {
+   "t": 23.68,
+   "coup": "Rhg1",
+   "badge": "meilleur"
+  },
+  {
+   "t": 24.07,
+   "coup": "Qf7",
+   "badge": null
+  },
+  {
+   "t": 24.46,
+   "coup": "Qxf7+",
+   "badge": "gaffe"
+  },
+  {
+   "t": 24.85,
+   "coup": "Rxf7",
+   "badge": "erreur"
+  },
+  {
+   "t": 31.19,
+   "coup": "Rxd5",
+   "badge": "meilleur"
+  },
+  {
+   "t": 31.58,
+   "coup": "Be6",
+   "badge": "meilleur"
+  },
+  {
+   "t": 31.96,
+   "coup": "Rd6",
+   "badge": "meilleur"
+  },
+  {
+   "t": 32.35,
+   "coup": "Re8",
+   "badge": "bon"
+  },
+  {
+   "t": 32.74,
+   "coup": "h4",
+   "badge": null
+  },
+  {
+   "t": 33.13,
+   "coup": "Rd7",
+   "badge": "meilleur"
+  },
+  {
+   "t": 33.52,
+   "coup": "Rxd7",
+   "badge": "bon"
+  },
+  {
+   "t": 33.91,
+   "coup": "Bxd7",
+   "badge": "meilleur"
+  },
+  {
+   "t": 34.3,
+   "coup": "Rd1",
+   "badge": "bon"
+  },
+  {
+   "t": 34.69,
+   "coup": "Be6",
+   "badge": "meilleur"
+  },
+  {
+   "t": 35.07,
+   "coup": "Rd6",
+   "badge": "meilleur"
+  },
+  {
+   "t": 35.46,
+   "coup": "Kf7",
+   "badge": "meilleur"
+  },
+  {
+   "t": 35.85,
+   "coup": "b3",
+   "badge": null
+  },
+  {
+   "t": 36.24,
+   "coup": "cxb3",
+   "badge": null
+  },
+  {
+   "t": 36.63,
+   "coup": "Bxb3",
+   "badge": "meilleur"
+  },
+  {
+   "t": 37.02,
+   "coup": "Ke7",
+   "badge": "gaffe"
+  },
+  {
+   "t": 44.64,
+   "coup": "Rxe6+",
+   "badge": "meilleur"
+  },
+  {
+   "t": 45.03,
+   "coup": "Kd7",
+   "badge": "bon"
+  },
+  {
+   "t": 45.41,
+   "coup": "Rxe8",
+   "badge": "bon"
+  },
+  {
+   "t": 45.8,
+   "coup": "Kxe8",
+   "badge": "meilleur"
+  },
+  {
+   "t": 46.19,
+   "coup": "Be6",
+   "badge": "meilleur"
+  }
+ ],
+ "pauses": [],
+ "ecrans": [
+  {
+   "t": 14.99,
+   "fin": 21.2,
+   "ecran": "ecran_032.png"
+  },
+  {
+   "t": 25.79,
+   "fin": 31.04,
+   "ecran": "ecran_042.png"
+  },
+  {
+   "t": 37.96,
+   "fin": 44.49,
+   "ecran": "ecran_058.png"
+  },
+  {
+   "t": 47.28,
+   "fin": 52.56,
+   "ecran": "ecran_058.png"
+  }
+ ]
+}
