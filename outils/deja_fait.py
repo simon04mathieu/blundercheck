@@ -17,7 +17,11 @@ import chess
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 ROOT = os.path.dirname(HERE)
 from scripts_coach import PERSO, SCRIPTS
-import coach2
+
+
+def _repères(script):
+    """Repères [..] du script, dans l'ordre (même découpage que coach2.tokens, sans charger le moteur de rendu)."""
+    return [part[1:-1].split() for part in re.split(r"(\[[^\]]*\])", script) if part.startswith("[")]
 
 RESEAUX = ["youtube", "tiktok", "tiktok-en", "instagram", "facebook", "threads"]
 
@@ -29,8 +33,7 @@ def cle(b):
 def parcours(nom):
     """Positions traversées par la vidéo (ordre du script) ; [] si le script ne se rejoue pas."""
     script = PERSO[nom]["script"] if nom in PERSO else SCRIPTS[nom][1]
-    toks = coach2.tokens(script)
-    marks = [m for t in toks for m in t["marks"]] + [m for t in toks for m in t.get("marks_after", [])]
+    marks = _repères(script)
     b, vues, depart = None, [], None
     try:
         for mk in marks:
