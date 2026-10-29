@@ -13,7 +13,7 @@ AUTORISES = {
     # Page Facebook « BlunderCheck » (Page d'entreprise, jamais un profil personnel)
     "facebook": {"BlunderCheck"},
     # Comptes Instagram professionnels BlunderCheck (nom d'utilisateur)
-    "instagram": {"blundercheckapp"},
+    "instagram": {"blundercheckapp", "blundercheckches"},
     # Profils Threads BlunderCheck (nom d'utilisateur)
     "threads": {"blundercheckapp"},
     # Comptes TikTok BlunderCheck (nom d'utilisateur) : FR et EN
