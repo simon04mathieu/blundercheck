@@ -1,19 +1,28 @@
 {
- "date": "2026-10-29T16:53:56.915906+00:00",
+ "date": "2026-10-29T17:48:54.644764+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
-  "abonnes": "23",
+  "abonnes": "24",
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "fBT-QY6OvAI": {
+   "titre": "Chess Trap #1: he eats your bishop, you mate him ♟️ #chess #shorts",
+   "publiee": "2026-10-29T16:54:19Z",
+   "statut": "public",
+   "duree": "PT13S",
+   "vues": 19,
+   "jaime": 1,
+   "commentaires": 0
+  },
   "BbSHrB-HMV0": {
    "titre": "Can your king take this pawn? (pinned bishop) ♟️ #chess #shorts",
    "publiee": "2026-10-29T14:01:21Z",
    "statut": "public",
    "duree": "PT20S",
-   "vues": 230,
-   "jaime": 3,
+   "vues": 445,
+   "jaime": 7,
    "commentaires": 1
   },
   "dTDzqnLFprY": {
@@ -21,8 +30,8 @@
    "publiee": "2026-10-29T10:48:25Z",
    "statut": "public",
    "duree": "PT11S",
-   "vues": 1094,
-   "jaime": 9,
+   "vues": 1175,
+   "jaime": 8,
    "commentaires": 0
   },
   "uGywEhTNoU4": {
@@ -30,8 +39,8 @@
    "publiee": "2026-10-28T19:47:32Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 2561,
-   "jaime": 18,
+   "vues": 2696,
+   "jaime": 19,
    "commentaires": 7
   },
   "k6mGbEI11mY": {
@@ -39,7 +48,7 @@
    "publiee": "2026-10-28T16:51:44Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 965,
+   "vues": 957,
    "jaime": 10,
    "commentaires": 1
   },
@@ -48,7 +57,7 @@
    "publiee": "2026-10-28T13:58:43Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 231,
+   "vues": 253,
    "jaime": 2,
    "commentaires": 0
   },
@@ -57,7 +66,7 @@
    "publiee": "2026-10-28T10:46:09Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 997,
+   "vues": 994,
    "jaime": 4,
    "commentaires": 1
   },
@@ -66,8 +75,8 @@
    "publiee": "2026-10-27T19:40:53Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 436,
-   "jaime": 6,
+   "vues": 458,
+   "jaime": 7,
    "commentaires": 0
   },
   "C_cVscc2QuA": {
@@ -75,7 +84,7 @@
    "publiee": "2026-10-27T16:48:22Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 1005,
+   "vues": 999,
    "jaime": 12,
    "commentaires": 1
   },
@@ -93,7 +102,7 @@
    "publiee": "2026-10-27T10:39:20Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 1073,
+   "vues": 1075,
    "jaime": 8,
    "commentaires": 0
   },
@@ -102,7 +111,7 @@
    "publiee": "2026-10-26T19:42:30Z",
    "statut": "public",
    "duree": "PT25S",
-   "vues": 316,
+   "vues": 318,
    "jaime": 5,
    "commentaires": 0
   },
