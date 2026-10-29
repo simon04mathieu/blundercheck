@@ -179,3 +179,4 @@ Jetons TikTok (en) enregistrés (chiffrés). Portées : user.info.basic,user.inf
 {"publish_id": "v_inbox_file~v2.7701991232310069270", "mode": "brouillon", "vie_privee": null, "legende": "Your king was in check. Can you still castle? 🤔 Legal or illegal? #chess #chesstok #chessquiz #castling"}
 ### 2026-10-29 07:40 publications/tiktok-en/quiz_legal_7_en.json
 {"publish_id": "v_inbox_file~v2.7701991184922871830", "mode": "brouillon", "vie_privee": null, "legende": "Can your king take this pawn? 🤔 Legal or illegal? #chess #chesstok #chessquiz #chessrules"}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 3, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
