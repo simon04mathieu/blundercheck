@@ -1,0 +1,50 @@
+# Réserve de pièges inédits (demande de Simon, 29/10) : puzzles Lichess (CC0) -> pièges d'ouverture où de vrais joueurs 1000-1800 tombent.
+# Déclenché par une commande commandes/pieges/<nom>.json (branche videos) : {"max": 20}
+# Sortie : stock/pieges-candidats.md et .json (lignes vérifiées python-chess + Stockfish, anti-doublon) ; journal : sorties/journal.md
+name: Chercher des pieges
+on:
+  push:
+    branches: [videos]
+    paths: ["commandes/pieges/*.json"]
+permissions:
+  contents: write
+concurrency:
+  group: pieges
+  cancel-in-progress: false
+jobs:
+  chercher:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: videos, sparse-checkout: "outils\ncommandes\nstock\npublications\nsorties/journal.md", sparse-checkout-cone-mode: false }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Outils
+        timeout-minutes: 10
+        run: |
+          sudo apt-get install -y -qq stockfish > /dev/null
+          pip install -q --timeout 60 --retries 3 zstandard
+      - name: Recherche
+        timeout-minutes: 30
+        run: |
+          git config user.name "BlunderCheck vidéos"
+          git config user.email "actions@users.noreply.github.com"
+          mkdir -p commandes/pieges/faites
+          echo "## $(date -u '+%Y-%m-%d %H:%M') UTC · pièges · run ${{ github.run_id }}" >> sorties/journal.md
+          for c in commandes/pieges/*.json; do
+            [ -e "$c" ] || continue
+            echo "### $c" >> sorties/journal.md
+            n=$(python3 -c "import json,sys;print(json.load(open(sys.argv[1])).get('max',20))" "$c")
+            ok=0; PATH="$PATH:/usr/games" python3 outils/chercher_pieges.py --max "$n" > /tmp/log.txt 2>&1 || ok=$?
+            if [ $ok -eq 0 ]; then
+              grep -E '^OK stock' /tmp/log.txt | tail -n 1 | sed 's/^/    /' >> sorties/journal.md
+            else
+              echo "ÉCHEC :" >> sorties/journal.md
+              tail -n 5 /tmp/log.txt | sed 's/^/    /' >> sorties/journal.md
+            fi
+            git mv "$c" commandes/pieges/faites/ 2>/dev/null || mv "$c" commandes/pieges/faites/
+          done
+          git add -A stock sorties/journal.md commandes/pieges || true
+          git commit -qm "Pièges : réserve mise à jour (run ${{ github.run_id }})" || exit 0
+          git pull -q --rebase origin videos && git push -q origin HEAD:videos
