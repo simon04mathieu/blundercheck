@@ -1,0 +1,1994 @@
+[
+ {
+  "nom": "analyse_celebre_1",
+  "langue": "fr",
+  "concept": "analyse_celebre",
+  "sujet": "Tu vois le mat en un qu'il n'a pas vu ? Deep Fritz – Kramnik 2006",
+  "reseaux": {
+   "youtube": "publié 2026-10-23",
+   "tiktok": "publié 2026-10-23"
+  },
+  "statut": "publié",
+  "test": null,
+  "variante": null,
+  "position_depart": "5N1k/q5p1/7p/4P3/pp2Q3/8/1P4PP/2b4K b",
+  "position_finale": "5N1k/6pQ/7p/4P3/pp6/4q3/1P4PP/2b4K b",
+  "positions": [
+   "5N1k/6p1/7p/4P3/pp2Q3/4q3/1P4PP/2b4K w",
+   "5N1k/6pQ/7p/4P3/pp6/4q3/1P4PP/2b4K b",
+   "5N1k/q5p1/7p/4P3/pp2Q3/8/1P4PP/2b4K b"
+  ],
+  "ligne_uci": "d2d4 d7d5 c2c4 d5c4 e2e4 b7b5 a2a4 c7c6 b1c3 b5b4 c3a2 g8f6 e4e5 f6d5 f1c4 e7e6 g1f3 a7a5 c1g5 d8b6 a2c1 c8a6 d1e2 h7h6 g5e3 a6c4 e2c4 b8d7 c1b3 f8e7 a1c1 e8g8 e1g1 f8c8 c4e2 c6c5 f3d2 b6c6 e2h5 c6a4 b3c5 d7c5 d4c5 d5e3 f2e3 e7c5 h5f7 g8h8 f7f3 c8f8 f3e4 a4d7 d2b3 c5b6 f1d1 d7f7 d1f1 f7a7 f1f8 a8f8 b3d4 a5a4 d4e6 b6e3 g1h1 e3c1 e6f8 a7e3 e4h7"
+ },
+ {
+  "nom": "analyse_celebre_2_court",
+  "langue": "fr",
+  "concept": "analyse_celebre",
+  "sujet": "Opéra, 1858 : il mange tout… et il est mat 🎭",
+  "reseaux": {
+   "youtube": "publié 2026-10-25",
+   "tiktok": "publié 2026-10-25",
+   "instagram": "publié 2026-10-25",
+   "facebook": "publié 2026-10-25",
+   "threads": "publié 2026-10-25"
+  },
+  "statut": "publié",
+  "test": "T6-durée",
+  "variante": "B",
+  "position_depart": "1n1Rkb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2K5 b",
+  "position_finale": "1n1Rkb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2K5 b",
+  "positions": [
+   "1Q2kb1r/p2n1ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 b",
+   "1n1Rkb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2K5 b",
+   "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w",
+   "3rkb1r/p2Rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R b",
+   "3rkb1r/p2nqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR3R w",
+   "4kb1r/p2B1ppp/4qn2/4p1B1/4P3/1Q6/PPP2PPP/2KR4 b",
+   "4kb1r/p2n1ppp/4q3/4p1B1/4P3/1Q6/PPP2PPP/2KR4 w",
+   "4kb1r/p2r1ppp/4qn2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR4 w",
+   "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w",
+   "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR4 b",
+   "r3kb1r/p2nqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR3R b",
+   "r3kb1r/p2nqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/R3K2R w",
+   "rn2kb1r/p3qppp/2p2n2/1N2p1B1/2B1P3/1Q6/PPP2PPP/R3K2R b",
+   "rn2kb1r/p3qppp/2p2n2/1p2p1B1/2B1P3/1QN5/PPP2PPP/R3K2R w",
+   "rn2kb1r/p3qppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/R3K2R b",
+   "rn2kb1r/p3qppp/5n2/1p2p1B1/2B1P3/1Q6/PPP2PPP/R3K2R w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 d7d6 d2d4 c8g4 d4e5 g4f3 d1f3 d6e5 f1c4 g8f6 f3b3 d8e7 b1c3 c7c6 c1g5 b7b5 c3b5 c6b5 c4b5 b8d7 e1c1 a8d8 d1d7 d8d7 h1d1 e7e6 b5d7 f6d7 b3b8 d7b8 d1d8"
+ },
+ {
+  "nom": "analyse_celebre_2_long",
+  "langue": "fr",
+  "concept": "analyse_celebre",
+  "sujet": "La Partie de l'Opéra : mat en 17 coups 🎭",
+  "reseaux": {
+   "youtube": "publié 2026-10-25",
+   "tiktok": "publié 2026-10-25",
+   "instagram": "publié 2026-10-25",
+   "facebook": "publié 2026-10-25",
+   "threads": "publié 2026-10-25"
+  },
+  "statut": "publié",
+  "test": "T6-durée",
+  "variante": "A",
+  "position_depart": "1n1Rkb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2K5 b",
+  "position_finale": "1n1Rkb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2K5 b",
+  "positions": [
+   "1Q2kb1r/p2n1ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 b",
+   "1n1Rkb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2K5 b",
+   "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w",
+   "3rkb1r/p2Rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R b",
+   "3rkb1r/p2nqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR3R w",
+   "4kb1r/p2B1ppp/4qn2/4p1B1/4P3/1Q6/PPP2PPP/2KR4 b",
+   "4kb1r/p2n1ppp/4q3/4p1B1/4P3/1Q6/PPP2PPP/2KR4 w",
+   "4kb1r/p2r1ppp/4qn2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR4 w",
+   "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w",
+   "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR4 b",
+   "r3kb1r/p2nqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR3R b",
+   "r3kb1r/p2nqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/R3K2R w",
+   "rn1qkb1r/ppp2ppp/5n2/4p3/2B1P3/1Q6/PPP2PPP/RNB1K2R b",
+   "rn1qkb1r/ppp2ppp/5n2/4p3/2B1P3/5Q2/PPP2PPP/RNB1K2R w",
+   "rn1qkbnr/ppp2ppp/3p4/4P3/4P1b1/5N2/PPP2PPP/RNBQKB1R b",
+   "rn1qkbnr/ppp2ppp/3p4/4P3/4P3/5Q2/PPP2PPP/RNB1KB1R b",
+   "rn1qkbnr/ppp2ppp/3p4/4P3/4P3/5b2/PPP2PPP/RNBQKB1R w",
+   "rn1qkbnr/ppp2ppp/3p4/4p3/3PP1b1/5N2/PPP2PPP/RNBQKB1R w",
+   "rn1qkbnr/ppp2ppp/8/4p3/2B1P3/5Q2/PPP2PPP/RNB1K2R b",
+   "rn1qkbnr/ppp2ppp/8/4p3/4P3/5Q2/PPP2PPP/RNB1KB1R w",
+   "rn2kb1r/p3qppp/2p2n2/1N2p1B1/2B1P3/1Q6/PPP2PPP/R3K2R b",
+   "rn2kb1r/p3qppp/2p2n2/1p2p1B1/2B1P3/1QN5/PPP2PPP/R3K2R w",
+   "rn2kb1r/p3qppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/R3K2R b",
+   "rn2kb1r/p3qppp/5n2/1p2p1B1/2B1P3/1Q6/PPP2PPP/R3K2R w",
+   "rn2kb1r/pp2qppp/2p2n2/4p1B1/2B1P3/1QN5/PPP2PPP/R3K2R b",
+   "rn2kb1r/pp2qppp/2p2n2/4p3/2B1P3/1QN5/PPP2PPP/R1B1K2R w",
+   "rn2kb1r/ppp1qppp/5n2/4p3/2B1P3/1Q6/PPP2PPP/RNB1K2R w",
+   "rn2kb1r/ppp1qppp/5n2/4p3/2B1P3/1QN5/PPP2PPP/R1B1K2R b",
+   "rnbqkbnr/ppp2ppp/3p4/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b",
+   "rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w",
+   "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b",
+   "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w",
+   "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b",
+   "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 d7d6 d2d4 c8g4 d4e5 g4f3 d1f3 d6e5 f1c4 g8f6 f3b3 d8e7 b1c3 c7c6 c1g5 b7b5 c3b5 c6b5 c4b5 b8d7 e1c1 a8d8 d1d7 d8d7 h1d1 e7e6 b5d7 f6d7 b3b8 d7b8 d1d8"
+ },
+ {
+  "nom": "analyse_celebre_3_court",
+  "langue": "en",
+  "concept": "analyse_celebre",
+  "sujet": "A 13-year-old gives his queen away… and wins ♟️ Would you have seen it? Yes or no 👇",
+  "reseaux": {
+   "tiktok-en": "publié 2026-10-27"
+  },
+  "statut": "publié",
+  "test": "T6-durée",
+  "variante": "B",
+  "position_depart": "r3r1k1/pp3pbp/1qp1b1p1/2B5/2BP4/Q1n2N2/P4PPP/3R1K1R w",
+  "position_finale": "1Q6/5pk1/2p3p1/1p2N2p/1b5P/1bn5/2r3P1/2K5 w",
+  "positions": [
+   "1Q6/5pk1/2p3p1/1p2N2p/1b5P/1bn5/2r3P1/2K5 w",
+   "1Q6/5pk1/2p3p1/1p2N2p/1b5P/1bn5/r5P1/2K5 b",
+   "4r1k1/1p3pbp/1Qp3p1/8/r1b5/2n2N2/P4PPP/3R2KR b",
+   "4r1k1/1p3pbp/1Qp3p1/8/r1b5/5N2/P4PPP/3n2KR w",
+   "4r1k1/1p3pbp/1pp3p1/8/rQb5/2n2N2/P4PPP/3R2KR w",
+   "r3r1k1/1p3pbp/1pp3p1/8/1Qb5/2n2N2/P4PPP/3R2KR b",
+   "r3r1k1/1p3pbp/1pp3p1/8/2b5/Q1n2N2/P4PPP/3R2KR w",
+   "r3r1k1/pp3pbp/1Bp1b1p1/8/2BP4/Q1n2N2/P4PPP/3R1K1R b",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2b5/Q1n2N2/P4PPP/3R1K1R w",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2b5/Q1n2N2/P4PPP/3R2KR b",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2b5/Q4N2/P3nPPP/3R1K1R b",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2b5/Q4N2/P3nPPP/3R2KR w",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q1n2N2/P4PPP/3R1K1R w",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q1n2N2/P4PPP/3R2KR b",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q4N2/P3nPPP/3R1K1R b",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q4N2/P3nPPP/3R2KR w",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2bn4/Q4N2/P4PPP/3R1K1R w",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2bn4/Q4N2/P4PPP/3R2KR b",
+   "r3r1k1/pp3pbp/1qp1b1p1/2B5/2BP4/Q1n2N2/P4PPP/3R1K1R w"
+  ],
+  "ligne_uci": "g1f3 g8f6 c2c4 g7g6 b1c3 f8g7 d2d4 e8g8 c1f4 d7d5 d1b3 d5c4 b3c4 c7c6 e2e4 b8d7 a1d1 d7b6 c4c5 c8g4 f4g5 b6a4 c5a3 a4c3 b2c3 f6e4 g5e7 d8b6 f1c4 e4c3 e7c5 f8e8 e1f1 g4e6 c5b6 e6c4 f1g1 c3e2 g1f1 e2d4 f1g1 d4e2 g1f1 e2c3 f1g1 a7b6 a3b4 a8a4 b4b6 c3d1 h2h3 a4a2 g1h2 d1f2 h1e1 e8e1 b6d8 g7f8 f3e1 c4d5 e1f3 f2e4 d8b8 b7b5 h3h4 h7h5 f3e5 g8g7 h2g1 f8c5 g1f1 e4g3 f1e1 c5b4 e1d1 d5b3 d1c1 g3e2 c1b1 e2c3 b1c1 a2c2"
+ },
+ {
+  "nom": "analyse_celebre_3_long",
+  "langue": "en",
+  "concept": "analyse_celebre",
+  "sujet": "A 13-year-old sacrifices his queen and wins the Game of the Century ♟️ Would you have seen it? Yes or no 👇",
+  "reseaux": {
+   "tiktok-en": "publié 2026-10-27"
+  },
+  "statut": "publié",
+  "test": "T6-durée",
+  "variante": "A",
+  "position_depart": "r3r1k1/pp3pbp/1qp1b1p1/2B5/2BP4/Q1n2N2/P4PPP/3R1K1R w",
+  "position_finale": "1Q6/5pk1/2p3p1/1p2N2p/1b5P/1bn5/2r3P1/2K5 w",
+  "positions": [
+   "1Q3b2/5pk1/2p3p1/1p1bN2p/4n2P/8/r5P1/6K1 b",
+   "1Q6/5pk1/2p3p1/1p1bN2p/1b5P/6n1/r5P1/3K4 b",
+   "1Q6/5pk1/2p3p1/1p1bN2p/1b5P/6n1/r5P1/4K3 w",
+   "1Q6/5pk1/2p3p1/1p2N2p/1b5P/1b4n1/r5P1/2K5 b",
+   "1Q6/5pk1/2p3p1/1p2N2p/1b5P/1b4n1/r5P1/3K4 w",
+   "1Q6/5pk1/2p3p1/1p2N2p/1b5P/1b6/r3n1P1/1K6 b",
+   "1Q6/5pk1/2p3p1/1p2N2p/1b5P/1b6/r3n1P1/2K5 w",
+   "1Q6/5pk1/2p3p1/1p2N2p/1b5P/1bn5/2r3P1/2K5 w",
+   "1Q6/5pk1/2p3p1/1p2N2p/1b5P/1bn5/r5P1/1K6 w",
+   "1Q6/5pk1/2p3p1/1p2N2p/1b5P/1bn5/r5P1/2K5 b",
+   "1Q6/5pk1/2p3p1/1pbbN2p/4n2P/8/r5P1/5K2 b",
+   "1Q6/5pk1/2p3p1/1pbbN2p/4n2P/8/r5P1/6K1 w",
+   "1Q6/5pk1/2p3p1/1pbbN2p/7P/6n1/r5P1/4K3 b",
+   "1Q6/5pk1/2p3p1/1pbbN2p/7P/6n1/r5P1/5K2 w",
+   "3Q1bk1/1p3p1p/2p3p1/8/2b5/5N1P/r4nPK/4r3 w",
+   "3Q1bk1/1p3p1p/2p3p1/8/2b5/7P/r4nPK/4N3 b",
+   "3Q2k1/1p3pbp/2p3p1/8/2b5/5N1P/r4nPK/4r3 b",
+   "4r1k1/1p3pbp/1Qp3p1/8/2b5/5N1P/r4PP1/3n2KR w",
+   "4r1k1/1p3pbp/1Qp3p1/8/2b5/5N1P/r4PPK/3n3R b",
+   "4r1k1/1p3pbp/1Qp3p1/8/2b5/5N1P/r4nPK/4R3 b",
+   "4r1k1/1p3pbp/1Qp3p1/8/2b5/5N1P/r4nPK/7R w",
+   "4r1k1/1p3pbp/1Qp3p1/8/r1b5/2n2N2/P4PPP/3R2KR b",
+   "4r1k1/1p3pbp/1Qp3p1/8/r1b5/5N1P/P4PP1/3n2KR b",
+   "4r1k1/1p3pbp/1Qp3p1/8/r1b5/5N2/P4PPP/3n2KR w",
+   "4r1k1/1p3pbp/1pp3p1/8/rQb5/2n2N2/P4PPP/3R2KR w",
+   "6k1/1p3pbp/1Qp3p1/8/2b5/5N1P/r4nPK/4r3 w",
+   "r2q1rk1/pp2Bpbp/2p3p1/8/3Pn1b1/Q1P2N2/P4PPP/3RKB1R b",
+   "r2q1rk1/pp2ppbp/2p2np1/6B1/3PP1b1/Q1P2N2/P4PPP/3RKB1R b",
+   "r2q1rk1/pp2ppbp/2p2np1/6B1/3PP1b1/Q1n2N2/PP3PPP/3RKB1R w",
+   "r2q1rk1/pp2ppbp/2p2np1/6B1/n2PP1b1/Q1N2N2/PP3PPP/3RKB1R b",
+   "r2q1rk1/pp2ppbp/2p3p1/6B1/3Pn1b1/Q1P2N2/P4PPP/3RKB1R w",
+   "r3r1k1/1p3pbp/1pp3p1/8/1Qb5/2n2N2/P4PPP/3R2KR b",
+   "r3r1k1/1p3pbp/1pp3p1/8/2b5/Q1n2N2/P4PPP/3R2KR w",
+   "r3r1k1/pp3pbp/1Bp1b1p1/8/2BP4/Q1n2N2/P4PPP/3R1K1R b",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2b5/Q1n2N2/P4PPP/3R1K1R w",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2b5/Q1n2N2/P4PPP/3R2KR b",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2b5/Q4N2/P3nPPP/3R1K1R b",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2b5/Q4N2/P3nPPP/3R2KR w",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q1n2N2/P4PPP/3R1K1R w",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q1n2N2/P4PPP/3R2KR b",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q4N2/P3nPPP/3R1K1R b",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q4N2/P3nPPP/3R2KR w",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2bn4/Q4N2/P4PPP/3R1K1R w",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2bn4/Q4N2/P4PPP/3R2KR b",
+   "r3r1k1/pp3pbp/1qp1b1p1/2B5/2BP4/Q1n2N2/P4PPP/3R1K1R w",
+   "r3r1k1/pp3pbp/1qp3p1/2B5/2BP2b1/Q1n2N2/P4PPP/3R1K1R b",
+   "r3r1k1/pp3pbp/1qp3p1/2B5/2BP2b1/Q1n2N2/P4PPP/3RK2R w",
+   "r4rk1/pp2Bpbp/1qp3p1/8/2BP2b1/Q1n2N2/P4PPP/3RK2R w",
+   "r4rk1/pp2Bpbp/1qp3p1/8/2BPn1b1/Q1P2N2/P4PPP/3RK2R b",
+   "r4rk1/pp2Bpbp/1qp3p1/8/3Pn1b1/Q1P2N2/P4PPP/3RKB1R w",
+   "r4rk1/pp3pbp/1qp3p1/2B5/2BP2b1/Q1n2N2/P4PPP/3RK2R b"
+  ],
+  "ligne_uci": "g1f3 g8f6 c2c4 g7g6 b1c3 f8g7 d2d4 e8g8 c1f4 d7d5 d1b3 d5c4 b3c4 c7c6 e2e4 b8d7 a1d1 d7b6 c4c5 c8g4 f4g5 b6a4 c5a3 a4c3 b2c3 f6e4 g5e7 d8b6 f1c4 e4c3 e7c5 f8e8 e1f1 g4e6 c5b6 e6c4 f1g1 c3e2 g1f1 e2d4 f1g1 d4e2 g1f1 e2c3 f1g1 a7b6 a3b4 a8a4 b4b6 c3d1 h2h3 a4a2 g1h2 d1f2 h1e1 e8e1 b6d8 g7f8 f3e1 c4d5 e1f3 f2e4 d8b8 b7b5 h3h4 h7h5 f3e5 g8g7 h2g1 f8c5 g1f1 e4g3 f1e1 c5b4 e1d1 d5b3 d1c1 g3e2 c1b1 e2c3 b1c1 a2c2"
+ },
+ {
+  "nom": "berger",
+  "langue": "fr",
+  "concept": "berger",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b",
+  "position_finale": "r1bqkb1r/pppp1p1p/2n2np1/4p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR w",
+  "positions": [
+   "r1bqkb1r/pppp1p1p/2n2np1/4p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR w",
+   "r1bqkbnr/pppp1p1p/2n3p1/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w",
+   "r1bqkbnr/pppp1p1p/2n3p1/4p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR b",
+   "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b"
+  ],
+  "ligne_uci": "e2e4 e7e5 f1c4 b8c6 d1h5 g7g6 h5f3 g8f6"
+ },
+ {
+  "nom": "blackburne",
+  "langue": "fr",
+  "concept": "blackburne",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w",
+  "position_finale": "r1bqkbnr/pppp1ppp/8/4p3/2BNP3/8/PPPP1PPP/RNBQK2R b",
+  "positions": [
+   "r1bqkbnr/pppp1ppp/8/4p3/2BNP3/8/PPPP1PPP/RNBQK2R b",
+   "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 b8c6 f1c4 c6d4 f3d4"
+ },
+ {
+  "nom": "canne",
+  "langue": "fr",
+  "concept": "canne",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1bqkb1r/pppp1pp1/2n5/1B2p2p/4P1n1/5N1P/PPPP1PP1/RNBQ1RK1 w",
+  "position_finale": "r1bqkb1r/pppp1pp1/2n5/1B2p2p/4P1n1/2P2N1P/PP1P1PP1/RNBQ1RK1 b",
+  "positions": [
+   "r1bqkb1r/pppp1pp1/2n5/1B2p2p/4P1n1/2P2N1P/PP1P1PP1/RNBQ1RK1 b",
+   "r1bqkb1r/pppp1pp1/2n5/1B2p2p/4P1n1/5N1P/PPPP1PP1/RNBQ1RK1 w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6g4 h2h3 h7h5 c2c3"
+ },
+ {
+  "nom": "carokann",
+  "langue": "fr",
+  "concept": "carokann",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP1QPPP/R1B1KBNR b",
+  "position_finale": "r1bqkbnr/pp2pppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w",
+  "positions": [
+   "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP1QPPP/R1B1KBNR b",
+   "r1bqkbnr/pp2pppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w"
+  ],
+  "ligne_uci": "e2e4 c7c6 d2d4 d7d5 b1c3 d5e4 c3e4 b8d7 d1e2 d7f6"
+ },
+ {
+  "nom": "case_attaquee",
+  "langue": "fr",
+  "concept": "case_attaquee",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1bqk1nr/pppp1ppp/2n5/4p3/2b1P3/5N2/PPP2PPP/RNBQK2R w",
+  "position_finale": "r1bqk1nr/pppp1ppp/2n5/4p3/2b1P3/5N2/PPP1QPPP/RNB1K2R b",
+  "positions": [
+   "r1bqk1nr/pppp1ppp/2n5/4p3/2b1P3/5N2/PPP1QPPP/RNB1K2R b",
+   "r1bqk1nr/pppp1ppp/2n5/4p3/2b1P3/5N2/PPP2PPP/RNBQK2R w"
+  ],
+  "ligne_uci": "d1e2"
+ },
+ {
+  "nom": "damiano",
+  "langue": "fr",
+  "concept": "damiano",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "rnbqkbnr/pppp2pp/5p2/4N3/4P3/8/PPPP1PPP/RNBQKB1R b",
+  "position_finale": "rnb1kbnr/ppppq1pp/5p2/4N3/4P3/8/PPPP1PPP/RNBQKB1R w",
+  "positions": [
+   "rnb1kbnr/ppppq1pp/5p2/4N3/4P3/8/PPPP1PPP/RNBQKB1R w",
+   "rnbqkbnr/pppp2pp/5p2/4N3/4P3/8/PPPP1PPP/RNBQKB1R b"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 f7f6 f3e5 d8e7"
+ },
+ {
+  "nom": "deux_dames",
+  "langue": "fr",
+  "concept": "deux_dames",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "6k1/1P3ppp/8/8/8/8/5PPP/3Q2K1 w",
+  "position_finale": "1Q4k1/5ppp/8/8/8/8/5PPP/3Q2K1 b",
+  "positions": [
+   "1Q4k1/5ppp/8/8/8/8/5PPP/3Q2K1 b",
+   "6k1/1P3ppp/8/8/8/8/5PPP/3Q2K1 w"
+  ],
+  "ligne_uci": "b7b8q"
+ },
+ {
+  "nom": "elephant",
+  "langue": "fr",
+  "concept": "elephant",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1bqkb1r/pppn1ppp/5n2/3p2B1/3P4/2N5/PP2PPPP/R2QKBNR w",
+  "position_finale": "r1bqkb1r/pppn1ppp/5n2/3p2B1/3P4/2N1P3/PP3PPP/R2QKBNR b",
+  "positions": [
+   "r1bqkb1r/pppn1ppp/5n2/3p2B1/3P4/2N1P3/PP3PPP/R2QKBNR b",
+   "r1bqkb1r/pppn1ppp/5n2/3p2B1/3P4/2N5/PP2PPPP/R2QKBNR w"
+  ],
+  "ligne_uci": "d2d4 d7d5 c2c4 e7e6 b1c3 g8f6 c1g5 b8d7 c4d5 e6d5 e2e3"
+ },
+ {
+  "nom": "enpassant",
+  "langue": "fr",
+  "concept": "enpassant",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": null,
+  "position_finale": null,
+  "positions": [],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "immortelle",
+  "langue": "fr",
+  "concept": "immortelle",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "rnb1kb1r/p2p1ppp/5n2/1p3Nq1/4PpP1/3P4/PPP4P/RNBQ1KR1 w",
+  "position_finale": "r1bk3r/p2pBpNp/n4n2/1p1NP2P/6P1/3P4/P1P1K3/q5b1 b",
+  "positions": [
+   "r1b1k1nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 b",
+   "r1b1k1nr/p2p1ppp/n2B4/1p1NPN1P/6P1/3P1Q2/P1P1K3/q5b1 w",
+   "r1bk2nr/p2p1pNp/n2B1Q2/1p1NP2P/6P1/3P4/P1P1K3/q5b1 b",
+   "r1bk2nr/p2p1pNp/n2B4/1p1NP2P/6P1/3P1Q2/P1P1K3/q5b1 w",
+   "r1bk3r/p2p1pNp/n2B1n2/1p1NP2P/6P1/3P4/P1P1K3/q5b1 w",
+   "r1bk3r/p2pBpNp/n4n2/1p1NP2P/6P1/3P4/P1P1K3/q5b1 b",
+   "rnb1k1nr/p2p1ppp/3B4/1p1N1N1P/4P1P1/3P1Q2/PqP5/R4Kb1 w",
+   "rnb1k1nr/p2p1ppp/3B4/1p1NPN1P/6P1/3P1Q2/P1P1K3/q5b1 b",
+   "rnb1k1nr/p2p1ppp/3B4/1p1NPN1P/6P1/3P1Q2/P1P5/q4Kb1 w",
+   "rnb1k1nr/p2p1ppp/3B4/1p1NPN1P/6P1/3P1Q2/PqP5/R4Kb1 b",
+   "rnb1k1nr/p2p1ppp/3B4/1pbN1N1P/4P1P1/3P1Q2/PqP5/R4KR1 b",
+   "rnb1k1nr/p2p1ppp/5q2/1pb2N1P/4PBP1/2NP1Q2/PPP5/R4KR1 w",
+   "rnb1k1nr/p2p1ppp/5q2/1pbN1N1P/4PBP1/3P1Q2/PPP5/R4KR1 b",
+   "rnb1k1nr/p2p1ppp/8/1pbN1N1P/4PBP1/3P1Q2/PqP5/R4KR1 w",
+   "rnb1kb1r/p2p1ppp/5n2/1p3Nq1/4PpP1/3P4/PPP4P/RNBQ1KR1 w"
+  ],
+  "ligne_uci": "e2e4 e7e5 f2f4 e5f4 f1c4 d8h4 e1f1 b7b5 c4b5 g8f6 g1f3 h4h6 d2d3 f6h5 f3h4 h6g5 h4f5 c7c6 g2g4 h5f6 h1g1 c6b5 h2h4 g5g6 h4h5 g6g5 d1f3 f6g8 c1f4 g5f6 b1c3 f8c5 c3d5 f6b2 f4d6 c5g1 e4e5 b2a1 f1e2 b8a6 f5g7 e8d8 f3f6 g8f6 d6e7"
+ },
+ {
+  "nom": "lasker",
+  "langue": "fr",
+  "concept": "lasker",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "rn1q1rk1/pbpp2pp/1p2pb2/4N3/3PN3/3B4/PPP2PPP/R2QK2R w",
+  "position_finale": "rn3r2/pbppq1p1/1p2pN2/8/3P2NP/6P1/PPPKBP1R/R5k1 b",
+  "positions": [
+   "rn1q1rk1/pbpp2pp/1p2pb2/4N2Q/3PN3/3B4/PPP2PPP/R3K2R b",
+   "rn1q1rk1/pbpp2pp/1p2pb2/4N3/3PN3/3B4/PPP2PPP/R2QK2R w",
+   "rn3r2/pbppq1p1/1p2pN1k/4N3/3P4/3B4/PPP2PPP/R3K2R w",
+   "rn3r2/pbppq1p1/1p2pN1k/8/3P2N1/3B4/PPP2PPP/R3K2R b",
+   "rn3r2/pbppq1p1/1p2pN2/6k1/3P2N1/3B4/PPP2PPP/R3K2R w",
+   "rn3r2/pbppq1p1/1p2pN2/6k1/3P2NP/3B4/PPP2PP1/R3K2R b",
+   "rn3r2/pbppq1p1/1p2pN2/8/3P1kNP/3B2P1/PPP2P2/R3K2R b",
+   "rn3r2/pbppq1p1/1p2pN2/8/3P1kNP/3B4/PPP2PP1/R3K2R w",
+   "rn3r2/pbppq1p1/1p2pN2/8/3P2NP/3B1kP1/PPP2P2/R3K2R w",
+   "rn3r2/pbppq1p1/1p2pN2/8/3P2NP/5kP1/PPP1BP2/R3K2R b",
+   "rn3r2/pbppq1p1/1p2pN2/8/3P2NP/6P1/PPP1BP1R/R3K1k1 w",
+   "rn3r2/pbppq1p1/1p2pN2/8/3P2NP/6P1/PPP1BPk1/R3K2R w",
+   "rn3r2/pbppq1p1/1p2pN2/8/3P2NP/6P1/PPP1BPkR/R3K3 b",
+   "rn3r2/pbppq1p1/1p2pN2/8/3P2NP/6P1/PPPKBP1R/R5k1 b",
+   "rn3r2/pbppq1pk/1p2pN2/4N3/3P4/3B4/PPP2PPP/R3K2R b",
+   "rn3r2/pbppq1pk/1p2pb2/4N3/3PN3/3B4/PPP2PPP/R3K2R w",
+   "rn3rk1/pbppq1pQ/1p2pb2/4N3/3PN3/3B4/PPP2PPP/R3K2R b",
+   "rn3rk1/pbppq1pp/1p2pb2/4N2Q/3PN3/3B4/PPP2PPP/R3K2R w"
+  ],
+  "ligne_uci": "d2d4 e7e6 g1f3 f7f5 b1c3 g8f6 c1g5 f8e7 g5f6 e7f6 e2e4 f5e4 c3e4 b7b6 f3e5 e8g8 f1d3 c8b7 d1h5 d8e7 h5h7 g8h7 e4f6 h7h6 e5g4 h6g5 h2h4 g5f4 g2g3 f4f3 d3e2 f3g2 h1h2 g2g1 e1d2"
+ },
+ {
+  "nom": "magnus",
+  "langue": "fr",
+  "concept": "magnus",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1bqkb1r/p3pp1p/2pp1np1/4P3/2B5/2N5/PPP2PPP/R1BQK2R b",
+  "position_finale": "r1bqkb1r/p3pp1p/2pp2p1/4P3/2B3n1/2N5/PPP2PPP/R1BQK2R w",
+  "positions": [
+   "r1bqkb1r/p3pp1p/2pp1np1/4P3/2B5/2N5/PPP2PPP/R1BQK2R b",
+   "r1bqkb1r/p3pp1p/2pp2p1/4P3/2B3n1/2N5/PPP2PPP/R1BQK2R w"
+  ],
+  "ligne_uci": "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 b8c6 f1c4 g7g6 d4c6 b7c6 e4e5 f6g4"
+ },
+ {
+  "nom": "opera",
+  "langue": "fr",
+  "concept": "opera",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "rn2kb1r/p3qppp/2p2n2/1p2p1B1/2B1P3/1QN5/PPP2PPP/R3K2R w",
+  "position_finale": "1n1Rkb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2K5 b",
+  "positions": [
+   "1Q2kb1r/p2n1ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 b",
+   "1n1Rkb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2K5 b",
+   "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w",
+   "3rkb1r/p2Rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R b",
+   "3rkb1r/p2nqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR3R w",
+   "4kb1r/p2B1ppp/4qn2/4p1B1/4P3/1Q6/PPP2PPP/2KR4 b",
+   "4kb1r/p2n1ppp/4q3/4p1B1/4P3/1Q6/PPP2PPP/2KR4 w",
+   "4kb1r/p2r1ppp/4qn2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR4 w",
+   "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w",
+   "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR4 b",
+   "r3kb1r/p2nqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR3R b",
+   "r3kb1r/p2nqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/R3K2R w",
+   "rn2kb1r/p3qppp/2p2n2/1N2p1B1/2B1P3/1Q6/PPP2PPP/R3K2R b",
+   "rn2kb1r/p3qppp/2p2n2/1p2p1B1/2B1P3/1QN5/PPP2PPP/R3K2R w",
+   "rn2kb1r/p3qppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/R3K2R b",
+   "rn2kb1r/p3qppp/5n2/1p2p1B1/2B1P3/1Q6/PPP2PPP/R3K2R w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 d7d6 d2d4 c8g4 d4e5 g4f3 d1f3 d6e5 f1c4 g8f6 f3b3 d8e7 b1c3 c7c6 c1g5 b7b5 c3b5 c6b5 c4b5 b8d7 e1c1 a8d8 d1d7 d8d7 h1d1 e7e6 b5d7 f6d7 b3b8 d7b8 d1d8"
+ },
+ {
+  "nom": "perso_lasker",
+  "langue": "fr",
+  "concept": "perso_lasker",
+  "sujet": "Arrête de faire une dame. Ici, fais un poney 🐴 ♟️",
+  "reseaux": {
+   "youtube": "réserve 2026-10-23",
+   "tiktok": "publié"
+  },
+  "statut": "publié",
+  "test": null,
+  "variante": null,
+  "position_depart": "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b",
+  "position_finale": "rnb1k1nr/ppp2ppp/8/4P3/1BP4q/8/PP4PP/RN1QKBnR w",
+  "positions": [
+   "rn1qk1nr/ppp2ppp/8/4P3/1BP3b1/8/PP2K1PP/RN1Q1BR1 w",
+   "rn1qk1nr/ppp2ppp/8/4P3/1BP3b1/8/PP3KPP/RN1Q1BR1 b",
+   "rn1qk1nr/ppp2ppp/8/4P3/1BP5/8/PP3KPP/RN1b1BR1 w",
+   "rnb1k1nr/ppp2ppp/8/4P3/1BP4q/8/PP4PP/RN1QKBnR w",
+   "rnbqk1nr/ppp2ppp/8/4P3/1BP5/4p3/PP3PPP/RN1QKBNR b",
+   "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2K1PP/RN1Q1BR1 b",
+   "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2K1PP/RN1Q1BnR w",
+   "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP2KpPP/RN1Q1BNR b",
+   "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP3pPP/RN1QKBNR w",
+   "rnbqk1nr/ppp2ppp/8/4P3/1BP5/8/PP4PP/RN1QKBnR b",
+   "rnbqk1nr/ppp2ppp/8/4P3/1bP5/4p3/PP1B1PPP/RN1QKBNR w",
+   "rnbqk1nr/ppp2ppp/8/4P3/1bPp4/4P3/PP1B1PPP/RN1QKBNR b",
+   "rnbqk1nr/ppp2ppp/8/4P3/1bPp4/4P3/PP3PPP/RNBQKBNR w",
+   "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b",
+   "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w",
+   "rnbqkbnr/ppp2ppp/8/3pP3/2P5/8/PP2PPPP/RNBQKBNR b",
+   "rnbqkbnr/ppp2ppp/8/3pp3/2PP4/8/PP2PPPP/RNBQKBNR w",
+   "rnbqkbnr/ppp2ppp/8/4P3/2Pp4/4P3/PP3PPP/RNBQKBNR b",
+   "rnbqkbnr/ppp2ppp/8/4P3/2Pp4/8/PP2PPPP/RNBQKBNR w",
+   "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b",
+   "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w"
+  ],
+  "ligne_uci": "d2d4 d7d5 c2c4 e7e5 d4e5 d5d4 e2e3 f8b4 c1d2 d4e3 d2b4 e3f2 e1e2 f2g1n e2e1 d8h4"
+ },
+ {
+  "nom": "perso_legal",
+  "langue": "fr",
+  "concept": "perso_legal",
+  "sujet": "Donne ta dame au pigeon 🐦 Le mat de Légal : trois petites pièces suffisent. Tu aurais osé ?",
+  "reseaux": {
+   "tiktok": "publié 2026-10-22"
+  },
+  "statut": "publié",
+  "test": null,
+  "variante": null,
+  "position_depart": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P1b1/2N5/PPPP1PPP/R1BQK2R b",
+  "position_finale": "rn1q1bnr/ppp1kB1p/3p2p1/3NN3/4P3/8/PPPP1PPP/R1BbK2R b",
+  "positions": [
+   "rn1q1bnr/ppp1kB1p/3p2p1/3NN3/4P3/8/PPPP1PPP/R1BbK2R b",
+   "rn1q1bnr/ppp1kB1p/3p2p1/4N3/4P3/2N5/PPPP1PPP/R1BbK2R w",
+   "rn1qkbnr/ppp2B1p/3p2p1/4N3/4P3/2N5/PPPP1PPP/R1BbK2R b",
+   "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P1b1/2N5/PPPP1PPP/R1BQK2R b",
+   "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w",
+   "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w",
+   "rn1qkbnr/ppp2ppp/3p4/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R b",
+   "rn1qkbnr/ppp2ppp/3p4/4p3/2B1P1b1/5N2/PPPP1PPP/RNBQK2R w",
+   "rnbqkbnr/ppp2ppp/3p4/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b",
+   "rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w",
+   "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b",
+   "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w",
+   "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b",
+   "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 d7d6 f1c4 c8g4 b1c3 g7g6 f3e5 g4d1 c4f7 e8e7 c3d5"
+ },
+ {
+  "nom": "petrov",
+  "langue": "fr",
+  "concept": "petrov",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b",
+  "position_finale": "rnb1kb1r/ppppqppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R w",
+  "positions": [
+   "rnb1kb1r/ppppqppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R w",
+   "rnbqkb1r/pppp1ppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R b"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 g8f6 f3e5 f6e4 d1e2 d8e7"
+ },
+ {
+  "nom": "pigeon_en_1",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "Pigeon Trap of the Day 🐦 If he eats your candy, he's mated. Would you fall for it? Yes or no 👇",
+  "reseaux": {
+   "tiktok-en": "publié 2026-10-24"
+  },
+  "statut": "publié",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1b1kbnr/pppp1Npp/8/8/4q3/5n2/PPPPBP1P/RNBQKR2 w",
+  "position_finale": "r1b1kbnr/pppp1Npp/8/8/4q3/5n2/PPPPBP1P/RNBQKR2 w",
+  "positions": [
+   "r1b1kbnr/pppp1Npp/8/6q1/2BnP3/8/PPPP1PPP/RNBQK2R b",
+   "r1b1kbnr/pppp1Npp/8/8/2BnP3/8/PPPP1PqP/RNBQK2R w",
+   "r1b1kbnr/pppp1Npp/8/8/2BnP3/8/PPPP1PqP/RNBQKR2 b",
+   "r1b1kbnr/pppp1Npp/8/8/2Bnq3/8/PPPP1P1P/RNBQKR2 w",
+   "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b",
+   "r1b1kbnr/pppp1Npp/8/8/4q3/5n2/PPPPBP1P/RNBQKR2 w",
+   "r1b1kbnr/pppp1ppp/8/4N1q1/2BnP3/8/PPPP1PPP/RNBQK2R w",
+   "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b",
+   "r1bqkbnr/pppp1ppp/8/4N3/2BnP3/8/PPPP1PPP/RNBQK2R b",
+   "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 b8c6 f1c4 c6d4 f3e5 d8g5 e5f7 g5g2 h1f1 g2e4 c4e2 d4f3"
+ },
+ {
+  "nom": "pigeon_en_10",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "He eats a free pawn, you mate him in one: Italian Game trap 🐦",
+  "reseaux": {
+   "youtube": "publié 2026-10-28",
+   "tiktok-en": "publié 2026-10-28"
+  },
+  "statut": "publié",
+  "test": "T1-fin",
+  "variante": "B",
+  "position_depart": "rnb1k1nr/pppp1ppp/8/2b1N3/2B1P3/8/PPPP1qPP/RNBQK2R w",
+  "position_finale": "rnb1k1nr/pppp1ppp/8/2b1N3/2B1P3/8/PPPP1qPP/RNBQK2R w",
+  "positions": [
+   "rnb1k1nr/pppp1ppp/5q2/2b1N3/2B1P3/8/PPPP1PPP/RNBQK2R b",
+   "rnb1k1nr/pppp1ppp/5q2/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w",
+   "rnb1k1nr/pppp1ppp/8/2b1N3/2B1P3/8/PPPP1qPP/RNBQK2R w",
+   "rnbqk1nr/pppp1ppp/8/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b",
+   "rnbqk1nr/pppp1ppp/8/2b1p3/4P3/5N2/PPPP1PPP/RNBQKB1R w",
+   "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 f8c5 f1c4 d8f6 f3e5 f6f2"
+ },
+ {
+  "nom": "pigeon_en_11",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "Give your queen, win the game: Légal's mate trap ♟️",
+  "reseaux": {
+   "youtube": "publié 2026-10-29",
+   "tiktok-en": "publié 2026-10-29",
+   "facebook": "publié 2026-10-29",
+   "threads": "publié 2026-10-29"
+  },
+  "statut": "publié",
+  "test": "T11-série",
+  "variante": "B",
+  "position_depart": "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w",
+  "position_finale": "rn1q1bnr/ppp1kB1p/3p2p1/3NN3/4P3/8/PPPP1PPP/R1BbK2R b",
+  "positions": [
+   "rn1q1bnr/ppp1kB1p/3p2p1/3NN3/4P3/8/PPPP1PPP/R1BbK2R b",
+   "rn1q1bnr/ppp1kB1p/3p2p1/4N3/4P3/2N5/PPPP1PPP/R1BbK2R w",
+   "rn1qkbnr/ppp2B1p/3p2p1/4N3/4P3/2N5/PPPP1PPP/R1BbK2R b",
+   "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P1b1/2N5/PPPP1PPP/R1BQK2R b",
+   "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w",
+   "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 d7d6 f1c4 c8g4 b1c3 g7g6 f3e5 g4d1 c4f7 e8e7 c3d5"
+ },
+ {
+  "nom": "pigeon_en_12",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "Chess Trap: he eats your bishop, you mate him ♟️",
+  "reseaux": {
+   "youtube": "programmé 2026-10-29",
+   "tiktok-en": "publié 2026-10-29",
+   "facebook": "programmé 2026-10-29",
+   "threads": "programmé 2026-10-29"
+  },
+  "statut": "publié",
+  "test": "T11-série",
+  "variante": "A",
+  "position_depart": "r1b1k2r/ppppqppp/2n5/4n3/1bP2B2/P4N2/1P1NPPPP/R2QKB1R w",
+  "position_finale": "r1b1k2r/ppppqppp/2n5/8/1PP2B2/3n1N2/1P1NPPPP/R2QKB1R w",
+  "positions": [
+   "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/5N2/PP1NPPPP/R2QKB1R w",
+   "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b",
+   "r1b1k2r/ppppqppp/2n5/4n3/1PP2B2/5N2/1P1NPPPP/R2QKB1R b",
+   "r1b1k2r/ppppqppp/2n5/4n3/1bP2B2/P4N2/1P1NPPPP/R2QKB1R w",
+   "r1b1k2r/ppppqppp/2n5/8/1PP2B2/3n1N2/1P1NPPPP/R2QKB1R w",
+   "r1bqk2r/pppp1ppp/2n5/4P3/1bP2Bn1/5N2/PP1NPPPP/R2QKB1R b",
+   "r1bqk2r/pppp1ppp/2n5/4P3/1bP2Bn1/5N2/PP2PPPP/RN1QKB1R w",
+   "r1bqkb1r/pppp1ppp/2n5/4P3/2P2Bn1/5N2/PP2PPPP/RN1QKB1R b",
+   "rnbqkb1r/pppp1ppp/5n2/4P3/2P5/8/PP2PPPP/RNBQKBNR b",
+   "rnbqkb1r/pppp1ppp/5n2/4p3/2PP4/8/PP2PPPP/RNBQKBNR w",
+   "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b"
+  ],
+  "ligne_uci": "d2d4 g8f6 c2c4 e7e5 d4e5 f6g4 c1f4 b8c6 g1f3 f8b4 b1d2 d8e7 a2a3 g4e5 a3b4 e5d3"
+ },
+ {
+  "nom": "pigeon_en_2",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "Pigeon Trap of the Day 🐦 If he eats your pony, he's mated. Would you fall for it? Yes or no 👇",
+  "reseaux": {
+   "tiktok-en": "publié 2026-10-24"
+  },
+  "statut": "publié",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1b1kb1r/pppp1pp1/2n5/1B2p3/3PP3/5Pp1/PPP3Pq/RNBQNRK1 w",
+  "position_finale": "r1b1kb1r/pppp1pp1/2n5/1B2p3/3PP3/5Pp1/PPP3Pq/RNBQNRK1 w",
+  "positions": [
+   "r1b1kb1r/pppp1pp1/2n5/1B2p3/3PP2q/5Pp1/PPP3P1/RNBQNRK1 b",
+   "r1b1kb1r/pppp1pp1/2n5/1B2p3/3PP3/5Pp1/PPP3Pq/RNBQNRK1 w",
+   "r1b1kb1r/pppp1pp1/2n5/1B2p3/4P1pq/5P2/PPPP2P1/RNBQNRK1 b",
+   "r1b1kb1r/pppp1pp1/2n5/1B2p3/4P1pq/8/PPPP1PP1/RNBQNRK1 w",
+   "r1b1kb1r/pppp1pp1/2n5/1B2p3/4P2q/5Pp1/PPPP2P1/RNBQNRK1 w",
+   "r1bqkb1r/pppp1pp1/2n5/1B2p2p/4P1P1/5N2/PPPP1PP1/RNBQ1RK1 b",
+   "r1bqkb1r/pppp1pp1/2n5/1B2p2p/4P1n1/5N1P/PPPP1PP1/RNBQ1RK1 w",
+   "r1bqkb1r/pppp1pp1/2n5/1B2p3/4P1p1/5N2/PPPP1PP1/RNBQ1RK1 w",
+   "r1bqkb1r/pppp1pp1/2n5/1B2p3/4P1p1/8/PPPP1PP1/RNBQNRK1 b",
+   "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 b",
+   "r1bqkb1r/pppp1ppp/2n5/1B2p3/4P1n1/5N1P/PPPP1PP1/RNBQ1RK1 b",
+   "r1bqkb1r/pppp1ppp/2n5/1B2p3/4P1n1/5N2/PPPP1PPP/RNBQ1RK1 w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6g4 h2h3 h7h5 h3g4 h5g4 f3e1 d8h4 f2f3 g4g3 d2d4 h4h2"
+ },
+ {
+  "nom": "pigeon_en_3",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "Pigeon Trap of the Day 🐦 If he plays this pony, you mate him. Would you fall for it? A or B 👇",
+  "reseaux": {
+   "tiktok-en": "publié 2026-10-25"
+  },
+  "statut": "publié",
+  "test": "T7-langue",
+  "variante": "en",
+  "position_depart": "r1bqkb1r/pp1npppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w",
+  "position_finale": "r1bqkb1r/pp1npppp/2pN1n2/8/3P4/8/PPP1QPPP/R1B1KBNR b",
+  "positions": [
+   "r1bqkb1r/pp1npppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w",
+   "r1bqkb1r/pp1npppp/2pN1n2/8/3P4/8/PPP1QPPP/R1B1KBNR b",
+   "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP1QPPP/R1B1KBNR b",
+   "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w",
+   "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b",
+   "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b",
+   "rnbqkbnr/pp2pppp/2p5/8/3Pp3/2N5/PPP2PPP/R1BQKBNR w"
+  ],
+  "ligne_uci": "e2e4 c7c6 d2d4 d7d5 b1c3 d5e4 c3e4 b8d7 d1e2 g8f6 e4d6"
+ },
+ {
+  "nom": "pigeon_en_4",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "Pigeon Trap of the Day 🐦 If he eats your bishop, you mate him in five. Follow for the next trap 👉",
+  "reseaux": {
+   "tiktok-en": "publié 2026-10-25"
+  },
+  "statut": "publié",
+  "test": "T7-langue",
+  "variante": "en",
+  "position_depart": "rnbqkbnr/ppppp3/7p/5pp1/3P3B/4P3/PPP2PPP/RN1QKBNR b",
+  "position_finale": "rnbqkbnr/ppppp3/7p/5p1Q/3P3p/4P3/PPP2PPP/RN2KBNR b",
+  "positions": [
+   "rnbqkbnr/ppppp1p1/7p/5p2/3P3B/8/PPP1PPPP/RN1QKBNR b",
+   "rnbqkbnr/ppppp1p1/7p/5pB1/3P4/8/PPP1PPPP/RN1QKBNR w",
+   "rnbqkbnr/ppppp1pp/8/5p2/3P4/8/PPP1PPPP/RNBQKBNR w",
+   "rnbqkbnr/ppppp1pp/8/5pB1/3P4/8/PPP1PPPP/RN1QKBNR b",
+   "rnbqkbnr/ppppp3/7p/5p1Q/3P3p/4P3/PPP2PPP/RN2KBNR b",
+   "rnbqkbnr/ppppp3/7p/5p2/3P3p/4P3/PPP2PPP/RN1QKBNR w",
+   "rnbqkbnr/ppppp3/7p/5pp1/3P3B/4P3/PPP2PPP/RN1QKBNR b",
+   "rnbqkbnr/ppppp3/7p/5pp1/3P3B/8/PPP1PPPP/RN1QKBNR w"
+  ],
+  "ligne_uci": "d2d4 f7f5 c1g5 h7h6 g5h4 g7g5 e2e3 g5h4 d1h5"
+ },
+ {
+  "nom": "pigeon_en_5",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "Pigeon Trap of the Day 🐦 If he plays this bishop, your queen threatens mate. Would you fall for it? A or B 👇",
+  "reseaux": {
+   "tiktok-en": "publié 2026-10-26"
+  },
+  "statut": "publié",
+  "test": "T7-langue",
+  "variante": "en",
+  "position_depart": "r1bqk1nr/pppnbppp/8/3Qp3/2B1P3/5N2/PPP2PPP/RNB1K2R b",
+  "position_finale": "r1bqk2r/pppnbQ1p/7p/4p3/2B1P3/5N2/PPP2PPP/RN2K2R b",
+  "positions": [
+   "r1bqk1nr/pppnbppp/3p4/4P3/2B1P3/5N2/PPP2PPP/RNBQK2R b",
+   "r1bqk1nr/pppnbppp/3p4/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R w",
+   "r1bqk1nr/pppnbppp/8/3Qp3/2B1P3/5N2/PPP2PPP/RNB1K2R b",
+   "r1bqk1nr/pppnbppp/8/4p3/2B1P3/5N2/PPP2PPP/RNBQK2R w",
+   "r1bqk2r/pppnbQ1p/7p/4p3/2B1P3/5N2/PPP2PPP/RN2K2R b",
+   "r1bqk2r/pppnbp1p/7p/3Qp3/2B1P3/5N2/PPP2PPP/RN2K2R w",
+   "r1bqk2r/pppnbppp/7B/3Qp3/2B1P3/5N2/PPP2PPP/RN2K2R b",
+   "r1bqk2r/pppnbppp/7n/3Qp3/2B1P3/5N2/PPP2PPP/RNB1K2R w",
+   "r1bqkbnr/pppn1ppp/3p4/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R b"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 d7d6 d2d4 b8d7 f1c4 f8e7 d4e5 d6e5 d1d5 g8h6 c1h6 g7h6 d5f7"
+ },
+ {
+  "nom": "pigeon_en_6",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "Pigeon Trap of the Day 🐦 Give your queen to the pigeon: he's mated. Follow for the next trap 👉",
+  "reseaux": {
+   "tiktok-en": "publié 2026-10-26"
+  },
+  "statut": "publié",
+  "test": "T7-langue",
+  "variante": "en",
+  "position_depart": "2k1rb1r/ppp3pp/2n5/3B1b2/5P2/2q1BQ2/PP1N1P1P/2KR3R w",
+  "position_finale": "2k1r2r/ppp3pp/2n5/3B1b2/5P2/b1P1BQ2/P2N1P1P/2KR3R w",
+  "positions": [
+   "2k1r2r/ppp3pp/2n5/3B1b2/5P2/b1P1BQ2/P2N1P1P/2KR3R w",
+   "2k1rb1r/ppp3pp/2n2q2/3B1b2/5P2/2P1BQ2/PP1N1P1P/2KR3R b",
+   "2k1rb1r/ppp3pp/2n2q2/3p1b2/2B2P2/2P1BQ2/PP1N1P1P/2KR3R w",
+   "2k1rb1r/ppp3pp/2n5/3B1b2/5P2/2P1BQ2/P2N1P1P/2KR3R b",
+   "2k1rb1r/ppp3pp/2n5/3B1b2/5P2/2q1BQ2/PP1N1P1P/2KR3R w",
+   "2k1rb1r/ppp3pp/2np1q2/5b2/2B2P2/2P1BQ2/PP1N1P1P/2KR3R b",
+   "2k1rb1r/ppp3pp/2np1q2/5b2/2B2P2/2P1BQ2/PP1N1P1P/R3K2R w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 d7d6 c2c3 f7f5 f1c4 g8f6 d2d4 f5e4 d4e5 e4f3 e5f6 d8f6 g2f3 b8c6 f3f4 c8d7 c1e3 e8c8 b1d2 d8e8 d1f3 d7f5 e1c1 d6d5 c4d5 f6c3 b2c3 f8a3"
+ },
+ {
+  "nom": "pigeon_en_7",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "Owen's Defense trap: lose your queen, mate with a bishop 🐦",
+  "reseaux": {
+   "youtube": "publié 2026-10-27",
+   "tiktok-en": "publié 2026-10-27"
+  },
+  "statut": "publié",
+  "test": "T1-fin",
+  "variante": "B",
+  "position_depart": "rn1qkb1r/p1ppp2P/1p6/7n/3P4/3B4/PPP2PbP/RNB1K1NR w",
+  "position_finale": "rn1qkb1r/p1ppp2P/1p4B1/7n/3P4/8/PPP2PbP/RNB1K1NR b",
+  "positions": [
+   "rn1qkb1r/p1ppp2P/1p3n2/7Q/3P4/3B4/PPP2PbP/RNB1K1NR b",
+   "rn1qkb1r/p1ppp2P/1p4B1/7n/3P4/8/PPP2PbP/RNB1K1NR b",
+   "rn1qkb1r/p1ppp2P/1p6/7n/3P4/3B4/PPP2PbP/RNB1K1NR w",
+   "rn1qkb1r/p1ppp2p/1p3nP1/7Q/3P4/3B4/PPP2PbP/RNB1K1NR w",
+   "rn1qkbnr/p1ppp1pp/1p6/5P1Q/3P4/3B4/PPP2PbP/RNB1K1NR b",
+   "rn1qkbnr/p1ppp1pp/1p6/5P2/3P4/3B4/PPP2PbP/RNBQK1NR w",
+   "rn1qkbnr/p1ppp2p/1p4P1/7Q/3P4/3B4/PPP2PbP/RNB1K1NR b",
+   "rn1qkbnr/p1ppp2p/1p4p1/5P1Q/3P4/3B4/PPP2PbP/RNB1K1NR w",
+   "rn1qkbnr/pbppp1pp/1p6/5P2/3P4/3B4/PPP2PPP/RNBQK1NR b",
+   "rn1qkbnr/pbppp1pp/1p6/5p2/3PP3/3B4/PPP2PPP/RNBQK1NR w"
+  ],
+  "ligne_uci": "e2e4 b7b6 d2d4 c8b7 f1d3 f7f5 e4f5 b7g2 d1h5 g7g6 f5g6 g8f6 g6h7 f6h5 d3g6"
+ },
+ {
+  "nom": "pigeon_en_8",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "Traxler Counterattack trap: he eats your rook, you mate him 🐦",
+  "reseaux": {
+   "youtube": "publié 2026-10-27",
+   "tiktok-en": "publié 2026-10-27"
+  },
+  "statut": "publié",
+  "test": "T1-fin",
+  "variante": "A",
+  "position_depart": "r1b1k2r/pppp1Npp/2n5/4p3/2B1n2q/8/PPPP2PP/RNBQ2KR w",
+  "position_finale": "r1b1k2N/pppp2pp/2n5/4p3/2B1n3/8/PPPP1qPP/RNBQ2KR w",
+  "positions": [
+   "r1b1k2N/pppp2pp/2n5/4p3/2B1n2q/8/PPPP2PP/RNBQ2KR b",
+   "r1b1k2N/pppp2pp/2n5/4p3/2B1n3/8/PPPP1qPP/RNBQ2KR w",
+   "r1b1k2r/pppp1Npp/2n5/4p3/2B1n2q/8/PPPP2PP/RNBQ2KR w",
+   "r1bqk2r/pppp1Npp/2n2n2/2b1p3/2B1P3/8/PPPP1PPP/RNBQK2R b",
+   "r1bqk2r/pppp1Npp/2n2n2/4p3/2B1P3/8/PPPP1KPP/RNBQ3R b",
+   "r1bqk2r/pppp1Npp/2n2n2/4p3/2B1P3/8/PPPP1bPP/RNBQK2R w",
+   "r1bqk2r/pppp1Npp/2n5/4p3/2B1n3/8/PPPP1KPP/RNBQ3R w",
+   "r1bqk2r/pppp1Npp/2n5/4p3/2B1n3/8/PPPP2PP/RNBQ2KR b",
+   "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 f8c5 g5f7 c5f2 e1f2 f6e4 f2g1 d8h4 f7h8 h4f2"
+ },
+ {
+  "nom": "pigeon_en_9",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "He eats your pony, you checkmate him: Vienna Game trap 🐦",
+  "reseaux": {
+   "youtube": "publié 2026-10-28",
+   "tiktok-en": "publié 2026-10-28"
+  },
+  "statut": "publié",
+  "test": "T1-fin",
+  "variante": "A",
+  "position_depart": "rnbqkb1r/pppp1Qpp/8/4p3/2B5/2n5/PPPP1PPP/R1B1K1NR b",
+  "position_finale": "rnbqkb1r/pppp1Qpp/8/4p3/2B5/2n5/PPPP1PPP/R1B1K1NR b",
+  "positions": [
+   "rnbqkb1r/pppp1Qpp/8/4p3/2B5/2n5/PPPP1PPP/R1B1K1NR b",
+   "rnbqkb1r/pppp1ppp/5n2/4p3/2B1P3/2N5/PPPP1PPP/R1BQK1NR b",
+   "rnbqkb1r/pppp1ppp/8/4p2Q/2B1n3/2N5/PPPP1PPP/R1B1K1NR b",
+   "rnbqkb1r/pppp1ppp/8/4p2Q/2B5/2n5/PPPP1PPP/R1B1K1NR w",
+   "rnbqkb1r/pppp1ppp/8/4p3/2B1n3/2N5/PPPP1PPP/R1BQK1NR w"
+  ],
+  "ligne_uci": "e2e4 e7e5 b1c3 g8f6 f1c4 f6e4 d1h5 e4c3 h5f7"
+ },
+ {
+  "nom": "pigeon_jour_1",
+  "langue": "fr",
+  "concept": "pigeon_jour",
+  "sujet": "S'il mange ton poney, il est mat 🐦 Le pigeon du jour",
+  "reseaux": {
+   "youtube": "publié 2026-10-23",
+   "tiktok": "publié 2026-10-23"
+  },
+  "statut": "publié",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1b1kb1r/pppp1pp1/2n5/1B2p3/3PP3/5Pp1/PPP3Pq/RNBQNRK1 w",
+  "position_finale": "r1b1kb1r/pppp1pp1/2n5/1B2p3/3PP3/5Pp1/PPP3Pq/RNBQNRK1 w",
+  "positions": [
+   "r1b1kb1r/pppp1pp1/2n5/1B2p3/3PP2q/5Pp1/PPP3P1/RNBQNRK1 b",
+   "r1b1kb1r/pppp1pp1/2n5/1B2p3/3PP3/5Pp1/PPP3Pq/RNBQNRK1 w",
+   "r1b1kb1r/pppp1pp1/2n5/1B2p3/4P1pq/5P2/PPPP2P1/RNBQNRK1 b",
+   "r1b1kb1r/pppp1pp1/2n5/1B2p3/4P1pq/8/PPPP1PP1/RNBQNRK1 w",
+   "r1b1kb1r/pppp1pp1/2n5/1B2p3/4P2q/5Pp1/PPPP2P1/RNBQNRK1 w",
+   "r1bqkb1r/pppp1pp1/2n5/1B2p2p/4P1P1/5N2/PPPP1PP1/RNBQ1RK1 b",
+   "r1bqkb1r/pppp1pp1/2n5/1B2p2p/4P1n1/5N1P/PPPP1PP1/RNBQ1RK1 w",
+   "r1bqkb1r/pppp1pp1/2n5/1B2p3/4P1p1/5N2/PPPP1PP1/RNBQ1RK1 w",
+   "r1bqkb1r/pppp1pp1/2n5/1B2p3/4P1p1/8/PPPP1PP1/RNBQNRK1 b",
+   "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 b",
+   "r1bqkb1r/pppp1ppp/2n5/1B2p3/4P1n1/5N1P/PPPP1PP1/RNBQ1RK1 b",
+   "r1bqkb1r/pppp1ppp/2n5/1B2p3/4P1n1/5N2/PPPP1PPP/RNBQ1RK1 w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 e1g1 f6g4 h2h3 h7h5 h3g4 h5g4 f3e1 d8h4 f2f3 g4g3 d2d4 h4h2"
+ },
+ {
+  "nom": "pigeon_jour_10",
+  "langue": "fr",
+  "concept": "pigeon_jour",
+  "sujet": "Le piège Traxler : il mange ta tour, tu mates 🐦",
+  "reseaux": {
+   "youtube": "publié 2026-10-27",
+   "tiktok": "publié 2026-10-27",
+   "instagram": "publié 2026-10-27",
+   "facebook": "publié 2026-10-27",
+   "threads": "publié 2026-10-27"
+  },
+  "statut": "publié",
+  "test": "T1-fin",
+  "variante": "A",
+  "position_depart": "r1b1k2r/pppp1Npp/2n5/4p3/2B1n2q/8/PPPP2PP/RNBQ2KR w",
+  "position_finale": "r1b1k2N/pppp2pp/2n5/4p3/2B1n3/8/PPPP1qPP/RNBQ2KR w",
+  "positions": [
+   "r1b1k2N/pppp2pp/2n5/4p3/2B1n2q/8/PPPP2PP/RNBQ2KR b",
+   "r1b1k2N/pppp2pp/2n5/4p3/2B1n3/8/PPPP1qPP/RNBQ2KR w",
+   "r1b1k2r/pppp1Npp/2n5/4p3/2B1n2q/8/PPPP2PP/RNBQ2KR w",
+   "r1bqk2r/pppp1Npp/2n2n2/2b1p3/2B1P3/8/PPPP1PPP/RNBQK2R b",
+   "r1bqk2r/pppp1Npp/2n2n2/4p3/2B1P3/8/PPPP1KPP/RNBQ3R b",
+   "r1bqk2r/pppp1Npp/2n2n2/4p3/2B1P3/8/PPPP1bPP/RNBQK2R w",
+   "r1bqk2r/pppp1Npp/2n5/4p3/2B1n3/8/PPPP1KPP/RNBQ3R w",
+   "r1bqk2r/pppp1Npp/2n5/4p3/2B1n3/8/PPPP2PP/RNBQ2KR b",
+   "r1bqk2r/pppp1ppp/2n2n2/2b1p1N1/2B1P3/8/PPPP1PPP/RNBQK2R w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 f8c5 g5f7 c5f2 e1f2 f6e4 f2g1 d8h4 f7h8 h4f2"
+ },
+ {
+  "nom": "pigeon_jour_11",
+  "langue": "fr",
+  "concept": "pigeon_jour",
+  "sujet": "Il mange ton poney, tu lui mets mat : piège de la partie viennoise 🐦",
+  "reseaux": {
+   "youtube": "publié 2026-10-28",
+   "tiktok": "publié 2026-10-28",
+   "instagram": "publié 2026-10-28",
+   "facebook": "publié 2026-10-28",
+   "threads": "publié 2026-10-28"
+  },
+  "statut": "publié",
+  "test": "T1-fin",
+  "variante": "A",
+  "position_depart": "rnbqkb1r/pppp1Qpp/8/4p3/2B5/2n5/PPPP1PPP/R1B1K1NR b",
+  "position_finale": "rnbqkb1r/pppp1Qpp/8/4p3/2B5/2n5/PPPP1PPP/R1B1K1NR b",
+  "positions": [
+   "rnbqkb1r/pppp1Qpp/8/4p3/2B5/2n5/PPPP1PPP/R1B1K1NR b",
+   "rnbqkb1r/pppp1ppp/5n2/4p3/2B1P3/2N5/PPPP1PPP/R1BQK1NR b",
+   "rnbqkb1r/pppp1ppp/8/4p2Q/2B1n3/2N5/PPPP1PPP/R1B1K1NR b",
+   "rnbqkb1r/pppp1ppp/8/4p2Q/2B5/2n5/PPPP1PPP/R1B1K1NR w",
+   "rnbqkb1r/pppp1ppp/8/4p3/2B1n3/2N5/PPPP1PPP/R1BQK1NR w"
+  ],
+  "ligne_uci": "e2e4 e7e5 b1c3 g8f6 f1c4 f6e4 d1h5 e4c3 h5f7"
+ },
+ {
+  "nom": "pigeon_jour_12",
+  "langue": "fr",
+  "concept": "pigeon_jour",
+  "sujet": "Le pigeon du jour 🐦 Il mange un pion gratuit… mat en un coup. Suis le compte pour la suite !",
+  "reseaux": {
+   "tiktok": "publié 2026-10-28",
+   "instagram": "publié 2026-10-28",
+   "facebook": "publié 2026-10-28",
+   "threads": "publié 2026-10-28"
+  },
+  "statut": "publié",
+  "test": "T1-fin",
+  "variante": "B",
+  "position_depart": "rnb1k1nr/pppp1ppp/8/2b1N3/2B1P3/8/PPPP1qPP/RNBQK2R w",
+  "position_finale": "rnb1k1nr/pppp1ppp/8/2b1N3/2B1P3/8/PPPP1qPP/RNBQK2R w",
+  "positions": [
+   "rnb1k1nr/pppp1ppp/5q2/2b1N3/2B1P3/8/PPPP1PPP/RNBQK2R b",
+   "rnb1k1nr/pppp1ppp/5q2/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w",
+   "rnb1k1nr/pppp1ppp/8/2b1N3/2B1P3/8/PPPP1qPP/RNBQK2R w",
+   "rnbqk1nr/pppp1ppp/8/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b",
+   "rnbqk1nr/pppp1ppp/8/2b1p3/4P3/5N2/PPPP1PPP/RNBQKB1R w",
+   "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 f8c5 f1c4 d8f6 f3e5 f6f2"
+ },
+ {
+  "nom": "pigeon_jour_2",
+  "langue": "fr",
+  "concept": "pigeon_jour",
+  "sujet": "S'il mange ce bonbon, il est mat 🍬 Le pigeon du jour",
+  "reseaux": {
+   "youtube": "publié 2026-10-23",
+   "tiktok": "publié 2026-10-23"
+  },
+  "statut": "publié",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1b1kbnr/pppp1Npp/8/8/4q3/5n2/PPPPBP1P/RNBQKR2 w",
+  "position_finale": "r1b1kbnr/pppp1Npp/8/8/4q3/5n2/PPPPBP1P/RNBQKR2 w",
+  "positions": [
+   "r1b1kbnr/pppp1Npp/8/6q1/2BnP3/8/PPPP1PPP/RNBQK2R b",
+   "r1b1kbnr/pppp1Npp/8/8/2BnP3/8/PPPP1PqP/RNBQK2R w",
+   "r1b1kbnr/pppp1Npp/8/8/2BnP3/8/PPPP1PqP/RNBQKR2 b",
+   "r1b1kbnr/pppp1Npp/8/8/2Bnq3/8/PPPP1P1P/RNBQKR2 w",
+   "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b",
+   "r1b1kbnr/pppp1Npp/8/8/4q3/5n2/PPPPBP1P/RNBQKR2 w",
+   "r1b1kbnr/pppp1ppp/8/4N1q1/2BnP3/8/PPPP1PPP/RNBQK2R w",
+   "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b",
+   "r1bqkbnr/pppp1ppp/8/4N3/2BnP3/8/PPPP1PPP/RNBQK2R b",
+   "r1bqkbnr/pppp1ppp/8/4p3/2BnP3/5N2/PPPP1PPP/RNBQK2R w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 b8c6 f1c4 c6d4 f3e5 d8g5 e5f7 g5g2 h1f1 g2e4 c4e2 d4f3"
+ },
+ {
+  "nom": "pigeon_jour_3",
+  "langue": "fr",
+  "concept": "pigeon_jour",
+  "sujet": "Le piège de Légal : mat en 7 coups 🐦",
+  "reseaux": {
+   "youtube": "publié 2026-10-24",
+   "tiktok": "publié 2026-10-24",
+   "instagram": "publié 2026-10-24",
+   "facebook": "publié 2026-10-24",
+   "threads": "publié 2026-10-24"
+  },
+  "statut": "publié",
+  "test": "T1-fin",
+  "variante": "A",
+  "position_depart": "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w",
+  "position_finale": "rn1q1bnr/ppp1kB1p/3p2p1/3NN3/4P3/8/PPPP1PPP/R1BbK2R b",
+  "positions": [
+   "rn1q1bnr/ppp1kB1p/3p2p1/3NN3/4P3/8/PPPP1PPP/R1BbK2R b",
+   "rn1q1bnr/ppp1kB1p/3p2p1/4N3/4P3/2N5/PPPP1PPP/R1BbK2R w",
+   "rn1qkbnr/ppp2B1p/3p2p1/4N3/4P3/2N5/PPPP1PPP/R1BbK2R b",
+   "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P1b1/2N5/PPPP1PPP/R1BQK2R b",
+   "rn1qkbnr/ppp2p1p/3p2p1/4N3/2B1P3/2N5/PPPP1PPP/R1BbK2R w",
+   "rn1qkbnr/ppp2p1p/3p2p1/4p3/2B1P1b1/2N2N2/PPPP1PPP/R1BQK2R w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 d7d6 f1c4 c8g4 b1c3 g7g6 f3e5 g4d1 c4f7 e8e7 c3d5"
+ },
+ {
+  "nom": "pigeon_jour_4",
+  "langue": "fr",
+  "concept": "pigeon_jour",
+  "sujet": "Le piège Kieninger (gambit Budapest) : mat en 8 coups 🐦",
+  "reseaux": {
+   "youtube": "publié 2026-10-24",
+   "tiktok": "publié 2026-10-24",
+   "instagram": "publié 2026-10-24",
+   "facebook": "publié 2026-10-24",
+   "threads": "publié 2026-10-24"
+  },
+  "statut": "publié",
+  "test": "T1-fin",
+  "variante": "B",
+  "position_depart": "r1b1k2r/ppppqppp/2n5/4n3/1PP2B2/5N2/1P1NPPPP/R2QKB1R b",
+  "position_finale": "r1b1k2r/ppppqppp/2n5/8/1PP2B2/3n1N2/1P1NPPPP/R2QKB1R w",
+  "positions": [
+   "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/5N2/PP1NPPPP/R2QKB1R w",
+   "r1b1k2r/ppppqppp/2n5/4P3/1bP2Bn1/P4N2/1P1NPPPP/R2QKB1R b",
+   "r1b1k2r/ppppqppp/2n5/4n3/1PP2B2/5N2/1P1NPPPP/R2QKB1R b",
+   "r1b1k2r/ppppqppp/2n5/4n3/1bP2B2/P4N2/1P1NPPPP/R2QKB1R w",
+   "r1b1k2r/ppppqppp/2n5/8/1PP2B2/3n1N2/1P1NPPPP/R2QKB1R w",
+   "r1bqk2r/pppp1ppp/2n5/4P3/1bP2Bn1/5N2/PP1NPPPP/R2QKB1R b",
+   "r1bqk2r/pppp1ppp/2n5/4P3/1bP2Bn1/5N2/PP2PPPP/RN1QKB1R w",
+   "r1bqkb1r/pppp1ppp/2n5/4P3/2P2Bn1/5N2/PP2PPPP/RN1QKB1R b",
+   "r1bqkb1r/pppp1ppp/2n5/4P3/2P2Bn1/8/PP2PPPP/RN1QKBNR w",
+   "rnbqkb1r/pppp1ppp/5n2/4P3/2P5/8/PP2PPPP/RNBQKBNR b",
+   "rnbqkb1r/pppp1ppp/5n2/4p3/2PP4/8/PP2PPPP/RNBQKBNR w",
+   "rnbqkb1r/pppp1ppp/8/4P3/2P2Bn1/8/PP2PPPP/RN1QKBNR b",
+   "rnbqkb1r/pppp1ppp/8/4P3/2P3n1/8/PP2PPPP/RNBQKBNR w",
+   "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b"
+  ],
+  "ligne_uci": "d2d4 g8f6 c2c4 e7e5 d4e5 f6g4 c1f4 b8c6 g1f3 f8b4 b1d2 d8e7 a2a3 g4e5 a3b4 e5d3"
+ },
+ {
+  "nom": "pigeon_jour_5",
+  "langue": "fr",
+  "concept": "pigeon_jour",
+  "sujet": "Le piège du Caro-Kann : mat étouffé en 6 coups 🐦",
+  "reseaux": {
+   "youtube": "publié 2026-10-25",
+   "tiktok": "publié 2026-10-25",
+   "instagram": "publié 2026-10-25",
+   "facebook": "publié 2026-10-25",
+   "threads": "publié 2026-10-25"
+  },
+  "statut": "publié",
+  "test": "T1-fin",
+  "variante": "A",
+  "position_depart": "r1bqkb1r/pp1npppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w",
+  "position_finale": "r1bqkb1r/pp1npppp/2pN1n2/8/3P4/8/PPP1QPPP/R1B1KBNR b",
+  "positions": [
+   "r1bqkb1r/pp1npppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w",
+   "r1bqkb1r/pp1npppp/2pN1n2/8/3P4/8/PPP1QPPP/R1B1KBNR b",
+   "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP1QPPP/R1B1KBNR b",
+   "r1bqkbnr/pp1npppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR w",
+   "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b",
+   "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b",
+   "rnbqkbnr/pp2pppp/2p5/8/3Pp3/2N5/PPP2PPP/R1BQKBNR w"
+  ],
+  "ligne_uci": "e2e4 c7c6 d2d4 d7d5 b1c3 d5e4 c3e4 b8d7 d1e2 g8f6 e4d6"
+ },
+ {
+  "nom": "pigeon_jour_6",
+  "langue": "fr",
+  "concept": "pigeon_jour",
+  "sujet": "Le piège du Hollandais : mat en 5 coups 🐦",
+  "reseaux": {
+   "youtube": "publié 2026-10-25",
+   "tiktok": "publié 2026-10-25",
+   "instagram": "publié 2026-10-25",
+   "facebook": "publié 2026-10-25",
+   "threads": "publié 2026-10-25"
+  },
+  "statut": "publié",
+  "test": "T1-fin",
+  "variante": "B",
+  "position_depart": "rnbqkbnr/ppppp3/7p/5pp1/3P3B/4P3/PPP2PPP/RN1QKBNR b",
+  "position_finale": "rnbqkbnr/ppppp3/7p/5p1Q/3P3p/4P3/PPP2PPP/RN2KBNR b",
+  "positions": [
+   "rnbqkbnr/ppppp1p1/7p/5p2/3P3B/8/PPP1PPPP/RN1QKBNR b",
+   "rnbqkbnr/ppppp1p1/7p/5pB1/3P4/8/PPP1PPPP/RN1QKBNR w",
+   "rnbqkbnr/ppppp1pp/8/5p2/3P4/8/PPP1PPPP/RNBQKBNR w",
+   "rnbqkbnr/ppppp1pp/8/5pB1/3P4/8/PPP1PPPP/RN1QKBNR b",
+   "rnbqkbnr/ppppp3/7p/5p1Q/3P3p/4P3/PPP2PPP/RN2KBNR b",
+   "rnbqkbnr/ppppp3/7p/5p2/3P3p/4P3/PPP2PPP/RN1QKBNR w",
+   "rnbqkbnr/ppppp3/7p/5pp1/3P3B/4P3/PPP2PPP/RN1QKBNR b",
+   "rnbqkbnr/ppppp3/7p/5pp1/3P3B/8/PPP1PPPP/RN1QKBNR w"
+  ],
+  "ligne_uci": "d2d4 f7f5 c1g5 h7h6 g5h4 g7g5 e2e3 g5h4 d1h5"
+ },
+ {
+  "nom": "pigeon_jour_7",
+  "langue": "fr",
+  "concept": "pigeon_jour",
+  "sujet": "Le piège de la défense Philidor : mat en 8 coups 🐦",
+  "reseaux": {
+   "youtube": "publié 2026-10-26",
+   "tiktok": "publié 2026-10-26",
+   "instagram": "publié 2026-10-26",
+   "facebook": "publié 2026-10-26",
+   "threads": "publié 2026-10-26"
+  },
+  "statut": "publié",
+  "test": "T1-fin",
+  "variante": "A",
+  "position_depart": "r1bqk1nr/pppnbppp/8/3Qp3/2B1P3/5N2/PPP2PPP/RNB1K2R b",
+  "position_finale": "r1bqk2r/pppnbQ1p/7p/4p3/2B1P3/5N2/PPP2PPP/RN2K2R b",
+  "positions": [
+   "r1bqk1nr/pppnbppp/3p4/4P3/2B1P3/5N2/PPP2PPP/RNBQK2R b",
+   "r1bqk1nr/pppnbppp/3p4/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R w",
+   "r1bqk1nr/pppnbppp/8/3Qp3/2B1P3/5N2/PPP2PPP/RNB1K2R b",
+   "r1bqk1nr/pppnbppp/8/4p3/2B1P3/5N2/PPP2PPP/RNBQK2R w",
+   "r1bqk2r/pppnbQ1p/7p/4p3/2B1P3/5N2/PPP2PPP/RN2K2R b",
+   "r1bqk2r/pppnbp1p/7p/3Qp3/2B1P3/5N2/PPP2PPP/RN2K2R w",
+   "r1bqk2r/pppnbppp/7B/3Qp3/2B1P3/5N2/PPP2PPP/RN2K2R b",
+   "r1bqk2r/pppnbppp/7n/3Qp3/2B1P3/5N2/PPP2PPP/RNB1K2R w",
+   "r1bqkbnr/pppn1ppp/3p4/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R b"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 d7d6 d2d4 b8d7 f1c4 f8e7 d4e5 d6e5 d1d5 g8h6 c1h6 g7h6 d5f7"
+ },
+ {
+  "nom": "pigeon_jour_8",
+  "langue": "fr",
+  "concept": "pigeon_jour",
+  "sujet": "Le mat de Boden : donne ta dame, il est mat 🐦",
+  "reseaux": {
+   "youtube": "publié 2026-10-26",
+   "tiktok": "publié 2026-10-26",
+   "instagram": "publié 2026-10-26",
+   "facebook": "publié 2026-10-26",
+   "threads": "publié 2026-10-26"
+  },
+  "statut": "publié",
+  "test": "T1-fin",
+  "variante": "B",
+  "position_depart": "2k1rb1r/ppp3pp/2n5/3B1b2/5P2/2q1BQ2/PP1N1P1P/2KR3R w",
+  "position_finale": "2k1r2r/ppp3pp/2n5/3B1b2/5P2/b1P1BQ2/P2N1P1P/2KR3R w",
+  "positions": [
+   "2k1r2r/ppp3pp/2n5/3B1b2/5P2/b1P1BQ2/P2N1P1P/2KR3R w",
+   "2k1rb1r/ppp3pp/2n2q2/3B1b2/5P2/2P1BQ2/PP1N1P1P/2KR3R b",
+   "2k1rb1r/ppp3pp/2n2q2/3p1b2/2B2P2/2P1BQ2/PP1N1P1P/2KR3R w",
+   "2k1rb1r/ppp3pp/2n5/3B1b2/5P2/2P1BQ2/P2N1P1P/2KR3R b",
+   "2k1rb1r/ppp3pp/2n5/3B1b2/5P2/2q1BQ2/PP1N1P1P/2KR3R w",
+   "2k1rb1r/ppp3pp/2np1q2/5b2/2B2P2/2P1BQ2/PP1N1P1P/2KR3R b",
+   "2k1rb1r/ppp3pp/2np1q2/5b2/2B2P2/2P1BQ2/PP1N1P1P/R3K2R w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 d7d6 c2c3 f7f5 f1c4 g8f6 d2d4 f5e4 d4e5 e4f3 e5f6 d8f6 g2f3 b8c6 f3f4 c8d7 c1e3 e8c8 b1d2 d8e8 d1f3 d7f5 e1c1 d6d5 c4d5 f6c3 b2c3 f8a3"
+ },
+ {
+  "nom": "pigeon_jour_9",
+  "langue": "fr",
+  "concept": "pigeon_jour",
+  "sujet": "Le piège de la défense Owen : ta dame tombe, ton fou fait mat 🐦",
+  "reseaux": {
+   "youtube": "publié 2026-10-27",
+   "tiktok": "publié 2026-10-27",
+   "instagram": "publié 2026-10-27",
+   "facebook": "publié 2026-10-27",
+   "threads": "publié 2026-10-27"
+  },
+  "statut": "publié",
+  "test": "T1-fin",
+  "variante": "B",
+  "position_depart": "rn1qkb1r/p1ppp2P/1p6/7n/3P4/3B4/PPP2PbP/RNB1K1NR w",
+  "position_finale": "rn1qkb1r/p1ppp2P/1p4B1/7n/3P4/8/PPP2PbP/RNB1K1NR b",
+  "positions": [
+   "rn1qkb1r/p1ppp2P/1p3n2/7Q/3P4/3B4/PPP2PbP/RNB1K1NR b",
+   "rn1qkb1r/p1ppp2P/1p4B1/7n/3P4/8/PPP2PbP/RNB1K1NR b",
+   "rn1qkb1r/p1ppp2P/1p6/7n/3P4/3B4/PPP2PbP/RNB1K1NR w",
+   "rn1qkb1r/p1ppp2p/1p3nP1/7Q/3P4/3B4/PPP2PbP/RNB1K1NR w",
+   "rn1qkbnr/p1ppp1pp/1p6/5P1Q/3P4/3B4/PPP2PbP/RNB1K1NR b",
+   "rn1qkbnr/p1ppp1pp/1p6/5P2/3P4/3B4/PPP2PbP/RNBQK1NR w",
+   "rn1qkbnr/p1ppp2p/1p4P1/7Q/3P4/3B4/PPP2PbP/RNB1K1NR b",
+   "rn1qkbnr/p1ppp2p/1p4p1/5P1Q/3P4/3B4/PPP2PbP/RNB1K1NR w",
+   "rn1qkbnr/pbppp1pp/1p6/5P2/3P4/3B4/PPP2PPP/RNBQK1NR b",
+   "rn1qkbnr/pbppp1pp/1p6/5p2/3PP3/3B4/PPP2PPP/RNBQK1NR w"
+  ],
+  "ligne_uci": "e2e4 b7b6 d2d4 c8b7 f1d3 f7f5 e4f5 b7g2 d1h5 g7g6 f5g6 g8f6 g6h7 f6h5 d3g6"
+ },
+ {
+  "nom": "quiz_legal_2",
+  "langue": "fr",
+  "concept": "quiz_legal",
+  "sujet": "Ton pion devient poney et fait mat. Légal ou pas ? 🐴",
+  "reseaux": {
+   "youtube": "publié 2026-10-23",
+   "tiktok": "publié 2026-10-23"
+  },
+  "statut": "publié",
+  "test": null,
+  "variante": null,
+  "position_depart": "6bq/5Ppk/6pp/8/8/8/8/2K5 w",
+  "position_finale": "5Nbq/6pk/6pp/8/8/8/8/2K5 b",
+  "positions": [
+   "5Nbq/6pk/6pp/8/8/8/8/2K5 b",
+   "6bq/5Ppk/6pp/8/8/8/8/2K5 w"
+  ],
+  "ligne_uci": "f7f8n"
+ },
+ {
+  "nom": "quiz_legal_3_court",
+  "langue": "fr",
+  "concept": "quiz_legal",
+  "sujet": "Mat en passant : légal ou pas ? (version courte)",
+  "reseaux": {
+   "youtube": "publié 2026-10-24",
+   "tiktok": "publié 2026-10-24",
+   "instagram": "publié 2026-10-24",
+   "facebook": "publié 2026-10-24",
+   "threads": "publié 2026-10-24"
+  },
+  "statut": "publié",
+  "test": "T6-durée",
+  "variante": "B",
+  "position_depart": "1Q6/1N2k3/8/3pPQ2/8/8/8/K7 w",
+  "position_finale": "1Q6/1N2k3/3P4/5Q2/8/8/8/K7 b",
+  "positions": [
+   "1Q6/1N2k3/3P4/5Q2/8/8/8/K7 b",
+   "1Q6/1N2k3/8/3pPQ2/8/8/8/K7 w"
+  ],
+  "ligne_uci": "e5d6"
+ },
+ {
+  "nom": "quiz_legal_3_long",
+  "langue": "fr",
+  "concept": "quiz_legal",
+  "sujet": "Mat en passant : légal ou pas ? 🤔",
+  "reseaux": {
+   "youtube": "publié 2026-10-24",
+   "tiktok": "publié 2026-10-24",
+   "instagram": "publié 2026-10-24",
+   "facebook": "publié 2026-10-24",
+   "threads": "publié 2026-10-24"
+  },
+  "statut": "publié",
+  "test": "T6-durée",
+  "variante": "A",
+  "position_depart": "1Q6/1N2k3/8/3pPQ2/8/8/8/K7 w",
+  "position_finale": "1Q6/1N2k3/8/3pPQ2/8/8/K7/8 b",
+  "positions": [
+   "1Q6/1N1pk3/8/4PQ2/8/8/8/K7 b",
+   "1Q6/1N2k3/3P4/5Q2/8/8/8/K7 b",
+   "1Q6/1N2k3/8/3pPQ2/8/8/8/K7 w",
+   "1Q6/1N2k3/8/3pPQ2/8/8/K7/8 b"
+  ],
+  "ligne_uci": "a1a2"
+ },
+ {
+  "nom": "quiz_legal_4_court",
+  "langue": "fr",
+  "concept": "quiz_legal",
+  "sujet": "Une tour clouée peut-elle faire mat ? (version courte) ♟️",
+  "reseaux": {
+   "youtube": "publié 2026-10-26",
+   "tiktok": "publié 2026-10-26",
+   "instagram": "publié 2026-10-26",
+   "facebook": "publié 2026-10-26",
+   "threads": "publié 2026-10-26"
+  },
+  "statut": "publié",
+  "test": "T6-durée",
+  "variante": "B",
+  "position_depart": "4r1k1/5ppp/8/8/8/8/4R3/4K3 w",
+  "position_finale": "4R1k1/5ppp/8/8/8/8/8/4K3 b",
+  "positions": [
+   "4R1k1/5ppp/8/8/8/8/8/4K3 b",
+   "4r1k1/5ppp/8/8/8/8/4R3/4K3 w"
+  ],
+  "ligne_uci": "e2e8"
+ },
+ {
+  "nom": "quiz_legal_4_long",
+  "langue": "fr",
+  "concept": "quiz_legal",
+  "sujet": "Une tour clouée peut-elle faire mat ? Légal ou pas ♟️",
+  "reseaux": {
+   "youtube": "publié 2026-10-26",
+   "tiktok": "publié 2026-10-26",
+   "instagram": "publié 2026-10-26",
+   "facebook": "publié 2026-10-26",
+   "threads": "publié 2026-10-26"
+  },
+  "statut": "publié",
+  "test": "T6-durée",
+  "variante": "A",
+  "position_depart": "4r1k1/5ppp/8/8/8/8/4R3/4K3 w",
+  "position_finale": "4R1k1/5ppp/8/8/8/8/8/4K3 b",
+  "positions": [
+   "4R1k1/5ppp/8/8/8/8/8/4K3 b",
+   "4r1k1/5ppp/8/8/8/8/4R3/4K3 w"
+  ],
+  "ligne_uci": "e2e8"
+ },
+ {
+  "nom": "quiz_legal_5_court",
+  "langue": "en",
+  "concept": "quiz_legal",
+  "sujet": "This capture is illegal (can you see why?) ♟️",
+  "reseaux": {
+   "youtube": "publié 2026-10-28",
+   "tiktok-en": "publié 2026-10-28"
+  },
+  "statut": "publié",
+  "test": "T6-durée",
+  "variante": "B",
+  "position_depart": "7k/8/8/KPp4r/8/8/8/8 w",
+  "position_finale": "7k/8/2P5/K6r/8/8/8/8 b",
+  "positions": [
+   "7k/2p5/8/KP5r/8/8/8/8 b",
+   "7k/8/2P5/K6r/8/8/8/8 b",
+   "7k/8/8/KPp4r/8/8/8/8 w"
+  ],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "quiz_legal_5_long",
+  "langue": "en",
+  "concept": "quiz_legal",
+  "sujet": "This capture is illegal. Can you see why? 🤔 Yes or no? 👇",
+  "reseaux": {
+   "tiktok-en": "publié 2026-10-28"
+  },
+  "statut": "publié",
+  "test": "T6-durée",
+  "variante": "A",
+  "position_depart": "7k/8/8/KPp4r/8/8/8/8 w",
+  "position_finale": "7k/8/8/KPp4r/8/8/8/8 w",
+  "positions": [
+   "7k/2p5/8/KP5r/8/8/8/8 b",
+   "7k/8/2P5/K6r/8/8/8/8 b",
+   "7k/8/8/KPp4r/8/8/8/8 w"
+  ],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "quiz_legal_6_en",
+  "langue": "en",
+  "concept": "quiz_legal",
+  "sujet": "Your king was in check. Can you still castle? ♟️",
+  "reseaux": {
+   "youtube": "programmé 2026-10-29",
+   "tiktok-en": "publié 2026-10-29",
+   "facebook": "programmé 2026-10-29",
+   "threads": "programmé 2026-10-29"
+  },
+  "statut": "publié",
+  "test": "aucun",
+  "variante": null,
+  "position_depart": "rnb1kbnr/ppp1pppp/8/3q4/8/2N5/PPPP1PPP/R1BQKBNR b",
+  "position_finale": "rnb1kb1r/ppp1pppp/5n2/q7/8/2N2N2/PPPPBPPP/R1BQ1RK1 b",
+  "positions": [
+   "rnb1kb1r/ppp1pppp/5n2/4q3/8/2N2N2/PPPPBPPP/R1BQK2R b",
+   "rnb1kb1r/ppp1pppp/5n2/4q3/8/2N5/PPPPBPPP/R1BQK1NR w",
+   "rnb1kb1r/ppp1pppp/5n2/q7/8/2N2N2/PPPPBPPP/R1BQ1RK1 b",
+   "rnb1kb1r/ppp1pppp/5n2/q7/8/2N2N2/PPPPBPPP/R1BQK2R w",
+   "rnb1kbnr/ppp1pppp/8/3q4/8/2N5/PPPP1PPP/R1BQKBNR b",
+   "rnb1kbnr/ppp1pppp/8/4q3/8/2N5/PPPP1PPP/R1BQKBNR w",
+   "rnb1kbnr/ppp1pppp/8/4q3/8/2N5/PPPPBPPP/R1BQK1NR b"
+  ],
+  "ligne_uci": "e2e4 d7d5 e4d5 d8d5 b1c3 d5e5 f1e2 g8f6 g1f3 e5a5 e1g1"
+ },
+ {
+  "nom": "quiz_legal_6_fr",
+  "langue": "fr",
+  "concept": "quiz_legal",
+  "sujet": "Ton roi a pris un échec. Tu peux encore roquer ? 🤔 Légal ?",
+  "reseaux": {
+   "tiktok": "publié 2026-10-29",
+   "instagram": "programmé 2026-10-29"
+  },
+  "statut": "publié",
+  "test": "T13-fin-quiz",
+  "variante": "B",
+  "position_depart": "rnb1kbnr/ppp1pppp/8/3q4/8/2N5/PPPP1PPP/R1BQKBNR b",
+  "position_finale": "rnb1kb1r/ppp1pppp/5n2/q7/8/2N2N2/PPPPBPPP/R1BQ1RK1 b",
+  "positions": [
+   "rnb1kb1r/ppp1pppp/5n2/4q3/8/2N2N2/PPPPBPPP/R1BQK2R b",
+   "rnb1kb1r/ppp1pppp/5n2/4q3/8/2N5/PPPPBPPP/R1BQK1NR w",
+   "rnb1kb1r/ppp1pppp/5n2/q7/8/2N2N2/PPPPBPPP/R1BQ1RK1 b",
+   "rnb1kb1r/ppp1pppp/5n2/q7/8/2N2N2/PPPPBPPP/R1BQK2R w",
+   "rnb1kbnr/ppp1pppp/8/3q4/8/2N5/PPPP1PPP/R1BQKBNR b",
+   "rnb1kbnr/ppp1pppp/8/4q3/8/2N5/PPPP1PPP/R1BQKBNR w",
+   "rnb1kbnr/ppp1pppp/8/4q3/8/2N5/PPPPBPPP/R1BQK1NR b"
+  ],
+  "ligne_uci": "e2e4 d7d5 e4d5 d8d5 b1c3 d5e5 f1e2 g8f6 g1f3 e5a5 e1g1"
+ },
+ {
+  "nom": "quiz_legal_7_en",
+  "langue": "en",
+  "concept": "quiz_legal",
+  "sujet": "Can your king take this pawn? (pinned bishop) ♟️",
+  "reseaux": {
+   "youtube": "programmé 2026-10-29",
+   "tiktok-en": "publié 2026-10-29",
+   "facebook": "programmé 2026-10-29",
+   "threads": "programmé 2026-10-29"
+  },
+  "statut": "publié",
+  "test": "aucun",
+  "variante": null,
+  "position_depart": "5k2/6pp/8/5b2/8/3pK3/6PP/5R2 w",
+  "position_finale": "5k2/6pp/8/5R2/8/3pK3/6PP/8 b",
+  "positions": [
+   "5k2/6pp/8/5R2/8/3pK3/6PP/8 b",
+   "5k2/6pp/8/5b2/8/3pK3/6PP/5R2 w"
+  ],
+  "ligne_uci": "f1f5"
+ },
+ {
+  "nom": "quiz_legal_7_fr",
+  "langue": "fr",
+  "concept": "quiz_legal",
+  "sujet": "Ton roi peut manger ce pion ? 🤔 Oui ou non ?",
+  "reseaux": {
+   "tiktok": "publié 2026-10-29",
+   "instagram": "programmé 2026-10-29"
+  },
+  "statut": "publié",
+  "test": "T13-fin-quiz",
+  "variante": "A",
+  "position_depart": "5k2/6pp/8/5b2/8/3pK3/6PP/5R2 w",
+  "position_finale": "5k2/6pp/8/5R2/8/3pK3/6PP/8 b",
+  "positions": [
+   "5k2/6pp/8/5R2/8/3pK3/6PP/8 b",
+   "5k2/6pp/8/5b2/8/3pK3/6PP/5R2 w"
+  ],
+  "ligne_uci": "f1f5"
+ },
+ {
+  "nom": "rafale1",
+  "langue": "fr",
+  "concept": "rafale1",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "6k1/5ppp/8/8/8/8/5PPP/3R2K1 w",
+  "position_finale": "6k1/8/8/8/8/8/5PPP/3r2K1 w",
+  "positions": [
+   "3R2k1/5ppp/8/8/8/8/5PPP/6K1 b",
+   "3r2k1/8/8/8/8/8/5PPP/6K1 b",
+   "6k1/5ppp/8/8/8/8/5PPP/3R2K1 w",
+   "6k1/8/8/8/8/8/5PPP/3r2K1 w",
+   "6rk/5Npp/8/8/8/8/6PP/6K1 b",
+   "6rk/6pp/8/6N1/8/8/6PP/6K1 w",
+   "7k/6Q1/5K2/8/8/8/8/8 b",
+   "7k/8/5K2/8/8/8/8/6Q1 w",
+   "r1bqkb1r/pppp1Qpp/2n2n2/4p3/2B1P3/8/PPPP1PPP/RNB1K1NR b",
+   "r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w"
+  ],
+  "ligne_uci": "d8d1"
+ },
+ {
+  "nom": "rafale2",
+  "langue": "fr",
+  "concept": "rafale2",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "rn1q1bnr/ppp1kB1p/3p2p1/4N3/4P3/2N5/PPPP1PPP/R1BbK2R w",
+  "position_finale": "1n1Rkb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2K5 b",
+  "positions": [
+   "1n1Rkb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2K5 b",
+   "1n2kb1r/p4ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 w",
+   "r1b1k2r/ppppqppp/2n5/4n3/1PP2B2/5N2/1P1NPPPP/R2QKB1R b",
+   "r1b1k2r/ppppqppp/2n5/8/1PP2B2/3n1N2/1P1NPPPP/R2QKB1R w",
+   "r1b1kb1r/pp1p1ppp/4p3/8/2BNP1n1/2N4P/PP2QPPq/R1B2RK1 w",
+   "r1b1kb1r/ppqp1ppp/4p3/8/2BNP1n1/2N4P/PP2QPP1/R1B2RK1 b",
+   "r1bqkb1r/pp1npppp/2p2n2/8/3PN3/8/PPP1QPPP/R1B1KBNR w",
+   "r1bqkb1r/pp1npppp/2pN1n2/8/3P4/8/PPP1QPPP/R1B1KBNR b",
+   "rn1q1bnr/ppp1kB1p/3p2p1/3NN3/4P3/8/PPPP1PPP/R1BbK2R b",
+   "rn1q1bnr/ppp1kB1p/3p2p1/4N3/4P3/2N5/PPPP1PPP/R1BbK2R w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 d7d6 d2d4 c8g4 d4e5 g4f3 d1f3 d6e5 f1c4 g8f6 f3b3 d8e7 b1c3 c7c6 c1g5 b7b5 c3b5 c6b5 c4b5 b8d7 e1c1 a8d8 d1d7 d8d7 h1d1 e7e6 b5d7 f6d7 b3b8 d7b8 d1d8"
+ },
+ {
+  "nom": "rafale3",
+  "langue": "fr",
+  "concept": "rafale3",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1b1k1nr/pppp1ppp/2n5/4P3/8/2Q2N2/PqP1PPPP/RN2KB1R b",
+  "position_finale": "rnbB1b1r/ppk2ppp/2p5/4q3/4n3/8/PPP2PPP/2KR1BNR b",
+  "positions": [
+   "r1b1k1nr/pppp1ppp/2n5/4P3/8/2Q2N2/P1P1PPPP/RNq1KB1R w",
+   "r1b1k1nr/pppp1ppp/2n5/4P3/8/2Q2N2/PqP1PPPP/RN2KB1R b",
+   "r1b1kbnr/pppp1Npp/8/8/3nq3/8/PPPPBP1P/RNBQKR2 b",
+   "r1b1kbnr/pppp1Npp/8/8/4q3/5n2/PPPPBP1P/RNBQKR2 w",
+   "r1bBk2r/ppp2ppp/2p5/8/4n3/3P4/PPP1KbPP/RN1Q1B1R b",
+   "r2Bk2r/ppp2ppp/2p5/8/4n1b1/3P4/PPP1KbPP/RN1Q1B1R w",
+   "rnb2b1r/ppk2ppp/2p5/4q1B1/4n3/8/PPP2PPP/2KR1BNR w",
+   "rnbB1b1r/ppk2ppp/2p5/4q3/4n3/8/PPP2PPP/2KR1BNR b"
+  ],
+  "ligne_uci": "e2e4 c7c6 d2d4 d7d5 b1c3 d5e4 c3e4 g8f6 d1d3 e7e5 d4e5 d8a5 c1d2 a5e5 e1c1 f6e4 d3d8 e8d8 d2g5 d8c7 g5d8"
+ },
+ {
+  "nom": "reti",
+  "langue": "fr",
+  "concept": "reti",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": null,
+  "position_finale": null,
+  "positions": [],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "rois",
+  "langue": "fr",
+  "concept": "rois",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/8/4k3/8/4K3/8/8/8 w",
+  "position_finale": "8/8/4k3/8/3K4/8/8/8 b",
+  "positions": [
+   "8/8/4k3/8/3K4/8/8/8 b",
+   "8/8/4k3/8/4K3/8/8/8 w"
+  ],
+  "ligne_uci": "e4d4"
+ },
+ {
+  "nom": "tour_attaquee",
+  "langue": "fr",
+  "concept": "tour_attaquee",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1bqk2r/ppppbpp1/2n2n2/4p3/2B1P3/5N2/PPPP1PP1/RNBQK2R w",
+  "position_finale": "r1bqk2r/ppppbpp1/2n2n2/4p3/2B1P3/5N2/PPPP1PP1/RNBQ1RK1 b",
+  "positions": [
+   "r1bqk2r/ppppbpp1/2n2n2/4p3/2B1P3/5N2/PPPP1PP1/RNBQ1RK1 b",
+   "r1bqk2r/ppppbpp1/2n2n2/4p3/2B1P3/5N2/PPPP1PP1/RNBQK2R w"
+  ],
+  "ligne_uci": "e1g1"
+ },
+ {
+  "nom": "v_boden",
+  "langue": "fr",
+  "concept": "v_boden",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "2k1rb1r/ppp3pp/2np1q2/5b2/2B2P2/2P1BQ2/PP1N1P1P/R3K2R w",
+  "position_finale": "2k1r2r/ppp3pp/2n5/3B1b2/5P2/b1P1BQ2/P2N1P1P/2KR3R w",
+  "positions": [
+   "2k1r2r/ppp3pp/2n5/3B1b2/5P2/b1P1BQ2/P2N1P1P/2KR3R w",
+   "2k1rb1r/ppp3pp/2n2q2/3B1b2/5P2/2P1BQ2/PP1N1P1P/2KR3R b",
+   "2k1rb1r/ppp3pp/2n2q2/3p1b2/2B2P2/2P1BQ2/PP1N1P1P/2KR3R w",
+   "2k1rb1r/ppp3pp/2n5/3B1b2/5P2/2P1BQ2/P2N1P1P/2KR3R b",
+   "2k1rb1r/ppp3pp/2n5/3B1b2/5P2/2q1BQ2/PP1N1P1P/2KR3R w",
+   "2k1rb1r/ppp3pp/2np1q2/5b2/2B2P2/2P1BQ2/PP1N1P1P/2KR3R b",
+   "2k1rb1r/ppp3pp/2np1q2/5b2/2B2P2/2P1BQ2/PP1N1P1P/R3K2R w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 d7d6 c2c3 f7f5 f1c4 g8f6 d2d4 f5e4 d4e5 e4f3 e5f6 d8f6 g2f3 b8c6 f3f4 c8d7 c1e3 e8c8 b1d2 d8e8 d1f3 d7f5 e1c1 d6d5 c4d5 f6c3 b2c3 f8a3"
+ },
+ {
+  "nom": "v_bongcloud",
+  "langue": "fr",
+  "concept": "v_bongcloud",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": null,
+  "position_finale": null,
+  "positions": [],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "v_englund",
+  "langue": "en",
+  "concept": "v_englund",
+  "sujet": "Le gambit Englund : mat en c1 si tu joues le mauvais coup ♟️",
+  "reseaux": {
+   "youtube": "publié"
+  },
+  "statut": "publié",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1b1kbnr/pppp1ppp/2n5/4P3/8/5N2/PqPBPPPP/RN1QKB1R w",
+  "position_finale": "r1b1kbnr/pppp1ppp/2n5/4P3/8/2N2N2/PqPBPPPP/R2QKB1R b",
+  "positions": [
+   "r1b1kbnr/pppp1ppp/2n5/4P3/8/2N2N2/PqPBPPPP/R2QKB1R b",
+   "r1b1kbnr/pppp1ppp/2n5/4P3/8/5N2/PqPBPPPP/RN1QKB1R w"
+  ],
+  "ligne_uci": "d2d4 e7e5 d4e5 b8c6 g1f3 d8e7 c1f4 e7b4 f4d2 b4b2 b1c3"
+ },
+ {
+  "nom": "v_etouffee",
+  "langue": "fr",
+  "concept": "v_etouffee",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r3r2k/pp4pp/8/6N1/2Q5/q7/P4PPP/6K1 w",
+  "position_finale": "r5rk/pp3Npp/8/8/8/q7/P4PPP/6K1 b",
+  "positions": [
+   "r3r1Qk/pp4pp/7N/8/8/q7/P4PPP/6K1 b",
+   "r3r1k1/pp3Npp/8/8/2Q5/q7/P4PPP/6K1 w",
+   "r3r1k1/pp4pp/7N/8/2Q5/q7/P4PPP/6K1 b",
+   "r3r2k/pp3Npp/8/8/2Q5/q7/P4PPP/6K1 b",
+   "r3r2k/pp4pp/7N/8/2Q5/q7/P4PPP/6K1 w",
+   "r3r2k/pp4pp/8/6N1/2Q5/q7/P4PPP/6K1 w",
+   "r5rk/pp3Npp/8/8/8/q7/P4PPP/6K1 b",
+   "r5rk/pp4pp/7N/8/8/q7/P4PPP/6K1 w"
+  ],
+  "ligne_uci": "g5f7 h8g8 f7h6 g8h8 c4g8 e8g8 h6f7"
+ },
+ {
+  "nom": "v_fischer",
+  "langue": "fr",
+  "concept": "v_fischer",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r3r1k1/pp3pbp/1qp3p1/2B5/2BP2b1/Q1n2N2/P4PPP/3R1K1R b",
+  "position_finale": "1Q6/5pk1/2p3p1/1p2N2p/1b5P/1bn5/2r3P1/2K5 w",
+  "positions": [
+   "1Q6/5pk1/2p3p1/1p2N2p/1b5P/1bn5/2r3P1/2K5 w",
+   "1Q6/5pk1/2p3p1/1p2N2p/1b5P/1bn5/r5P1/2K5 b",
+   "r3r1k1/1p3pbp/1pp3p1/8/2b5/Q1n2N2/P4PPP/3R2KR w",
+   "r3r1k1/pp3pbp/1Bp1b1p1/8/2BP4/Q1n2N2/P4PPP/3R1K1R b",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2b5/Q1n2N2/P4PPP/3R1K1R w",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2b5/Q1n2N2/P4PPP/3R2KR b",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2b5/Q4N2/P3nPPP/3R1K1R b",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2b5/Q4N2/P3nPPP/3R2KR w",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q1n2N2/P4PPP/3R1K1R w",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q1n2N2/P4PPP/3R2KR b",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q4N2/P3nPPP/3R1K1R b",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2bP4/Q4N2/P3nPPP/3R2KR w",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2bn4/Q4N2/P4PPP/3R1K1R w",
+   "r3r1k1/pp3pbp/1Bp3p1/8/2bn4/Q4N2/P4PPP/3R2KR b",
+   "r3r1k1/pp3pbp/1qp1b1p1/2B5/2BP4/Q1n2N2/P4PPP/3R1K1R w",
+   "r3r1k1/pp3pbp/1qp3p1/2B5/2BP2b1/Q1n2N2/P4PPP/3R1K1R b"
+  ],
+  "ligne_uci": "g1f3 g8f6 c2c4 g7g6 b1c3 f8g7 d2d4 e8g8 c1f4 d7d5 d1b3 d5c4 b3c4 c7c6 e2e4 b8d7 a1d1 d7b6 c4c5 c8g4 f4g5 b6a4 c5a3 a4c3 b2c3 f6e4 g5e7 d8b6 f1c4 e4c3 e7c5 f8e8 e1f1 g4e6 c5b6 e6c4 f1g1 c3e2 g1f1 e2d4 f1g1 d4e2 g1f1 e2c3 f1g1 a7b6 a3b4 a8a4 b4b6 c3d1 h2h3 a4a2 g1h2 d1f2 h1e1 e8e1 b6d8 g7f8 f3e1 c4d5 e1f3 f2e4 d8b8 b7b5 h3h4 h7h5 f3e5 g8g7 h2g1 f8c5 g1f1 e4g3 f1e1 c5b4 e1d1 d5b3 d1c1 g3e2 c1b1 e2c3 b1c1 a2c2"
+ },
+ {
+  "nom": "v_foiefrit",
+  "langue": "fr",
+  "concept": "v_foiefrit",
+  "sujet": "Tu sacrifies ton cavalier… et le roi noir est perdu : le foie frit ♟️",
+  "reseaux": {
+   "youtube": "publié 2026-10-22"
+  },
+  "statut": "publié",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1bqkb1r/ppp2ppp/2n2n2/3Pp1N1/2B5/8/PPPP1PPP/RNBQK2R b",
+  "position_finale": "r1bqkb1r/ppp2ppp/5n2/n2Pp1N1/2B5/8/PPPP1PPP/RNBQK2R w",
+  "positions": [
+   "r1bqkb1r/ppp2ppp/2n2n2/3Pp1N1/2B5/8/PPPP1PPP/RNBQK2R b",
+   "r1bqkb1r/ppp2ppp/5n2/n2Pp1N1/2B5/8/PPPP1PPP/RNBQK2R w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 b8c6 f1c4 g8f6 f3g5 d7d5 e4d5 c6a5"
+ },
+ {
+  "nom": "v_francaise",
+  "langue": "fr",
+  "concept": "v_francaise",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1b1kbnr/pp3ppp/1qn1p3/3pP3/3P4/3B1N2/PP3PPP/RNBQK2R b",
+  "position_finale": "r3kbnr/pp1b1ppp/1qn1p3/3pP3/3P4/3B1N2/PP3PPP/RNBQK2R w",
+  "positions": [
+   "r1b1kbnr/pp3ppp/1qn1p3/3pP3/3P4/3B1N2/PP3PPP/RNBQK2R b",
+   "r3kbnr/pp1b1ppp/1qn1p3/3pP3/3P4/3B1N2/PP3PPP/RNBQK2R w"
+  ],
+  "ligne_uci": "e2e4 e7e6 d2d4 d7d5 e4e5 c7c5 c2c3 b8c6 g1f3 d8b6 f1d3 c5d4 c3d4 c8d7"
+ },
+ {
+  "nom": "v_halosar",
+  "langue": "fr",
+  "concept": "v_halosar",
+  "sujet": "Il laisse sa dame… et fait mat : le piège Halosar ♟️",
+  "reseaux": {
+   "youtube": "publié 2026-10-22"
+  },
+  "statut": "publié",
+  "test": null,
+  "variante": null,
+  "position_depart": "rnb1kb1r/ppp1pppp/5n2/8/1q6/2N1BQ2/PPP3PP/2KR1BNR b",
+  "position_finale": "rnb1kb1r/pp2pppp/2p2n2/8/1q6/2N1BQ2/PPP3PP/2KR1BNR w",
+  "positions": [
+   "rnb1kb1r/pp2pppp/2p2n2/8/1q6/2N1BQ2/PPP3PP/2KR1BNR w",
+   "rnb1kb1r/ppp1pppp/5n2/8/1q6/2N1BQ2/PPP3PP/2KR1BNR b"
+  ],
+  "ligne_uci": "d2d4 d7d5 e2e4 d5e4 b1c3 g8f6 f2f3 e4f3 d1f3 d8d4 c1e3 d4b4 e1c1 c7c6"
+ },
+ {
+  "nom": "v_kasparov",
+  "langue": "fr",
+  "concept": "v_kasparov",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "b2r3r/k4p1p/p2q1np1/NppP4/3p1Q2/P4PPB/1PP4P/1K1RR3 w",
+  "position_finale": "8/Q6p/6p1/5p2/5P2/2p3P1/3r3P/2K1k3 b",
+  "positions": [
+   "8/Q6p/6p1/5p2/5P2/2p3P1/3r3P/2K1k3 b",
+   "b2r3r/4Rp1p/p2q1np1/1p1P4/kP1Q4/P4PPB/2P4P/1K6 w",
+   "b2r3r/4Rp1p/p2q1np1/1p1P4/kP6/P1Q2PPB/2P4P/1K6 b",
+   "b2r3r/4Rp1p/p2q1np1/kp1P4/1P1Q4/P4PPB/2P4P/1K6 b",
+   "b2r3r/4Rp1p/p2q1np1/kp1P4/3Q4/P4PPB/1PP4P/1K6 w",
+   "b2r3r/4Rp1p/pk1q1np1/Np1P4/3Q4/P4PPB/1PP4P/1K6 b",
+   "b2r3r/4Rp1p/pk1q1np1/Np1P4/3p1Q2/P4PPB/1PP4P/1K6 w",
+   "b2r3r/k3Rp1p/p2q1np1/Np1P4/3p1Q2/P4PPB/1PP4P/1K6 b",
+   "b2r3r/k4p1p/p2q1np1/Np1P4/3p1Q2/P4PPB/1PP4P/1K2R3 w",
+   "b2r3r/k4p1p/p2q1np1/NppP4/3R1Q2/P4PPB/1PP4P/1K2R3 b",
+   "b2r3r/k4p1p/p2q1np1/NppP4/3p1Q2/P4PPB/1PP4P/1K1RR3 w"
+  ],
+  "ligne_uci": "e2e4 d7d6 d2d4 g8f6 b1c3 g7g6 c1e3 f8g7 d1d2 c7c6 f2f3 b7b5 g1e2 b8d7 e3h6 g7h6 d2h6 c8b7 a2a3 e7e5 e1c1 d8e7 c1b1 a7a6 e2c1 e8c8 c1b3 e5d4 d1d4 c6c5 d4d1 d7b6 g2g3 c8b8 b3a5 b7a8 f1h3 d6d5 h6f4 b8a7 h1e1 d5d4 c3d5 b6d5 e4d5 e7d6 d1d4 c5d4 e1e7 a7b6 f4d4 b6a5 b2b4 a5a4 d4c3 d6d5 e7a7 a8b7 a7b7 d5c4 c3f6 a4a3 f6a6 a3b4 c2c3 b4c3 a6a1 c3d2 a1b2 d2d1 h3f1 d8d2 b7d7 d2d7 f1c4 b5c4 b2h8 d7d3 h8a8 c4c3 a8a4 d1e1 f3f4 f7f5 b1c1 d3d2 a4a7"
+ },
+ {
+  "nom": "v_kieninger",
+  "langue": "fr",
+  "concept": "v_kieninger",
+  "sujet": "Prends ce fou et c'est mat en d3 : le piège Kieninger ♟️",
+  "reseaux": {
+   "youtube": "réserve 2026-10-24"
+  },
+  "statut": "réserve",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1b1k2r/ppppqppp/2n5/4n3/1bP2B2/P4N2/1P1NPPPP/R2QKB1R w",
+  "position_finale": "r1b1k2r/ppppqppp/2n5/4N3/1bP2B2/P7/1P1NPPPP/R2QKB1R b",
+  "positions": [
+   "r1b1k2r/ppppqppp/2n5/4N3/1bP2B2/P7/1P1NPPPP/R2QKB1R b",
+   "r1b1k2r/ppppqppp/2n5/4n3/1bP2B2/P4N2/1P1NPPPP/R2QKB1R w"
+  ],
+  "ligne_uci": "d2d4 g8f6 c2c4 e7e5 d4e5 f6g4 c1f4 b8c6 g1f3 f8b4 b1d2 d8e7 a2a3 g4e5 f3e5"
+ },
+ {
+  "nom": "v_lasker",
+  "langue": "fr",
+  "concept": "v_lasker",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "rnbqk1nr/ppp2ppp/8/4P3/1bP5/4p3/PP1B1PPP/RN1QKBNR w",
+  "position_finale": "rnbqk1nr/ppp2ppp/8/4P3/1bP5/4P3/PP1B2PP/RN1QKBNR b",
+  "positions": [
+   "rnbqk1nr/ppp2ppp/8/4P3/1bP5/4P3/PP1B2PP/RN1QKBNR b",
+   "rnbqk1nr/ppp2ppp/8/4P3/1bP5/4p3/PP1B1PPP/RN1QKBNR w"
+  ],
+  "ligne_uci": "d2d4 d7d5 c2c4 e7e5 d4e5 d5d4 e2e3 f8b4 c1d2 d4e3 f2e3"
+ },
+ {
+  "nom": "v_legal",
+  "langue": "fr",
+  "concept": "v_legal",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": null,
+  "position_finale": null,
+  "positions": [],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "v_mortimer",
+  "langue": "fr",
+  "concept": "v_mortimer",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1bqkb1r/ppppnppp/5n2/1B2p3/4P3/3P1N2/PPP2PPP/RNBQK2R w",
+  "position_finale": "r1bqkb1r/ppppnppp/5n2/1B2p3/4P3/3P1N2/PPP2PPP/RNBQ1RK1 b",
+  "positions": [
+   "r1bqkb1r/ppppnppp/5n2/1B2p3/4P3/3P1N2/PPP2PPP/RNBQ1RK1 b",
+   "r1bqkb1r/ppppnppp/5n2/1B2p3/4P3/3P1N2/PPP2PPP/RNBQK2R w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 b8c6 f1b5 g8f6 d2d3 c6e7 e1g1"
+ },
+ {
+  "nom": "v_noe",
+  "langue": "fr",
+  "concept": "v_noe",
+  "sujet": "Ton fou peut être enfermé vivant : le piège de l'arche de Noé ♟️",
+  "reseaux": {
+   "youtube": "réserve 2026-10-23"
+  },
+  "statut": "réserve",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1bqkbnr/2p2ppp/p2p4/1p6/3pP3/1B6/PPP2PPP/RNBQK2R w",
+  "position_finale": "r1bqkbnr/2p2ppp/p2p4/1p6/3pP3/1BP5/PP3PPP/RNBQK2R b",
+  "positions": [
+   "r1bqkbnr/2p2ppp/p2p4/1p6/3pP3/1B6/PPP2PPP/RNBQK2R w",
+   "r1bqkbnr/2p2ppp/p2p4/1p6/3pP3/1BP5/PP3PPP/RNBQK2R b"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 d7d6 d2d4 b7b5 a4b3 c6d4 f3d4 e5d4 c2c3"
+ },
+ {
+  "nom": "v_philidor",
+  "langue": "fr",
+  "concept": "v_philidor",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1bqkbnr/pppn1ppp/3p4/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R b",
+  "position_finale": "r1bqkbnr/pp1n1ppp/2pp4/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R w",
+  "positions": [
+   "r1bqkbnr/pp1n1ppp/2pp4/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R w",
+   "r1bqkbnr/pppn1ppp/3p4/4p3/2BPP3/5N2/PPP2PPP/RNBQK2R b"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 d7d6 d2d4 b8d7 f1c4 c7c6"
+ },
+ {
+  "nom": "v_qga",
+  "langue": "fr",
+  "concept": "v_qga",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "rnbqkbnr/ppp1pppp/8/8/2pP4/4P3/PP3PPP/RNBQKBNR b",
+  "position_finale": "rnbqkb1r/ppp1pppp/5n2/8/2pP4/4P3/PP3PPP/RNBQKBNR w",
+  "positions": [
+   "rnbqkb1r/ppp1pppp/5n2/8/2pP4/4P3/PP3PPP/RNBQKBNR w",
+   "rnbqkbnr/ppp1pppp/8/8/2pP4/4P3/PP3PPP/RNBQKBNR b"
+  ],
+  "ligne_uci": "d2d4 d7d5 c2c4 d5c4 e2e3 g8f6"
+ },
+ {
+  "nom": "v_siberien",
+  "langue": "fr",
+  "concept": "v_siberien",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1b1kb1r/ppqp1ppp/2n1pn2/8/2B1P3/2N2N2/PP2QPPP/R1B2RK1 b",
+  "position_finale": "r1b1kb1r/pp1p1ppp/4p3/8/2BNP1n1/2N4P/PP2QPPq/R1B2RK1 w",
+  "positions": [
+   "r1b1kb1r/pp1p1ppp/4p3/8/2BNP1n1/2N4P/PP2QPPq/R1B2RK1 w",
+   "r1b1kb1r/ppqp1ppp/2n1p3/8/2B1P1n1/2N2N1P/PP2QPP1/R1B2RK1 b",
+   "r1b1kb1r/ppqp1ppp/2n1p3/8/2B1P1n1/2N2N2/PP2QPPP/R1B2RK1 w",
+   "r1b1kb1r/ppqp1ppp/2n1pn2/8/2B1P3/2N2N2/PP2QPPP/R1B2RK1 b",
+   "r1b1kb1r/ppqp1ppp/4p3/8/2BNP1n1/2N4P/PP2QPP1/R1B2RK1 b",
+   "r1b1kb1r/ppqp1ppp/4p3/8/2BnP1n1/2N2N1P/PP2QPP1/R1B2RK1 w"
+  ],
+  "ligne_uci": "e2e4 c7c5 d2d4 c5d4 c2c3 d4c3 b1c3 b8c6 g1f3 e7e6 f1c4 d8c7 e1g1 g8f6 d1e2 f6g4 h2h3 c6d4 f3d4 c7h2"
+ },
+ {
+  "nom": "v_stafford",
+  "langue": "fr",
+  "concept": "v_stafford",
+  "sujet": "",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1bqk2r/ppp2ppp/2p2n2/2b5/4P3/3P4/PPP2PPP/RNBQKB1R w",
+  "position_finale": "r1bqk2r/ppp2ppp/2p2n2/2b5/4P3/3P4/PPP1BPPP/RNBQK2R b",
+  "positions": [
+   "r1bqk2r/ppp2ppp/2p2n2/2b5/4P3/3P4/PPP1BPPP/RNBQK2R b",
+   "r1bqk2r/ppp2ppp/2p2n2/2b5/4P3/3P4/PPP2PPP/RNBQKB1R w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 g8f6 f3e5 b8c6 e5c6 d7c6 d2d3 f8c5 f1e2"
+ },
+ {
+  "nom": "v_tarrasch",
+  "langue": "fr",
+  "concept": "v_tarrasch",
+  "sujet": "Une tour sacrifiée et la dame tombe : le piège Tarrasch ♟️",
+  "reseaux": {
+   "youtube": "réserve 2026-10-23"
+  },
+  "statut": "réserve",
+  "test": null,
+  "variante": null,
+  "position_depart": "r2q1rk1/2p1bppp/p1n1b3/1p1pP3/4n3/1BP2N2/PP3PPP/RNBQR1K1 w",
+  "position_finale": "r2q1rk1/2p1bppp/p3b3/1p1pn3/3Nn3/1BP5/PP3PPP/RNBQR1K1 w",
+  "positions": [
+   "r2q1rk1/2p1bppp/p1n1b3/1p1pP3/3Nn3/1BP5/PP3PPP/RNBQR1K1 b",
+   "r2q1rk1/2p1bppp/p1n1b3/1p1pP3/4n3/1BP2N2/PP3PPP/RNBQR1K1 w",
+   "r2q1rk1/2p1bppp/p3b3/1p1pn3/3Nn3/1BP5/PP3PPP/RNBQR1K1 w",
+   "r4rk1/2pQb1pp/p1n1p3/1p2P3/4p3/1BP5/PP3PPP/RNB3K1 b",
+   "r4rk1/2pqb1pp/p1n1p3/1p1pP3/4R3/1BP5/PP3PPP/RNBQ2K1 b",
+   "r4rk1/2pqb1pp/p1n1p3/1p1pP3/4n3/1BP5/PP3PPP/RNBQR1K1 w",
+   "r4rk1/2pqb1pp/p1n1p3/1p2P3/4p3/1BP5/PP3PPP/RNBQ2K1 w",
+   "r4rk1/2pqbppp/p1n1N3/1p1pP3/4n3/1BP5/PP3PPP/RNBQR1K1 b",
+   "r4rk1/2pqbppp/p1n1b3/1p1pP3/3Nn3/1BP5/PP3PPP/RNBQR1K1 w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 b8c6 f1b5 a7a6 b5a4 g8f6 e1g1 f6e4 d2d4 b7b5 a4b3 d7d5 d4e5 c8e6 c2c3 f8e7 f1e1 e8g8 f3d4 c6e5"
+ },
+ {
+  "nom": "v_tennison",
+  "langue": "fr",
+  "concept": "v_tennison",
+  "sujet": "Sa dame tombe en 8 coups : le gambit Tennison ♟️",
+  "reseaux": {
+   "youtube": "réserve 2026-10-23"
+  },
+  "statut": "réserve",
+  "test": null,
+  "variante": null,
+  "position_depart": "rnbqkb1r/ppp1pppp/5n2/6N1/8/3B4/PPP2PPP/RNBQK2R b",
+  "position_finale": "r1bqkb1r/ppp1pppp/2n2n2/6N1/8/3B4/PPP2PPP/RNBQK2R w",
+  "positions": [
+   "r1bqkb1r/ppp1pppp/2n2n2/6N1/8/3B4/PPP2PPP/RNBQK2R w",
+   "rnbqkb1r/ppp1pppp/5n2/6N1/8/3B4/PPP2PPP/RNBQK2R b"
+  ],
+  "ligne_uci": "g1f3 d7d5 e2e4 d5e4 f3g5 g8f6 d2d3 e4d3 f1d3 b8c6"
+ }
+]
