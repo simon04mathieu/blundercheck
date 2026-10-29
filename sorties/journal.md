@@ -345,3 +345,11 @@
     voix réutilisée (0 crédit)
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/prof_partie_1.mp4 {"video_s": 57.5, "demi_coups": 63, "rythme_s": 0.39, "arrets": 3, "ecrans": 4, "voix": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune"}
+## 2026-10-29 12:15 UTC · pièges · run 40871738753
+### commandes/pieges/reserve_1.json
+ÉCHEC :
+      File "/home/runner/work/blundercheck/blundercheck/outils/coach2.py", line 7, in <module>
+        import coach
+      File "/home/runner/work/blundercheck/blundercheck/outils/coach.py", line 8, in <module>
+        from PIL import Image, ImageDraw, ImageFilter
+    ModuleNotFoundError: No module named 'PIL'
