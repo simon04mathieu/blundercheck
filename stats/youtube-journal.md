@@ -270,3 +270,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "25"}
 ### 2026-10-30 13:59 publications/youtube/prof_corrige_1.json
 {"id": "utElZQZHWaw", "url": "https://www.youtube.com/shorts/utElZQZHWaw", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "25"}
