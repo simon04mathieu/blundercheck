@@ -1,14 +1,14 @@
 {
  "nom": "pigeon_en_14",
  "tempo": 1.0,
- "duree_s": 18.48,
+ "duree_s": 20.48,
  "hook": {
   "texte": "Ignore the knight.|Jump forward.",
   "fin": 1.6
  },
  "question": {
   "texte": "Follow: one new|trap every day",
-  "t": 15.28
+  "t": 17.28
  },
  "phrases": [
   {
@@ -32,15 +32,15 @@
    "texte": "He eats the giant candy."
   },
   {
-   "t": 11.98,
+   "t": 13.96,
    "texte": "Your bishop takes the pawn."
   },
   {
-   "t": 13.92,
+   "t": 15.92,
    "texte": "Checkmate!"
   },
   {
-   "t": 15.78,
+   "t": 17.78,
    "texte": "Follow: one new trap every day."
   }
  ],
@@ -56,15 +56,21 @@
    "badge": "brillant"
   },
   {
-   "t": 10.14,
+   "t": 10.12,
    "coup": "Nxd1",
    "badge": "gaffe"
   },
   {
-   "t": 12.72,
+   "t": 14.72,
    "coup": "Bxf7#",
    "badge": "mat"
   }
  ],
- "pauses": []
+ "pauses": [
+  {
+   "t": 11.94,
+   "duree": 2.0,
+   "texte": "Find the mate!"
+  }
+ ]
 }
