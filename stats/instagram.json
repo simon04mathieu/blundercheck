@@ -1,8 +1,40 @@
 {
- "releve": "2026-10-29T17:27:51Z",
+ "releve": "2026-10-30T17:23:46Z",
  "compte": "blundercheckapp",
  "abonnes": 1,
  "publications": [
+  {
+   "id": "18093375512213324",
+   "caption": "Ne reprends pas le cavalier 🐦 Laisse ta dame en prise… et mat en un coup. Piège ",
+   "comments_count": 0,
+   "like_count": 2,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfHo91Oj5am/",
+   "timestamp": "2026-10-30T13:01:08+0000",
+   "insights": {
+    "views": 207,
+    "reach": 153,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 2
+   }
+  },
+  {
+   "id": "18087490106325424",
+   "caption": "Ton roi peut manger ce pion ? Le fou est cloué… mais il protège quand même ! ♟️ ",
+   "comments_count": 0,
+   "like_count": 0,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfFzlx_CbRl/",
+   "timestamp": "2026-10-29T19:55:26+0000",
+   "insights": {
+    "views": 245,
+    "reach": 154,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0
+   }
+  },
   {
    "id": "18393842923233922",
    "caption": "Ton roi a pris un échec. Tu peux encore roquer ? ♟️ Légal ou pas ?\n\n#echecs #che",
@@ -12,8 +44,8 @@
    "permalink": "https://www.instagram.com/reel/DfFEefvDaCj/",
    "timestamp": "2026-10-29T13:03:36+0000",
    "insights": {
-    "views": 262,
-    "reach": 162,
+    "views": 264,
+    "reach": 163,
     "shares": 0,
     "saved": 1,
     "total_interactions": 2
@@ -172,7 +204,7 @@
    "permalink": "https://www.instagram.com/reel/De7KMd8FZ4p/",
    "timestamp": "2026-10-25T16:41:11+0000",
    "insights": {
-    "views": 158,
+    "views": 160,
     "reach": 125,
     "shares": 1,
     "saved": 0,
