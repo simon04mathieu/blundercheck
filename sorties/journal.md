@@ -384,3 +384,6 @@
 ### commandes/perso_pigeon_jour_13.json
     voix générée : 253 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_jour_13.mp4 {"voix_brute_s": 19.8, "tempo": 1.0, "video_s": 20.5, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 46, "minutage": "8 phrases, 4 coups, 0 pauses"}
+### commandes/perso_quiz_legal_8_fr.json
+    voix générée : 255 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/quiz_legal_8_fr.mp4 {"voix_brute_s": 20.5, "tempo": 1.0, "video_s": 23.3, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 58, "minutage": "8 phrases, 2 coups, 1 pauses"}

@@ -1,0 +1,66 @@
+{
+ "nom": "quiz_legal_8_fr",
+ "tempo": 1.0,
+ "duree_s": 22.66,
+ "hook": {
+  "texte": "Mat ou pat ?",
+  "fin": 3.12
+ },
+ "question": {
+  "texte": "Abonne-toi :|un piège par jour",
+  "t": 19.46
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Ton roi et ta dame contre le roi seul."
+  },
+  {
+   "t": 3.12,
+   "texte": "Tu joues la dame ici."
+  },
+  {
+   "t": 4.7,
+   "texte": "C'est mat ?"
+  },
+  {
+   "t": 7.58,
+   "texte": "Non !"
+  },
+  {
+   "t": 8.7,
+   "texte": "Le roi noir ne peut plus bouger, mais il n'est pas attaqué : c'est pat nulle !"
+  },
+  {
+   "t": 14.74,
+   "texte": "Ça arrive à tout le monde."
+  },
+  {
+   "t": 16.94,
+   "texte": "Le vrai mat c'était la dame au bord."
+  },
+  {
+   "t": 20.52,
+   "texte": "Abonne-toi : un piège par jour."
+  }
+ ],
+ "coups": [
+  {
+   "t": 3.6,
+   "coup": "Qg6",
+   "badge": null
+  },
+  {
+   "t": 18.96,
+   "coup": "Qg8#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 5.56,
+   "duree": 2.0,
+   "texte": "Mat ou pat ?"
+  }
+ ]
+}
