@@ -392,3 +392,6 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_14.mp4 {"voix_brute_s": 18.4, "tempo": 1.0, "video_s": 21.1, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 45, "minutage": "8 phrases, 4 coups, 1 pauses"}
+## 2026-10-30 11:44 UTC · pièges · run 41050253354
+### commandes/pieges/reserve_1300_2000.json
+    OK stock/pieges-candidats.md : 10 pièges, dont 9 jamais faits
