@@ -280,3 +280,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "26"}
 ### 2026-10-30 19:46 publications/youtube/pigeon_en_15.json
 {"id": "_q1m5Nb69uk", "url": "https://www.youtube.com/shorts/_q1m5Nb69uk", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "27"}
