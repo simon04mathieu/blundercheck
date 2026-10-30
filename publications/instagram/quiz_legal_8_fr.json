@@ -1,0 +1,35 @@
+{
+ "fichier": "sorties/quiz_legal_8_fr.mp4",
+ "legende": "Mat ou pat ? 🤔 La dame juste à côté… et c'est nulle. Tu l'aurais vu ? Abonne-toi : un piège par jour !\n\n#echecs #chess #pat #echecsfr",
+ "envoyer_apres": "2026-10-30T20:00:00+01:00",
+ "concept": "quiz_legal",
+ "etiquettes": {
+  "format": "QUIZ",
+  "langue": "fr",
+  "duree_s": 23,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T13-fin-quiz",
+  "hook": "mat_ou_pat",
+  "premiers_mots": "Ton roi et",
+  "personnages": [
+   "roi",
+   "dame",
+   "toi"
+  ],
+  "fin": "abonne_promesse",
+  "ouverture": "coup_image0",
+  "titre": "resultat",
+  "interet": "regle_pat",
+  "appel_site": "non",
+  "ouverture_nom": "finale roi et dame",
+  "source_piege": "réserve Lichess CC0",
+  "variante": "B"
+ },
+ "format": "QUIZ",
+ "langue": "fr",
+ "test": "T13-fin-quiz",
+ "duree": 23,
+ "voix": "oui",
+ "variante": "B"
+}

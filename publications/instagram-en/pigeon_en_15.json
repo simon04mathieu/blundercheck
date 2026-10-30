@@ -1,0 +1,34 @@
+{
+ "legende": "🪤 Give your queen with check… and a tiny pawn mates the king. Alekhine trap. Would you have seen it? Follow: one new trap every day.\n\nFree game analysis: link in bio\n\n#chess #chesstrap #chessquiz",
+ "envoyer_apres": "2026-10-30T20:00:00+01:00",
+ "fichier": "sorties/pigeon_en_15.mp4",
+ "concept": "pigeon_en",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "en",
+  "duree_s": 20,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "aucun",
+  "hook": "sacrifice_dame+mat_pion",
+  "premiers_mots": "Your knight is",
+  "personnages": [
+   "queen",
+   "pawn",
+   "pigeon",
+   "you"
+  ],
+  "fin": "follow_promesse",
+  "ouverture": "coup_image0",
+  "titre": "resultat",
+  "interet": "sacrifice_dame_mat_pion",
+  "appel_site": "non",
+  "ouverture_nom": "Alekhine Defense Modern Variation",
+  "source_piege": "réserve Lichess CC0"
+ },
+ "format": "PERSO",
+ "langue": "en",
+ "test": "aucun",
+ "duree": 20,
+ "voix": "oui"
+}

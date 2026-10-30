@@ -1,0 +1,40 @@
+{
+ "legende": "🪤 Don't take the knight back. Jump forward, leave your queen hanging… and mate. Scandinavian trap. Would you have seen it? Follow: one new trap every day.\n\nFree game analysis: https://blundercheck.app/try?src=threads-en\n#chess",
+ "envoyer_apres": "2026-10-30T17:00:00+01:00",
+ "fichier": "sorties/pigeon_en_14.mp4",
+ "concept": "pigeon_en",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "en",
+  "duree_s": 21,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T11-série",
+  "hook": "ignore+mat",
+  "premiers_mots": "He took your",
+  "personnages": [
+   "knight",
+   "queen",
+   "bishop",
+   "pigeon",
+   "giant candy",
+   "you"
+  ],
+  "fin": "follow_promesse",
+  "ouverture": "coup_image0",
+  "titre": "resultat",
+  "interet": "sacrifice_dame_mat_1",
+  "appel_site": "non",
+  "ouverture_nom": "Scandinavian Defense Modern Variation",
+  "source_piege": "réserve Lichess CC0",
+  "variante": "B",
+  "paire": "pigeon_jour_13"
+ },
+ "format": "PERSO",
+ "langue": "en",
+ "test": "T11-série",
+ "duree": 21,
+ "voix": "oui",
+ "variante": "B",
+ "paire": "pigeon_jour_13"
+}

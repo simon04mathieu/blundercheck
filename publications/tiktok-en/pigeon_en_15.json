@@ -1,0 +1,38 @@
+{
+ "legende": "Queen sacrifice, pawn mate 🪤 Would you have seen it? #chess #chesstok #chesstrap #alekhine",
+ "envoyer_apres": "2026-10-30T08:00:00+01:00",
+ "heure_conseillee": "2026-10-30T20:00:00+01:00",
+ "repere": "20 h · pigeon_en_15 · 20 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/pigeon_en_15.mp4",
+ "concept": "pigeon_en",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "en",
+  "duree_s": 20,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "aucun",
+  "hook": "sacrifice_dame+mat_pion",
+  "premiers_mots": "Your knight is",
+  "personnages": [
+   "queen",
+   "pawn",
+   "pigeon",
+   "you"
+  ],
+  "fin": "follow_promesse",
+  "ouverture": "coup_image0",
+  "titre": "resultat",
+  "interet": "sacrifice_dame_mat_pion",
+  "appel_site": "non",
+  "ouverture_nom": "Alekhine Defense Modern Variation",
+  "source_piege": "réserve Lichess CC0"
+ },
+ "format": "PERSO",
+ "langue": "en",
+ "test": "aucun",
+ "duree": 20,
+ "voix": "oui"
+}

@@ -1,0 +1,41 @@
+{
+ "legende": "Chess Trap #2 🪤 He takes your knight… you mate him. Would you have seen it? Trap #3 tomorrow! #chess #chesstok #chesstrap #sicilian",
+ "envoyer_apres": "2026-10-30T08:00:00+01:00",
+ "heure_conseillee": "2026-10-30T11:00:00+01:00",
+ "repere": "11 h · pigeon_en_13 · 21 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/pigeon_en_13.mp4",
+ "concept": "pigeon_en",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "en",
+  "duree_s": 21,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T11-série",
+  "hook": "cavalier_pris+mat",
+  "premiers_mots": "White takes your",
+  "personnages": [
+   "bishop",
+   "queen",
+   "pigeon",
+   "you"
+  ],
+  "fin": "teaser_serie",
+  "ouverture": "coup_image0",
+  "titre": "resultat",
+  "interet": "sacrifice_mat_2",
+  "appel_site": "non",
+  "ouverture_nom": "Sicilian Defense French Variation",
+  "source_piege": "réserve Lichess CC0",
+  "variante": "A",
+  "serie": "Chess Trap #2"
+ },
+ "format": "PERSO",
+ "langue": "en",
+ "test": "T11-série",
+ "duree": 21,
+ "voix": "oui",
+ "variante": "A"
+}

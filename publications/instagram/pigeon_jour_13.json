@@ -1,0 +1,38 @@
+{
+ "fichier": "sorties/pigeon_jour_13.mp4",
+ "legende": "Ne reprends pas le cavalier 🐦 Laisse ta dame en prise… et mat en un coup. Piège de la Scandinave. Ton piège préféré contre 1.e4 ? Abonne-toi : un piège par jour !\n\n#echecs #chess #piege #scandinave #echecsfr",
+ "envoyer_apres": "2026-10-30T14:00:00+01:00",
+ "concept": "pigeon_jour",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "fr",
+  "duree_s": 21,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "aucun",
+  "hook": "ne_reprends_pas+mat",
+  "premiers_mots": "Il a pris",
+  "personnages": [
+   "cavalier",
+   "dame",
+   "fou",
+   "pigeon",
+   "bonbon",
+   "toi"
+  ],
+  "fin": "abonne_promesse",
+  "ouverture": "coup_image0",
+  "titre": "resultat",
+  "interet": "sacrifice_dame_mat_1",
+  "appel_site": "non",
+  "ouverture_nom": "Défense scandinave, variante moderne",
+  "source_piege": "réserve Lichess CC0",
+  "paire": "pigeon_en_14"
+ },
+ "format": "PERSO",
+ "langue": "fr",
+ "test": "aucun",
+ "duree": 21,
+ "voix": "oui",
+ "paire": "pigeon_en_14"
+}

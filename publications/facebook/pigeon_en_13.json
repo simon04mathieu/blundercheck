@@ -1,0 +1,37 @@
+{
+ "legende": "Chess Trap #2 🪤 White grabs your knight and smiles. One bishop gift later, his king is mated. Sicilian trap. Would you have seen it? Trap #3 tomorrow: follow so you don't miss it!\n\nAnalyze your own games, free: https://blundercheck.app/try?src=facebook-en\n\n#chess #chesstrap #chessquiz",
+ "envoyer_apres": "2026-10-30T11:00:00+01:00",
+ "fichier": "sorties/pigeon_en_13.mp4",
+ "concept": "pigeon_en",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "en",
+  "duree_s": 21,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T11-série",
+  "hook": "cavalier_pris+mat",
+  "premiers_mots": "White takes your",
+  "personnages": [
+   "bishop",
+   "queen",
+   "pigeon",
+   "you"
+  ],
+  "fin": "teaser_serie",
+  "ouverture": "coup_image0",
+  "titre": "resultat",
+  "interet": "sacrifice_mat_2",
+  "appel_site": "non",
+  "ouverture_nom": "Sicilian Defense French Variation",
+  "source_piege": "réserve Lichess CC0",
+  "variante": "A",
+  "serie": "Chess Trap #2"
+ },
+ "format": "PERSO",
+ "langue": "en",
+ "test": "T11-série",
+ "duree": 21,
+ "voix": "oui",
+ "variante": "A"
+}
