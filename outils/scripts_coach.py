@@ -1135,11 +1135,11 @@ PERSO.update({
     "voix": """[mischievously] White takes your knight and smiles. He thinks he is winning. Now give him a bishop for free. It takes a pawn, with check. The king must run away. Then your queen jumps in. Checkmate! One small gift, and his king is lost. Trap #3 tomorrow. Follow!""",
     "script": """[p """ + SICI_AVANT + """] White [m Bxf6 gaffe] takes your knight and smiles. [h] He thinks [s tag f6 2.0 PIGEON] he is winning. Now give him a bishop [z c5f2 1.3 2.0] for free. It takes [m Bxf2+ brillant] a pawn, with check. The king must [m Kd2] run away. Then your queen [m Qe3# mat] [z e3d2 1.45 2.6] [x impact] jumps in. Checkmate! One small gift, and his king is lost. Trap #3 tomorrow. Follow!""",
 },
-"pigeon_en_14": {   # Scandinave, T11-série B (sans badge ni numéro)
+"pigeon_en_14": {   # Scandinave, T11-série B (sans badge ni numéro) ; 30/10 : 19,1 s → pause 2 s « Find the mate! » (voix réutilisée, 0 crédit)
     "cote": "blancs",
     "hook": "Ignore the knight.|Jump forward.",
     "voix": """[mischievously] He took your knight. Do not take it back! Stay calm and jump your other knight forward. Now your queen is hanging, but his king is not safe. He eats the giant candy. Your bishop takes the pawn. Checkmate! Follow: one new trap every day.""",
-    "script": """[p """ + SCAN_AVANT + """] He [m Nxc3] took your knight. [h] Do not take [f b2c3] it back! Stay calm and jump your other knight [m Ne5 brillant] [z e5 1.3 2.0] forward. Now your queen [f c3d1] is hanging, but his king is not safe. He eats [m Nxd1 gaffe] [s tag d1 2.0 PIGEON] the giant candy. Your bishop takes [m Bxf7# mat] [z f7e8 1.45 2.6] [x impact] the pawn. Checkmate! Follow: one new trap every day.""",
+    "script": """[p """ + SCAN_AVANT + """] He [m Nxc3] took your knight. [h] Do not take [f b2c3] it back! Stay calm and jump your other knight [m Ne5 brillant] [z e5 1.3 2.0] forward. Now your queen [f c3d1] is hanging, but his king is not safe. He eats [m Nxd1 gaffe] [s tag d1 2.0 PIGEON] the giant candy. [q 2 Find_the_mate!] Your bishop takes [m Bxf7# mat] [z f7e8 1.45 2.6] [x impact] the pawn. Checkmate! Follow: one new trap every day.""",
 },
 "pigeon_en_15": {   # Alekhine, sans test
     "cote": "blancs",
