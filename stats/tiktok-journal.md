@@ -351,3 +351,4 @@ http.client.IncompleteRead: IncompleteRead(262 bytes read)
 {"publish_id": "v_inbox_file~v2.7702362053730027542", "mode": "brouillon", "vie_privee": null, "legende": "Ne reprends pas le cavalier 🐦 Laisse ta dame… et mat ! Ton piège préféré contre 1.e4 ? Abonne-toi : un piège par jour. #echecs #chess #piege #echecsfr"}
 ### 2026-10-30 07:39 publications/tiktok/quiz_legal_8_fr.json
 {"publish_id": "v_inbox_file~v2.7702362202816317462", "mode": "brouillon", "vie_privee": null, "legende": "Mat ou pat ? 🤔 Le piège qui gâche une partie gagnée. Tu l'aurais vu ? #echecs #chess #pat #echecsfr"}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 7, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
