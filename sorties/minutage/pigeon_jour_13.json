@@ -1,0 +1,70 @@
+{
+ "nom": "pigeon_jour_13",
+ "tempo": 1.0,
+ "duree_s": 19.9,
+ "hook": {
+  "texte": "Ne reprends pas|le cavalier !",
+  "fin": 1.78
+ },
+ "question": {
+  "texte": "Abonne-toi :|un piège par jour",
+  "t": 16.7
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Il a pris ton cavalier."
+  },
+  {
+   "t": 1.78,
+   "texte": "Ne reprends pas !"
+  },
+  {
+   "t": 3.12,
+   "texte": "Reste calme."
+  },
+  {
+   "t": 4.54,
+   "texte": "Saute avec l'autre cavalier."
+  },
+  {
+   "t": 6.82,
+   "texte": "Ta dame est attaquée mais son roi est en danger."
+  },
+  {
+   "t": 10.9,
+   "texte": "Le pigeon croque le gros bonbon."
+  },
+  {
+   "t": 13.28,
+   "texte": "Ton fou prend le pion  échec et mat !"
+  },
+  {
+   "t": 17.05,
+   "texte": "Abonne-toi : un piège par jour."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.44,
+   "coup": "Nxc3",
+   "badge": null
+  },
+  {
+   "t": 5.44,
+   "coup": "Ne5",
+   "badge": "brillant"
+  },
+  {
+   "t": 12.0,
+   "coup": "Nxd1",
+   "badge": "gaffe"
+  },
+  {
+   "t": 14.24,
+   "coup": "Bxf7#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
