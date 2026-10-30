@@ -649,10 +649,10 @@
   "concept": "pigeon_en",
   "sujet": "Chess Trap: he eats your bishop, you mate him ♟️",
   "reseaux": {
-   "youtube": "programmé 2026-10-29",
+   "youtube": "publié 2026-10-29",
    "tiktok-en": "publié 2026-10-29",
-   "facebook": "programmé 2026-10-29",
-   "threads": "programmé 2026-10-29"
+   "facebook": "publié 2026-10-29",
+   "threads": "publié 2026-10-29"
   },
   "statut": "publié",
   "test": "T11-série",
@@ -673,6 +673,66 @@
    "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b"
   ],
   "ligne_uci": "d2d4 g8f6 c2c4 e7e5 d4e5 f6g4 c1f4 b8c6 g1f3 f8b4 b1d2 d8e7 a2a3 g4e5 a3b4 e5d3"
+ },
+ {
+  "nom": "pigeon_en_13",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "He took the knight. Big mistake.",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1b1k2r/pp1p1ppp/1qn2n2/1Nb1p1B1/4P3/2N5/PPP2PPP/R2QKB1R w",
+  "position_finale": "r1b1k2r/pp1p1ppp/2n2B2/1N2p3/4P3/2N1q3/PPPK1bPP/R2Q1B1R w",
+  "positions": [
+   "r1b1k2r/pp1p1ppp/1qn2B2/1N2p3/4P3/2N5/PPP2bPP/R2QKB1R w",
+   "r1b1k2r/pp1p1ppp/1qn2B2/1N2p3/4P3/2N5/PPPK1bPP/R2Q1B1R b",
+   "r1b1k2r/pp1p1ppp/1qn2B2/1Nb1p3/4P3/2N5/PPP2PPP/R2QKB1R b",
+   "r1b1k2r/pp1p1ppp/1qn2n2/1Nb1p1B1/4P3/2N5/PPP2PPP/R2QKB1R w",
+   "r1b1k2r/pp1p1ppp/2n2B2/1N2p3/4P3/2N1q3/PPPK1bPP/R2Q1B1R w"
+  ],
+  "ligne_uci": "e2e4 c7c5 g1f3 e7e6 d2d4 c5d4 f3d4 g8f6 b1c3 d8c7 c1g5 b8c6 d4b5 c7b6 g5f4 e6e5 f4g5 f8c5 g5f6 c5f2 e1d2 b6e3"
+ },
+ {
+  "nom": "pigeon_en_14",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "Ignore the knight. Jump forward.",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "rn1qkb1r/ppp1pppp/8/3n4/2B3b1/2N2N2/PPPP1PPP/R1BQK2R b",
+  "position_finale": "rn1qkb1r/ppp1pBpp/8/4N3/6b1/8/PPPP1PPP/R1BnK2R b",
+  "positions": [
+   "rn1qkb1r/ppp1pBpp/8/4N3/6b1/8/PPPP1PPP/R1BnK2R b",
+   "rn1qkb1r/ppp1pppp/8/3n4/2B3b1/2N2N2/PPPP1PPP/R1BQK2R b",
+   "rn1qkb1r/ppp1pppp/8/4N3/2B3b1/2n5/PPPP1PPP/R1BQK2R b",
+   "rn1qkb1r/ppp1pppp/8/4N3/2B3b1/8/PPPP1PPP/R1BnK2R w",
+   "rn1qkb1r/ppp1pppp/8/8/2B3b1/2n2N2/PPPP1PPP/R1BQK2R w"
+  ],
+  "ligne_uci": "e2e4 d7d5 e4d5 g8f6 f1b5 c8d7 b5c4 d7g4 g1f3 f6d5 b1c3 d5c3 f3e5 c3d1 c4f7"
+ },
+ {
+  "nom": "pigeon_en_15",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "Sacrifice the queen. Pawn mates.",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "rn1q1bkr/ppp1p1pp/1n1pP1b1/6N1/3P4/5Q2/PPP2PPP/RNB1K2R b",
+  "position_finale": "rn1q1bkr/ppp1pPp1/1n1p3p/6N1/3P4/8/PPP2PPP/RNB1K2R b",
+  "positions": [
+   "rn1q1bkr/ppp1p1p1/1n1pP1bp/6N1/3P4/5Q2/PPP2PPP/RNB1K2R w",
+   "rn1q1bkr/ppp1p1pp/1n1pP1b1/6N1/3P4/5Q2/PPP2PPP/RNB1K2R b",
+   "rn1q1bkr/ppp1pPp1/1n1p3p/6N1/3P4/8/PPP2PPP/RNB1K2R b",
+   "rn1q1bkr/ppp1pQp1/1n1pP1bp/6N1/3P4/8/PPP2PPP/RNB1K2R b",
+   "rn1q1bkr/ppp1pbp1/1n1pP2p/6N1/3P4/8/PPP2PPP/RNB1K2R w"
+  ],
+  "ligne_uci": "e2e4 g8f6 e4e5 f6d5 d2d4 d7d6 g1f3 c8f5 f1c4 d5b6 c4f7 e8f7 f3g5 f7g8 e5e6 f5g6 d1f3 h7h6 f3f7 g6f7 e6f7"
  },
  {
   "nom": "pigeon_en_2",
@@ -991,6 +1051,26 @@
    "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b"
   ],
   "ligne_uci": "e2e4 e7e5 g1f3 f8c5 f1c4 d8f6 f3e5 f6f2"
+ },
+ {
+  "nom": "pigeon_jour_13",
+  "langue": "fr",
+  "concept": "pigeon_jour",
+  "sujet": "Ne reprends pas le cavalier !",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "rn1qkb1r/ppp1pppp/8/3n4/2B3b1/2N2N2/PPPP1PPP/R1BQK2R b",
+  "position_finale": "rn1qkb1r/ppp1pBpp/8/4N3/6b1/8/PPPP1PPP/R1BnK2R b",
+  "positions": [
+   "rn1qkb1r/ppp1pBpp/8/4N3/6b1/8/PPPP1PPP/R1BnK2R b",
+   "rn1qkb1r/ppp1pppp/8/3n4/2B3b1/2N2N2/PPPP1PPP/R1BQK2R b",
+   "rn1qkb1r/ppp1pppp/8/4N3/2B3b1/2n5/PPPP1PPP/R1BQK2R b",
+   "rn1qkb1r/ppp1pppp/8/4N3/2B3b1/8/PPPP1PPP/R1BnK2R w",
+   "rn1qkb1r/ppp1pppp/8/8/2B3b1/2n2N2/PPPP1PPP/R1BQK2R w"
+  ],
+  "ligne_uci": "e2e4 d7d5 e4d5 g8f6 f1b5 c8d7 b5c4 d7g4 g1f3 f6d5 b1c3 d5c3 f3e5 c3d1 c4f7"
  },
  {
   "nom": "pigeon_jour_2",
@@ -1427,10 +1507,10 @@
   "concept": "quiz_legal",
   "sujet": "Your king was in check. Can you still castle? ♟️",
   "reseaux": {
-   "youtube": "programmé 2026-10-29",
+   "youtube": "publié 2026-10-29",
    "tiktok-en": "publié 2026-10-29",
-   "facebook": "programmé 2026-10-29",
-   "threads": "programmé 2026-10-29"
+   "facebook": "publié 2026-10-29",
+   "threads": "publié 2026-10-29"
   },
   "statut": "publié",
   "test": "aucun",
@@ -1455,7 +1535,7 @@
   "sujet": "Ton roi a pris un échec. Tu peux encore roquer ? 🤔 Légal ?",
   "reseaux": {
    "tiktok": "publié 2026-10-29",
-   "instagram": "programmé 2026-10-29"
+   "instagram": "publié 2026-10-29"
   },
   "statut": "publié",
   "test": "T13-fin-quiz",
@@ -1479,10 +1559,10 @@
   "concept": "quiz_legal",
   "sujet": "Can your king take this pawn? (pinned bishop) ♟️",
   "reseaux": {
-   "youtube": "programmé 2026-10-29",
+   "youtube": "publié 2026-10-29",
    "tiktok-en": "publié 2026-10-29",
-   "facebook": "programmé 2026-10-29",
-   "threads": "programmé 2026-10-29"
+   "facebook": "publié 2026-10-29",
+   "threads": "publié 2026-10-29"
   },
   "statut": "publié",
   "test": "aucun",
@@ -1502,7 +1582,7 @@
   "sujet": "Ton roi peut manger ce pion ? 🤔 Oui ou non ?",
   "reseaux": {
    "tiktok": "publié 2026-10-29",
-   "instagram": "programmé 2026-10-29"
+   "instagram": "publié 2026-10-29"
   },
   "statut": "publié",
   "test": "T13-fin-quiz",
@@ -1514,6 +1594,24 @@
    "5k2/6pp/8/5b2/8/3pK3/6PP/5R2 w"
   ],
   "ligne_uci": "f1f5"
+ },
+ {
+  "nom": "quiz_legal_8_fr",
+  "langue": "fr",
+  "concept": "quiz_legal",
+  "sujet": "Mat ou pat ?",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "7k/5K2/8/6Q1/8/8/8/8 w",
+  "position_finale": "6Qk/5K2/8/8/8/8/8/8 b",
+  "positions": [
+   "6Qk/5K2/8/8/8/8/8/8 b",
+   "7k/5K2/6Q1/8/8/8/8/8 b",
+   "7k/5K2/8/6Q1/8/8/8/8 w"
+  ],
+  "ligne_uci": "g5g8"
  },
  {
   "nom": "rafale1",
