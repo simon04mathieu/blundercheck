@@ -1120,3 +1120,50 @@ QUESTIONS.update({
     "quiz_legal_7_fr": "Tu le savais ?|Oui ou non ?",      # T13 A
     "quiz_legal_7_en": "Analyze your own games, free|blundercheck.app/try",
 })
+
+# ---------- file du 29-30/10 (scénariste 22 h 33) : 3 EN + 2 FR. T11-série (Sicilienne = A « Chess Trap #2 », Scandinave = B), T13-fin-quiz B (pat) ----------
+# Producteur (30/10, 1 h) : python-chess + Stockfish 17.1 (WASM, 0,7 s) : Sicilienne 10.Bxf6?? = mat (10.Qd2 +3,2) ; Scandinave 7...Nxd1?? = mat en 1 (7...Qd6/Qd4 gagnent) ;
+# Alekhine 9...h6?? = mat en 2 (9...Qe8) ; quiz pat : Qg6 = pat, Qg8# = mat. Aucune musique. Anti-doublon : NOUVEAU pour les 4 positions.
+SICI_AVANT = "e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nf6 Nc3 Qc7 Bg5 Nc6 Ndb5 Qb6 Bf4 e5 Bg5 Bc5"
+SCAN_AVANT = "e4 d5 exd5 Nf6 Bb5+ Bd7 Bc4 Bg4 Nf3 Nxd5 Nc3"
+ALEK_AVANT = "e4 Nf6 e5 Nd5 d4 d6 Nf3 Bf5 Bc4 Nb6 Bxf7+ Kxf7 Ng5+ Kg8 e6 Bg6 Qf3"
+MAT_PAT = "fen:7k/5K2/8/6Q1/8/8/8/8_w_-_-_0_1"
+PERSO.update({
+"pigeon_en_13": {   # Sicilienne, T11-série A (« Chess Trap #2 », badge permanent)
+    "cote": "noirs", "serie": "Chess Trap #2",
+    "hook": "He took the knight.|Big mistake.",
+    "voix": """[mischievously] White takes your knight and smiles. He thinks he is winning. Now give him a bishop for free. It takes a pawn, with check. The king must run away. Then your queen jumps in. Checkmate! One small gift, and his king is lost. Trap #3 tomorrow. Follow!""",
+    "script": """[p """ + SICI_AVANT + """] White [m Bxf6 gaffe] takes your knight and smiles. [h] He thinks [s tag f6 2.0 PIGEON] he is winning. Now give him a bishop [z c5f2 1.3 2.0] for free. It takes [m Bxf2+ brillant] a pawn, with check. The king must [m Kd2] run away. Then your queen [m Qe3# mat] [z e3d2 1.45 2.6] [x impact] jumps in. Checkmate! One small gift, and his king is lost. Trap #3 tomorrow. Follow!""",
+},
+"pigeon_en_14": {   # Scandinave, T11-série B (sans badge ni numéro)
+    "cote": "blancs",
+    "hook": "Ignore the knight.|Jump forward.",
+    "voix": """[mischievously] He took your knight. Do not take it back! Stay calm and jump your other knight forward. Now your queen is hanging, but his king is not safe. He eats the giant candy. Your bishop takes the pawn. Checkmate! Follow: one new trap every day.""",
+    "script": """[p """ + SCAN_AVANT + """] He [m Nxc3] took your knight. [h] Do not take [f b2c3] it back! Stay calm and jump your other knight [m Ne5 brillant] [z e5 1.3 2.0] forward. Now your queen [f c3d1] is hanging, but his king is not safe. He eats [m Nxd1 gaffe] [s tag d1 2.0 PIGEON] the giant candy. Your bishop takes [m Bxf7# mat] [z f7e8 1.45 2.6] [x impact] the pawn. Checkmate! Follow: one new trap every day.""",
+},
+"pigeon_en_15": {   # Alekhine, sans test
+    "cote": "blancs",
+    "hook": "Sacrifice the queen.|Pawn mates.",
+    "voix": """[mischievously] Your knight is under attack. Ignore it! Give him your queen, with check. He thinks he is safe. He has to take it. Now push your pawn. The pawn gives checkmate! It sounds crazy, but it works. A tiny pawn beats the king. Follow: one new trap every day.""",
+    "script": """[p """ + ALEK_AVANT + """] Your knight [m h6 gaffe] [f h6g5] is under attack. [h] Ignore it! Give him your queen, [m Qf7+ brillant] [z f7 1.3 2.0] with check. He thinks he is safe. He has [m Bxf7] to take it. Now push your pawn. The pawn [m exf7# mat] [z f7g8 1.45 2.6] [x impact] gives checkmate! It sounds crazy, but it works. A tiny pawn beats the king. Follow: one new trap every day.""",
+},
+"pigeon_jour_13": {   # Scandinave FR (jumeau de pigeon_en_14), sans test
+    "cote": "blancs",
+    "hook": "Ne reprends pas|le cavalier !",
+    "voix": """[mischievously] Il a pris ton cavalier. Ne reprends pas ! Reste calme. Saute avec l'autre cavalier. Ta dame est attaquée, mais son roi est en danger. Le pigeon croque le gros bonbon. Ton fou prend le pion : échec et mat ! Abonne-toi : un piège par jour.""",
+    "script": """[p """ + SCAN_AVANT + """] Il a [m Nxc3] pris ton cavalier. [h] Ne reprends [f b2c3] pas ! Reste calme. Saute avec l'autre [m Ne5 brillant] [z e5 1.3 2.0] cavalier. Ta dame [f c3d1] est attaquée, mais son roi est en danger. Le pigeon croque [m Nxd1 gaffe] [s tag d1 2.0 LE_PIGEON] le gros bonbon. Ton fou prend [m Bxf7# mat] [z f7e8 1.45 2.6] [x impact] le pion : échec et mat ! Abonne-toi : un piège par jour.""",
+},
+"quiz_legal_8_fr": {   # mat ou pat, FR, T13-fin-quiz B (fin nette, appel seul)
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Mat ou pat ?",
+    "voix": """Ton roi et ta dame contre le roi seul. Tu joues la dame ici. C'est mat ? Non ! Le roi noir ne peut plus bouger, mais il n'est pas attaqué : c'est pat, nulle ! Ça arrive à tout le monde. Le vrai mat, c'était la dame au bord. Abonne-toi : un piège par jour.""",
+    "script": """[p """ + MAT_PAT + """] [f g5g6] Ton roi et ta dame contre le roi seul. [h] Tu joues [m Qg6] la dame ici. C'est mat ? [q 2 Mat_ou_pat_?] Non ! [s tag h8 2.0 PAT] [x impact] Le roi noir ne peut plus bouger, mais il n'est pas attaqué : c'est pat, nulle ! Ça arrive à tout le monde. Le vrai mat, [p """ + MAT_PAT + """] c'était la dame [m Qg8# mat] [z g8h8 1.45 2.6] au bord. Abonne-toi : un piège par jour.""",
+},
+})
+QUESTIONS.update({
+    "pigeon_en_13": "Trap #3 tomorrow|Follow!",
+    "pigeon_en_14": "Follow: one new|trap every day",
+    "pigeon_en_15": "Follow: one new|trap every day",
+    "pigeon_jour_13": "Abonne-toi :|un piège par jour",
+    "quiz_legal_8_fr": "Abonne-toi :|un piège par jour",
+})
