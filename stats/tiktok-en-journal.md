@@ -212,3 +212,4 @@ Jetons TikTok (en) enregistrés (chiffrés). Portées : user.info.basic,user.inf
 ### 2026-10-30 07:39 publications/tiktok-en/prof_corrige_1.json
 {"publish_id": "v_inbox_file~v2.7702362102048573462", "mode": "brouillon", "vie_privee": null, "legende": "The AI teacher found my worst move 😬 Would you see it? #chess #chesstok #chessblunder #aichess"}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 5, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 5, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
