@@ -378,3 +378,6 @@
 ### commandes/perso_pigeon_en_14.json
     voix générée : 252 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_14.mp4 {"voix_brute_s": 18.4, "tempo": 1.0, "video_s": 19.1, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 45, "minutage": "8 phrases, 4 coups, 0 pauses"}
+### commandes/perso_pigeon_en_15.json
+    voix générée : 266 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_15.mp4 {"voix_brute_s": 19.2, "tempo": 1.0, "video_s": 20.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 49, "minutage": "10 phrases, 4 coups, 0 pauses"}

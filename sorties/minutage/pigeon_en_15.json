@@ -1,0 +1,78 @@
+{
+ "nom": "pigeon_en_15",
+ "tempo": 1.0,
+ "duree_s": 19.36,
+ "hook": {
+  "texte": "Sacrifice the queen.|Pawn mates.",
+  "fin": 1.88
+ },
+ "question": {
+  "texte": "Follow: one new|trap every day",
+  "t": 16.16
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Your knight is under attack."
+  },
+  {
+   "t": 1.88,
+   "texte": "Ignore it!"
+  },
+  {
+   "t": 2.84,
+   "texte": "Give him your queen with check."
+  },
+  {
+   "t": 5.12,
+   "texte": "He thinks he is safe."
+  },
+  {
+   "t": 6.52,
+   "texte": "He has to take it."
+  },
+  {
+   "t": 8.04,
+   "texte": "Now push your pawn."
+  },
+  {
+   "t": 9.6,
+   "texte": "The pawn gives checkmate!"
+  },
+  {
+   "t": 11.78,
+   "texte": "It sounds crazy but it works."
+  },
+  {
+   "t": 14.18,
+   "texte": "A tiny pawn beats the king."
+  },
+  {
+   "t": 16.84,
+   "texte": "Follow: one new trap every day."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.64,
+   "coup": "h6",
+   "badge": "gaffe"
+  },
+  {
+   "t": 3.62,
+   "coup": "Qf7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 6.78,
+   "coup": "Bxf7",
+   "badge": null
+  },
+  {
+   "t": 10.0,
+   "coup": "exf7#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
