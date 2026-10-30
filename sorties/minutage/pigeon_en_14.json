@@ -1,0 +1,70 @@
+{
+ "nom": "pigeon_en_14",
+ "tempo": 1.0,
+ "duree_s": 18.48,
+ "hook": {
+  "texte": "Ignore the knight.|Jump forward.",
+  "fin": 1.6
+ },
+ "question": {
+  "texte": "Follow: one new|trap every day",
+  "t": 15.28
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "He took your knight."
+  },
+  {
+   "t": 1.6,
+   "texte": "Do not take it back!"
+  },
+  {
+   "t": 3.04,
+   "texte": "Stay calm and jump your other knight forward."
+  },
+  {
+   "t": 6.04,
+   "texte": "Now your queen is hanging but his king is not safe."
+  },
+  {
+   "t": 9.72,
+   "texte": "He eats the giant candy."
+  },
+  {
+   "t": 11.98,
+   "texte": "Your bishop takes the pawn."
+  },
+  {
+   "t": 13.92,
+   "texte": "Checkmate!"
+  },
+  {
+   "t": 15.78,
+   "texte": "Follow: one new trap every day."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.16,
+   "coup": "Nxc3",
+   "badge": null
+  },
+  {
+   "t": 4.72,
+   "coup": "Ne5",
+   "badge": "brillant"
+  },
+  {
+   "t": 10.14,
+   "coup": "Nxd1",
+   "badge": "gaffe"
+  },
+  {
+   "t": 12.72,
+   "coup": "Bxf7#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
