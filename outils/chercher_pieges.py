@@ -3,7 +3,7 @@
 
 Source : base publique des puzzles Lichess (database.lichess.org, licence CC0). Chaque puzzle vient d'une vraie partie
 où un joueur a gaffé ; quand le MÊME position de gaffe revient dans beaucoup de puzzles, c'est un piège récurrent.
-Filtres : thème « opening » + mat en 1 à 3 coups, puzzle classé 1000-1800 (plancher 1000 Elo), gaffe avant le 25e demi-coup.
+Filtres : thème « opening » + mat en 2 à 4 coups, puzzle classé 1300-2000 (Simon, 30/10), gaffe avant le 31e demi-coup.
 La ligne depuis le départ est reprise de la vraie partie (export public Lichess, sans nom de joueur), puis vérifiée :
 python-chess (légalité, mat) + Stockfish (la gaffe perd vraiment, le coup juste existait), anti-doublon (outils/deja_fait.py).
 
@@ -19,7 +19,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 ROOT = os.path.dirname(HERE)
 URL = "https://database.lichess.org/lichess_db_puzzle.csv.zst"
 UA = {"User-Agent": "BlunderCheck-pieges/1.0 (+https://blundercheck.app)"}
-MATS = {"mateIn1": 1, "mateIn2": 2, "mateIn3": 3}
+MATS = {"mateIn2": 2, "mateIn3": 3, "mateIn4": 4}  # 30/10 (Simon) : plus de mat en 1, combinaisons jusqu'à 4 coups
 
 
 def lignes_puzzles():
@@ -30,7 +30,7 @@ def lignes_puzzles():
         yield from csv.DictReader(io.TextIOWrapper(flux, encoding="utf-8"))
 
 
-def regrouper(lignes, rmin=1000, rmax=1800, ply_max=24):
+def regrouper(lignes, rmin=1300, rmax=2000, ply_max=30):  # 30/10 (Simon) : niveau 1300-2000
     groupes = collections.defaultdict(list)
     for p in lignes:
         th = p["Themes"].split()
@@ -125,7 +125,7 @@ def principal(nmax=20):
     json.dump(sortie, open(os.path.join(ROOT, "stock/pieges-candidats.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     L = ["# Pièges candidats (réserve du Scénariste)", "",
          f"*Généré le {time.strftime('%d/%m/%Y')} par `outils/chercher_pieges.py` (puzzles Lichess, CC0) : pièges d'ouverture à mat où de vrais joueurs",
-         "tombent souvent (puzzle classé 1000-1800). Ligne vérifiée python-chess + Stockfish 1 s. « Déjà fait » = d'après `marketing/deja-fait.md`.",
+         "tombent souvent (puzzle classé 1300-2000, mat en 2 à 4). Ligne vérifiée python-chess + Stockfish 1 s. « Déjà fait » = d'après `marketing/deja-fait.md`.",
          "Le Scénariste prend d'abord les « non » ; « fr » seul = jumeau EN possible, et inversement.*", "",
          "| # | Ouverture | Parties réelles | Note moy. | Mat en | Héros | Gaffe (coup juste) | Ligne | Déjà fait |", "|---|---|---|---|---|---|---|---|---|"]
     for i, c in enumerate(sortie, 1):
