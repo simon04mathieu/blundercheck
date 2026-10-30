@@ -1,0 +1,55 @@
+name: Résumé chiffres
+
+on:
+  schedule:
+    - cron: '47 18,19 * * *'   # UTC : 19 h 47 + 20 h 47 Zurich en hiver
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: resume-chiffres
+  cancel-in-progress: false
+
+jobs:
+  resume:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: videos
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: |
+            stats
+            outils
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Générer le résumé
+        run: |
+          {
+            echo "# Résumé des chiffres"
+            echo
+            echo "Généré le $(TZ=Europe/Zurich date '+%Y-%m-%d %H:%M') (Zurich) par GitHub Actions, commit $(git rev-parse --short HEAD)."
+            echo
+            python3 outils/resume_chiffres.py
+          } > "$RUNNER_TEMP/resume.md"
+          mv "$RUNNER_TEMP/resume.md" stats/resume-chiffres.md
+
+      - name: Pousser sur videos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add stats/resume-chiffres.md
+          git diff --cached --quiet && exit 0
+          git commit -m "Résumé des chiffres [skip ci]"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin videos && git push origin HEAD:videos && exit 0
+            sleep $((i*10))
+          done
+          exit 1
