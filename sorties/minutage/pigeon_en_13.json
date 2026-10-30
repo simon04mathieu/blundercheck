@@ -1,0 +1,78 @@
+{
+ "nom": "pigeon_en_13",
+ "tempo": 1.0,
+ "duree_s": 19.94,
+ "hook": {
+  "texte": "He took the knight.|Big mistake.",
+  "fin": 2.78
+ },
+ "question": {
+  "texte": "Trap #3 tomorrow|Follow!",
+  "t": 16.74
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "White takes your knight and smiles."
+  },
+  {
+   "t": 2.78,
+   "texte": "He thinks he is winning."
+  },
+  {
+   "t": 4.56,
+   "texte": "Now give him a bishop for free."
+  },
+  {
+   "t": 6.8,
+   "texte": "It takes a pawn with check."
+  },
+  {
+   "t": 9.22,
+   "texte": "The king must run away."
+  },
+  {
+   "t": 11.16,
+   "texte": "Then your queen jumps in."
+  },
+  {
+   "t": 13.16,
+   "texte": "Checkmate!"
+  },
+  {
+   "t": 14.46,
+   "texte": "One small gift and his king is lost."
+  },
+  {
+   "t": 17.62,
+   "texte": "Trap #3 tomorrow."
+  },
+  {
+   "t": 19.36,
+   "texte": "Follow!"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.36,
+   "coup": "Bxf6",
+   "badge": "gaffe"
+  },
+  {
+   "t": 7.12,
+   "coup": "Bxf2+",
+   "badge": "brillant"
+  },
+  {
+   "t": 9.84,
+   "coup": "Kd2",
+   "badge": null
+  },
+  {
+   "t": 11.72,
+   "coup": "Qe3#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
