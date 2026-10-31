@@ -1,0 +1,70 @@
+{
+ "nom": "quiz_legal_9_fr",
+ "tempo": 1.0,
+ "duree_s": 23.54,
+ "hook": {
+  "texte": "Double échec :|tu prends ?",
+  "fin": 4.32
+ },
+ "question": {
+  "texte": "Tu le savais ?|Abonne-toi",
+  "t": 20.34
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Ton roi est en échec par un cavalier et un fou en même temps."
+  },
+  {
+   "t": 4.32,
+   "texte": "Ta dame peut prendre le cavalier."
+  },
+  {
+   "t": 6.26,
+   "texte": "C'est légal ?"
+  },
+  {
+   "t": 7.3,
+   "texte": "Réfléchis !"
+  },
+  {
+   "t": 10.82,
+   "texte": "Réponse : non."
+  },
+  {
+   "t": 13.04,
+   "texte": "Même sans le cavalier le fou donne toujours échec."
+  },
+  {
+   "t": 17.08,
+   "texte": "En double échec seul le roi peut bouger."
+  },
+  {
+   "t": 20.0,
+   "texte": "Tu le savais ?"
+  },
+  {
+   "t": 21.46,
+   "texte": "Abonne-toi : une règle par jour."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.0,
+   "coup": "Nf3+",
+   "badge": "gaffe"
+  },
+  {
+   "t": 19.04,
+   "coup": "Kf2",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 8.8,
+   "duree": 2.0,
+   "texte": "Légal ou pas ?"
+  }
+ ]
+}
