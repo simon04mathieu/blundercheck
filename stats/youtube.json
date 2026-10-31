@@ -1,5 +1,5 @@
 {
- "date": "2026-10-31T19:38:44.815595+00:00",
+ "date": "2026-10-31T20:35:46.015023+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,13 +7,22 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "w3u8q3pgWBY": {
+   "titre": "Double check: can you take the knight? ♟️ #chess #shorts",
+   "publiee": "2026-10-31T19:38:59Z",
+   "statut": "public",
+   "duree": "PT24S",
+   "vues": 79,
+   "jaime": 0,
+   "commentaires": 0
+  },
   "zvB0Kz98UXw": {
    "titre": "Knight sacrifice… then mate ♟️ #chess #shorts",
    "publiee": "2026-10-31T16:38:10Z",
    "statut": "public",
    "duree": "PT31S",
-   "vues": 536,
-   "jaime": 16,
+   "vues": 746,
+   "jaime": 22,
    "commentaires": 0
   },
   "mjj5ssiT328": {
@@ -21,8 +30,8 @@
    "publiee": "2026-10-31T13:45:16Z",
    "statut": "public",
    "duree": "PT58S",
-   "vues": 112,
-   "jaime": 2,
+   "vues": 117,
+   "jaime": 1,
    "commentaires": 1
   },
   "j-rv9cfDT3M": {
@@ -30,7 +39,7 @@
    "publiee": "2026-10-31T10:37:39Z",
    "statut": "public",
    "duree": "PT28S",
-   "vues": 716,
+   "vues": 993,
    "jaime": 5,
    "commentaires": 0
   },
@@ -48,8 +57,8 @@
    "publiee": "2026-10-30T16:48:21Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 3409,
-   "jaime": 66,
+   "vues": 3467,
+   "jaime": 65,
    "commentaires": 1
   },
   "utElZQZHWaw": {
@@ -57,7 +66,7 @@
    "publiee": "2026-10-30T14:00:05Z",
    "statut": "public",
    "duree": "PT27S",
-   "vues": 915,
+   "vues": 916,
    "jaime": 10,
    "commentaires": 0
   },
@@ -66,7 +75,7 @@
    "publiee": "2026-10-30T10:47:56Z",
    "statut": "public",
    "duree": "PT21S",
-   "vues": 1170,
+   "vues": 1174,
    "jaime": 6,
    "commentaires": 1
   },
@@ -75,7 +84,7 @@
    "publiee": "2026-10-29T19:50:10Z",
    "statut": "public",
    "duree": "PT21S",
-   "vues": 1922,
+   "vues": 1945,
    "jaime": 13,
    "commentaires": 0
   },
@@ -93,7 +102,7 @@
    "publiee": "2026-10-29T14:01:21Z",
    "statut": "public",
    "duree": "PT20S",
-   "vues": 2328,
+   "vues": 2319,
    "jaime": 18,
    "commentaires": 1
   },
@@ -111,7 +120,7 @@
    "publiee": "2026-10-28T19:47:32Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 10704,
+   "vues": 10706,
    "jaime": 68,
    "commentaires": 20
   },
@@ -120,7 +129,7 @@
    "publiee": "2026-10-28T16:51:44Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 1155,
+   "vues": 1175,
    "jaime": 11,
    "commentaires": 1
   },
@@ -138,7 +147,7 @@
    "publiee": "2026-10-28T10:46:09Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 1204,
+   "vues": 1218,
    "jaime": 6,
    "commentaires": 1
   },
