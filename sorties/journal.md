@@ -415,3 +415,8 @@
 ### commandes/perso_quiz_legal_9_fr.json
     voix générée : 278 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/quiz_legal_9_fr.mp4 {"voix_brute_s": 21.5, "tempo": 1.0, "video_s": 24.1, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 55, "minutage": "9 phrases, 2 coups, 1 pauses"}
+## 2026-10-31 00:26 UTC · run 41150112987
+### commandes/perso_quiz_legal_9_en_long.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/quiz_legal_9_en_long.mp4 {"voix_brute_s": 20.5, "tempo": 1.0, "video_s": 27.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 53, "minutage": "8 phrases, 2 coups, 1 pauses"}
