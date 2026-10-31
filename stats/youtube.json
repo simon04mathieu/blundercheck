@@ -1,5 +1,5 @@
 {
- "date": "2026-10-31T06:49:37.914449+00:00",
+ "date": "2026-10-31T07:52:28.621372+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -21,8 +21,8 @@
    "publiee": "2026-10-30T16:48:21Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 1949,
-   "jaime": 46,
+   "vues": 2083,
+   "jaime": 49,
    "commentaires": 1
   },
   "utElZQZHWaw": {
@@ -30,7 +30,7 @@
    "publiee": "2026-10-30T14:00:05Z",
    "statut": "public",
    "duree": "PT27S",
-   "vues": 828,
+   "vues": 904,
    "jaime": 10,
    "commentaires": 0
   },
@@ -39,7 +39,7 @@
    "publiee": "2026-10-30T10:47:56Z",
    "statut": "public",
    "duree": "PT21S",
-   "vues": 1144,
+   "vues": 1157,
    "jaime": 6,
    "commentaires": 1
   },
@@ -48,7 +48,7 @@
    "publiee": "2026-10-29T19:50:10Z",
    "statut": "public",
    "duree": "PT21S",
-   "vues": 1691,
+   "vues": 1661,
    "jaime": 13,
    "commentaires": 0
   },
@@ -57,7 +57,7 @@
    "publiee": "2026-10-29T16:54:19Z",
    "statut": "public",
    "duree": "PT13S",
-   "vues": 1000,
+   "vues": 996,
    "jaime": 9,
    "commentaires": 0
   },
@@ -66,7 +66,7 @@
    "publiee": "2026-10-29T14:01:21Z",
    "statut": "public",
    "duree": "PT20S",
-   "vues": 1738,
+   "vues": 1836,
    "jaime": 15,
    "commentaires": 1
   },
@@ -75,7 +75,7 @@
    "publiee": "2026-10-29T10:48:25Z",
    "statut": "public",
    "duree": "PT11S",
-   "vues": 1380,
+   "vues": 1365,
    "jaime": 10,
    "commentaires": 0
   },
@@ -84,7 +84,7 @@
    "publiee": "2026-10-28T19:47:32Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 10664,
+   "vues": 10657,
    "jaime": 67,
    "commentaires": 20
   },
@@ -111,7 +111,7 @@
    "publiee": "2026-10-28T10:46:09Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 1172,
+   "vues": 1171,
    "jaime": 6,
    "commentaires": 1
   },
@@ -147,7 +147,7 @@
    "publiee": "2026-10-27T10:39:20Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 1103,
+   "vues": 1093,
    "jaime": 9,
    "commentaires": 0
   },
