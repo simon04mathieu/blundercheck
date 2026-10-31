@@ -38,3 +38,6 @@
 {"reseau": "instagram", "id": "18093375512213324"}
 ### 2026-10-30 19:53 publications/instagram/quiz_legal_8_fr.json
 {"reseau": "instagram", "id": "18134655046805797"}
+### 2026-10-31 19:44 publications/instagram/quiz_legal_9_fr.json
+ÉCHEC :
+ÉCHEC : champ « etiquettes » manquant dans publications/instagram/quiz_legal_9_fr.json
