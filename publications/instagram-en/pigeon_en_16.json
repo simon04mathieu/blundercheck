@@ -1,0 +1,36 @@
+{
+ "legende": "🪤 Two knights and a queen: one sacrifice opens the road, and the king is mated. Caro-Kann trap. Would you have seen it? Follow: one new trap every day.\n\nFree game analysis: link in bio\n\n#chess #chesstrap #carokann",
+ "envoyer_apres": "2026-10-31T17:00:00+01:00",
+ "fichier": "sorties/pigeon_en_16.mp4",
+ "concept": "pigeon_en",
+ "format": "PERSO",
+ "langue": "en",
+ "test": "T11-série",
+ "duree": 31,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "en",
+  "duree_s": 31,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T11-série",
+  "ouverture": "coup_image0",
+  "titre": "resultat",
+  "appel_site": "non",
+  "hook": "sacrifice_cavalier+mat",
+  "premiers_mots": "He blocks the",
+  "personnages": [
+   "pigeon",
+   "knight",
+   "queen",
+   "you"
+  ],
+  "fin": "follow_promesse",
+  "interet": "sacrifice_cavalier_mat_dame",
+  "ouverture_nom": "Caro-Kann Two Knights (réserve n° 9, 1592)",
+  "source_piege": "réserve Lichess CC0",
+  "variante": "B"
+ }
+}

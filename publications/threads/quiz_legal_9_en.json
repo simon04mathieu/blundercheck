@@ -1,0 +1,33 @@
+{
+ "legende": "♟️ Your king is in check twice. Your queen can take the knight… legal or illegal? Yes or no 👇 Follow: one new rule every day.\n\nFree game analysis: https://blundercheck.app/try?src=threads-en\n#chess",
+ "envoyer_apres": "2026-10-31T20:00:00+01:00",
+ "fichier": "sorties/quiz_legal_9_en.mp4",
+ "concept": "quiz_legal",
+ "format": "QUIZ",
+ "langue": "en",
+ "test": "T6-durée",
+ "duree": 23,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "QUIZ",
+  "langue": "en",
+  "duree_s": 23,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T6-durée",
+  "ouverture": "coup_image0",
+  "titre": "resultat",
+  "appel_site": "non",
+  "hook": "question_legal",
+  "premiers_mots": "Your king is",
+  "personnages": [
+   "you",
+   "queen",
+   "king"
+  ],
+  "fin": "follow_promesse",
+  "interet": "regle_double_echec",
+  "variante": "B"
+ }
+}

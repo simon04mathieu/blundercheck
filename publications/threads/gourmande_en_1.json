@@ -1,0 +1,34 @@
+{
+ "legende": "🎃 Happy Halloween! The Greedy One gobbles your queen… and your knight and bishop mate her king. Would you have eaten the queen? Follow: one new trap every day.\n\nFree game analysis: https://blundercheck.app/try?src=threads-en\n#chess",
+ "envoyer_apres": "2026-10-31T11:00:00+01:00",
+ "fichier": "sorties/gourmande_en_1.mp4",
+ "concept": "gourmande",
+ "format": "PERSO",
+ "langue": "en",
+ "test": "aucun",
+ "duree": 27,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "PERSO",
+  "langue": "en",
+  "duree_s": 27,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "aucun",
+  "ouverture": "coup_image0",
+  "titre": "resultat",
+  "appel_site": "non",
+  "hook": "mange_dame+mat",
+  "premiers_mots": "Happy Halloween! The",
+  "personnages": [
+   "Greedy One",
+   "pigeon",
+   "you"
+  ],
+  "fin": "follow_promesse",
+  "interet": "sacrifice_dame_mat_cavalier_fou",
+  "ouverture_nom": "Zukertort Opening (réserve n° 5, 1770)",
+  "source_piege": "réserve Lichess CC0",
+  "evenement": "halloween"
+ }
+}

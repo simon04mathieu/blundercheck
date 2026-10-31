@@ -1,0 +1,12 @@
+{
+ "legende": "Double échec : ta dame peut prendre le cavalier… légal ou pas ? Oui ou non 👇 Abonne-toi : une règle par jour !\n\n#echecs #chess #regles #echecsfr",
+ "envoyer_apres": "2026-10-31T20:00:00+01:00",
+ "fichier": "sorties/quiz_legal_9_fr.mp4",
+ "concept": "quiz_legal",
+ "format": "QUIZ",
+ "langue": "fr",
+ "test": "T13-fin-quiz",
+ "duree": 24,
+ "voix": "oui",
+ "variante": "A"
+}
