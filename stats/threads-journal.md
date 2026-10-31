@@ -57,3 +57,6 @@ VÉRIF OK : profil Threads @blundercheckapp (id 29353457984238691), jeton rangé
 {"reseau": "threads", "id": "17955163005301976"}
 ### 2026-10-31 13:50 publications/threads/prof_partie_1.json
 {"reseau": "threads", "id": "18119830174992588"}
+### 2026-10-31 16:43 publications/threads/pigeon_en_16.json
+jeton Threads renouvelé (valable 60 jours)
+{"reseau": "threads", "id": "17914545396288268"}
