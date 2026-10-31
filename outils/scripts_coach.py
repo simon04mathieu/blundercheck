@@ -1167,3 +1167,53 @@ QUESTIONS.update({
     "pigeon_jour_13": "Abonne-toi :|un piège par jour",
     "quiz_legal_8_fr": "Abonne-toi :|un piège par jour",
 })
+
+# ---------- file du 30-31/10 (scénariste 22 h 33) : 3 EN + 2 FR (+ version longue T6 TikTok EN). Niveau 1300-2000 ----------
+# Producteur (31/10, 1 h) : python-chess + Stockfish 19 (WASM, 0,5 s) : Zukertort 9...Nxd4?? = mat en 2 (9...f6 tient) ;
+# Caro-Kann 12...Be7?? = mat en 2 (12...Qe7) ; double échec : Qxf3 illégal, seuls Kf1/Ke2/Kf2. Anti-doublon : NOUVEAU (3 positions). Aucune musique.
+ZUK_AVANT = "Nf3 g6 d4 Bg7 c4 d6 Nc3 e5 e4 exd4 Bg5 Ne7 Nd5 Nbc6 Nxd4 Bxd4"
+CARO_AVANT = "e4 c6 Nc3 d5 Nf3 dxe4 Nxe4 Nf6 Ng3 h5 h4 Bg4 Be2 Nbd7 Ng5 Bxe2 Qxe2 e6"
+CARO_FIN = CARO_AVANT + " Nf5 g6 Nxe6 fxe6 Qxe6+"
+DOUBLE_ECHEC = "fen:4k3/8/8/8/1b6/8/3n4/3QK3_b_-_-_0_1"
+PERSO.update({
+"gourmande_en_1": {   # Halloween, la Gourmande déguisée, Zukertort (réserve n° 5, 1770), sans test
+    "cote": "blancs",
+    "hook": "She eats your queen.|Then mate.",
+    "voix": """[mischievously] Happy Halloween! The Greedy One is in costume, but she still loves candy. Your queen takes the bishop: free candy for her! Her knight gobbles your queen. Now your knight jumps with check. Her king has only one square. Your bishop slides in: checkmate! Her dark bishop was gone, so her king had no defender. Follow: one new trap every day.""",
+    "script": """[p """ + ZUK_AVANT + """ Qxd4] Happy [m Nxd4 gaffe] Halloween! [h] The Greedy One is in costume, [p """ + ZUK_AVANT + """] but she still loves candy. Your queen [m Qxd4 brillant] takes the bishop: free candy for her! Her knight [m Nxd4 gaffe] [s tag d4 2.0 PIGEON] gobbles your queen. Now your knight [m Nf6+ brillant] [z f6 1.3 2.0] jumps with check. Her king [m Kf8] has only one square. Your bishop [m Bh6# mat] [z h6f8 1.45 2.6] [x impact] slides in: checkmate! Her dark bishop was gone, so her king had no defender. Follow: one new trap every day.""",
+},
+"gourmande_fr_1": {   # jumeau FR de gourmande_en_1, sans test
+    "cote": "blancs",
+    "hook": "Elle mange ta dame.|Puis mat.",
+    "voix": """[mischievously] Joyeux Halloween ! La Gourmande est déguisée, mais elle adore toujours les bonbons. Ta dame prend le fou : bonbon gratuit pour elle ! Son cavalier avale ta dame. Ton cavalier saute avec échec. Son roi n'a qu'une seule case. Ton fou arrive : échec et mat ! Son fou des cases noires était parti, son roi n'avait plus de défenseur. Abonne-toi : un piège par jour.""",
+    "script": """[p """ + ZUK_AVANT + """ Qxd4] Joyeux [m Nxd4 gaffe] Halloween ! [h] La Gourmande est déguisée, [p """ + ZUK_AVANT + """] mais elle adore toujours les bonbons. Ta dame [m Qxd4 brillant] prend le fou : bonbon gratuit pour elle ! Son cavalier [m Nxd4 gaffe] [s tag d4 2.0 LE_PIGEON] avale ta dame. Ton cavalier [m Nf6+ brillant] [z f6 1.3 2.0] saute avec échec. Son roi [m Kf8] n'a qu'une seule case. Ton fou [m Bh6# mat] [z h6f8 1.45 2.6] [x impact] arrive : échec et mat ! Son fou des cases noires était parti, son roi n'avait plus de défenseur. Abonne-toi : un piège par jour.""",
+},
+"pigeon_en_16": {   # Caro-Kann Two Knights (réserve n° 9, 1592), T11-série B (sans badge ni numéro) ; remplace Scotch
+    "cote": "blancs",
+    "hook": "Knight sacrifice.|Then mate.",
+    "voix": """[mischievously] He blocks the check with his bishop. Big mistake! Rewind. Your knight jumps forward. Your other knight crashes in and offers itself. The pigeon takes it. Your queen takes back, with check. He blocks with the bishop. Now your first knight jumps with check. His king steps aside. Your queen delivers the mate. Remember: a sacrifice opens the road to the king. Follow: one new trap every day.""",
+    "script": """[p """ + CARO_FIN + """] He blocks [m Be7 gaffe] the check with his bishop. Big mistake! [h] Rewind. [p """ + CARO_AVANT + """] Your knight [m Nf5] jumps forward. [m g6] Your other knight [m Nxe6 brillant] crashes in and offers itself. The pigeon [m fxe6] [s tag e6 2.0 PIGEON] takes it. Your queen [m Qxe6+ brillant] takes back, with check. He blocks [m Be7 gaffe] with the bishop. Now your first knight [m Nd6+ brillant] [z d6 1.3 2.0] jumps with check. His king [m Kf8] steps aside. Your queen [m Qf7# mat] [z f7f8 1.45 2.6] [x impact] delivers the mate. Remember: a sacrifice opens the road to the king. Follow: one new trap every day.""",
+},
+"quiz_legal_9_en": {   # double échec, EN, T6-durée B (court)
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Check twice.|Take the knight?",
+    "voix": """Your king is in check from a knight and a bishop at the same time. Your queen can take the knight. Is it legal? Think! The answer is no. Even without the knight, the bishop still gives check. In a double check, only the king can move. Follow: one new rule every day.""",
+    "script": """[p """ + DOUBLE_ECHEC + """] [m Nf3+ gaffe] Your king is in check [f f3e1] from a knight and a bishop at the same time. [h] Your queen [f d1f3] can take the knight. Is it legal? Think! [q 2 Legal_or_illegal?] The answer is no. [s tag f3 2.0 NO] [x impact] Even without the knight, the bishop [f b4e1] still gives check. In a double check, only the king [m Kf2 brillant] can move. Follow: one new rule every day.""",
+},
+"quiz_legal_9_fr": {   # double échec, FR, T13-fin-quiz A (question finale)
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Double échec :|tu prends ?",
+    "voix": """Ton roi est en échec par un cavalier et un fou en même temps. Ta dame peut prendre le cavalier. C'est légal ? Réfléchis ! Réponse : non. Même sans le cavalier, le fou donne toujours échec. En double échec, seul le roi peut bouger. Tu le savais ? Abonne-toi : une règle par jour.""",
+    "script": """[p """ + DOUBLE_ECHEC + """] [m Nf3+ gaffe] Ton roi est en échec [f f3e1] par un cavalier et un fou en même temps. [h] Ta dame [f d1f3] peut prendre le cavalier. C'est légal ? Réfléchis ! [q 2 Légal_ou_pas_?] Réponse : non. [s tag f3 2.0 NON] [x impact] Même sans le cavalier, le fou [f b4e1] donne toujours échec. En double échec, seul le roi [m Kf2 brillant] peut bouger. Tu le savais ? Abonne-toi : une règle par jour.""",
+},
+})
+PERSO["quiz_legal_9_en_long"] = dict(PERSO["quiz_legal_9_en"],   # T6-durée A (TikTok EN seulement) : même voix (0 crédit), pause 6 s
+    script=PERSO["quiz_legal_9_en"]["script"].replace("[q 2 Legal_or_illegal?]", "[q 6 Legal_or_illegal?_Think!]"))
+QUESTIONS.update({
+    "gourmande_en_1": "Follow: one new|trap every day",
+    "gourmande_fr_1": "Abonne-toi :|un piège par jour",
+    "pigeon_en_16": "Follow: one new|trap every day",
+    "quiz_legal_9_en": "Follow: one new|rule every day",
+    "quiz_legal_9_en_long": "Follow: one new|rule every day",
+    "quiz_legal_9_fr": "Tu le savais ?|Abonne-toi",
+})
