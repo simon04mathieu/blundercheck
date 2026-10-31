@@ -1,0 +1,84 @@
+{
+ "nom": "gourmande_fr_1",
+ "tempo": 1.0,
+ "duree_s": 33.45,
+ "hook": {
+  "texte": "Elle mange ta dame.|Puis mat.",
+  "fin": 2.11
+ },
+ "question": {
+  "texte": "Abonne-toi :|un piège par jour",
+  "t": 30.25
+ },
+ "phrases": [
+  {
+   "t": 0.2,
+   "texte": "Joyeux Halloween !"
+  },
+  {
+   "t": 2.11,
+   "texte": "La Gourmande est déguisée mais elle adore toujours les bonbons."
+  },
+  {
+   "t": 7.28,
+   "texte": "Ta dame prend le fou  bonbon gratuit pour elle !"
+  },
+  {
+   "t": 12.1,
+   "texte": "Son cavalier avale ta dame."
+  },
+  {
+   "t": 14.73,
+   "texte": "Ton cavalier saute avec échec."
+  },
+  {
+   "t": 17.47,
+   "texte": "Son roi n'a qu'une seule case."
+  },
+  {
+   "t": 20.4,
+   "texte": "Ton fou arrive  échec et mat !"
+  },
+  {
+   "t": 23.97,
+   "texte": "Son fou des cases noires était parti, son roi n'avait plus de défenseur."
+  },
+  {
+   "t": 30.02,
+   "texte": "Abonne-toi : un piège par jour."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.65,
+   "coup": "Nxd4",
+   "badge": "gaffe"
+  },
+  {
+   "t": 7.97,
+   "coup": "Qxd4",
+   "badge": "brillant"
+  },
+  {
+   "t": 12.97,
+   "coup": "Nxd4",
+   "badge": "gaffe"
+  },
+  {
+   "t": 15.6,
+   "coup": "Nf6+",
+   "badge": "brillant"
+  },
+  {
+   "t": 18.15,
+   "coup": "Kf8",
+   "badge": null
+  },
+  {
+   "t": 21.09,
+   "coup": "Bh6#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}

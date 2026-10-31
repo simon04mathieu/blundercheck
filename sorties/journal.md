@@ -403,3 +403,6 @@
     voix générée : 354 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/gourmande_en_1.mp4 {"voix_brute_s": 26.6, "tempo": 1.0, "video_s": 27.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 61, "minutage": "9 phrases, 6 coups, 0 pauses"}
+### commandes/perso_gourmande_fr_1.json
+    sans voix (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/gourmande_fr_1.mp4 {"voix_brute_s": 33.5, "tempo": 1.0, "video_s": 34.1, "voice_id": "aucune", "musique": "aucune", "mots_transcrits": 67, "minutage": "9 phrases, 6 coups, 0 pauses"}
