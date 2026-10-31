@@ -48,3 +48,5 @@
 {"reseau": "facebook", "id": "1562141042346359", "ok": true}
 ### 2026-10-31 10:43 publications/facebook/gourmande_en_1.json
 {"reseau": "facebook", "id": "1142204735448911", "ok": true}
+### 2026-10-31 13:49 publications/facebook/prof_partie_1.json
+{"reseau": "facebook", "id": "1146204338060861", "ok": true}
