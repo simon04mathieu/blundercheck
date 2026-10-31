@@ -1,0 +1,66 @@
+{
+ "nom": "quiz_legal_9_en",
+ "tempo": 1.0,
+ "duree_s": 22.6,
+ "hook": {
+  "texte": "Check twice.|Take the knight?",
+  "fin": 4.38
+ },
+ "question": {
+  "texte": "Follow: one new|rule every day",
+  "t": 19.4
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Your king is in check from a knight and a bishop at the same time."
+  },
+  {
+   "t": 4.38,
+   "texte": "Your queen can take the knight."
+  },
+  {
+   "t": 6.36,
+   "texte": "Is it legal?"
+  },
+  {
+   "t": 7.54,
+   "texte": "Think!"
+  },
+  {
+   "t": 10.58,
+   "texte": "The answer is no."
+  },
+  {
+   "t": 12.3,
+   "texte": "Even without the knight the bishop still gives check."
+  },
+  {
+   "t": 16.12,
+   "texte": "In a double check only the king can move."
+  },
+  {
+   "t": 19.8,
+   "texte": "Follow: one new rule every day."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.0,
+   "coup": "Nf3+",
+   "badge": "gaffe"
+  },
+  {
+   "t": 17.9,
+   "coup": "Kf2",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 8.56,
+   "duree": 2.0,
+   "texte": "Legal or illegal?"
+  }
+ ]
+}
