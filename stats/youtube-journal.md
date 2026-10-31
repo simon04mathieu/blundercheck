@@ -299,3 +299,4 @@
 ### 2026-10-31 10:37 publications/youtube/gourmande_en_1.json
 {"id": "j-rv9cfDT3M", "url": "https://www.youtube.com/shorts/j-rv9cfDT3M", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "29"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "29"}
