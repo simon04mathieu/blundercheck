@@ -398,3 +398,8 @@
 ## 2026-10-31 00:06 UTC · prof corrige · run 41148243996
 ### commandes/prof/prof_2.json
     OK : prof_2, 135 demi-coups, 3 moments, 81 commentaires du prof
+## 2026-10-31 00:18 UTC · run 41149289617
+### commandes/perso_gourmande_en_1.json
+    voix générée : 354 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/gourmande_en_1.mp4 {"voix_brute_s": 26.6, "tempo": 1.0, "video_s": 27.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 61, "minutage": "9 phrases, 6 coups, 0 pauses"}

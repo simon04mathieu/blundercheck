@@ -1,0 +1,84 @@
+{
+ "nom": "gourmande_en_1",
+ "tempo": 1.0,
+ "duree_s": 26.7,
+ "hook": {
+  "texte": "She eats your queen.|Then mate.",
+  "fin": 1.56
+ },
+ "question": {
+  "texte": "Follow: one new|trap every day",
+  "t": 23.5
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Happy Halloween!"
+  },
+  {
+   "t": 1.56,
+   "texte": "The Greedy One is in costume but she still loves candy."
+  },
+  {
+   "t": 5.62,
+   "texte": "Your queen takes the bishop free candy for her!"
+  },
+  {
+   "t": 9.46,
+   "texte": "Her knight gobbles your queen."
+  },
+  {
+   "t": 11.72,
+   "texte": "Now your knight jumps with check."
+  },
+  {
+   "t": 14.18,
+   "texte": "Her king has only one square."
+  },
+  {
+   "t": 16.58,
+   "texte": "Your bishop slides in checkmate!"
+  },
+  {
+   "t": 19.76,
+   "texte": "Her dark bishop was gone so her king had no defender."
+  },
+  {
+   "t": 23.96,
+   "texte": "Follow: one new trap every day."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.32,
+   "coup": "Nxd4",
+   "badge": "gaffe"
+  },
+  {
+   "t": 6.06,
+   "coup": "Qxd4",
+   "badge": "brillant"
+  },
+  {
+   "t": 9.88,
+   "coup": "Nxd4",
+   "badge": "gaffe"
+  },
+  {
+   "t": 12.38,
+   "coup": "Nf6+",
+   "badge": "brillant"
+  },
+  {
+   "t": 14.56,
+   "coup": "Kf8",
+   "badge": null
+  },
+  {
+   "t": 17.0,
+   "coup": "Bh6#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
