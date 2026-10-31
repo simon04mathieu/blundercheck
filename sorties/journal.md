@@ -423,3 +423,4 @@
 ## 2026-10-31 00:30 UTC · pièges · run 41150474685
 ### commandes/pieges/2026-10-31b.json
     OK stock/pieges-candidats.md : 10 pièges, dont 7 jamais faits
+## 2026-10-31 10:41 UTC · run 41193698239
