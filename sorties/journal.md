@@ -406,3 +406,6 @@
 ### commandes/perso_gourmande_fr_1.json
     sans voix (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/gourmande_fr_1.mp4 {"voix_brute_s": 33.5, "tempo": 1.0, "video_s": 34.1, "voice_id": "aucune", "musique": "aucune", "mots_transcrits": 67, "minutage": "9 phrases, 6 coups, 0 pauses"}
+### commandes/perso_pigeon_en_16.json
+    voix générée : 405 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_16.mp4 {"voix_brute_s": 29.9, "tempo": 1.0, "video_s": 30.6, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 68, "minutage": "13 phrases, 10 coups, 0 pauses"}

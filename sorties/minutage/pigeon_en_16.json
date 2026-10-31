@@ -1,0 +1,120 @@
+{
+ "nom": "pigeon_en_16",
+ "tempo": 1.0,
+ "duree_s": 30.0,
+ "hook": {
+  "texte": "Knight sacrifice.|Then mate.",
+  "fin": 3.62
+ },
+ "question": {
+  "texte": "Follow: one new|trap every day",
+  "t": 26.8
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "He blocks the check with his bishop."
+  },
+  {
+   "t": 2.36,
+   "texte": "Big mistake!"
+  },
+  {
+   "t": 3.62,
+   "texte": "Rewind."
+  },
+  {
+   "t": 4.82,
+   "texte": "Your knight jumps forward."
+  },
+  {
+   "t": 6.68,
+   "texte": "Your other knight crashes in and offers itself."
+  },
+  {
+   "t": 9.94,
+   "texte": "The pigeon takes it."
+  },
+  {
+   "t": 11.54,
+   "texte": "Your queen takes back with check."
+  },
+  {
+   "t": 14.44,
+   "texte": "He blocks with the bishop."
+  },
+  {
+   "t": 16.34,
+   "texte": "Now your first knight jumps with check."
+  },
+  {
+   "t": 19.12,
+   "texte": "His king steps aside."
+  },
+  {
+   "t": 21.22,
+   "texte": "Your queen delivers the mate."
+  },
+  {
+   "t": 22.58,
+   "texte": "Remember: a sacrifice opens the road to the king."
+  },
+  {
+   "t": 27.14,
+   "texte": "Follow: one new trap every day."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.54,
+   "coup": "Be7",
+   "badge": "gaffe"
+  },
+  {
+   "t": 5.22,
+   "coup": "Nf5",
+   "badge": null
+  },
+  {
+   "t": 6.68,
+   "coup": "g6",
+   "badge": null
+  },
+  {
+   "t": 7.36,
+   "coup": "Nxe6",
+   "badge": "brillant"
+  },
+  {
+   "t": 10.3,
+   "coup": "fxe6",
+   "badge": null
+  },
+  {
+   "t": 12.0,
+   "coup": "Qxe6+",
+   "badge": "brillant"
+  },
+  {
+   "t": 14.92,
+   "coup": "Be7",
+   "badge": "gaffe"
+  },
+  {
+   "t": 17.36,
+   "coup": "Nd6+",
+   "badge": "brillant"
+  },
+  {
+   "t": 19.62,
+   "coup": "Kf8",
+   "badge": null
+  },
+  {
+   "t": 21.74,
+   "coup": "Qf7#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": []
+}
