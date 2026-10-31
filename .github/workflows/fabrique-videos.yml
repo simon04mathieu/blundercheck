@@ -39,6 +39,16 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           mkdir -p sorties commandes/faites
           echo "## $(date -u '+%Y-%m-%d %H:%M') UTC · run ${{ github.run_id }}" >> sorties/journal.md
+          # dépôt sûr (31/10, demande de Simon : ne plus jamais perdre de crédits) : 3 essais, rebase annulé en cas d'échec,
+          # et en dernier recours la vidéo et sa voix partent sur une branche de secours secours-<run> (rien n'est perdu)
+          depot() {
+            for i in 1 2 3; do
+              git pull -q --rebase origin videos && git push -q origin HEAD:videos && return 0
+              git rebase --abort 2>/dev/null; sleep $((i * 5))
+            done
+            git push -q origin HEAD:refs/heads/secours-${{ github.run_id }} && echo "SECOURS : dépôt sur la branche secours-${{ github.run_id }}"
+            return 0
+          }
           for c in commandes/*.json; do
             [ -e "$c" ] || continue
             echo "### $c" >> sorties/journal.md
@@ -51,7 +61,7 @@ jobs:
             fi
             # dépôt après chaque vidéo : rien n'est perdu si la suite échoue
             git add -A sorties commandes outils/musique || true
-            git commit -qm "Vidéo : $c (run ${{ github.run_id }})" && git pull -q --rebase origin videos && git push -q origin HEAD:videos || true
+            git commit -qm "Vidéo : $c (run ${{ github.run_id }})" && depot || true
           done
       - name: Dépôt des vidéos
         if: always()
@@ -60,4 +70,5 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add -A sorties commandes outils/musique || true
           git commit -m "Vidéos fabriquées (run ${{ github.run_id }})" || exit 0
-          git pull --rebase -q origin videos && git push -q origin HEAD:videos
+          for i in 1 2 3; do git pull --rebase -q origin videos && git push -q origin HEAD:videos && exit 0; git rebase --abort 2>/dev/null; sleep $((i * 5)); done
+          git push -q origin HEAD:refs/heads/secours-${{ github.run_id }}-fin

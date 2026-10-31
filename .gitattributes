@@ -1,0 +1,3 @@
+# Journaux en ajout seul : fusion « union » (garde les lignes des deux côtés), plus jamais de conflit qui bloque un dépôt (panne du 31/10 : 5 voix perdues)
+sorties/journal.md merge=union
+stats/*-journal.md merge=union
