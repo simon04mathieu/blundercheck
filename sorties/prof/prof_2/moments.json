@@ -1,0 +1,997 @@
+{
+ "nom": "prof_2",
+ "partie": 2,
+ "couleur_de_simon": "w",
+ "demi_coups": 135,
+ "prof": {
+  "erreur": "",
+  "n": 81
+ },
+ "resume_du_prof": "You had a huge advantage in the endgame and converted it well with checks and active rooks. Your last moves were precise and led to a clean checkmate. Keep using this technique of checking to drive the king away.",
+ "lecons_du_prof": [
+  "Before every check, count how many squares the enemy king can escape to.",
+  "In endgames, bring your rooks active and double them on open files or ranks.",
+  "When ahead, look first for checks and forcing moves that restrict the king."
+ ],
+ "moments": [
+  {
+   "ply": 45,
+   "san": "Nh4",
+   "camp": "w",
+   "tag": "gaffe",
+   "delta": 0.849,
+   "commentaire": "Nh4 leaves the knight hanging to Black's queen and loses material.",
+   "conseil": "Before every move, check whether the piece you move, or the square it lands on, can be taken for free.",
+   "ecran": "ecran_045.png"
+  },
+  {
+   "ply": 51,
+   "san": "Qxd8",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.127,
+   "commentaire": "Qxd8 trades queens and wins the game's key piece, a strong capture.",
+   "conseil": "",
+   "ecran": "ecran_051.png"
+  },
+  {
+   "ply": 67,
+   "san": "Rd8",
+   "camp": "w",
+   "tag": "gaffe",
+   "delta": 0.977,
+   "commentaire": "Rd8 is a blunder: Rxc6 wins the bishop directly, and you let the chance slip away.",
+   "conseil": "Before each move, scan for free pieces you can capture immediately.",
+   "ecran": "ecran_067.png"
+  }
+ ],
+ "ecran_depart": "ecran_000.png",
+ "coups": [
+  {
+   "ply": 1,
+   "san": "e4",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.101
+  },
+  {
+   "ply": 2,
+   "san": "e5",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.076
+  },
+  {
+   "ply": 3,
+   "san": "Nf3",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.102
+  },
+  {
+   "ply": 4,
+   "san": "Nc6",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.066
+  },
+  {
+   "ply": 5,
+   "san": "Bb5",
+   "camp": "w",
+   "tag": "bon",
+   "delta": 0.058
+  },
+  {
+   "ply": 6,
+   "san": "Bc5",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.082
+  },
+  {
+   "ply": 7,
+   "san": "Nc3",
+   "camp": "w",
+   "tag": "imprecision",
+   "delta": 0.2
+  },
+  {
+   "ply": 8,
+   "san": "Nd4",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.04
+  },
+  {
+   "ply": 9,
+   "san": "Nxe5",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": -0.051
+  },
+  {
+   "ply": 10,
+   "san": "Nxb5",
+   "camp": "b",
+   "tag": "imprecision",
+   "delta": 0.159
+  },
+  {
+   "ply": 11,
+   "san": "Nxb5",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.111
+  },
+  {
+   "ply": 12,
+   "san": "c6",
+   "camp": "b",
+   "tag": "gaffe",
+   "delta": 0.325
+  },
+  {
+   "ply": 13,
+   "san": "Nc3",
+   "camp": "w",
+   "tag": "erreur",
+   "delta": 0.241
+  },
+  {
+   "ply": 14,
+   "san": "Bd4",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.093
+  },
+  {
+   "ply": 15,
+   "san": "Nf3",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.134
+  },
+  {
+   "ply": 16,
+   "san": "Bb6",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.09
+  },
+  {
+   "ply": 17,
+   "san": "O-O",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.08
+  },
+  {
+   "ply": 18,
+   "san": "Nf6",
+   "camp": "b",
+   "tag": "erreur",
+   "delta": 0.244
+  },
+  {
+   "ply": 19,
+   "san": "Re1",
+   "camp": "w",
+   "tag": "imprecision",
+   "delta": 0.135
+  },
+  {
+   "ply": 20,
+   "san": "O-O",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.036
+  },
+  {
+   "ply": 21,
+   "san": "d4",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.011
+  },
+  {
+   "ply": 22,
+   "san": "d5",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.05
+  },
+  {
+   "ply": 23,
+   "san": "e5",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.013
+  },
+  {
+   "ply": 24,
+   "san": "Ne4",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.059
+  },
+  {
+   "ply": 25,
+   "san": "Nxe4",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.031
+  },
+  {
+   "ply": 26,
+   "san": "dxe4",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.003
+  },
+  {
+   "ply": 27,
+   "san": "Rxe4",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.081
+  },
+  {
+   "ply": 28,
+   "san": "c5",
+   "camp": "b",
+   "tag": "imprecision",
+   "delta": 0.185
+  },
+  {
+   "ply": 29,
+   "san": "d5",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.032
+  },
+  {
+   "ply": 30,
+   "san": "Bf5",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.013
+  },
+  {
+   "ply": 31,
+   "san": "Re1",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.044
+  },
+  {
+   "ply": 32,
+   "san": "Ba5",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.055
+  },
+  {
+   "ply": 33,
+   "san": "c3",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.063
+  },
+  {
+   "ply": 34,
+   "san": "b6",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.093
+  },
+  {
+   "ply": 35,
+   "san": "a3",
+   "camp": "w",
+   "tag": "bon",
+   "delta": 0.038
+  },
+  {
+   "ply": 36,
+   "san": "b5",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.036
+  },
+  {
+   "ply": 37,
+   "san": "b4",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.008
+  },
+  {
+   "ply": 38,
+   "san": "cxb4",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.088
+  },
+  {
+   "ply": 39,
+   "san": "axb4",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.066
+  },
+  {
+   "ply": 40,
+   "san": "Bb6",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.037
+  },
+  {
+   "ply": 41,
+   "san": "Be3",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.034
+  },
+  {
+   "ply": 42,
+   "san": "Bxe3",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.042
+  },
+  {
+   "ply": 43,
+   "san": "Rxe3",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.026
+  },
+  {
+   "ply": 44,
+   "san": "a5",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.056
+  },
+  {
+   "ply": 45,
+   "san": "Nh4",
+   "camp": "w",
+   "tag": "gaffe",
+   "delta": 0.849
+  },
+  {
+   "ply": 46,
+   "san": "Bd7",
+   "camp": "b",
+   "tag": "gaffe",
+   "delta": 0.818
+  },
+  {
+   "ply": 47,
+   "san": "e6",
+   "camp": "w",
+   "tag": "bon",
+   "delta": 0.073
+  },
+  {
+   "ply": 48,
+   "san": "fxe6",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": -0.016
+  },
+  {
+   "ply": 49,
+   "san": "dxe6",
+   "camp": "w",
+   "tag": "gaffe",
+   "delta": 0.485
+  },
+  {
+   "ply": 50,
+   "san": "Bc6",
+   "camp": "b",
+   "tag": "gaffe",
+   "delta": 0.782
+  },
+  {
+   "ply": 51,
+   "san": "Qxd8",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.127
+  },
+  {
+   "ply": 52,
+   "san": "Rfxd8",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.154
+  },
+  {
+   "ply": 53,
+   "san": "e7",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": -0.027
+  },
+  {
+   "ply": 54,
+   "san": "Re8",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": -0.045
+  },
+  {
+   "ply": 55,
+   "san": "Rd1",
+   "camp": "w",
+   "tag": "erreur",
+   "delta": 0.256
+  },
+  {
+   "ply": 56,
+   "san": "axb4",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.079
+  },
+  {
+   "ply": 57,
+   "san": "cxb4",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.135
+  },
+  {
+   "ply": 58,
+   "san": "g5",
+   "camp": "b",
+   "tag": "gaffe",
+   "delta": 0.498
+  },
+  {
+   "ply": 59,
+   "san": "Nf5",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": -0.007
+  },
+  {
+   "ply": 60,
+   "san": "Kf7",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.011
+  },
+  {
+   "ply": 61,
+   "san": "h3",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.016
+  },
+  {
+   "ply": 62,
+   "san": "Kf6",
+   "camp": "b",
+   "tag": "imprecision",
+   "delta": 0.13
+  },
+  {
+   "ply": 63,
+   "san": "g4",
+   "camp": "w",
+   "tag": "imprecision",
+   "delta": 0.16
+  },
+  {
+   "ply": 64,
+   "san": "Ra4",
+   "camp": "b",
+   "tag": "imprecision",
+   "delta": 0.184
+  },
+  {
+   "ply": 65,
+   "san": "Rd6+",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.035
+  },
+  {
+   "ply": 66,
+   "san": "Kf7",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.042
+  },
+  {
+   "ply": 67,
+   "san": "Rd8",
+   "camp": "w",
+   "tag": "gaffe",
+   "delta": 0.977
+  },
+  {
+   "ply": 68,
+   "san": "Ra1+",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0
+  },
+  {
+   "ply": 69,
+   "san": "Kh2",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0
+  },
+  {
+   "ply": 70,
+   "san": "Rh1+",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0
+  },
+  {
+   "ply": 71,
+   "san": "Kg3",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0
+  },
+  {
+   "ply": 72,
+   "san": "Rg1+",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0
+  },
+  {
+   "ply": 73,
+   "san": "Kh2",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0
+  },
+  {
+   "ply": 74,
+   "san": "Rh1+",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0
+  },
+  {
+   "ply": 75,
+   "san": "Kg3",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0
+  },
+  {
+   "ply": 76,
+   "san": "Rg1+",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0
+  },
+  {
+   "ply": 77,
+   "san": "Kh2",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0
+  },
+  {
+   "ply": 78,
+   "san": "Rg2+",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0
+  },
+  {
+   "ply": 79,
+   "san": "Kh1",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0
+  },
+  {
+   "ply": 80,
+   "san": "Rxf2+",
+   "camp": "b",
+   "tag": "gaffe",
+   "delta": 0.692
+  },
+  {
+   "ply": 81,
+   "san": "Kg1",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": -0.039
+  },
+  {
+   "ply": 82,
+   "san": "Rg2+",
+   "camp": "b",
+   "tag": "gaffe",
+   "delta": 0.307
+  },
+  {
+   "ply": 83,
+   "san": "Kf1",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.01
+  },
+  {
+   "ply": 84,
+   "san": "Ra2",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": -0.03
+  },
+  {
+   "ply": 85,
+   "san": "Nd6+",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": -0.056
+  },
+  {
+   "ply": 86,
+   "san": "Kf6",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.035
+  },
+  {
+   "ply": 87,
+   "san": "Nxe8+",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": -0.001
+  },
+  {
+   "ply": 88,
+   "san": "Kf7",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.002
+  },
+  {
+   "ply": 89,
+   "san": "Nd6+",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0
+  },
+  {
+   "ply": 90,
+   "san": "Kf6",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0
+  },
+  {
+   "ply": 91,
+   "san": "e8=Q",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.003
+  },
+  {
+   "ply": 92,
+   "san": "Bxe8",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": -0.009
+  },
+  {
+   "ply": 93,
+   "san": "Nxe8+",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.001
+  },
+  {
+   "ply": 94,
+   "san": "Kf7",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.013
+  },
+  {
+   "ply": 95,
+   "san": "Nd6+",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0
+  },
+  {
+   "ply": 96,
+   "san": "Kf6",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0
+  },
+  {
+   "ply": 97,
+   "san": "Rf8+",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0
+  },
+  {
+   "ply": 98,
+   "san": "Kg6",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0
+  },
+  {
+   "ply": 99,
+   "san": "Rg8+",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0
+  },
+  {
+   "ply": 100,
+   "san": "Kf6",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0
+  },
+  {
+   "ply": 101,
+   "san": "Rf3+",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.023
+  },
+  {
+   "ply": 102,
+   "san": "Ke6",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0
+  },
+  {
+   "ply": 103,
+   "san": "Nxb5",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": -0.001
+  },
+  {
+   "ply": 104,
+   "san": "Ra1+",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.002
+  },
+  {
+   "ply": 105,
+   "san": "Ke2",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.003
+  },
+  {
+   "ply": 106,
+   "san": "Ra2+",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.008
+  },
+  {
+   "ply": 107,
+   "san": "Kd1",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.005
+  },
+  {
+   "ply": 108,
+   "san": "Ra1+",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.004
+  },
+  {
+   "ply": 109,
+   "san": "Kc2",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0
+  },
+  {
+   "ply": 110,
+   "san": "Ra2+",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0
+  },
+  {
+   "ply": 111,
+   "san": "Kb3",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.003
+  },
+  {
+   "ply": 112,
+   "san": "Ra1",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.005
+  },
+  {
+   "ply": 113,
+   "san": "Nd4+",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.004
+  },
+  {
+   "ply": 114,
+   "san": "Kd5",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.003
+  },
+  {
+   "ply": 115,
+   "san": "Nc2",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": -0.001
+  },
+  {
+   "ply": 116,
+   "san": "Rb1+",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.002
+  },
+  {
+   "ply": 117,
+   "san": "Ka2",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.002
+  },
+  {
+   "ply": 118,
+   "san": "Re1",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.014
+  },
+  {
+   "ply": 119,
+   "san": "Rb3",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.021
+  },
+  {
+   "ply": 120,
+   "san": "Re2",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.006
+  },
+  {
+   "ply": 121,
+   "san": "Kb2",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.003
+  },
+  {
+   "ply": 122,
+   "san": "Kc4",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.017
+  },
+  {
+   "ply": 123,
+   "san": "Rc8+",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.016
+  },
+  {
+   "ply": 124,
+   "san": "Kb5",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.002
+  },
+  {
+   "ply": 125,
+   "san": "Rb8+",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.003
+  },
+  {
+   "ply": 126,
+   "san": "Kc6",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.004
+  },
+  {
+   "ply": 127,
+   "san": "Rc8+",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.005
+  },
+  {
+   "ply": 128,
+   "san": "Kb7",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.003
+  },
+  {
+   "ply": 129,
+   "san": "Rcc3",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.011
+  },
+  {
+   "ply": 130,
+   "san": "Re4",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.009
+  },
+  {
+   "ply": 131,
+   "san": "b5",
+   "camp": "w",
+   "tag": "excellent",
+   "delta": 0.006
+  },
+  {
+   "ply": 132,
+   "san": "Kb6",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.007
+  },
+  {
+   "ply": 133,
+   "san": "Rc6+",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.002
+  },
+  {
+   "ply": 134,
+   "san": "Ka5",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.02
+  },
+  {
+   "ply": 135,
+   "san": "Ra6#",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0
+  }
+ ],
+ "regle": "Commentaires du vrai prof, à montrer tels quels (on peut couper, jamais réécrire). Partie anonyme : aucun nom à l'écran ni dans la voix."
+}

@@ -395,3 +395,6 @@
 ## 2026-10-30 11:44 UTC · pièges · run 41050253354
 ### commandes/pieges/reserve_1300_2000.json
     OK stock/pieges-candidats.md : 10 pièges, dont 9 jamais faits
+## 2026-10-31 00:06 UTC · prof corrige · run 41148243996
+### commandes/prof/prof_2.json
+    OK : prof_2, 135 demi-coups, 3 moments, 81 commentaires du prof
