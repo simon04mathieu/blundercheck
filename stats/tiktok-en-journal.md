@@ -246,3 +246,4 @@ Jetons TikTok (en) enregistrés (chiffrés). Portées : user.info.basic,user.inf
 ### 2026-10-31 08:22 publications/tiktok-en/pigeon_en_16.json
 {"publish_id": "v_inbox_file~v2.7702744133911431190", "mode": "brouillon", "vie_privee": null, "legende": "🪤 Two knights and a queen: one sacrifice opens the road, and the king is mated. Caro-Kann trap. Would you have seen it? #chess #chesstrap #carokann #chesstok"}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 9, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 9, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
