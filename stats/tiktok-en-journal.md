@@ -242,3 +242,6 @@ Jetons TikTok (en) enregistrés (chiffrés). Portées : user.info.basic,user.inf
 {"publish_id": "v_inbox_file~v2.7702731226860029974", "mode": "brouillon", "vie_privee": null, "legende": "The AI teacher checked every move of my game 😬 How many mistakes do you see? #chess #chesstok #gamereview #aichess"}
 ### 2026-10-31 07:31 publications/tiktok-en/quiz_legal_9_en.json
 {"publish_id": "v_inbox_file~v2.7702731217049045014", "mode": "brouillon", "vie_privee": null, "legende": "♟️ Your king is in check twice. Your queen can take the knight… legal or illegal? Yes or no 👇 #chess #chessrules #chessquiz #chesstok"}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 9, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-10-31 08:22 publications/tiktok-en/pigeon_en_16.json
+{"publish_id": "v_inbox_file~v2.7702744133911431190", "mode": "brouillon", "vie_privee": null, "legende": "🪤 Two knights and a queen: one sacrifice opens the road, and the king is mated. Caro-Kann trap. Would you have seen it? #chess #chesstrap #carokann #chesstok"}
