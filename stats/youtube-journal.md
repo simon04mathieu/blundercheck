@@ -303,3 +303,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "30"}
 ### 2026-10-31 13:44 publications/youtube/prof_partie_1.json
 {"id": "mjj5ssiT328", "url": "https://www.youtube.com/shorts/mjj5ssiT328", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "30"}
