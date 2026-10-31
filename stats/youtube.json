@@ -1,5 +1,5 @@
 {
- "date": "2026-10-31T04:43:25.245798+00:00",
+ "date": "2026-10-31T05:39:48.973688+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -12,7 +12,7 @@
    "publiee": "2026-10-30T19:46:42Z",
    "statut": "public",
    "duree": "PT20S",
-   "vues": 965,
+   "vues": 1033,
    "jaime": 14,
    "commentaires": 0
   },
@@ -21,7 +21,7 @@
    "publiee": "2026-10-30T16:48:21Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 1738,
+   "vues": 1851,
    "jaime": 44,
    "commentaires": 1
   },
@@ -30,7 +30,7 @@
    "publiee": "2026-10-30T14:00:05Z",
    "statut": "public",
    "duree": "PT27S",
-   "vues": 665,
+   "vues": 743,
    "jaime": 10,
    "commentaires": 0
   },
@@ -39,7 +39,7 @@
    "publiee": "2026-10-30T10:47:56Z",
    "statut": "public",
    "duree": "PT21S",
-   "vues": 1144,
+   "vues": 1149,
    "jaime": 6,
    "commentaires": 1
   },
@@ -48,7 +48,7 @@
    "publiee": "2026-10-29T19:50:10Z",
    "statut": "public",
    "duree": "PT21S",
-   "vues": 1631,
+   "vues": 1661,
    "jaime": 13,
    "commentaires": 0
   },
@@ -57,7 +57,7 @@
    "publiee": "2026-10-29T16:54:19Z",
    "statut": "public",
    "duree": "PT13S",
-   "vues": 995,
+   "vues": 996,
    "jaime": 9,
    "commentaires": 0
   },
@@ -66,8 +66,8 @@
    "publiee": "2026-10-29T14:01:21Z",
    "statut": "public",
    "duree": "PT20S",
-   "vues": 1693,
-   "jaime": 14,
+   "vues": 1738,
+   "jaime": 15,
    "commentaires": 1
   },
   "dTDzqnLFprY": {
@@ -84,7 +84,7 @@
    "publiee": "2026-10-28T19:47:32Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 10664,
+   "vues": 10657,
    "jaime": 67,
    "commentaires": 20
   },
@@ -111,7 +111,7 @@
    "publiee": "2026-10-28T10:46:09Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 1155,
+   "vues": 1159,
    "jaime": 6,
    "commentaires": 1
   },
@@ -246,7 +246,7 @@
    "publiee": "2026-10-24T12:36:05Z",
    "statut": "public",
    "duree": "PT26S",
-   "vues": 1271,
+   "vues": 1270,
    "jaime": 21,
    "commentaires": 0
   },
