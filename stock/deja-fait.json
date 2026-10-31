@@ -369,6 +369,53 @@
   "ligne_uci": ""
  },
  {
+  "nom": "gourmande_en_1",
+  "langue": "en",
+  "concept": "gourmande",
+  "sujet": "She ate my queen… then got mated 🎃",
+  "reseaux": {
+   "youtube": "programmé 2026-10-31",
+   "tiktok-en": "programmé 2026-10-31",
+   "facebook": "programmé 2026-10-31",
+   "threads": "programmé 2026-10-31"
+  },
+  "statut": "programmé",
+  "test": "aucun",
+  "variante": null,
+  "position_depart": "r1bqk2r/ppp1np1p/2np2p1/3N2B1/2PQP3/8/PP3PPP/R3KB1R b",
+  "position_finale": "r1bq1k1r/ppp1np1p/3p1NpB/8/2PnP3/8/PP3PPP/R3KB1R b",
+  "positions": [
+   "r1bq1k1r/ppp1np1p/3p1Np1/6B1/2PnP3/8/PP3PPP/R3KB1R w",
+   "r1bq1k1r/ppp1np1p/3p1NpB/8/2PnP3/8/PP3PPP/R3KB1R b",
+   "r1bqk2r/ppp1np1p/2np2p1/3N2B1/2PQP3/8/PP3PPP/R3KB1R b",
+   "r1bqk2r/ppp1np1p/2np2p1/3N2B1/2PbP3/8/PP3PPP/R2QKB1R w",
+   "r1bqk2r/ppp1np1p/3p1Np1/6B1/2PnP3/8/PP3PPP/R3KB1R b",
+   "r1bqk2r/ppp1np1p/3p2p1/3N2B1/2PnP3/8/PP3PPP/R3KB1R w"
+  ],
+  "ligne_uci": "g1f3 g7g6 d2d4 f8g7 c2c4 d7d6 b1c3 e7e5 e2e4 e5d4 c1g5 g8e7 c3d5 b8c6 f3d4 g7d4 d1d4 c6d4 d5f6 e8f8 g5h6"
+ },
+ {
+  "nom": "gourmande_fr_1",
+  "langue": "fr",
+  "concept": "gourmande_fr",
+  "sujet": "Elle mange ta dame. Puis mat.",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1bqk2r/ppp1np1p/2np2p1/3N2B1/2PQP3/8/PP3PPP/R3KB1R b",
+  "position_finale": "r1bq1k1r/ppp1np1p/3p1NpB/8/2PnP3/8/PP3PPP/R3KB1R b",
+  "positions": [
+   "r1bq1k1r/ppp1np1p/3p1Np1/6B1/2PnP3/8/PP3PPP/R3KB1R w",
+   "r1bq1k1r/ppp1np1p/3p1NpB/8/2PnP3/8/PP3PPP/R3KB1R b",
+   "r1bqk2r/ppp1np1p/2np2p1/3N2B1/2PQP3/8/PP3PPP/R3KB1R b",
+   "r1bqk2r/ppp1np1p/2np2p1/3N2B1/2PbP3/8/PP3PPP/R2QKB1R w",
+   "r1bqk2r/ppp1np1p/3p1Np1/6B1/2PnP3/8/PP3PPP/R3KB1R b",
+   "r1bqk2r/ppp1np1p/3p2p1/3N2B1/2PnP3/8/PP3PPP/R3KB1R w"
+  ],
+  "ligne_uci": "g1f3 g7g6 d2d4 f8g7 c2c4 d7d6 b1c3 e7e5 e2e4 e5d4 c1g5 g8e7 c3d5 b8c6 f3d4 g7d4 d1d4 c6d4 d5f6 e8f8 g5h6"
+ },
+ {
   "nom": "immortelle",
   "langue": "fr",
   "concept": "immortelle",
@@ -680,12 +727,12 @@
   "concept": "pigeon_en",
   "sujet": "Chess Trap: he takes your knight… you mate him ♟️",
   "reseaux": {
-   "youtube": "programmé 2026-10-30",
-   "tiktok-en": "programmé 2026-10-30",
-   "facebook": "programmé 2026-10-30",
-   "threads": "programmé 2026-10-30"
+   "youtube": "publié 2026-10-30",
+   "tiktok-en": "publié 2026-10-30",
+   "facebook": "publié 2026-10-30",
+   "threads": "publié 2026-10-30"
   },
-  "statut": "programmé",
+  "statut": "publié",
   "test": "T11-série",
   "variante": "A",
   "position_depart": "r1b1k2r/pp1p1ppp/1qn2n2/1Nb1p1B1/4P3/2N5/PPP2PPP/R2QKB1R w",
@@ -705,12 +752,12 @@
   "concept": "pigeon_en",
   "sujet": "He took your knight. Don't take back! ♟️",
   "reseaux": {
-   "youtube": "programmé 2026-10-30",
-   "tiktok-en": "programmé 2026-10-30",
-   "facebook": "programmé 2026-10-30",
-   "threads": "programmé 2026-10-30"
+   "youtube": "publié 2026-10-30",
+   "tiktok-en": "publié 2026-10-30",
+   "facebook": "publié 2026-10-30",
+   "threads": "publié 2026-10-30"
   },
-  "statut": "programmé",
+  "statut": "publié",
   "test": "T11-série",
   "variante": "B",
   "position_depart": "rn1qkb1r/ppp1pppp/8/3n4/2B3b1/2N2N2/PPPP1PPP/R1BQK2R b",
@@ -730,12 +777,12 @@
   "concept": "pigeon_en",
   "sujet": "Sacrifice your queen… a pawn mates ♟️",
   "reseaux": {
-   "youtube": "programmé 2026-10-30",
-   "tiktok-en": "programmé 2026-10-30",
-   "facebook": "programmé 2026-10-30",
-   "threads": "programmé 2026-10-30"
+   "youtube": "publié 2026-10-30",
+   "tiktok-en": "publié 2026-10-30",
+   "facebook": "publié 2026-10-30",
+   "threads": "publié 2026-10-30"
   },
-  "statut": "programmé",
+  "statut": "publié",
   "test": "aucun",
   "variante": null,
   "position_depart": "rn1q1bkr/ppp1p1pp/1n1pP1b1/6N1/3P4/5Q2/PPP2PPP/RNB1K2R b",
@@ -748,6 +795,36 @@
    "rn1q1bkr/ppp1pbp1/1n1pP2p/6N1/3P4/8/PPP2PPP/RNB1K2R w"
   ],
   "ligne_uci": "e2e4 g8f6 e4e5 f6d5 d2d4 d7d6 g1f3 c8f5 f1c4 d5b6 c4f7 e8f7 f3g5 f7g8 e5e6 f5g6 d1f3 h7h6 f3f7 g6f7 e6f7"
+ },
+ {
+  "nom": "pigeon_en_16",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "Knight sacrifice… then mate ♟️",
+  "reseaux": {
+   "youtube": "programmé 2026-10-31",
+   "tiktok-en": "programmé 2026-10-31",
+   "facebook": "programmé 2026-10-31",
+   "threads": "programmé 2026-10-31"
+  },
+  "statut": "programmé",
+  "test": "T11-série",
+  "variante": "B",
+  "position_depart": "r2qkb1r/pp1n4/2p1Qnp1/5N1p/7P/8/PPPP1PP1/R1B1K2R b",
+  "position_finale": "r2q1k1r/pp1nbQ2/2pN1np1/7p/7P/8/PPPP1PP1/R1B1K2R b",
+  "positions": [
+   "r2q1k1r/pp1nb3/2pNQnp1/7p/7P/8/PPPP1PP1/R1B1K2R w",
+   "r2q1k1r/pp1nbQ2/2pN1np1/7p/7P/8/PPPP1PP1/R1B1K2R b",
+   "r2qk2r/pp1nb3/2p1Qnp1/5N1p/7P/8/PPPP1PP1/R1B1K2R w",
+   "r2qk2r/pp1nb3/2pNQnp1/7p/7P/8/PPPP1PP1/R1B1K2R b",
+   "r2qkb1r/pp1n1p2/2p1Nnp1/5N1p/7P/8/PPPPQPP1/R1B1K2R b",
+   "r2qkb1r/pp1n1p2/2p1pnp1/5NNp/7P/8/PPPPQPP1/R1B1K2R w",
+   "r2qkb1r/pp1n1pp1/2p1pn2/5NNp/7P/8/PPPPQPP1/R1B1K2R b",
+   "r2qkb1r/pp1n1pp1/2p1pn2/6Np/7P/6N1/PPPPQPP1/R1B1K2R w",
+   "r2qkb1r/pp1n4/2p1Qnp1/5N1p/7P/8/PPPP1PP1/R1B1K2R b",
+   "r2qkb1r/pp1n4/2p1pnp1/5N1p/7P/8/PPPPQPP1/R1B1K2R w"
+  ],
+  "ligne_uci": "e2e4 c7c6 b1c3 d7d5 g1f3 d5e4 c3e4 g8f6 e4g3 h7h5 h2h4 c8g4 f1e2 b8d7 f3g5 g4e2 d1e2 e7e6 g3f5 g7g6 g5e6 f7e6 e2e6 f8e7 f5d6 e8f8 e6f7"
  },
  {
   "nom": "pigeon_en_2",
@@ -1073,10 +1150,10 @@
   "concept": "pigeon_jour",
   "sujet": "Ne reprends pas le cavalier 🐦 Laisse ta dame… et mat ! Ton piège préféré contre 1.e4 ? Abonne-toi : un piège p",
   "reseaux": {
-   "tiktok": "programmé 2026-10-30",
-   "instagram": "programmé 2026-10-30"
+   "tiktok": "publié 2026-10-30",
+   "instagram": "publié 2026-10-30"
   },
-  "statut": "programmé",
+  "statut": "publié",
   "test": "aucun",
   "variante": null,
   "position_depart": "rn1qkb1r/ppp1pppp/8/3n4/2B3b1/2N2N2/PPPP1PPP/R1BQK2R b",
@@ -1332,12 +1409,12 @@
   "concept": "prof_corrige",
   "sujet": "The AI teacher found my worst chess move ♟️",
   "reseaux": {
-   "youtube": "programmé 2026-10-30",
-   "tiktok-en": "programmé 2026-10-30",
-   "facebook": "programmé 2026-10-30",
-   "threads": "programmé 2026-10-30"
+   "youtube": "publié 2026-10-30",
+   "tiktok-en": "publié 2026-10-30",
+   "facebook": "publié 2026-10-30",
+   "threads": "publié 2026-10-30"
   },
-  "statut": "programmé",
+  "statut": "publié",
   "test": "T-prof-format",
   "variante": "A",
   "position_depart": null,
@@ -1619,10 +1696,10 @@
   "concept": "quiz_legal",
   "sujet": "Mat ou pat ? 🤔 Le piège qui gâche une partie gagnée. Tu l'aurais vu ?",
   "reseaux": {
-   "tiktok": "programmé 2026-10-30",
-   "instagram": "programmé 2026-10-30"
+   "tiktok": "publié 2026-10-30",
+   "instagram": "publié 2026-10-30"
   },
-  "statut": "programmé",
+  "statut": "publié",
   "test": "T13-fin-quiz",
   "variante": "B",
   "position_depart": "7k/5K2/8/6Q1/8/8/8/8 w",
@@ -1633,6 +1710,68 @@
    "7k/5K2/8/6Q1/8/8/8/8 w"
   ],
   "ligne_uci": "g5g8"
+ },
+ {
+  "nom": "quiz_legal_9_en",
+  "langue": "en",
+  "concept": "quiz_legal",
+  "sujet": "Double check: can you take the knight? ♟️",
+  "reseaux": {
+   "youtube": "programmé 2026-10-31",
+   "tiktok-en": "programmé 2026-10-31",
+   "facebook": "programmé 2026-10-31",
+   "threads": "programmé 2026-10-31"
+  },
+  "statut": "programmé",
+  "test": "T6-durée",
+  "variante": "B",
+  "position_depart": "4k3/8/8/8/1b6/8/3n4/3QK3 b",
+  "position_finale": "4k3/8/8/8/1b6/5n2/5K2/3Q4 b",
+  "positions": [
+   "4k3/8/8/8/1b6/5n2/5K2/3Q4 b",
+   "4k3/8/8/8/1b6/5n2/8/3QK3 w",
+   "4k3/8/8/8/1b6/8/3n4/3QK3 b"
+  ],
+  "ligne_uci": "d2f3 e1f2"
+ },
+ {
+  "nom": "quiz_legal_9_en_long",
+  "langue": "en",
+  "concept": "quiz_legal",
+  "sujet": "Check twice. Take the knight?",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "4k3/8/8/8/1b6/8/3n4/3QK3 b",
+  "position_finale": "4k3/8/8/8/1b6/5n2/5K2/3Q4 b",
+  "positions": [
+   "4k3/8/8/8/1b6/5n2/5K2/3Q4 b",
+   "4k3/8/8/8/1b6/5n2/8/3QK3 w",
+   "4k3/8/8/8/1b6/8/3n4/3QK3 b"
+  ],
+  "ligne_uci": "d2f3 e1f2"
+ },
+ {
+  "nom": "quiz_legal_9_fr",
+  "langue": "fr",
+  "concept": "quiz_legal",
+  "sujet": "Double échec : ta dame peut prendre le cavalier… légal ou pas ? Oui ou non 👇",
+  "reseaux": {
+   "tiktok": "programmé 2026-10-31",
+   "instagram": "programmé 2026-10-31"
+  },
+  "statut": "programmé",
+  "test": "T13-fin-quiz",
+  "variante": "A",
+  "position_depart": "4k3/8/8/8/1b6/8/3n4/3QK3 b",
+  "position_finale": "4k3/8/8/8/1b6/5n2/5K2/3Q4 b",
+  "positions": [
+   "4k3/8/8/8/1b6/5n2/5K2/3Q4 b",
+   "4k3/8/8/8/1b6/5n2/8/3QK3 w",
+   "4k3/8/8/8/1b6/8/3n4/3QK3 b"
+  ],
+  "ligne_uci": "d2f3 e1f2"
  },
  {
   "nom": "rafale1",

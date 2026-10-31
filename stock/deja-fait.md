@@ -17,6 +17,7 @@ quels que soient le nom, la langue ou le texte. Avant d'écrire une fiche : cher
 | deux_dames | `deux_dames` | — | deux_dames | script seulement (publication avant le 22/10 ou jamais) | `1Q4k1/5ppp/8/8/8/8/5PPP/3Q2K1 b` |
 | elephant | `elephant` | — | elephant | script seulement (publication avant le 22/10 ou jamais) | `r1bqkb1r/pppn1ppp/5n2/3p2B1/3P4/2N1P3/PP3PPP/R2QKBNR b` |
 | enpassant | `enpassant` | — | enpassant | script seulement (publication avant le 22/10 ou jamais) |  |
+| She ate my queen… then got mated 🎃 | `gourmande_fr_1` | `gourmande_en_1` (facebook 2026-10-31, threads 2026-10-31, tiktok-en 2026-10-31, youtube 2026-10-31) | gourmande | programmé | `r1bq1k1r/ppp1np1p/3p1NpB/8/2PnP3/8/PP3PPP/R3KB1R b` |
 | immortelle | `immortelle` | — | immortelle | script seulement (publication avant le 22/10 ou jamais) | `r1bk3r/p2pBpNp/n4n2/1p1NP2P/6P1/3P4/P1P1K3/q5b1 b` |
 | lasker | `lasker` | — | lasker | script seulement (publication avant le 22/10 ou jamais) | `rn3r2/pbppq1p1/1p2pN2/8/3P2NP/6P1/PPPKBP1R/R5k1 b` |
 | magnus | `magnus` | — | magnus | script seulement (publication avant le 22/10 ou jamais) | `r1bqkb1r/p3pp1p/2pp2p1/4P3/2B3n1/2N5/PPP2PPP/R1BQK2R w` |
@@ -26,9 +27,10 @@ quels que soient le nom, la langue ou le texte. Avant d'écrire une fiche : cher
 | Pigeon Trap of the Day 🐦 If he eats your candy, he's mated. Would you fall for it? Yes or no 👇 | `pigeon_jour_2` (tiktok 2026-10-23, youtube 2026-10-23) | `pigeon_en_1` (tiktok-en 2026-10-24) | pigeon_en | publié | `r1b1kbnr/pppp1Npp/8/8/4q3/5n2/PPPPBP1P/RNBQKR2 w` |
 | He eats a free pawn, you mate him in one: Italian Game trap 🐦 | `pigeon_jour_12` (facebook 2026-10-28, instagram 2026-10-28, threads 2026-10-28, tiktok 2026-10-28) | `pigeon_en_10` (tiktok-en 2026-10-28, youtube 2026-10-28) | pigeon_en | publié | `rnb1k1nr/pppp1ppp/8/2b1N3/2B1P3/8/PPPP1qPP/RNBQK2R w` |
 | Chess Trap: he eats your bishop, you mate him ♟️ | `pigeon_jour_4` (facebook 2026-10-24, instagram 2026-10-24, threads 2026-10-24, tiktok 2026-10-24, youtube 2026-10-24) | `pigeon_en_12` (facebook 2026-10-29, threads 2026-10-29, tiktok-en 2026-10-29, youtube 2026-10-29) | pigeon_en | publié | `r1b1k2r/ppppqppp/2n5/8/1PP2B2/3n1N2/1P1NPPPP/R2QKB1R w` |
-| Chess Trap: he takes your knight… you mate him ♟️ | — | `pigeon_en_13` (facebook 2026-10-30, threads 2026-10-30, tiktok-en 2026-10-30, youtube 2026-10-30) | pigeon_en | programmé | `r1b1k2r/pp1p1ppp/2n2B2/1N2p3/4P3/2N1q3/PPPK1bPP/R2Q1B1R w` |
-| He took your knight. Don't take back! ♟️ | `pigeon_jour_13` (instagram 2026-10-30, tiktok 2026-10-30) | `pigeon_en_14` (facebook 2026-10-30, threads 2026-10-30, tiktok-en 2026-10-30, youtube 2026-10-30) | pigeon_en | programmé | `rn1qkb1r/ppp1pBpp/8/4N3/6b1/8/PPPP1PPP/R1BnK2R b` |
-| Sacrifice your queen… a pawn mates ♟️ | — | `pigeon_en_15` (facebook 2026-10-30, threads 2026-10-30, tiktok-en 2026-10-30, youtube 2026-10-30) | pigeon_en | programmé | `rn1q1bkr/ppp1pPp1/1n1p3p/6N1/3P4/8/PPP2PPP/RNB1K2R b` |
+| Chess Trap: he takes your knight… you mate him ♟️ | — | `pigeon_en_13` (facebook 2026-10-30, threads 2026-10-30, tiktok-en 2026-10-30, youtube 2026-10-30) | pigeon_en | publié | `r1b1k2r/pp1p1ppp/2n2B2/1N2p3/4P3/2N1q3/PPPK1bPP/R2Q1B1R w` |
+| He took your knight. Don't take back! ♟️ | `pigeon_jour_13` (instagram 2026-10-30, tiktok 2026-10-30) | `pigeon_en_14` (facebook 2026-10-30, threads 2026-10-30, tiktok-en 2026-10-30, youtube 2026-10-30) | pigeon_en | publié | `rn1qkb1r/ppp1pBpp/8/4N3/6b1/8/PPPP1PPP/R1BnK2R b` |
+| Sacrifice your queen… a pawn mates ♟️ | — | `pigeon_en_15` (facebook 2026-10-30, threads 2026-10-30, tiktok-en 2026-10-30, youtube 2026-10-30) | pigeon_en | publié | `rn1q1bkr/ppp1pPp1/1n1p3p/6N1/3P4/8/PPP2PPP/RNB1K2R b` |
+| Knight sacrifice… then mate ♟️ | — | `pigeon_en_16` (facebook 2026-10-31, threads 2026-10-31, tiktok-en 2026-10-31, youtube 2026-10-31) | pigeon_en | programmé | `r2q1k1r/pp1nbQ2/2pN1np1/7p/7P/8/PPPP1PP1/R1B1K2R b` |
 | Pigeon Trap of the Day 🐦 If he eats your pony, he's mated. Would you fall for it? Yes or no 👇 | `pigeon_jour_1` (tiktok 2026-10-23, youtube 2026-10-23) | `pigeon_en_2` (tiktok-en 2026-10-24) | pigeon_en | publié | `r1b1kb1r/pppp1pp1/2n5/1B2p3/3PP3/5Pp1/PPP3Pq/RNBQNRK1 w` |
 | Pigeon Trap of the Day 🐦 If he plays this pony, you mate him. Would you fall for it? A or B 👇 | `pigeon_jour_5` (facebook 2026-10-25, instagram 2026-10-25, threads 2026-10-25, tiktok 2026-10-25, youtube 2026-10-25) | `pigeon_en_3` (tiktok-en 2026-10-25) | pigeon_en | publié | `r1bqkb1r/pp1npppp/2pN1n2/8/3P4/8/PPP1QPPP/R1B1KBNR b` |
 | Pigeon Trap of the Day 🐦 If he eats your bishop, you mate him in five. Follow for the next trap 👉 | `pigeon_jour_6` (facebook 2026-10-25, instagram 2026-10-25, threads 2026-10-25, tiktok 2026-10-25, youtube 2026-10-25) | `pigeon_en_4` (tiktok-en 2026-10-25) | pigeon_en | publié | `rnbqkbnr/ppppp3/7p/5p1Q/3P3p/4P3/PPP2PPP/RN2KBNR b` |
@@ -37,7 +39,7 @@ quels que soient le nom, la langue ou le texte. Avant d'écrire une fiche : cher
 | Owen's Defense trap: lose your queen, mate with a bishop 🐦 | `pigeon_jour_9` (facebook 2026-10-27, instagram 2026-10-27, threads 2026-10-27, tiktok 2026-10-27, youtube 2026-10-27) | `pigeon_en_7` (tiktok-en 2026-10-27, youtube 2026-10-27) | pigeon_en | publié | `rn1qkb1r/p1ppp2P/1p4B1/7n/3P4/8/PPP2PbP/RNB1K1NR b` |
 | Traxler Counterattack trap: he eats your rook, you mate him 🐦 | `pigeon_jour_10` (facebook 2026-10-27, instagram 2026-10-27, threads 2026-10-27, tiktok 2026-10-27, youtube 2026-10-27) | `pigeon_en_8` (tiktok-en 2026-10-27, youtube 2026-10-27) | pigeon_en | publié | `r1b1k2N/pppp2pp/2n5/4p3/2B1n3/8/PPPP1qPP/RNBQ2KR w` |
 | He eats your pony, you checkmate him: Vienna Game trap 🐦 | `pigeon_jour_11` (facebook 2026-10-28, instagram 2026-10-28, threads 2026-10-28, tiktok 2026-10-28, youtube 2026-10-28) | `pigeon_en_9` (tiktok-en 2026-10-28, youtube 2026-10-28) | pigeon_en | publié | `rnbqkb1r/pppp1Qpp/8/4p3/2B5/2n5/PPPP1PPP/R1B1K1NR b` |
-| The AI teacher found my worst chess move ♟️ | — | `prof_corrige_1` (facebook 2026-10-30, threads 2026-10-30, tiktok-en 2026-10-30, youtube 2026-10-30) | prof_corrige | programmé |  |
+| The AI teacher found my worst chess move ♟️ | — | `prof_corrige_1` (facebook 2026-10-30, threads 2026-10-30, tiktok-en 2026-10-30, youtube 2026-10-30) | prof_corrige | publié |  |
 | The AI teacher checked every move of my chess game ♟️ | — | `prof_partie_1` (facebook 2026-10-31, threads 2026-10-31, tiktok-en 2026-10-31, youtube 2026-10-31) | prof_corrige | programmé |  |
 | Ton pion devient poney et fait mat. Légal ou pas ? 🐴 | `quiz_legal_2` (tiktok 2026-10-23, youtube 2026-10-23) | — | quiz_legal | publié | `5Nbq/6pk/6pp/8/8/8/8/2K5 b` |
 | Mat en passant : légal ou pas ? (version courte) | `quiz_legal_3_court` (facebook 2026-10-24, instagram 2026-10-24, threads 2026-10-24, tiktok 2026-10-24, youtube 2026-10-24) | — | quiz_legal | publié | `1Q6/1N2k3/3P4/5Q2/8/8/8/K7 b` |
@@ -47,7 +49,8 @@ quels que soient le nom, la langue ou le texte. Avant d'écrire une fiche : cher
 | This capture is illegal. Can you see why? 🤔 Yes or no? 👇 | — | `quiz_legal_5_long` (tiktok-en 2026-10-28) | quiz_legal | publié | `7k/8/8/KPp4r/8/8/8/8 w` |
 | Your king was in check. Can you still castle? ♟️ | `quiz_legal_6_fr` (instagram 2026-10-29, tiktok 2026-10-29) | `quiz_legal_6_en` (facebook 2026-10-29, threads 2026-10-29, tiktok-en 2026-10-29, youtube 2026-10-29) | quiz_legal | publié | `rnb1kb1r/ppp1pppp/5n2/q7/8/2N2N2/PPPPBPPP/R1BQ1RK1 b` |
 | Can your king take this pawn? (pinned bishop) ♟️ | `quiz_legal_7_fr` (instagram 2026-10-29, tiktok 2026-10-29) | `quiz_legal_7_en` (facebook 2026-10-29, threads 2026-10-29, tiktok-en 2026-10-29, youtube 2026-10-29) | quiz_legal | publié | `5k2/6pp/8/5R2/8/3pK3/6PP/8 b` |
-| Mat ou pat ? 🤔 Le piège qui gâche une partie gagnée. Tu l'aurais vu ? | `quiz_legal_8_fr` (instagram 2026-10-30, tiktok 2026-10-30) | — | quiz_legal | programmé | `6Qk/5K2/8/8/8/8/8/8 b` |
+| Mat ou pat ? 🤔 Le piège qui gâche une partie gagnée. Tu l'aurais vu ? | `quiz_legal_8_fr` (instagram 2026-10-30, tiktok 2026-10-30) | — | quiz_legal | publié | `6Qk/5K2/8/8/8/8/8/8 b` |
+| Double check: can you take the knight? ♟️ | `quiz_legal_9_fr` (instagram 2026-10-31, tiktok 2026-10-31) | `quiz_legal_9_en` (facebook 2026-10-31, threads 2026-10-31, tiktok-en 2026-10-31, youtube 2026-10-31) ; `quiz_legal_9_en_long` | quiz_legal | programmé | `4k3/8/8/8/1b6/5n2/5K2/3Q4 b` |
 | rafale1 | `rafale1` | — | rafale1 | script seulement (publication avant le 22/10 ou jamais) | `6k1/8/8/8/8/8/5PPP/3r2K1 w` |
 | rafale3 | `rafale3` | — | rafale3 | script seulement (publication avant le 22/10 ou jamais) | `rnbB1b1r/ppk2ppp/2p5/4q3/4n3/8/PPP2PPP/2KR1BNR b` |
 | reti | `reti` | — | reti | script seulement (publication avant le 22/10 ou jamais) |  |
@@ -72,5 +75,5 @@ quels que soient le nom, la langue ou le texte. Avant d'écrire une fiche : cher
 | Une tour sacrifiée et la dame tombe : le piège Tarrasch ♟️ | `v_tarrasch` (youtube 2026-10-23) | — | v_tarrasch | réserve | `r2q1rk1/2p1bppp/p3b3/1p1pn3/3Nn3/1BP5/PP3PPP/RNBQR1K1 w` |
 | Sa dame tombe en 8 coups : le gambit Tennison ♟️ | `v_tennison` (youtube 2026-10-23) | — | v_tennison | réserve | `r1bqkb1r/ppp1pppp/2n2n2/6N1/8/3B4/PPP2PPP/RNBQK2R w` |
 
-Total : 89 vidéos (65 FR, 24 EN), 66 sujets distincts.
+Total : 95 vidéos (67 FR, 28 EN), 69 sujets distincts.
 « script seulement » = fabriqué dans le dépôt mais sans fichier de publication (publié avant le 22/10 par Metricool ou jamais) : à considérer comme déjà fait.
