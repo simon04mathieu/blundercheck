@@ -420,3 +420,6 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/quiz_legal_9_en_long.mp4 {"voix_brute_s": 20.5, "tempo": 1.0, "video_s": 27.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 53, "minutage": "8 phrases, 2 coups, 1 pauses"}
+## 2026-10-31 00:30 UTC · pièges · run 41150474685
+### commandes/pieges/2026-10-31b.json
+    OK stock/pieges-candidats.md : 10 pièges, dont 7 jamais faits
