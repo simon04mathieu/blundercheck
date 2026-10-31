@@ -233,3 +233,12 @@ Jetons TikTok (en) enregistrés (chiffrés). Portées : user.info.basic,user.inf
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 9, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 9, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 9, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 9, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-10-31 07:31 publications/tiktok-en/gourmande_en_1.json
+{"publish_id": "v_inbox_file~v2.7702731217048881174", "mode": "brouillon", "vie_privee": null, "legende": "🎃 Happy Halloween! The Greedy One gobbles your queen… and your knight and bishop mate her king. Would you have eaten the queen? #chess #chesstrap #halloween #chesstok"}
+### 2026-10-31 07:31 publications/tiktok-en/pigeon_en_16.json
+ÉCHEC : TikTok PUT https://open-upload-i18n.tiktokapis.com/upload -> 404 : null
+### 2026-10-31 07:31 publications/tiktok-en/prof_partie_1.json
+{"publish_id": "v_inbox_file~v2.7702731226860029974", "mode": "brouillon", "vie_privee": null, "legende": "The AI teacher checked every move of my game 😬 How many mistakes do you see? #chess #chesstok #gamereview #aichess"}
+### 2026-10-31 07:31 publications/tiktok-en/quiz_legal_9_en.json
+{"publish_id": "v_inbox_file~v2.7702731217049045014", "mode": "brouillon", "vie_privee": null, "legende": "♟️ Your king is in check twice. Your queen can take the knight… legal or illegal? Yes or no 👇 #chess #chessrules #chessquiz #chesstok"}
