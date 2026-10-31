@@ -41,3 +41,6 @@
 ### 2026-10-31 19:44 publications/instagram/quiz_legal_9_fr.json
 ÉCHEC :
 ÉCHEC : champ « etiquettes » manquant dans publications/instagram/quiz_legal_9_fr.json
+### 2026-10-31 20:43 publications/instagram/quiz_legal_9_fr.json
+ÉCHEC :
+ÉCHEC : champ « etiquettes » manquant dans publications/instagram/quiz_legal_9_fr.json
