@@ -278,3 +278,6 @@ Jetons TikTok (en) enregistrés (chiffrés). Portées : user.info.basic,user.inf
 {"publish_id": "v_inbox_file~v2.7703103579262961686", "mode": "brouillon", "vie_privee": null, "legende": "Chess Trap #3: check… can you take en passant? Would you have seen it? 👇 #chess #chesstok #enpassant #chessrules"}
 ### 2026-11-01 07:37 publications/tiktok-en/quiz_legal_11_en.json
 ÉCHEC : TikTok PUT https://open-upload-i18n.tiktokapis.com/upload -> 404 : null
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 13, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-01 07:58 publications/tiktok-en/quiz_legal_11_en.json
+{"publish_id": "v_inbox_file~v2.7703108969354561559", "mode": "brouillon", "vie_privee": null, "legende": "Castle long… legal or not? Did you know this rule? 👇 #chess #chesstok #chessrules #chessquiz"}
