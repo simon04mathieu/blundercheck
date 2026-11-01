@@ -1,0 +1,62 @@
+{
+ "nom": "pigeon_en_17",
+ "tempo": 1.0,
+ "duree_s": 17.42,
+ "hook": {
+  "texte": "His queen|has no escape.",
+  "fin": 2.84
+ },
+ "question": {
+  "texte": "Follow: one new|trap every day",
+  "t": 14.22
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "His queen wandered far from home."
+  },
+  {
+   "t": 2.84,
+   "texte": "One bishop move hits it and every escape square loses."
+  },
+  {
+   "t": 7.22,
+   "texte": "Her best try takes a knight."
+  },
+  {
+   "t": 9.58,
+   "texte": "You take back and win the queen."
+  },
+  {
+   "t": 11.72,
+   "texte": "Always check where your queen can run."
+  },
+  {
+   "t": 14.8,
+   "texte": "Follow: one new trap every day."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.68,
+   "coup": "d5",
+   "badge": "gaffe"
+  },
+  {
+   "t": 3.74,
+   "coup": "Bc5",
+   "badge": "brillant"
+  },
+  {
+   "t": 7.98,
+   "coup": "Qxc3+",
+   "badge": null
+  },
+  {
+   "t": 10.26,
+   "coup": "bxc3",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": []
+}

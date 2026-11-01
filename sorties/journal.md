@@ -427,3 +427,8 @@
 ## 2026-10-31 10:55 UTC · pièges · run 41194697275
 ### commandes/pieges/2026-10-31-varies.json
     OK stock/pieges-candidats.md : 8 pièges, dont 7 jamais faits
+## 2026-11-01 00:06 UTC · run 41255076981
+### commandes/perso_pigeon_en_17.json
+    voix générée : 238 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_17.mp4 {"voix_brute_s": 17.3, "tempo": 1.0, "video_s": 18.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 42, "minutage": "6 phrases, 4 coups, 0 pauses"}
