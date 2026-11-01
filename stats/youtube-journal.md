@@ -340,3 +340,6 @@
 {"id": "xPI1E_9mTn0", "url": "https://www.youtube.com/shorts/xPI1E_9mTn0", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "33"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "33"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "33"}
+### 2026-11-01 16:38 publications/youtube/pigeon_en_17.json
+{"id": "Oy1uQaO5V90", "url": "https://www.youtube.com/shorts/Oy1uQaO5V90", "statut": "public", "publier_le": null}
