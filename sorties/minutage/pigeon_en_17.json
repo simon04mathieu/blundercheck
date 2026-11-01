@@ -1,14 +1,14 @@
 {
  "nom": "pigeon_en_17",
  "tempo": 1.0,
- "duree_s": 17.42,
+ "duree_s": 20.42,
  "hook": {
   "texte": "His queen|has no escape.",
-  "fin": 2.84
+  "fin": 5.84
  },
  "question": {
   "texte": "Follow: one new|trap every day",
-  "t": 14.22
+  "t": 17.22
  },
  "phrases": [
   {
@@ -16,47 +16,53 @@
    "texte": "His queen wandered far from home."
   },
   {
-   "t": 2.84,
+   "t": 5.84,
    "texte": "One bishop move hits it and every escape square loses."
   },
   {
-   "t": 7.22,
+   "t": 10.22,
    "texte": "Her best try takes a knight."
   },
   {
-   "t": 9.58,
+   "t": 12.58,
    "texte": "You take back and win the queen."
   },
   {
-   "t": 11.72,
+   "t": 14.74,
    "texte": "Always check where your queen can run."
   },
   {
-   "t": 14.8,
+   "t": 17.8,
    "texte": "Follow: one new trap every day."
   }
  ],
  "coups": [
   {
-   "t": 0.68,
+   "t": 0.66,
    "coup": "d5",
    "badge": "gaffe"
   },
   {
-   "t": 3.74,
+   "t": 6.74,
    "coup": "Bc5",
    "badge": "brillant"
   },
   {
-   "t": 7.98,
+   "t": 11.0,
    "coup": "Qxc3+",
    "badge": null
   },
   {
-   "t": 10.26,
+   "t": 13.26,
    "coup": "bxc3",
    "badge": "brillant"
   }
  ],
- "pauses": []
+ "pauses": [
+  {
+   "t": 2.82,
+   "duree": 3.0,
+   "texte": "Find the trap!"
+  }
+ ]
 }
