@@ -20,8 +20,13 @@ REQUIS = {
     "threads": BASE + ("legende", "concept", "etiquettes"),
 }
 # Créneaux de la règle fixe 5 (heure de Paris). TikTok : l'heure d'envoi est celle du brouillon, pas de la publication.
-CRENEAUX = {"instagram": {14, 20}, "youtube": {11, 14, 17, 20}, "instagram-en": {11, 14, 17, 20},
-            "facebook": {11, 14, 17, 20}, "threads": {11, 14, 17, 20}}
+# Jusqu'au 1/11 : EN 11/14/17/20, FR 14/20. Dès le 2/11 (Simon, 1/11, d'après Studio) : EN 15/17/19/21, FR 17/21.
+CHANGEMENT = dt.date(2026, 11, 2)
+AVANT = {"instagram": {14, 20}, "youtube": {11, 14, 17, 20}, "instagram-en": {11, 14, 17, 20},
+         "facebook": {11, 14, 17, 20}, "threads": {11, 14, 17, 20}}
+APRES = {"instagram": {17, 21}, "youtube": {15, 17, 19, 21}, "instagram-en": {15, 17, 19, 21},
+         "facebook": {15, 17, 19, 21}, "threads": {15, 17, 19, 21}}
+CRENEAUX = AVANT
 FIN_PROF = dt.date(2026, 11, 1)   # prof IA arrêté par Simon le 1/11 : plus aucune vidéo prof après cette date
 
 
@@ -41,8 +46,10 @@ def verifier(chemin, reseau):
     try:
         h = dt.datetime.fromisoformat(d["envoyer_apres"])
         if h.tzinfo is None: pb.append("« envoyer_apres » sans fuseau (+01:00)")
-        elif reseau in CRENEAUX and (h.hour not in CRENEAUX[reseau] or h.minute):
-            pb.append(f"créneau {h:%H:%M} hors règle 5 ({sorted(CRENEAUX[reseau])} h)")
+        elif reseau in AVANT:
+            cren = (APRES if h.date() >= CHANGEMENT else AVANT)[reseau]
+            if h.hour not in cren or h.minute:
+                pb.append(f"créneau {h:%H:%M} hors règle 5 ({sorted(cren)} h)")
         if "prof" in (d.get("concept") or os.path.basename(chemin)) and h.date() > FIN_PROF:
             pb.append("vidéo prof IA : format arrêté par Simon le 1/11")
     except (KeyError, TypeError, ValueError):
