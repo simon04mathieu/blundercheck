@@ -55,3 +55,5 @@
 ÉCHEC : champ « etiquettes » manquant dans publications/instagram/quiz_legal_9_fr.json
 ### 2026-11-01 13:52 publications/instagram/pigeon_jour_14.json
 {"reseau": "instagram", "id": "18153797017519309"}
+### 2026-11-01 19:45 publications/instagram/quiz_legal_10_fr.json
+{"reseau": "instagram", "id": "17978733729149277"}
