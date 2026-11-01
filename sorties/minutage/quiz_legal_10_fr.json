@@ -1,0 +1,72 @@
+{
+ "nom": "quiz_legal_10_fr",
+ "tempo": 1.0,
+ "duree_s": 21.18,
+ "hook": {
+  "texte": "Échec !|Prise en passant ?",
+  "fin": 2.74
+ },
+ "question": {
+  "texte": "Abonne-toi :|un piège par jour",
+  "t": 17.98
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Son pion avance de deux cases et te met en échec."
+  },
+  {
+   "t": 2.74,
+   "texte": "Peux-tu le prendre en passant ?"
+  },
+  {
+   "t": 6.68,
+   "texte": "Oui !"
+  },
+  {
+   "t": 8.38,
+   "texte": "Ton pion arrive avec échec et vise la tour."
+  },
+  {
+   "t": 11.78,
+   "texte": "Le roi fuit tu gagnes la tour."
+  },
+  {
+   "t": 15.2,
+   "texte": "La prise en passant peut parer un échec."
+  },
+  {
+   "t": 18.12,
+   "texte": "Abonne-toi : un piège par jour pour monter ton Elo."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.4,
+   "coup": "c5+",
+   "badge": "gaffe"
+  },
+  {
+   "t": 8.98,
+   "coup": "bxc6+",
+   "badge": "brillant"
+  },
+  {
+   "t": 12.28,
+   "coup": "Kd6",
+   "badge": null
+  },
+  {
+   "t": 13.26,
+   "coup": "cxb7",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 4.66,
+   "duree": 2.0,
+   "texte": "En passant ?"
+  }
+ ]
+}
