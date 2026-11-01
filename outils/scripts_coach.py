@@ -1217,3 +1217,51 @@ QUESTIONS.update({
     "quiz_legal_9_en_long": "Follow: one new|rule every day",
     "quiz_legal_9_fr": "Tu le savais ?|Abonne-toi",
 })
+
+# ---------- file du 31/10-1/11 (scénariste 22 h 33) : 4 EN + 2 FR. T11-série (e.p. = A « Chess Trap #3 », dragon accéléré = B), T13-fin-quiz B ----------
+# Producteur (1/11, 1 h) : python-chess + Stockfish 17.1 (WASM lite, 0,5 s) : dragon accéléré 9...d5?? +3,6 (9...Nxe4 -1,3), 10.Bc5 meilleur ;
+# Défense russe 5...c5?? +3,1 (5...d5 0), 6.Qa4+ meilleur, 7.Qxe4+ ; e.p. : 1...c5+ 2.bxc6+ légal et échec ; grand roque légal (case voisine de la tour attaquée, route du roi libre).
+# Textes : dragon « Take the knight… » corrigé (c'est la dame noire qui prend le cavalier) ; russe « ouvre la diagonale » corrigé (la diagonale était déjà ouverte). Anti-doublon : NOUVEAU (4 positions). Aucune musique.
+EP_ECHEC = "fen:8/1rpkb3/8/1P6/1N1K4/8/8/8_b_-_-_0_1"
+DRAGON_AVANT = "e4 c5 Nc3 Nc6 Nf3 g6 d4 cxd4 Nxd4 Bg7 Be3 Nf6 Bc4 Qb6 Nb3 Qb4 Bd3"
+GRAND_ROQUE = "fen:r3k2r/ppp2ppp/2n2nb1/8/8/2N2N2/PP3PPP/R3K2R_w_KQkq_-_0_1"
+RUSSE_AVANT = "e4 e5 Nf3 Nf6 Nxe5 d6 Nf3"
+PERSO.update({
+"quiz_legal_10_en": {   # prise en passant qui pare un échec, T11-série A (« Chess Trap #3 », badge permanent)
+    "cote": "blancs", "sous_titres": "phrase", "serie": "Chess Trap #3",
+    "hook": "Check!|Can you take en passant?",
+    "voix": """A pawn jumps two squares and checks your king. Can you capture it en passant? Yes! Your pawn lands with check and forks the king and the rook. The king runs, you win the rook. En passant can answer a check. Trap #4 tomorrow. Follow!""",
+    "script": """[p """ + EP_ECHEC + """] A pawn [m c5+ gaffe] [f c5d4] jumps two squares and checks your king. [h] Can you capture it en passant? [q 2 En_passant?] Yes! Your pawn [m bxc6+ brillant] [z c6 1.3 2.0] [x impact] lands with check and forks the king and the rook. [f c6b7] The king [m Kd6] runs, you win [m cxb7 brillant] [z b7 1.45 2.6] the rook. En passant can answer a check. Trap #4 tomorrow. Follow!""",
+},
+"quiz_legal_10_fr": {   # jumeau FR, T13-fin-quiz B (fin nette, appel seul)
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Échec !|Prise en passant ?",
+    "voix": """Son pion avance de deux cases et te met en échec. Peux-tu le prendre en passant ? Oui ! Ton pion arrive avec échec et vise la tour. Le roi fuit, tu gagnes la tour. La prise en passant peut parer un échec. Abonne-toi : un piège par jour pour monter ton Elo.""",
+    "script": """[p """ + EP_ECHEC + """] Son pion [m c5+ gaffe] [f c5d4] avance de deux cases et te met en échec. [h] Peux-tu le prendre en passant ? [q 2 En_passant_?] Oui ! Ton pion [m bxc6+ brillant] [z c6 1.3 2.0] [x impact] arrive avec échec et vise la tour. [f c6b7] Le roi [m Kd6] fuit, tu gagnes [m cxb7 brillant] [z b7 1.45 2.6] la tour. La prise en passant peut parer un échec. Abonne-toi : un piège par jour pour monter ton Elo.""",
+},
+"pigeon_en_17": {   # Sicilienne dragon accéléré (réserve n° 1, 1693), dame piégée, T11-série B (sans badge ni numéro)
+    "cote": "blancs",
+    "hook": "His queen|has no escape.",
+    "voix": """[mischievously] His queen wandered far from home. One bishop move hits it, and every escape square loses. Her best try takes a knight. You take back and win the queen. Always check where your queen can run. Follow: one new trap every day.""",
+    "script": """[p """ + DRAGON_AVANT + """] His queen [m d5 gaffe] wandered far from home. [h] One bishop move [m Bc5 brillant] [z c5b4 1.3 2.0] hits it, [s tag b4 2.0 TRAPPED] and every escape square loses. Her best try [m Qxc3+] takes a knight. You take back [m bxc3 brillant] [z c3 1.45 2.6] [x impact] and win the queen. Always check where your queen can run. Follow: one new trap every day.""",
+},
+"quiz_legal_11_en": {   # grand roque, case voisine de la tour attaquée, sans test
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Castle long.|Legal?",
+    "voix": """His bishop hits the square next to your rook. Can you castle long? Yes! Only the king's path must be safe. The king crosses two squares, and neither is attacked. The rook can cross an attacked square. Follow: one new puzzle every day.""",
+    "script": """[p """ + GRAND_ROQUE + """] [f g6b1] His bishop hits the square next to your rook. [h] Can you castle long? [q 2 Legal_or_illegal?] Yes! [m O-O-O brillant] [z c1 1.3 2.0] [x impact] Only the king's path must be safe. The king crosses two squares, and neither is attacked. The rook can cross an attacked square. Follow: one new puzzle every day.""",
+},
+"pigeon_jour_14": {   # Défense russe (réserve n° 3, 1307), fourchette de dame, sans test
+    "cote": "blancs",
+    "hook": "Un échec,|deux cibles.",
+    "voix": """[mischievously] Il croque ton pion avec son poney. Tu joues un petit coup tranquille. Il pousse un pion, mais la diagonale de son roi est grande ouverte. Ta dame sort : échec, et son poney est visé aussi. Tu gagnes le poney. Abonne-toi : un piège par jour pour monter ton Elo.""",
+    "script": """[p """ + RUSSE_AVANT + """] Il croque [m Nxe4] ton pion avec son poney. [h] Tu joues [m c3] un petit coup tranquille. Il pousse [m c5 gaffe] un pion, mais la diagonale de son roi est grande ouverte. Ta dame [m Qa4+ brillant] [z a4 1.3 2.0] sort : échec, [m Nc6] et son poney [f a4e4] est visé aussi. Tu gagnes [m Qxe4+ brillant] [z e4 1.45 2.6] [x impact] le poney. Abonne-toi : un piège par jour pour monter ton Elo.""",
+},
+})
+QUESTIONS.update({
+    "quiz_legal_10_en": "Trap #4 tomorrow|Follow!",
+    "quiz_legal_10_fr": "Abonne-toi :|un piège par jour",
+    "pigeon_en_17": "Follow: one new|trap every day",
+    "quiz_legal_11_en": "Follow: one new|puzzle every day",
+    "pigeon_jour_14": "Abonne-toi :|un piège par jour",
+})
