@@ -1,0 +1,76 @@
+{
+ "nom": "quiz_legal_10_en",
+ "tempo": 1.0,
+ "duree_s": 20.48,
+ "hook": {
+  "texte": "Check!|Can you take en passant?",
+  "fin": 3.3
+ },
+ "question": {
+  "texte": "Trap #4 tomorrow|Follow!",
+  "t": 17.28
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "A pawn jumps two squares and checks your king."
+  },
+  {
+   "t": 3.3,
+   "texte": "Can you capture it en passant?"
+  },
+  {
+   "t": 7.42,
+   "texte": "Yes!"
+  },
+  {
+   "t": 8.58,
+   "texte": "Your pawn lands with check and forks the king and the rook."
+  },
+  {
+   "t": 12.68,
+   "texte": "The king runs you win the rook."
+  },
+  {
+   "t": 15.28,
+   "texte": "En passant can answer a check."
+  },
+  {
+   "t": 17.82,
+   "texte": "Trap #4 tomorrow."
+  },
+  {
+   "t": 19.86,
+   "texte": "Follow!"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.4,
+   "coup": "c5+",
+   "badge": "gaffe"
+  },
+  {
+   "t": 9.0,
+   "coup": "bxc6+",
+   "badge": "brillant"
+  },
+  {
+   "t": 13.04,
+   "coup": "Kd6",
+   "badge": null
+  },
+  {
+   "t": 14.08,
+   "coup": "cxb7",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 5.4,
+   "duree": 2.0,
+   "texte": "En passant?"
+  }
+ ]
+}
