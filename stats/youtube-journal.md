@@ -338,3 +338,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "33"}
 ### 2026-11-01 13:46 publications/youtube/prof_corrige_2.json
 {"id": "xPI1E_9mTn0", "url": "https://www.youtube.com/shorts/xPI1E_9mTn0", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "33"}
