@@ -1,0 +1,36 @@
+{
+ "legende": "♟️ Chess Trap #3: a pawn checks your king. Can you take it en passant? Would you have seen it? 👇 Trap #4 tomorrow, follow!\n\nAnalyze your own game, free: link in bio\n\n#chess #chessrules #enpassant",
+ "envoyer_apres": "2026-11-01T11:00:00+01:00",
+ "fichier": "sorties/quiz_legal_10_en.mp4",
+ "concept": "quiz_legal",
+ "format": "QUIZ_LEGAL",
+ "langue": "en",
+ "test": "T11-série",
+ "duree": 21.1,
+ "voix": "oui",
+ "variante": "A",
+ "etiquettes": {
+  "format": "QUIZ_LEGAL",
+  "langue": "en",
+  "duree_s": 21,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T11-série",
+  "variante": "A",
+  "ouverture": "coup_image0",
+  "titre": "resultat",
+  "appel_site": "non",
+  "serie": "Chess Trap #3",
+  "hook": "question_legal",
+  "premiers_mots": "A pawn jumps",
+  "personnages": [
+   "you",
+   "pawn",
+   "king"
+  ],
+  "fin": "teaser_serie",
+  "interet": "regle_en_passant_pare_echec",
+  "motif": "fourchette"
+ },
+ "paire": "quiz_legal_10_fr"
+}

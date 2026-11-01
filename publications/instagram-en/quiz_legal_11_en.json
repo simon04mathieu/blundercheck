@@ -1,0 +1,34 @@
+{
+ "legende": "♟️ His bishop hits the square next to your rook. Can you castle long? Did you know this rule? 👇 Follow: one new puzzle every day.\n\nAnalyze your own game, free: link in bio\n\n#chess #chessrules #castling",
+ "envoyer_apres": "2026-11-01T20:00:00+01:00",
+ "fichier": "sorties/quiz_legal_11_en.mp4",
+ "concept": "quiz_legal",
+ "format": "QUIZ_LEGAL",
+ "langue": "en",
+ "test": "aucun",
+ "duree": 20.6,
+ "voix": "oui",
+ "variante": "-",
+ "etiquettes": {
+  "format": "QUIZ_LEGAL",
+  "langue": "en",
+  "duree_s": 21,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "aucun",
+  "variante": "-",
+  "ouverture": "coup_image0",
+  "titre": "resultat",
+  "appel_site": "non",
+  "hook": "question_legal",
+  "premiers_mots": "His bishop hits",
+  "personnages": [
+   "you",
+   "king",
+   "rook"
+  ],
+  "fin": "follow_promesse",
+  "interet": "regle_grand_roque",
+  "motif": "regle"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "legende": "Un échec, deux cibles 😈 Ton piège préféré contre 1.e4 ? 👇 #echecs #chess #piege #echecsfr",
+ "envoyer_apres": "2026-11-01T08:00:00+01:00",
+ "heure_conseillee": "2026-11-01T14:00:00+01:00",
+ "repere": "14 h · pigeon_jour_14 · 20 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/pigeon_jour_14.mp4",
+ "concept": "pigeon_jour",
+ "format": "PIGEON",
+ "langue": "fr",
+ "test": "aucun",
+ "duree": 20.0,
+ "voix": "oui",
+ "variante": "-",
+ "etiquettes": {
+  "format": "PIGEON",
+  "langue": "fr",
+  "duree_s": 20,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "aucun",
+  "variante": "-",
+  "ouverture": "coup_image0",
+  "titre": "resultat",
+  "appel_site": "non",
+  "hook": "perte",
+  "premiers_mots": "Il croque ton",
+  "personnages": [
+   "toi",
+   "poney",
+   "dame"
+  ],
+  "fin": "abonne_promesse",
+  "interet": "fourchette_dame",
+  "motif": "fork",
+  "niveau": 1307
+ }
+}

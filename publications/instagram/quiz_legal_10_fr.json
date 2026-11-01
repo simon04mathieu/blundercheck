@@ -1,0 +1,35 @@
+{
+ "legende": "Échec ! Peux-tu prendre en passant ? Tu l'aurais vu ? 👇 Abonne-toi : un piège par jour pour monter ton Elo.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #regles #echecsfr",
+ "envoyer_apres": "2026-11-01T20:00:00+01:00",
+ "fichier": "sorties/quiz_legal_10_fr.mp4",
+ "concept": "quiz_legal",
+ "format": "QUIZ_LEGAL",
+ "langue": "fr",
+ "test": "T13-fin-quiz",
+ "duree": 21.8,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "QUIZ_LEGAL",
+  "langue": "fr",
+  "duree_s": 22,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T13-fin-quiz",
+  "variante": "B",
+  "ouverture": "coup_image0",
+  "titre": "resultat",
+  "appel_site": "non",
+  "hook": "question_legal",
+  "premiers_mots": "Son pion avance",
+  "personnages": [
+   "toi",
+   "pion",
+   "roi"
+  ],
+  "fin": "abonne_promesse",
+  "interet": "regle_en_passant_pare_echec",
+  "motif": "fourchette"
+ },
+ "paire": "quiz_legal_10_en"
+}

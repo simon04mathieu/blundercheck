@@ -1,0 +1,35 @@
+{
+ "legende": "Un échec, deux cibles : ta dame gagne le poney ♟️ Ton piège préféré contre 1.e4 ? 👇 Abonne-toi : un piège par jour pour monter ton Elo.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #piege #echecsfr",
+ "envoyer_apres": "2026-11-01T14:00:00+01:00",
+ "fichier": "sorties/pigeon_jour_14.mp4",
+ "concept": "pigeon_jour",
+ "format": "PIGEON",
+ "langue": "fr",
+ "test": "aucun",
+ "duree": 20.0,
+ "voix": "oui",
+ "variante": "-",
+ "etiquettes": {
+  "format": "PIGEON",
+  "langue": "fr",
+  "duree_s": 20,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "aucun",
+  "variante": "-",
+  "ouverture": "coup_image0",
+  "titre": "resultat",
+  "appel_site": "non",
+  "hook": "perte",
+  "premiers_mots": "Il croque ton",
+  "personnages": [
+   "toi",
+   "poney",
+   "dame"
+  ],
+  "fin": "abonne_promesse",
+  "interet": "fourchette_dame",
+  "motif": "fork",
+  "niveau": 1307
+ }
+}
