@@ -1239,11 +1239,11 @@ PERSO.update({
     "voix": """Son pion avance de deux cases et te met en échec. Peux-tu le prendre en passant ? Oui ! Ton pion arrive avec échec et vise la tour. Le roi fuit, tu gagnes la tour. La prise en passant peut parer un échec. Abonne-toi : un piège par jour pour monter ton Elo.""",
     "script": """[p """ + EP_ECHEC + """] Son pion [m c5+ gaffe] [f c5d4] avance de deux cases et te met en échec. [h] Peux-tu le prendre en passant ? [q 2 En_passant_?] Oui ! Ton pion [m bxc6+ brillant] [z c6 1.3 2.0] [x impact] arrive avec échec et vise la tour. [f c6b7] Le roi [m Kd6] fuit, tu gagnes [m cxb7 brillant] [z b7 1.45 2.6] la tour. La prise en passant peut parer un échec. Abonne-toi : un piège par jour pour monter ton Elo.""",
 },
-"pigeon_en_17": {   # Sicilienne dragon accéléré (réserve n° 1, 1693), dame piégée, T11-série B (sans badge ni numéro)
+"pigeon_en_17": {   # 1/11 : 18,0 s → pause 3 s « Find the trap! » (voix réutilisée, 0 crédit) ; Sicilienne dragon accéléré (réserve n° 1, 1693), dame piégée, T11-série B (sans badge ni numéro)
     "cote": "blancs",
     "hook": "His queen|has no escape.",
     "voix": """[mischievously] His queen wandered far from home. One bishop move hits it, and every escape square loses. Her best try takes a knight. You take back and win the queen. Always check where your queen can run. Follow: one new trap every day.""",
-    "script": """[p """ + DRAGON_AVANT + """] His queen [m d5 gaffe] wandered far from home. [h] One bishop move [m Bc5 brillant] [z c5b4 1.3 2.0] hits it, [s tag b4 2.0 TRAPPED] and every escape square loses. Her best try [m Qxc3+] takes a knight. You take back [m bxc3 brillant] [z c3 1.45 2.6] [x impact] and win the queen. Always check where your queen can run. Follow: one new trap every day.""",
+    "script": """[p """ + DRAGON_AVANT + """] His queen [m d5 gaffe] wandered far from home. [h] [q 3 Find_the_trap!] One bishop move [m Bc5 brillant] [z c5b4 1.3 2.0] hits it, [s tag b4 2.0 TRAPPED] and every escape square loses. Her best try [m Qxc3+] takes a knight. You take back [m bxc3 brillant] [z c3 1.45 2.6] [x impact] and win the queen. Always check where your queen can run. Follow: one new trap every day.""",
 },
 "quiz_legal_11_en": {   # grand roque, case voisine de la tour attaquée, sans test
     "cote": "blancs", "sous_titres": "phrase",
