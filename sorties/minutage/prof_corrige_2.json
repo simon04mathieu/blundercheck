@@ -1,0 +1,44 @@
+{
+ "nom": "prof_corrige_2_plateau",
+ "tempo": 1.0,
+ "duree_s": 20.14,
+ "hook": {
+  "texte": "The AI teacher found|my worst move.",
+  "fin": 4.7
+ },
+ "question": {
+  "texte": "Analyze your own game, free|blundercheck.app/try",
+  "t": 16.94
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Before each move scan for free pieces you can capture immediately."
+  },
+  {
+   "t": 4.7,
+   "texte": "You had a huge advantage in the endgame and converted it well with checks and active rooks."
+  },
+  {
+   "t": 10.78,
+   "texte": "Before every check count how many squares the enemy king can escape to."
+  },
+  {
+   "t": 15.74,
+   "texte": "Analyze your own game free: blundercheck dot app."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.0,
+   "coup": "Rd8",
+   "badge": "gaffe"
+  },
+  {
+   "t": 9.4,
+   "coup": "Rd8",
+   "badge": "gaffe"
+  }
+ ],
+ "pauses": []
+}

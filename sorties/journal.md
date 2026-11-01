@@ -444,3 +444,6 @@
 ### commandes/perso_quiz_legal_11_en.json
     voix générée : 234 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/quiz_legal_11_en.mp4 {"voix_brute_s": 17.9, "tempo": 1.0, "video_s": 20.6, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 43, "minutage": "7 phrases, 1 coups, 1 pauses"}
+### commandes/prof_corrige_2.json
+    voix générée : 283 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/prof_corrige_2.mp4 {"voix_brute_s": 20.0, "tempo": 1.0, "video_s": 20.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 49, "minutage": "4 phrases, 2 coups, 0 pauses", "ecrans": 2, "phrases_du_prof": 3}
