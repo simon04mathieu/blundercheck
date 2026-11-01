@@ -63,5 +63,54 @@ def main():
         print(f"- +{x} · {nom} · {t[:70]}")
 
 
+CATEGORIES = {"quiz_legal": "enigme", "pigeon_en": "piege", "pigeon_jour": "piege", "gourmande": "piege",
+              "prof_corrige": "prof", "prof_partie": "prof", "analyse_celebre": "analyse"}
+
+
+def categories(jours=7):
+    """Pré-indicateur du Pilote (Simon, 1/11) : vues YouTube à 48 h par catégorie, vidéos EN des `jours` derniers jours.
+    Catégorie = etiquettes.categorie du fichier de publication (énigme, tactique, finale, histoire, stratégie, ouverture,
+    piège…), sinon déduite du concept. Vidéos de moins de 48 h : comptées à part (vues actuelles, « jeunes »)."""
+    import datetime as dt, glob
+    fich = {}
+    for f in glob.glob(os.path.join(ROOT, "publications/youtube/faites/*.json")) + glob.glob(os.path.join(ROOT, "publications/youtube/*.json")):
+        try: d = json.load(open(f, encoding="utf-8"))
+        except Exception: continue
+        cat = (d.get("etiquettes") or {}).get("categorie") or CATEGORIES.get(d.get("concept", ""), d.get("concept") or "?")
+        fich[(d.get("titre") or "")[:100]] = cat
+    maint = lire("youtube")
+    if not maint: return
+    now = dt.datetime.now(dt.timezone.utc)
+    vids = {k: v for k, v in maint.get("videos", {}).items() if "#echecs" not in v.get("titre", "")
+            and now - dt.datetime.fromisoformat(v["publiee"].replace("Z", "+00:00")) < dt.timedelta(days=jours)}
+    if not vids: return
+    log = subprocess.run(["git", "-C", ROOT, "log", "--format=%H %ct", f"--since={jours + 3} days ago", "--", "stats/youtube.json"],
+                         capture_output=True, text=True).stdout.split()
+    snaps, dernier = [], 0
+    for h, t in sorted(zip(log[::2], map(int, log[1::2])), key=lambda x: x[1]):
+        if t - dernier < 3 * 3600: continue
+        o = subprocess.run(["git", "-C", ROOT, "show", f"{h}:stats/youtube.json"], capture_output=True, text=True)
+        try: snaps.append((t, json.loads(o.stdout).get("videos", {}))); dernier = t
+        except Exception: pass
+    par, jeunes = {}, {}
+    for k, v in vids.items():
+        cat = fich.get(v.get("titre", "")[:100], "?")
+        pub = dt.datetime.fromisoformat(v["publiee"].replace("Z", "+00:00")).timestamp()
+        a48 = next((s[k]["vues"] for t, s in snaps if t >= pub + 48 * 3600 and k in s), None)
+        if a48 is None and now.timestamp() - pub >= 48 * 3600: a48 = int(v.get("vues") or 0)
+        if a48 is None: jeunes.setdefault(cat, []).append(int(v.get("vues") or 0))
+        else: par.setdefault(cat, []).append(a48)
+    tout = [x for l in par.values() for x in l]
+    if not tout: return
+    moy = sum(tout) / len(tout); med = sorted(tout)[len(tout) // 2]
+    print(f"\nPar catégorie (YouTube EN, {jours} derniers jours, vues à 48 h ; moyenne {moy:.0f}, médiane {med} sur {len(tout)} vidéos ; règle 17 = moyenne) :")
+    print("| Catégorie | Vidéos | Moyenne à 48 h | % de la moyenne | Jeunes (< 48 h, vues actuelles) |\n|---|---|---|---|---|")
+    for cat in sorted(set(par) | set(jeunes), key=lambda c: -(sum(par.get(c, [0])) / max(len(par.get(c, [])), 1))):
+        l = par.get(cat, []); m = sum(l) / len(l) if l else 0
+        alerte = " ⚠ < 50 %" if l and m < moy / 2 else ""
+        print(f"| {cat} | {len(l)} | {m:.0f} | {100 * m / moy:.0f} %{alerte} | {', '.join(map(str, jeunes.get(cat, []))) or '–'} |")
+
+
 if __name__ == "__main__":
     main()
+    categories()
