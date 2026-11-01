@@ -73,8 +73,19 @@ def categories(jours=7):
     piège…), sinon déduite du concept. Vidéos de moins de 48 h : comptées à part (vues actuelles, « jeunes »)."""
     import datetime as dt, glob
     fich = {}
-    for f in glob.glob(os.path.join(ROOT, "publications/youtube/faites/*.json")) + glob.glob(os.path.join(ROOT, "publications/youtube/*.json")):
-        try: d = json.load(open(f, encoding="utf-8"))
+    chemins = glob.glob(os.path.join(ROOT, "publications/youtube/faites/*.json")) + glob.glob(os.path.join(ROOT, "publications/youtube/*.json"))
+    textes = []
+    for f in chemins:
+        try: textes.append(open(f, encoding="utf-8").read())
+        except Exception: pass
+    if not chemins:   # checkout partiel (workflow « Résumé chiffres » : stats + outils seulement) : lecture dans git
+        ls = subprocess.run(["git", "-C", ROOT, "ls-tree", "-r", "--name-only", "HEAD", "publications/youtube"],
+                            capture_output=True, text=True).stdout.split()
+        for f in ls:
+            if f.endswith(".json"):
+                textes.append(subprocess.run(["git", "-C", ROOT, "show", f"HEAD:{f}"], capture_output=True, text=True).stdout)
+    for t in textes:
+        try: d = json.loads(t)
         except Exception: continue
         cat = (d.get("etiquettes") or {}).get("categorie") or CATEGORIES.get(d.get("concept", ""), d.get("concept") or "?")
         fich[(d.get("titre") or "")[:100]] = cat
