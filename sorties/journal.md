@@ -452,3 +452,6 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_17.mp4 {"voix_brute_s": 17.3, "tempo": 1.0, "video_s": 21.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 42, "minutage": "6 phrases, 4 coups, 1 pauses"}
+## 2026-11-01 00:16 UTC · prof corrige · run 41255957787
+### commandes/prof/prof_3.json
+    OK : prof_3, 41 demi-coups, 3 moments, 25 commentaires du prof

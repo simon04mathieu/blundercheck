@@ -1,0 +1,339 @@
+{
+ "nom": "prof_3",
+ "partie": 3,
+ "couleur_de_simon": "b",
+ "demi_coups": 41,
+ "prof": {
+  "erreur": "",
+  "n": 25
+ },
+ "resume_du_prof": "Tu as obtenu une position très favorable grâce à une bonne structure et à tes pièces actives. Mais dans les moments décisifs, tu as manqué des mats et des occasions claires, ce qui a permis aux Blancs de se remettre dans la partie. Ta position était gagnante, mais la fin de partie a été perdue par des oublis tactiques.",
+ "lecons_du_prof": [
+  "Avant chaque coup, cherche tous les échecs possibles, surtout ceux qui mènent à un mat.",
+  "Vérifie toujours les cases de la dernière rangée où ta tour peut donner échec.",
+  "Protège ton roi et garde une case de fuite avant de jouer un pion au bord."
+ ],
+ "moments": [
+  {
+   "ply": 32,
+   "san": "Rxb8",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.116,
+   "commentaire": "Best move: you recapture on b8 and keep the rook on the open file.",
+   "conseil": "",
+   "ecran": "ecran_032.png"
+  },
+  {
+   "ply": 38,
+   "san": "Be5",
+   "camp": "b",
+   "tag": "gaffe",
+   "delta": 1.3,
+   "commentaire": "Tu as manqué l'occasion : Rb1+ forçait le mat en deux coups. Be5 laisse les Blancs se sauver et tu perds tout ton avantage.",
+   "conseil": "Quand tu as un échec forcé qui mène à un mat, joue-le immédiatement sans chercher autre chose.",
+   "ecran": "ecran_038.png"
+  },
+  {
+   "ply": 40,
+   "san": "Bf4",
+   "camp": "b",
+   "tag": "gaffe",
+   "delta": 1.454,
+   "commentaire": "Tu passes à côté du mat en un coup : Rb1# était gagnant. Bf4 te fait perdre une partie que tu avais en main.",
+   "conseil": "Avant chaque coup, regarde toujours les échecs possibles pour toi, surtout ceux qui donnent mat.",
+   "ecran": "ecran_040.png"
+  }
+ ],
+ "ecran_depart": "ecran_000.png",
+ "coups": [
+  {
+   "ply": 1,
+   "san": "e4",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.092
+  },
+  {
+   "ply": 2,
+   "san": "e5",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.063
+  },
+  {
+   "ply": 3,
+   "san": "Nf3",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.104
+  },
+  {
+   "ply": 4,
+   "san": "Nc6",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.059
+  },
+  {
+   "ply": 5,
+   "san": "Bc4",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.157
+  },
+  {
+   "ply": 6,
+   "san": "d6",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.073
+  },
+  {
+   "ply": 7,
+   "san": "O-O",
+   "camp": "w",
+   "tag": "bon",
+   "delta": 0.061
+  },
+  {
+   "ply": 8,
+   "san": "Nf6",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.07
+  },
+  {
+   "ply": 9,
+   "san": "d3",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.082
+  },
+  {
+   "ply": 10,
+   "san": "Be7",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.079
+  },
+  {
+   "ply": 11,
+   "san": "Re1",
+   "camp": "w",
+   "tag": "bon",
+   "delta": 0.079
+  },
+  {
+   "ply": 12,
+   "san": "d5",
+   "camp": "b",
+   "tag": "erreur",
+   "delta": 0.206
+  },
+  {
+   "ply": 13,
+   "san": "exd5",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.071
+  },
+  {
+   "ply": 14,
+   "san": "Nxd5",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.053
+  },
+  {
+   "ply": 15,
+   "san": "Nxe5",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.082
+  },
+  {
+   "ply": 16,
+   "san": "Be6",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.097
+  },
+  {
+   "ply": 17,
+   "san": "Nxc6",
+   "camp": "w",
+   "tag": "bon",
+   "delta": 0.091
+  },
+  {
+   "ply": 18,
+   "san": "bxc6",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.065
+  },
+  {
+   "ply": 19,
+   "san": "Nc3",
+   "camp": "w",
+   "tag": "imprecision",
+   "delta": 0.176
+  },
+  {
+   "ply": 20,
+   "san": "Nxc3",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.057
+  },
+  {
+   "ply": 21,
+   "san": "bxc3",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.035
+  },
+  {
+   "ply": 22,
+   "san": "Bxc4",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": -0.002
+  },
+  {
+   "ply": 23,
+   "san": "dxc4",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.002
+  },
+  {
+   "ply": 24,
+   "san": "Qxd1",
+   "camp": "b",
+   "tag": "excellent",
+   "delta": 0.014
+  },
+  {
+   "ply": 25,
+   "san": "Rxd1",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.05
+  },
+  {
+   "ply": 26,
+   "san": "O-O",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.076
+  },
+  {
+   "ply": 27,
+   "san": "Be3",
+   "camp": "w",
+   "tag": "bon",
+   "delta": 0.064
+  },
+  {
+   "ply": 28,
+   "san": "a6",
+   "camp": "b",
+   "tag": "imprecision",
+   "delta": 0.174
+  },
+  {
+   "ply": 29,
+   "san": "Rab1",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.069
+  },
+  {
+   "ply": 30,
+   "san": "Rab8",
+   "camp": "b",
+   "tag": "bon",
+   "delta": 0.093
+  },
+  {
+   "ply": 31,
+   "san": "Rxb8",
+   "camp": "w",
+   "tag": "gaffe",
+   "delta": 0.316
+  },
+  {
+   "ply": 32,
+   "san": "Rxb8",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.116
+  },
+  {
+   "ply": 33,
+   "san": "h3",
+   "camp": "w",
+   "tag": "bon",
+   "delta": 0.081
+  },
+  {
+   "ply": 34,
+   "san": "h6",
+   "camp": "b",
+   "tag": "imprecision",
+   "delta": 0.112
+  },
+  {
+   "ply": 35,
+   "san": "Rd7",
+   "camp": "w",
+   "tag": "gaffe",
+   "delta": 0.528
+  },
+  {
+   "ply": 36,
+   "san": "Bd6",
+   "camp": "b",
+   "tag": "meilleur",
+   "delta": 0.043
+  },
+  {
+   "ply": 37,
+   "san": "c5",
+   "camp": "w",
+   "tag": "gaffe",
+   "delta": 0.622
+  },
+  {
+   "ply": 38,
+   "san": "Be5",
+   "camp": "b",
+   "tag": "gaffe",
+   "delta": 1.3
+  },
+  {
+   "ply": 39,
+   "san": "Bd4",
+   "camp": "w",
+   "tag": "gaffe",
+   "delta": 1.3
+  },
+  {
+   "ply": 40,
+   "san": "Bf4",
+   "camp": "b",
+   "tag": "gaffe",
+   "delta": 1.454
+  },
+  {
+   "ply": 41,
+   "san": "g3",
+   "camp": "w",
+   "tag": "meilleur",
+   "delta": 0.056
+  }
+ ],
+ "regle": "Commentaires du vrai prof, à montrer tels quels (on peut couper, jamais réécrire). Partie anonyme : aucun nom à l'écran ni dans la voix."
+}
