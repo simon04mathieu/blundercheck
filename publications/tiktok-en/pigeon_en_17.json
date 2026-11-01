@@ -1,0 +1,39 @@
+{
+ "legende": "His queen has no escape 😬 Would you have seen it? 👇 #chess #chesstok #chesstrap #sicilian",
+ "envoyer_apres": "2026-11-01T08:00:00+01:00",
+ "heure_conseillee": "2026-11-01T17:00:00+01:00",
+ "repere": "17 h · pigeon_en_17 · 21 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/pigeon_en_17.mp4",
+ "concept": "pigeon_en",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "T11-série",
+ "duree": 21.0,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "PIGEON",
+  "langue": "en",
+  "duree_s": 21,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T11-série",
+  "variante": "B",
+  "ouverture": "coup_image0",
+  "titre": "resultat",
+  "appel_site": "non",
+  "hook": "perte",
+  "premiers_mots": "His queen wandered",
+  "personnages": [
+   "you",
+   "queen",
+   "bishop"
+  ],
+  "fin": "follow_promesse",
+  "interet": "dame_piegee",
+  "motif": "trappedPiece",
+  "niveau": 1693
+ }
+}
