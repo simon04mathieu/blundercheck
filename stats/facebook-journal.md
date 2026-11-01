@@ -58,3 +58,5 @@
 {"reseau": "facebook", "id": "1150658804426348", "ok": true}
 ### 2026-11-01 13:52 publications/facebook/prof_corrige_2.json
 {"reseau": "facebook", "id": "26859523660411688", "ok": true}
+### 2026-11-01 16:43 publications/facebook/pigeon_en_17.json
+{"reseau": "facebook", "id": "1385466413659495", "ok": true}
