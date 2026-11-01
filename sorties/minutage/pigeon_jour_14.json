@@ -1,0 +1,72 @@
+{
+ "nom": "pigeon_jour_14",
+ "tempo": 1.0,
+ "duree_s": 19.4,
+ "hook": {
+  "texte": "Un échec,|deux cibles.",
+  "fin": 2.92
+ },
+ "question": {
+  "texte": "Abonne-toi :|un piège par jour",
+  "t": 16.2
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Il croque ton pion avec son poney."
+  },
+  {
+   "t": 2.92,
+   "texte": "Tu joues un petit coup tranquille."
+  },
+  {
+   "t": 5.32,
+   "texte": "Il pousse un pion mais la diagonale de son roi est grande ouverte."
+  },
+  {
+   "t": 9.94,
+   "texte": "Ta dame sort  échec, et son poney est visé aussi."
+  },
+  {
+   "t": 14.44,
+   "texte": "Tu gagnes le poney."
+  },
+  {
+   "t": 15.66,
+   "texte": "Abonne-toi : un piège par jour pour monter ton Elo."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.64,
+   "coup": "Nxe4",
+   "badge": null
+  },
+  {
+   "t": 3.54,
+   "coup": "c3",
+   "badge": null
+  },
+  {
+   "t": 5.84,
+   "coup": "c5",
+   "badge": "gaffe"
+  },
+  {
+   "t": 10.36,
+   "coup": "Qa4+",
+   "badge": "brillant"
+  },
+  {
+   "t": 12.28,
+   "coup": "Nc6",
+   "badge": null
+  },
+  {
+   "t": 14.96,
+   "coup": "Qxe4+",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": []
+}
