@@ -441,3 +441,6 @@
 ### commandes/perso_quiz_legal_10_fr.json
     voix générée : 256 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/quiz_legal_10_fr.mp4 {"voix_brute_s": 19.1, "tempo": 1.0, "video_s": 21.8, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 54, "minutage": "7 phrases, 4 coups, 1 pauses"}
+### commandes/perso_quiz_legal_11_en.json
+    voix générée : 234 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/quiz_legal_11_en.mp4 {"voix_brute_s": 17.9, "tempo": 1.0, "video_s": 20.6, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 43, "minutage": "7 phrases, 1 coups, 1 pauses"}

@@ -1,0 +1,57 @@
+{
+ "nom": "quiz_legal_11_en",
+ "tempo": 1.0,
+ "duree_s": 19.96,
+ "hook": {
+  "texte": "Castle long.|Legal?",
+  "fin": 3.16
+ },
+ "question": {
+  "texte": "Follow: one new|puzzle every day",
+  "t": 16.76
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "His bishop hits the square next to your rook."
+  },
+  {
+   "t": 3.16,
+   "texte": "Can you castle long?"
+  },
+  {
+   "t": 6.9,
+   "texte": "Yes!"
+  },
+  {
+   "t": 8.14,
+   "texte": "Only the king's path must be safe."
+  },
+  {
+   "t": 10.74,
+   "texte": "The king crosses two squares and neither is attacked."
+  },
+  {
+   "t": 14.56,
+   "texte": "The rook can cross an attacked square."
+  },
+  {
+   "t": 17.28,
+   "texte": "Follow: one new puzzle every day."
+  }
+ ],
+ "coups": [
+  {
+   "t": 8.14,
+   "coup": "O-O-O",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 4.88,
+   "duree": 2.0,
+   "texte": "Legal or illegal?"
+  }
+ ]
+}
