@@ -401,3 +401,8 @@ http.client.IncompleteRead: IncompleteRead(262 bytes read)
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 11, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 11, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 11, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 11, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-01 07:37 publications/tiktok/pigeon_jour_14.json
+{"publish_id": "v_inbox_file~v2.7703103319790880790", "mode": "brouillon", "vie_privee": null, "legende": "Un échec, deux cibles 😈 Ton piège préféré contre 1.e4 ? 👇 #echecs #chess #piege #echecsfr"}
+### 2026-11-01 07:37 publications/tiktok/quiz_legal_10_fr.json
+{"publish_id": "v_inbox_file~v2.7703103579262863382", "mode": "brouillon", "vie_privee": null, "legende": "Échec… prise en passant possible ? Tu l'aurais vu ? 👇 #echecs #chess #regles #echecsfr"}

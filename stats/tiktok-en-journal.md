@@ -269,3 +269,12 @@ Jetons TikTok (en) enregistrés (chiffrés). Portées : user.info.basic,user.inf
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 13, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 13, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 13, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 13, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-01 07:37 publications/tiktok-en/pigeon_en_17.json
+{"publish_id": "v_inbox_file~v2.7703103650620524566", "mode": "brouillon", "vie_privee": null, "legende": "His queen has no escape 😬 Would you have seen it? 👇 #chess #chesstok #chesstrap #sicilian"}
+### 2026-11-01 07:37 publications/tiktok-en/prof_corrige_2.json
+{"publish_id": "v_inbox_file~v2.7703103579262928918", "mode": "brouillon", "vie_privee": null, "legende": "The AI teacher found my worst move 😬 Would you see it? 👇 #chess #chesstok #chessblunder #aichess"}
+### 2026-11-01 07:37 publications/tiktok-en/quiz_legal_10_en.json
+{"publish_id": "v_inbox_file~v2.7703103579262961686", "mode": "brouillon", "vie_privee": null, "legende": "Chess Trap #3: check… can you take en passant? Would you have seen it? 👇 #chess #chesstok #enpassant #chessrules"}
+### 2026-11-01 07:37 publications/tiktok-en/quiz_legal_11_en.json
+ÉCHEC : TikTok PUT https://open-upload-i18n.tiktokapis.com/upload -> 404 : null
