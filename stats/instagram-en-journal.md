@@ -23,3 +23,5 @@ jeton Instagram EN renouvelé (valable 60 jours)
 {"reseau": "instagram-en", "id": "18118323029105839"}
 ### 2026-10-31 19:45 publications/instagram-en/quiz_legal_9_en.json
 {"reseau": "instagram-en", "id": "18072659669773331"}
+### 2026-11-01 10:48 publications/instagram-en/quiz_legal_10_en.json
+{"reseau": "instagram-en", "id": "17977717488173716"}

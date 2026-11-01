@@ -54,3 +54,5 @@
 {"reseau": "facebook", "id": "1003083636168717", "ok": true}
 ### 2026-10-31 19:44 publications/facebook/quiz_legal_9_en.json
 {"reseau": "facebook", "id": "1131311625943348", "ok": true}
+### 2026-11-01 10:47 publications/facebook/quiz_legal_10_en.json
+{"reseau": "facebook", "id": "1150658804426348", "ok": true}
