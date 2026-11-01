@@ -1,8 +1,24 @@
 {
- "releve": "2026-10-31T17:12:44Z",
+ "releve": "2026-11-01T17:13:11Z",
  "compte": "blundercheckapp",
  "abonnes": 1,
  "publications": [
+  {
+   "id": "18153797017519309",
+   "caption": "Un échec, deux cibles : ta dame gagne le poney ♟️ Ton piège préféré contre 1.e4 ",
+   "comments_count": 0,
+   "like_count": 1,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfM4aTCFPf3/",
+   "timestamp": "2026-11-01T13:52:15+0000",
+   "insights": {
+    "views": 168,
+    "reach": 131,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1
+   }
+  },
   {
    "id": "18134655046805797",
    "caption": "Mat ou pat ? 🤔 La dame juste à côté… et c'est nulle. Tu l'aurais vu ? Abonne-toi",
@@ -12,8 +28,8 @@
    "permalink": "https://www.instagram.com/reel/DfIYGyfjnxD/",
    "timestamp": "2026-10-30T19:53:02+0000",
    "insights": {
-    "views": 183,
-    "reach": 142,
+    "views": 185,
+    "reach": 143,
     "shares": 0,
     "saved": 0,
     "total_interactions": 0
