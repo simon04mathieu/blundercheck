@@ -1,5 +1,5 @@
 {
- "date": "2026-11-01T19:39:16.417728+00:00",
+ "date": "2026-11-01T20:36:41.599522+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,13 +7,22 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "8d-KXGr4L0k": {
+   "titre": "His bishop attacks next to your rook. Can you castle long? ♟️ #chess #shorts",
+   "publiee": "2026-11-01T19:39:36Z",
+   "statut": "public",
+   "duree": "PT21S",
+   "vues": 69,
+   "jaime": 1,
+   "commentaires": 0
+  },
   "Oy1uQaO5V90": {
    "titre": "His queen has no escape ♟️ Sicilian trap #chess #shorts",
    "publiee": "2026-11-01T16:39:14Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 389,
-   "jaime": 0,
+   "vues": 475,
+   "jaime": 2,
    "commentaires": 0
   },
   "xPI1E_9mTn0": {
@@ -21,8 +30,8 @@
    "publiee": "2026-11-01T13:47:10Z",
    "statut": "public",
    "duree": "PT21S",
-   "vues": 656,
-   "jaime": 4,
+   "vues": 743,
+   "jaime": 5,
    "commentaires": 0
   },
   "S-VxA5TaD8Q": {
@@ -66,7 +75,7 @@
    "publiee": "2026-10-31T10:37:39Z",
    "statut": "public",
    "duree": "PT28S",
-   "vues": 1092,
+   "vues": 1130,
    "jaime": 6,
    "commentaires": 0
   },
@@ -75,7 +84,7 @@
    "publiee": "2026-10-30T19:46:42Z",
    "statut": "public",
    "duree": "PT20S",
-   "vues": 1225,
+   "vues": 1230,
    "jaime": 14,
    "commentaires": 0
   },
@@ -84,8 +93,8 @@
    "publiee": "2026-10-30T16:48:21Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 4605,
-   "jaime": 89,
+   "vues": 4647,
+   "jaime": 90,
    "commentaires": 1
   },
   "utElZQZHWaw": {
