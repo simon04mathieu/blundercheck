@@ -62,3 +62,5 @@
 {"reseau": "facebook", "id": "1385466413659495", "ok": true}
 ### 2026-11-01 19:45 publications/facebook/quiz_legal_11_en.json
 {"reseau": "facebook", "id": "2323041308484042", "ok": true}
+### 2026-11-02 14:26 publications/facebook/nb_coups_1.json
+{"reseau": "facebook", "id": "1677709370736909", "ok": true}
