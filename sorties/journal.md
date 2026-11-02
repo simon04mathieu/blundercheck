@@ -475,3 +475,8 @@
 ### commandes/perso_tactique_clouage_1.json
     voix générée : 234 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/tactique_clouage_1.mp4 {"voix_brute_s": 19.6, "tempo": 1.0, "video_s": 20.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 43, "minutage": "9 phrases, 7 coups, 0 pauses"}
+## 2026-11-02 00:13 UTC · run 41365900434
+### commandes/perso_finale_carre_1.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/finale_carre_1.mp4 {"voix_brute_s": 21.0, "tempo": 1.0, "video_s": 23.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 50, "minutage": "8 phrases, 5 coups, 1 pauses"}

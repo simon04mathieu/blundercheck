@@ -20,15 +20,15 @@
    "texte": "Draw a square to the last row."
   },
   {
-   "t": 5.2,
+   "t": 5.26,
    "texte": "The king is inside!"
   },
   {
-   "t": 9.06,
+   "t": 9.04,
    "texte": "Follow: one endgame trick a day."
   },
   {
-   "t": 12.34,
+   "t": 12.32,
    "texte": "The king steps closer."
   },
   {
@@ -36,7 +36,7 @@
    "texte": "The pawn runs and the king follows."
   },
   {
-   "t": 17.24,
+   "t": 17.22,
    "texte": "It runs again the king follows again."
   },
   {
@@ -46,7 +46,7 @@
  ],
  "coups": [
   {
-   "t": 12.34,
+   "t": 12.32,
    "coup": "Ke5",
    "badge": "brillant"
   },
@@ -56,22 +56,12 @@
    "badge": null
   },
   {
-   "t": 15.58,
+   "t": 15.9,
    "coup": "Kd6",
    "badge": null
   },
   {
-   "t": 17.52,
-   "coup": "b6",
-   "badge": null
-  },
-  {
-   "t": 18.88,
-   "coup": "Kc6",
-   "badge": null
-  },
-  {
-   "t": 20.92,
+   "t": 20.38,
    "coup": "b7",
    "badge": null
   },
@@ -83,7 +73,7 @@
  ],
  "pauses": [
   {
-   "t": 7.04,
+   "t": 7.02,
    "duree": 2.0,
    "texte": "Inside?"
   }
