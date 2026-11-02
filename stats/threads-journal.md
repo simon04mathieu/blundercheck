@@ -72,3 +72,5 @@ jeton Threads renouvelé (valable 60 jours)
 {"reseau": "threads", "id": "17954025162319181"}
 ### 2026-11-02 14:26 publications/threads/nb_coups_1.json
 {"reseau": "threads", "id": "17877382242650403"}
+### 2026-11-02 16:07 publications/threads/finale_carre_1.json
+{"reseau": "threads", "id": "17892537519617887"}

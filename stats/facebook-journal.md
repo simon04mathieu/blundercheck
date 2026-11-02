@@ -64,3 +64,5 @@
 {"reseau": "facebook", "id": "2323041308484042", "ok": true}
 ### 2026-11-02 14:26 publications/facebook/nb_coups_1.json
 {"reseau": "facebook", "id": "1677709370736909", "ok": true}
+### 2026-11-02 16:07 publications/facebook/finale_carre_1.json
+{"reseau": "facebook", "id": "1663973125256481", "ok": true}

@@ -57,3 +57,5 @@
 {"reseau": "instagram", "id": "18153797017519309"}
 ### 2026-11-01 19:45 publications/instagram/quiz_legal_10_fr.json
 {"reseau": "instagram", "id": "17978733729149277"}
+### 2026-11-02 16:06 publications/instagram/finale_carre_1_fr.json
+{"reseau": "instagram", "id": "18652423240048854"}
