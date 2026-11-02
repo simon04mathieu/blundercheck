@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-01T17:13:11Z",
+ "releve": "2026-11-02T17:32:15Z",
  "compte": "blundercheckapp",
  "abonnes": 1,
  "publications": [
+  {
+   "id": "18652423240048854",
+   "caption": "Le roi rattrape-t-il ce pion ? ♟️ Tu l'aurais rattrapé ? 👇 Abonne-toi : une astu",
+   "comments_count": 0,
+   "like_count": 0,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfPsmnAGjHE/",
+   "timestamp": "2026-11-02T16:06:47+0000",
+   "insights": {
+    "views": 192,
+    "reach": 132,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0
+   }
+  },
+  {
+   "id": "17978733729149277",
+   "caption": "Échec ! Peux-tu prendre en passant ? Tu l'aurais vu ? 👇 Abonne-toi : un piège pa",
+   "comments_count": 0,
+   "like_count": 1,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfNg0QFABz6/",
+   "timestamp": "2026-11-01T19:45:17+0000",
+   "insights": {
+    "views": 176,
+    "reach": 139,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1
+   }
+  },
   {
    "id": "18153797017519309",
    "caption": "Un échec, deux cibles : ta dame gagne le poney ♟️ Ton piège préféré contre 1.e4 ",
@@ -13,7 +45,7 @@
    "timestamp": "2026-11-01T13:52:15+0000",
    "insights": {
     "views": 168,
-    "reach": 131,
+    "reach": 132,
     "shares": 0,
     "saved": 0,
     "total_interactions": 1
