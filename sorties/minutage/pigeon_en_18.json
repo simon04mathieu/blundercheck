@@ -1,14 +1,14 @@
 {
  "nom": "pigeon_en_18",
  "tempo": 1.0,
- "duree_s": 23.3,
+ "duree_s": 29.74,
  "hook": {
   "texte": "Your bishop is attacked.|Ignore it!",
-  "fin": 2.02
+  "fin": 2.08
  },
  "question": {
   "texte": "Trap #5 tomorrow|Follow!",
-  "t": 20.1
+  "t": 26.54
  },
  "phrases": [
   {
@@ -16,77 +16,88 @@
    "texte": "White attacks your bishop."
   },
   {
-   "t": 2.02,
+   "t": 2.08,
    "texte": "Ignore it!"
   },
   {
-   "t": 3.36,
-   "texte": "Your bishop grabs the pawn by his king."
+   "t": 3.58,
+   "texte": "Bishop takes h2 check."
   },
   {
-   "t": 6.16,
-   "texte": "Check!"
+   "t": 6.34,
+   "texte": "King takes, knight g4 check."
   },
   {
-   "t": 7.34,
-   "texte": "He takes it."
+   "t": 9.54,
+   "texte": "King back to g1."
   },
   {
-   "t": 8.72,
-   "texte": "Knight jumps in check again!"
+   "t": 11.72,
+   "texte": "Now the queen goes to h5 threatening mate on h2."
   },
   {
-   "t": 11.46,
-   "texte": "King runs back."
+   "t": 17.16,
+   "texte": "His best try queen takes knight bishop takes queen."
   },
   {
-   "t": 13.1,
-   "texte": "Now your queen comes mate next, or he gives up his queen."
+   "t": 21.58,
+   "texte": "White just lost his queen for a knight."
   },
   {
-   "t": 18.14,
+   "t": 24.46,
    "texte": "Analyze your own game free."
   },
   {
-   "t": 20.72,
+   "t": 26.2,
    "texte": "Trap #5 tomorrow."
   },
   {
-   "t": 22.7,
+   "t": 29.1,
    "texte": "Follow!"
   }
  ],
  "coups": [
   {
-   "t": 0.37,
-   "coup": "Nc4",
-   "badge": "gaffe"
-  },
-  {
-   "t": 3.76,
+   "t": 3.58,
    "coup": "Bxh2+",
    "badge": "brillant"
   },
   {
-   "t": 7.34,
+   "t": 6.34,
    "coup": "Kxh2",
    "badge": null
   },
   {
-   "t": 8.9,
+   "t": 8.46,
    "coup": "Ng4+",
    "badge": null
   },
   {
-   "t": 11.8,
+   "t": 10.28,
    "coup": "Kg1",
    "badge": null
   },
   {
-   "t": 13.76,
+   "t": 12.76,
    "coup": "Qh5",
+   "badge": "brillant"
+  },
+  {
+   "t": 18.36,
+   "coup": "Qxg4",
+   "badge": null
+  },
+  {
+   "t": 20.42,
+   "coup": "Bxg4",
    "badge": "brillant"
   }
  ],
- "pauses": []
+ "pauses": [
+  {
+   "t": 16.14,
+   "duree": 1.0,
+   "texte": "Mate threat!"
+  }
+ ]
 }
