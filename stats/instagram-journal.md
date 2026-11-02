@@ -59,3 +59,5 @@
 {"reseau": "instagram", "id": "17978733729149277"}
 ### 2026-11-02 16:06 publications/instagram/finale_carre_1_fr.json
 {"reseau": "instagram", "id": "18652423240048854"}
+### 2026-11-02 20:52 publications/instagram/nb_coups_1_fr.json
+{"reseau": "instagram", "id": "17966450154209291"}
