@@ -24,7 +24,7 @@
    "texte": "Le roi est dedans !"
   },
   {
-   "t": 8.42,
+   "t": 8.46,
    "texte": "Le roi s'approche."
   },
   {
@@ -32,11 +32,11 @@
    "texte": "Le pion court le roi le suit."
   },
   {
-   "t": 12.4,
+   "t": 12.42,
    "texte": "Il court encore le roi suit encore."
   },
   {
-   "t": 15.68,
+   "t": 15.7,
    "texte": "À un pas de la dame le roi le croque."
   },
   {
@@ -46,28 +46,13 @@
  ],
  "coups": [
   {
-   "t": 8.42,
+   "t": 8.46,
    "coup": "Ke5",
    "badge": "brillant"
   },
   {
-   "t": 9.9,
+   "t": 10.12,
    "coup": "b5",
-   "badge": null
-  },
-  {
-   "t": 11.32,
-   "coup": "Kd6",
-   "badge": null
-  },
-  {
-   "t": 12.58,
-   "coup": "b6",
-   "badge": null
-  },
-  {
-   "t": 14.28,
-   "coup": "Kc6",
    "badge": null
   },
   {
@@ -83,7 +68,7 @@
  ],
  "pauses": [
   {
-   "t": 6.4,
+   "t": 6.44,
    "duree": 2.0,
    "texte": "Dedans ?"
   }
