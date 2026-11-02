@@ -369,6 +369,52 @@
   "ligne_uci": ""
  },
  {
+  "nom": "finale_carre_1",
+  "langue": "fr",
+  "concept": "finale_carre",
+  "sujet": "Too far to catch it?",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/8/5k2/8/1P6/8/8/7K b",
+  "position_finale": "8/1k6/8/8/8/8/8/7K w",
+  "positions": [
+   "8/1P6/2k5/8/8/8/8/7K b",
+   "8/1k6/8/8/8/8/8/7K w",
+   "8/8/1P1k4/8/8/8/8/7K b",
+   "8/8/1Pk5/8/8/8/8/7K w",
+   "8/8/3k4/1P6/8/8/8/7K w",
+   "8/8/5k2/8/1P6/8/8/7K b",
+   "8/8/8/1P2k3/8/8/8/7K b",
+   "8/8/8/4k3/1P6/8/8/7K w"
+  ],
+  "ligne_uci": "f6e5 b4b5 e5d6 b5b6 d6c6 b6b7 c6b7"
+ },
+ {
+  "nom": "finale_carre_1_fr",
+  "langue": "fr",
+  "concept": "finale_carre",
+  "sujet": "Trop loin pour le rattraper ?",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/8/5k2/8/1P6/8/8/7K b",
+  "position_finale": "8/1k6/8/8/8/8/8/7K w",
+  "positions": [
+   "8/1P6/2k5/8/8/8/8/7K b",
+   "8/1k6/8/8/8/8/8/7K w",
+   "8/8/1P1k4/8/8/8/8/7K b",
+   "8/8/1Pk5/8/8/8/8/7K w",
+   "8/8/3k4/1P6/8/8/8/7K w",
+   "8/8/5k2/8/1P6/8/8/7K b",
+   "8/8/8/1P2k3/8/8/8/7K b",
+   "8/8/8/4k3/1P6/8/8/7K w"
+  ],
+  "ligne_uci": "f6e5 b4b5 e5d6 b5b6 d6c6 b6b7 c6b7"
+ },
+ {
   "nom": "gourmande_en_1",
   "langue": "en",
   "concept": "gourmande",
@@ -494,6 +540,38 @@
    "r1bqkb1r/p3pp1p/2pp2p1/4P3/2B3n1/2N5/PPP2PPP/R1BQK2R w"
   ],
   "ligne_uci": "e2e4 c7c5 g1f3 d7d6 d2d4 c5d4 f3d4 g8f6 b1c3 b8c6 f1c4 g7g6 d4c6 b7c6 e4e5 f6g4"
+ },
+ {
+  "nom": "nb_coups_1",
+  "langue": "fr",
+  "concept": "nb_coups",
+  "sujet": "9 queens. How many moves?",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "R6R/3Q4/1Q4Q1/4Q3/2Q4Q/Q4Q2/pp1Q4/kBNN1KB1 w",
+  "position_finale": "R6R/3Q4/1Q4Q1/4Q3/2Q4Q/Q4Q2/pp1Q4/kBNN1KB1 w",
+  "positions": [
+   "R6R/3Q4/1Q4Q1/4Q3/2Q4Q/Q4Q2/pp1Q4/kBNN1KB1 w"
+  ],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "nb_coups_1_fr",
+  "langue": "fr",
+  "concept": "nb_coups",
+  "sujet": "9 dames. Combien de coups ?",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "R6R/3Q4/1Q4Q1/4Q3/2Q4Q/Q4Q2/pp1Q4/kBNN1KB1 w",
+  "position_finale": "R6R/3Q4/1Q4Q1/4Q3/2Q4Q/Q4Q2/pp1Q4/kBNN1KB1 w",
+  "positions": [
+   "R6R/3Q4/1Q4Q1/4Q3/2Q4Q/Q4Q2/pp1Q4/kBNN1KB1 w"
+  ],
+  "ligne_uci": ""
  },
  {
   "nom": "opera",
@@ -825,6 +903,53 @@
    "r2qkb1r/pp1n4/2p1pnp1/5N1p/7P/8/PPPPQPP1/R1B1K2R w"
   ],
   "ligne_uci": "e2e4 c7c6 b1c3 d7d5 g1f3 d5e4 c3e4 g8f6 e4g3 h7h5 h2h4 c8g4 f1e2 b8d7 f3g5 g4e2 d1e2 e7e6 g3f5 g7g6 g5e6 f7e6 e2e6 f8e7 f5d6 e8f8 e6f7"
+ },
+ {
+  "nom": "pigeon_en_17",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "His queen has no escape ♟️ Sicilian trap",
+  "reseaux": {
+   "youtube": "publié 2026-11-01",
+   "tiktok-en": "publié 2026-11-01",
+   "facebook": "publié 2026-11-01",
+   "threads": "publié 2026-11-01"
+  },
+  "statut": "publié",
+  "test": "T11-série",
+  "variante": "B",
+  "position_depart": "r1b1k2r/pp1pppbp/2n2np1/8/1q2P3/1NNBB3/PPP2PPP/R2QK2R b",
+  "position_finale": "r1b1k2r/pp2ppbp/2n2np1/2Bp4/4P3/1NPB4/P1P2PPP/R2QK2R b",
+  "positions": [
+   "r1b1k2r/pp1pppbp/2n2np1/8/1q2P3/1NNBB3/PPP2PPP/R2QK2R b",
+   "r1b1k2r/pp2ppbp/2n2np1/2Bp4/1q2P3/1NNB4/PPP2PPP/R2QK2R b",
+   "r1b1k2r/pp2ppbp/2n2np1/2Bp4/4P3/1NPB4/P1P2PPP/R2QK2R b",
+   "r1b1k2r/pp2ppbp/2n2np1/2Bp4/4P3/1NqB4/PPP2PPP/R2QK2R w",
+   "r1b1k2r/pp2ppbp/2n2np1/3p4/1q2P3/1NNBB3/PPP2PPP/R2QK2R w"
+  ],
+  "ligne_uci": "e2e4 c7c5 b1c3 b8c6 g1f3 g7g6 d2d4 c5d4 f3d4 f8g7 c1e3 g8f6 f1c4 d8b6 d4b3 b6b4 c4d3 d7d5 e3c5 b4c3 b2c3"
+ },
+ {
+  "nom": "pigeon_en_18",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "Your bishop is attacked. Ignore it!",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "r1b1qrk1/ppp3pp/2pb1n2/4N1B1/3Pp3/2N5/PPP2PPP/R2Q1RK1 w",
+  "position_finale": "r1b2rk1/ppp3pp/2p5/6Bq/2NPp1n1/2N5/PPP2PP1/R2Q1RK1 w",
+  "positions": [
+   "r1b1qrk1/ppp3pp/2p2n2/6B1/2NPp3/2N5/PPP2PPK/R2Q1R2 b",
+   "r1b1qrk1/ppp3pp/2p2n2/6B1/2NPp3/2N5/PPP2PPb/R2Q1RK1 w",
+   "r1b1qrk1/ppp3pp/2p5/6B1/2NPp1n1/2N5/PPP2PP1/R2Q1RK1 b",
+   "r1b1qrk1/ppp3pp/2p5/6B1/2NPp1n1/2N5/PPP2PPK/R2Q1R2 w",
+   "r1b1qrk1/ppp3pp/2pb1n2/4N1B1/3Pp3/2N5/PPP2PPP/R2Q1RK1 w",
+   "r1b1qrk1/ppp3pp/2pb1n2/6B1/2NPp3/2N5/PPP2PPP/R2Q1RK1 b",
+   "r1b2rk1/ppp3pp/2p5/6Bq/2NPp1n1/2N5/PPP2PP1/R2Q1RK1 w"
+  ],
+  "ligne_uci": "e5c4 d6h2 g1h2 f6g4 h2g1 e8h5"
  },
  {
   "nom": "pigeon_en_2",
@@ -1168,6 +1293,31 @@
   "ligne_uci": "e2e4 d7d5 e4d5 g8f6 f1b5 c8d7 b5c4 d7g4 g1f3 f6d5 b1c3 d5c3 f3e5 c3d1 c4f7"
  },
  {
+  "nom": "pigeon_jour_14",
+  "langue": "fr",
+  "concept": "pigeon_jour",
+  "sujet": "Un échec, deux cibles 😈 Ton piège préféré contre 1.e4 ? 👇",
+  "reseaux": {
+   "tiktok": "publié 2026-11-01",
+   "instagram": "publié 2026-11-01"
+  },
+  "statut": "publié",
+  "test": "aucun",
+  "variante": "-",
+  "position_depart": "rnbqkb1r/ppp2ppp/3p1n2/8/4P3/5N2/PPPP1PPP/RNBQKB1R b",
+  "position_finale": "r1bqkb1r/pp3ppp/2np4/2p5/4Q3/2P2N2/PP1P1PPP/RNB1KB1R b",
+  "positions": [
+   "r1bqkb1r/pp3ppp/2np4/2p5/4Q3/2P2N2/PP1P1PPP/RNB1KB1R b",
+   "r1bqkb1r/pp3ppp/2np4/2p5/Q3n3/2P2N2/PP1P1PPP/RNB1KB1R w",
+   "rnbqkb1r/pp3ppp/3p4/2p5/4n3/2P2N2/PP1P1PPP/RNBQKB1R w",
+   "rnbqkb1r/pp3ppp/3p4/2p5/Q3n3/2P2N2/PP1P1PPP/RNB1KB1R b",
+   "rnbqkb1r/ppp2ppp/3p1n2/8/4P3/5N2/PPPP1PPP/RNBQKB1R b",
+   "rnbqkb1r/ppp2ppp/3p4/8/4n3/2P2N2/PP1P1PPP/RNBQKB1R b",
+   "rnbqkb1r/ppp2ppp/3p4/8/4n3/5N2/PPPP1PPP/RNBQKB1R w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 c2c3 c7c5 d1a4 b8c6 a4e4"
+ },
+ {
   "nom": "pigeon_jour_2",
   "langue": "fr",
   "concept": "pigeon_jour",
@@ -1423,6 +1573,25 @@
   "ligne_uci": ""
  },
  {
+  "nom": "prof_corrige_2",
+  "langue": "en",
+  "concept": "prof_corrige",
+  "sujet": "The AI teacher found my worst chess move ♟️",
+  "reseaux": {
+   "youtube": "publié 2026-11-01",
+   "tiktok-en": "publié 2026-11-01",
+   "facebook": "publié 2026-11-01",
+   "threads": "publié 2026-11-01"
+  },
+  "statut": "publié",
+  "test": "aucun",
+  "variante": "-",
+  "position_depart": null,
+  "position_finale": null,
+  "positions": [],
+  "ligne_uci": ""
+ },
+ {
   "nom": "prof_partie_1",
   "langue": "en",
   "concept": "prof_corrige",
@@ -1440,6 +1609,76 @@
   "position_finale": null,
   "positions": [],
   "ligne_uci": ""
+ },
+ {
+  "nom": "quiz_legal_10_en",
+  "langue": "en",
+  "concept": "quiz_legal",
+  "sujet": "Check! Can you take en passant? Chess Trap ♟️",
+  "reseaux": {
+   "youtube": "publié 2026-11-01",
+   "tiktok-en": "publié 2026-11-01",
+   "facebook": "publié 2026-11-01",
+   "threads": "publié 2026-11-01"
+  },
+  "statut": "publié",
+  "test": "T11-série",
+  "variante": "A",
+  "position_depart": "8/1rpkb3/8/1P6/1N1K4/8/8/8 b",
+  "position_finale": "8/1P2b3/3k4/8/1N1K4/8/8/8 b",
+  "positions": [
+   "8/1P2b3/3k4/8/1N1K4/8/8/8 b",
+   "8/1r1kb3/2P5/8/1N1K4/8/8/8 b",
+   "8/1r1kb3/8/1Pp5/1N1K4/8/8/8 w",
+   "8/1r2b3/2Pk4/8/1N1K4/8/8/8 w",
+   "8/1rpkb3/8/1P6/1N1K4/8/8/8 b"
+  ],
+  "ligne_uci": "c7c5 b5c6 d7d6 c6b7"
+ },
+ {
+  "nom": "quiz_legal_10_fr",
+  "langue": "fr",
+  "concept": "quiz_legal",
+  "sujet": "Échec… prise en passant possible ? Tu l'aurais vu ? 👇",
+  "reseaux": {
+   "tiktok": "publié 2026-11-01",
+   "instagram": "publié 2026-11-01"
+  },
+  "statut": "publié",
+  "test": "T13-fin-quiz",
+  "variante": "B",
+  "position_depart": "8/1rpkb3/8/1P6/1N1K4/8/8/8 b",
+  "position_finale": "8/1P2b3/3k4/8/1N1K4/8/8/8 b",
+  "positions": [
+   "8/1P2b3/3k4/8/1N1K4/8/8/8 b",
+   "8/1r1kb3/2P5/8/1N1K4/8/8/8 b",
+   "8/1r1kb3/8/1Pp5/1N1K4/8/8/8 w",
+   "8/1r2b3/2Pk4/8/1N1K4/8/8/8 w",
+   "8/1rpkb3/8/1P6/1N1K4/8/8/8 b"
+  ],
+  "ligne_uci": "c7c5 b5c6 d7d6 c6b7"
+ },
+ {
+  "nom": "quiz_legal_11_en",
+  "langue": "en",
+  "concept": "quiz_legal",
+  "sujet": "His bishop attacks next to your rook. Can you castle long? ♟️",
+  "reseaux": {
+   "youtube": "publié 2026-11-01",
+   "tiktok-en": "publié 2026-11-01",
+   "facebook": "publié 2026-11-01",
+   "threads": "publié 2026-11-01"
+  },
+  "statut": "publié",
+  "test": "aucun",
+  "variante": "-",
+  "position_depart": "r3k2r/ppp2ppp/2n2nb1/8/8/2N2N2/PP3PPP/R3K2R w",
+  "position_finale": "r3k2r/ppp2ppp/2n2nb1/8/8/2N2N2/PP3PPP/2KR3R b",
+  "positions": [
+   "r3k2r/ppp2ppp/2n2nb1/8/8/2N2N2/PP3PPP/2KR3R b",
+   "r3k2r/ppp2ppp/2n2nb1/8/8/2N2N2/PP3PPP/R3K2R w"
+  ],
+  "ligne_uci": "e1c1"
  },
  {
   "nom": "quiz_legal_2",
@@ -1759,7 +1998,7 @@
   "sujet": "Double échec : ta dame peut prendre le cavalier… légal ou pas ? Oui ou non 👇",
   "reseaux": {
    "tiktok": "publié 2026-10-31",
-   "instagram": "programmé 2026-10-31"
+   "instagram": "réserve 2026-10-31"
   },
   "statut": "publié",
   "test": "T13-fin-quiz",
@@ -1876,6 +2115,29 @@
    "8/8/4k3/8/4K3/8/8/8 w"
   ],
   "ligne_uci": "e4d4"
+ },
+ {
+  "nom": "tactique_clouage_1",
+  "langue": "fr",
+  "concept": "tactique_clouage",
+  "sujet": "Trade queens. Win a piece.",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "rnbqk2r/ppp2pbp/5np1/4p1B1/4P3/2N5/PPPQ1PPP/R3KBNR w",
+  "position_finale": "rnbk3r/ppp2p2/5Npp/4p3/4P3/8/PPP2PPP/R3KBNR b",
+  "positions": [
+   "rnbQk2r/ppp2pbp/5np1/4p1B1/4P3/2N5/PPP2PPP/R3KBNR b",
+   "rnbk3r/ppp2p2/5Npp/4p3/4P3/8/PPP2PPP/R3KBNR b",
+   "rnbk3r/ppp2p2/5bpp/3Np3/4P3/8/PPP2PPP/R3KBNR w",
+   "rnbk3r/ppp2pb1/5Bpp/3Np3/4P3/8/PPP2PPP/R3KBNR b",
+   "rnbk3r/ppp2pb1/5npp/3Np1B1/4P3/8/PPP2PPP/R3KBNR w",
+   "rnbk3r/ppp2pbp/5np1/3Np1B1/4P3/8/PPP2PPP/R3KBNR b",
+   "rnbk3r/ppp2pbp/5np1/4p1B1/4P3/2N5/PPP2PPP/R3KBNR w",
+   "rnbqk2r/ppp2pbp/5np1/4p1B1/4P3/2N5/PPPQ1PPP/R3KBNR w"
+  ],
+  "ligne_uci": "d2d8 e8d8 c3d5 h7h6 g5f6 g7f6 d5f6"
  },
  {
   "nom": "tour_attaquee",
