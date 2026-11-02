@@ -1,0 +1,55 @@
+{
+ "nom": "nb_coups_1_fr",
+ "tempo": 1.0,
+ "duree_s": 17.52,
+ "hook": {
+  "texte": "9 dames.|Combien de coups ?",
+  "fin": 1.74
+ },
+ "question": {
+  "texte": "Abonne-toi :|une énigme par jour",
+  "t": 14.32
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Neuf dames sur l'échiquier."
+  },
+  {
+   "t": 1.74,
+   "texte": "Combien de coups légaux pour les Blancs ?"
+  },
+  {
+   "t": 4.28,
+   "texte": "Cinquante ?"
+  },
+  {
+   "t": 5.06,
+   "texte": "Cent ?"
+  },
+  {
+   "t": 8.84,
+   "texte": "Deux cent dix-huit !"
+  },
+  {
+   "t": 11.38,
+   "texte": "Position inventée, pas une vraie partie."
+  },
+  {
+   "t": 13.96,
+   "texte": "Tu le savais ?"
+  },
+  {
+   "t": 15.32,
+   "texte": "Abonne-toi : une énigme par jour."
+  }
+ ],
+ "coups": [],
+ "pauses": [
+  {
+   "t": 5.82,
+   "duree": 3.0,
+   "texte": "Compte-les !"
+  }
+ ]
+}
