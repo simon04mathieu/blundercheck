@@ -460,3 +460,6 @@
     voix générée : 258 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/finale_carre_1.mp4 {"voix_brute_s": 21.0, "tempo": 1.0, "video_s": 23.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 50, "minutage": "8 phrases, 7 coups, 1 pauses"}
+### commandes/perso_finale_carre_1_fr.json
+    voix générée : 242 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/finale_carre_1_fr.mp4 {"voix_brute_s": 19.8, "tempo": 1.0, "video_s": 22.5, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 52, "minutage": "8 phrases, 7 coups, 1 pauses"}

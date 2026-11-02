@@ -1,0 +1,91 @@
+{
+ "nom": "finale_carre_1_fr",
+ "tempo": 1.0,
+ "duree_s": 21.86,
+ "hook": {
+  "texte": "Trop loin|pour le rattraper ?",
+  "fin": 2.78
+ },
+ "question": {
+  "texte": "Abonne-toi :|une astuce par jour",
+  "t": 18.66
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Le roi rattrape-t-il ce pion ?"
+  },
+  {
+   "t": 2.78,
+   "texte": "Dessine un carré jusqu'au bout."
+  },
+  {
+   "t": 5.0,
+   "texte": "Le roi est dedans !"
+  },
+  {
+   "t": 8.42,
+   "texte": "Le roi s'approche."
+  },
+  {
+   "t": 9.76,
+   "texte": "Le pion court le roi le suit."
+  },
+  {
+   "t": 12.4,
+   "texte": "Il court encore le roi suit encore."
+  },
+  {
+   "t": 15.68,
+   "texte": "À un pas de la dame le roi le croque."
+  },
+  {
+   "t": 19.56,
+   "texte": "Abonne-toi : une astuce par jour."
+  }
+ ],
+ "coups": [
+  {
+   "t": 8.42,
+   "coup": "Ke5",
+   "badge": "brillant"
+  },
+  {
+   "t": 9.9,
+   "coup": "b5",
+   "badge": null
+  },
+  {
+   "t": 11.32,
+   "coup": "Kd6",
+   "badge": null
+  },
+  {
+   "t": 12.58,
+   "coup": "b6",
+   "badge": null
+  },
+  {
+   "t": 14.28,
+   "coup": "Kc6",
+   "badge": null
+  },
+  {
+   "t": 16.14,
+   "coup": "b7",
+   "badge": null
+  },
+  {
+   "t": 18.16,
+   "coup": "Kxb7",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 6.4,
+   "duree": 2.0,
+   "texte": "Dedans ?"
+  }
+ ]
+}
