@@ -374,3 +374,6 @@
 {"id": "k-M2t384828", "url": "https://www.youtube.com/shorts/k-M2t384828", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "34"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "34"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "34"}
+### 2026-11-02 18:55 publications/youtube/pigeon_en_18.json
+{"id": "SC6ahqlfBPQ", "url": "https://www.youtube.com/shorts/SC6ahqlfBPQ", "statut": "public", "publier_le": null}
