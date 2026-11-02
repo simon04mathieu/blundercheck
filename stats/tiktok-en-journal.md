@@ -308,3 +308,12 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 16, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 16, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 16, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 16, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-02 07:57 publications/tiktok-en/finale_carre_1.json
+{"publish_id": "v_inbox_file~v2.7703479854024411158", "mode": "brouillon", "vie_privee": null, "legende": "Can the king catch this pawn? 🤔 Would you have counted it? 👇 #chess #chesstok #endgame"}
+### 2026-11-02 07:57 publications/tiktok-en/nb_coups_1.json
+{"publish_id": "v_inbox_file~v2.7703480097735067670", "mode": "brouillon", "vie_privee": null, "legende": "9 queens. How many legal moves? 🤯 How many did you guess? 👇 #chess #chesstok #chesspuzzle"}
+### 2026-11-02 07:57 publications/tiktok-en/pigeon_en_18.json
+{"publish_id": "v_inbox_file~v2.7703480094806935554", "mode": "brouillon", "vie_privee": null, "legende": "Your bishop is attacked. Ignore it! 😈 Would you have saved it? 👇 Chess Trap #4 #chess #chesstok #chesstrap"}
+### 2026-11-02 07:57 publications/tiktok-en/tactique_clouage_1.json
+{"publish_id": "v_inbox_file~v2.7703480097735100438", "mode": "brouillon", "vie_privee": null, "legende": "Trade queens, win a piece? 😏 Would you have traded? 👇 #chess #chesstok #chesstactics"}

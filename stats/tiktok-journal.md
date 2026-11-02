@@ -440,3 +440,8 @@ Reference&#32;&#35;97&#46;7a10017&#46;1793560783&#46;8657e34
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 12, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 12, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 12, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 12, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-02 07:57 publications/tiktok/finale_carre_1_fr.json
+{"publish_id": "v_inbox_file~v2.7703480094806804482", "mode": "brouillon", "vie_privee": null, "legende": "Le roi rattrape-t-il ce pion ? 🤔 Tu l'aurais rattrapé ? 👇 #echecs #chess #finale #echecsfr"}
+### 2026-11-02 07:57 publications/tiktok/nb_coups_1_fr.json
+{"publish_id": "v_inbox_file~v2.7703479793275193366", "mode": "brouillon", "vie_privee": null, "legende": "9 dames : combien de coups légaux ? 🤯 Tu en avais deviné combien ? 👇 #echecs #chess #enigme #echecsfr"}
