@@ -329,3 +329,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"publish_id": "v_inbox_file~v2.7703625393034561558", "mode": "brouillon", "vie_privee": null, "legende": "Your bishop is attacked. Ignore it! 😈 Would you have saved it? 👇 Chess Trap #4 #chess #chesstok #chesstrap"}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 17, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 17, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 17, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
