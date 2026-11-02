@@ -1,0 +1,89 @@
+{
+ "nom": "tactique_clouage_1",
+ "tempo": 1.0,
+ "duree_s": 19.58,
+ "hook": {
+  "texte": "Trade queens.|Win a piece.",
+  "fin": 2.46
+ },
+ "question": {
+  "texte": "Follow: a new|trick daily",
+  "t": 16.38
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Trade queens to win a piece?"
+  },
+  {
+   "t": 2.46,
+   "texte": "The king takes back."
+  },
+  {
+   "t": 4.24,
+   "texte": "Now your knight jumps in."
+  },
+  {
+   "t": 6.4,
+   "texte": "His knight is pinned and attacked twice."
+  },
+  {
+   "t": 9.38,
+   "texte": "He waits."
+  },
+  {
+   "t": 10.68,
+   "texte": "Your bishop takes check."
+  },
+  {
+   "t": 12.92,
+   "texte": "His bishop takes back."
+  },
+  {
+   "t": 14.92,
+   "texte": "Follow: a new trick daily."
+  },
+  {
+   "t": 17.6,
+   "texte": "Knight takes: you win a piece!"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.34,
+   "coup": "Qxd8+",
+   "badge": null
+  },
+  {
+   "t": 2.78,
+   "coup": "Kxd8",
+   "badge": null
+  },
+  {
+   "t": 4.86,
+   "coup": "Nd5",
+   "badge": "brillant"
+  },
+  {
+   "t": 9.38,
+   "coup": "h6",
+   "badge": null
+  },
+  {
+   "t": 11.06,
+   "coup": "Bxf6+",
+   "badge": null
+  },
+  {
+   "t": 13.3,
+   "coup": "Bxf6",
+   "badge": null
+  },
+  {
+   "t": 17.88,
+   "coup": "Nxf6",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": []
+}

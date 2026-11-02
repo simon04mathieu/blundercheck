@@ -472,3 +472,6 @@
 ### commandes/perso_pigeon_en_18.json
     voix générée : 257 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_18.mp4 {"voix_brute_s": 23.2, "tempo": 1.0, "video_s": 23.9, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 49, "minutage": "11 phrases, 6 coups, 0 pauses"}
+### commandes/perso_tactique_clouage_1.json
+    voix générée : 234 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/tactique_clouage_1.mp4 {"voix_brute_s": 19.6, "tempo": 1.0, "video_s": 20.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 43, "minutage": "9 phrases, 7 coups, 0 pauses"}
