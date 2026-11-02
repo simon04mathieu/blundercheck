@@ -378,3 +378,6 @@
 ### 2026-11-02 18:55 publications/youtube/pigeon_en_18.json
 {"id": "SC6ahqlfBPQ", "url": "https://www.youtube.com/shorts/SC6ahqlfBPQ", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "34"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "34"}
+### 2026-11-02 20:44 publications/youtube/tactique_clouage_1.json
+{"id": "-SieUWFT32A", "url": "https://www.youtube.com/shorts/-SieUWFT32A", "statut": "public", "publier_le": null}
