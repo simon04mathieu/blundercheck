@@ -1,0 +1,51 @@
+{
+ "nom": "nb_coups_1",
+ "tempo": 1.0,
+ "duree_s": 18.06,
+ "hook": {
+  "texte": "9 queens.|How many moves?",
+  "fin": 2.48
+ },
+ "question": {
+  "texte": "Follow: a new|puzzle daily",
+  "t": 14.86
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Nine queens on one board."
+  },
+  {
+   "t": 2.48,
+   "texte": "How many legal moves for White?"
+  },
+  {
+   "t": 4.94,
+   "texte": "Fifty?"
+  },
+  {
+   "t": 5.37,
+   "texte": "A hundred?"
+  },
+  {
+   "t": 10.26,
+   "texte": "It's two hundred and eighteen!"
+  },
+  {
+   "t": 12.56,
+   "texte": "A composed position not a real game."
+  },
+  {
+   "t": 15.84,
+   "texte": "Follow: a new puzzle daily."
+  }
+ ],
+ "coups": [],
+ "pauses": [
+  {
+   "t": 7.24,
+   "duree": 3.0,
+   "texte": "Count them!"
+  }
+ ]
+}
