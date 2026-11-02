@@ -1,0 +1,28 @@
+{
+ "legende": "Trade queens, win a piece? ♟️ The pinned knight can't move. Would you have traded queens? 👇 Chess tricks, one new every day.\n\nAnalyze your own game, free: link in bio\n\n#chess #chesstactics #pin",
+ "envoyer_apres": "2026-11-02T21:00:00+01:00",
+ "fichier": "sorties/tactique_clouage_1.mp4",
+ "concept": "tactique_clouage",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "test": "T14-appel",
+ "duree": 20.2,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 20,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T14-appel",
+  "variante": "B",
+  "appel_site": "non",
+  "hook": "question",
+  "fin": "follow_promesse",
+  "interet": "echange_qui_gagne",
+  "motif": "clouage",
+  "niveau": 1716
+ }
+}

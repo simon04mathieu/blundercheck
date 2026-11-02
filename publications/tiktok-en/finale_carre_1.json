@@ -1,0 +1,32 @@
+{
+ "legende": "Can the king catch this pawn? 🤔 Would you have counted it? 👇 #chess #chesstok #endgame",
+ "envoyer_apres": "2026-11-02T08:00:00+01:00",
+ "heure_conseillee": "2026-11-02T17:00:00+01:00",
+ "repere": "17 h · finale_carre_1 · 23.8 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/finale_carre_1.mp4",
+ "concept": "finale_carre",
+ "format": "FINALE",
+ "langue": "en",
+ "test": "T14-appel",
+ "duree": 23.8,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 24,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T14-appel",
+  "variante": "B",
+  "appel_site": "non",
+  "hook": "question",
+  "fin": "follow_promesse",
+  "interet": "compter_sans_calculer",
+  "motif": "regle_du_carre",
+  "niveau": "1300-1800"
+ }
+}

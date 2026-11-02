@@ -1,0 +1,31 @@
+{
+ "legende": "Le roi rattrape-t-il ce pion ? 🤔 Tu l'aurais rattrapé ? 👇 #echecs #chess #finale #echecsfr",
+ "envoyer_apres": "2026-11-02T08:00:00+01:00",
+ "heure_conseillee": "2026-11-02T17:00:00+01:00",
+ "repere": "17 h · finale_carre_1_fr · 22.5 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/finale_carre_1_fr.mp4",
+ "concept": "finale_carre",
+ "format": "FINALE",
+ "langue": "fr",
+ "paire": "finale_carre_1",
+ "test": "aucun",
+ "duree": 22.5,
+ "voix": "oui",
+ "variante": "-",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "fr",
+  "duree_s": 22,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "aucun",
+  "variante": "-",
+  "appel_site": "non",
+  "fin": "abonne_promesse",
+  "motif": "regle_du_carre",
+  "niveau": "1300-1800"
+ }
+}

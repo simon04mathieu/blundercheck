@@ -1,0 +1,28 @@
+{
+ "legende": "♟️ 9 queens: how many legal moves? 🤯 How many did you guess? 👇 Would you have counted 218? Follow: a new puzzle daily.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=facebook-en\n\n#chess #chesspuzzle #chessquiz",
+ "envoyer_apres": "2026-11-02T15:00:00+01:00",
+ "fichier": "sorties/nb_coups_1.mp4",
+ "concept": "nb_coups",
+ "format": "ENIGME",
+ "langue": "en",
+ "test": "T14-appel+T15-putaclic",
+ "duree": 18.7,
+ "voix": "oui",
+ "variante": "A",
+ "etiquettes": {
+  "format": "ENIGME",
+  "categorie": "enigme",
+  "langue": "en",
+  "duree_s": 19,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T14-appel+T15-putaclic",
+  "variante": "A",
+  "appel_site": "non",
+  "hook": "question",
+  "fin": "follow_promesse",
+  "interet": "reponse_surprend",
+  "motif": "comptage_coups_legaux",
+  "niveau": "culture"
+ }
+}

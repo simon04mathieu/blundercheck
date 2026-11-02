@@ -1,0 +1,29 @@
+{
+ "legende": "Your bishop is attacked. Ignore it! ♟️ Would you have saved the bishop? 👇 Chess Trap #4 — one new trap every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=threads-en\n\n#chess #chesstrap #ruylopez",
+ "envoyer_apres": "2026-11-02T19:00:00+01:00",
+ "fichier": "sorties/pigeon_en_18.mp4",
+ "concept": "pigeon_en",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "T11-série",
+ "duree": 23.9,
+ "voix": "oui",
+ "variante": "A",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "piege",
+  "langue": "en",
+  "duree_s": 24,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T11-série",
+  "variante": "A",
+  "appel_site": "oui",
+  "hook": "ordre",
+  "fin": "follow_promesse",
+  "interet": "sacrifice_attraction",
+  "motif": "attraction_sacrifice_h2",
+  "niveau": 1918,
+  "serie": "Chess Trap #4"
+ }
+}

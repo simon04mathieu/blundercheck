@@ -1,0 +1,32 @@
+{
+ "legende": "Trade queens, win a piece? 😏 Would you have traded? 👇 #chess #chesstok #chesstactics",
+ "envoyer_apres": "2026-11-02T08:00:00+01:00",
+ "heure_conseillee": "2026-11-02T21:00:00+01:00",
+ "repere": "21 h · tactique_clouage_1 · 20.2 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/tactique_clouage_1.mp4",
+ "concept": "tactique_clouage",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "test": "T14-appel",
+ "duree": 20.2,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 20,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T14-appel",
+  "variante": "B",
+  "appel_site": "non",
+  "hook": "question",
+  "fin": "follow_promesse",
+  "interet": "echange_qui_gagne",
+  "motif": "clouage",
+  "niveau": 1716
+ }
+}

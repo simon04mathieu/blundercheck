@@ -1,0 +1,27 @@
+{
+ "legende": "9 dames : combien de coups légaux ? 🤯 Tu en avais deviné combien ? 👇 Abonne-toi : une énigme par jour.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #enigme #echecsfr",
+ "envoyer_apres": "2026-11-02T21:00:00+01:00",
+ "fichier": "sorties/nb_coups_1_fr.mp4",
+ "concept": "nb_coups",
+ "format": "ENIGME",
+ "langue": "fr",
+ "paire": "nb_coups_1",
+ "test": "T13-fin-quiz",
+ "duree": 18.1,
+ "voix": "oui",
+ "variante": "A",
+ "etiquettes": {
+  "format": "ENIGME",
+  "categorie": "enigme",
+  "langue": "fr",
+  "duree_s": 18,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T13-fin-quiz",
+  "variante": "A",
+  "appel_site": "non",
+  "fin": "abonne_promesse",
+  "motif": "comptage_coups_legaux",
+  "niveau": "culture"
+ }
+}

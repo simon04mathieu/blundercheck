@@ -1,0 +1,32 @@
+{
+ "legende": "9 queens. How many legal moves? 🤯 How many did you guess? 👇 #chess #chesstok #chesspuzzle",
+ "envoyer_apres": "2026-11-02T08:00:00+01:00",
+ "heure_conseillee": "2026-11-02T15:00:00+01:00",
+ "repere": "15 h · nb_coups_1 · 18.7 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/nb_coups_1.mp4",
+ "concept": "nb_coups",
+ "format": "ENIGME",
+ "langue": "en",
+ "test": "T14-appel+T15-putaclic",
+ "duree": 18.7,
+ "voix": "oui",
+ "variante": "A",
+ "etiquettes": {
+  "format": "ENIGME",
+  "categorie": "enigme",
+  "langue": "en",
+  "duree_s": 19,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T14-appel+T15-putaclic",
+  "variante": "A",
+  "appel_site": "non",
+  "hook": "question",
+  "fin": "follow_promesse",
+  "interet": "reponse_surprend",
+  "motif": "comptage_coups_legaux",
+  "niveau": "culture"
+ }
+}

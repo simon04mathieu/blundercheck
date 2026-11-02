@@ -1,0 +1,28 @@
+{
+ "legende": "Can the king catch this pawn? ♟️ Draw the square! Would you have counted it? 👇 One new endgame trick every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=threads-en\n\n#chess #endgame #chesstips",
+ "envoyer_apres": "2026-11-02T17:00:00+01:00",
+ "fichier": "sorties/finale_carre_1.mp4",
+ "concept": "finale_carre",
+ "format": "FINALE",
+ "langue": "en",
+ "test": "T14-appel",
+ "duree": 23.8,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 24,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T14-appel",
+  "variante": "B",
+  "appel_site": "non",
+  "hook": "question",
+  "fin": "follow_promesse",
+  "interet": "compter_sans_calculer",
+  "motif": "regle_du_carre",
+  "niveau": "1300-1800"
+ }
+}
