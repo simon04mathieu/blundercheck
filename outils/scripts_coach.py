@@ -1265,3 +1265,55 @@ QUESTIONS.update({
     "quiz_legal_11_en": "Follow: one new|puzzle every day",
     "pigeon_jour_14": "Abonne-toi :|un piège par jour",
 })
+
+# ---- 2/11 (Producteur, nuit du 1 au 2/11) : file du Scénariste, cases jamais dites (règle de l'univers) ----
+NEUF_DAMES = "fen:R6R/3Q4/1Q4Q1/4Q3/2Q4Q/Q4Q2/pp1Q4/kBNN1KB1_w_-_-_0_1"
+CARRE = "fen:8/8/5k2/8/1P6/8/8/7K_b_-_-_0_1"
+SCHLIEMANN_AVANT = "fen:r1b1qrk1/ppp3pp/2pb1n2/4N1B1/3Pp3/2N5/PPP2PPP/R2Q1RK1_w_-_-_5_10"
+CLOUAGE_AVANT = "fen:rnbqk2r/ppp2pbp/5np1/4p1B1/4P3/2N5/PPPQ1PPP/R3KBNR_w_KQkq_-_0_7"
+PERSO.update({
+"nb_coups_1": {   # 9 dames, 218 coups légaux (python-chess), position composée ; T14 A, T15-putaclic
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "9 queens.|How many moves?",
+    "voix": """Nine queens on one board. How many legal moves for White? Fifty? A hundred? It's two hundred and eighteen! A composed position, not a real game. Follow: a new puzzle daily.""",
+    "script": """[p """ + NEUF_DAMES + """] [f e5e8 e5h2 e5b8 e5a1] Nine queens on one board. [h] How many legal moves [f c4c8 c4f1 c4a2 c4g8] for White? Fifty? A hundred? [q 3 Count_them!] It's [s tag e5 4.0 218_MOVES] [x impact] two hundred and eighteen! A composed position, not a real game. Follow: a new puzzle daily.""",
+},
+"nb_coups_1_fr": {   # jumeau FR de nb_coups_1 ; T13 A (« Tu le savais ? »)
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "9 dames.|Combien de coups ?",
+    "voix": """Neuf dames sur l'échiquier. Combien de coups légaux pour les Blancs ? Cinquante ? Cent ? Deux cent dix-huit ! Position inventée, pas une vraie partie. Tu le savais ? Abonne-toi : une énigme par jour.""",
+    "script": """[p """ + NEUF_DAMES + """] [f e5e8 e5h2 e5b8 e5a1] Neuf dames sur l'échiquier. [h] Combien de coups légaux [f c4c8 c4f1 c4a2 c4g8] pour les Blancs ? Cinquante ? Cent ? [q 3 Compte-les !] [s tag e5 4.0 218_COUPS] [x impact] Deux cent dix-huit ! Position inventée, pas une vraie partie. Tu le savais ? Abonne-toi : une énigme par jour.""",
+},
+"finale_carre_1": {   # règle du carré ; Stockfish : 1…Re5/Re6/Rf5 nul, 1…Rg5 perd ; T14 B (Follow avant la révélation)
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Too far|to catch it?",
+    "voix": """Can the king catch this pawn? Draw a square to the last row. The king is inside! Follow: one endgame trick a day. The king steps closer. The pawn runs, and the king follows. It runs again, the king follows again. One step from queening, and the king eats it.""",
+    "script": """[p """ + CARRE + """] [f b4b8] Can the king catch this pawn? [h] Draw a square [f b4b8 b8f8 f8f4 f4b4] to the last row. The king is inside! [q 2 Inside?] Follow: one endgame trick a day. [m Ke5 brillant] The king steps closer. [m b5] The pawn runs, and [m Kd6] the king follows. It [m b6] runs again, the king [m Kc6] follows again. One step [m b7] from queening, and the king [m Kxb7 brillant] [z b7 1.35 2.0] [x impact] eats it.""",
+},
+"finale_carre_1_fr": {   # jumeau FR de finale_carre_1
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Trop loin|pour le rattraper ?",
+    "voix": """Le roi rattrape-t-il ce pion ? Dessine un carré jusqu'au bout. Le roi est dedans ! Le roi s'approche. Le pion court, le roi le suit. Il court encore, le roi suit encore. À un pas de la dame, le roi le croque. Abonne-toi : une astuce par jour.""",
+    "script": """[p """ + CARRE + """] [f b4b8] Le roi rattrape-t-il ce pion ? [h] Dessine un carré [f b4b8 b8f8 f8f4 f4b4] jusqu'au bout. Le roi est dedans ! [q 2 Dedans ?] [m Ke5 brillant] Le roi s'approche. Le [m b5] pion court, le roi [m Kd6] le suit. Il [m b6] court encore, le roi [m Kc6] suit encore. À un [m b7] pas de la dame, le roi le [m Kxb7 brillant] [z b7 1.35 2.0] [x impact] croque. Abonne-toi : une astuce par jour.""",
+},
+"pigeon_en_18": {   # Schliemann (réserve n° 2, 1918, 4 parties) : 10.Cc4?? Fxh2+ 11.Rxh2 Cg4+ 12.Rg1 Dh5 (Stockfish −4,9) ; T11 A « Chess Trap #4 », vers le site
+    "cote": "noirs", "sous_titres": "phrase", "serie": "Chess Trap #4",
+    "hook": "Your bishop is attacked.|Ignore it!",
+    "voix": """White attacks your bishop. Ignore it! Your bishop grabs the pawn by his king. Check! He takes it. Knight jumps in, check again! King runs back. Now your queen comes: mate next, or he gives up his queen. Analyze your own game, free. Trap #5 tomorrow. Follow!""",
+    "script": """[p """ + SCHLIEMANN_AVANT + """] White [m Nc4 gaffe] attacks your bishop. [h] Ignore it! Your bishop [m Bxh2+ brillant] grabs the pawn by his king. Check! [m Kxh2] He takes it. Knight [m Ng4+] [z g4 1.3 2.0] jumps in, check again! King [m Kg1] runs back. Now your queen [m Qh5 brillant] [x impact] comes: [f h5h2] mate next, or he gives up his queen. Analyze your own game, free. Trap #5 tomorrow. Follow!""",
+},
+"tactique_clouage_1": {   # clouage : 7.Dxd8+ Rxd8 8.Cd5 h6 9.Fxf6+ Fxf6 10.Cxf6 (Stockfish +4,5) ; T14 B
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Trade queens.|Win a piece.",
+    "voix": """Trade queens to win a piece? The king takes back. Now your knight jumps in. His knight is pinned, and attacked twice. He waits. Your bishop takes, check. His bishop takes back. Follow: a new trick daily. Knight takes: you win a piece!""",
+    "script": """[p """ + CLOUAGE_AVANT + """] Trade [m Qxd8+] queens to win a piece? [h] The king [m Kxd8] takes back. Now your knight [m Nd5 brillant] [z d5 1.3 2.0] jumps in. His knight [f g5f6 d5f6] is pinned, and attacked twice. [m h6] He waits. Your bishop [m Bxf6+] takes, check. His bishop [m Bxf6] takes back. Follow: a new trick daily. Knight [m Nxf6 brillant] [z f6 1.4 2.4] [x impact] takes: you win a piece!""",
+},
+})
+QUESTIONS.update({
+    "nb_coups_1": "Follow: a new|puzzle daily",
+    "nb_coups_1_fr": "Abonne-toi :|une énigme par jour",
+    "finale_carre_1": "Follow: one endgame|trick a day",
+    "finale_carre_1_fr": "Abonne-toi :|une astuce par jour",
+    "pigeon_en_18": "Trap #5 tomorrow|Follow!",
+    "tactique_clouage_1": "Follow: a new|trick daily",
+})
