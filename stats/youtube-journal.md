@@ -365,3 +365,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "34"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "34"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "34"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "34"}
+### 2026-11-02 14:17 publications/youtube/nb_coups_1.json
+{"id": "cuEcO9fvVPE", "url": "https://www.youtube.com/shorts/cuEcO9fvVPE", "statut": "public", "publier_le": null}
