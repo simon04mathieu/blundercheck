@@ -372,3 +372,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "34"}
 ### 2026-11-02 17:02 publications/youtube/finale_carre_1.json
 {"id": "k-M2t384828", "url": "https://www.youtube.com/shorts/k-M2t384828", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "34"}
