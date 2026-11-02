@@ -455,3 +455,8 @@
 ## 2026-11-01 00:16 UTC · prof corrige · run 41255957787
 ### commandes/prof/prof_3.json
     OK : prof_3, 41 demi-coups, 3 moments, 25 commentaires du prof
+## 2026-11-02 00:06 UTC · run 41365293945
+### commandes/perso_finale_carre_1.json
+    voix générée : 258 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/finale_carre_1.mp4 {"voix_brute_s": 21.0, "tempo": 1.0, "video_s": 23.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 50, "minutage": "8 phrases, 7 coups, 1 pauses"}

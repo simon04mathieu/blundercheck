@@ -1,0 +1,91 @@
+{
+ "nom": "finale_carre_1",
+ "tempo": 1.0,
+ "duree_s": 23.24,
+ "hook": {
+  "texte": "Too far|to catch it?",
+  "fin": 2.6
+ },
+ "question": {
+  "texte": "Follow: one endgame|trick a day",
+  "t": 20.04
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Can the king catch this pawn?"
+  },
+  {
+   "t": 2.6,
+   "texte": "Draw a square to the last row."
+  },
+  {
+   "t": 5.2,
+   "texte": "The king is inside!"
+  },
+  {
+   "t": 9.06,
+   "texte": "Follow: one endgame trick a day."
+  },
+  {
+   "t": 12.34,
+   "texte": "The king steps closer."
+  },
+  {
+   "t": 14.34,
+   "texte": "The pawn runs and the king follows."
+  },
+  {
+   "t": 17.24,
+   "texte": "It runs again the king follows again."
+  },
+  {
+   "t": 20.38,
+   "texte": "One step from queening and the king eats it."
+  }
+ ],
+ "coups": [
+  {
+   "t": 12.34,
+   "coup": "Ke5",
+   "badge": "brillant"
+  },
+  {
+   "t": 14.34,
+   "coup": "b5",
+   "badge": null
+  },
+  {
+   "t": 15.58,
+   "coup": "Kd6",
+   "badge": null
+  },
+  {
+   "t": 17.52,
+   "coup": "b6",
+   "badge": null
+  },
+  {
+   "t": 18.88,
+   "coup": "Kc6",
+   "badge": null
+  },
+  {
+   "t": 20.92,
+   "coup": "b7",
+   "badge": null
+  },
+  {
+   "t": 22.38,
+   "coup": "Kxb7",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 7.04,
+   "duree": 2.0,
+   "texte": "Inside?"
+  }
+ ]
+}
