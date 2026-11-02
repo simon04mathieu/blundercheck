@@ -1288,13 +1288,13 @@ PERSO.update({
     "cote": "blancs", "sous_titres": "phrase",
     "hook": "Too far|to catch it?",
     "voix": """Can the king catch this pawn? Draw a square to the last row. The king is inside! Follow: one endgame trick a day. The king steps closer. The pawn runs, and the king follows. It runs again, the king follows again. One step from queening, and the king eats it.""",
-    "script": """[p """ + CARRE + """] [f b4b8] Can the king catch this pawn? [h] Draw a square [f b4b8 b8f8 f8f4 f4b4] to the last row. The king is inside! [q 2 Inside?] Follow: one endgame trick a day. [m Ke5 brillant] The king steps closer. [m b5] The pawn runs, and [m Kd6] the king follows. It [m b6] runs again, the king [m Kc6] follows again. One step [m b7] from queening, and the king [m Kxb7 brillant] [z b7 1.35 2.0] [x impact] eats it.""",
+    "script": """[p """ + CARRE + """] [f b4b8] Can the king catch this pawn? [h] Draw a square [f b4b8 b8f8 f8f4 f4b4] to the last row. The king is inside! [q 2 Inside?] Follow: one endgame trick a day. [m Ke5 brillant] The king steps closer. [m b5] The pawn runs, and the king [m Kd6] follows. It runs again, the king [p fen:8/8/5k2/8/1P6/8/8/7K_b_-_-_0_1 Ke5 b5 Kd6 b6 Kc6] follows again. [m b7] One step from queening, and the king [m Kxb7 brillant] [z b7 1.35 2.0] [x impact] eats it.""",
 },
 "finale_carre_1_fr": {   # jumeau FR de finale_carre_1
     "cote": "blancs", "sous_titres": "phrase",
     "hook": "Trop loin|pour le rattraper ?",
     "voix": """Le roi rattrape-t-il ce pion ? Dessine un carré jusqu'au bout. Le roi est dedans ! Le roi s'approche. Le pion court, le roi le suit. Il court encore, le roi suit encore. À un pas de la dame, le roi le croque. Abonne-toi : une astuce par jour.""",
-    "script": """[p """ + CARRE + """] [f b4b8] Le roi rattrape-t-il ce pion ? [h] Dessine un carré [f b4b8 b8f8 f8f4 f4b4] jusqu'au bout. Le roi est dedans ! [q 2 Dedans ?] [m Ke5 brillant] Le roi s'approche. Le [m b5] pion court, le roi [m Kd6] le suit. Il [m b6] court encore, le roi [m Kc6] suit encore. À un [m b7] pas de la dame, le roi le [m Kxb7 brillant] [z b7 1.35 2.0] [x impact] croque. Abonne-toi : une astuce par jour.""",
+    "script": """[p """ + CARRE + """] [f b4b8] Le roi rattrape-t-il ce pion ? [h] Dessine un carré [f b4b8 b8f8 f8f4 f4b4] jusqu'au bout. Le roi est dedans ! [q 2 Dedans ?] [m Ke5 brillant] Le roi s'approche. Le pion [m b5] court, le roi le suit. [p fen:8/8/5k2/8/1P6/8/8/7K_b_-_-_0_1 Ke5 b5 Kd6 b6 Kc6] Il court encore, le roi suit encore. À un [m b7] pas de la dame, le roi le [m Kxb7 brillant] [z b7 1.35 2.0] [x impact] croque. Abonne-toi : une astuce par jour.""",
 },
 "pigeon_en_18": {   # Schliemann (réserve n° 2, 1918, 4 parties) : 10.Cc4?? Fxh2+ 11.Rxh2 Cg4+ 12.Rg1 Dh5 (Stockfish −4,9) ; T11 A « Chess Trap #4 », vers le site
     "cote": "noirs", "sous_titres": "phrase", "serie": "Chess Trap #4",
