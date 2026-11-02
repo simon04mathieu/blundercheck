@@ -1,0 +1,92 @@
+{
+ "nom": "pigeon_en_18",
+ "tempo": 1.0,
+ "duree_s": 23.3,
+ "hook": {
+  "texte": "Your bishop is attacked.|Ignore it!",
+  "fin": 2.02
+ },
+ "question": {
+  "texte": "Trap #5 tomorrow|Follow!",
+  "t": 20.1
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "White attacks your bishop."
+  },
+  {
+   "t": 2.02,
+   "texte": "Ignore it!"
+  },
+  {
+   "t": 3.36,
+   "texte": "Your bishop grabs the pawn by his king."
+  },
+  {
+   "t": 6.16,
+   "texte": "Check!"
+  },
+  {
+   "t": 7.34,
+   "texte": "He takes it."
+  },
+  {
+   "t": 8.72,
+   "texte": "Knight jumps in check again!"
+  },
+  {
+   "t": 11.46,
+   "texte": "King runs back."
+  },
+  {
+   "t": 13.1,
+   "texte": "Now your queen comes mate next, or he gives up his queen."
+  },
+  {
+   "t": 18.14,
+   "texte": "Analyze your own game free."
+  },
+  {
+   "t": 20.72,
+   "texte": "Trap #5 tomorrow."
+  },
+  {
+   "t": 22.7,
+   "texte": "Follow!"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.37,
+   "coup": "Nc4",
+   "badge": "gaffe"
+  },
+  {
+   "t": 3.76,
+   "coup": "Bxh2+",
+   "badge": "brillant"
+  },
+  {
+   "t": 7.34,
+   "coup": "Kxh2",
+   "badge": null
+  },
+  {
+   "t": 8.9,
+   "coup": "Ng4+",
+   "badge": null
+  },
+  {
+   "t": 11.8,
+   "coup": "Kg1",
+   "badge": null
+  },
+  {
+   "t": 13.76,
+   "coup": "Qh5",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": []
+}

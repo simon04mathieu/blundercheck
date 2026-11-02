@@ -469,3 +469,6 @@
 ### commandes/perso_nb_coups_1_fr.json
     voix générée : 199 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/nb_coups_1_fr.mp4 {"voix_brute_s": 14.4, "tempo": 1.0, "video_s": 18.1, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 33, "minutage": "8 phrases, 0 coups, 1 pauses"}
+### commandes/perso_pigeon_en_18.json
+    voix générée : 257 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_18.mp4 {"voix_brute_s": 23.2, "tempo": 1.0, "video_s": 23.9, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 49, "minutage": "11 phrases, 6 coups, 0 pauses"}
