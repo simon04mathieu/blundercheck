@@ -66,3 +66,5 @@
 {"reseau": "facebook", "id": "1677709370736909", "ok": true}
 ### 2026-11-02 16:07 publications/facebook/finale_carre_1.json
 {"reseau": "facebook", "id": "1663973125256481", "ok": true}
+### 2026-11-02 18:01 publications/facebook/pigeon_en_18.json
+{"reseau": "facebook", "id": "1628707902130826", "ok": true}
