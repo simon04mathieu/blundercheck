@@ -1,0 +1,102 @@
+{
+ "nom": "legende_miniature_1_fr",
+ "tempo": 1.0,
+ "duree_s": 35.92,
+ "hook": {
+  "texte": "Plus courte partie ?|Un mythe !",
+  "fin": 3.34
+ },
+ "question": {
+  "texte": "Abonne-toi :|un piège par jour",
+  "t": 32.72
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Les Blancs poussent ce pion pour chasser le cavalier."
+  },
+  {
+   "t": 3.34,
+   "texte": "Aïe !"
+  },
+  {
+   "t": 4.26,
+   "texte": "Le cavalier saute et attaque la dame et le fou en même temps."
+  },
+  {
+   "t": 8.6,
+   "texte": "La partie la plus courte du monde ?"
+  },
+  {
+   "t": 11.28,
+   "texte": "La légende dit que les Blancs ont abandonné ici."
+  },
+  {
+   "t": 15.52,
+   "texte": "S'ils prennent le cavalier la dame sort avec échec."
+  },
+  {
+   "t": 19.38,
+   "texte": "Le seul bouclier du roi c'est un pion."
+  },
+  {
+   "t": 22.5,
+   "texte": "Et la dame le croque tout simplement."
+  },
+  {
+   "t": 25.5,
+   "texte": "Échec et mat !"
+  },
+  {
+   "t": 27.44,
+   "texte": "Personne n'a jamais prouvé que cette partie a existé."
+  },
+  {
+   "t": 30.08,
+   "texte": "Mais le piège est réel !"
+  },
+  {
+   "t": 32.92,
+   "texte": "Abonne-toi : un piège par jour pour monter ton Elo."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.92,
+   "coup": "h3",
+   "badge": "gaffe"
+  },
+  {
+   "t": 4.86,
+   "coup": "Ne3",
+   "badge": "brillant"
+  },
+  {
+   "t": 15.52,
+   "coup": "fxe3",
+   "badge": null
+  },
+  {
+   "t": 18.06,
+   "coup": "Qh4+",
+   "badge": null
+  },
+  {
+   "t": 21.68,
+   "coup": "g3",
+   "badge": null
+  },
+  {
+   "t": 23.66,
+   "coup": "Qxg3#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 14.5,
+   "duree": 1.0,
+   "texte": "Légende ?"
+  }
+ ]
+}
