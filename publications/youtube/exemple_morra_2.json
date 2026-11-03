@@ -1,0 +1,36 @@
+{
+ "titre": "Would you kick this knight? ♟️ #chess #shorts",
+ "description": "Smith-Morra Gambit: kicking the knight with a pawn looks natural, but the knight jumps in with check and forks king and rook. The queen has to take, and she is lost. Better: push the center pawn and hit the bishop first. Would you have seen it? 👇\n\nAnalyze your own game, free: https://blundercheck.app/try?src=youtube-en\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess trap",
+  "smith-morra",
+  "sicilian"
+ ],
+ "envoyer_apres": "2026-11-04T15:00:00+01:00",
+ "fichier": "sorties/exemple_morra_2.mp4",
+ "concept": "pigeon_en",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "aucun",
+ "duree": 32.0,
+ "voix": "oui",
+ "variante": "-",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "piege",
+  "langue": "en",
+  "duree_s": 32,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "aucun",
+  "variante": "-",
+  "appel_site": "non",
+  "fin": "follow_promesse",
+  "motif": "fourchette_cavalier_echec",
+  "niveau": 1534,
+  "hook": "question",
+  "interet": "case_faible_c7",
+  "origine": "exemple valide par Simon le 3/11"
+ }
+}

@@ -39,7 +39,7 @@ def lignes_puzzles():
         yield from csv.DictReader(io.TextIOWrapper(flux, encoding="utf-8"))
 
 
-def regrouper(lignes, rmin=1000, rmax=2000, ply_max=30):  # 3/11 (Simon) : au moins 1000, idéal ≈ 1550
+def regrouper(lignes, rmin=1400, rmax=2100, ply_max=30):  # 3/11 (Simon, 2e avis : « un 800 l'éviterait ») : 1400-2100, idéal ≈ 1750
     groupes = collections.defaultdict(list)
     for p in lignes:
         th = p["Themes"].split()
@@ -123,7 +123,7 @@ def principal(nmax=20):
             if p: connues.setdefault(p, set()).add(v["langue"])
     sf = shutil.which("stockfish") or "/usr/games/stockfish"
     moteur = chess.engine.SimpleEngine.popen_uci(sf)
-    tri = sorted(groupes.items(), key=lambda kv: (-min(len(kv[1]), 4), abs(sum(p["note"] for p in kv[1]) / len(kv[1]) - 1550), -len(kv[1]), min(int(re.search(r"#(\d+)$", p["url"]).group(1)) for p in kv[1])))
+    tri = sorted(groupes.items(), key=lambda kv: (-min(len(kv[1]), 4), abs(sum(p["note"] for p in kv[1]) / len(kv[1]) - 1750), -len(kv[1]), min(int(re.search(r"#(\d+)$", p["url"]).group(1)) for p in kv[1])))
     # 3/11 (Simon) : on n'écrase plus jamais la réserve : les anciens pièges restent, les nouveaux s'ajoutent
     fj = os.path.join(ROOT, "stock/pieges-candidats.json")
     anciens = json.load(open(fj, encoding="utf-8")) if os.path.exists(fj) else []
@@ -177,7 +177,7 @@ def principal(nmax=20):
     json.dump(sortie, open(os.path.join(ROOT, "stock/pieges-candidats.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     L = ["# Pièges candidats (réserve du Scénariste)", "",
          f"*Généré le {time.strftime('%d/%m/%Y')} par `outils/chercher_pieges.py` (puzzles Lichess, CC0) : pièges d'ouverture à mat où de vrais joueurs",
-         "tombent souvent (puzzle classé 1000-2000, idéal ≈ 1550 ; mat en 2 à 5 **ou gain d'une pièce** en 2 à 5 coups ; réserve cumulée, jamais écrasée). Ligne vérifiée python-chess + Stockfish 1 s. « Déjà fait » = d'après `marketing/deja-fait.md`.",
+         "tombent souvent (puzzle classé 1400-2100, idéal ≈ 1750 ; mat en 2 à 5 **ou gain d'une pièce** en 2 à 5 coups ; réserve cumulée, jamais écrasée). Ligne vérifiée python-chess + Stockfish 1 s. « Déjà fait » = d'après `marketing/deja-fait.md`.",
          "**Variété (Simon, 31/10)** : au plus 1 piège par motif + pièce finale, au plus 1 sacrifice de dame par recherche (Simon, 3/11) ; le Scénariste ne répète pas le motif ni la pièce qui mate de la veille.",
          "Le Scénariste prend d'abord les « non » ; « fr » seul = jumeau EN possible, et inversement.*", "",
          "| # | Ouverture | Parties réelles | Note moy. | Type | Motif | Pièce finale | Sac. dame | Héros | Gaffe (coup juste) | Ligne | Déjà fait |", "|---|---|---|---|---|---|---|---|---|---|---|---|"]

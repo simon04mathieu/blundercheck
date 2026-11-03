@@ -1,0 +1,33 @@
+{
+ "legende": "Would you kick this knight? 😈 One natural pawn move, and the queen is gone. Would you have seen the fork? 👇 #chess #chesstok",
+ "envoyer_apres": "2026-11-04T08:00:00+01:00",
+ "heure_conseillee": "2026-11-04T15:00:00+01:00",
+ "repere": "15 h · exemple_morra_2 · 32.0 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/exemple_morra_2.mp4",
+ "concept": "pigeon_en",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "aucun",
+ "duree": 32.0,
+ "voix": "oui",
+ "variante": "-",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "piege",
+  "langue": "en",
+  "duree_s": 32,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "aucun",
+  "variante": "-",
+  "appel_site": "non",
+  "fin": "follow_promesse",
+  "motif": "fourchette_cavalier_echec",
+  "niveau": 1534,
+  "hook": "question",
+  "interet": "case_faible_c7",
+  "origine": "exemple valide par Simon le 3/11"
+ }
+}
