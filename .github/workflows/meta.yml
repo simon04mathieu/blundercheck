@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "17 * * * *"
+    - cron: "*/10 14,16,18,20 * * *"   # 3/11 (Simon : vidéos en retard jusqu'à 1 h) : toutes les 10 min pendant les heures des créneaux 15/17/19/21 h de Paris (UTC+1, hiver ; à décaler d'1 h à l'heure d'été)
 permissions:
   contents: write
 concurrency:
