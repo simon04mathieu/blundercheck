@@ -46,7 +46,8 @@ def regrouper(lignes, rmin=1000, rmax=2000, ply_max=30):  # 3/11 (Simon) : au mo
         if "opening" not in th: continue
         mat = next((MATS[t] for t in th if t in MATS), None)
         nb = len(p["Moves"].split())
-        gain = (not mat and "crushing" in th and GAIN & set(th) and 4 <= nb <= 10)   # 2 à 5 coups du héros (3/11 : un peu plus longs)
+        gain = (not mat and "crushing" in th and GAIN & set(th) and 6 <= nb <= 10)   # 3 à 5 coups du héros (Simon, 3/11 : trop court sinon)
+        if mat == 2: continue   # 3/11 (Simon) : le mat arrive trop vite ; mat en 3 à 5 seulement
         if not mat and not gain: continue
         r = int(p["Rating"])
         if not rmin <= r <= rmax: continue
@@ -76,10 +77,16 @@ def ligne_depuis_partie(url, fen):
     return sans if " ".join(b.fen().split()[:4]) == cible else None
 
 
+def plateau(ligne):
+    """Plateau de départ + coups : une ligne peut commencer par « fen:<FEN avec _> » (3/11 : export Lichess refusé)."""
+    if ligne and ligne[0].startswith("fen:"): return chess.Board(ligne[0][4:].replace("_", " ")), list(ligne[1:])
+    return chess.Board(), list(ligne)
+
+
 def signature(ligne, n_depart, themes, mat):
     """Motif principal (thème Lichess), pièce qui donne le mat (ou « gain »), et sacrifice de dame du héros."""
-    b = chess.Board()
-    for x in ligne[:n_depart]: b.push_san(x)
+    b, cs = plateau(ligne[:n_depart])
+    for x in cs: b.push_san(x)
     heros = not b.turn            # le pigeon joue la gaffe, le héros a le trait juste avant lui
     dame_sac = False; piece = None
     for x in ligne[n_depart:]:
@@ -92,8 +99,8 @@ def signature(ligne, n_depart, themes, mat):
 
 def verifier(moteur, depart, gaffe_uci, suite_uci):
     """Rejoue la ligne, contrôle la gaffe et le mat ; renvoie (ligne SAN complète, éval avant, meilleur coup, mat ok)."""
-    b = chess.Board()
-    for s in depart: b.push_san(s)
+    b, cs = plateau(depart)
+    for s in cs: b.push_san(s)
     avant = moteur.analyse(b, chess.engine.Limit(time=1.0))
     meilleur = b.san(avant["pv"][0]); ev = avant["score"].pov(b.turn).score(mate_score=10000)
     ligne = list(depart)
@@ -121,7 +128,7 @@ def principal(nmax=20):
     fj = os.path.join(ROOT, "stock/pieges-candidats.json")
     anciens = json.load(open(fj, encoding="utf-8")) if os.path.exists(fj) else []
     deja_reserve = {c.get("ligne_san") for c in anciens}
-    rejets = collections.Counter()
+    rejets = collections.Counter(); export_ok = True
     sortie = []; vues_sig = collections.Counter(); n_dame = 0
     essais, t_debut = 0, time.time()
     for cle, ps in tri:
@@ -131,11 +138,15 @@ def principal(nmax=20):
             print("budget atteint :", essais - 1, "positions essayées", flush=True); break
         if len(ps) < 2: break                                    # un piège = au moins 2 parties réelles
         ex = max(ps, key=lambda p: (p["pop"], p["jeux"]))
-        try:
-            depart = ligne_depuis_partie(ex["url"], ex["fen"]); time.sleep(1.2)
-        except Exception as e:
-            print("export Lichess refusé :", type(e).__name__, flush=True); rejets["export refusé"] += 1; time.sleep(3); continue
-        if depart is None: rejets["départ introuvable"] += 1; continue
+        depart = None
+        if export_ok:
+            try:
+                depart = ligne_depuis_partie(ex["url"], ex["fen"]); time.sleep(1.2)
+            except Exception as e:
+                print("export Lichess refusé :", type(e).__name__, flush=True); rejets["export refusé"] += 1
+                if rejets["export refusé"] >= 3: export_ok = False   # 3/11 : Lichess refuse tout → on part de la position du puzzle
+        if depart is None:   # pas de partie : on part de la position du puzzle (la vidéo peut démarrer là)
+            depart = ["fen:" + ex["fen"].replace(" ", "_")]
         try:
             ligne, ev, meilleur, mat, gain_cp = verifier(moteur, depart, ex["coups"][0], ex["coups"][1:])
         except Exception as e:
@@ -147,16 +158,16 @@ def principal(nmax=20):
         motif, piece, dame_sac = signature(ligne, len(depart), ex["themes"], mat)
         if vues_sig[(motif, piece)] >= 1 or (dame_sac and n_dame >= 1): rejets["variété"] += 1; continue   # variété ; 3/11 (Simon) : au plus 1 sacrifice de dame
         vues_sig[(motif, piece)] += 1; n_dame += dame_sac
-        fin = chess.Board(); [fin.push_san(s) for s in ligne]
-        bb = chess.Board()
-        for s in ligne[: len(depart) + 1]: bb.push_san(s)
+        fin, cs = plateau(ligne); [fin.push_san(s) for s in cs]
+        bb, cs = plateau(ligne[: len(depart) + 1])
+        for s in cs: bb.push_san(s)
         cles_ligne = {" ".join(bb.fen().split()[:2]), " ".join(fin.fen().split()[:2])}   # après la gaffe + mat final (pas l'ouverture commune)
         langues = set().union(*[connues[k] for k in cles_ligne if k in connues]) if any(k in connues for k in cles_ligne) else set()
         sortie.append({"ouverture": (ex["ouverture"].split() or [""])[-1].replace("_", " "), "parties_reelles": len(ps),
                        "note_moyenne": round(sum(p["note"] for p in ps) / len(ps)), "mat_en": ex["mat"],
                        "demi_coup_gaffe": len(depart) + 1, "ligne_san": " ".join(ligne),
                        "gaffe": ligne[len(depart)], "coup_juste": meilleur, "eval_avant_cp": ev,
-                       "camp_du_heros": "noirs" if len(depart) % 2 == 0 else "blancs",
+                       "camp_du_heros": "blancs" if bb.turn == chess.WHITE else "noirs",
                        "type": ex["type"], "motif": motif, "piece_finale": piece, "sacrifice_dame": dame_sac, "gain_cp": gain_cp,
                        "fen_mat": fin.fen(), "deja_fait": sorted(langues) or "non", "puzzle": ex["id"]})
         print(f"OK {len(ps):>4} parties · {ex['ouverture'][:40]} · {' '.join(ligne)}", flush=True)
