@@ -46,7 +46,7 @@ def regrouper(lignes, rmin=1400, rmax=2100, ply_max=30):  # 3/11 (Simon, 2e avis
         if "opening" not in th: continue
         mat = next((MATS[t] for t in th if t in MATS), None)
         nb = len(p["Moves"].split())
-        gain = (not mat and "crushing" in th and GAIN & set(th) and 6 <= nb <= 10)   # 3 à 5 coups du héros (Simon, 3/11 : trop court sinon)
+        gain = (not mat and "crushing" in th and GAIN & set(th) and 6 <= nb <= 10)   # combinaison de 5 à 9 demi-coups (Simon, 3/11 : 5 à 8 coups, de la complexité) ; les plus longues passent en premier
         if mat == 2: continue   # 3/11 (Simon) : le mat arrive trop vite ; mat en 3 à 5 seulement
         if not mat and not gain: continue
         r = int(p["Rating"])
@@ -123,7 +123,7 @@ def principal(nmax=20):
             if p: connues.setdefault(p, set()).add(v["langue"])
     sf = shutil.which("stockfish") or "/usr/games/stockfish"
     moteur = chess.engine.SimpleEngine.popen_uci(sf)
-    tri = sorted(groupes.items(), key=lambda kv: (-min(len(kv[1]), 4), abs(sum(p["note"] for p in kv[1]) / len(kv[1]) - 1750), -len(kv[1]), min(int(re.search(r"#(\d+)$", p["url"]).group(1)) for p in kv[1])))
+    tri = sorted(groupes.items(), key=lambda kv: (-min(len(kv[1]), 4), -min(max(len(p["coups"]) for p in kv[1]) - 1, 8) // 2, abs(sum(p["note"] for p in kv[1]) / len(kv[1]) - 1750), -len(kv[1]), min(int(re.search(r"#(\d+)$", p["url"]).group(1)) for p in kv[1])))
     # 3/11 (Simon) : on n'écrase plus jamais la réserve : les anciens pièges restent, les nouveaux s'ajoutent
     fj = os.path.join(ROOT, "stock/pieges-candidats.json")
     anciens = json.load(open(fj, encoding="utf-8")) if os.path.exists(fj) else []
