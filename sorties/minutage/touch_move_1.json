@@ -1,0 +1,65 @@
+{
+ "nom": "touch_move_1",
+ "tempo": 1.0,
+ "duree_s": 28.12,
+ "hook": {
+  "texte": "You touched your king.|Can you still mate?",
+  "fin": 3.06
+ },
+ "question": {
+  "texte": "Follow: one new|rule a day",
+  "t": 24.92
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Over the board you touch your king on purpose."
+  },
+  {
+   "t": 3.06,
+   "texte": "Then you spot mate in one with the rook."
+  },
+  {
+   "t": 5.86,
+   "texte": "Can you still play it?"
+  },
+  {
+   "t": 9.92,
+   "texte": "No!"
+  },
+  {
+   "t": 10.84,
+   "texte": "Touched piece, moved piece."
+  },
+  {
+   "t": 13.46,
+   "texte": "Your king has legal moves so the king must move."
+  },
+  {
+   "t": 17.14,
+   "texte": "If you had said \"I adjust\" before touching it you would be free."
+  },
+  {
+   "t": 22.04,
+   "texte": "Then the rook goes up checkmate!"
+  },
+  {
+   "t": 25.66,
+   "texte": "Follow: one new rule a day."
+  }
+ ],
+ "coups": [
+  {
+   "t": 23.74,
+   "coup": "Re8#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 7.9,
+   "duree": 2.0,
+   "texte": "Mate?"
+  }
+ ]
+}

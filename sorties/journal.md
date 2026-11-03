@@ -502,3 +502,6 @@
 ### commandes/perso_pigeon_en_19.json
     voix générée : 403 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_19.mp4 {"voix_brute_s": 30.5, "tempo": 1.0, "video_s": 32.1, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 76, "minutage": "12 phrases, 6 coups, 1 pauses"}
+### commandes/perso_touch_move_1.json
+    voix générée : 321 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/touch_move_1.mp4 {"voix_brute_s": 26.0, "tempo": 1.0, "video_s": 28.7, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 63, "minutage": "9 phrases, 1 coups, 1 pauses"}
