@@ -1,9 +1,9 @@
 {
- "date": "2026-11-03T11:50:24.181978+00:00",
+ "date": "2026-11-03T12:58:25.187176+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
-  "abonnes": "38",
+  "abonnes": "37",
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
@@ -12,7 +12,7 @@
    "publiee": "2026-11-02T20:44:32Z",
    "statut": "public",
    "duree": "PT21S",
-   "vues": 1370,
+   "vues": 1459,
    "jaime": 10,
    "commentaires": 1
   },
@@ -21,7 +21,7 @@
    "publiee": "2026-11-02T18:56:15Z",
    "statut": "public",
    "duree": "PT31S",
-   "vues": 1068,
+   "vues": 1088,
    "jaime": 6,
    "commentaires": 0
   },
