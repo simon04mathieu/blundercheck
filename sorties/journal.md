@@ -521,3 +521,6 @@
 ## 2026-11-03 00:18 UTC · pièges · run 41551824316
 ### commandes/pieges/2026-11-03.json
     OK stock/pieges-candidats.md : 0 pièges, dont 0 jamais faits
+## 2026-11-03 08:44 UTC · pièges · run 41605495437
+### commandes/pieges/2026-11-03b.json
+    OK stock/pieges-candidats.md : 0 nouveaux pièges ajoutés, 9 en réserve ; écartés : {'export refusé': 220}
