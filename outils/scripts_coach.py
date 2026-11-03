@@ -1317,3 +1317,54 @@ QUESTIONS.update({
     "pigeon_en_18": "Trap #5 tomorrow|Follow!",
     "tactique_clouage_1": "Follow: a new|trick daily",
 })
+
+# 3/11 (Producteur) : file du Scénariste du 2/11 ; coups vérifiés python-chess + Stockfish 16 (profondeur 20), aucune case dite
+SAAVEDRA = "fen:8/8/1KP5/3r4/8/8/8/k7_w_-_-_0_1"
+SAAVEDRA_CLE = "fen:8/2P5/8/8/3r4/8/2K5/k7_w_-_-_9_6"
+TOUCHE = "fen:6k1/5ppp/2n5/8/8/8/5PPP/4R1K1_w_-_-_0_1"
+PERSO.update({
+"legende_miniature_1": {   # 1.d4 Nf6 2.Nd2 e5 3.dxe5 Ng4 4.h3?? Ne3 (−5,7) 5.fxe3 Qh4+ 6.g3 Qxg3# ; légende Gibaud–Lazard jamais prouvée (Winter) ; T14 B, T15
+    "cote": "noirs", "sous_titres": "phrase",
+    "hook": "Shortest game ever?|A myth!",
+    "voix": """White pushes this pawn to chase the knight. Oops! The knight jumps in and forks the queen and the bishop. The shortest game ever? Legend says White resigned right here. Follow: one new trick a day. Take the knight, and the queen swings out with check. The king's only shield is a pawn. And then the queen simply takes it. Checkmate! Nobody ever proved this game was played. But the trap is real!""",
+    "script": """[p d4 Nf6 Nd2 e5 dxe5 Ng4] White pushes [m h3 gaffe] this pawn to chase the knight. [h] Oops! The knight [m Ne3 brillant] [z e3 1.3 2.0] jumps in and forks [f e3d1 e3f1] the queen and the bishop. The shortest game ever? Legend says White resigned right here. [q 1 Legend?] Follow: one new trick a day. [m fxe3] Take the knight, and the queen swings out with [m Qh4+] check. The king's only shield is a [m g3] pawn. And then the queen simply [m Qxg3# mat] [z g3 1.35 2.0] [x impact] takes it. Checkmate! Nobody ever proved this game was played. But the trap is real!""",
+},
+"legende_miniature_1_fr": {   # jumeau FR de legende_miniature_1
+    "cote": "noirs", "sous_titres": "phrase",
+    "hook": "Plus courte partie ?|Un mythe !",
+    "voix": """Les Blancs poussent ce pion pour chasser le cavalier. Aïe ! Le cavalier saute et attaque la dame et le fou en même temps. La partie la plus courte du monde ? La légende dit que les Blancs ont abandonné ici. S'ils prennent le cavalier, la dame sort avec échec. Le seul bouclier du roi, c'est un pion. Et la dame le croque tout simplement. Échec et mat ! Personne n'a jamais prouvé que cette partie a existé. Mais le piège est réel ! Abonne-toi : un piège par jour pour monter ton Elo.""",
+    "script": """[p d4 Nf6 Nd2 e5 dxe5 Ng4] Les Blancs poussent [m h3 gaffe] ce pion pour chasser le cavalier. [h] Aïe ! Le cavalier [m Ne3 brillant] [z e3 1.3 2.0] saute et attaque [f e3d1 e3f1] la dame et le fou en même temps. La partie la plus courte du monde ? La légende dit que les Blancs ont abandonné ici. [q 1 Légende ?] [m fxe3] S'ils prennent le cavalier, la dame sort avec [m Qh4+] échec. Le seul bouclier du roi, c'est un [m g3] pion. Et la dame le croque [m Qxg3# mat] [z g3 1.35 2.0] [x impact] tout simplement. Échec et mat ! Personne n'a jamais prouvé que cette partie a existé. Mais le piège est réel ! Abonne-toi : un piège par jour pour monter ton Elo.""",
+},
+"touch_move_1": {   # règle FIDE art. 4.3 (pièce touchée) et 4.2 (j'adoube) ; Re8# mat en 1 ; coups du roi : Rf1, Rh1 (python-chess) ; position composée ; T14 A
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "You touched your king.|Can you still mate?",
+    "voix": """Over the board, you touch your king on purpose. Then you spot mate in one with the rook. Can you still play it? No! Touched piece, moved piece. Your king has legal moves, so the king must move. If you had said "I adjust" before touching it, you would be free. Then the rook goes up: checkmate! Follow: one new rule a day.""",
+    "script": """[p """ + TOUCHE + """] Over the board, you [s tag g1 2.5 TOUCHED] touch your king on purpose. [h] Then you spot [f e1e8] mate in one with the rook. Can you still play it? [q 2 Mate?] No! Touched piece, moved piece. Your king has legal moves, [f g1f1 g1h1] so the king must move. If you had said "I adjust" before touching it, you would be free. Then the rook goes up: [m Re8# mat] [z e8 1.3 2.0] [x impact] checkmate! Follow: one new rule a day.""",
+},
+"touch_move_1_fr": {   # jumeau FR de touch_move_1 ; T13 B (sans « Tu le savais ? »)
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Roi touché.|Mat quand même ?",
+    "voix": """Sur un vrai échiquier, tu touches ton roi exprès. Puis tu vois un mat en un avec la tour. Peux-tu encore le jouer ? Non ! Pièce touchée, pièce jouée. Ton roi a des coups légaux, donc le roi doit bouger. Si tu avais dit « j'adoube » avant de le toucher, tu serais libre. Alors la tour monte : échec et mat ! Abonne-toi : une règle par jour.""",
+    "script": """[p """ + TOUCHE + """] Sur un vrai échiquier, tu [s tag g1 2.5 TOUCHÉ] touches ton roi exprès. [h] Puis tu vois [f e1e8] un mat en un avec la tour. Peux-tu encore le jouer ? [q 2 Mat ?] Non ! Pièce touchée, pièce jouée. Ton roi a des coups légaux, [f g1f1 g1h1] donc le roi doit bouger. Si tu avais dit « j'adoube » avant de le toucher, tu serais libre. Alors la tour monte : [m Re8# mat] [z e8 1.3 2.0] [x impact] échec et mat ! Abonne-toi : une règle par jour.""",
+},
+"pigeon_en_19": {   # Russe : 5.c3 c5?? 6.Qa4+ Nc6 7.Qxe4+ (+4,0) ; coup juste 5…d5 (+0,1) ; réserve n° 3 (FR 1/11, jumeau EN) ; T11 A « Chess Trap #5 » ; vers /try
+    "cote": "noirs", "sous_titres": "phrase", "serie": "Chess Trap #5",
+    "hook": "White played a quiet move.|What's the threat?",
+    "voix": """White just played a quiet pawn move. What does it threaten? The queen can jump out with check, and hit your knight at the same time. Push your other pawn? The queen checks from the side. You block with a knight. But look: now she simply grabs your other knight. A fork! Instead, push the center pawn: now the knight is guarded, and the trick fails. Analyze your own game, free. Trap #6 tomorrow. Follow!""",
+    "script": """[p e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4] White just [m c3] played a quiet pawn move. What does it threaten? [h] The queen can [f d1a4 a4e8 a4e4] jump out with check, and hit your knight at the same time. [q 1 Threat?] [m c5 gaffe] Push your other pawn? The queen [m Qa4+] checks from the side. You block with a [m Nc6] knight. But look: now she simply [m Qxe4+ brillant] [z e4 1.3 2.0] [x impact] grabs your other knight. A fork! [p e4 e5 Nf3 Nf6 Nxe5 d6 Nf3 Nxe4 c3] Instead, push the [m d5 meilleur] center pawn: now the knight is [f d5e4] guarded, and the trick fails. Analyze your own game, free. Trap #6 tomorrow. Follow!""",
+},
+"finale_saavedra_1": {   # Saavedra : 1.c7 Rd6+ 2.Kb5 … 5.Kc2 Rd4 6.c8=R! (6.c8=Q Rc4+ 7.Qxc4 pat) 6…Ra4 7.Kb3 Rb4+ 8.Kxb4 (mat en 5, Stockfish) ; T14 B
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Don't make|a queen!",
+    "voix": """White to play and win. The pawn runs forward. The rook checks from the side. The king walks up, and the checks keep coming, until the king hides next to his pawn. Now, make a queen? The rook checks right beside her. The queen must take, and Black has no move: stalemate! Follow: a new trick daily. So make a rook instead! The black rook must run, or it's mate in the corner. Now the king attacks it. Black gives one last check, and the king takes the rook. White wins!""",
+    "script": """[p """ + SAAVEDRA + """] White to play and win. [h] [m c7] The pawn runs forward. The rook [m Rd6+] checks from the side. The king [m Kb5] walks up, and the checks keep coming, until the king [p """ + SAAVEDRA_CLE + """] hides next to his pawn. Now, [m c8=Q gaffe] make a queen? The rook [m Rc4+] checks right beside her. The queen must [m Qxc4] take, and Black has no move: [s tag a1 2.5 STALEMATE] [x impact] stalemate! Follow: a new trick daily. [p """ + SAAVEDRA_CLE + """] So make a [m c8=R brillant] [z c8 1.3 2.0] rook instead! The black rook must [m Ra4] run, or it's [f c8c1] mate in the corner. Now the king [m Kb3 brillant] attacks it. Black [m Rb4+] gives one last check, and the king [m Kxb4] [x impact] takes the rook. White wins!""",
+},
+})
+QUESTIONS.update({
+    "legende_miniature_1": "Follow: one new|trick a day",
+    "legende_miniature_1_fr": "Abonne-toi :|un piège par jour",
+    "touch_move_1": "Follow: one new|rule a day",
+    "touch_move_1_fr": "Abonne-toi :|une règle par jour",
+    "pigeon_en_19": "Trap #6 tomorrow|Follow!",
+    "finale_saavedra_1": "Follow: a new|trick daily",
+})
