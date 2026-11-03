@@ -20,7 +20,7 @@
    "texte": "Most players do."
   },
   {
-   "t": 3.5,
+   "t": 3.48,
    "texte": "Pawn up, the knight looks trapped."
   },
   {
@@ -28,7 +28,7 @@
    "texte": "Is it safe?"
   },
   {
-   "t": 8.4,
+   "t": 8.42,
    "texte": "Follow for one new trap every day, and watch."
   },
   {
@@ -36,7 +36,7 @@
    "texte": "It jumps in with check and it hits the rook too."
   },
   {
-   "t": 15.62,
+   "t": 15.64,
    "texte": "A royal fork!"
   },
   {
@@ -44,7 +44,7 @@
    "texte": "Your queen has to take it."
   },
   {
-   "t": 19.34,
+   "t": 19.28,
    "texte": "And the bishop takes your queen."
   },
   {
@@ -60,7 +60,7 @@
    "texte": "Better: push the center pawn and hit the bishop first."
   },
   {
-   "t": 32.2,
+   "t": 32.3,
    "texte": "Would you have seen it?"
   }
  ],
@@ -93,7 +93,7 @@
  ],
  "pauses": [
   {
-   "t": 7.38,
+   "t": 7.4,
    "duree": 1.0,
    "texte": "Safe?"
   }
