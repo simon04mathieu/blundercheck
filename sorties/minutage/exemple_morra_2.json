@@ -1,0 +1,97 @@
+{
+ "nom": "exemple_morra_2",
+ "tempo": 1.0,
+ "duree_s": 31.42,
+ "hook": {
+  "texte": "Kick this knight?|Your queen dies.",
+  "fin": 1.88
+ },
+ "question": {
+  "texte": "Follow: one new|trap every day",
+  "t": 28.22
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Would you kick this knight?"
+  },
+  {
+   "t": 1.88,
+   "texte": "Most players do."
+  },
+  {
+   "t": 3.52,
+   "texte": "Pawn up, the knight looks trapped."
+  },
+  {
+   "t": 7.08,
+   "texte": "Wrong!"
+  },
+  {
+   "t": 7.82,
+   "texte": "It jumps in with check and it hits the rook too."
+  },
+  {
+   "t": 11.48,
+   "texte": "A royal fork!"
+  },
+  {
+   "t": 13.18,
+   "texte": "Your queen has to take it."
+  },
+  {
+   "t": 15.16,
+   "texte": "And the bishop takes your queen."
+  },
+  {
+   "t": 17.38,
+   "texte": "Queen gone, for one knight!"
+  },
+  {
+   "t": 20.04,
+   "texte": "The hole next to your king was guarded only by the queen."
+  },
+  {
+   "t": 24.1,
+   "texte": "Better: push the center pawn and hit the bishop first."
+  },
+  {
+   "t": 28.44,
+   "texte": "Follow: one new trap every day."
+  }
+ ],
+ "coups": [
+  {
+   "t": 3.94,
+   "coup": "a6",
+   "badge": "gaffe"
+  },
+  {
+   "t": 8.2,
+   "coup": "Nc7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 14.02,
+   "coup": "Qxc7",
+   "badge": null
+  },
+  {
+   "t": 15.7,
+   "coup": "Bxc7",
+   "badge": "brillant"
+  },
+  {
+   "t": 25.44,
+   "coup": "e5",
+   "badge": "meilleur"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 6.06,
+   "duree": 1.0,
+   "texte": "Safe?"
+  }
+ ]
+}
