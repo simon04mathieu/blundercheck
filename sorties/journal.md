@@ -493,3 +493,6 @@
     voix générée : 468 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/finale_saavedra_1.mp4 {"voix_brute_s": 35.6, "tempo": 1.0, "video_s": 36.1, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 91, "minutage": "13 phrases, 11 coups, 0 pauses"}
+### commandes/perso_legende_miniature_1.json
+    voix générée : 395 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/legende_miniature_1.mp4 {"voix_brute_s": 28.8, "tempo": 1.0, "video_s": 30.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 73, "minutage": "12 phrases, 6 coups, 1 pauses"}

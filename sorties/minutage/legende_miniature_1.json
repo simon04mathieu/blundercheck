@@ -1,0 +1,102 @@
+{
+ "nom": "legende_miniature_1",
+ "tempo": 1.0,
+ "duree_s": 29.8,
+ "hook": {
+  "texte": "Shortest game ever?|A myth!",
+  "fin": 2.82
+ },
+ "question": {
+  "texte": "Follow: one new|trick a day",
+  "t": 26.6
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "White pushes this pawn to chase the knight."
+  },
+  {
+   "t": 2.82,
+   "texte": "Oops!"
+  },
+  {
+   "t": 3.9,
+   "texte": "The knight jumps in and forks the queen and the bishop."
+  },
+  {
+   "t": 7.18,
+   "texte": "The shortest game ever?"
+  },
+  {
+   "t": 9.32,
+   "texte": "Legend says White resigned right here."
+  },
+  {
+   "t": 13.56,
+   "texte": "Follow: one new trick a day."
+  },
+  {
+   "t": 16.3,
+   "texte": "Take the knight and the queen swings out with check."
+  },
+  {
+   "t": 19.7,
+   "texte": "The king's only shield is a pawn."
+  },
+  {
+   "t": 22.28,
+   "texte": "And then the queen simply takes it."
+  },
+  {
+   "t": 24.68,
+   "texte": "Checkmate!"
+  },
+  {
+   "t": 25.92,
+   "texte": "Nobody ever proved this game was played."
+  },
+  {
+   "t": 28.4,
+   "texte": "But the trap is real!"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.66,
+   "coup": "h3",
+   "badge": "gaffe"
+  },
+  {
+   "t": 4.24,
+   "coup": "Ne3",
+   "badge": "brillant"
+  },
+  {
+   "t": 16.3,
+   "coup": "fxe3",
+   "badge": null
+  },
+  {
+   "t": 18.54,
+   "coup": "Qh4+",
+   "badge": null
+  },
+  {
+   "t": 21.2,
+   "coup": "g3",
+   "badge": null
+  },
+  {
+   "t": 23.36,
+   "coup": "Qxg3#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 12.54,
+   "duree": 1.0,
+   "texte": "Legend?"
+  }
+ ]
+}
