@@ -46,7 +46,7 @@ def regrouper(lignes, rmin=1400, rmax=2100, ply_max=30):  # 3/11 (Simon, 2e avis
         if "opening" not in th: continue
         mat = next((MATS[t] for t in th if t in MATS), None)
         nb = len(p["Moves"].split())
-        gain = (not mat and "crushing" in th and GAIN & set(th) and 6 <= nb <= 10)   # combinaison de 5 à 9 demi-coups (Simon, 3/11 : 5 à 8 coups, de la complexité) ; les plus longues passent en premier
+        gain = (not mat and "crushing" in th and GAIN & set(th) and 6 <= nb <= 16)   # Simon, 3/11 : 3 à 8 coups PAR CAMP après la gaffe ; les plus longues passent en premier
         if mat == 2: continue   # 3/11 (Simon) : le mat arrive trop vite ; mat en 3 à 5 seulement
         if not mat and not gain: continue
         r = int(p["Rating"])
@@ -123,7 +123,7 @@ def principal(nmax=20):
             if p: connues.setdefault(p, set()).add(v["langue"])
     sf = shutil.which("stockfish") or "/usr/games/stockfish"
     moteur = chess.engine.SimpleEngine.popen_uci(sf)
-    tri = sorted(groupes.items(), key=lambda kv: (-min(len(kv[1]), 4), -min(max(len(p["coups"]) for p in kv[1]) - 1, 8) // 2, abs(sum(p["note"] for p in kv[1]) / len(kv[1]) - 1750), -len(kv[1]), min(int(re.search(r"#(\d+)$", p["url"]).group(1)) for p in kv[1])))
+    tri = sorted(groupes.items(), key=lambda kv: (-min(len(kv[1]), 4), -min(max(len(p["coups"]) for p in kv[1]) // 2, 8), abs(sum(p["note"] for p in kv[1]) / len(kv[1]) - 1750), -len(kv[1]), min(int(re.search(r"#(\d+)$", p["url"]).group(1)) for p in kv[1])))
     # 3/11 (Simon) : on n'écrase plus jamais la réserve : les anciens pièges restent, les nouveaux s'ajoutent
     fj = os.path.join(ROOT, "stock/pieges-candidats.json")
     anciens = json.load(open(fj, encoding="utf-8")) if os.path.exists(fj) else []
@@ -177,7 +177,7 @@ def principal(nmax=20):
     json.dump(sortie, open(os.path.join(ROOT, "stock/pieges-candidats.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     L = ["# Pièges candidats (réserve du Scénariste)", "",
          f"*Généré le {time.strftime('%d/%m/%Y')} par `outils/chercher_pieges.py` (puzzles Lichess, CC0) : pièges d'ouverture à mat où de vrais joueurs",
-         "tombent souvent (puzzle classé 1400-2100, idéal ≈ 1750 ; mat en 2 à 5 **ou gain d'une pièce** en 2 à 5 coups ; réserve cumulée, jamais écrasée). Ligne vérifiée python-chess + Stockfish 1 s. « Déjà fait » = d'après `marketing/deja-fait.md`.",
+         "tombent souvent (puzzle classé 1400-2100, idéal ≈ 1750 ; mat en 3 à 5+ **ou gain d'une pièce**, 3 à 8 coups par camp ; réserve cumulée, jamais écrasée). Ligne vérifiée python-chess + Stockfish 1 s. « Déjà fait » = d'après `marketing/deja-fait.md`.",
          "**Variété (Simon, 31/10)** : au plus 1 piège par motif + pièce finale, au plus 1 sacrifice de dame par recherche (Simon, 3/11) ; le Scénariste ne répète pas le motif ni la pièce qui mate de la veille.",
          "Le Scénariste prend d'abord les « non » ; « fr » seul = jumeau EN possible, et inversement.*", "",
          "| # | Ouverture | Parties réelles | Note moy. | Type | Motif | Pièce finale | Sac. dame | Héros | Gaffe (coup juste) | Ligne | Déjà fait |", "|---|---|---|---|---|---|---|---|---|---|---|---|"]
