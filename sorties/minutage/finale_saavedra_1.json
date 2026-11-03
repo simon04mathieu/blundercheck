@@ -28,11 +28,11 @@
    "texte": "The king walks up and the checks keep coming until the king hides next to his pawn."
   },
   {
-   "t": 12.4,
+   "t": 12.38,
    "texte": "Now, make a queen?"
   },
   {
-   "t": 14.32,
+   "t": 14.34,
    "texte": "The rook checks right beside her."
   },
   {
@@ -52,7 +52,7 @@
    "texte": "The black rook must run or it's mate in the corner."
   },
   {
-   "t": 28.8,
+   "t": 28.82,
    "texte": "Now the king attacks it."
   },
   {
@@ -60,7 +60,7 @@
    "texte": "Black gives one last check and the king takes the rook."
   },
   {
-   "t": 34.54,
+   "t": 34.56,
    "texte": "White wins!"
   }
  ],
@@ -106,7 +106,7 @@
    "badge": null
   },
   {
-   "t": 29.4,
+   "t": 29.42,
    "coup": "Kb3",
    "badge": "brillant"
   },
@@ -116,7 +116,7 @@
    "badge": null
   },
   {
-   "t": 33.06,
+   "t": 33.54,
    "coup": "Kxb4",
    "badge": null
   }

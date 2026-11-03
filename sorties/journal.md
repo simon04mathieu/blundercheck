@@ -508,3 +508,8 @@
 ### commandes/perso_touch_move_1_fr.json
     voix générée : 339 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/touch_move_1_fr.mp4 {"voix_brute_s": 25.2, "tempo": 1.0, "video_s": 28.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 69, "minutage": "9 phrases, 1 coups, 1 pauses"}
+## 2026-11-03 00:13 UTC · run 41551143852
+### commandes/perso_finale_saavedra_1.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/finale_saavedra_1.mp4 {"voix_brute_s": 35.6, "tempo": 1.0, "video_s": 36.1, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 91, "minutage": "13 phrases, 11 coups, 0 pauses"}
