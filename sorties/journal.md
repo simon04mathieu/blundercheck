@@ -537,3 +537,8 @@
     voix générée : 383 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/exemple_morra_2.mp4 {"voix_brute_s": 30.4, "tempo": 1.0, "video_s": 32.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 74, "minutage": "12 phrases, 5 coups, 1 pauses"}
+## 2026-11-03 10:41 UTC · run 41621065461
+### commandes/perso_exemple_morra_2.json
+    voix générée : 426 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/exemple_morra_2.mp4 {"voix_brute_s": 32.4, "tempo": 1.0, "video_s": 34.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 84, "minutage": "13 phrases, 5 coups, 1 pauses"}

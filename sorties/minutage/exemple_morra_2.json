@@ -1,14 +1,14 @@
 {
  "nom": "exemple_morra_2",
  "tempo": 1.0,
- "duree_s": 31.42,
+ "duree_s": 33.62,
  "hook": {
   "texte": "Kick this knight?|Your queen dies.",
-  "fin": 1.88
+  "fin": 2.04
  },
  "question": {
-  "texte": "Follow: one new|trap every day",
-  "t": 28.22
+  "texte": "Would you|have seen it?",
+  "t": 30.42
  },
  "phrases": [
   {
@@ -16,80 +16,84 @@
    "texte": "Would you kick this knight?"
   },
   {
-   "t": 1.88,
+   "t": 2.04,
    "texte": "Most players do."
   },
   {
-   "t": 3.52,
+   "t": 3.5,
    "texte": "Pawn up, the knight looks trapped."
   },
   {
-   "t": 7.08,
-   "texte": "Wrong!"
+   "t": 6.06,
+   "texte": "Is it safe?"
   },
   {
-   "t": 7.82,
+   "t": 8.4,
+   "texte": "Follow for one new trap every day, and watch."
+  },
+  {
+   "t": 11.94,
    "texte": "It jumps in with check and it hits the rook too."
   },
   {
-   "t": 11.48,
+   "t": 15.62,
    "texte": "A royal fork!"
   },
   {
-   "t": 13.18,
+   "t": 17.42,
    "texte": "Your queen has to take it."
   },
   {
-   "t": 15.16,
+   "t": 19.34,
    "texte": "And the bishop takes your queen."
   },
   {
-   "t": 17.38,
+   "t": 21.28,
    "texte": "Queen gone, for one knight!"
   },
   {
-   "t": 20.04,
+   "t": 24.14,
    "texte": "The hole next to your king was guarded only by the queen."
   },
   {
-   "t": 24.1,
+   "t": 28.22,
    "texte": "Better: push the center pawn and hit the bishop first."
   },
   {
-   "t": 28.44,
-   "texte": "Follow: one new trap every day."
+   "t": 32.2,
+   "texte": "Would you have seen it?"
   }
  ],
  "coups": [
   {
-   "t": 3.94,
+   "t": 3.86,
    "coup": "a6",
    "badge": "gaffe"
   },
   {
-   "t": 8.2,
+   "t": 12.46,
    "coup": "Nc7+",
    "badge": "brillant"
   },
   {
-   "t": 14.02,
+   "t": 18.26,
    "coup": "Qxc7",
    "badge": null
   },
   {
-   "t": 15.7,
+   "t": 20.16,
    "coup": "Bxc7",
    "badge": "brillant"
   },
   {
-   "t": 25.44,
+   "t": 29.4,
    "coup": "e5",
    "badge": "meilleur"
   }
  ],
  "pauses": [
   {
-   "t": 6.06,
+   "t": 7.38,
    "duree": 1.0,
    "texte": "Safe?"
   }
