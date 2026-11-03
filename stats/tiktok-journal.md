@@ -475,3 +475,4 @@ Reference&#32;&#35;97&#46;7a10017&#46;1793560783&#46;8657e34
 ### 2026-11-03 09:27 publications/tiktok/legende_miniature_1_fr.json
 {"publish_id": "v_inbox_file~v2.7703874310523750422", "mode": "brouillon", "vie_privee": null, "legende": "La partie la plus courte du monde ? Une légende ! 😈 Tu aurais joué ce pion ? 👇 Légende : Gibaud–Lazard, Paris 1924 (jamais prouvée). #echecs #chess #histoire #echecsfr"}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 15, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 15, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
