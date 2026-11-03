@@ -518,3 +518,6 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/finale_saavedra_1.mp4 {"voix_brute_s": 35.6, "tempo": 1.0, "video_s": 36.1, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 91, "minutage": "13 phrases, 11 coups, 0 pauses"}
+## 2026-11-03 00:18 UTC · pièges · run 41551824316
+### commandes/pieges/2026-11-03.json
+    OK stock/pieges-candidats.md : 0 pièges, dont 0 jamais faits
