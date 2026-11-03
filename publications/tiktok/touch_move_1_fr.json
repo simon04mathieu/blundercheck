@@ -1,0 +1,31 @@
+{
+ "legende": "Tu touches ton roi : peux-tu quand même mater ? 🤔 Tu aurais bougé le roi ? 👇 Règle : lois de la FIDE, article 4.3. #echecs #chess #regles #echecsfr",
+ "envoyer_apres": "2026-11-03T08:00:00+01:00",
+ "heure_conseillee": "2026-11-03T21:00:00+01:00",
+ "repere": "21 h · touch_move_1_fr · 28.0 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/touch_move_1_fr.mp4",
+ "concept": "touch_move",
+ "format": "QUIZ",
+ "langue": "fr",
+ "paire": "touch_move_1",
+ "test": "T13-fin-quiz",
+ "duree": 28.0,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "QUIZ",
+  "categorie": "enigme",
+  "langue": "fr",
+  "duree_s": 28,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T13-fin-quiz",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "abonne_promesse",
+  "motif": "touch_move",
+  "niveau": "1300-2000"
+ }
+}

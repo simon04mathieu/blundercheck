@@ -1,0 +1,27 @@
+{
+ "legende": "La partie la plus courte du monde ? Une légende ! 😈 Tu aurais joué ce pion ? 👇 Légende : Gibaud–Lazard, Paris 1924 (jamais prouvée). Abonne-toi : un piège par jour.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #histoire #echecsfr",
+ "envoyer_apres": "2026-11-03T17:00:00+01:00",
+ "fichier": "sorties/legende_miniature_1_fr.mp4",
+ "concept": "legende_miniature",
+ "format": "HISTOIRE",
+ "langue": "fr",
+ "paire": "legende_miniature_1",
+ "test": "aucun",
+ "duree": 36.5,
+ "voix": "oui",
+ "variante": "-",
+ "etiquettes": {
+  "format": "HISTOIRE",
+  "categorie": "histoire",
+  "langue": "fr",
+  "duree_s": 36,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "aucun",
+  "variante": "-",
+  "appel_site": "non",
+  "fin": "abonne_promesse",
+  "motif": "fourchette_cavalier",
+  "niveau": "legende"
+ }
+}

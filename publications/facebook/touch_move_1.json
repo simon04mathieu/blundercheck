@@ -1,0 +1,28 @@
+{
+ "legende": "You touched your king. Can you still mate? 🤔 Would you have moved the king? 👇 Rule: FIDE Laws of Chess, article 4.3.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=facebook-en\n\n#chess #chessrules #chesspuzzle",
+ "envoyer_apres": "2026-11-03T17:00:00+01:00",
+ "fichier": "sorties/touch_move_1.mp4",
+ "concept": "touch_move",
+ "format": "QUIZ",
+ "langue": "en",
+ "test": "T14-appel",
+ "duree": 28.7,
+ "voix": "oui",
+ "variante": "A",
+ "etiquettes": {
+  "format": "QUIZ",
+  "categorie": "enigme",
+  "langue": "en",
+  "duree_s": 29,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T14-appel",
+  "variante": "A",
+  "appel_site": "non",
+  "fin": "follow_promesse",
+  "motif": "touch_move",
+  "niveau": "1300-2000",
+  "hook": "question",
+  "interet": "regle_piece_touchee"
+ }
+}

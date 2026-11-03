@@ -1,0 +1,28 @@
+{
+ "legende": "Don't make a queen! 🤯 Would you have made a queen? 👇 Study by Saavedra, 1895. One new endgame trick every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=threads-en\n\n#chess #chessendgame #saavedra",
+ "envoyer_apres": "2026-11-03T21:00:00+01:00",
+ "fichier": "sorties/finale_saavedra_1.mp4",
+ "concept": "finale_saavedra",
+ "format": "FINALE",
+ "langue": "en",
+ "test": "T14-appel",
+ "duree": 36.1,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 36,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T14-appel",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_promesse",
+  "motif": "sous_promotion_tour",
+  "niveau": "etude",
+  "hook": "ordre",
+  "interet": "sous_promotion_pat"
+ }
+}

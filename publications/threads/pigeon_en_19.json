@@ -1,0 +1,29 @@
+{
+ "legende": "White played a quiet move. What's the threat? 😈 Would you have seen the queen check? 👇 Chess Trap #5 — one new trap every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=threads-en\n\n#chess #chesstrap #petrov",
+ "envoyer_apres": "2026-11-03T19:00:00+01:00",
+ "fichier": "sorties/pigeon_en_19.mp4",
+ "concept": "pigeon_en",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "T11-série",
+ "duree": 32.1,
+ "voix": "oui",
+ "variante": "A",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "piege",
+  "langue": "en",
+  "duree_s": 32,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T11-série",
+  "variante": "A",
+  "appel_site": "oui",
+  "fin": "follow_promesse",
+  "motif": "fourchette_dame_echec",
+  "niveau": 1307,
+  "hook": "question",
+  "interet": "menace_silencieuse",
+  "serie": "Chess Trap #5"
+ }
+}

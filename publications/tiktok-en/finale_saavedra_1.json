@@ -1,0 +1,32 @@
+{
+ "legende": "Don't make a queen! 🤯 Would you have made a queen? 👇 Study by Saavedra, 1895. One new endgame trick every day. #chess #chesstok",
+ "envoyer_apres": "2026-11-03T08:00:00+01:00",
+ "heure_conseillee": "2026-11-03T21:00:00+01:00",
+ "repere": "21 h · finale_saavedra_1 · 36.1 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/finale_saavedra_1.mp4",
+ "concept": "finale_saavedra",
+ "format": "FINALE",
+ "langue": "en",
+ "test": "T14-appel",
+ "duree": 36.1,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 36,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T14-appel",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_promesse",
+  "motif": "sous_promotion_tour",
+  "niveau": "etude",
+  "hook": "ordre",
+  "interet": "sous_promotion_pat"
+ }
+}

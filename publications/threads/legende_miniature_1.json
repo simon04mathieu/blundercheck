@@ -1,0 +1,29 @@
+{
+ "legende": "The shortest game ever… or a myth? 😈 Would you have pushed that pawn? 👇 Legend: Gibaud–Lazard, Paris 1924 (never proven).\n\nAnalyze your own game, free: https://blundercheck.app/try?src=threads-en\n\n#chess #chesshistory #chesstrap",
+ "envoyer_apres": "2026-11-03T15:00:00+01:00",
+ "fichier": "sorties/legende_miniature_1.mp4",
+ "concept": "legende_miniature",
+ "format": "HISTOIRE",
+ "langue": "en",
+ "test": "T14-appel",
+ "duree": 30.4,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "HISTOIRE",
+  "categorie": "histoire",
+  "langue": "en",
+  "duree_s": 30,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T14-appel",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_promesse",
+  "motif": "fourchette_cavalier",
+  "niveau": "legende",
+  "hook": "question",
+  "interet": "legende_dementie_piege_reel",
+  "test2": "T15-putaclic"
+ }
+}

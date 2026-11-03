@@ -1,0 +1,36 @@
+{
+ "titre": "White played a quiet move. What's the threat? Chess Trap #5 ♟️ #chess #shorts",
+ "description": "Russian Game: after a quiet pawn move, the queen threatens check and your knight at the same time. Seen in 3 real games at 1300. Would you have seen the queen check? 👇\n\nAnalyze your own game, free: https://blundercheck.app/try?src=youtube-en\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess trap",
+  "russian game",
+  "petrov"
+ ],
+ "envoyer_apres": "2026-11-03T19:00:00+01:00",
+ "fichier": "sorties/pigeon_en_19.mp4",
+ "concept": "pigeon_en",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "T11-série",
+ "duree": 32.1,
+ "voix": "oui",
+ "variante": "A",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "piege",
+  "langue": "en",
+  "duree_s": 32,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T11-série",
+  "variante": "A",
+  "appel_site": "oui",
+  "fin": "follow_promesse",
+  "motif": "fourchette_dame_echec",
+  "niveau": 1307,
+  "hook": "question",
+  "interet": "menace_silencieuse",
+  "serie": "Chess Trap #5"
+ }
+}
