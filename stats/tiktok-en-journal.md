@@ -350,3 +350,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 ### 2026-11-03 07:50 publications/tiktok-en/touch_move_1.json
 {"publish_id": "v_inbox_file~v2.7703849029440112662", "mode": "brouillon", "vie_privee": null, "legende": "You touched your king. Can you still mate? 🤔 Would you have moved the king? 👇 Rule: FIDE Laws of Chess, article 4.3. #chess #chesstok"}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 17, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 17, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
