@@ -1,0 +1,102 @@
+{
+ "nom": "pigeon_en_19",
+ "tempo": 1.0,
+ "duree_s": 31.5,
+ "hook": {
+  "texte": "White played a quiet move.|What's the threat?",
+  "fin": 4.84
+ },
+ "question": {
+  "texte": "Trap #6 tomorrow|Follow!",
+  "t": 28.3
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "White just played a quiet pawn move."
+  },
+  {
+   "t": 3.02,
+   "texte": "What does it threaten?"
+  },
+  {
+   "t": 4.84,
+   "texte": "The queen can jump out with check, and hit your knight at the same time."
+  },
+  {
+   "t": 10.32,
+   "texte": "Push your other pawn?"
+  },
+  {
+   "t": 12.16,
+   "texte": "The queen checks from the side."
+  },
+  {
+   "t": 14.38,
+   "texte": "You block with a knight."
+  },
+  {
+   "t": 16.14,
+   "texte": "But look: now she simply grabs your other knight."
+  },
+  {
+   "t": 19.54,
+   "texte": "A fork!"
+  },
+  {
+   "t": 20.9,
+   "texte": "Instead, push the center pawn now the knight is guarded and the trick fails."
+  },
+  {
+   "t": 26.74,
+   "texte": "Analyze your own game free."
+  },
+  {
+   "t": 29.22,
+   "texte": "Trap #6 tomorrow."
+  },
+  {
+   "t": 30.92,
+   "texte": "Follow!"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.6,
+   "coup": "c3",
+   "badge": null
+  },
+  {
+   "t": 10.32,
+   "coup": "c5",
+   "badge": "gaffe"
+  },
+  {
+   "t": 12.6,
+   "coup": "Qa4+",
+   "badge": null
+  },
+  {
+   "t": 15.08,
+   "coup": "Nc6",
+   "badge": null
+  },
+  {
+   "t": 17.66,
+   "coup": "Qxe4+",
+   "badge": "brillant"
+  },
+  {
+   "t": 22.16,
+   "coup": "d5",
+   "badge": "meilleur"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 9.3,
+   "duree": 1.0,
+   "texte": "Threat?"
+  }
+ ]
+}

@@ -499,3 +499,6 @@
 ### commandes/perso_legende_miniature_1_fr.json
     voix générée : 483 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/legende_miniature_1_fr.mp4 {"voix_brute_s": 34.8, "tempo": 1.0, "video_s": 36.5, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 95, "minutage": "12 phrases, 6 coups, 1 pauses"}
+### commandes/perso_pigeon_en_19.json
+    voix générée : 403 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_19.mp4 {"voix_brute_s": 30.5, "tempo": 1.0, "video_s": 32.1, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 76, "minutage": "12 phrases, 6 coups, 1 pauses"}
