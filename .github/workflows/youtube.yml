@@ -7,6 +7,7 @@ on:
     paths: ["publications/youtube/*.json", ".github/workflows/youtube.yml"]
   schedule:
     - cron: "7 * * * *"    # toutes les heures : envoie les vidéos dont l'heure est venue (+ relevé des chiffres)
+    - cron: "*/10 14,16,18,20 * * *"   # 3/11 (Simon : vidéos en retard jusqu'à 1 h) : toutes les 10 min pendant les heures des créneaux 15/17/19/21 h de Paris (UTC+1, hiver ; à décaler d'1 h à l'heure d'été)
   workflow_dispatch:
 permissions:
   contents: write
