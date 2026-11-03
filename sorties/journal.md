@@ -527,3 +527,8 @@
 ## 2026-11-03 09:03 UTC · pièges · run 41607859292
 ### commandes/pieges/2026-11-03c.json
     OK stock/pieges-candidats.md : 11 nouveaux pièges ajoutés, 20 en réserve ; écartés : {'export refusé': 3, 'variété': 178}
+## 2026-11-03 09:22 UTC · run 41610421119
+### commandes/perso_exemple_morra_1.json
+    voix générée : 833 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/exemple_morra_1.mp4 {"voix_brute_s": 63.3, "tempo": 1.0, "video_s": 65.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 157, "minutage": "23 phrases, 16 coups, 1 pauses"}

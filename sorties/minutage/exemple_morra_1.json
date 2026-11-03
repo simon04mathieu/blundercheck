@@ -1,0 +1,196 @@
+{
+ "nom": "exemple_morra_1",
+ "tempo": 1.0,
+ "duree_s": 64.36,
+ "hook": {
+  "texte": "One pawn move.|Queen gone.",
+  "fin": 4.06
+ },
+ "question": {
+  "texte": "Follow: one new|trap every day",
+  "t": 61.16
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "One natural pawn move and Black loses the queen."
+  },
+  {
+   "t": 4.06,
+   "texte": "Let's watch."
+  },
+  {
+   "t": 5.54,
+   "texte": "White opens with the king's pawn Black answers on the side."
+  },
+  {
+   "t": 10.18,
+   "texte": "White gives a pawn right away."
+  },
+  {
+   "t": 12.68,
+   "texte": "Black takes it."
+  },
+  {
+   "t": 14.2,
+   "texte": "Then White offers a second pawn."
+  },
+  {
+   "t": 16.7,
+   "texte": "Black grabs that one too."
+  },
+  {
+   "t": 19.24,
+   "texte": "The knight takes back and jumps into the game."
+  },
+  {
+   "t": 22.16,
+   "texte": "Black builds a solid wall."
+  },
+  {
+   "t": 24.46,
+   "texte": "The bishop comes out."
+  },
+  {
+   "t": 26.28,
+   "texte": "The black knight comes out."
+  },
+  {
+   "t": 28.02,
+   "texte": "And now, the white knight jumps forward."
+  },
+  {
+   "t": 30.98,
+   "texte": "It looks lonely so Black kicks it with a pawn."
+  },
+  {
+   "t": 34.68,
+   "texte": "Huge mistake!"
+  },
+  {
+   "t": 37.22,
+   "texte": "The knight jumps in with check and it also attacks the rook."
+  },
+  {
+   "t": 41.4,
+   "texte": "A royal fork!"
+  },
+  {
+   "t": 43.12,
+   "texte": "The queen has to take the knight."
+  },
+  {
+   "t": 45.08,
+   "texte": "And the bishop takes the queen."
+  },
+  {
+   "t": 47.46,
+   "texte": "White wins the queen for a knight!"
+  },
+  {
+   "t": 49.94,
+   "texte": "The problem was the hole next to the black king guarded only by the queen."
+  },
+  {
+   "t": 54.52,
+   "texte": "Better: push the center pawn and chase the bishop first."
+  },
+  {
+   "t": 59.44,
+   "texte": "Watch the holes next to your king."
+  },
+  {
+   "t": 61.86,
+   "texte": "Follow: one new trap every day."
+  }
+ ],
+ "coups": [
+  {
+   "t": 6.64,
+   "coup": "e4",
+   "badge": null
+  },
+  {
+   "t": 8.52,
+   "coup": "c5",
+   "badge": null
+  },
+  {
+   "t": 10.9,
+   "coup": "d4",
+   "badge": null
+  },
+  {
+   "t": 12.98,
+   "coup": "cxd4",
+   "badge": null
+  },
+  {
+   "t": 15.28,
+   "coup": "c3",
+   "badge": null
+  },
+  {
+   "t": 17.42,
+   "coup": "dxc3",
+   "badge": null
+  },
+  {
+   "t": 19.94,
+   "coup": "Nxc3",
+   "badge": null
+  },
+  {
+   "t": 23.1,
+   "coup": "e6",
+   "badge": null
+  },
+  {
+   "t": 24.86,
+   "coup": "Bf4",
+   "badge": null
+  },
+  {
+   "t": 26.88,
+   "coup": "Nc6",
+   "badge": null
+  },
+  {
+   "t": 29.52,
+   "coup": "Nb5",
+   "badge": "bizarre"
+  },
+  {
+   "t": 33.32,
+   "coup": "a6",
+   "badge": "gaffe"
+  },
+  {
+   "t": 38.0,
+   "coup": "Nc7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 43.94,
+   "coup": "Qxc7",
+   "badge": null
+  },
+  {
+   "t": 45.72,
+   "coup": "Bxc7",
+   "badge": "brillant"
+  },
+  {
+   "t": 56.12,
+   "coup": "e5",
+   "badge": "meilleur"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 36.2,
+   "duree": 1.0,
+   "texte": "Why?"
+  }
+ ]
+}
