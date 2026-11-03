@@ -340,3 +340,12 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 17, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 17, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 17, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 17, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-03 07:50 publications/tiktok-en/finale_saavedra_1.json
+{"publish_id": "v_inbox_file~v2.7703849029440079894", "mode": "brouillon", "vie_privee": null, "legende": "Don't make a queen! 🤯 Would you have made a queen? 👇 Study by Saavedra, 1895. One new endgame trick every day. #chess #chesstok"}
+### 2026-11-03 07:50 publications/tiktok-en/legende_miniature_1.json
+{"publish_id": "v_inbox_file~v2.7703849060763764758", "mode": "brouillon", "vie_privee": null, "legende": "The shortest game ever… or a myth? 😈 Would you have pushed that pawn? 👇 Legend: Gibaud–Lazard, Paris 1924 (never proven). #chess #chesstok"}
+### 2026-11-03 07:50 publications/tiktok-en/pigeon_en_19.json
+{"publish_id": "v_inbox_file~v2.7703849060763797526", "mode": "brouillon", "vie_privee": null, "legende": "White played a quiet move. What's the threat? 😈 Would you have seen the queen check? 👇 Chess Trap #5 — one new trap every day. #chess #chesstok"}
+### 2026-11-03 07:50 publications/tiktok-en/touch_move_1.json
+{"publish_id": "v_inbox_file~v2.7703849029440112662", "mode": "brouillon", "vie_privee": null, "legende": "You touched your king. Can you still mate? 🤔 Would you have moved the king? 👇 Rule: FIDE Laws of Chess, article 4.3. #chess #chesstok"}
