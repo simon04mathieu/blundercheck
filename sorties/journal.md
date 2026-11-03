@@ -505,3 +505,6 @@
 ### commandes/perso_touch_move_1.json
     voix générée : 321 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/touch_move_1.mp4 {"voix_brute_s": 26.0, "tempo": 1.0, "video_s": 28.7, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 63, "minutage": "9 phrases, 1 coups, 1 pauses"}
+### commandes/perso_touch_move_1_fr.json
+    voix générée : 339 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/touch_move_1_fr.mp4 {"voix_brute_s": 25.2, "tempo": 1.0, "video_s": 28.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 69, "minutage": "9 phrases, 1 coups, 1 pauses"}

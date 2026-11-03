@@ -1,0 +1,65 @@
+{
+ "nom": "touch_move_1_fr",
+ "tempo": 1.0,
+ "duree_s": 27.38,
+ "hook": {
+  "texte": "Roi touché.|Mat quand même ?",
+  "fin": 3.44
+ },
+ "question": {
+  "texte": "Abonne-toi :|une règle par jour",
+  "t": 24.18
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Sur un vrai échiquier tu touches ton roi exprès."
+  },
+  {
+   "t": 3.44,
+   "texte": "Puis tu vois un mat en un avec la tour."
+  },
+  {
+   "t": 6.4,
+   "texte": "Peux-tu encore le jouer ?"
+  },
+  {
+   "t": 10.28,
+   "texte": "Non !"
+  },
+  {
+   "t": 11.16,
+   "texte": "Pièce touchée, pièce jouée."
+  },
+  {
+   "t": 13.92,
+   "texte": "Ton roi a des coups légaux donc le roi doit bouger."
+  },
+  {
+   "t": 17.6,
+   "texte": "Si tu avais dit « j'adoube » avant de le toucher tu serais libre."
+  },
+  {
+   "t": 21.74,
+   "texte": "Alors la tour monte  échec et mat !"
+  },
+  {
+   "t": 24.88,
+   "texte": "Abonne-toi : une règle par jour."
+  }
+ ],
+ "coups": [
+  {
+   "t": 23.4,
+   "coup": "Re8#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 8.26,
+   "duree": 2.0,
+   "texte": "Mat ?"
+  }
+ ]
+}
