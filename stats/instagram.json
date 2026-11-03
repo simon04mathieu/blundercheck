@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-02T17:32:15Z",
+ "releve": "2026-11-03T17:31:13Z",
  "compte": "blundercheckapp",
  "abonnes": 1,
  "publications": [
+  {
+   "id": "18055236392612177",
+   "caption": "La partie la plus courte du monde ? Une légende ! 😈 Tu aurais joué ce pion ? 👇 L",
+   "comments_count": 0,
+   "like_count": 0,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfSWNe-ETnw/",
+   "timestamp": "2026-11-03T16:48:51+0000",
+   "insights": {
+    "views": 110,
+    "reach": 1,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0
+   }
+  },
+  {
+   "id": "17966450154209291",
+   "caption": "9 dames : combien de coups légaux ? 🤯 Tu en avais deviné combien ? 👇 Abonne-toi ",
+   "comments_count": 0,
+   "like_count": 2,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfQNVljAR0B/",
+   "timestamp": "2026-11-02T20:52:49+0000",
+   "insights": {
+    "views": 165,
+    "reach": 138,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 2
+   }
+  },
   {
    "id": "18652423240048854",
    "caption": "Le roi rattrape-t-il ce pion ? ♟️ Tu l'aurais rattrapé ? 👇 Abonne-toi : une astu",
@@ -12,8 +44,8 @@
    "permalink": "https://www.instagram.com/reel/DfPsmnAGjHE/",
    "timestamp": "2026-11-02T16:06:47+0000",
    "insights": {
-    "views": 192,
-    "reach": 132,
+    "views": 200,
+    "reach": 138,
     "shares": 0,
     "saved": 0,
     "total_interactions": 0
@@ -44,8 +76,8 @@
    "permalink": "https://www.instagram.com/reel/DfM4aTCFPf3/",
    "timestamp": "2026-11-01T13:52:15+0000",
    "insights": {
-    "views": 168,
-    "reach": 132,
+    "views": 169,
+    "reach": 133,
     "shares": 0,
     "saved": 0,
     "total_interactions": 1
@@ -76,8 +108,8 @@
    "permalink": "https://www.instagram.com/reel/DfHo91Oj5am/",
    "timestamp": "2026-10-30T13:01:08+0000",
    "insights": {
-    "views": 207,
-    "reach": 153,
+    "views": 208,
+    "reach": 154,
     "shares": 0,
     "saved": 0,
     "total_interactions": 2
@@ -348,7 +380,7 @@
    "permalink": "https://www.instagram.com/reel/De4KjCxD67n/",
    "timestamp": "2026-10-24T12:46:40+0000",
    "insights": {
-    "views": 158,
+    "views": 159,
     "reach": 132,
     "shares": 1,
     "saved": 0,
