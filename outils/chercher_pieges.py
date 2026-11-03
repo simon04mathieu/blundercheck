@@ -19,7 +19,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 ROOT = os.path.dirname(HERE)
 URL = "https://database.lichess.org/lichess_db_puzzle.csv.zst"
 UA = {"User-Agent": "BlunderCheck-pieges/1.0 (+https://blundercheck.app)"}
-MATS = {"mateIn2": 2, "mateIn3": 3, "mateIn4": 4}  # 30/10 (Simon) : plus de mat en 1, combinaisons jusqu'à 4 coups
+MATS = {"mateIn2": 2, "mateIn3": 3, "mateIn4": 4, "mateIn5": 5}  # 3/11 (Simon) : pièges un peu plus longs  # 30/10 (Simon) : plus de mat en 1, combinaisons jusqu'à 4 coups
 # 31/10 (Simon : « fais des pièges variés, c'est souvent sacrifice de dame avec mat cavalier + fou, sois innovant ») :
 # on garde aussi les pièges qui GAGNENT une pièce (fourchette, clouage, enfilade, pièce piégée…), et on impose la variété
 # (au plus 1 piège par « signature » motif + pièce qui mate, au plus 3 sacrifices de dame par réserve).
@@ -39,14 +39,14 @@ def lignes_puzzles():
         yield from csv.DictReader(io.TextIOWrapper(flux, encoding="utf-8"))
 
 
-def regrouper(lignes, rmin=1300, rmax=2000, ply_max=30):  # 30/10 (Simon) : niveau 1300-2000
+def regrouper(lignes, rmin=1000, rmax=2000, ply_max=30):  # 3/11 (Simon) : au moins 1000, idéal ≈ 1550
     groupes = collections.defaultdict(list)
     for p in lignes:
         th = p["Themes"].split()
         if "opening" not in th: continue
         mat = next((MATS[t] for t in th if t in MATS), None)
         nb = len(p["Moves"].split())
-        gain = (not mat and "crushing" in th and GAIN & set(th) and 4 <= nb <= 8)   # 2 à 4 coups du héros
+        gain = (not mat and "crushing" in th and GAIN & set(th) and 4 <= nb <= 10)   # 2 à 5 coups du héros (3/11 : un peu plus longs)
         if not mat and not gain: continue
         r = int(p["Rating"])
         if not rmin <= r <= rmax: continue
@@ -116,7 +116,12 @@ def principal(nmax=20):
             if p: connues.setdefault(p, set()).add(v["langue"])
     sf = shutil.which("stockfish") or "/usr/games/stockfish"
     moteur = chess.engine.SimpleEngine.popen_uci(sf)
-    tri = sorted(groupes.items(), key=lambda kv: (-len(kv[1]), min(int(re.search(r"#(\d+)$", p["url"]).group(1)) for p in kv[1])))
+    tri = sorted(groupes.items(), key=lambda kv: (-min(len(kv[1]), 4), abs(sum(p["note"] for p in kv[1]) / len(kv[1]) - 1550), -len(kv[1]), min(int(re.search(r"#(\d+)$", p["url"]).group(1)) for p in kv[1])))
+    # 3/11 (Simon) : on n'écrase plus jamais la réserve : les anciens pièges restent, les nouveaux s'ajoutent
+    fj = os.path.join(ROOT, "stock/pieges-candidats.json")
+    anciens = json.load(open(fj, encoding="utf-8")) if os.path.exists(fj) else []
+    deja_reserve = {c.get("ligne_san") for c in anciens}
+    rejets = collections.Counter()
     sortie = []; vues_sig = collections.Counter(); n_dame = 0
     essais, t_debut = 0, time.time()
     for cle, ps in tri:
@@ -129,17 +134,18 @@ def principal(nmax=20):
         try:
             depart = ligne_depuis_partie(ex["url"], ex["fen"]); time.sleep(1.2)
         except Exception as e:
-            print("export Lichess refusé :", type(e).__name__, flush=True); time.sleep(3); continue
-        if depart is None: continue
+            print("export Lichess refusé :", type(e).__name__, flush=True); rejets["export refusé"] += 1; time.sleep(3); continue
+        if depart is None: rejets["départ introuvable"] += 1; continue
         try:
             ligne, ev, meilleur, mat, gain_cp = verifier(moteur, depart, ex["coups"][0], ex["coups"][1:])
         except Exception as e:
             print("ligne illégale écartée :", type(e).__name__, flush=True); continue
-        if ex["type"] == "mat" and not mat: continue
-        if ex["type"] == "gain" and (gain_cp is None or gain_cp < 300): continue   # gain réel : ≥ +3 pions pour le héros
-        if ligne[len(depart)] == meilleur: continue   # la « gaffe » doit être une vraie faute
+        if ex["type"] == "mat" and not mat: rejets["pas mat"] += 1; continue
+        if ex["type"] == "gain" and (gain_cp is None or gain_cp < 300): rejets["gain < 3 pions"] += 1; continue
+        if " ".join(ligne) in deja_reserve: rejets["déjà en réserve"] += 1; continue   # gain réel : ≥ +3 pions pour le héros
+        if ligne[len(depart)] == meilleur: rejets["pas une faute"] += 1; continue   # la « gaffe » doit être une vraie faute
         motif, piece, dame_sac = signature(ligne, len(depart), ex["themes"], mat)
-        if vues_sig[(motif, piece)] >= 1 or (dame_sac and n_dame >= 3): continue   # variété (Simon, 31/10)
+        if vues_sig[(motif, piece)] >= 1 or (dame_sac and n_dame >= 1): rejets["variété"] += 1; continue   # variété ; 3/11 (Simon) : au plus 1 sacrifice de dame
         vues_sig[(motif, piece)] += 1; n_dame += dame_sac
         fin = chess.Board(); [fin.push_san(s) for s in ligne]
         bb = chess.Board()
@@ -155,21 +161,22 @@ def principal(nmax=20):
                        "fen_mat": fin.fen(), "deja_fait": sorted(langues) or "non", "puzzle": ex["id"]})
         print(f"OK {len(ps):>4} parties · {ex['ouverture'][:40]} · {' '.join(ligne)}", flush=True)
     moteur.quit()
+    nouveaux = len(sortie); sortie = anciens + sortie
     os.makedirs(os.path.join(ROOT, "stock"), exist_ok=True)
     json.dump(sortie, open(os.path.join(ROOT, "stock/pieges-candidats.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     L = ["# Pièges candidats (réserve du Scénariste)", "",
          f"*Généré le {time.strftime('%d/%m/%Y')} par `outils/chercher_pieges.py` (puzzles Lichess, CC0) : pièges d'ouverture à mat où de vrais joueurs",
-         "tombent souvent (puzzle classé 1300-2000, mat en 2 à 4 **ou gain d'une pièce** en 2 à 4 coups). Ligne vérifiée python-chess + Stockfish 1 s. « Déjà fait » = d'après `marketing/deja-fait.md`.",
-         "**Variété (Simon, 31/10)** : au plus 1 piège par motif + pièce finale, au plus 3 sacrifices de dame ; le Scénariste ne répète pas le motif ni la pièce qui mate de la veille.",
+         "tombent souvent (puzzle classé 1000-2000, idéal ≈ 1550 ; mat en 2 à 5 **ou gain d'une pièce** en 2 à 5 coups ; réserve cumulée, jamais écrasée). Ligne vérifiée python-chess + Stockfish 1 s. « Déjà fait » = d'après `marketing/deja-fait.md`.",
+         "**Variété (Simon, 31/10)** : au plus 1 piège par motif + pièce finale, au plus 1 sacrifice de dame par recherche (Simon, 3/11) ; le Scénariste ne répète pas le motif ni la pièce qui mate de la veille.",
          "Le Scénariste prend d'abord les « non » ; « fr » seul = jumeau EN possible, et inversement.*", "",
          "| # | Ouverture | Parties réelles | Note moy. | Type | Motif | Pièce finale | Sac. dame | Héros | Gaffe (coup juste) | Ligne | Déjà fait |", "|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for i, c in enumerate(sortie, 1):
         df = "non" if c["deja_fait"] == "non" else "/".join(c["deja_fait"])
-        L.append(f"| {i} | {c['ouverture'] or '?'} | {c['parties_reelles']} | {c['note_moyenne']} | {'mat en ' + str(c['mat_en']) if c['type'] == 'mat' else 'gain'} | "
+        L.append(f"| {i} | {c['ouverture'] or '?'} | {c['parties_reelles'] or 'composé'} | {c['note_moyenne'] or '—'} | {'mat en ' + str(c['mat_en']) if c['type'] == 'mat' else 'gain'} | "
                  f"{c['motif']} | {c['piece_finale']} | {'oui' if c['sacrifice_dame'] else 'non'} | {c['camp_du_heros']} | "
                  f"{c['gaffe']}?? ({c['coup_juste']}) | `{c['ligne_san']}` | {df} |")
     open(os.path.join(ROOT, "stock/pieges-candidats.md"), "w", encoding="utf-8").write("\n".join(L) + "\n")
-    print(f"OK stock/pieges-candidats.md : {len(sortie)} pièges, dont {sum(1 for c in sortie if c['deja_fait'] == 'non')} jamais faits")
+    print(f"OK stock/pieges-candidats.md : {nouveaux} nouveaux pièges ajoutés, {len(sortie)} en réserve ; écartés : {dict(rejets) or 'aucun'}")
 
 
 if __name__ == "__main__":
