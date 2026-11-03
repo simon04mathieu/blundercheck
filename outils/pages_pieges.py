@@ -57,19 +57,43 @@ def svg(b, fleche=None, couleur="#E5534B", flip=False):
     return s.replace("<svg ", '<svg role="img" class="board" ', 1)
 
 
+VAL = {1: 1, 2: 3, 3: 3, 4: 5, 5: 9, 6: 0}
+NOMS = {2: "a knight", 3: "a bishop", 4: "a rook", 5: "the queen"}
+
+
+def materiel(b, couleur):
+    return sum(VAL[pc.piece_type] for pc in b.piece_map().values() if pc.color == couleur)
+
+
 def preparer(c):
-    sans = c["ligne_san"].split()
-    b = chess.Board(); coups = []
-    for s in sans: m = b.parse_san(s); coups.append(m); b.push(m)
-    if not b.is_checkmate() or " ".join(sans) in TROP_FACILES: return None
-    g = c.get("gaffe_index", (c["demi_coup_gaffe"] - 1) if c.get("demi_coup_gaffe") else None)
-    if g is None: g = len(sans) - (2 * c.get("mat_en", 1) - 1) - 1
-    victime = "White" if g % 2 == 0 else "Black"; heros = "Black" if victime == "White" else "White"
-    n = nom(c); gaffe = sans[g]; mat_en = (len(sans) - g) // 2
-    titre = f"{n}{'' if 'trap' in n.lower() else ' trap'}: {gaffe}?? and mate in {mat_en}"
+    """3/11 : une ligne peut partir d'une position (« fen:<FEN avec _> ») ; les pièges qui gagnent du matériel ont aussi leur page."""
+    toks = c["ligne_san"].split()
+    depart = toks[0][4:].replace("_", " ") if toks[0].startswith("fen:") else None
+    sans = toks[1:] if depart else toks
+    b0 = chess.Board(depart) if depart else chess.Board()
+    o = (b0.fullmove_number - 1) * 2 + (0 if b0.turn == chess.WHITE else 1)   # demi-coup absolu du 1er coup (numérotation)
+    b = b0.copy(); coups = []
+    for x in sans: m = b.parse_san(x); coups.append(m); b.push(m)
+    if " ".join(sans) in TROP_FACILES: return None
+    if depart: g = 0
+    else:
+        g = c.get("gaffe_index", (c["demi_coup_gaffe"] - 1) if c.get("demi_coup_gaffe") else None)
+        if g is None: g = len(sans) - (2 * (c.get("mat_en") or 1) - 1) - 1
+    bg = b0.copy(); [bg.push(m) for m in coups[:g]]
+    vc = bg.turn; victime = "White" if vc == chess.WHITE else "Black"; heros = "Black" if victime == "White" else "White"
+    n = nom(c); gaffe = sans[g]
+    if b.is_checkmate():
+        mat_en = (len(sans) - g) // 2; fin = f"mate in {mat_en}"
+    else:
+        perte = (materiel(bg, vc) - materiel(b, vc)) - (materiel(bg, not vc) - materiel(b, not vc))
+        if perte < 3: return None   # pas de gain clair : pas de page
+        mat_en = None
+        gros = max((pc.piece_type for sq, pc in bg.piece_map().items() if pc.color == vc and pc.piece_type in NOMS and not b.piece_at(sq)), default=None)
+        fin = f"{heros} wins {NOMS[gros]}" if gros else f"{heros} wins material"
+    titre = f"{n}{'' if 'trap' in n.lower() else ' trap'}: {gaffe}?? and {fin}"
     return {"nom": n, "titre": titre, "slug": slug(f"{n}-{gaffe}"), "sans": sans, "coups": coups, "g": g, "victime": victime,
-            "heros": heros, "mat_en": mat_en, "juste": c.get("coup_juste"), "parties": c.get("parties_reelles"),
-            "note": c.get("note_moyenne")}
+            "heros": heros, "mat_en": mat_en, "fin": fin, "juste": c.get("coup_juste"), "parties": c.get("parties_reelles"),
+            "note": c.get("note_moyenne"), "b0": b0, "o": o, "depart": depart}
 
 
 CSS = """:root{--bg:#111614;--card:#18201C;--line:#29332D;--fg:#EDE7D8;--mut:#A7B0A8;--accent:#C9A45C;--ink:#1A1407;--bad:#E5534B;--good:#5DBB8A}
@@ -123,24 +147,27 @@ def tete(titre, desc, chemin, ld=None):
 def page(p):
     sans, coups, g = p["sans"], p["coups"], p["g"]
     flip = p["heros"] == "Black"
-    b1 = chess.Board(); [b1.push(m) for m in coups[:g]]
+    b0, o = p["b0"], p["o"]
+    b1 = b0.copy(); [b1.push(m) for m in coups[:g]]
     b2 = b1.copy(); b2.push(coups[g])
-    b3 = chess.Board(); [b3.push(m) for m in coups]
-    pose = numerotee(sans[:g]); gaffe_txt = numerotee([sans[g]], g); fin = numerotee(sans[g + 1:], g + 1)
+    b3 = b0.copy(); [b3.push(m) for m in coups]
+    pose = numerotee(sans[:g], o) if g else f"this position (move {b0.fullmove_number})"
+    gaffe_txt = numerotee([sans[g]], o + g); fin = numerotee(sans[g + 1:], o + g + 1)
     juste = f" The safe move was <span class=\"good\">{html.escape(p['juste'])}</span>." if p.get("juste") and p["juste"] != sans[g] else ""
     reel = (f" This exact blunder shows up again and again in real online games (Lichess puzzle database, puzzles rated about {p['note']})."
             if p.get("parties") else "")
-    desc = (f"{p['nom']}: after {pose[:60]}…, {p['victime']} plays {sans[g]}?? and {p['heros']} mates in {p['mat_en']}. "
+    issue = f"{p['heros']} mates in {p['mat_en']}" if p["mat_en"] else p["fin"]
+    desc = (f"{p['nom']}: after {pose[:60]}…, {p['victime']} plays {sans[g]}?? and {issue}. "
             f"See the trap move by move, and how to avoid it.")[:158]
     ld = {"@context": "https://schema.org", "@type": "Article", "headline": p["titre"], "description": desc,
           "publisher": {"@type": "Organization", "name": "BlunderCheck", "url": SITE}}
     return tete(p["titre"], desc, f"/traps/{p['slug']}", ld) + f"""
 <h1>{html.escape(p['titre'])}</h1>
-<p>A trap from the <b>{html.escape(p['nom'])}</b>. {p['victime']} grabs something that looks free, and {p['heros']} delivers mate in {p['mat_en']}.{reel}</p>
-<div class="step"><h3>1. The trap is set</h3>{svg(b1, flip=flip)}<p>After <span class="moves" style="display:inline;padding:2px 6px">{html.escape(pose)}</span>, it is {p['victime']}'s move. Everything looks normal.</p></div>
+<p>A trap from the <b>{html.escape(p['nom'])}</b>. {p['victime']} plays a move that looks natural, and {html.escape(issue)}.{reel}</p>
+<div class="step"><h3>1. The trap is set</h3>{svg(b1, flip=flip)}<p>{("After <span class=\"moves\" style=\"display:inline;padding:2px 6px\">" + html.escape(pose) + "</span>,") if not p["depart"] else f"In this position (move {b0.fullmove_number}),"} it is {p['victime']}'s move. Everything looks normal.</p></div>
 <div class="step"><h3>2. The blunder: <span class="bad">{html.escape(gaffe_txt)}??</span></h3>{svg(b2, coups[g], "#E5534B", flip)}<p>It looks tempting, but it walks straight into the trap.{juste}</p></div>
-<div class="step"><h3>3. Mate in {p['mat_en']}: <span class="good">{html.escape(fin)}</span></h3>{svg(b3, coups[-1], "#5DBB8A", flip)}<p>Checkmate. {p['victime']}'s king has no escape.</p></div>
-<h2>The full line</h2><p class="moves">{html.escape(numerotee(sans))}</p>
+<div class="step"><h3>3. {html.escape(p['fin'][0].upper() + p['fin'][1:])}: <span class="good">{html.escape(fin)}</span></h3>{svg(b3, coups[-1], "#5DBB8A", flip)}<p>{"Checkmate. " + p['victime'] + "'s king has no escape." if p['mat_en'] else html.escape(p['fin'][0].upper() + p['fin'][1:]) + ", and the game is decided."}</p></div>
+<h2>The full line</h2><p class="moves">{html.escape(("From the position above: " if p["depart"] else "") + numerotee(sans, o))}</p>
 <h2>How not to fall for it</h2><ul class="list"><li>Before taking a "free" piece, look at every check your opponent gets next move.</li>
 <li>Ask what your opponent's last move is aiming at, not only what it leaves hanging.</li></ul>
 <a class="cta" href="/try">Did you blunder like this? Check your last game, free</a>
@@ -151,9 +178,9 @@ def page(p):
 
 def index(pages):
     li = "\n".join(f'<li><a href="/traps/{p["slug"]}">{html.escape(p["titre"])}</a></li>' for p in sorted(pages, key=lambda x: x["titre"]))
-    return tete("Chess opening traps that real players fall for", "Short chess opening traps with mate, each shown in 3 boards: the setup, the blunder and the mate. Check your own games for free.", "/traps") + f"""
+    return tete("Chess opening traps that real players fall for", "Short chess opening traps, each shown in 3 boards: the setup, the blunder and the punishment. Check your own games for free.", "/traps") + f"""
 <h1>Chess opening traps real players fall for</h1>
-<p>Each trap in 3 boards: the setup, the blunder, the mate. Most of them come from real online games.</p>
+<p>Each trap in 3 boards: the setup, the blunder, the punishment. Most of them come from real online games.</p>
 <ul class="list">{li}</ul>
 <a class="cta" href="/try">Check your last game for blunders, free</a>
 <footer><a href="/en">blundercheck.app</a></footer></main></body></html>
@@ -169,7 +196,15 @@ def main(site):
         if not p: continue
         while p["slug"] in vus: p["slug"] += "-2"
         vus.add(p["slug"]); pages.append(p)
+    # 3/11 : les pages déjà en ligne restent (index + sitemap), même si leur piège a quitté la réserve
+    racine = os.path.join(site, "traps")
+    for sl in sorted(os.listdir(racine)) if os.path.isdir(racine) else []:
+        f = os.path.join(racine, sl, "index.html")
+        if sl in vus or not os.path.isfile(f): continue
+        m = re.search(r"<h1>(.*?)</h1>", open(f, encoding="utf-8").read(), re.S)
+        pages.append({"slug": sl, "titre": html.unescape(m.group(1)) if m else sl, "ancienne": True}); vus.add(sl)
     for p in pages:
+        if p.get("ancienne"): continue
         d = os.path.join(site, "traps", p["slug"]); os.makedirs(d, exist_ok=True)
         open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(page(p))
     open(os.path.join(site, "traps", "index.html"), "w", encoding="utf-8").write(index(pages))
@@ -177,7 +212,7 @@ def main(site):
     open(os.path.join(site, "sitemap.xml"), "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "\n".join(f"<url><loc>{SITE}{u}</loc></url>" for u in urls) + "\n</urlset>\n")
     open(os.path.join(site, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\nDisallow: /api/\nSitemap: {SITE}/sitemap.xml\n")
-    print(f"OK : {len(pages)} pages de pièges + traps/index.html + sitemap.xml + robots.txt")
+    print(f"OK : {len(pages)} pages de pièges ({sum(1 for p in pages if p.get('ancienne'))} anciennes gardées) + traps/index.html + sitemap.xml + robots.txt")
 
 
 if __name__ == "__main__":
