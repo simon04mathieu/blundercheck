@@ -70,3 +70,5 @@
 {"reseau": "facebook", "id": "1628707902130826", "ok": true}
 ### 2026-11-02 20:53 publications/facebook/tactique_clouage_1.json
 {"reseau": "facebook", "id": "2225271101701199", "ok": true}
+### 2026-11-03 14:22 publications/facebook/legende_miniature_1.json
+{"reseau": "facebook", "id": "1507246241258775", "ok": true}
