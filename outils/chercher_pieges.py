@@ -46,8 +46,7 @@ def regrouper(lignes, rmin=1400, rmax=2100, ply_max=30):  # 3/11 (Simon, 2e avis
         if "opening" not in th: continue
         mat = next((MATS[t] for t in th if t in MATS), None)
         nb = len(p["Moves"].split())
-        gain = (not mat and "crushing" in th and GAIN & set(th) and 6 <= nb <= 16)   # Simon, 3/11 : 3 à 8 coups PAR CAMP après la gaffe ; les plus longues passent en premier
-        if mat == 2: continue   # 3/11 (Simon) : le mat arrive trop vite ; mat en 3 à 5 seulement
+        gain = (not mat and "crushing" in th and GAIN & set(th) and 4 <= nb <= 16)   # Simon, 3/11 : de la souplesse ; les combinaisons longues et proches de 1750 passent en premier
         if not mat and not gain: continue
         r = int(p["Rating"])
         if not rmin <= r <= rmax: continue
