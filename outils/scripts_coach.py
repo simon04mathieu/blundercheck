@@ -1368,3 +1368,14 @@ QUESTIONS.update({
     "pigeon_en_19": "Trap #6 tomorrow|Follow!",
     "finale_saavedra_1": "Follow: a new|trick daily",
 })
+
+# 3/11 (exemple demandé par Simon, à itérer) : Smith-Morra, réserve n° 14 ; 6…a6?? 7.Cc7+ Dxc7 8.Fxc7 (+5,0), coup juste 6…e5 (−1,5) ; Stockfish 16 prof. 20
+PERSO.update({
+"exemple_morra_1": {
+    "cote": "noirs", "sous_titres": "phrase",
+    "hook": "One pawn move.|Queen gone.",
+    "voix": """One natural pawn move, and Black loses the queen. Let's watch. White opens with the king's pawn, Black answers on the side. White gives a pawn right away. Black takes it. Then White offers a second pawn. Black grabs that one too. The knight takes back and jumps into the game. Black builds a solid wall. The bishop comes out. The black knight comes out. And now, the white knight jumps forward. It looks lonely, so Black kicks it with a pawn. Huge mistake! The knight jumps in with check, and it also attacks the rook. A royal fork! The queen has to take the knight. And the bishop takes the queen. White wins the queen for a knight! The problem was the hole next to the black king, guarded only by the queen. Better: push the center pawn and chase the bishop first. Watch the holes next to your king. Follow: one new trap every day.""",
+    "script": """[p fen:rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq_-_0_1] One natural pawn move, and Black loses the queen. [h] Let's watch. White opens with the [m e4] king's pawn, Black answers [m c5] on the side. White gives a [m d4] pawn right away. Black [m cxd4] takes it. Then White offers a [m c3] second pawn. Black grabs [m dxc3] that one too. The knight takes [m Nxc3] back and jumps into the game. Black builds a [m e6] solid wall. The bishop [m Bf4] comes out. The black knight [m Nc6] comes out. And now, the white knight [m Nb5 bizarre] jumps forward. It looks lonely, so Black kicks it [m a6 gaffe] with a pawn. Huge mistake! [q 1 Why?] The knight jumps [m Nc7+ brillant] [z c7 1.3 2.2] in with check, and it also attacks [f c7e8 c7a8] the rook. A royal fork! The queen has to [m Qxc7] take the knight. And the bishop [m Bxc7 brillant] [x impact] takes the queen. [s tag c7 3.0 QUEEN_WON] White wins the queen for a knight! [p e4 c5 d4 cxd4 c3 dxc3 Nxc3 e6 Bf4 Nc6 Nb5] The problem was the hole [f b5c7 b5d6] next to the black king, guarded only by the queen. Better: push the [m e5 meilleur] center pawn and chase [f e5f4] the bishop first. Watch the holes next to your king. Follow: one new trap every day.""",
+},
+})
+QUESTIONS.update({"exemple_morra_1": "Follow: one new|trap every day"})
