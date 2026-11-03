@@ -72,3 +72,5 @@
 {"reseau": "facebook", "id": "2225271101701199", "ok": true}
 ### 2026-11-03 14:22 publications/facebook/legende_miniature_1.json
 {"reseau": "facebook", "id": "1507246241258775", "ok": true}
+### 2026-11-03 16:49 publications/facebook/touch_move_1.json
+{"reseau": "facebook", "id": "1546815033878383", "ok": true}
