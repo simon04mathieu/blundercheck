@@ -400,3 +400,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "38"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "38"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "37"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "37"}
+### 2026-11-03 14:13 publications/youtube/legende_miniature_1.json
+{"id": "loRGPdwzAKo", "url": "https://www.youtube.com/shorts/loRGPdwzAKo", "statut": "public", "publier_le": null}
