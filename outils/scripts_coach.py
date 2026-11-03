@@ -1383,11 +1383,11 @@ QUESTIONS.update({"exemple_morra_1": "Follow: one new|trap every day"})
 # 3/11 exemple v2 (Simon : « le plus important c'est le hook du début ») : démarre sur la tension, défi direct ; ouverture non rejouée (Studio : > 70 % partis en 3 s quand on la rejoue)
 MORRA_CLE = "fen:r1bqkbnr/pp1p1ppp/2n1p3/1N6/4PB2/8/PP3PPP/R2QKBNR_b_KQkq_-_3_6"
 PERSO.update({
-"exemple_morra_2": {
+"exemple_morra_2": {   # 3/11 v3 (Simon : « dans toutes les vidéos, avant de donner la réponse, on demande de s'abonner »)
     "cote": "noirs", "sous_titres": "phrase",
     "hook": "Kick this knight?|Your queen dies.",
-    "voix": """Would you kick this knight? Most players do. Pawn up, the knight looks trapped. Wrong! It jumps in with check, and it hits the rook too. A royal fork! Your queen has to take it. And the bishop takes your queen. Queen gone, for one knight! The hole next to your king was guarded only by the queen. Better: push the center pawn and hit the bishop first. Follow: one new trap every day.""",
-    "script": """[p """ + MORRA_CLE + """] [f b5c7 b5d6] Would you kick this knight? [h] Most players do. Pawn [m a6 gaffe] up, the knight looks trapped. [q 1 Safe?] Wrong! It jumps [m Nc7+ brillant] [z c7 1.3 2.2] in with check, and it hits [f c7e8 c7a8] the rook too. A royal fork! Your queen has to [m Qxc7] take it. And the bishop [m Bxc7 brillant] [x impact] takes your queen. [s tag c7 3.0 QUEEN_GONE] Queen gone, for one knight! [p """ + MORRA_CLE + """] The hole [f b5c7] next to your king was guarded only by the queen. Better: push the [m e5 meilleur] center pawn and hit [f e5f4] the bishop first. Follow: one new trap every day.""",
+    "voix": """Would you kick this knight? Most players do. Pawn up, the knight looks trapped. Is it safe? Follow for one new trap every day, and watch. It jumps in with check, and it hits the rook too. A royal fork! Your queen has to take it. And the bishop takes your queen. Queen gone, for one knight! The hole next to your king was guarded only by the queen. Better: push the center pawn and hit the bishop first. Would you have seen it?""",
+    "script": """[p """ + MORRA_CLE + """] [f b5c7 b5d6] Would you kick this knight? [h] Most players do. Pawn [m a6 gaffe] up, the knight looks trapped. Is it safe? [q 1 Safe?] Follow for one new trap every day, and watch. It jumps [m Nc7+ brillant] [z c7 1.3 2.2] in with check, and it hits [f c7e8 c7a8] the rook too. A royal fork! Your queen has to [m Qxc7] take it. And the bishop takes [m Bxc7 brillant] [x impact] your queen. [s tag c7 3.0 QUEEN_GONE] Queen gone, for one knight! [p """ + MORRA_CLE + """] The hole [f b5c7] next to your king was guarded only by the queen. Better: push the [m e5 meilleur] center pawn and hit [f e5f4] the bishop first. Would you have seen it?""",
 },
 })
-QUESTIONS.update({"exemple_morra_2": "Follow: one new|trap every day"})
+QUESTIONS.update({"exemple_morra_2": "Would you|have seen it?"})
