@@ -370,19 +370,23 @@
  },
  {
   "nom": "finale_carre_1",
-  "langue": "fr",
+  "langue": "en",
   "concept": "finale_carre",
-  "sujet": "Too far to catch it?",
-  "reseaux": {},
-  "statut": "script seulement (publication avant le 22/10 ou jamais)",
-  "test": null,
-  "variante": null,
+  "sujet": "Can the king catch this pawn? ♟️",
+  "reseaux": {
+   "youtube": "publié 2026-11-02",
+   "tiktok-en": "publié 2026-11-02",
+   "facebook": "publié 2026-11-02",
+   "threads": "publié 2026-11-02"
+  },
+  "statut": "publié",
+  "test": "T14-appel",
+  "variante": "B",
   "position_depart": "8/8/5k2/8/1P6/8/8/7K b",
   "position_finale": "8/1k6/8/8/8/8/8/7K w",
   "positions": [
    "8/1P6/2k5/8/8/8/8/7K b",
    "8/1k6/8/8/8/8/8/7K w",
-   "8/8/1P1k4/8/8/8/8/7K b",
    "8/8/1Pk5/8/8/8/8/7K w",
    "8/8/3k4/1P6/8/8/8/7K w",
    "8/8/5k2/8/1P6/8/8/7K b",
@@ -395,24 +399,53 @@
   "nom": "finale_carre_1_fr",
   "langue": "fr",
   "concept": "finale_carre",
-  "sujet": "Trop loin pour le rattraper ?",
-  "reseaux": {},
-  "statut": "script seulement (publication avant le 22/10 ou jamais)",
-  "test": null,
-  "variante": null,
+  "sujet": "Le roi rattrape-t-il ce pion ? 🤔 Tu l'aurais rattrapé ? 👇",
+  "reseaux": {
+   "tiktok": "publié 2026-11-02",
+   "instagram": "publié 2026-11-02"
+  },
+  "statut": "publié",
+  "test": "aucun",
+  "variante": "-",
   "position_depart": "8/8/5k2/8/1P6/8/8/7K b",
   "position_finale": "8/1k6/8/8/8/8/8/7K w",
   "positions": [
    "8/1P6/2k5/8/8/8/8/7K b",
    "8/1k6/8/8/8/8/8/7K w",
-   "8/8/1P1k4/8/8/8/8/7K b",
    "8/8/1Pk5/8/8/8/8/7K w",
-   "8/8/3k4/1P6/8/8/8/7K w",
    "8/8/5k2/8/1P6/8/8/7K b",
    "8/8/8/1P2k3/8/8/8/7K b",
    "8/8/8/4k3/1P6/8/8/7K w"
   ],
   "ligne_uci": "f6e5 b4b5 e5d6 b5b6 d6c6 b6b7 c6b7"
+ },
+ {
+  "nom": "finale_saavedra_1",
+  "langue": "fr",
+  "concept": "finale_saavedra",
+  "sujet": "Don't make a queen!",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/8/1KP5/3r4/8/8/8/k7 w",
+  "position_finale": "2R5/8/8/8/1K6/8/8/k7 b",
+  "positions": [
+   "2Q5/8/8/8/2r5/8/2K5/k7 w",
+   "2Q5/8/8/8/3r4/8/2K5/k7 b",
+   "2R5/8/8/8/1K6/8/8/k7 b",
+   "2R5/8/8/8/1r6/1K6/8/k7 w",
+   "2R5/8/8/8/3r4/8/2K5/k7 b",
+   "2R5/8/8/8/r7/1K6/8/k7 b",
+   "2R5/8/8/8/r7/8/2K5/k7 w",
+   "8/2P5/1K1r4/8/8/8/8/k7 w",
+   "8/2P5/1K6/3r4/8/8/8/k7 b",
+   "8/2P5/3r4/1K6/8/8/8/k7 b",
+   "8/2P5/8/8/3r4/8/2K5/k7 w",
+   "8/8/1KP5/3r4/8/8/8/k7 w",
+   "8/8/8/8/2Q5/8/2K5/k7 b"
+  ],
+  "ligne_uci": "c7c8r d4a4 c2b3 a4b4 b3b4"
  },
  {
   "nom": "gourmande_en_1",
@@ -525,6 +558,50 @@
   "ligne_uci": "d2d4 e7e6 g1f3 f7f5 b1c3 g8f6 c1g5 f8e7 g5f6 e7f6 e2e4 f5e4 c3e4 b7b6 f3e5 e8g8 f1d3 c8b7 d1h5 d8e7 h5h7 g8h7 e4f6 h7h6 e5g4 h6g5 h2h4 g5f4 g2g3 f4f3 d3e2 f3g2 h1h2 g2g1 e1d2"
  },
  {
+  "nom": "legende_miniature_1",
+  "langue": "fr",
+  "concept": "legende_miniature",
+  "sujet": "Shortest game ever? A myth!",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "rnbqkb1r/pppp1ppp/8/4P3/6n1/8/PPPNPPPP/R1BQKBNR w",
+  "position_finale": "rnb1kb1r/pppp1ppp/8/4P3/8/4P1qP/PPPNP3/R1BQKBNR w",
+  "positions": [
+   "rnb1kb1r/pppp1ppp/8/4P3/7q/4P1PP/PPPNP3/R1BQKBNR b",
+   "rnb1kb1r/pppp1ppp/8/4P3/7q/4P2P/PPPNP1P1/R1BQKBNR w",
+   "rnb1kb1r/pppp1ppp/8/4P3/8/4P1qP/PPPNP3/R1BQKBNR w",
+   "rnbqkb1r/pppp1ppp/8/4P3/6n1/7P/PPPNPPP1/R1BQKBNR b",
+   "rnbqkb1r/pppp1ppp/8/4P3/6n1/8/PPPNPPPP/R1BQKBNR w",
+   "rnbqkb1r/pppp1ppp/8/4P3/8/4P2P/PPPNP1P1/R1BQKBNR b",
+   "rnbqkb1r/pppp1ppp/8/4P3/8/4n2P/PPPNPPP1/R1BQKBNR w"
+  ],
+  "ligne_uci": "d2d4 g8f6 b1d2 e7e5 d4e5 f6g4 h2h3 g4e3 f2e3 d8h4 g2g3 h4g3"
+ },
+ {
+  "nom": "legende_miniature_1_fr",
+  "langue": "fr",
+  "concept": "legende_miniature",
+  "sujet": "Plus courte partie ? Un mythe !",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "rnbqkb1r/pppp1ppp/8/4P3/6n1/8/PPPNPPPP/R1BQKBNR w",
+  "position_finale": "rnb1kb1r/pppp1ppp/8/4P3/8/4P1qP/PPPNP3/R1BQKBNR w",
+  "positions": [
+   "rnb1kb1r/pppp1ppp/8/4P3/7q/4P1PP/PPPNP3/R1BQKBNR b",
+   "rnb1kb1r/pppp1ppp/8/4P3/7q/4P2P/PPPNP1P1/R1BQKBNR w",
+   "rnb1kb1r/pppp1ppp/8/4P3/8/4P1qP/PPPNP3/R1BQKBNR w",
+   "rnbqkb1r/pppp1ppp/8/4P3/6n1/7P/PPPNPPP1/R1BQKBNR b",
+   "rnbqkb1r/pppp1ppp/8/4P3/6n1/8/PPPNPPPP/R1BQKBNR w",
+   "rnbqkb1r/pppp1ppp/8/4P3/8/4P2P/PPPNP1P1/R1BQKBNR b",
+   "rnbqkb1r/pppp1ppp/8/4P3/8/4n2P/PPPNPPP1/R1BQKBNR w"
+  ],
+  "ligne_uci": "d2d4 g8f6 b1d2 e7e5 d4e5 f6g4 h2h3 g4e3 f2e3 d8h4 g2g3 h4g3"
+ },
+ {
   "nom": "magnus",
   "langue": "fr",
   "concept": "magnus",
@@ -543,13 +620,18 @@
  },
  {
   "nom": "nb_coups_1",
-  "langue": "fr",
+  "langue": "en",
   "concept": "nb_coups",
-  "sujet": "9 queens. How many moves?",
-  "reseaux": {},
-  "statut": "script seulement (publication avant le 22/10 ou jamais)",
-  "test": null,
-  "variante": null,
+  "sujet": "9 queens: how many legal moves? 🤯",
+  "reseaux": {
+   "youtube": "publié 2026-11-02",
+   "tiktok-en": "publié 2026-11-02",
+   "facebook": "publié 2026-11-02",
+   "threads": "publié 2026-11-02"
+  },
+  "statut": "publié",
+  "test": "T14-appel+T15-putaclic",
+  "variante": "A",
   "position_depart": "R6R/3Q4/1Q4Q1/4Q3/2Q4Q/Q4Q2/pp1Q4/kBNN1KB1 w",
   "position_finale": "R6R/3Q4/1Q4Q1/4Q3/2Q4Q/Q4Q2/pp1Q4/kBNN1KB1 w",
   "positions": [
@@ -561,11 +643,14 @@
   "nom": "nb_coups_1_fr",
   "langue": "fr",
   "concept": "nb_coups",
-  "sujet": "9 dames. Combien de coups ?",
-  "reseaux": {},
-  "statut": "script seulement (publication avant le 22/10 ou jamais)",
-  "test": null,
-  "variante": null,
+  "sujet": "9 dames : combien de coups légaux ? 🤯 Tu en avais deviné combien ? 👇",
+  "reseaux": {
+   "tiktok": "publié 2026-11-02",
+   "instagram": "publié 2026-11-02"
+  },
+  "statut": "publié",
+  "test": "T13-fin-quiz",
+  "variante": "A",
   "position_depart": "R6R/3Q4/1Q4Q1/4Q3/2Q4Q/Q4Q2/pp1Q4/kBNN1KB1 w",
   "position_finale": "R6R/3Q4/1Q4Q1/4Q3/2Q4Q/Q4Q2/pp1Q4/kBNN1KB1 w",
   "positions": [
@@ -933,23 +1018,67 @@
   "nom": "pigeon_en_18",
   "langue": "en",
   "concept": "pigeon_en",
-  "sujet": "Your bishop is attacked. Ignore it!",
-  "reseaux": {},
-  "statut": "script seulement (publication avant le 22/10 ou jamais)",
-  "test": null,
-  "variante": null,
-  "position_depart": "r1b1qrk1/ppp3pp/2pb1n2/4N1B1/3Pp3/2N5/PPP2PPP/R2Q1RK1 w",
-  "position_finale": "r1b2rk1/ppp3pp/2p5/6Bq/2NPp1n1/2N5/PPP2PP1/R2Q1RK1 w",
+  "sujet": "Your bishop is attacked. Ignore it! Chess Trap ♟️",
+  "reseaux": {
+   "youtube": "publié 2026-11-02",
+   "tiktok-en": "publié 2026-11-02",
+   "facebook": "publié 2026-11-02",
+   "threads": "publié 2026-11-02"
+  },
+  "statut": "publié",
+  "test": "T11-série",
+  "variante": "A",
+  "position_depart": "r1b1qrk1/ppp3pp/2pb1n2/6B1/2NPp3/2N5/PPP2PPP/R2Q1RK1 b",
+  "position_finale": "r4rk1/ppp3pp/2p5/6Bq/2NPp1b1/2N5/PPP2PP1/R4RK1 w",
   "positions": [
    "r1b1qrk1/ppp3pp/2p2n2/6B1/2NPp3/2N5/PPP2PPK/R2Q1R2 b",
    "r1b1qrk1/ppp3pp/2p2n2/6B1/2NPp3/2N5/PPP2PPb/R2Q1RK1 w",
    "r1b1qrk1/ppp3pp/2p5/6B1/2NPp1n1/2N5/PPP2PP1/R2Q1RK1 b",
    "r1b1qrk1/ppp3pp/2p5/6B1/2NPp1n1/2N5/PPP2PPK/R2Q1R2 w",
-   "r1b1qrk1/ppp3pp/2pb1n2/4N1B1/3Pp3/2N5/PPP2PPP/R2Q1RK1 w",
    "r1b1qrk1/ppp3pp/2pb1n2/6B1/2NPp3/2N5/PPP2PPP/R2Q1RK1 b",
-   "r1b2rk1/ppp3pp/2p5/6Bq/2NPp1n1/2N5/PPP2PP1/R2Q1RK1 w"
+   "r1b2rk1/ppp3pp/2p5/6Bq/2NPp1Q1/2N5/PPP2PP1/R4RK1 b",
+   "r1b2rk1/ppp3pp/2p5/6Bq/2NPp1n1/2N5/PPP2PP1/R2Q1RK1 w",
+   "r4rk1/ppp3pp/2p5/6Bq/2NPp1b1/2N5/PPP2PP1/R4RK1 w"
   ],
-  "ligne_uci": "e5c4 d6h2 g1h2 f6g4 h2g1 e8h5"
+  "ligne_uci": "d6h2 g1h2 f6g4 h2g1 e8h5 d1g4 c8g4"
+ },
+ {
+  "nom": "pigeon_en_18_complet",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "Your bishop is attacked. Ignore it! 😈 Would you have saved it? 👇 Chess Trap",
+  "reseaux": {
+   "tiktok-en": "publié 2026-11-02"
+  },
+  "statut": "publié",
+  "test": "T11-série",
+  "variante": "A",
+  "position_depart": null,
+  "position_finale": null,
+  "positions": [],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "pigeon_en_19",
+  "langue": "en",
+  "concept": "pigeon_en",
+  "sujet": "White played a quiet move. What's the threat?",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "rnbqkb1r/ppp2ppp/3p4/8/4n3/5N2/PPPP1PPP/RNBQKB1R w",
+  "position_finale": "rnbqkb1r/ppp2ppp/8/3p4/4n3/2P2N2/PP1P1PPP/RNBQKB1R w",
+  "positions": [
+   "r1bqkb1r/pp3ppp/2np4/2p5/4Q3/2P2N2/PP1P1PPP/RNB1KB1R b",
+   "r1bqkb1r/pp3ppp/2np4/2p5/Q3n3/2P2N2/PP1P1PPP/RNB1KB1R w",
+   "rnbqkb1r/pp3ppp/3p4/2p5/4n3/2P2N2/PP1P1PPP/RNBQKB1R w",
+   "rnbqkb1r/pp3ppp/3p4/2p5/Q3n3/2P2N2/PP1P1PPP/RNB1KB1R b",
+   "rnbqkb1r/ppp2ppp/3p4/8/4n3/2P2N2/PP1P1PPP/RNBQKB1R b",
+   "rnbqkb1r/ppp2ppp/3p4/8/4n3/5N2/PPPP1PPP/RNBQKB1R w",
+   "rnbqkb1r/ppp2ppp/8/3p4/4n3/2P2N2/PP1P1PPP/RNBQKB1R w"
+  ],
+  "ligne_uci": "e2e4 e7e5 g1f3 g8f6 f3e5 d7d6 e5f3 f6e4 c2c3 d6d5"
  },
  {
   "nom": "pigeon_en_2",
@@ -2118,13 +2247,18 @@
  },
  {
   "nom": "tactique_clouage_1",
-  "langue": "fr",
+  "langue": "en",
   "concept": "tactique_clouage",
-  "sujet": "Trade queens. Win a piece.",
-  "reseaux": {},
-  "statut": "script seulement (publication avant le 22/10 ou jamais)",
-  "test": null,
-  "variante": null,
+  "sujet": "Trade queens, win a piece? ♟️",
+  "reseaux": {
+   "youtube": "publié 2026-11-02",
+   "tiktok-en": "publié 2026-11-02",
+   "facebook": "publié 2026-11-02",
+   "threads": "publié 2026-11-02"
+  },
+  "statut": "publié",
+  "test": "T14-appel",
+  "variante": "B",
   "position_depart": "rnbqk2r/ppp2pbp/5np1/4p1B1/4P3/2N5/PPPQ1PPP/R3KBNR w",
   "position_finale": "rnbk3r/ppp2p2/5Npp/4p3/4P3/8/PPP2PPP/R3KBNR b",
   "positions": [
@@ -2138,6 +2272,40 @@
    "rnbqk2r/ppp2pbp/5np1/4p1B1/4P3/2N5/PPPQ1PPP/R3KBNR w"
   ],
   "ligne_uci": "d2d8 e8d8 c3d5 h7h6 g5f6 g7f6 d5f6"
+ },
+ {
+  "nom": "touch_move_1",
+  "langue": "fr",
+  "concept": "touch_move",
+  "sujet": "You touched your king. Can you still mate?",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "6k1/5ppp/2n5/8/8/8/5PPP/4R1K1 w",
+  "position_finale": "4R1k1/5ppp/2n5/8/8/8/5PPP/6K1 b",
+  "positions": [
+   "4R1k1/5ppp/2n5/8/8/8/5PPP/6K1 b",
+   "6k1/5ppp/2n5/8/8/8/5PPP/4R1K1 w"
+  ],
+  "ligne_uci": "e1e8"
+ },
+ {
+  "nom": "touch_move_1_fr",
+  "langue": "fr",
+  "concept": "touch_move",
+  "sujet": "Roi touché. Mat quand même ?",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "6k1/5ppp/2n5/8/8/8/5PPP/4R1K1 w",
+  "position_finale": "4R1k1/5ppp/2n5/8/8/8/5PPP/6K1 b",
+  "positions": [
+   "4R1k1/5ppp/2n5/8/8/8/5PPP/6K1 b",
+   "6k1/5ppp/2n5/8/8/8/5PPP/4R1K1 w"
+  ],
+  "ligne_uci": "e1e8"
  },
  {
   "nom": "tour_attaquee",

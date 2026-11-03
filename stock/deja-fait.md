@@ -17,12 +17,14 @@ quels que soient le nom, la langue ou le texte. Avant d'écrire une fiche : cher
 | deux_dames | `deux_dames` | — | deux_dames | script seulement (publication avant le 22/10 ou jamais) | `1Q4k1/5ppp/8/8/8/8/5PPP/3Q2K1 b` |
 | elephant | `elephant` | — | elephant | script seulement (publication avant le 22/10 ou jamais) | `r1bqkb1r/pppn1ppp/5n2/3p2B1/3P4/2N1P3/PP3PPP/R2QKBNR b` |
 | enpassant | `enpassant` | — | enpassant | script seulement (publication avant le 22/10 ou jamais) |  |
-| Too far to catch it? | `finale_carre_1` ; `finale_carre_1_fr` | — | finale_carre | script seulement (publication avant le 22/10 ou jamais) | `8/1k6/8/8/8/8/8/7K w` |
+| Can the king catch this pawn? ♟️ | `finale_carre_1_fr` (instagram 2026-11-02, tiktok 2026-11-02) | `finale_carre_1` (facebook 2026-11-02, threads 2026-11-02, tiktok-en 2026-11-02, youtube 2026-11-02) | finale_carre | publié | `8/1k6/8/8/8/8/8/7K w` |
+| Don't make a queen! | `finale_saavedra_1` | — | finale_saavedra | script seulement (publication avant le 22/10 ou jamais) | `2R5/8/8/8/1K6/8/8/k7 b` |
 | She ate my queen… then got mated 🎃 | `gourmande_fr_1` | `gourmande_en_1` (facebook 2026-10-31, threads 2026-10-31, tiktok-en 2026-10-31, youtube 2026-10-31) | gourmande | publié | `r1bq1k1r/ppp1np1p/3p1NpB/8/2PnP3/8/PP3PPP/R3KB1R b` |
 | immortelle | `immortelle` | — | immortelle | script seulement (publication avant le 22/10 ou jamais) | `r1bk3r/p2pBpNp/n4n2/1p1NP2P/6P1/3P4/P1P1K3/q5b1 b` |
 | lasker | `lasker` | — | lasker | script seulement (publication avant le 22/10 ou jamais) | `rn3r2/pbppq1p1/1p2pN2/8/3P2NP/6P1/PPPKBP1R/R5k1 b` |
+| Shortest game ever? A myth! | `legende_miniature_1` ; `legende_miniature_1_fr` | — | legende_miniature | script seulement (publication avant le 22/10 ou jamais) | `rnb1kb1r/pppp1ppp/8/4P3/8/4P1qP/PPPNP3/R1BQKBNR w` |
 | magnus | `magnus` | — | magnus | script seulement (publication avant le 22/10 ou jamais) | `r1bqkb1r/p3pp1p/2pp2p1/4P3/2B3n1/2N5/PPP2PPP/R1BQK2R w` |
-| 9 queens. How many moves? | `nb_coups_1` ; `nb_coups_1_fr` | — | nb_coups | script seulement (publication avant le 22/10 ou jamais) | `R6R/3Q4/1Q4Q1/4Q3/2Q4Q/Q4Q2/pp1Q4/kBNN1KB1 w` |
+| 9 queens: how many legal moves? 🤯 | `nb_coups_1_fr` (instagram 2026-11-02, tiktok 2026-11-02) | `nb_coups_1` (facebook 2026-11-02, threads 2026-11-02, tiktok-en 2026-11-02, youtube 2026-11-02) | nb_coups | publié | `R6R/3Q4/1Q4Q1/4Q3/2Q4Q/Q4Q2/pp1Q4/kBNN1KB1 w` |
 | Arrête de faire une dame. Ici, fais un poney 🐴 ♟️ | `perso_lasker` (tiktok, youtube 2026-10-23) | — | perso_lasker | publié | `rnb1k1nr/ppp2ppp/8/4P3/1BP4q/8/PP4PP/RN1QKBnR w` |
 | Give your queen, win the game: Légal's mate trap ♟️ | `perso_legal` (tiktok 2026-10-22) ; `pigeon_jour_3` (facebook 2026-10-24, instagram 2026-10-24, threads 2026-10-24, tiktok 2026-10-24, youtube 2026-10-24) | `pigeon_en_11` (facebook 2026-10-29, threads 2026-10-29, tiktok-en 2026-10-29, youtube 2026-10-29) | perso_legal | publié | `rn1q1bnr/ppp1kB1p/3p2p1/3NN3/4P3/8/PPPP1PPP/R1BbK2R b` |
 | petrov | `petrov` | — | petrov | script seulement (publication avant le 22/10 ou jamais) | `rnb1kb1r/ppppqppp/8/4N3/4n3/8/PPPPQPPP/RNB1KB1R w` |
@@ -34,7 +36,9 @@ quels que soient le nom, la langue ou le texte. Avant d'écrire une fiche : cher
 | Sacrifice your queen… a pawn mates ♟️ | — | `pigeon_en_15` (facebook 2026-10-30, threads 2026-10-30, tiktok-en 2026-10-30, youtube 2026-10-30) | pigeon_en | publié | `rn1q1bkr/ppp1pPp1/1n1p3p/6N1/3P4/8/PPP2PPP/RNB1K2R b` |
 | Knight sacrifice… then mate ♟️ | — | `pigeon_en_16` (facebook 2026-10-31, threads 2026-10-31, tiktok-en 2026-10-31, youtube 2026-10-31) | pigeon_en | publié | `r2q1k1r/pp1nbQ2/2pN1np1/7p/7P/8/PPPP1PP1/R1B1K2R b` |
 | His queen has no escape ♟️ Sicilian trap | — | `pigeon_en_17` (facebook 2026-11-01, threads 2026-11-01, tiktok-en 2026-11-01, youtube 2026-11-01) | pigeon_en | publié | `r1b1k2r/pp2ppbp/2n2np1/2Bp4/4P3/1NPB4/P1P2PPP/R2QK2R b` |
-| Your bishop is attacked. Ignore it! | — | `pigeon_en_18` | pigeon_en | script seulement (publication avant le 22/10 ou jamais) | `r1b2rk1/ppp3pp/2p5/6Bq/2NPp1n1/2N5/PPP2PP1/R2Q1RK1 w` |
+| Your bishop is attacked. Ignore it! Chess Trap ♟️ | — | `pigeon_en_18` (facebook 2026-11-02, threads 2026-11-02, tiktok-en 2026-11-02, youtube 2026-11-02) | pigeon_en | publié | `r4rk1/ppp3pp/2p5/6Bq/2NPp1b1/2N5/PPP2PP1/R4RK1 w` |
+| Your bishop is attacked. Ignore it! 😈 Would you have saved it? 👇 Chess Trap | — | `pigeon_en_18_complet` (tiktok-en 2026-11-02) | pigeon_en | publié |  |
+| White played a quiet move. What's the threat? | — | `pigeon_en_19` | pigeon_en | script seulement (publication avant le 22/10 ou jamais) | `rnbqkb1r/ppp2ppp/8/3p4/4n3/2P2N2/PP1P1PPP/RNBQKB1R w` |
 | Pigeon Trap of the Day 🐦 If he eats your pony, he's mated. Would you fall for it? Yes or no 👇 | `pigeon_jour_1` (tiktok 2026-10-23, youtube 2026-10-23) | `pigeon_en_2` (tiktok-en 2026-10-24) | pigeon_en | publié | `r1b1kb1r/pppp1pp1/2n5/1B2p3/3PP3/5Pp1/PPP3Pq/RNBQNRK1 w` |
 | Pigeon Trap of the Day 🐦 If he plays this pony, you mate him. Would you fall for it? A or B 👇 | `pigeon_jour_5` (facebook 2026-10-25, instagram 2026-10-25, threads 2026-10-25, tiktok 2026-10-25, youtube 2026-10-25) | `pigeon_en_3` (tiktok-en 2026-10-25) | pigeon_en | publié | `r1bqkb1r/pp1npppp/2pN1n2/8/3P4/8/PPP1QPPP/R1B1KBNR b` |
 | Pigeon Trap of the Day 🐦 If he eats your bishop, you mate him in five. Follow for the next trap 👉 | `pigeon_jour_6` (facebook 2026-10-25, instagram 2026-10-25, threads 2026-10-25, tiktok 2026-10-25, youtube 2026-10-25) | `pigeon_en_4` (tiktok-en 2026-10-25) | pigeon_en | publié | `rnbqkbnr/ppppp3/7p/5p1Q/3P3p/4P3/PPP2PPP/RN2KBNR b` |
@@ -63,7 +67,8 @@ quels que soient le nom, la langue ou le texte. Avant d'écrire une fiche : cher
 | rafale3 | `rafale3` | — | rafale3 | script seulement (publication avant le 22/10 ou jamais) | `rnbB1b1r/ppk2ppp/2p5/4q3/4n3/8/PPP2PPP/2KR1BNR b` |
 | reti | `reti` | — | reti | script seulement (publication avant le 22/10 ou jamais) |  |
 | rois | `rois` | — | rois | script seulement (publication avant le 22/10 ou jamais) | `8/8/4k3/8/3K4/8/8/8 b` |
-| Trade queens. Win a piece. | `tactique_clouage_1` | — | tactique_clouage | script seulement (publication avant le 22/10 ou jamais) | `rnbk3r/ppp2p2/5Npp/4p3/4P3/8/PPP2PPP/R3KBNR b` |
+| Trade queens, win a piece? ♟️ | — | `tactique_clouage_1` (facebook 2026-11-02, threads 2026-11-02, tiktok-en 2026-11-02, youtube 2026-11-02) | tactique_clouage | publié | `rnbk3r/ppp2p2/5Npp/4p3/4P3/8/PPP2PPP/R3KBNR b` |
+| You touched your king. Can you still mate? | `touch_move_1` ; `touch_move_1_fr` | — | touch_move | script seulement (publication avant le 22/10 ou jamais) | `4R1k1/5ppp/2n5/8/8/8/5PPP/6K1 b` |
 | tour_attaquee | `tour_attaquee` | — | tour_attaquee | script seulement (publication avant le 22/10 ou jamais) | `r1bqk2r/ppppbpp1/2n2n2/4p3/2B1P3/5N2/PPPP1PP1/RNBQ1RK1 b` |
 | v_bongcloud | `v_bongcloud` | — | v_bongcloud | script seulement (publication avant le 22/10 ou jamais) |  |
 | Le gambit Englund : mat en c1 si tu joues le mauvais coup ♟️ | — | `v_englund` (youtube) | v_englund | publié | `r1b1kbnr/pppp1ppp/2n5/4P3/8/2N2N2/PqPBPPPP/R2QKB1R b` |
@@ -84,5 +89,5 @@ quels que soient le nom, la langue ou le texte. Avant d'écrire une fiche : cher
 | Une tour sacrifiée et la dame tombe : le piège Tarrasch ♟️ | `v_tarrasch` (youtube 2026-10-23) | — | v_tarrasch | réserve | `r2q1rk1/2p1bppp/p3b3/1p1pn3/3Nn3/1BP5/PP3PPP/RNBQR1K1 w` |
 | Sa dame tombe en 8 coups : le gambit Tennison ♟️ | `v_tennison` (youtube 2026-10-23) | — | v_tennison | réserve | `r1bqkb1r/ppp1pppp/2n2n2/6N1/8/3B4/PPP2PPP/RNBQK2R w` |
 
-Total : 107 vidéos (74 FR, 33 EN), 78 sujets distincts.
+Total : 114 vidéos (76 FR, 38 EN), 83 sujets distincts.
 « script seulement » = fabriqué dans le dépôt mais sans fichier de publication (publié avant le 22/10 par Metricool ou jamais) : à considérer comme déjà fait.
