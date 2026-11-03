@@ -63,3 +63,5 @@
 {"reseau": "instagram", "id": "17966450154209291"}
 ### 2026-11-03 16:48 publications/instagram/legende_miniature_1_fr.json
 {"reseau": "instagram", "id": "18055236392612177"}
+### 2026-11-03 20:42 publications/instagram/touch_move_1_fr.json
+{"reseau": "instagram", "id": "18098208512430472"}

@@ -76,3 +76,5 @@
 {"reseau": "facebook", "id": "1546815033878383", "ok": true}
 ### 2026-11-03 18:44 publications/facebook/pigeon_en_19.json
 {"reseau": "facebook", "id": "1489722359818864", "ok": true}
+### 2026-11-03 20:42 publications/facebook/finale_saavedra_1.json
+{"reseau": "facebook", "id": "1832822851254670", "ok": true}
