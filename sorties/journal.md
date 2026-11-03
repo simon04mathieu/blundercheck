@@ -488,3 +488,8 @@
     voix générée : 307 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/pigeon_en_18.mp4 {"voix_brute_s": 28.8, "tempo": 1.0, "video_s": 30.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 56, "minutage": "11 phrases, 7 coups, 1 pauses"}
+## 2026-11-03 00:06 UTC · run 41550244444
+### commandes/perso_finale_saavedra_1.json
+    voix générée : 468 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/finale_saavedra_1.mp4 {"voix_brute_s": 35.6, "tempo": 1.0, "video_s": 36.1, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 91, "minutage": "13 phrases, 11 coups, 0 pauses"}

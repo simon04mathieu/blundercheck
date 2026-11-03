@@ -1,0 +1,125 @@
+{
+ "nom": "finale_saavedra_1",
+ "tempo": 1.0,
+ "duree_s": 35.5,
+ "hook": {
+  "texte": "Don't make|a queen!",
+  "fin": 2.6
+ },
+ "question": {
+  "texte": "Follow: a new|trick daily",
+  "t": 32.3
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "White to play and win."
+  },
+  {
+   "t": 2.6,
+   "texte": "The pawn runs forward."
+  },
+  {
+   "t": 4.46,
+   "texte": "The rook checks from the side."
+  },
+  {
+   "t": 6.6,
+   "texte": "The king walks up and the checks keep coming until the king hides next to his pawn."
+  },
+  {
+   "t": 12.4,
+   "texte": "Now, make a queen?"
+  },
+  {
+   "t": 14.32,
+   "texte": "The rook checks right beside her."
+  },
+  {
+   "t": 16.56,
+   "texte": "The queen must take and Black has no move stalemate!"
+  },
+  {
+   "t": 20.78,
+   "texte": "Follow: a new trick daily."
+  },
+  {
+   "t": 23.32,
+   "texte": "So make a rook instead!"
+  },
+  {
+   "t": 25.18,
+   "texte": "The black rook must run or it's mate in the corner."
+  },
+  {
+   "t": 28.8,
+   "texte": "Now the king attacks it."
+  },
+  {
+   "t": 30.54,
+   "texte": "Black gives one last check and the king takes the rook."
+  },
+  {
+   "t": 34.54,
+   "texte": "White wins!"
+  }
+ ],
+ "coups": [
+  {
+   "t": 2.6,
+   "coup": "c7",
+   "badge": null
+  },
+  {
+   "t": 4.74,
+   "coup": "Rd6+",
+   "badge": null
+  },
+  {
+   "t": 6.92,
+   "coup": "Kb5",
+   "badge": null
+  },
+  {
+   "t": 12.66,
+   "coup": "c8=Q",
+   "badge": "gaffe"
+  },
+  {
+   "t": 14.66,
+   "coup": "Rc4+",
+   "badge": null
+  },
+  {
+   "t": 17.16,
+   "coup": "Qxc4",
+   "badge": null
+  },
+  {
+   "t": 23.9,
+   "coup": "c8=R",
+   "badge": "brillant"
+  },
+  {
+   "t": 26.12,
+   "coup": "Ra4",
+   "badge": null
+  },
+  {
+   "t": 29.4,
+   "coup": "Kb3",
+   "badge": "brillant"
+  },
+  {
+   "t": 30.86,
+   "coup": "Rb4+",
+   "badge": null
+  },
+  {
+   "t": 33.06,
+   "coup": "Kxb4",
+   "badge": null
+  }
+ ],
+ "pauses": []
+}
