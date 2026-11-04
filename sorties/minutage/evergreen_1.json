@@ -1,0 +1,142 @@
+{
+ "nom": "evergreen_1",
+ "tempo": 1.0,
+ "duree_s": 44.88,
+ "hook": {
+  "texte": "A free knight?|Not quite!",
+  "fin": 1.52
+ },
+ "question": {
+  "texte": "Would you sacrifice|the queen?",
+  "t": 41.68
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Black's queen grabs a knight and threatens mate next move."
+  },
+  {
+   "t": 4.28,
+   "texte": "White is lost?"
+  },
+  {
+   "t": 6.0,
+   "texte": "No!"
+  },
+  {
+   "t": 6.82,
+   "texte": "Adolf Anderssen, Berlin 1852, finds a killer idea."
+  },
+  {
+   "t": 12.28,
+   "texte": "Can you see it?"
+  },
+  {
+   "t": 14.58,
+   "texte": "Follow for one new trap every day, and watch."
+  },
+  {
+   "t": 18.28,
+   "texte": "Rook takes the knight check!"
+  },
+  {
+   "t": 20.54,
+   "texte": "The knight takes back."
+  },
+  {
+   "t": 22.48,
+   "texte": "Now the queen takes check!"
+  },
+  {
+   "t": 24.86,
+   "texte": "The king has to take her."
+  },
+  {
+   "t": 26.92,
+   "texte": "And now, double check!"
+  },
+  {
+   "t": 29.4,
+   "texte": "The king steps back."
+  },
+  {
+   "t": 31.0,
+   "texte": "The same bishop checks again."
+  },
+  {
+   "t": 33.54,
+   "texte": "The king takes one more step."
+  },
+  {
+   "t": 35.66,
+   "texte": "And now the bishop protected by its partner takes: checkmate!"
+  },
+  {
+   "t": 40.52,
+   "texte": "They call it the Evergreen Game."
+  },
+  {
+   "t": 43.12,
+   "texte": "Would you have sacrificed the queen?"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.68,
+   "coup": "Qxf3",
+   "badge": "gaffe"
+  },
+  {
+   "t": 18.5,
+   "coup": "Rxe7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 20.94,
+   "coup": "Nxe7",
+   "badge": null
+  },
+  {
+   "t": 23.02,
+   "coup": "Qxd7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 25.58,
+   "coup": "Kxd7",
+   "badge": null
+  },
+  {
+   "t": 27.86,
+   "coup": "Bf5+",
+   "badge": "brillant"
+  },
+  {
+   "t": 29.76,
+   "coup": "Ke8",
+   "badge": null
+  },
+  {
+   "t": 31.88,
+   "coup": "Bd7+",
+   "badge": null
+  },
+  {
+   "t": 34.62,
+   "coup": "Kf8",
+   "badge": null
+  },
+  {
+   "t": 38.42,
+   "coup": "Bxe7#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 13.56,
+   "duree": 1.0,
+   "texte": "Find it?"
+  }
+ ]
+}

@@ -555,3 +555,6 @@
 ### commandes/perso_decouverte_cavalier_1_fr.json
     voix générée : 447 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/decouverte_cavalier_1_fr.mp4 {"voix_brute_s": 33.2, "tempo": 1.0, "video_s": 35.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 84, "minutage": "13 phrases, 7 coups, 1 pauses"}
+### commandes/perso_evergreen_1.json
+    voix générée : 537 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/evergreen_1.mp4 {"voix_brute_s": 43.8, "tempo": 1.0, "video_s": 45.5, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 97, "minutage": "17 phrases, 10 coups, 1 pauses"}
