@@ -82,3 +82,5 @@
 {"reseau": "facebook", "id": "3218450258355036", "ok": true}
 ### 2026-11-04 16:51 publications/facebook/reti_etude_1.json
 {"reseau": "facebook", "id": "1188296680439022", "ok": true}
+### 2026-11-04 18:50 publications/facebook/decouverte_cavalier_1.json
+{"reseau": "facebook", "id": "1003544689443813", "ok": true}
