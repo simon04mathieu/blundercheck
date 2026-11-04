@@ -552,3 +552,6 @@
     voix générée : 486 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/decouverte_cavalier_1.mp4 {"voix_brute_s": 37.1, "tempo": 1.0, "video_s": 38.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 90, "minutage": "14 phrases, 7 coups, 1 pauses"}
+### commandes/perso_decouverte_cavalier_1_fr.json
+    voix générée : 447 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/decouverte_cavalier_1_fr.mp4 {"voix_brute_s": 33.2, "tempo": 1.0, "video_s": 35.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 84, "minutage": "13 phrases, 7 coups, 1 pauses"}

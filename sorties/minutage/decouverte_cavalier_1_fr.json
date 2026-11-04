@@ -1,0 +1,111 @@
+{
+ "nom": "decouverte_cavalier_1_fr",
+ "tempo": 1.0,
+ "duree_s": 34.36,
+ "hook": {
+  "texte": "Les Blancs roquent.|Gagne une pièce !",
+  "fin": 1.52
+ },
+ "question": {
+  "texte": "Tu l'aurais|vu ?",
+  "t": 31.16
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Les Blancs roquent."
+  },
+  {
+   "t": 1.52,
+   "texte": "Tout a l'air protégé."
+  },
+  {
+   "t": 3.64,
+   "texte": "Mais les Noirs gagnent une pièce de force."
+  },
+  {
+   "t": 6.06,
+   "texte": "Tu la vois ?"
+  },
+  {
+   "t": 8.42,
+   "texte": "Abonne-toi : un piège par jour pour monter ton Elo."
+  },
+  {
+   "t": 11.82,
+   "texte": "Le cavalier prend le fou."
+  },
+  {
+   "t": 14.38,
+   "texte": "La dame reprend."
+  },
+  {
+   "t": 16.1,
+   "texte": "Mais regarde  ce cavalier cachait un fou !"
+  },
+  {
+   "t": 19.5,
+   "texte": "Fou prend fou."
+  },
+  {
+   "t": 21.44,
+   "texte": "Le cavalier blanc reprend et la dame noire croque le cavalier."
+  },
+  {
+   "t": 25.68,
+   "texte": "Les Noirs ont une pièce de plus !"
+  },
+  {
+   "t": 28.08,
+   "texte": "Il fallait d'abord prendre le cavalier."
+  },
+  {
+   "t": 30.72,
+   "texte": "Quand un cavalier bloque ton fou regarde ce qu'il cache."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.64,
+   "coup": "O-O",
+   "badge": "gaffe"
+  },
+  {
+   "t": 12.6,
+   "coup": "Nxd5",
+   "badge": "brillant"
+  },
+  {
+   "t": 15.06,
+   "coup": "Qxd5",
+   "badge": null
+  },
+  {
+   "t": 20.02,
+   "coup": "Bxg5",
+   "badge": null
+  },
+  {
+   "t": 22.26,
+   "coup": "Nxg5",
+   "badge": null
+  },
+  {
+   "t": 23.88,
+   "coup": "Qxg5",
+   "badge": "brillant"
+  },
+  {
+   "t": 28.98,
+   "coup": "Bxf6",
+   "badge": "meilleur"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 7.4,
+   "duree": 1.0,
+   "texte": "Trouve-la !"
+  }
+ ]
+}
