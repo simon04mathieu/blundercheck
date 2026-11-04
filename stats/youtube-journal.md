@@ -437,3 +437,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "43"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "44"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "44"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "45"}
+### 2026-11-04 14:16 publications/youtube/exemple_morra_2.json
+{"id": "ImGAEHvu478", "url": "https://www.youtube.com/shorts/ImGAEHvu478", "statut": "public", "publier_le": null}
