@@ -1,0 +1,129 @@
+{
+ "nom": "reti_etude_1",
+ "tempo": 1.0,
+ "duree_s": 42.62,
+ "hook": {
+  "texte": "King too far.|Two pawns.",
+  "fin": 2.3
+ },
+ "question": {
+  "texte": "Would you have|found it?",
+  "t": 39.42
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "White's king is far away."
+  },
+  {
+   "t": 2.3,
+   "texte": "Black's pawn runs to queen and your pawn is about to fall."
+  },
+  {
+   "t": 6.48,
+   "texte": "Can White still draw?"
+  },
+  {
+   "t": 9.14,
+   "texte": "Follow for one new endgame trick every day, and watch."
+  },
+  {
+   "t": 13.46,
+   "texte": "The king steps toward the runner."
+  },
+  {
+   "t": 15.72,
+   "texte": "The pawn runs away."
+  },
+  {
+   "t": 17.5,
+   "texte": "Another step, again diagonally."
+  },
+  {
+   "t": 20.38,
+   "texte": "Black's king goes after your pawn."
+  },
+  {
+   "t": 23.04,
+   "texte": "One more diagonal step!"
+  },
+  {
+   "t": 25.24,
+   "texte": "Now the king is near both pawns: if the pawn runs yours queens too."
+  },
+  {
+   "t": 30.66,
+   "texte": "So Black takes your pawn."
+  },
+  {
+   "t": 32.6,
+   "texte": "But the king is back in the race."
+  },
+  {
+   "t": 34.74,
+   "texte": "The pawn pushes again and the king catches it."
+  },
+  {
+   "t": 38.26,
+   "texte": "Draw!"
+  },
+  {
+   "t": 39.6,
+   "texte": "A diagonal king chases two targets at once."
+  }
+ ],
+ "coups": [
+  {
+   "t": 13.86,
+   "coup": "Kg7",
+   "badge": "brillant"
+  },
+  {
+   "t": 16.14,
+   "coup": "h4",
+   "badge": null
+  },
+  {
+   "t": 18.54,
+   "coup": "Kf6",
+   "badge": null
+  },
+  {
+   "t": 21.02,
+   "coup": "Kb6",
+   "badge": null
+  },
+  {
+   "t": 23.64,
+   "coup": "Ke5",
+   "badge": "brillant"
+  },
+  {
+   "t": 30.98,
+   "coup": "Kxc6",
+   "badge": null
+  },
+  {
+   "t": 33.22,
+   "coup": "Kf4",
+   "badge": null
+  },
+  {
+   "t": 35.18,
+   "coup": "h3",
+   "badge": null
+  },
+  {
+   "t": 36.68,
+   "coup": "Kg3",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 8.12,
+   "duree": 1.0,
+   "texte": "Draw?"
+  }
+ ]
+}

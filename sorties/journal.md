@@ -558,3 +558,6 @@
 ### commandes/perso_evergreen_1.json
     voix générée : 537 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/evergreen_1.mp4 {"voix_brute_s": 43.8, "tempo": 1.0, "video_s": 45.5, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 97, "minutage": "17 phrases, 10 coups, 1 pauses"}
+### commandes/perso_reti_etude_1.json
+    voix générée : 534 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/reti_etude_1.mp4 {"voix_brute_s": 41.6, "tempo": 1.0, "video_s": 43.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 100, "minutage": "15 phrases, 9 coups, 1 pauses"}
