@@ -547,3 +547,8 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/exemple_morra_2.mp4 {"voix_brute_s": 32.4, "tempo": 1.0, "video_s": 34.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 84, "minutage": "13 phrases, 5 coups, 1 pauses"}
+## 2026-11-04 00:06 UTC · run 41744182318
+### commandes/perso_decouverte_cavalier_1.json
+    voix générée : 486 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/decouverte_cavalier_1.mp4 {"voix_brute_s": 37.1, "tempo": 1.0, "video_s": 38.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 90, "minutage": "14 phrases, 7 coups, 1 pauses"}

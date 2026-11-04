@@ -1,0 +1,115 @@
+{
+ "nom": "decouverte_cavalier_1",
+ "tempo": 1.0,
+ "duree_s": 38.22,
+ "hook": {
+  "texte": "White castled.|Win a piece!",
+  "fin": 1.8
+ },
+ "question": {
+  "texte": "Analyze your own|game, free",
+  "t": 35.02
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "White castles."
+  },
+  {
+   "t": 1.8,
+   "texte": "Looks safe: every piece seems protected."
+  },
+  {
+   "t": 5.32,
+   "texte": "But Black wins a piece by force."
+  },
+  {
+   "t": 8.0,
+   "texte": "Can you find it?"
+  },
+  {
+   "t": 10.42,
+   "texte": "Follow for one new trap every day, and watch."
+  },
+  {
+   "t": 14.06,
+   "texte": "The knight takes the bishop."
+  },
+  {
+   "t": 16.14,
+   "texte": "The queen takes back."
+  },
+  {
+   "t": 17.92,
+   "texte": "But look: that knight was hiding a bishop!"
+  },
+  {
+   "t": 21.06,
+   "texte": "Now bishop takes bishop."
+  },
+  {
+   "t": 23.18,
+   "texte": "The white knight takes back and then the black queen grabs the knight."
+  },
+  {
+   "t": 27.28,
+   "texte": "Black is a whole piece up!"
+  },
+  {
+   "t": 29.62,
+   "texte": "White had to take the knight first."
+  },
+  {
+   "t": 32.48,
+   "texte": "When a knight blocks a bishop check what it hides."
+  },
+  {
+   "t": 36.1,
+   "texte": "Analyze your own game free."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.3,
+   "coup": "O-O",
+   "badge": "gaffe"
+  },
+  {
+   "t": 14.48,
+   "coup": "Nxd5",
+   "badge": "brillant"
+  },
+  {
+   "t": 16.5,
+   "coup": "Qxd5",
+   "badge": null
+  },
+  {
+   "t": 21.62,
+   "coup": "Bxg5",
+   "badge": null
+  },
+  {
+   "t": 23.74,
+   "coup": "Nxg5",
+   "badge": null
+  },
+  {
+   "t": 25.72,
+   "coup": "Qxg5",
+   "badge": "brillant"
+  },
+  {
+   "t": 30.54,
+   "coup": "Bxf6",
+   "badge": "meilleur"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 9.4,
+   "duree": 1.0,
+   "texte": "Find it?"
+  }
+ ]
+}
