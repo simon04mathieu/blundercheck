@@ -1,0 +1,33 @@
+{
+ "legende": "Les Blancs roquent : peux-tu gagner une pièce ? 😈 Tu aurais vu Cxd5 ? 👇 Piège de vraies parties : vu dans 4 parties réelles à ~1400 (Lichess). #echecs #chess #piege #echecsfr",
+ "envoyer_apres": "2026-11-04T08:00:00+01:00",
+ "heure_conseillee": "2026-11-04T17:00:00+01:00",
+ "repere": "17 h · decouverte_cavalier_1_fr · 34.36 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/decouverte_cavalier_1_fr.mp4",
+ "concept": "decouverte_cavalier",
+ "format": "PIGEON",
+ "langue": "fr",
+ "paire": "decouverte_cavalier_1",
+ "test": "aucun",
+ "duree": 34.36,
+ "voix": "oui",
+ "variante": "-",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "piege",
+  "langue": "fr",
+  "duree_s": 34,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "aucun",
+  "variante": "-",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "attaque_decouverte_cavalier",
+  "niveau": 1401,
+  "hook": "question",
+  "interet": "cavalier_cache_fou"
+ }
+}

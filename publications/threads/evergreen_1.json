@@ -1,0 +1,28 @@
+{
+ "legende": "He took a free knight. Look what happens. 😱 Would you have sacrificed the queen? 👇 Anderssen–Dufresne, Berlin 1852 (Evergreen Game). One new trap every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=threads-en\n\n#chess #chesshistory #evergreen",
+ "envoyer_apres": "2026-11-04T21:00:00+01:00",
+ "fichier": "sorties/evergreen_1.mp4",
+ "concept": "evergreen",
+ "format": "HISTOIRE",
+ "langue": "en",
+ "test": "T14-appel",
+ "duree": 44.88,
+ "voix": "oui",
+ "variante": "A",
+ "etiquettes": {
+  "format": "HISTOIRE",
+  "categorie": "histoire",
+  "langue": "en",
+  "duree_s": 45,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T14-appel",
+  "variante": "A",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "sacrifices_tour_dame_mat_fou",
+  "niveau": "partie Anderssen-Dufresne 1852",
+  "hook": "question",
+  "interet": "dame_sacrifiee_face_au_mat"
+ }
+}

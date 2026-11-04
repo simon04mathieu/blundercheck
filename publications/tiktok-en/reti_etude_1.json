@@ -1,0 +1,32 @@
+{
+ "legende": "Can your king catch both pawns? 🤯 Would you have found Kg7? 👇 Study by Réti, 1921. One new endgame trick every day. #chess #chesstok",
+ "envoyer_apres": "2026-11-04T08:00:00+01:00",
+ "heure_conseillee": "2026-11-04T17:00:00+01:00",
+ "repere": "17 h · reti_etude_1 · 42.62 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/reti_etude_1.mp4",
+ "concept": "reti_etude",
+ "format": "FINALE",
+ "langue": "en",
+ "test": "T14-appel",
+ "duree": 42.62,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 43,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T14-appel",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "roi_diagonale_deux_cibles",
+  "niveau": "etude Reti 1921",
+  "hook": "question",
+  "interet": "roi_rattrape_deux_pions"
+ }
+}

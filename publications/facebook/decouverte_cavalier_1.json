@@ -1,0 +1,28 @@
+{
+ "legende": "White castled. Can you win a piece? 😈 Would you have seen Nxd5? 👇 Real-game trap: seen in 4 real games at ~1400 (Lichess). One new trap every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=facebook-en\n\n#chess #chesstrap #scotchgame",
+ "envoyer_apres": "2026-11-04T19:00:00+01:00",
+ "fichier": "sorties/decouverte_cavalier_1.mp4",
+ "concept": "decouverte_cavalier",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "T11-série",
+ "duree": 38.22,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "piege",
+  "langue": "en",
+  "duree_s": 38,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T11-série",
+  "variante": "B",
+  "appel_site": "oui",
+  "fin": "follow_avant_reponse",
+  "motif": "attaque_decouverte_cavalier",
+  "niveau": 1401,
+  "hook": "question",
+  "interet": "cavalier_cache_fou"
+ }
+}
