@@ -65,3 +65,5 @@
 {"reseau": "instagram", "id": "18055236392612177"}
 ### 2026-11-03 20:42 publications/instagram/touch_move_1_fr.json
 {"reseau": "instagram", "id": "18098208512430472"}
+### 2026-11-04 16:51 publications/instagram/decouverte_cavalier_1_fr.json
+{"reseau": "instagram", "id": "18111208796197463"}
