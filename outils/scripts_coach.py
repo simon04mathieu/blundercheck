@@ -1391,3 +1391,47 @@ PERSO.update({
 },
 })
 QUESTIONS.update({"exemple_morra_2": "Would you|have seen it?"})
+
+# 4/11 (Producteur) : file du Scénariste du 3/11 ; coups vérifiés python-chess + Stockfish 16 (prof. 22) ; « Follow / Abonne-toi » juste avant la révélation (Simon, 3/11)
+RETI = "fen:7K/8/k1P5/7p/8/8/8/8_w_-_-_0_1"
+SCOTCH_PIEGE = "fen:r1bqk2r/pp2bppp/3p1n2/3Bp1B1/4P3/5N2/PPP2PPP/R2QK2R_w_KQkq_-_1_10"
+EVERGREEN = "fen:1r2k1r1/pbppnp1p/1bn2P2/7q/Q7/B1PB1N2/P4PPP/3RR1K1_b_-_-_2_19"
+PERSO.update({
+"reti_etude_1": {   # Réti 1921 : 1.Kg7 h4 2.Kf6 Kb6 3.Ke5 Kxc6 4.Kf4 h3 5.Kg3 = (0,00 partout) ; 1.c7? / 1.Kh7? perdent (−34) ; 3…h3 4.Kd6 =
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "King too far.|Two pawns.",
+    "voix": """White's king is far away. Black's pawn runs to queen, and your pawn is about to fall. Can White still draw? Follow for one new endgame trick every day, and watch. The king steps toward the runner. The pawn runs away. Another step, again diagonally. Black's king goes after your pawn. One more diagonal step! Now the king is near both pawns: if the pawn runs, yours queens too. So Black takes your pawn. But the king is back in the race. The pawn pushes again, and the king catches it. Draw! A diagonal king chases two targets at once.""",
+    "script": """[p """ + RETI + """] White's king is far away. [h] Black's pawn [f h5h1] runs to queen, and your pawn [f a6c6] is about to fall. Can White still draw? [q 1 Draw?] Follow for one new endgame trick every day, and watch. The king [m Kg7 brillant] steps toward the runner. The pawn [m h4] runs away. Another step, [m Kf6] again diagonally. Black's king [m Kb6] goes after your pawn. One more [m Ke5 brillant] [z e5 1.3 2.0] diagonal step! Now the king is near [f e5d6 e5f4] both pawns: if the pawn runs, yours queens too. So Black [m Kxc6] takes your pawn. But the king is [m Kf4] back in the race. The pawn [m h3] pushes again, and the king [m Kg3] [x impact] catches it. [s tag g3 2.5 DRAW] Draw! A diagonal king chases two targets at once.""",
+},
+"reti_etude_1_fr": {   # jumeau FR de reti_etude_1 ; T13 B
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Roi trop loin.|Deux pions.",
+    "voix": """Le roi blanc est très loin. Le pion noir file à dame, et ton pion va tomber. Les Blancs peuvent-ils encore faire nulle ? Abonne-toi : une astuce de finale par jour. Le roi avance vers le coureur. Le pion s'enfuit. Encore un pas, en diagonale. Le roi noir attaque ton pion. Encore une diagonale ! Le roi est près des deux pions : si le pion noir avance, le tien fait dame aussi. Alors les Noirs prennent ton pion. Mais le roi revient dans la course. Le pion avance encore, et le roi l'attrape. Nulle ! Un roi en diagonale vise deux cibles à la fois.""",
+    "script": """[p """ + RETI + """] Le roi blanc est très loin. [h] Le pion noir [f h5h1] file à dame, et ton pion [f a6c6] va tomber. Les Blancs peuvent-ils encore faire nulle ? [q 1 Nulle ?] Abonne-toi : une astuce de finale par jour. Le roi [m Kg7 brillant] avance vers le coureur. Le pion [m h4] s'enfuit. Encore un pas, [m Kf6] en diagonale. Le roi noir [m Kb6] attaque ton pion. Encore une [m Ke5 brillant] [z e5 1.3 2.0] diagonale ! Le roi est près [f e5d6 e5f4] des deux pions : si le pion noir avance, le tien fait dame aussi. Alors les Noirs [m Kxc6] prennent ton pion. Mais le roi [m Kf4] revient dans la course. Le pion [m h3] avance encore, et le roi [m Kg3] [x impact] l'attrape. [s tag g3 2.5 NULLE] Nulle ! Un roi en diagonale vise deux cibles à la fois.""",
+},
+"decouverte_cavalier_1": {   # réserve n° 11 (Écossaise, 4 parties Lichess, ~1401) : 10.O-O?? (−4,1) Nxd5 11.Qxd5 Bxg5 12.Nxg5 Qxg5 ; coup juste 10.Bxf6 (+0,7) ; T11 B ; vers /try
+    "cote": "noirs", "sous_titres": "phrase",
+    "hook": "White castled.|Win a piece!",
+    "voix": """White castles. Looks safe: every piece seems protected. But Black wins a piece by force. Can you find it? Follow for one new trap every day, and watch. The knight takes the bishop. The queen takes back. But look: that knight was hiding a bishop! Now bishop takes bishop. The white knight takes back, and then the black queen grabs the knight. Black is a whole piece up! White had to take the knight first. When a knight blocks a bishop, check what it hides. Analyze your own game, free.""",
+    "script": """[p """ + SCOTCH_PIEGE + """] White [m O-O gaffe] castles. [h] Looks safe: every piece seems protected. But Black wins a piece by force. Can you find it? [q 1 Find_it?] Follow for one new trap every day, and watch. The knight [m Nxd5 brillant] takes the bishop. The queen [m Qxd5] takes back. But look: that knight was hiding [f e7g5] a bishop! Now bishop [m Bxg5] takes bishop. The white knight [m Nxg5] takes back, and then the black queen [m Qxg5 brillant] [z g5 1.3 2.0] [x impact] grabs the knight. [s tag g5 2.5 +1_PIECE] Black is a whole piece up! [p """ + SCOTCH_PIEGE + """] White had to take [m Bxf6 meilleur] the knight first. When a knight blocks [f e7g5] a bishop, check what it hides. Analyze your own game, free.""",
+},
+"decouverte_cavalier_1_fr": {   # jumeau FR de decouverte_cavalier_1
+    "cote": "noirs", "sous_titres": "phrase",
+    "hook": "Les Blancs roquent.|Gagne une pièce !",
+    "voix": """Les Blancs roquent. Tout a l'air protégé. Mais les Noirs gagnent une pièce de force. Tu la vois ? Abonne-toi : un piège par jour pour monter ton Elo. Le cavalier prend le fou. La dame reprend. Mais regarde : ce cavalier cachait un fou ! Fou prend fou. Le cavalier blanc reprend, et la dame noire croque le cavalier. Les Noirs ont une pièce de plus ! Il fallait d'abord prendre le cavalier. Quand un cavalier bloque ton fou, regarde ce qu'il cache.""",
+    "script": """[p """ + SCOTCH_PIEGE + """] Les Blancs [m O-O gaffe] roquent. [h] Tout a l'air protégé. Mais les Noirs gagnent une pièce de force. Tu la vois ? [q 1 Trouve-la !] Abonne-toi : un piège par jour pour monter ton Elo. Le cavalier [m Nxd5 brillant] prend le fou. La dame [m Qxd5] reprend. Mais regarde : ce cavalier cachait [f e7g5] un fou ! Fou [m Bxg5] prend fou. Le cavalier blanc [m Nxg5] reprend, et la dame noire [m Qxg5 brillant] [z g5 1.3 2.0] [x impact] croque le cavalier. [s tag g5 2.5 +1_PIÈCE] Les Noirs ont une pièce de plus ! [p """ + SCOTCH_PIEGE + """] Il fallait d'abord [m Bxf6 meilleur] prendre le cavalier. Quand un cavalier bloque [f e7g5] ton fou, regarde ce qu'il cache.""",
+},
+"evergreen_1": {   # Anderssen–Dufresne, Berlin 1852 (partie complète rejouée, légale) : 19…Qxf3? (19…Bd4! tient) 20.Rxe7+ Nxe7 21.Qxd7+ Kxd7 22.Bf5+ (échec double) Ke8 23.Bd7+ Kf8 24.Bxe7# ; menace 20…Qxg2# vérifiée
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "A free knight?|Not quite!",
+    "voix": """Black's queen grabs a knight, and threatens mate next move. White is lost? No! Adolf Anderssen, Berlin, 1852, finds a killer idea. Can you see it? Follow for one new trap every day, and watch. Rook takes the knight, check! The knight takes back. Now the queen takes, check! The king has to take her. And now, double check! The king steps back. The same bishop checks again. The king takes one more step. And now the bishop, protected by its partner, takes: checkmate! They call it the Evergreen Game. Would you have sacrificed the queen?""",
+    "script": """[p """ + EVERGREEN + """] Black's queen [m Qxf3 gaffe] grabs a knight, [h] and threatens [f f3g2] mate next move. White is lost? No! Adolf Anderssen, Berlin, 1852, finds a killer idea. Can you see it? [q 1 Find_it?] Follow for one new trap every day, and watch. Rook [m Rxe7+ brillant] takes the knight, check! The knight [m Nxe7] takes back. Now the queen [m Qxd7+ brillant] [z d7 1.3 2.0] takes, check! The king has [m Kxd7] to take her. And now, [m Bf5+ brillant] [f f5d7 d1d7] double check! The king [m Ke8] steps back. The same bishop [m Bd7+] checks again. The king takes one more [m Kf8] step. And now the bishop, protected [f a3e7] by its partner, [m Bxe7# mat] [x impact] takes: checkmate! They call it the Evergreen Game. Would you have sacrificed the queen?""",
+},
+})
+QUESTIONS.update({
+    "reti_etude_1": "Would you have|found it?",
+    "reti_etude_1_fr": "Tu l'aurais|trouvé ?",
+    "decouverte_cavalier_1": "Analyze your own|game, free",
+    "decouverte_cavalier_1_fr": "Tu l'aurais|vu ?",
+    "evergreen_1": "Would you sacrifice|the queen?",
+})
