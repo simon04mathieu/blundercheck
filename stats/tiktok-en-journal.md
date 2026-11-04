@@ -372,3 +372,12 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 20, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 20, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 20, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 20, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-04 07:56 publications/tiktok-en/decouverte_cavalier_1.json
+{"publish_id": "v_inbox_file~v2.7704221715707660310", "mode": "brouillon", "vie_privee": null, "legende": "White castled. Can you win a piece? 😈 Would you have seen Nxd5? 👇 Real-game trap: seen in 4 real games at ~1400 (Lichess). One new trap every day. #chess #chesstok"}
+### 2026-11-04 07:56 publications/tiktok-en/evergreen_1.json
+{"publish_id": "v_inbox_file~v2.7704221715707693078", "mode": "brouillon", "vie_privee": null, "legende": "He took a free knight. Look what happens. 😱 Would you have sacrificed the queen? 👇 Anderssen–Dufresne, Berlin 1852 (Evergreen Game). One new trap every day. #chess #chesstok"}
+### 2026-11-04 07:56 publications/tiktok-en/exemple_morra_2.json
+{"publish_id": "v_inbox_file~v2.7704221715707758614", "mode": "brouillon", "vie_privee": null, "legende": "Would you kick this knight? 😈 One natural pawn move, and the queen is gone. Would you have seen the fork? 👇 #chess #chesstok"}
+### 2026-11-04 07:56 publications/tiktok-en/reti_etude_1.json
+{"publish_id": "v_inbox_file~v2.7704221715707791382", "mode": "brouillon", "vie_privee": null, "legende": "Can your king catch both pawns? 🤯 Would you have found Kg7? 👇 Study by Réti, 1921. One new endgame trick every day. #chess #chesstok"}

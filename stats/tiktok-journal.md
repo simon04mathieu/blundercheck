@@ -496,3 +496,8 @@ Reference&#32;&#35;97&#46;7a10017&#46;1793560783&#46;8657e34
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 16, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 16, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 16, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 16, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-04 07:56 publications/tiktok/decouverte_cavalier_1_fr.json
+{"publish_id": "v_inbox_file~v2.7704221718994798614", "mode": "brouillon", "vie_privee": null, "legende": "Les Blancs roquent : peux-tu gagner une pièce ? 😈 Tu aurais vu Cxd5 ? 👇 Piège de vraies parties : vu dans 4 parties réelles à ~1400 (Lichess). #echecs #chess #piege #echecsfr"}
+### 2026-11-04 07:56 publications/tiktok/reti_etude_1_fr.json
+{"publish_id": "v_inbox_file~v2.7704221718994831382", "mode": "brouillon", "vie_privee": null, "legende": "Ton roi peut-il rattraper les deux pions ? 🤯 Tu aurais trouvé Rg7 ? 👇 Étude de Réti, 1921. Une astuce de finale par jour. #echecs #chess #finale #echecsfr"}
