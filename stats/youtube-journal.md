@@ -449,3 +449,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "45"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "45"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "45"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "45"}
+### 2026-11-04 18:41 publications/youtube/decouverte_cavalier_1.json
+{"id": "aJXCUagnOvg", "url": "https://www.youtube.com/shorts/aJXCUagnOvg", "statut": "public", "publier_le": null}
