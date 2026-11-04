@@ -503,3 +503,4 @@ Reference&#32;&#35;97&#46;7a10017&#46;1793560783&#46;8657e34
 {"publish_id": "v_inbox_file~v2.7704221718994831382", "mode": "brouillon", "vie_privee": null, "legende": "Ton roi peut-il rattraper les deux pions ? 🤯 Tu aurais trouvé Rg7 ? 👇 Étude de Réti, 1921. Une astuce de finale par jour. #echecs #chess #finale #echecsfr"}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 16, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 16, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 16, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
