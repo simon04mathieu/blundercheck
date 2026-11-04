@@ -67,3 +67,5 @@
 {"reseau": "instagram", "id": "18098208512430472"}
 ### 2026-11-04 16:51 publications/instagram/decouverte_cavalier_1_fr.json
 {"reseau": "instagram", "id": "18111208796197463"}
+### 2026-11-04 20:03 publications/instagram/reti_etude_1_fr.json
+{"reseau": "instagram", "id": "18211545955367206"}

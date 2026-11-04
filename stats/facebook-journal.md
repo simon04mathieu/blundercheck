@@ -84,3 +84,5 @@
 {"reseau": "facebook", "id": "1188296680439022", "ok": true}
 ### 2026-11-04 18:50 publications/facebook/decouverte_cavalier_1.json
 {"reseau": "facebook", "id": "1003544689443813", "ok": true}
+### 2026-11-04 20:03 publications/facebook/evergreen_1.json
+{"reseau": "facebook", "id": "1488338839827640", "ok": true}
