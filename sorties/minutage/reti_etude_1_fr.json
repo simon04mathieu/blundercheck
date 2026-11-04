@@ -1,0 +1,129 @@
+{
+ "nom": "reti_etude_1_fr",
+ "tempo": 1.0,
+ "duree_s": 42.46,
+ "hook": {
+  "texte": "Roi trop loin.|Deux pions.",
+  "fin": 2.16
+ },
+ "question": {
+  "texte": "Tu l'aurais|trouvé ?",
+  "t": 39.26
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Le roi blanc est très loin."
+  },
+  {
+   "t": 2.16,
+   "texte": "Le pion noir file à dame et ton pion va tomber."
+  },
+  {
+   "t": 6.04,
+   "texte": "Les Blancs peuvent-ils encore faire nulle ?"
+  },
+  {
+   "t": 10.08,
+   "texte": "Abonne-toi : une astuce de finale par jour."
+  },
+  {
+   "t": 13.86,
+   "texte": "Le roi avance vers le coureur."
+  },
+  {
+   "t": 16.34,
+   "texte": "Le pion s'enfuit."
+  },
+  {
+   "t": 17.86,
+   "texte": "Encore un pas en diagonale."
+  },
+  {
+   "t": 20.24,
+   "texte": "Le roi noir attaque ton pion."
+  },
+  {
+   "t": 22.36,
+   "texte": "Encore une diagonale !"
+  },
+  {
+   "t": 24.42,
+   "texte": "Le roi est près des deux pions : si le pion noir avance, le tien fait dame aussi."
+  },
+  {
+   "t": 29.24,
+   "texte": "Alors les Noirs prennent ton pion."
+  },
+  {
+   "t": 32.1,
+   "texte": "Mais le roi revient dans la course."
+  },
+  {
+   "t": 34.56,
+   "texte": "Le pion avance encore et le roi l'attrape."
+  },
+  {
+   "t": 37.18,
+   "texte": "Nulle !"
+  },
+  {
+   "t": 39.24,
+   "texte": "Un roi en diagonale vise deux cibles à la fois."
+  }
+ ],
+ "coups": [
+  {
+   "t": 14.66,
+   "coup": "Kg7",
+   "badge": "brillant"
+  },
+  {
+   "t": 16.74,
+   "coup": "h4",
+   "badge": null
+  },
+  {
+   "t": 18.78,
+   "coup": "Kf6",
+   "badge": null
+  },
+  {
+   "t": 20.74,
+   "coup": "Kb6",
+   "badge": null
+  },
+  {
+   "t": 22.98,
+   "coup": "Ke5",
+   "badge": "brillant"
+  },
+  {
+   "t": 30.52,
+   "coup": "Kxc6",
+   "badge": null
+  },
+  {
+   "t": 32.86,
+   "coup": "Kf4",
+   "badge": null
+  },
+  {
+   "t": 35.08,
+   "coup": "h3",
+   "badge": null
+  },
+  {
+   "t": 36.68,
+   "coup": "Kg3",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 9.06,
+   "duree": 1.0,
+   "texte": "Nulle ?"
+  }
+ ]
+}
