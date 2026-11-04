@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-03T17:31:13Z",
+ "releve": "2026-11-04T17:31:05Z",
  "compte": "blundercheckapp",
- "abonnes": 1,
+ "abonnes": 2,
  "publications": [
+  {
+   "id": "18111208796197463",
+   "caption": "Les Blancs roquent : peux-tu gagner une pièce ? 😈 Tu aurais vu Cxd5 ? 👇 Piège de",
+   "comments_count": 0,
+   "like_count": 1,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfU7OLtmaJG/",
+   "timestamp": "2026-11-04T16:50:59+0000",
+   "insights": {
+    "views": 126,
+    "reach": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1
+   }
+  },
+  {
+   "id": "18098208512430472",
+   "caption": "Tu touches ton roi : peux-tu quand même mater ? 🤔 Tu aurais bougé le roi ? 👇 Règ",
+   "comments_count": 0,
+   "like_count": 1,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfSw619nIq5/",
+   "timestamp": "2026-11-03T20:42:13+0000",
+   "insights": {
+    "views": 193,
+    "reach": 153,
+    "shares": 0,
+    "saved": 1,
+    "total_interactions": 2
+   }
+  },
   {
    "id": "18055236392612177",
    "caption": "La partie la plus courte du monde ? Une légende ! 😈 Tu aurais joué ce pion ? 👇 L",
@@ -12,8 +44,8 @@
    "permalink": "https://www.instagram.com/reel/DfSWNe-ETnw/",
    "timestamp": "2026-11-03T16:48:51+0000",
    "insights": {
-    "views": 110,
-    "reach": 1,
+    "views": 170,
+    "reach": 132,
     "shares": 0,
     "saved": 0,
     "total_interactions": 0
@@ -28,8 +60,8 @@
    "permalink": "https://www.instagram.com/reel/DfQNVljAR0B/",
    "timestamp": "2026-11-02T20:52:49+0000",
    "insights": {
-    "views": 165,
-    "reach": 138,
+    "views": 166,
+    "reach": 140,
     "shares": 0,
     "saved": 0,
     "total_interactions": 2
@@ -93,7 +125,7 @@
    "timestamp": "2026-10-30T19:53:02+0000",
    "insights": {
     "views": 185,
-    "reach": 143,
+    "reach": 144,
     "shares": 0,
     "saved": 0,
     "total_interactions": 0
