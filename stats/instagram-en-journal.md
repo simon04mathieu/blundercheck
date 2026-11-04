@@ -47,3 +47,5 @@ jeton Instagram EN renouvelé (valable 60 jours)
 {"reseau": "instagram-en", "id": "18079602749733016"}
 ### 2026-11-03 20:43 publications/instagram-en/finale_saavedra_1.json
 {"reseau": "instagram-en", "id": "18102543200542033"}
+### 2026-11-04 14:26 publications/instagram-en/exemple_morra_2.json
+{"reseau": "instagram-en", "id": "18360451294219526"}

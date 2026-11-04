@@ -78,3 +78,5 @@
 {"reseau": "facebook", "id": "1489722359818864", "ok": true}
 ### 2026-11-03 20:42 publications/facebook/finale_saavedra_1.json
 {"reseau": "facebook", "id": "1832822851254670", "ok": true}
+### 2026-11-04 14:24 publications/facebook/exemple_morra_2.json
+{"reseau": "facebook", "id": "3218450258355036", "ok": true}
