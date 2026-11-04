@@ -1,33 +1,33 @@
 # Résumé des chiffres
 
-Généré le 2026-11-03 21:29 (Zurich) par GitHub Actions, commit 25cfd6e.
+Généré le 2026-11-04 20:42 (Zurich) par GitHub Actions, commit 11eed20.
 
 Vues sur 24 h (relevés stats/, différence avec le relevé d'il y a ≥ 24 h)
 
 | Réseau | Vues | Abonnés (variation) | Vidéos suivies |
 |---|---|---|---|
-| youtube | +7309 | 39 (+5) | 62 |
-| tiktok-en | +9601 | 20 (+3) | 33 |
-| tiktok | +1802 | 16 (+3) | 38 |
-| instagram | +286 | 1 (+0) | 25 |
-| facebook | +1 | 0 (+0) | 30 |
-| threads | +6 | 0 (+0) | 30 |
+| youtube | +9982 | 45 (+6) | 66 |
+| tiktok-en | +3695 | 22 (+2) | 36 |
+| tiktok | +1224 | 16 (+0) | 39 |
+| instagram | +380 | 2 (+1) | 27 |
+| facebook | +0 | 0 (+0) | 30 |
+| threads | +5 | 0 (+0) | 30 |
 
-Total : +19005 vues.
+Total : +15286 vues.
 
 Meilleures vidéos (vues gagnées) :
-- +5365 · tiktok-en · #BlunderCheck 
-- +2850 · tiktok-en · #BlunderCheck 
-- +2469 · youtube · Can the king catch this pawn? ♟️ #chess #shorts
-- +1591 · youtube · Trade queens, win a piece? ♟️ #chess #shorts
-- +1125 · youtube · Your bishop is attacked. Ignore it! Chess Trap #4 ♟️ #chess #shorts
+- +4791 · youtube · Can the king catch this pawn? ♟️ #chess #shorts
+- +1762 · tiktok-en · #BlunderCheck 
+- +1160 · youtube · White played a quiet move. What's the threat? Chess Trap #5 ♟️ #chess 
+- +982 · tiktok-en · #BlunderCheck 
+- +871 · youtube · Don't make a queen! ♟️ #chess #shorts
 
-Par catégorie (YouTube EN, 7 derniers jours, vues à 48 h ; moyenne 1901, médiane 1188 sur 19 vidéos ; règle 17 = moyenne) :
+Par catégorie (YouTube EN, 7 derniers jours, vues à 48 h ; moyenne 2197, médiane 1238 sur 20 vidéos ; règle 17 = moyenne) :
 | Catégorie | Vidéos | Moyenne à 48 h | % de la moyenne | Jeunes (< 48 h, vues actuelles) |
 |---|---|---|---|---|
-| enigme | 6 | 3102 | 163 % | 1095 |
-| piege | 10 | 1492 | 78 % | 93, 1126 |
-| prof | 3 | 863 | 45 % ⚠ < 50 % | – |
-| finale | 0 | 0 | 0 % | 3271 |
-| tactique | 0 | 0 | 0 % | 1591 |
-| histoire | 0 | 0 | 0 % | 1089 |
+| finale | 1 | 7598 | 346 % | 246, 871 |
+| enigme | 7 | 2818 | 128 % | – |
+| piege | 9 | 1559 | 71 % | 0, 655, 1200 |
+| prof | 3 | 863 | 39 % ⚠ < 50 % | – |
+| tactique | 0 | 0 | 0 % | 2351 |
+| histoire | 0 | 0 | 0 % | 1196 |
