@@ -564,3 +564,6 @@
 ### commandes/perso_reti_etude_1_fr.json
     voix générée : 548 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/reti_etude_1_fr.mp4 {"voix_brute_s": 41.3, "tempo": 1.0, "video_s": 43.1, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 107, "minutage": "15 phrases, 9 coups, 1 pauses"}
+## 2026-11-04 00:13 UTC · pièges · run 41745117905
+### commandes/pieges/2026-11-04.json
+    OK stock/pieges-candidats.md : 15 nouveaux pièges ajoutés, 35 en réserve ; écartés : {'export refusé': 3, 'déjà en réserve': 8, 'variété': 196, 'pas une faute': 1}
