@@ -443,3 +443,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "45"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "45"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "45"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "45"}
+### 2026-11-04 16:42 publications/youtube/reti_etude_1.json
+{"id": "ffeZFAMQQj0", "url": "https://www.youtube.com/shorts/ffeZFAMQQj0", "statut": "public", "publier_le": null}
