@@ -1,14 +1,14 @@
 {
  "nom": "dame_pion_1_fr",
  "tempo": 1.0,
- "duree_s": 35.0,
+ "duree_s": 34.98,
  "hook": {
   "texte": "Dame contre pion.|Gagné ?",
   "fin": 2.04
  },
  "question": {
   "texte": "Tu aurais pris|le pion ?",
-  "t": 31.8
+  "t": 31.78
  },
  "phrases": [
   {
@@ -20,15 +20,15 @@
    "texte": "Les Noirs n'ont qu'un pion mais il va faire dame."
   },
   {
-   "t": 5.7,
+   "t": 5.74,
    "texte": "Les Blancs peuvent-ils gagner ?"
   },
   {
-   "t": 8.92,
+   "t": 8.9,
    "texte": "Abonne-toi : une astuce de finale par jour."
   },
   {
-   "t": 12.54,
+   "t": 12.52,
    "texte": "Échec !"
   },
   {
@@ -44,23 +44,23 @@
    "texte": "Il se cache dans le coin."
   },
   {
-   "t": 18.38,
+   "t": 18.26,
    "texte": "Alors, on prend le pion ?"
   },
   {
-   "t": 20.28,
+   "t": 20.34,
    "texte": "Pat !"
   },
   {
-   "t": 21.32,
+   "t": 21.48,
    "texte": "Les Noirs n'ont plus aucun coup."
   },
   {
-   "t": 23.48,
+   "t": 23.46,
    "texte": "Les Blancs rapprochent donc leur roi."
   },
   {
-   "t": 26.04,
+   "t": 26.06,
    "texte": "Mais le pion fait dame."
   },
   {
@@ -74,7 +74,7 @@
  ],
  "coups": [
   {
-   "t": 12.54,
+   "t": 11.02,
    "coup": "Qd5+",
    "badge": null
   },
@@ -111,7 +111,7 @@
  ],
  "pauses": [
   {
-   "t": 7.9,
+   "t": 7.88,
    "duree": 1.0,
    "texte": "Gagné ?"
   }
