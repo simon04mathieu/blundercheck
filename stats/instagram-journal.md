@@ -69,3 +69,5 @@
 {"reseau": "instagram", "id": "18111208796197463"}
 ### 2026-11-04 20:03 publications/instagram/reti_etude_1_fr.json
 {"reseau": "instagram", "id": "18211545955367206"}
+### 2026-11-05 16:09 publications/instagram/nimzo_intermezzo_1_fr.json
+{"reseau": "instagram", "id": "18091972529700538"}
