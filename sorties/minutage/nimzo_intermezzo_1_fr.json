@@ -1,0 +1,129 @@
+{
+ "nom": "nimzo_intermezzo_1_fr",
+ "tempo": 1.0,
+ "duree_s": 43.88,
+ "hook": {
+  "texte": "Ne reprends pas.|Échec d'abord !",
+  "fin": 2.36
+ },
+ "question": {
+  "texte": "Tu aurais|repris ?",
+  "t": 40.68
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Les Blancs viennent de prendre ton cavalier."
+  },
+  {
+   "t": 2.36,
+   "texte": "Si tu reprends c'est égal."
+  },
+  {
+   "t": 4.56,
+   "texte": "Mais regarde ce cavalier blanc  cloué sur son roi et attaqué deux fois."
+  },
+  {
+   "t": 9.46,
+   "texte": "Tu trouves mieux ?"
+  },
+  {
+   "t": 11.8,
+   "texte": "Abonne-toi : un piège par jour pour monter ton Elo."
+  },
+  {
+   "t": 15.6,
+   "texte": "Le fou prend échec !"
+  },
+  {
+   "t": 18.42,
+   "texte": "Le pion reprend."
+  },
+  {
+   "t": 20.26,
+   "texte": "La dame prend échec, et elle vise aussi la tour."
+  },
+  {
+   "t": 24.4,
+   "texte": "Les Blancs bloquent avec la dame."
+  },
+  {
+   "t": 26.82,
+   "texte": "La dame croque la tour échec !"
+  },
+  {
+   "t": 29.96,
+   "texte": "Les Blancs bloquent encore."
+  },
+  {
+   "t": 32.6,
+   "texte": "Tu échanges les dames et le roi reprend."
+  },
+  {
+   "t": 36.36,
+   "texte": "Et seulement maintenant tu reprends le fou."
+  },
+  {
+   "t": 39.82,
+   "texte": "Une tour de plus !"
+  },
+  {
+   "t": 41.5,
+   "texte": "Échec d'abord, reprise ensuite."
+  }
+ ],
+ "coups": [
+  {
+   "t": 16.24,
+   "coup": "Bxc3+",
+   "badge": "brillant"
+  },
+  {
+   "t": 19.16,
+   "coup": "bxc3",
+   "badge": null
+  },
+  {
+   "t": 20.76,
+   "coup": "Qxc3+",
+   "badge": "brillant"
+  },
+  {
+   "t": 25.26,
+   "coup": "Qd2",
+   "badge": null
+  },
+  {
+   "t": 27.52,
+   "coup": "Qxa1+",
+   "badge": null
+  },
+  {
+   "t": 30.88,
+   "coup": "Qd1",
+   "badge": null
+  },
+  {
+   "t": 33.62,
+   "coup": "Qxd1+",
+   "badge": null
+  },
+  {
+   "t": 34.66,
+   "coup": "Kxd1",
+   "badge": null
+  },
+  {
+   "t": 38.62,
+   "coup": "gxf6",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 10.78,
+   "duree": 1.0,
+   "texte": "Trouve-le !"
+  }
+ ]
+}
