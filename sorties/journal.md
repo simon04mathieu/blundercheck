@@ -584,3 +584,6 @@
 ### commandes/perso_nimzo_intermezzo_1_fr.json
     voix générée : 538 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/nimzo_intermezzo_1_fr.mp4 {"voix_brute_s": 42.8, "tempo": 1.0, "video_s": 44.5, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 97, "minutage": "15 phrases, 9 coups, 1 pauses"}
+### commandes/perso_petrov_cavalier_mat3_1.json
+    voix générée : 375 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/petrov_cavalier_mat3_1.mp4 {"voix_brute_s": 30.5, "tempo": 1.0, "video_s": 32.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 70, "minutage": "12 phrases, 5 coups, 1 pauses"}

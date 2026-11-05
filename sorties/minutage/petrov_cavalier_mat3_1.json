@@ -1,0 +1,97 @@
+{
+ "nom": "petrov_cavalier_mat3_1",
+ "tempo": 1.0,
+ "duree_s": 31.58,
+ "hook": {
+  "texte": "King in the corner.|Mate in 3!",
+  "fin": 2.82
+ },
+ "question": {
+  "texte": "Analyze your own|game, free",
+  "t": 28.38
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "White just hid his king in the corner."
+  },
+  {
+   "t": 2.82,
+   "texte": "It looks safe."
+  },
+  {
+   "t": 3.88,
+   "texte": "But Black has mate in three."
+  },
+  {
+   "t": 6.3,
+   "texte": "Can you find it?"
+  },
+  {
+   "t": 8.74,
+   "texte": "Follow: one new trap every day."
+  },
+  {
+   "t": 12.06,
+   "texte": "The knight jumps in check!"
+  },
+  {
+   "t": 14.58,
+   "texte": "The pawn must take the bishop guards the other square."
+  },
+  {
+   "t": 18.68,
+   "texte": "The queen slides over check!"
+  },
+  {
+   "t": 21.38,
+   "texte": "White can only block with the queen."
+  },
+  {
+   "t": 23.98,
+   "texte": "The queen takes checkmate!"
+  },
+  {
+   "t": 25.96,
+   "texte": "The far bishop shuts the last door."
+  },
+  {
+   "t": 29.56,
+   "texte": "Analyze your own game free."
+  }
+ ],
+ "coups": [
+  {
+   "t": 12.4,
+   "coup": "Ng3+",
+   "badge": "brillant"
+  },
+  {
+   "t": 15.08,
+   "coup": "hxg3",
+   "badge": null
+  },
+  {
+   "t": 19.08,
+   "coup": "Qh6+",
+   "badge": "brillant"
+  },
+  {
+   "t": 22.22,
+   "coup": "Qh5",
+   "badge": null
+  },
+  {
+   "t": 24.5,
+   "coup": "Qxh5#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 7.72,
+   "duree": 1.0,
+   "texte": "Find it?"
+  }
+ ]
+}
