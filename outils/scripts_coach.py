@@ -1435,3 +1435,51 @@ QUESTIONS.update({
     "decouverte_cavalier_1_fr": "Tu l'aurais|vu ?",
     "evergreen_1": "Would you sacrifice|the queen?",
 })
+
+# 5/11 (Producteur) : file du Scénariste du 4/11 ; lignes vérifiées python-chess + Stockfish 16 ; « Follow / Abonne-toi » juste avant la révélation (Simon, 3/11)
+PERSO.update({
+"dame_pion_1": {   # 1.Qd5+ Kb1 2.Qb3+ Ka1 3.Kf6 c1=Q = (0,00 à chaque coup) ; 3.Qxc2 pat (python-chess) ; tous les coups blancs après 2…Ka1 = 0,00
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Queen vs pawn.|Can White win?",
+    "voix": """White has a queen. Black has only a pawn, but it queens next move. Can White win? Follow: one new endgame trick every day. Check! The king runs. Check again! It hides in the corner. Now, take the pawn? Stalemate! Black has no legal move. So White brings the king closer instead. But now the pawn queens. Queen against queen: a draw! With a bishop's pawn, the corner saves Black when the enemy king is far.""",
+    "script": """[p fen:8/8/6K1/4Q3/8/8/k1p5/8_w_-_-_0_1] [f c2c1] White has a queen. [h] Black has only a pawn, but it queens next move. Can White win? [q 1 Win?] Follow: one new endgame trick every day. [m Qd5+] Check! [m Kb1] The king runs. Check [m Qb3+] again! It hides [m Ka1] in the corner. Now, take [m Qxc2 gaffe] [z a1 1.3 2.0] the pawn? [s tag a1 2.5 STALEMATE] Stalemate! Black has no legal move. [p fen:8/8/6K1/8/8/1Q6/2p5/k7_w_-_-_4_3] So White brings [m Kf6] the king closer instead. But now the pawn [m c1=Q] [x impact] queens. Queen against queen: [s tag c1 2.5 DRAW] a draw! With a bishop's pawn, the corner saves Black when the enemy king is far.""",
+},
+"dame_pion_1_fr": {   # jumeau FR de dame_pion_1 ; T13 B
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Dame contre pion.|Gagné ?",
+    "voix": """Les Blancs ont une dame. Les Noirs n'ont qu'un pion, mais il va faire dame. Les Blancs peuvent-ils gagner ? Abonne-toi : une astuce de finale par jour. Échec ! Le roi fuit. Encore échec ! Il se cache dans le coin. Alors, on prend le pion ? Pat ! Les Noirs n'ont plus aucun coup. Les Blancs rapprochent donc leur roi. Mais le pion fait dame. Dame contre dame : nulle ! Avec un pion de fou, le coin sauve les Noirs quand le roi adverse est loin.""",
+    "script": """[p fen:8/8/6K1/4Q3/8/8/k1p5/8_w_-_-_0_1] [f c2c1] Les Blancs ont une dame. [h] Les Noirs n'ont qu'un pion, mais il va faire dame. Les Blancs peuvent-ils gagner ? [q 1 Gagné ?] Abonne-toi : une astuce de finale par jour. [m Qd5+] Échec ! [m Kb1] Le roi fuit. Encore [m Qb3+] échec ! Il se cache [m Ka1] dans le coin. Alors, on prend [m Qxc2 gaffe] [z a1 1.3 2.0] le pion ? [s tag a1 2.5 PAT] Pat ! Les Noirs n'ont plus aucun coup. [p fen:8/8/6K1/8/8/1Q6/2p5/k7_w_-_-_4_3] Les Blancs rapprochent [m Kf6] donc leur roi. Mais le pion [m c1=Q] [x impact] fait dame. Dame contre dame : [s tag c1 2.5 NULLE] nulle ! Avec un pion de fou, le coin sauve les Noirs quand le roi adverse est loin.""",
+},
+"nimzo_intermezzo_1": {   # réserve n° 17 (Nimzo-Léningrad, 3 parties Lichess) : 7.Fxf6? (−6,0 ; 7.Fd2 +0,35) Bxc3+ 8.bxc3 Qxc3+ 9.Qd2 Qxa1+ 10.Qd1 Qxd1+ 11.Kxd1 gxf6 (−6,0) ; 7…gxf6 = 0,00
+    "cote": "noirs", "sous_titres": "phrase",
+    "hook": "Don't recapture.|Check first!",
+    "voix": """White just took your knight. Take back, and it's equal. But look at that white knight: pinned to the king, and attacked twice. Can you win more? Follow: one new trap every day. The bishop takes, check! The pawn takes back. The queen takes, check, and she hits the rook too. White blocks with the queen. The queen grabs the rook, check! White blocks again. You trade the queens, and the king takes back. Only now, you take back the bishop. A full rook up! Check first, recapture later.""",
+    "script": """[p fen:rnb1k2r/pp1p1ppp/4pB2/q7/1bPN4/2N5/PP2PPPP/R2QKB1R_b_KQkq_-_0_7] [f b4e1 a5c3] White just took your knight. [h] Take back, and it's equal. But look at that white knight: pinned to the king, and attacked twice. Can you win more? [q 1 Find_it!] Follow: one new trap every day. The bishop [m Bxc3+ brillant] takes, check! The pawn [m bxc3] takes back. The queen [m Qxc3+ brillant] [z c3 1.3 2.0] takes, check, and she hits [f c3a1 c3e1] the rook too. White blocks [m Qd2] with the queen. The queen [m Qxa1+] [x impact] grabs the rook, check! White [m Qd1] blocks again. You trade the [m Qxd1+] queens, and the king [m Kxd1] takes back. Only now, you take [m gxf6] back the bishop. [s tag f6 2.5 +1_ROOK] A full rook up! Check first, recapture later.""",
+},
+"nimzo_intermezzo_1_fr": {   # jumeau FR de nimzo_intermezzo_1
+    "cote": "noirs", "sous_titres": "phrase",
+    "hook": "Ne reprends pas.|Échec d'abord !",
+    "voix": """Les Blancs viennent de prendre ton cavalier. Si tu reprends, c'est égal. Mais regarde ce cavalier blanc : cloué sur son roi, et attaqué deux fois. Tu trouves mieux ? Abonne-toi : un piège par jour pour monter ton Elo. Le fou prend, échec ! Le pion reprend. La dame prend, échec, et elle vise aussi la tour. Les Blancs bloquent avec la dame. La dame croque la tour, échec ! Les Blancs bloquent encore. Tu échanges les dames, et le roi reprend. Et seulement maintenant, tu reprends le fou. Une tour de plus ! Échec d'abord, reprise ensuite.""",
+    "script": """[p fen:rnb1k2r/pp1p1ppp/4pB2/q7/1bPN4/2N5/PP2PPPP/R2QKB1R_b_KQkq_-_0_7] [f b4e1 a5c3] Les Blancs viennent de prendre ton cavalier. [h] Si tu reprends, c'est égal. Mais regarde ce cavalier blanc : cloué sur son roi, et attaqué deux fois. Tu trouves mieux ? [q 1 Trouve-le !] Abonne-toi : un piège par jour pour monter ton Elo. Le fou [m Bxc3+ brillant] prend, échec ! Le pion [m bxc3] reprend. La dame [m Qxc3+ brillant] [z c3 1.3 2.0] prend, échec, et elle vise [f c3a1 c3e1] aussi la tour. Les Blancs bloquent [m Qd2] avec la dame. La dame [m Qxa1+] [x impact] croque la tour, échec ! Les Blancs [m Qd1] bloquent encore. Tu échanges les [m Qxd1+] dames, et le roi [m Kxd1] reprend. Et seulement maintenant, tu reprends [m gxf6] le fou. [s tag f6 2.5 +1_TOUR] Une tour de plus ! Échec d'abord, reprise ensuite.""",
+},
+"petrov_cavalier_mat3_1": {   # réserve n° 16 (Petrov, 3 parties Lichess, ~1841) : 7…Ng3+ 8.hxg3 (Kg1 illégal : Fc5) Qh6+ 9.Qh5 Qxh5# (#−3 vérifié) ; vers /try
+    "cote": "noirs", "sous_titres": "phrase",
+    "hook": "King in the corner.|Mate in 3!",
+    "voix": """White just hid his king in the corner. It looks safe. But Black has mate in three. Can you find it? Follow: one new trap every day. The knight jumps in, check! The pawn must take: the bishop guards the other square. The queen slides over, check! White can only block with the queen. The queen takes: checkmate! The far bishop shuts the last door. Analyze your own game, free.""",
+    "script": """[p fen:rnb1k2r/ppp2ppp/5q2/2bpN3/4nP2/3B4/PPPP2PP/RNBQ1R1K_b_kq_-_2_7] [s tag h1 2.0 SAFE?] White just hid his king in the corner. [h] It looks safe. But Black has mate in three. Can you find it? [q 1 Find_it?] Follow: one new trap every day. The knight [m Ng3+ brillant] [z g3 1.3 2.0] jumps in, check! The pawn [m hxg3] must take: the bishop [f c5g1] guards the other square. The queen [m Qh6+ brillant] slides over, check! White can only [m Qh5] block with the queen. The queen [m Qxh5# mat] [z h5 1.3 2.0] [x impact] takes: checkmate! The far bishop [f c5g1] shuts the last door. Analyze your own game, free.""",
+},
+"echange_pions_1": {   # position composée : 1.Rxc7+ Kxc7 2.gxh6 Kd8 3.h7 Ke7 4.h8=Q (#+14 après 1.Rxc7+) ; 1.Rxe6 / 1.Rd6 ≈ 0,00
+    "cote": "blancs", "sous_titres": "phrase",
+    "hook": "Rook attacked twice.|Don't run!",
+    "voix": """Your rook is attacked twice. Grab a pawn? Run away? There is a much stronger idea. Can you find it? Follow: one new idea every day. Trade the rooks, check! The king takes back. Now the pawn takes, and look: the black king is far away. The king runs. The white pawn steps up. The king runs again. Too late: the pawn becomes a queen! Before you trade, count the distance.""",
+    "script": """[p fen:8/1kr5/2R1pp1p/6P1/4PP2/8/4K3/8_w_-_-_0_1] [f b7c6 c7c6] Your rook is attacked twice. [h] Grab a pawn? Run away? There is a much stronger idea. Can you find it? [q 1 Find_it?] Follow: one new idea every day. Trade [m Rxc7+ brillant] the rooks, check! The king [m Kxc7] takes back. Now the pawn [m gxh6 brillant] [z h6 1.3 2.0] takes, and look: the black king [f h6h8] is far away. [m Kd8] The king runs. The white pawn [m h7] steps up. The king [m Ke7] runs again. Too late: the pawn [m h8=Q] [x impact] becomes a queen! [s tag h8 2.5 QUEEN] Before you trade, count the distance.""",
+},
+})
+QUESTIONS.update({
+    "dame_pion_1": "Would you have|taken the pawn?",
+    "dame_pion_1_fr": "Tu aurais pris|le pion ?",
+    "nimzo_intermezzo_1": "Would you have|recaptured?",
+    "nimzo_intermezzo_1_fr": "Tu aurais|repris ?",
+    "petrov_cavalier_mat3_1": "Analyze your own|game, free",
+    "echange_pions_1": "Would you have|grabbed the pawn?",
+})
