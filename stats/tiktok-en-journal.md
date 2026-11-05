@@ -410,3 +410,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"publish_id": "v_inbox_file~v2.7704603833628936214", "mode": "brouillon", "vie_privee": null, "legende": "He took your knight. Recapture? Look first! 😈 Would you have recaptured? 👇 Real-game trap (Nimzo-Indian): seen in 3 real Lichess games. One new trap every day. #chess #chesstok"}
 ### 2026-11-05 08:39 publications/tiktok-en/petrov_cavalier_mat3_1.json
 {"publish_id": "v_inbox_file~v2.7704603922539153430", "mode": "brouillon", "vie_privee": null, "legende": "White hid his king. Black mates in 3! 😈 Would you have sacrificed the knight? 👇 Seen in 3 real Lichess games (Petrov, puzzle rated ~1840). One new trap every day. #chess #chesstok"}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 22, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}

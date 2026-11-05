@@ -566,3 +566,4 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"publish_id": "v_inbox_file~v2.7704603880059668502", "mode": "brouillon", "vie_privee": null, "legende": "Une dame contre un pion. Les Blancs gagnent-ils ? 🤯 Tu aurais pris le pion ? 👇 Dame contre pion de fou : une nulle classique (vérifiée avec Stockfish). Une astuce de finale par jour. #echecs #chess #finale #echecsfr"}
 ### 2026-11-05 08:39 publications/tiktok/nimzo_intermezzo_1_fr.json
 {"publish_id": "v_inbox_file~v2.7704603833628903446", "mode": "brouillon", "vie_privee": null, "legende": "Il a pris ton cavalier. Ne reprends pas ! 😈 Tu aurais repris ? 👇 Piège de vraies parties (Nimzo-Indienne) : vu dans 3 parties réelles sur Lichess. Abonne-toi : un piège par jour. #echecs #chess #piege #echecsfr"}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 16, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
