@@ -1,0 +1,119 @@
+{
+ "nom": "dame_pion_1_fr",
+ "tempo": 1.0,
+ "duree_s": 35.0,
+ "hook": {
+  "texte": "Dame contre pion.|Gagné ?",
+  "fin": 2.04
+ },
+ "question": {
+  "texte": "Tu aurais pris|le pion ?",
+  "t": 31.8
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Les Blancs ont une dame."
+  },
+  {
+   "t": 2.04,
+   "texte": "Les Noirs n'ont qu'un pion mais il va faire dame."
+  },
+  {
+   "t": 5.7,
+   "texte": "Les Blancs peuvent-ils gagner ?"
+  },
+  {
+   "t": 8.92,
+   "texte": "Abonne-toi : une astuce de finale par jour."
+  },
+  {
+   "t": 12.54,
+   "texte": "Échec !"
+  },
+  {
+   "t": 13.52,
+   "texte": "Le roi fuit."
+  },
+  {
+   "t": 14.8,
+   "texte": "Encore échec !"
+  },
+  {
+   "t": 16.14,
+   "texte": "Il se cache dans le coin."
+  },
+  {
+   "t": 18.38,
+   "texte": "Alors, on prend le pion ?"
+  },
+  {
+   "t": 20.28,
+   "texte": "Pat !"
+  },
+  {
+   "t": 21.32,
+   "texte": "Les Noirs n'ont plus aucun coup."
+  },
+  {
+   "t": 23.48,
+   "texte": "Les Blancs rapprochent donc leur roi."
+  },
+  {
+   "t": 26.04,
+   "texte": "Mais le pion fait dame."
+  },
+  {
+   "t": 27.98,
+   "texte": "Dame contre dame  nulle !"
+  },
+  {
+   "t": 30.76,
+   "texte": "Avec un pion de fou le coin sauve les Noirs quand le roi adverse est loin."
+  }
+ ],
+ "coups": [
+  {
+   "t": 12.54,
+   "coup": "Qd5+",
+   "badge": null
+  },
+  {
+   "t": 13.52,
+   "coup": "Kb1",
+   "badge": null
+  },
+  {
+   "t": 15.14,
+   "coup": "Qb3+",
+   "badge": null
+  },
+  {
+   "t": 16.8,
+   "coup": "Ka1",
+   "badge": null
+  },
+  {
+   "t": 19.32,
+   "coup": "Qxc2",
+   "badge": "gaffe"
+  },
+  {
+   "t": 24.32,
+   "coup": "Kf6",
+   "badge": null
+  },
+  {
+   "t": 26.76,
+   "coup": "c1=Q",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 7.9,
+   "duree": 1.0,
+   "texte": "Gagné ?"
+  }
+ ]
+}

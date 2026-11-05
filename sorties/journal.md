@@ -572,3 +572,6 @@
     voix générée : 405 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/dame_pion_1.mp4 {"voix_brute_s": 34.8, "tempo": 1.0, "video_s": 36.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 76, "minutage": "15 phrases, 7 coups, 1 pauses"}
+### commandes/perso_dame_pion_1_fr.json
+    voix générée : 443 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/dame_pion_1_fr.mp4 {"voix_brute_s": 33.9, "tempo": 1.0, "video_s": 35.6, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 88, "minutage": "15 phrases, 7 coups, 1 pauses"}
