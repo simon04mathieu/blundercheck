@@ -90,3 +90,5 @@
 {"reseau": "facebook", "id": "1131070569897791", "ok": true}
 ### 2026-11-05 16:09 publications/facebook/nimzo_intermezzo_1.json
 {"reseau": "facebook", "id": "2607628496376294", "ok": true}
+### 2026-11-05 18:47 publications/facebook/petrov_cavalier_mat3_1.json
+{"reseau": "facebook", "id": "1148019784409840", "ok": true}

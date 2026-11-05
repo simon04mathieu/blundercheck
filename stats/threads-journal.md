@@ -98,3 +98,5 @@ jeton Threads renouvelé (valable 60 jours)
 {"reseau": "threads", "id": "18060636524557772"}
 ### 2026-11-05 16:10 publications/threads/nimzo_intermezzo_1.json
 {"reseau": "threads", "id": "17933540451164351"}
+### 2026-11-05 18:48 publications/threads/petrov_cavalier_mat3_1.json
+{"reseau": "threads", "id": "18196939255394096"}
