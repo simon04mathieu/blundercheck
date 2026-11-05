@@ -1,0 +1,119 @@
+{
+ "nom": "dame_pion_1",
+ "tempo": 1.0,
+ "duree_s": 35.8,
+ "hook": {
+  "texte": "Queen vs pawn.|Can White win?",
+  "fin": 1.84
+ },
+ "question": {
+  "texte": "Would you have|taken the pawn?",
+  "t": 32.6
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "White has a queen."
+  },
+  {
+   "t": 1.84,
+   "texte": "Black has only a pawn but it queens next move."
+  },
+  {
+   "t": 5.56,
+   "texte": "Can White win?"
+  },
+  {
+   "t": 8.1,
+   "texte": "Follow: one new endgame trick every day."
+  },
+  {
+   "t": 12.48,
+   "texte": "Check!"
+  },
+  {
+   "t": 13.48,
+   "texte": "The king runs."
+  },
+  {
+   "t": 15.06,
+   "texte": "Check again!"
+  },
+  {
+   "t": 16.24,
+   "texte": "It hides in the corner."
+  },
+  {
+   "t": 18.22,
+   "texte": "Now, take the pawn?"
+  },
+  {
+   "t": 20.2,
+   "texte": "Stalemate!"
+  },
+  {
+   "t": 21.28,
+   "texte": "Black has no legal move."
+  },
+  {
+   "t": 23.58,
+   "texte": "So White brings the king closer instead."
+  },
+  {
+   "t": 25.58,
+   "texte": "But now the pawn queens."
+  },
+  {
+   "t": 28.56,
+   "texte": "Queen against queen a draw!"
+  },
+  {
+   "t": 31.52,
+   "texte": "With a bishop's pawn the corner saves Black when the enemy king is far."
+  }
+ ],
+ "coups": [
+  {
+   "t": 12.48,
+   "coup": "Qd5+",
+   "badge": null
+  },
+  {
+   "t": 13.48,
+   "coup": "Kb1",
+   "badge": null
+  },
+  {
+   "t": 15.32,
+   "coup": "Qb3+",
+   "badge": null
+  },
+  {
+   "t": 16.66,
+   "coup": "Ka1",
+   "badge": null
+  },
+  {
+   "t": 18.66,
+   "coup": "Qxc2",
+   "badge": "gaffe"
+  },
+  {
+   "t": 24.42,
+   "coup": "Kf6",
+   "badge": null
+  },
+  {
+   "t": 27.3,
+   "coup": "c1=Q",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 7.08,
+   "duree": 1.0,
+   "texte": "Win?"
+  }
+ ]
+}

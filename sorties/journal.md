@@ -567,3 +567,8 @@
 ## 2026-11-04 00:13 UTC · pièges · run 41745117905
 ### commandes/pieges/2026-11-04.json
     OK stock/pieges-candidats.md : 15 nouveaux pièges ajoutés, 35 en réserve ; écartés : {'export refusé': 3, 'déjà en réserve': 8, 'variété': 196, 'pas une faute': 1}
+## 2026-11-05 00:26 UTC · run 41941159609
+### commandes/perso_dame_pion_1.json
+    voix générée : 405 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/dame_pion_1.mp4 {"voix_brute_s": 34.8, "tempo": 1.0, "video_s": 36.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 76, "minutage": "15 phrases, 7 coups, 1 pauses"}
