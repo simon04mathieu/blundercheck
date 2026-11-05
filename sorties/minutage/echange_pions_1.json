@@ -1,0 +1,115 @@
+{
+ "nom": "echange_pions_1",
+ "tempo": 1.0,
+ "duree_s": 32.1,
+ "hook": {
+  "texte": "Rook attacked twice.|Don't run!",
+  "fin": 2.26
+ },
+ "question": {
+  "texte": "Would you have|grabbed the pawn?",
+  "t": 28.9
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Your rook is attacked twice."
+  },
+  {
+   "t": 2.26,
+   "texte": "Grab a pawn?"
+  },
+  {
+   "t": 3.56,
+   "texte": "Run away?"
+  },
+  {
+   "t": 5.16,
+   "texte": "There is a much stronger idea."
+  },
+  {
+   "t": 7.24,
+   "texte": "Can you find it?"
+  },
+  {
+   "t": 9.8,
+   "texte": "Follow: one new idea every day."
+  },
+  {
+   "t": 13.1,
+   "texte": "Trade the rooks check!"
+  },
+  {
+   "t": 15.22,
+   "texte": "The king takes back."
+  },
+  {
+   "t": 16.92,
+   "texte": "Now the pawn takes and look: the black king is far away."
+  },
+  {
+   "t": 21.5,
+   "texte": "The king runs."
+  },
+  {
+   "t": 22.98,
+   "texte": "The white pawn steps up."
+  },
+  {
+   "t": 25.16,
+   "texte": "The king runs again."
+  },
+  {
+   "t": 26.98,
+   "texte": "Too late: the pawn becomes a queen!"
+  },
+  {
+   "t": 29.64,
+   "texte": "Before you trade count the distance."
+  }
+ ],
+ "coups": [
+  {
+   "t": 13.42,
+   "coup": "Rxc7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 15.56,
+   "coup": "Kxc7",
+   "badge": null
+  },
+  {
+   "t": 17.54,
+   "coup": "gxh6",
+   "badge": "brillant"
+  },
+  {
+   "t": 21.5,
+   "coup": "Kd8",
+   "badge": null
+  },
+  {
+   "t": 23.68,
+   "coup": "h7",
+   "badge": null
+  },
+  {
+   "t": 25.52,
+   "coup": "Ke7",
+   "badge": null
+  },
+  {
+   "t": 28.16,
+   "coup": "h8=Q",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 8.78,
+   "duree": 1.0,
+   "texte": "Find it?"
+  }
+ ]
+}
