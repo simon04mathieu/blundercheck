@@ -71,3 +71,5 @@
 {"reseau": "instagram", "id": "18211545955367206"}
 ### 2026-11-05 16:09 publications/instagram/nimzo_intermezzo_1_fr.json
 {"reseau": "instagram", "id": "18091972529700538"}
+### 2026-11-05 20:43 publications/instagram/dame_pion_1_fr.json
+{"reseau": "instagram", "id": "18100061084408741"}

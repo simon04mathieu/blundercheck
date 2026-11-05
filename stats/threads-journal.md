@@ -100,3 +100,5 @@ jeton Threads renouvelé (valable 60 jours)
 {"reseau": "threads", "id": "17933540451164351"}
 ### 2026-11-05 18:48 publications/threads/petrov_cavalier_mat3_1.json
 {"reseau": "threads", "id": "18196939255394096"}
+### 2026-11-05 20:44 publications/threads/echange_pions_1.json
+{"reseau": "threads", "id": "18188412730416757"}

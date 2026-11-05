@@ -92,3 +92,5 @@
 {"reseau": "facebook", "id": "2607628496376294", "ok": true}
 ### 2026-11-05 18:47 publications/facebook/petrov_cavalier_mat3_1.json
 {"reseau": "facebook", "id": "1148019784409840", "ok": true}
+### 2026-11-05 20:43 publications/facebook/echange_pions_1.json
+{"reseau": "facebook", "id": "1141371241921486", "ok": true}
