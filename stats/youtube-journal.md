@@ -489,3 +489,4 @@
 ### 2026-11-05 18:38 publications/youtube/petrov_cavalier_mat3_1.json
 {"id": "40fpfzPwYPc", "url": "https://www.youtube.com/shorts/40fpfzPwYPc", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "47"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "47"}
