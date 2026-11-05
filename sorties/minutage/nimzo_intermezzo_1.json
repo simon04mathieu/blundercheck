@@ -24,7 +24,7 @@
    "texte": "But look at that white knight pinned to the king and attacked twice."
   },
   {
-   "t": 9.14,
+   "t": 9.12,
    "texte": "Can you win more?"
   },
   {
@@ -36,7 +36,7 @@
    "texte": "The bishop takes check!"
   },
   {
-   "t": 17.5,
+   "t": 17.52,
    "texte": "The pawn takes back."
   },
   {
@@ -44,7 +44,7 @@
    "texte": "The queen takes check, and she hits the rook too."
   },
   {
-   "t": 23.46,
+   "t": 23.54,
    "texte": "White blocks with the queen."
   },
   {
@@ -52,11 +52,11 @@
    "texte": "The queen grabs the rook check!"
   },
   {
-   "t": 28.44,
+   "t": 28.46,
    "texte": "White blocks again."
   },
   {
-   "t": 30.27,
+   "t": 30.28,
    "texte": "You trade the queens and the king takes back."
   },
   {
@@ -68,7 +68,7 @@
    "texte": "A full rook up!"
   },
   {
-   "t": 38.64,
+   "t": 38.62,
    "texte": "Check first, recapture later."
   }
  ],
@@ -94,7 +94,7 @@
    "badge": null
   },
   {
-   "t": 26.14,
+   "t": 26.12,
    "coup": "Qxa1+",
    "badge": null
   },
@@ -104,7 +104,7 @@
    "badge": null
   },
   {
-   "t": 31.04,
+   "t": 30.58,
    "coup": "Qxd1+",
    "badge": null
   },
@@ -114,7 +114,7 @@
    "badge": null
   },
   {
-   "t": 35.18,
+   "t": 35.2,
    "coup": "gxf6",
    "badge": null
   }

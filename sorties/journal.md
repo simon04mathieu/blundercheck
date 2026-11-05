@@ -595,3 +595,6 @@
 ### commandes/perso_dame_pion_1_fr.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/dame_pion_1_fr.mp4 {"voix_brute_s": 33.9, "tempo": 1.0, "video_s": 35.6, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 88, "minutage": "15 phrases, 7 coups, 1 pauses"}
+### commandes/perso_nimzo_intermezzo_1.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/nimzo_intermezzo_1.mp4 {"voix_brute_s": 39.8, "tempo": 1.0, "video_s": 41.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 89, "minutage": "15 phrases, 9 coups, 1 pauses"}
