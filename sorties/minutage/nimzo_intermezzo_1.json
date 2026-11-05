@@ -1,0 +1,129 @@
+{
+ "nom": "nimzo_intermezzo_1",
+ "tempo": 1.0,
+ "duree_s": 40.84,
+ "hook": {
+  "texte": "Don't recapture.|Check first!",
+  "fin": 2.24
+ },
+ "question": {
+  "texte": "Would you have|recaptured?",
+  "t": 37.64
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "White just took your knight."
+  },
+  {
+   "t": 2.24,
+   "texte": "Take back, and it's equal."
+  },
+  {
+   "t": 4.26,
+   "texte": "But look at that white knight pinned to the king and attacked twice."
+  },
+  {
+   "t": 9.14,
+   "texte": "Can you win more?"
+  },
+  {
+   "t": 11.82,
+   "texte": "Follow: one new trap every day."
+  },
+  {
+   "t": 15.08,
+   "texte": "The bishop takes check!"
+  },
+  {
+   "t": 17.5,
+   "texte": "The pawn takes back."
+  },
+  {
+   "t": 19.64,
+   "texte": "The queen takes check, and she hits the rook too."
+  },
+  {
+   "t": 23.46,
+   "texte": "White blocks with the queen."
+  },
+  {
+   "t": 25.68,
+   "texte": "The queen grabs the rook check!"
+  },
+  {
+   "t": 28.44,
+   "texte": "White blocks again."
+  },
+  {
+   "t": 30.27,
+   "texte": "You trade the queens and the king takes back."
+  },
+  {
+   "t": 33.9,
+   "texte": "Only now, you take back the bishop."
+  },
+  {
+   "t": 36.74,
+   "texte": "A full rook up!"
+  },
+  {
+   "t": 38.64,
+   "texte": "Check first, recapture later."
+  }
+ ],
+ "coups": [
+  {
+   "t": 15.52,
+   "coup": "Bxc3+",
+   "badge": "brillant"
+  },
+  {
+   "t": 17.98,
+   "coup": "bxc3",
+   "badge": null
+  },
+  {
+   "t": 20.04,
+   "coup": "Qxc3+",
+   "badge": "brillant"
+  },
+  {
+   "t": 24.12,
+   "coup": "Qd2",
+   "badge": null
+  },
+  {
+   "t": 26.14,
+   "coup": "Qxa1+",
+   "badge": null
+  },
+  {
+   "t": 28.8,
+   "coup": "Qd1",
+   "badge": null
+  },
+  {
+   "t": 31.04,
+   "coup": "Qxd1+",
+   "badge": null
+  },
+  {
+   "t": 32.22,
+   "coup": "Kxd1",
+   "badge": null
+  },
+  {
+   "t": 35.18,
+   "coup": "gxf6",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 10.8,
+   "duree": 1.0,
+   "texte": "Find it!"
+  }
+ ]
+}

@@ -578,3 +578,6 @@
 ### commandes/perso_echange_pions_1.json
     voix générée : 369 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/echange_pions_1.mp4 {"voix_brute_s": 31.2, "tempo": 1.0, "video_s": 32.7, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 71, "minutage": "14 phrases, 7 coups, 1 pauses"}
+### commandes/perso_nimzo_intermezzo_1.json
+    voix générée : 484 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/nimzo_intermezzo_1.mp4 {"voix_brute_s": 39.8, "tempo": 1.0, "video_s": 41.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 89, "minutage": "15 phrases, 9 coups, 1 pauses"}
