@@ -86,3 +86,5 @@
 {"reseau": "facebook", "id": "1003544689443813", "ok": true}
 ### 2026-11-04 20:03 publications/facebook/evergreen_1.json
 {"reseau": "facebook", "id": "1488338839827640", "ok": true}
+### 2026-11-05 14:52 publications/facebook/dame_pion_1.json
+{"reseau": "facebook", "id": "1131070569897791", "ok": true}
