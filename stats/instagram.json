@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-04T17:31:05Z",
+ "releve": "2026-11-05T17:37:14Z",
  "compte": "blundercheckapp",
- "abonnes": 2,
+ "abonnes": 1,
  "publications": [
+  {
+   "id": "18091972529700538",
+   "caption": "Il a pris ton cavalier. Ne reprends pas ! 😈 Tu aurais repris ? 👇 Piège de vraies",
+   "comments_count": 0,
+   "like_count": 1,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfXbP33lAor/",
+   "timestamp": "2026-11-05T16:09:05+0000",
+   "insights": {
+    "views": 140,
+    "reach": 114,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1
+   }
+  },
+  {
+   "id": "18211545955367206",
+   "caption": "Ton roi peut-il rattraper les deux pions ? 🤯 Tu aurais trouvé Rg7 ? 👇 Étude de R",
+   "comments_count": 0,
+   "like_count": 1,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfVRQl2CdhK/",
+   "timestamp": "2026-11-04T20:03:15+0000",
+   "insights": {
+    "views": 173,
+    "reach": 131,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1
+   }
+  },
   {
    "id": "18111208796197463",
    "caption": "Les Blancs roquent : peux-tu gagner une pièce ? 😈 Tu aurais vu Cxd5 ? 👇 Piège de",
@@ -12,8 +44,8 @@
    "permalink": "https://www.instagram.com/reel/DfU7OLtmaJG/",
    "timestamp": "2026-11-04T16:50:59+0000",
    "insights": {
-    "views": 126,
-    "reach": 0,
+    "views": 209,
+    "reach": 148,
     "shares": 0,
     "saved": 0,
     "total_interactions": 1
