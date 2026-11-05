@@ -494,3 +494,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "47"}
 ### 2026-11-05 20:36 publications/youtube/echange_pions_1.json
 {"id": "f_xUYKmZWhg", "url": "https://www.youtube.com/shorts/f_xUYKmZWhg", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "47"}
