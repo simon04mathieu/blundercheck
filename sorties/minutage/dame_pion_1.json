@@ -1,14 +1,14 @@
 {
  "nom": "dame_pion_1",
  "tempo": 1.0,
- "duree_s": 35.8,
+ "duree_s": 35.78,
  "hook": {
   "texte": "Queen vs pawn.|Can White win?",
   "fin": 1.84
  },
  "question": {
   "texte": "Would you have|taken the pawn?",
-  "t": 32.6
+  "t": 32.58
  },
  "phrases": [
   {
@@ -24,11 +24,11 @@
    "texte": "Can White win?"
   },
   {
-   "t": 8.1,
+   "t": 8.12,
    "texte": "Follow: one new endgame trick every day."
   },
   {
-   "t": 12.48,
+   "t": 12.52,
    "texte": "Check!"
   },
   {
@@ -36,7 +36,7 @@
    "texte": "The king runs."
   },
   {
-   "t": 15.06,
+   "t": 15.08,
    "texte": "Check again!"
   },
   {
@@ -48,7 +48,7 @@
    "texte": "Now, take the pawn?"
   },
   {
-   "t": 20.2,
+   "t": 20.18,
    "texte": "Stalemate!"
   },
   {
@@ -56,11 +56,11 @@
    "texte": "Black has no legal move."
   },
   {
-   "t": 23.58,
+   "t": 23.6,
    "texte": "So White brings the king closer instead."
   },
   {
-   "t": 25.58,
+   "t": 26.32,
    "texte": "But now the pawn queens."
   },
   {
@@ -68,13 +68,13 @@
    "texte": "Queen against queen a draw!"
   },
   {
-   "t": 31.52,
+   "t": 31.58,
    "texte": "With a bishop's pawn the corner saves Black when the enemy king is far."
   }
  ],
  "coups": [
   {
-   "t": 12.48,
+   "t": 11.24,
    "coup": "Qd5+",
    "badge": null
   },
@@ -89,12 +89,12 @@
    "badge": null
   },
   {
-   "t": 16.66,
+   "t": 16.94,
    "coup": "Ka1",
    "badge": null
   },
   {
-   "t": 18.66,
+   "t": 18.82,
    "coup": "Qxc2",
    "badge": "gaffe"
   },
@@ -111,7 +111,7 @@
  ],
  "pauses": [
   {
-   "t": 7.08,
+   "t": 7.1,
    "duree": 1.0,
    "texte": "Win?"
   }

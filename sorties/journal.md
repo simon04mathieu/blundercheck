@@ -587,3 +587,8 @@
 ### commandes/perso_petrov_cavalier_mat3_1.json
     voix générée : 375 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/petrov_cavalier_mat3_1.mp4 {"voix_brute_s": 30.5, "tempo": 1.0, "video_s": 32.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 70, "minutage": "12 phrases, 5 coups, 1 pauses"}
+## 2026-11-05 00:35 UTC · run 41942351016
+### commandes/perso_dame_pion_1.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/dame_pion_1.mp4 {"voix_brute_s": 34.8, "tempo": 1.0, "video_s": 36.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 76, "minutage": "15 phrases, 7 coups, 1 pauses"}
