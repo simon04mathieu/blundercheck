@@ -481,3 +481,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "47"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "47"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "47"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "47"}
+### 2026-11-05 16:53 publications/youtube/nimzo_intermezzo_1.json
+{"id": "nIDoALygKmg", "url": "https://www.youtube.com/shorts/nIDoALygKmg", "statut": "public", "publier_le": null}
