@@ -1,5 +1,5 @@
 {
- "date": "2026-11-05T16:53:27.748164+00:00",
+ "date": "2026-11-05T17:12:01.431981+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,12 +7,21 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "nIDoALygKmg": {
+   "titre": "He took your knight. Recapture? Look first! ♟️ #chess #shorts",
+   "publiee": "2026-11-05T16:53:47Z",
+   "statut": "public",
+   "duree": "PT42S",
+   "vues": 8,
+   "jaime": 1,
+   "commentaires": 0
+  },
   "8nR8vIW-5gc": {
    "titre": "A queen against a pawn. Can White win? ♟️ #chess #shorts",
    "publiee": "2026-11-05T14:25:17Z",
    "statut": "public",
    "duree": "PT37S",
-   "vues": 364,
+   "vues": 469,
    "jaime": 2,
    "commentaires": 0
   },
@@ -21,7 +30,7 @@
    "publiee": "2026-11-04T20:39:55Z",
    "statut": "public",
    "duree": "PT46S",
-   "vues": 3833,
+   "vues": 3846,
    "jaime": 104,
    "commentaires": 1
   },
@@ -30,7 +39,7 @@
    "publiee": "2026-11-04T18:41:53Z",
    "statut": "public",
    "duree": "PT39S",
-   "vues": 1140,
+   "vues": 1136,
    "jaime": 8,
    "commentaires": 1
   },
@@ -39,8 +48,8 @@
    "publiee": "2026-11-04T16:42:28Z",
    "statut": "public",
    "duree": "PT44S",
-   "vues": 1751,
-   "jaime": 29,
+   "vues": 1768,
+   "jaime": 31,
    "commentaires": 0
   },
   "ImGAEHvu478": {
@@ -48,7 +57,7 @@
    "publiee": "2026-11-04T14:16:54Z",
    "statut": "public",
    "duree": "PT35S",
-   "vues": 1163,
+   "vues": 1129,
    "jaime": 7,
    "commentaires": 3
   },
@@ -57,8 +66,8 @@
    "publiee": "2026-11-03T20:33:54Z",
    "statut": "public",
    "duree": "PT37S",
-   "vues": 1148,
-   "jaime": 9,
+   "vues": 1110,
+   "jaime": 8,
    "commentaires": 1
   },
   "8vGKsd8-05w": {
@@ -66,8 +75,8 @@
    "publiee": "2026-11-03T18:33:59Z",
    "statut": "public",
    "duree": "PT33S",
-   "vues": 1386,
-   "jaime": 10,
+   "vues": 1364,
+   "jaime": 9,
    "commentaires": 0
   },
   "loRGPdwzAKo": {
@@ -75,7 +84,7 @@
    "publiee": "2026-11-03T14:13:46Z",
    "statut": "public",
    "duree": "PT31S",
-   "vues": 1300,
+   "vues": 1284,
    "jaime": 10,
    "commentaires": 1
   },
@@ -84,7 +93,7 @@
    "publiee": "2026-11-02T20:44:32Z",
    "statut": "public",
    "duree": "PT21S",
-   "vues": 2661,
+   "vues": 2660,
    "jaime": 13,
    "commentaires": 1
   },
@@ -102,7 +111,7 @@
    "publiee": "2026-11-02T17:02:34Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 8844,
+   "vues": 8840,
    "jaime": 81,
    "commentaires": 0
   },
@@ -129,7 +138,7 @@
    "publiee": "2026-11-01T16:39:14Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 1112,
+   "vues": 1114,
    "jaime": 4,
    "commentaires": 0
   },
@@ -354,7 +363,7 @@
    "publiee": "2026-10-26T14:46:54Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 964,
+   "vues": 965,
    "jaime": 7,
    "commentaires": 1
   },
