@@ -1,0 +1,28 @@
+{
+ "legende": "He took your knight. Recapture? Look first! 😈 Would you have recaptured? 👇 Real-game trap (Nimzo-Indian): seen in 3 real Lichess games. One new trap every day.\n\nAnalyze your own game, free: link in bio\n\n#chess #chesspuzzle #chesstactics",
+ "envoyer_apres": "2026-11-05T17:00:00+01:00",
+ "fichier": "sorties/nimzo_intermezzo_1.mp4",
+ "concept": "nimzo_intermezzo",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "T11-série",
+ "duree": 40.84,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "piege",
+  "langue": "en",
+  "duree_s": 41,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T11-série",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "coup_intermediaire_cloue",
+  "niveau": 1052,
+  "hook": "question",
+  "interet": "tour_gagnee_au_lieu_de_reprendre"
+ }
+}

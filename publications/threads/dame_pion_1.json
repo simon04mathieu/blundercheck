@@ -1,0 +1,28 @@
+{
+ "legende": "A queen against a pawn. Can White win? 🤯 Would you have taken the pawn? 👇 Queen vs bishop's pawn on the 7th: a textbook draw (checked with Stockfish). One new endgame trick every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=threads-en\n\n#chess #chesspuzzle #chesstactics",
+ "envoyer_apres": "2026-11-05T15:00:00+01:00",
+ "fichier": "sorties/dame_pion_1.mp4",
+ "concept": "dame_pion",
+ "format": "FINALE",
+ "langue": "en",
+ "test": "T16-finale",
+ "duree": 35.78,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 36,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T16-finale",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "forteresse_pion_fou_pat",
+  "niveau": "theorie classique",
+  "hook": "question",
+  "interet": "dame_ne_gagne_pas"
+ }
+}

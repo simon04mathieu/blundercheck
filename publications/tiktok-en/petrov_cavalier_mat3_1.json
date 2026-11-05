@@ -1,0 +1,32 @@
+{
+ "legende": "White hid his king. Black mates in 3! 😈 Would you have sacrificed the knight? 👇 Seen in 3 real Lichess games (Petrov, puzzle rated ~1840). One new trap every day. #chess #chesstok",
+ "envoyer_apres": "2026-11-05T08:00:00+01:00",
+ "heure_conseillee": "2026-11-05T19:00:00+01:00",
+ "repere": "19 h · petrov_cavalier_mat3_1 · 31.58 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/petrov_cavalier_mat3_1.mp4",
+ "concept": "petrov_mat3",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "T11-série",
+ "duree": 31.58,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 32,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T11-série",
+  "variante": "B",
+  "appel_site": "oui",
+  "fin": "follow_avant_reponse",
+  "motif": "sacrifice_cavalier_mat_dame_fou_garde",
+  "niveau": 1841,
+  "hook": "question",
+  "interet": "fou_lointain_ferme_la_case"
+ }
+}

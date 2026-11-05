@@ -1,0 +1,33 @@
+{
+ "legende": "Il a pris ton cavalier. Ne reprends pas ! 😈 Tu aurais repris ? 👇 Piège de vraies parties (Nimzo-Indienne) : vu dans 3 parties réelles sur Lichess. Abonne-toi : un piège par jour. #echecs #chess #piege #echecsfr",
+ "envoyer_apres": "2026-11-05T08:00:00+01:00",
+ "heure_conseillee": "2026-11-05T17:00:00+01:00",
+ "repere": "17 h · nimzo_intermezzo_1_fr · 43.88 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/nimzo_intermezzo_1_fr.mp4",
+ "concept": "nimzo_intermezzo",
+ "format": "PIGEON",
+ "langue": "fr",
+ "paire": "nimzo_intermezzo_1",
+ "test": "T13-fin-quiz",
+ "duree": 43.88,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "piege",
+  "langue": "fr",
+  "duree_s": 44,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T13-fin-quiz",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "coup_intermediaire_cloue",
+  "niveau": 1052,
+  "hook": "question",
+  "interet": "tour_gagnee_au_lieu_de_reprendre"
+ }
+}

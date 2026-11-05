@@ -1,0 +1,35 @@
+{
+ "titre": "White hid his king. Black mates in 3! ♟️ #chess #shorts",
+ "description": "Petrov Defense: White tucks the king in the corner. Knight sacrifice with check, the pawn must take because the bishop covers the other square, then the queen checks and mates. Seen in 3 real Lichess games (puzzle rated ~1840). Would you have sacrificed the knight? 👇\n\nAnalyze your own game, free: https://blundercheck.app/try?src=youtube-en\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess tactics",
+  "mate in 3",
+  "petrov defense"
+ ],
+ "envoyer_apres": "2026-11-05T19:00:00+01:00",
+ "fichier": "sorties/petrov_cavalier_mat3_1.mp4",
+ "concept": "petrov_mat3",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "T11-série",
+ "duree": 31.58,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 32,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T11-série",
+  "variante": "B",
+  "appel_site": "oui",
+  "fin": "follow_avant_reponse",
+  "motif": "sacrifice_cavalier_mat_dame_fou_garde",
+  "niveau": 1841,
+  "hook": "question",
+  "interet": "fou_lointain_ferme_la_case"
+ }
+}

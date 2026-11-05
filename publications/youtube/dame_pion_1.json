@@ -1,0 +1,35 @@
+{
+ "titre": "A queen against a pawn. Can White win? ♟️ #chess #shorts",
+ "description": "White has a queen, Black only a pawn one step from queening. White checks, the king runs to the corner, and taking the pawn is stalemate. Bring the king closer? Black queens. A bishop's pawn on the 7th with the king in the corner is a textbook draw when the enemy king is far. Would you have taken the pawn? 👇\n\nAnalyze your own game, free: https://blundercheck.app/try?src=youtube-en\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess endgame",
+  "queen vs pawn",
+  "stalemate"
+ ],
+ "envoyer_apres": "2026-11-05T15:00:00+01:00",
+ "fichier": "sorties/dame_pion_1.mp4",
+ "concept": "dame_pion",
+ "format": "FINALE",
+ "langue": "en",
+ "test": "T16-finale",
+ "duree": 35.78,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 36,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T16-finale",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "forteresse_pion_fou_pat",
+  "niveau": "theorie classique",
+  "hook": "question",
+  "interet": "dame_ne_gagne_pas"
+ }
+}

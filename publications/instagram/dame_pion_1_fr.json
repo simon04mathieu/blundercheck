@@ -1,0 +1,29 @@
+{
+ "legende": "Une dame contre un pion. Les Blancs gagnent-ils ? 🤯 Tu aurais pris le pion ? 👇 Dame contre pion de fou : une nulle classique (vérifiée avec Stockfish). Une astuce de finale par jour.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #finale #echecsfr",
+ "envoyer_apres": "2026-11-05T21:00:00+01:00",
+ "fichier": "sorties/dame_pion_1_fr.mp4",
+ "concept": "dame_pion",
+ "format": "FINALE",
+ "langue": "fr",
+ "paire": "dame_pion_1",
+ "test": "T13-fin-quiz",
+ "duree": 34.98,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "fr",
+  "duree_s": 35,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T13-fin-quiz",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "forteresse_pion_fou_pat",
+  "niveau": "theorie classique",
+  "hook": "question",
+  "interet": "dame_ne_gagne_pas"
+ }
+}

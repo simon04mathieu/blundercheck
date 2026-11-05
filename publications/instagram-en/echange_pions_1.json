@@ -1,0 +1,28 @@
+{
+ "legende": "Your rook is attacked twice. Don't run! 🤯 Would you have grabbed the pawn? 👇 Composed position, checked with Stockfish. One new idea every day.\n\nAnalyze your own game, free: link in bio\n\n#chess #chesspuzzle #chesstactics",
+ "envoyer_apres": "2026-11-05T21:00:00+01:00",
+ "fichier": "sorties/echange_pions_1.mp4",
+ "concept": "echange_pions",
+ "format": "STRATEGIE",
+ "langue": "en",
+ "test": "aucun",
+ "duree": 32.1,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "STRATEGIE",
+  "categorie": "strategie",
+  "langue": "en",
+  "duree_s": 32,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "aucun",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "echange_tours_pion_passe_loin",
+  "niveau": "position composee 1500-1800",
+  "hook": "question",
+  "interet": "echanger_puis_compter"
+ }
+}
