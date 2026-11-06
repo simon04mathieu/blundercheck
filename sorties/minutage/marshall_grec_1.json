@@ -1,14 +1,14 @@
 {
  "nom": "marshall_grec_1",
  "tempo": 1.0,
- "duree_s": 46.54,
+ "duree_s": 46.52,
  "hook": {
   "texte": "Castle?|Greek gift!",
-  "fin": 3.06
+  "fin": 3.04
  },
  "question": {
   "texte": "Would you sacrifice|the bishop?",
-  "t": 43.34
+  "t": 43.32
  },
  "phrases": [
   {
@@ -20,7 +20,7 @@
    "texte": "Looks safe?"
   },
   {
-   "t": 3.06,
+   "t": 3.04,
    "texte": "No knight on f6 guards h7."
   },
   {
@@ -36,7 +36,7 @@
    "texte": "Bishop takes h7 check!"
   },
   {
-   "t": 14.52,
+   "t": 14.48,
    "texte": "The king takes it."
   },
   {
@@ -44,7 +44,7 @@
    "texte": "The knight checks!"
   },
   {
-   "t": 17.76,
+   "t": 17.8,
    "texte": "The king steps back."
   },
   {
@@ -64,19 +64,19 @@
    "texte": "The king runs away."
   },
   {
-   "t": 27.24,
+   "t": 27.12,
    "texte": "Check again!"
   },
   {
-   "t": 28.58,
+   "t": 28.72,
    "texte": "A knight blocks."
   },
   {
-   "t": 30.22,
+   "t": 30.3,
    "texte": "The other knight checks!"
   },
   {
-   "t": 32.2,
+   "t": 32.22,
    "texte": "The king steps out."
   },
   {
@@ -84,11 +84,11 @@
    "texte": "Now the bishop checks with the queen behind!"
   },
   {
-   "t": 37.42,
+   "t": 37.4,
    "texte": "The king hides the bishop takes the queen and the rook takes back."
   },
   {
-   "t": 42.02,
+   "t": 41.92,
    "texte": "Pawn on e5 knight to g5 the sacrifice works."
   }
  ],
@@ -139,7 +139,7 @@
    "badge": null
   },
   {
-   "t": 27.46,
+   "t": 27.44,
    "coup": "Qh8+",
    "badge": null
   },
@@ -159,17 +159,17 @@
    "badge": null
   },
   {
-   "t": 34.7,
+   "t": 34.72,
    "coup": "Bg5+",
    "badge": "brillant"
   },
   {
-   "t": 37.74,
+   "t": 37.4,
    "coup": "Kd7",
    "badge": null
   },
   {
-   "t": 38.9,
+   "t": 38.88,
    "coup": "Bxd8",
    "badge": null
   },
