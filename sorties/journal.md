@@ -601,3 +601,8 @@
 ### commandes/perso_nimzo_intermezzo_1_fr.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/nimzo_intermezzo_1_fr.mp4 {"voix_brute_s": 42.8, "tempo": 1.0, "video_s": 44.5, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 103, "minutage": "15 phrases, 9 coups, 1 pauses"}
+## 2026-11-06 00:13 UTC · run 42135118167
+### commandes/perso_deepblue_g6_1.json
+    voix générée : 635 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/deepblue_g6_1.mp4 {"voix_brute_s": 55.1, "tempo": 1.0, "video_s": 56.5, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 112, "minutage": "23 phrases, 24 coups, 1 pauses"}
