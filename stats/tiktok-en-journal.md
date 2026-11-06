@@ -429,3 +429,12 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 24, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-06 08:33 publications/tiktok-en/deepblue_g6_1.json
+{"publish_id": "v_inbox_file~v2.7704973468219000854", "mode": "brouillon", "vie_privee": null, "legende": "Kasparov played h6. Would you sacrifice the knight? 🤯 Would you have taken on e6? 👇 Deep Blue – Kasparov, game 6, New York, 11 May 1997: the game that ended the match. Some think Kasparov mixed up his move order; the sacrifice was already known in theory. One new chess story every day. #chess #chesstok"}
+### 2026-11-06 08:33 publications/tiktok-en/finale_lucena_1.json
+{"publish_id": "v_inbox_file~v2.7704973314707834883", "mode": "brouillon", "vie_privee": null, "legende": "Can White queen the pawn? 🌉 Could you build the bridge? 👇 The Lucena position, the most famous rook endgame. One new endgame trick every day. #chess #chesstok"}
+### 2026-11-06 08:33 publications/tiktok-en/marshall_grec_1.json
+{"publish_id": "v_inbox_file~v2.7704973314707998723", "mode": "brouillon", "vie_privee": null, "legende": "Black castles. What does White play? 🔥 Would you have sacrificed the bishop? 👇 Seen in 4 real Lichess games (Sicilian Marshall Gambit, puzzle rated ~1490). One new trap every day. #chess #chesstok"}
+### 2026-11-06 08:33 publications/tiktok-en/scandi_degagement_1.json
+{"publish_id": "v_inbox_file~v2.7704973468219099158", "mode": "brouillon", "vie_privee": null, "legende": "Her queen went to a4. Can you punish it? 😈 Would you have found the knight check? 👇 Seen in 3 real Lichess games (Scandinavian, puzzle rated ~1650). One new trap every day. #chess #chesstok"}
