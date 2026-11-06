@@ -94,3 +94,5 @@
 {"reseau": "facebook", "id": "1148019784409840", "ok": true}
 ### 2026-11-05 20:43 publications/facebook/echange_pions_1.json
 {"reseau": "facebook", "id": "1141371241921486", "ok": true}
+### 2026-11-06 14:23 publications/facebook/deepblue_g6_1.json
+{"reseau": "facebook", "id": "1025101927271987", "ok": true}
