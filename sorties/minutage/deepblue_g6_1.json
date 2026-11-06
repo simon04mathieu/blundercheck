@@ -4,7 +4,7 @@
  "duree_s": 55.88,
  "hook": {
   "texte": "Kasparov. Move seven.|h6?",
-  "fin": 7.0
+  "fin": 6.98
  },
  "question": {
   "texte": "Would you take|the knight?",
@@ -20,7 +20,7 @@
    "texte": "He plays h6."
   },
   {
-   "t": 7.0,
+   "t": 6.98,
    "texte": "See the punishment?"
   },
   {
@@ -32,7 +32,7 @@
    "texte": "The knight takes!"
   },
   {
-   "t": 14.68,
+   "t": 14.7,
    "texte": "The queen steps aside."
   },
   {
@@ -48,11 +48,11 @@
    "texte": "Bishop check!"
   },
   {
-   "t": 23.66,
+   "t": 23.68,
    "texte": "The king runs."
   },
   {
-   "t": 25.08,
+   "t": 25.1,
    "texte": "A bishop comes out."
   },
   {
@@ -60,7 +60,7 @@
    "texte": "Black pushes, White hits back."
   },
   {
-   "t": 29.38,
+   "t": 29.39,
    "texte": "The bishop develops."
   },
   {
@@ -84,7 +84,7 @@
    "texte": "White opens a file Black takes back."
   },
   {
-   "t": 41.66,
+   "t": 41.64,
    "texte": "The queen comes in."
   },
   {
@@ -100,7 +100,7 @@
    "texte": "Black takes, the file opens and the rook takes the queen!"
   },
   {
-   "t": 51.86,
+   "t": 51.9,
    "texte": "The bishop takes back the pawn pushes and Kasparov resigned."
   }
  ],
@@ -121,7 +121,7 @@
    "badge": null
   },
   {
-   "t": 16.82,
+   "t": 16.58,
    "coup": "O-O",
    "badge": null
   },
@@ -131,7 +131,7 @@
    "badge": null
   },
   {
-   "t": 22.6,
+   "t": 22.62,
    "coup": "Bg6+",
    "badge": "brillant"
   },
@@ -146,12 +146,12 @@
    "badge": null
   },
   {
-   "t": 27.08,
+   "t": 26.78,
    "coup": "b5",
    "badge": null
   },
   {
-   "t": 28.2,
+   "t": 28.18,
    "coup": "a4",
    "badge": null
   },
@@ -201,7 +201,7 @@
    "badge": null
   },
   {
-   "t": 45.66,
+   "t": 45.64,
    "coup": "Bf5",
    "badge": "brillant"
   },
