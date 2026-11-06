@@ -520,3 +520,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "50"}
 ### 2026-11-06 16:38 publications/youtube/finale_lucena_1.json
 {"id": "aKGyYoAo9GE", "url": "https://www.youtube.com/shorts/aKGyYoAo9GE", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "51"}
