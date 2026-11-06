@@ -1,0 +1,98 @@
+{
+ "nom": "scandi_degagement_1_fr",
+ "tempo": 1.0,
+ "duree_s": 36.42,
+ "hook": {
+  "texte": "Roi et dame|sur une ligne...",
+  "fin": 2.44
+ },
+ "question": {
+  "texte": "Tu l'aurais|vu ?",
+  "t": 33.22
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "La dame noire vient attaquer ton fou."
+  },
+  {
+   "t": 2.44,
+   "texte": "Mais regarde  le roi et la dame sont sur la même diagonale et seul ton cavalier gêne."
+  },
+  {
+   "t": 9.2,
+   "texte": "Tu vois le coup des Blancs ?"
+  },
+  {
+   "t": 12.4,
+   "texte": "Abonne-toi : un piège par jour."
+  },
+  {
+   "t": 16.28,
+   "texte": "Cavalier, échec !"
+  },
+  {
+   "t": 18.46,
+   "texte": "Il libère la case et les Noirs le prennent."
+  },
+  {
+   "t": 21.7,
+   "texte": "Puis le fou donne échec et vise aussi la dame !"
+  },
+  {
+   "t": 25.98,
+   "texte": "La dame prend et ta dame reprend."
+  },
+  {
+   "t": 29.08,
+   "texte": "Une dame pour un cavalier et un fou !"
+  },
+  {
+   "t": 32.76,
+   "texte": "Roi et dame sur une ligne ?"
+  },
+  {
+   "t": 35.1,
+   "texte": "Cherche l'échec."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.62,
+   "coup": "Qa4",
+   "badge": "gaffe"
+  },
+  {
+   "t": 16.88,
+   "coup": "Nd6+",
+   "badge": "brillant"
+  },
+  {
+   "t": 20.2,
+   "coup": "exd6",
+   "badge": null
+  },
+  {
+   "t": 22.42,
+   "coup": "Bb5+",
+   "badge": "brillant"
+  },
+  {
+   "t": 26.6,
+   "coup": "Qxb5",
+   "badge": null
+  },
+  {
+   "t": 27.88,
+   "coup": "Qxb5+",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 11.38,
+   "duree": 1.0,
+   "texte": "Trouve-le !"
+  }
+ ]
+}
