@@ -100,3 +100,5 @@
 {"reseau": "facebook", "id": "1443102551260510", "ok": true}
 ### 2026-11-06 18:45 publications/facebook/scandi_degagement_1.json
 {"reseau": "facebook", "id": "979013031933646", "ok": true}
+### 2026-11-06 20:41 publications/facebook/marshall_grec_1.json
+{"reseau": "facebook", "id": "2346164959500336", "ok": true}

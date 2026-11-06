@@ -75,3 +75,5 @@
 {"reseau": "instagram", "id": "18100061084408741"}
 ### 2026-11-06 16:46 publications/instagram/scandi_degagement_1_fr.json
 {"reseau": "instagram", "id": "18120259432959008"}
+### 2026-11-06 20:41 publications/instagram/finale_lucena_1_fr.json
+{"reseau": "instagram", "id": "18080362817729460"}
