@@ -4,7 +4,7 @@
  "duree_s": 42.08,
  "hook": {
   "texte": "Rook endgame.|Can White win?",
-  "fin": 4.8
+  "fin": 4.82
  },
  "question": {
   "texte": "Could you build|the bridge?",
@@ -16,11 +16,11 @@
    "texte": "White's pawn is one step from queening, but its own king is in the way."
   },
   {
-   "t": 4.8,
+   "t": 4.82,
    "texte": "Can White win?"
   },
   {
-   "t": 7.54,
+   "t": 7.56,
    "texte": "Follow: one new endgame trick every day."
   },
   {
@@ -28,7 +28,7 @@
    "texte": "Rook check, the king is pushed away."
   },
   {
-   "t": 14.44,
+   "t": 14.46,
    "texte": "Now the key the rook goes to the fourth rank."
   },
   {
@@ -56,7 +56,7 @@
    "texte": "Check once more the king goes on."
   },
   {
-   "t": 31.62,
+   "t": 31.6,
    "texte": "One more check and the rook blocks!"
   },
   {
@@ -68,13 +68,13 @@
    "texte": "Too late for Black the pawn queens!"
   },
   {
-   "t": 41.08,
+   "t": 41.1,
    "texte": "Build the bridge."
   }
  ],
  "coups": [
   {
-   "t": 11.9,
+   "t": 11.58,
    "coup": "Rd1+",
    "badge": "brillant"
   },
@@ -109,7 +109,7 @@
    "badge": null
   },
   {
-   "t": 26.04,
+   "t": 25.78,
    "coup": "Rb1+",
    "badge": null
   },
@@ -129,17 +129,17 @@
    "badge": null
   },
   {
-   "t": 32.0,
+   "t": 31.78,
    "coup": "Rb1+",
    "badge": null
   },
   {
-   "t": 33.14,
+   "t": 33.12,
    "coup": "Rb4",
    "badge": "brillant"
   },
   {
-   "t": 35.04,
+   "t": 34.72,
    "coup": "Rxb4+",
    "badge": null
   },
@@ -161,7 +161,7 @@
  ],
  "pauses": [
   {
-   "t": 6.52,
+   "t": 6.54,
    "duree": 1.0,
    "texte": "Win?"
   }
