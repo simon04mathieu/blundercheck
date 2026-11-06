@@ -523,3 +523,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "51"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "51"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "51"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "51"}
+### 2026-11-06 18:37 publications/youtube/scandi_degagement_1.json
+{"id": "52LtX4fSKyw", "url": "https://www.youtube.com/shorts/52LtX4fSKyw", "statut": "public", "publier_le": null}
