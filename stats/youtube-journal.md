@@ -529,3 +529,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "51"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "52"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "53"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "54"}
+### 2026-11-06 20:34 publications/youtube/marshall_grec_1.json
+{"id": "yRfAQhfQLBw", "url": "https://www.youtube.com/shorts/yRfAQhfQLBw", "statut": "public", "publier_le": null}
