@@ -20,7 +20,7 @@
    "texte": "But look: king and queen on one diagonal, and only your knight is in the way."
   },
   {
-   "t": 8.4,
+   "t": 8.38,
    "texte": "Can you see White's move?"
   },
   {
@@ -59,17 +59,17 @@
    "badge": "gaffe"
   },
   {
-   "t": 15.18,
+   "t": 14.74,
    "coup": "Nd6+",
    "badge": "brillant"
   },
   {
-   "t": 17.78,
+   "t": 17.54,
    "coup": "exd6",
    "badge": null
   },
   {
-   "t": 19.54,
+   "t": 20.2,
    "coup": "Bb5+",
    "badge": "brillant"
   },
@@ -79,7 +79,7 @@
    "badge": null
   },
   {
-   "t": 23.96,
+   "t": 25.62,
    "coup": "Qxb5+",
    "badge": null
   }
