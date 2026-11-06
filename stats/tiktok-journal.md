@@ -590,3 +590,4 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"publish_id": "v_inbox_file~v2.7704973314707736579", "mode": "brouillon", "vie_privee": null, "legende": "Les Blancs gagnent ? Construis le pont ! 🌉 Tu aurais construit le pont ? 👇 La position de Lucena, la plus célèbre des finales de tours. Une astuce de finale par jour. #echecs #chess #finale #echecsfr"}
 ### 2026-11-06 08:32 publications/tiktok/scandi_degagement_1_fr.json
 {"publish_id": "v_inbox_file~v2.7704973317769857026", "mode": "brouillon", "vie_privee": null, "legende": "La dame noire va en a4. Tu la punis ? 😈 Tu l'aurais vu ? 👇 Vu dans 3 vraies parties Lichess (Scandinave, puzzle noté ~1650). Un piège par jour. #echecs #chess #echecsfr"}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 17, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}

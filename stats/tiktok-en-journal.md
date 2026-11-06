@@ -438,3 +438,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"publish_id": "v_inbox_file~v2.7704973314707998723", "mode": "brouillon", "vie_privee": null, "legende": "Black castles. What does White play? 🔥 Would you have sacrificed the bishop? 👇 Seen in 4 real Lichess games (Sicilian Marshall Gambit, puzzle rated ~1490). One new trap every day. #chess #chesstok"}
 ### 2026-11-06 08:33 publications/tiktok-en/scandi_degagement_1.json
 {"publish_id": "v_inbox_file~v2.7704973468219099158", "mode": "brouillon", "vie_privee": null, "legende": "Her queen went to a4. Can you punish it? 😈 Would you have found the knight check? 👇 Seen in 3 real Lichess games (Scandinavian, puzzle rated ~1650). One new trap every day. #chess #chesstok"}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 25, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
