@@ -1,0 +1,189 @@
+{
+ "nom": "marshall_grec_1",
+ "tempo": 1.0,
+ "duree_s": 46.54,
+ "hook": {
+  "texte": "Castle?|Greek gift!",
+  "fin": 3.06
+ },
+ "question": {
+  "texte": "Would you sacrifice|the bishop?",
+  "t": 43.34
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Black castles."
+  },
+  {
+   "t": 1.56,
+   "texte": "Looks safe?"
+  },
+  {
+   "t": 3.06,
+   "texte": "No knight on f6 guards h7."
+  },
+  {
+   "t": 5.96,
+   "texte": "Find the famous idea!"
+  },
+  {
+   "t": 8.9,
+   "texte": "Follow: one new trap every day."
+  },
+  {
+   "t": 11.84,
+   "texte": "Bishop takes h7 check!"
+  },
+  {
+   "t": 14.52,
+   "texte": "The king takes it."
+  },
+  {
+   "t": 16.08,
+   "texte": "The knight checks!"
+  },
+  {
+   "t": 17.76,
+   "texte": "The king steps back."
+  },
+  {
+   "t": 19.64,
+   "texte": "The queen comes threatening mate."
+  },
+  {
+   "t": 22.24,
+   "texte": "The rook makes room."
+  },
+  {
+   "t": 24.0,
+   "texte": "Queen check!"
+  },
+  {
+   "t": 25.4,
+   "texte": "The king runs away."
+  },
+  {
+   "t": 27.24,
+   "texte": "Check again!"
+  },
+  {
+   "t": 28.58,
+   "texte": "A knight blocks."
+  },
+  {
+   "t": 30.22,
+   "texte": "The other knight checks!"
+  },
+  {
+   "t": 32.2,
+   "texte": "The king steps out."
+  },
+  {
+   "t": 34.08,
+   "texte": "Now the bishop checks with the queen behind!"
+  },
+  {
+   "t": 37.42,
+   "texte": "The king hides the bishop takes the queen and the rook takes back."
+  },
+  {
+   "t": 42.02,
+   "texte": "Pawn on e5 knight to g5 the sacrifice works."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.3,
+   "coup": "O-O",
+   "badge": "gaffe"
+  },
+  {
+   "t": 12.14,
+   "coup": "Bxh7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 14.86,
+   "coup": "Kxh7",
+   "badge": null
+  },
+  {
+   "t": 16.5,
+   "coup": "Ng5+",
+   "badge": "brillant"
+  },
+  {
+   "t": 18.16,
+   "coup": "Kg8",
+   "badge": null
+  },
+  {
+   "t": 20.04,
+   "coup": "Qh5",
+   "badge": null
+  },
+  {
+   "t": 22.62,
+   "coup": "Re8",
+   "badge": null
+  },
+  {
+   "t": 24.36,
+   "coup": "Qh7+",
+   "badge": null
+  },
+  {
+   "t": 25.92,
+   "coup": "Kf8",
+   "badge": null
+  },
+  {
+   "t": 27.46,
+   "coup": "Qh8+",
+   "badge": null
+  },
+  {
+   "t": 29.1,
+   "coup": "Ng8",
+   "badge": null
+  },
+  {
+   "t": 30.84,
+   "coup": "Nh7+",
+   "badge": null
+  },
+  {
+   "t": 32.54,
+   "coup": "Ke7",
+   "badge": null
+  },
+  {
+   "t": 34.7,
+   "coup": "Bg5+",
+   "badge": "brillant"
+  },
+  {
+   "t": 37.74,
+   "coup": "Kd7",
+   "badge": null
+  },
+  {
+   "t": 38.9,
+   "coup": "Bxd8",
+   "badge": null
+  },
+  {
+   "t": 40.48,
+   "coup": "Rxd8",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 7.88,
+   "duree": 1.0,
+   "texte": "Find it?"
+  }
+ ]
+}
