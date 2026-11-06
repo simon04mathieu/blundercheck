@@ -615,3 +615,6 @@
 ### commandes/perso_marshall_grec_1.json
     voix générée : 516 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/marshall_grec_1.mp4 {"voix_brute_s": 45.6, "tempo": 1.0, "video_s": 47.1, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 93, "minutage": "20 phrases, 17 coups, 1 pauses"}
+### commandes/perso_scandi_degagement_1.json
+    voix générée : 389 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/scandi_degagement_1.mp4 {"voix_brute_s": 29.2, "tempo": 1.0, "video_s": 30.9, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 73, "minutage": "10 phrases, 6 coups, 1 pauses"}

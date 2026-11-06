@@ -1,0 +1,94 @@
+{
+ "nom": "scandi_degagement_1",
+ "tempo": 1.0,
+ "duree_s": 30.3,
+ "hook": {
+  "texte": "King and queen|on one line...",
+  "fin": 2.82
+ },
+ "question": {
+  "texte": "Analyze your own|game, free",
+  "t": 27.1
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Black's queen comes to attack your bishop."
+  },
+  {
+   "t": 2.82,
+   "texte": "But look: king and queen on one diagonal, and only your knight is in the way."
+  },
+  {
+   "t": 8.4,
+   "texte": "Can you see White's move?"
+  },
+  {
+   "t": 11.44,
+   "texte": "Follow: one new trap every day."
+  },
+  {
+   "t": 14.74,
+   "texte": "Knight check!"
+  },
+  {
+   "t": 16.14,
+   "texte": "It clears the square and Black takes."
+  },
+  {
+   "t": 19.02,
+   "texte": "Now bishop check hitting the king and the queen!"
+  },
+  {
+   "t": 22.4,
+   "texte": "The queen takes and your queen takes back."
+  },
+  {
+   "t": 25.62,
+   "texte": "A queen for a knight and a bishop!"
+  },
+  {
+   "t": 28.16,
+   "texte": "Analyze your own game free."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.66,
+   "coup": "Qa4",
+   "badge": "gaffe"
+  },
+  {
+   "t": 15.18,
+   "coup": "Nd6+",
+   "badge": "brillant"
+  },
+  {
+   "t": 17.78,
+   "coup": "exd6",
+   "badge": null
+  },
+  {
+   "t": 19.54,
+   "coup": "Bb5+",
+   "badge": "brillant"
+  },
+  {
+   "t": 22.76,
+   "coup": "Qxb5",
+   "badge": null
+  },
+  {
+   "t": 23.96,
+   "coup": "Qxb5+",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 10.42,
+   "duree": 1.0,
+   "texte": "Find it?"
+  }
+ ]
+}
