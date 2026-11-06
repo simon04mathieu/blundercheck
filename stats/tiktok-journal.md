@@ -592,3 +592,4 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"publish_id": "v_inbox_file~v2.7704973317769857026", "mode": "brouillon", "vie_privee": null, "legende": "La dame noire va en a4. Tu la punis ? 😈 Tu l'aurais vu ? 👇 Vu dans 3 vraies parties Lichess (Scandinave, puzzle noté ~1650). Un piège par jour. #echecs #chess #echecsfr"}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 17, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 17, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 17, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
