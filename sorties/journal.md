@@ -609,3 +609,6 @@
 ### commandes/perso_finale_lucena_1.json
     voix générée : 498 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/finale_lucena_1.mp4 {"voix_brute_s": 41.1, "tempo": 1.0, "video_s": 42.7, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 95, "minutage": "15 phrases, 17 coups, 1 pauses"}
+### commandes/perso_finale_lucena_1_fr.json
+    voix générée : 521 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/finale_lucena_1_fr.mp4 {"voix_brute_s": 42.1, "tempo": 1.0, "video_s": 43.8, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 98, "minutage": "15 phrases, 17 coups, 1 pauses"}

@@ -1,0 +1,169 @@
+{
+ "nom": "finale_lucena_1_fr",
+ "tempo": 1.0,
+ "duree_s": 43.24,
+ "hook": {
+  "texte": "Finale de tours.|Gagné ?",
+  "fin": 5.04
+ },
+ "question": {
+  "texte": "Tu aurais construit|le pont ?",
+  "t": 40.04
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Le pion blanc va faire dame mais son propre roi bloque la route."
+  },
+  {
+   "t": 5.04,
+   "texte": "Les Blancs gagnent ?"
+  },
+  {
+   "t": 7.84,
+   "texte": "Abonne-toi : une astuce de finale par jour."
+  },
+  {
+   "t": 11.42,
+   "texte": "La tour donne échec le roi est repoussé."
+  },
+  {
+   "t": 14.66,
+   "texte": "Le coup clé  la tour va sur la quatrième rangée."
+  },
+  {
+   "t": 17.84,
+   "texte": "C'est le pont !"
+  },
+  {
+   "t": 19.32,
+   "texte": "Les Noirs attendent."
+  },
+  {
+   "t": 20.58,
+   "texte": "Le roi sort."
+  },
+  {
+   "t": 22.5,
+   "texte": "Échec par derrière le roi descend."
+  },
+  {
+   "t": 25.4,
+   "texte": "Encore échec, le roi remonte."
+  },
+  {
+   "t": 28.3,
+   "texte": "Échec de nouveau le roi continue."
+  },
+  {
+   "t": 31.16,
+   "texte": "Un dernier échec et la tour s'interpose !"
+  },
+  {
+   "t": 34.98,
+   "texte": "Les tours s'échangent le roi reprend."
+  },
+  {
+   "t": 38.52,
+   "texte": "Trop tard pour les Noirs  le pion fait dame !"
+  },
+  {
+   "t": 42.05,
+   "texte": "Construis le pont."
+  }
+ ],
+ "coups": [
+  {
+   "t": 11.88,
+   "coup": "Rd1+",
+   "badge": "brillant"
+  },
+  {
+   "t": 13.3,
+   "coup": "Ke7",
+   "badge": null
+  },
+  {
+   "t": 16.12,
+   "coup": "Rd4",
+   "badge": "brillant"
+  },
+  {
+   "t": 19.62,
+   "coup": "Ra1",
+   "badge": null
+  },
+  {
+   "t": 21.06,
+   "coup": "Kc7",
+   "badge": null
+  },
+  {
+   "t": 22.94,
+   "coup": "Rc1+",
+   "badge": null
+  },
+  {
+   "t": 24.32,
+   "coup": "Kb6",
+   "badge": null
+  },
+  {
+   "t": 25.84,
+   "coup": "Rb1+",
+   "badge": null
+  },
+  {
+   "t": 27.04,
+   "coup": "Kc6",
+   "badge": null
+  },
+  {
+   "t": 28.82,
+   "coup": "Rc1+",
+   "badge": null
+  },
+  {
+   "t": 30.12,
+   "coup": "Kb5",
+   "badge": null
+  },
+  {
+   "t": 32.08,
+   "coup": "Rb1+",
+   "badge": null
+  },
+  {
+   "t": 33.34,
+   "coup": "Rb4",
+   "badge": "brillant"
+  },
+  {
+   "t": 35.78,
+   "coup": "Rxb4+",
+   "badge": null
+  },
+  {
+   "t": 37.16,
+   "coup": "Kxb4",
+   "badge": null
+  },
+  {
+   "t": 39.18,
+   "coup": "Kd7",
+   "badge": null
+  },
+  {
+   "t": 40.72,
+   "coup": "b8=Q",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 6.82,
+   "duree": 1.0,
+   "texte": "Gagné ?"
+  }
+ ]
+}
