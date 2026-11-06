@@ -511,3 +511,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "49"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "49"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "49"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "49"}
+### 2026-11-06 14:15 publications/youtube/deepblue_g6_1.json
+{"id": "ESuaELyE-l4", "url": "https://www.youtube.com/shorts/ESuaELyE-l4", "statut": "public", "publier_le": null}
