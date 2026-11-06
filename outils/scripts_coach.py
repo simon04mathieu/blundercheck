@@ -1483,3 +1483,36 @@ QUESTIONS.update({
     "petrov_cavalier_mat3_1": "Analyze your own|game, free",
     "echange_pions_1": "Would you have|grabbed the pawn?",
 })
+
+# 6/11 (Producteur) : file du Scénariste du 5/11 ; lignes vérifiées python-chess + Stockfish 16 ; « Follow / Abonne-toi » juste avant la révélation (Simon, 3/11)
+# E3 de la file (Dragon « dame sans case ») = DÉJÀ FAIT en EN (pigeon_en_17, 1/11) → remplacé par la réserve n° 4 (Scandinave, Qa4?? Nd6+! dégagement puis Bb5+)
+import re as _re
+def _lu(script):   # texte lu EN = script sans repères (cases dites telles quelles)
+    return _re.sub(r"\s+", " ", _re.sub(r"\[[^\]]*\]", "", script)).strip()
+DEEPBLUE = "fen:r1bqkb1r/pp1n1ppp/2p1pn2/6N1/3P4/3B1N2/PPP2PPP/R1BQK2R_b_KQkq_-_1_7"
+LUCENA = "fen:1K1k4/1P6/8/8/8/8/r7/2R5_w_-_-_0_1"
+SCANDI = "fen:r1b1kbnr/ppp1pppp/n7/qN5Q/8/B7/P1PP1PPP/R3KBNR_b_KQkq_-_5_7"
+MARSHALL = "fen:r1bqk2r/1p2nppp/p1n1p3/2bpP3/8/2NB1N2/PPP2PPP/R1BQ1RK1_b_kq_-_3_8"
+_S = {
+"deepblue_g6_1": ("blancs", "Kasparov. Move seven.|h6?",   # Deep Blue – Kasparov, New York, 11/5/1997, partie 6 : 7…h6 8.Nxe6 … 19.c4 1-0 ; Stockfish +1,1 → +4,6 (jamais « mat »)
+"""[p """ + DEEPBLUE + """] May 1997: Kasparov against the computer Deep Blue. He plays [m h6 gaffe] h6. [h] See the punishment? [q 1 Find_it?] Follow: one new chess story every day. The knight [m Nxe6 brillant] [z e6 1.3 2.0] takes! The queen [m Qe7] steps aside. White [m O-O] castles, and Black [m fxe6] takes the knight. But his king can't castle now. Bishop [m Bg6+ brillant] check! The king [m Kd8] runs. A bishop [m Bf4] comes out. Black [m b5] pushes, White [m a4] hits back. The bishop [m Bb7] develops. The rook [m Re1] joins. A knight [m Nd5] jumps in. The bishop [m Bg3] steps back. The king [m Kc8] runs again. White [m axb5] opens a file, Black [m cxb5] takes back. The queen [m Qd3] comes in. The bishop [m Bc6] guards. Now, [m Bf5 brillant] [z f5 1.3 2.0] bishop to f5! Black [m exf5] takes, the file opens, and the rook [m Rxe7] [x impact] takes the queen! The bishop [m Bxe7] takes back, the pawn [m c4] pushes, [s tag c8 2.5 1-0] and Kasparov resigned."""),
+"finale_lucena_1": ("blancs", "Rook endgame.|Can White win?",   # Lucena : 1.Rd1+ Ke7 2.Rd4 Ra1 3.Kc7 Rc1+ 4.Kb6 Rb1+ 5.Kc6 Rc1+ 6.Kb5 Rb1+ 7.Rb4 Rxb4+ 8.Kxb4 Kd7 9.b8=Q (Stockfish +5 → mat ; une manière de gagner)
+"""[p """ + LUCENA + """] [f a2a8] White's pawn is one step from queening, but its own king is in the way. [h] Can White win? [q 1 Win?] Follow: one new endgame trick every day. Rook [m Rd1+ brillant] check, the king [m Ke7] is pushed away. Now the key: the rook [m Rd4 brillant] [z d4 1.3 2.0] goes to the fourth rank. The bridge! Black [m Ra1] waits. The king [m Kc7] walks out. Check [m Rc1+] from behind, the king [m Kb6] steps down. Check [m Rb1+] again, the king [m Kc6] comes up. Check [m Rc1+] once more, the king [m Kb5] goes on. One more [m Rb1+] check, and the rook [m Rb4 brillant] [z b4 1.3 2.0] blocks! The rooks [m Rxb4+] are traded, the king [m Kxb4] takes back. Too late [m Kd7] for Black: the pawn [m b8=Q] [x impact] queens! [s tag b8 2.5 BRIDGE] Build the bridge."""),
+"scandi_degagement_1": ("blancs", "King and queen|on one line...",   # réserve n° 4 (Scandinave, 3 parties Lichess, ~1646) : 7…Qa4?? (7…Qb6 −0,5) 8.Nd6+! exd6 9.Bb5+ Qxb5 10.Qxb5+ (+3,7 ; 9…Bd7 10.Bxa4 +3,8) ; vers /try
+"""[p """ + SCANDI + """] Black's queen [m Qa4 gaffe] comes to attack your bishop. [h] But look: king and queen [f e8a4] on one diagonal, and only your knight is in the way. Can you see White's move? [q 1 Find_it?] Follow: one new trap every day. Knight [m Nd6+ brillant] [z d6 1.3 2.0] check! It clears the square, and Black [m exd6] takes. Now bishop [m Bb5+ brillant] check, hitting [f b5e8 b5a4] the king and the queen! The queen [m Qxb5] takes, and your queen [m Qxb5+] [x impact] takes back. [s tag b5 2.5 +QUEEN] A queen for a knight and a bishop! Analyze your own game, free."""),
+"marshall_grec_1": ("blancs", "Castle?|Greek gift!",   # réserve n° 10 (Sicilienne gambit Marshall, 4 parties Lichess, ~1490) : 8…O-O? (8…Bd7 −0,15) 9.Bxh7+ … 17.Qxg7 (+4,2 → +5,5) ; 11…Re8 empêche le mat : on ne dit pas « mat imparable »
+"""[p """ + MARSHALL + """] Black [m O-O gaffe] castles. Looks safe? [h] No knight on f6 guards h7. Find the famous idea! [q 1 Find_it?] Follow: one new trap every day. Bishop [m Bxh7+ brillant] [z h7 1.3 2.0] takes h7, check! The king [m Kxh7] takes it. The knight [m Ng5+ brillant] checks! The king [m Kg8] steps back. The queen [m Qh5] comes, threatening mate. The rook [m Re8] makes room. Queen [m Qh7+] check! The king [m Kf8] runs away. Check [m Qh8+] again! A knight [m Ng8] blocks. The other knight [m Nh7+] checks! The king [m Ke7] steps out. Now the bishop [m Bg5+ brillant] [z d8 1.3 2.0] checks, with the queen behind! The king [m Kd7] hides, the bishop [m Bxd8] [x impact] takes the queen, and the rook [m Rxd8] takes back. [s tag d8 2.5 +QUEEN] Pawn on e5, knight to g5: the sacrifice works."""),
+"finale_lucena_1_fr": ("blancs", "Finale de tours.|Gagné ?",   # jumeau FR de finale_lucena_1 ; T13 B
+"""[p """ + LUCENA + """] [f a2a8] Le pion blanc va faire dame, mais son propre roi bloque la route. [h] Les Blancs gagnent ? [q 1 Gagné ?] Abonne-toi : une astuce de finale par jour. La tour [m Rd1+ brillant] donne échec, le roi [m Ke7] est repoussé. Le coup clé : la tour [m Rd4 brillant] [z d4 1.3 2.0] va sur la quatrième rangée. C'est le pont ! Les Noirs [m Ra1] attendent. Le roi [m Kc7] sort. Échec [m Rc1+] par derrière, le roi [m Kb6] descend. Encore [m Rb1+] échec, le roi [m Kc6] remonte. Échec [m Rc1+] de nouveau, le roi [m Kb5] continue. Un dernier [m Rb1+] échec, et la tour [m Rb4 brillant] [z b4 1.3 2.0] s'interpose ! Les tours [m Rxb4+] s'échangent, le roi [m Kxb4] reprend. Trop tard [m Kd7] pour les Noirs : le pion [m b8=Q] [x impact] fait dame ! [s tag b8 2.5 LE_PONT] Construis le pont."""),
+"scandi_degagement_1_fr": ("blancs", "Roi et dame|sur une ligne...",   # jumeau FR de scandi_degagement_1
+"""[p """ + SCANDI + """] La dame noire [m Qa4 gaffe] vient attaquer ton fou. [h] Mais regarde : le roi et la dame [f e8a4] sont sur la même diagonale, et seul ton cavalier gêne. Tu vois le coup des Blancs ? [q 1 Trouve-le !] Abonne-toi : un piège par jour. Cavalier, [m Nd6+ brillant] [z d6 1.3 2.0] échec ! Il libère la case, et les Noirs [m exd6] le prennent. Puis le fou [m Bb5+ brillant] donne échec, et vise [f b5e8 b5a4] aussi la dame ! La dame [m Qxb5] prend, et ta dame [m Qxb5+] [x impact] reprend. [s tag b5 2.5 +DAME] Une dame pour un cavalier et un fou ! Roi et dame sur une ligne ? Cherche l'échec."""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
+QUESTIONS.update({
+    "deepblue_g6_1": "Would you take|the knight?",
+    "finale_lucena_1": "Could you build|the bridge?",
+    "scandi_degagement_1": "Analyze your own|game, free",
+    "marshall_grec_1": "Would you sacrifice|the bishop?",
+    "finale_lucena_1_fr": "Tu aurais construit|le pont ?",
+    "scandi_degagement_1_fr": "Tu l'aurais|vu ?",
+})
