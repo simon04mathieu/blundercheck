@@ -96,3 +96,5 @@
 {"reseau": "facebook", "id": "1141371241921486", "ok": true}
 ### 2026-11-06 14:23 publications/facebook/deepblue_g6_1.json
 {"reseau": "facebook", "id": "1025101927271987", "ok": true}
+### 2026-11-06 16:46 publications/facebook/finale_lucena_1.json
+{"reseau": "facebook", "id": "1443102551260510", "ok": true}
