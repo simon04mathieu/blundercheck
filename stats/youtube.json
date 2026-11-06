@@ -1,5 +1,5 @@
 {
- "date": "2026-11-06T20:34:41.410658+00:00",
+ "date": "2026-11-06T20:46:38.410722+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,13 +7,22 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "yRfAQhfQLBw": {
+   "titre": "Black castles. What does White play? ♟️ #chess #shorts",
+   "publiee": "2026-11-06T20:35:02Z",
+   "statut": "public",
+   "duree": "PT48S",
+   "vues": 0,
+   "jaime": 0,
+   "commentaires": 0
+  },
   "52LtX4fSKyw": {
    "titre": "Her queen went to a4. Can you punish it? ♟️ #chess #shorts",
    "publiee": "2026-11-06T18:37:53Z",
    "statut": "public",
    "duree": "PT31S",
-   "vues": 43,
-   "jaime": 1,
+   "vues": 65,
+   "jaime": 2,
    "commentaires": 0
   },
   "aKGyYoAo9GE": {
@@ -21,7 +30,7 @@
    "publiee": "2026-11-06T16:38:54Z",
    "statut": "public",
    "duree": "PT43S",
-   "vues": 733,
+   "vues": 736,
    "jaime": 11,
    "commentaires": 1
   },
@@ -30,7 +39,7 @@
    "publiee": "2026-11-06T14:15:43Z",
    "statut": "public",
    "duree": "PT57S",
-   "vues": 128,
+   "vues": 134,
    "jaime": 5,
    "commentaires": 0
   },
@@ -75,8 +84,8 @@
    "publiee": "2026-11-04T20:39:55Z",
    "statut": "public",
    "duree": "PT46S",
-   "vues": 9499,
-   "jaime": 193,
+   "vues": 9554,
+   "jaime": 196,
    "commentaires": 9
   },
   "aJXCUagnOvg": {
@@ -93,8 +102,8 @@
    "publiee": "2026-11-04T16:42:28Z",
    "statut": "public",
    "duree": "PT44S",
-   "vues": 2802,
-   "jaime": 45,
+   "vues": 2809,
+   "jaime": 46,
    "commentaires": 1
   },
   "ImGAEHvu478": {
@@ -165,7 +174,7 @@
    "publiee": "2026-11-02T14:18:08Z",
    "statut": "public",
    "duree": "PT19S",
-   "vues": 1110,
+   "vues": 1113,
    "jaime": 6,
    "commentaires": 0
   },
