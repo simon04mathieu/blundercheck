@@ -1,0 +1,169 @@
+{
+ "nom": "finale_lucena_1",
+ "tempo": 1.0,
+ "duree_s": 42.08,
+ "hook": {
+  "texte": "Rook endgame.|Can White win?",
+  "fin": 4.8
+ },
+ "question": {
+  "texte": "Could you build|the bridge?",
+  "t": 38.88
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "White's pawn is one step from queening, but its own king is in the way."
+  },
+  {
+   "t": 4.8,
+   "texte": "Can White win?"
+  },
+  {
+   "t": 7.54,
+   "texte": "Follow: one new endgame trick every day."
+  },
+  {
+   "t": 11.58,
+   "texte": "Rook check, the king is pushed away."
+  },
+  {
+   "t": 14.44,
+   "texte": "Now the key the rook goes to the fourth rank."
+  },
+  {
+   "t": 18.26,
+   "texte": "The bridge!"
+  },
+  {
+   "t": 19.58,
+   "texte": "Black waits."
+  },
+  {
+   "t": 20.84,
+   "texte": "The king walks out."
+  },
+  {
+   "t": 22.66,
+   "texte": "Check from behind the king steps down."
+  },
+  {
+   "t": 25.78,
+   "texte": "Check again, the king comes up."
+  },
+  {
+   "t": 28.24,
+   "texte": "Check once more the king goes on."
+  },
+  {
+   "t": 31.62,
+   "texte": "One more check and the rook blocks!"
+  },
+  {
+   "t": 34.46,
+   "texte": "The rooks are traded the king takes back."
+  },
+  {
+   "t": 37.82,
+   "texte": "Too late for Black the pawn queens!"
+  },
+  {
+   "t": 41.08,
+   "texte": "Build the bridge."
+  }
+ ],
+ "coups": [
+  {
+   "t": 11.9,
+   "coup": "Rd1+",
+   "badge": "brillant"
+  },
+  {
+   "t": 12.98,
+   "coup": "Ke7",
+   "badge": null
+  },
+  {
+   "t": 16.0,
+   "coup": "Rd4",
+   "badge": "brillant"
+  },
+  {
+   "t": 19.8,
+   "coup": "Ra1",
+   "badge": null
+  },
+  {
+   "t": 21.16,
+   "coup": "Kc7",
+   "badge": null
+  },
+  {
+   "t": 22.86,
+   "coup": "Rc1+",
+   "badge": null
+  },
+  {
+   "t": 24.3,
+   "coup": "Kb6",
+   "badge": null
+  },
+  {
+   "t": 26.04,
+   "coup": "Rb1+",
+   "badge": null
+  },
+  {
+   "t": 27.08,
+   "coup": "Kc6",
+   "badge": null
+  },
+  {
+   "t": 28.8,
+   "coup": "Rc1+",
+   "badge": null
+  },
+  {
+   "t": 30.14,
+   "coup": "Kb5",
+   "badge": null
+  },
+  {
+   "t": 32.0,
+   "coup": "Rb1+",
+   "badge": null
+  },
+  {
+   "t": 33.14,
+   "coup": "Rb4",
+   "badge": "brillant"
+  },
+  {
+   "t": 35.04,
+   "coup": "Rxb4+",
+   "badge": null
+  },
+  {
+   "t": 36.16,
+   "coup": "Kxb4",
+   "badge": null
+  },
+  {
+   "t": 38.18,
+   "coup": "Kd7",
+   "badge": null
+  },
+  {
+   "t": 39.58,
+   "coup": "b8=Q",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 6.52,
+   "duree": 1.0,
+   "texte": "Win?"
+  }
+ ]
+}
