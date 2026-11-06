@@ -1,0 +1,32 @@
+{
+ "legende": "Black castles. What does White play? 🔥 Would you have sacrificed the bishop? 👇 Seen in 4 real Lichess games (Sicilian Marshall Gambit, puzzle rated ~1490). One new trap every day. #chess #chesstok",
+ "envoyer_apres": "2026-11-06T08:00:00+01:00",
+ "heure_conseillee": "2026-11-06T21:00:00+01:00",
+ "repere": "21 h · marshall_grec_1 · 46.52 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/marshall_grec_1.mp4",
+ "concept": "marshall_grec",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "T16",
+ "duree": 46.52,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 47,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T16",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "sacrifice_grec_puis_embrochage",
+  "niveau": 1493,
+  "hook": "question",
+  "interet": "conditions_du_sacrifice_grec"
+ }
+}

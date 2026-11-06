@@ -1,0 +1,32 @@
+{
+ "legende": "Can White queen the pawn? 🌉 Could you build the bridge? 👇 The Lucena position, the most famous rook endgame. One new endgame trick every day. #chess #chesstok",
+ "envoyer_apres": "2026-11-06T08:00:00+01:00",
+ "heure_conseillee": "2026-11-06T17:00:00+01:00",
+ "repere": "17 h · finale_lucena_1 · 42.08 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/finale_lucena_1.mp4",
+ "concept": "finale_lucena",
+ "format": "FINALE",
+ "langue": "en",
+ "test": "T16-finale",
+ "duree": 42.08,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 42,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T16-finale",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "lucena_pont",
+  "niveau": "theorie classique 1500-2200",
+  "hook": "question",
+  "interet": "pion_en_7e_ne_passe_pas_seul"
+ }
+}

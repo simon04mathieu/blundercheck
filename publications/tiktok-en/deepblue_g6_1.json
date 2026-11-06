@@ -1,0 +1,32 @@
+{
+ "legende": "Kasparov played h6. Would you sacrifice the knight? 🤯 Would you have taken on e6? 👇 Deep Blue – Kasparov, game 6, New York, 11 May 1997: the game that ended the match. Some think Kasparov mixed up his move order; the sacrifice was already known in theory. One new chess story every day. #chess #chesstok",
+ "envoyer_apres": "2026-11-06T08:00:00+01:00",
+ "heure_conseillee": "2026-11-06T15:00:00+01:00",
+ "repere": "15 h · deepblue_g6_1 · 55.88 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/deepblue_g6_1.mp4",
+ "concept": "deepblue_g6",
+ "format": "HISTOIRE",
+ "langue": "en",
+ "test": "T16-histoire",
+ "duree": 55.88,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "HISTOIRE",
+  "categorie": "histoire",
+  "langue": "en",
+  "duree_s": 56,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T16-histoire",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "sacrifice_cavalier_empeche_roque",
+  "niveau": "partie historique 1800-2500",
+  "hook": "question",
+  "interet": "partie_qui_a_fini_le_match"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "legende": "La dame noire va en a4. Tu la punis ? 😈 Tu l'aurais vu ? 👇 Vu dans 3 vraies parties Lichess (Scandinave, puzzle noté ~1650). Un piège par jour.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-06T17:00:00+01:00",
+ "fichier": "sorties/scandi_degagement_1_fr.mp4",
+ "concept": "scandi_degagement",
+ "format": "PIGEON",
+ "langue": "fr",
+ "paire": "scandi_degagement_1",
+ "test": "T4-titre",
+ "duree": 36.4,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "piege",
+  "langue": "fr",
+  "duree_s": 36,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T4-titre",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "degagement_echec_cavalier_fou_embroche",
+  "niveau": 1646,
+  "hook": "question",
+  "interet": "roi_et_dame_sur_une_diagonale"
+ }
+}

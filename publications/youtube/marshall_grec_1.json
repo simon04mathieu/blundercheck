@@ -1,0 +1,35 @@
+{
+ "titre": "Black castles. What does White play? ♟️ #chess #shorts",
+ "description": "Sicilian Marshall Gambit: Black castles with no knight on f6 to guard h7. The Greek gift: Bxh7+, Ng5+, Qh5 threatening mate; after the queen checks, the other knight checks and Bg5+ skewers the king and the black queen. Black's best was 8…Bd7. Seen in 4 real Lichess games (puzzle rated ~1490). Would you have sacrificed the bishop? 👇\n\nAnalyze your own game, free: https://blundercheck.app/try?src=youtube-en\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess tactics",
+  "greek gift",
+  "sicilian defense"
+ ],
+ "envoyer_apres": "2026-11-06T21:00:00+01:00",
+ "fichier": "sorties/marshall_grec_1.mp4",
+ "concept": "marshall_grec",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "T16",
+ "duree": 46.52,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 47,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T16",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "sacrifice_grec_puis_embrochage",
+  "niveau": 1493,
+  "hook": "question",
+  "interet": "conditions_du_sacrifice_grec"
+ }
+}

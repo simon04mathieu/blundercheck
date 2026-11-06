@@ -1,0 +1,35 @@
+{
+ "titre": "Her queen went to a4. Can you punish it? ♟️ #chess #shorts",
+ "description": "Scandinavian Defense: Black's queen goes to a4, on the same diagonal as her king. Only White's own knight on b5 is in the way. Knight check on d6 clears the square, and the bishop checks from b5, hitting king and queen. Seen in 3 real Lichess games (puzzle rated ~1650). Would you have found it? 👇\n\nAnalyze your own game, free: https://blundercheck.app/try?src=youtube-en\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess tactics",
+  "chess trap",
+  "scandinavian defense"
+ ],
+ "envoyer_apres": "2026-11-06T19:00:00+01:00",
+ "fichier": "sorties/scandi_degagement_1.mp4",
+ "concept": "scandi_degagement",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "T4-titre",
+ "duree": 30.3,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "piege",
+  "langue": "en",
+  "duree_s": 30,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T4-titre",
+  "variante": "B",
+  "appel_site": "oui",
+  "fin": "follow_avant_reponse",
+  "motif": "degagement_echec_cavalier_fou_embroche",
+  "niveau": 1646,
+  "hook": "question",
+  "interet": "roi_et_dame_sur_une_diagonale"
+ }
+}

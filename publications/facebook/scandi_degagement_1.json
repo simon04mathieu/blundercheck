@@ -1,0 +1,28 @@
+{
+ "legende": "Her queen went to a4. Can you punish it? 😈 Would you have found the knight check? 👇 Seen in 3 real Lichess games (Scandinavian, puzzle rated ~1650). One new trap every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=facebook-en\n\n#chess #chesspuzzle #chesstactics",
+ "envoyer_apres": "2026-11-06T19:00:00+01:00",
+ "fichier": "sorties/scandi_degagement_1.mp4",
+ "concept": "scandi_degagement",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "T4-titre",
+ "duree": 30.3,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "piege",
+  "langue": "en",
+  "duree_s": 30,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T4-titre",
+  "variante": "B",
+  "appel_site": "oui",
+  "fin": "follow_avant_reponse",
+  "motif": "degagement_echec_cavalier_fou_embroche",
+  "niveau": 1646,
+  "hook": "question",
+  "interet": "roi_et_dame_sur_une_diagonale"
+ }
+}

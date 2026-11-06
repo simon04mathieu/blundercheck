@@ -1,0 +1,29 @@
+{
+ "legende": "Les Blancs gagnent ? Construis le pont ! 🌉 Tu aurais construit le pont ? 👇 La position de Lucena, la plus célèbre des finales de tours. Une astuce de finale par jour.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #finale #echecsfr",
+ "envoyer_apres": "2026-11-06T21:00:00+01:00",
+ "fichier": "sorties/finale_lucena_1_fr.mp4",
+ "concept": "finale_lucena",
+ "format": "FINALE",
+ "langue": "fr",
+ "paire": "finale_lucena_1",
+ "test": "T13-fin-quiz",
+ "duree": 43.24,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "fr",
+  "duree_s": 43,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T13-fin-quiz",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "lucena_pont",
+  "niveau": "theorie classique 1500-2200",
+  "hook": "question",
+  "interet": "pion_en_7e_ne_passe_pas_seul"
+ }
+}
