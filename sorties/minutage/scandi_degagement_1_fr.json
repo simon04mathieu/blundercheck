@@ -1,14 +1,14 @@
 {
  "nom": "scandi_degagement_1_fr",
  "tempo": 1.0,
- "duree_s": 36.42,
+ "duree_s": 36.4,
  "hook": {
   "texte": "Roi et dame|sur une ligne...",
   "fin": 2.44
  },
  "question": {
   "texte": "Tu l'aurais|vu ?",
-  "t": 33.22
+  "t": 33.2
  },
  "phrases": [
   {
@@ -44,11 +44,11 @@
    "texte": "La dame prend et ta dame reprend."
   },
   {
-   "t": 29.08,
+   "t": 29.12,
    "texte": "Une dame pour un cavalier et un fou !"
   },
   {
-   "t": 32.76,
+   "t": 32.78,
    "texte": "Roi et dame sur une ligne ?"
   },
   {
@@ -68,22 +68,22 @@
    "badge": "brillant"
   },
   {
-   "t": 20.2,
+   "t": 19.98,
    "coup": "exd6",
    "badge": null
   },
   {
-   "t": 22.42,
+   "t": 22.7,
    "coup": "Bb5+",
    "badge": "brillant"
   },
   {
-   "t": 26.6,
+   "t": 25.98,
    "coup": "Qxb5",
    "badge": null
   },
   {
-   "t": 27.88,
+   "t": 29.12,
    "coup": "Qxb5+",
    "badge": null
   }

@@ -635,3 +635,6 @@
 ### commandes/perso_scandi_degagement_1.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/scandi_degagement_1.mp4 {"voix_brute_s": 29.2, "tempo": 1.0, "video_s": 30.9, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 73, "minutage": "10 phrases, 6 coups, 1 pauses"}
+### commandes/perso_scandi_degagement_1_fr.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/scandi_degagement_1_fr.mp4 {"voix_brute_s": 35.3, "tempo": 1.0, "video_s": 37.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 83, "minutage": "11 phrases, 6 coups, 1 pauses"}
