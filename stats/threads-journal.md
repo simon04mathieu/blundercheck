@@ -106,3 +106,5 @@ jeton Threads renouvelé (valable 60 jours)
 {"reseau": "threads", "id": "18153648190530690"}
 ### 2026-11-06 16:46 publications/threads/finale_lucena_1.json
 {"reseau": "threads", "id": "18082236329382273"}
+### 2026-11-06 18:46 publications/threads/scandi_degagement_1.json
+{"reseau": "threads", "id": "18110217815570853"}

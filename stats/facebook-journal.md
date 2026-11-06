@@ -98,3 +98,5 @@
 {"reseau": "facebook", "id": "1025101927271987", "ok": true}
 ### 2026-11-06 16:46 publications/facebook/finale_lucena_1.json
 {"reseau": "facebook", "id": "1443102551260510", "ok": true}
+### 2026-11-06 18:45 publications/facebook/scandi_degagement_1.json
+{"reseau": "facebook", "id": "979013031933646", "ok": true}
