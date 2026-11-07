@@ -106,3 +106,5 @@
 {"reseau": "facebook", "id": "2025444268124166", "ok": true}
 ### 2026-11-07 16:33 publications/facebook/lasker_bauer_1.json
 {"reseau": "facebook", "id": "1835366901115226", "ok": true}
+### 2026-11-07 18:35 publications/facebook/vienne_stanley_1.json
+{"reseau": "facebook", "id": "2911138532599172", "ok": true}
