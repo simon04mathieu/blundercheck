@@ -16,7 +16,7 @@
    "texte": "Amsterdam, 1889."
   },
   {
-   "t": 2.72,
+   "t": 2.74,
    "texte": "Lasker offre un cavalier en h5 et les Noirs le prennent."
   },
   {
@@ -28,7 +28,7 @@
    "texte": "Abonne-toi : une histoire d'échecs par jour."
   },
   {
-   "t": 13.92,
+   "t": 13.84,
    "texte": "Le fou prend h7 échec !"
   },
   {
@@ -36,7 +36,7 @@
    "texte": "Le roi le prend."
   },
   {
-   "t": 18.52,
+   "t": 18.68,
    "texte": "La dame prend le cavalier échec."
   },
   {
@@ -48,23 +48,23 @@
    "texte": "Le roi prend encore et la dame donne échec."
   },
   {
-   "t": 30.36,
+   "t": 30.35,
    "texte": "Le roi se cache."
   },
   {
-   "t": 32.12,
+   "t": 32.1,
    "texte": "Puis la tour passe en f3."
   },
   {
-   "t": 34.9,
+   "t": 35.0,
    "texte": "Les Noirs poussent un pion et la tour glisse en h3 échec !"
   },
   {
-   "t": 39.78,
+   "t": 39.8,
    "texte": "Les Noirs bloquent avec la dame et la tour la prend avec échec."
   },
   {
-   "t": 44.88,
+   "t": 44.84,
    "texte": "Le roi reprend."
   },
   {
@@ -76,7 +76,7 @@
    "texte": "Les Noirs en sauvent un et la dame prend l'autre."
   },
   {
-   "t": 52.68,
+   "t": 52.67,
    "texte": "Lasker gagne."
   }
  ],
@@ -107,7 +107,7 @@
    "badge": null
   },
   {
-   "t": 24.28,
+   "t": 24.3,
    "coup": "Bxg7",
    "badge": "brillant"
   },
@@ -117,12 +117,12 @@
    "badge": null
   },
   {
-   "t": 28.22,
+   "t": 28.56,
    "coup": "Qg4+",
    "badge": null
   },
   {
-   "t": 30.92,
+   "t": 31.02,
    "coup": "Kh7",
    "badge": null
   },
@@ -137,7 +137,7 @@
    "badge": null
   },
   {
-   "t": 36.94,
+   "t": 37.15,
    "coup": "Rh3+",
    "badge": null
   },
@@ -147,7 +147,7 @@
    "badge": null
   },
   {
-   "t": 42.36,
+   "t": 42.56,
    "coup": "Rxh6+",
    "badge": null
   },
@@ -167,7 +167,7 @@
    "badge": null
   },
   {
-   "t": 51.56,
+   "t": 51.76,
    "coup": "Qxb7",
    "badge": null
   }
