@@ -1,0 +1,125 @@
+{
+ "nom": "fou_mauvaise_couleur_1",
+ "tempo": 1.0,
+ "duree_s": 38.38,
+ "hook": {
+  "texte": "Bishop and pawn up.|Can White win?",
+  "fin": 5.0
+ },
+ "question": {
+  "texte": "Did you know|this draw?",
+  "t": 35.18
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "White has an extra bishop and a pawn."
+  },
+  {
+   "t": 2.82,
+   "texte": "Black has only a king."
+  },
+  {
+   "t": 5.0,
+   "texte": "Can White win?"
+  },
+  {
+   "t": 7.82,
+   "texte": "Follow: one new endgame trick every day."
+  },
+  {
+   "t": 11.56,
+   "texte": "No!"
+  },
+  {
+   "t": 12.42,
+   "texte": "The pawn marches up."
+  },
+  {
+   "t": 14.32,
+   "texte": "The black king steps out of the corner."
+  },
+  {
+   "t": 16.78,
+   "texte": "The bishop comes closer and the king goes back."
+  },
+  {
+   "t": 20.12,
+   "texte": "The bishop tries again so the king steps out again."
+  },
+  {
+   "t": 23.68,
+   "texte": "Pawn to h7 check!"
+  },
+  {
+   "t": 26.14,
+   "texte": "The king hides in the corner."
+  },
+  {
+   "t": 28.08,
+   "texte": "And now the white king steps closer: stalemate!"
+  },
+  {
+   "t": 32.16,
+   "texte": "The bishop can never control that dark corner square."
+  },
+  {
+   "t": 36.0,
+   "texte": "Check your bishop's colour before you trade."
+  }
+ ],
+ "coups": [
+  {
+   "t": 12.84,
+   "coup": "h6",
+   "badge": null
+  },
+  {
+   "t": 14.92,
+   "coup": "Kg8",
+   "badge": null
+  },
+  {
+   "t": 17.1,
+   "coup": "Bf5",
+   "badge": null
+  },
+  {
+   "t": 18.72,
+   "coup": "Kh8",
+   "badge": null
+  },
+  {
+   "t": 20.48,
+   "coup": "Bg6",
+   "badge": null
+  },
+  {
+   "t": 22.0,
+   "coup": "Kg8",
+   "badge": null
+  },
+  {
+   "t": 23.68,
+   "coup": "h7+",
+   "badge": null
+  },
+  {
+   "t": 26.62,
+   "coup": "Kh8",
+   "badge": null
+  },
+  {
+   "t": 29.58,
+   "coup": "Kf7",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 6.8,
+   "duree": 1.0,
+   "texte": "Win?"
+  }
+ ]
+}

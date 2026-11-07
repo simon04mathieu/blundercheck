@@ -638,3 +638,8 @@
 ### commandes/perso_scandi_degagement_1_fr.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/scandi_degagement_1_fr.mp4 {"voix_brute_s": 35.3, "tempo": 1.0, "video_s": 37.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 83, "minutage": "11 phrases, 6 coups, 1 pauses"}
+## 2026-11-07 00:05 UTC · run 42315971505
+### commandes/perso_fou_mauvaise_couleur_1.json
+    voix générée : 479 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/fou_mauvaise_couleur_1.mp4 {"voix_brute_s": 37.3, "tempo": 1.0, "video_s": 39.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 89, "minutage": "14 phrases, 9 coups, 1 pauses"}
