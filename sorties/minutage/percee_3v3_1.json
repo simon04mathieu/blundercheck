@@ -1,0 +1,117 @@
+{
+ "nom": "percee_3v3_1",
+ "tempo": 1.0,
+ "duree_s": 40.4,
+ "hook": {
+  "texte": "Three pawns each.|One push wins.",
+  "fin": 4.26
+ },
+ "question": {
+  "texte": "Would you have|found b6?",
+  "t": 37.2
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Three pawns against three and both kings are far away."
+  },
+  {
+   "t": 4.26,
+   "texte": "White to move one push wins the others lose."
+  },
+  {
+   "t": 8.7,
+   "texte": "Can you find it?"
+  },
+  {
+   "t": 11.22,
+   "texte": "Follow: one new endgame trick every day."
+  },
+  {
+   "t": 15.7,
+   "texte": "Pawn to b6!"
+  },
+  {
+   "t": 17.36,
+   "texte": "If Black takes with the a-pawn then the c-pawn jumps to c6!"
+  },
+  {
+   "t": 21.94,
+   "texte": "Black has to take again but now nothing can stop the a-pawn."
+  },
+  {
+   "t": 26.2,
+   "texte": "It runs to a6."
+  },
+  {
+   "t": 28.22,
+   "texte": "Black's pawn runs too one step slow."
+  },
+  {
+   "t": 32.06,
+   "texte": "The pawn reaches a7."
+  },
+  {
+   "t": 34.14,
+   "texte": "One more step for Black and the a-pawn queens!"
+  },
+  {
+   "t": 38.12,
+   "texte": "Give two pawns to free one."
+  }
+ ],
+ "coups": [
+  {
+   "t": 16.12,
+   "coup": "b6",
+   "badge": "brillant"
+  },
+  {
+   "t": 18.4,
+   "coup": "axb6",
+   "badge": null
+  },
+  {
+   "t": 20.38,
+   "coup": "c6",
+   "badge": "brillant"
+  },
+  {
+   "t": 22.68,
+   "coup": "bxc6",
+   "badge": null
+  },
+  {
+   "t": 26.68,
+   "coup": "a6",
+   "badge": null
+  },
+  {
+   "t": 29.0,
+   "coup": "b5",
+   "badge": null
+  },
+  {
+   "t": 32.18,
+   "coup": "a7",
+   "badge": null
+  },
+  {
+   "t": 34.84,
+   "coup": "b4",
+   "badge": null
+  },
+  {
+   "t": 36.76,
+   "coup": "a8=Q",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 10.2,
+   "duree": 1.0,
+   "texte": "Which one?"
+  }
+ ]
+}

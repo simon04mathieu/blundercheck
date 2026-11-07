@@ -649,3 +649,6 @@
 ### commandes/perso_lasker_bauer_1_fr.json
     voix générée : 601 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/lasker_bauer_1_fr.mp4 {"voix_brute_s": 53.2, "tempo": 1.0, "video_s": 54.9, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 118, "minutage": "17 phrases, 18 coups, 1 pauses"}
+### commandes/perso_percee_3v3_1.json
+    voix générée : 445 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/percee_3v3_1.mp4 {"voix_brute_s": 39.3, "tempo": 1.0, "video_s": 41.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 91, "minutage": "12 phrases, 9 coups, 1 pauses"}
