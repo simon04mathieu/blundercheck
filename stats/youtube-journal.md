@@ -562,3 +562,4 @@
 ### 2026-11-07 16:25 publications/youtube/lasker_bauer_1.json
 {"id": "2bkmRgnuDYk", "url": "https://www.youtube.com/shorts/2bkmRgnuDYk", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "61"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "63"}
