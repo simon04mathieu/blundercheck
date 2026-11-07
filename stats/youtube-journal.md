@@ -556,3 +556,4 @@
 ### 2026-11-07 14:30 publications/youtube/percee_3v3_1.json
 {"id": "X8jGygzGpTo", "url": "https://www.youtube.com/shorts/X8jGygzGpTo", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "60"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "61"}
