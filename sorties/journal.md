@@ -655,3 +655,6 @@
 ### commandes/perso_percee_3v3_1_fr.json
     voix générée : 492 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/percee_3v3_1_fr.mp4 {"voix_brute_s": 39.2, "tempo": 1.0, "video_s": 41.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 98, "minutage": "12 phrases, 9 coups, 1 pauses"}
+### commandes/perso_vienne_stanley_1.json
+    voix générée : 322 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/vienne_stanley_1.mp4 {"voix_brute_s": 30.0, "tempo": 1.0, "video_s": 31.7, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 65, "minutage": "12 phrases, 6 coups, 1 pauses"}

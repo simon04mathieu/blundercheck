@@ -1,0 +1,102 @@
+{
+ "nom": "vienne_stanley_1",
+ "tempo": 1.0,
+ "duree_s": 31.06,
+ "hook": {
+  "texte": "Free rook.|Take it?",
+  "fin": 4.36
+ },
+ "question": {
+  "texte": "Analyze your own|game, free",
+  "t": 27.86
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "White to move."
+  },
+  {
+   "t": 1.76,
+   "texte": "A rook on h8 has no defender."
+  },
+  {
+   "t": 4.36,
+   "texte": "Should he take it?"
+  },
+  {
+   "t": 6.82,
+   "texte": "Follow: one new trap every day."
+  },
+  {
+   "t": 10.3,
+   "texte": "He takes."
+  },
+  {
+   "t": 11.58,
+   "texte": "Queen check on g4!"
+  },
+  {
+   "t": 13.86,
+   "texte": "White has two replies and both lose."
+  },
+  {
+   "t": 17.0,
+   "texte": "The king goes to e1."
+  },
+  {
+   "t": 19.14,
+   "texte": "Now the knight takes c2 check, and forks the rook."
+  },
+  {
+   "t": 23.22,
+   "texte": "The king runs to f1 and the queen goes to d1."
+  },
+  {
+   "t": 27.22,
+   "texte": "Checkmate!"
+  },
+  {
+   "t": 28.98,
+   "texte": "Analyze your own game free."
+  }
+ ],
+ "coups": [
+  {
+   "t": 10.54,
+   "coup": "Qxh8",
+   "badge": "gaffe"
+  },
+  {
+   "t": 12.12,
+   "coup": "Qg4+",
+   "badge": "brillant"
+  },
+  {
+   "t": 17.36,
+   "coup": "Ke1",
+   "badge": null
+  },
+  {
+   "t": 19.7,
+   "coup": "Nxc2+",
+   "badge": "brillant"
+  },
+  {
+   "t": 23.58,
+   "coup": "Kf1",
+   "badge": null
+  },
+  {
+   "t": 25.4,
+   "coup": "Qd1#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 5.8,
+   "duree": 1.0,
+   "texte": "Take it?"
+  }
+ ]
+}
