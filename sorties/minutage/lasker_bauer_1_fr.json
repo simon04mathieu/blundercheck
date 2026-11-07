@@ -1,0 +1,182 @@
+{
+ "nom": "lasker_bauer_1_fr",
+ "tempo": 1.0,
+ "duree_s": 54.28,
+ "hook": {
+  "texte": "Lasker, 1889.|Deux fous donnés.",
+  "fin": 5.44
+ },
+ "question": {
+  "texte": "Tu aurais sacrifié|les deux fous ?",
+  "t": 51.08
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Amsterdam, 1889."
+  },
+  {
+   "t": 2.72,
+   "texte": "Lasker offre un cavalier en h5 et les Noirs le prennent."
+  },
+  {
+   "t": 7.08,
+   "texte": "Tu vois la réponse des Blancs ?"
+  },
+  {
+   "t": 10.94,
+   "texte": "Abonne-toi : une histoire d'échecs par jour."
+  },
+  {
+   "t": 13.92,
+   "texte": "Le fou prend h7 échec !"
+  },
+  {
+   "t": 16.76,
+   "texte": "Le roi le prend."
+  },
+  {
+   "t": 18.52,
+   "texte": "La dame prend le cavalier échec."
+  },
+  {
+   "t": 21.7,
+   "texte": "Le roi recule et le deuxième fou prend g7 !"
+  },
+  {
+   "t": 25.98,
+   "texte": "Le roi prend encore et la dame donne échec."
+  },
+  {
+   "t": 30.36,
+   "texte": "Le roi se cache."
+  },
+  {
+   "t": 32.12,
+   "texte": "Puis la tour passe en f3."
+  },
+  {
+   "t": 34.9,
+   "texte": "Les Noirs poussent un pion et la tour glisse en h3 échec !"
+  },
+  {
+   "t": 39.78,
+   "texte": "Les Noirs bloquent avec la dame et la tour la prend avec échec."
+  },
+  {
+   "t": 44.88,
+   "texte": "Le roi reprend."
+  },
+  {
+   "t": 46.94,
+   "texte": "Enfin la dame fourche deux fous."
+  },
+  {
+   "t": 49.68,
+   "texte": "Les Noirs en sauvent un et la dame prend l'autre."
+  },
+  {
+   "t": 52.68,
+   "texte": "Lasker gagne."
+  }
+ ],
+ "coups": [
+  {
+   "t": 6.18,
+   "coup": "Nxh5",
+   "badge": "gaffe"
+  },
+  {
+   "t": 14.3,
+   "coup": "Bxh7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 17.5,
+   "coup": "Kxh7",
+   "badge": null
+  },
+  {
+   "t": 19.46,
+   "coup": "Qxh5+",
+   "badge": null
+  },
+  {
+   "t": 22.54,
+   "coup": "Kg8",
+   "badge": null
+  },
+  {
+   "t": 24.28,
+   "coup": "Bxg7",
+   "badge": "brillant"
+  },
+  {
+   "t": 26.78,
+   "coup": "Kxg7",
+   "badge": null
+  },
+  {
+   "t": 28.22,
+   "coup": "Qg4+",
+   "badge": null
+  },
+  {
+   "t": 30.92,
+   "coup": "Kh7",
+   "badge": null
+  },
+  {
+   "t": 33.06,
+   "coup": "Rf3",
+   "badge": null
+  },
+  {
+   "t": 35.54,
+   "coup": "e5",
+   "badge": null
+  },
+  {
+   "t": 36.94,
+   "coup": "Rh3+",
+   "badge": null
+  },
+  {
+   "t": 41.02,
+   "coup": "Qh6",
+   "badge": null
+  },
+  {
+   "t": 42.36,
+   "coup": "Rxh6+",
+   "badge": null
+  },
+  {
+   "t": 45.44,
+   "coup": "Kxh6",
+   "badge": null
+  },
+  {
+   "t": 47.82,
+   "coup": "Qd7",
+   "badge": null
+  },
+  {
+   "t": 50.2,
+   "coup": "Bf6",
+   "badge": null
+  },
+  {
+   "t": 51.56,
+   "coup": "Qxb7",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 9.92,
+   "duree": 1.0,
+   "texte": "Trouve-la !"
+  }
+ ]
+}
