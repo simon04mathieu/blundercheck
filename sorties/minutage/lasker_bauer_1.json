@@ -1,0 +1,182 @@
+{
+ "nom": "lasker_bauer_1",
+ "tempo": 1.0,
+ "duree_s": 50.66,
+ "hook": {
+  "texte": "Lasker, 1889.|Two bishops. Gone.",
+  "fin": 4.9
+ },
+ "question": {
+  "texte": "Would you sacrifice|both bishops?",
+  "t": 47.46
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Amsterdam, 1889."
+  },
+  {
+   "t": 2.78,
+   "texte": "Lasker offers a knight on h5 and Black takes it."
+  },
+  {
+   "t": 6.84,
+   "texte": "Can you see White's reply?"
+  },
+  {
+   "t": 10.38,
+   "texte": "Follow: one new chess story every day."
+  },
+  {
+   "t": 13.86,
+   "texte": "Bishop takes h7 check!"
+  },
+  {
+   "t": 16.68,
+   "texte": "The king takes it."
+  },
+  {
+   "t": 18.36,
+   "texte": "The queen takes the knight check."
+  },
+  {
+   "t": 20.98,
+   "texte": "The king steps back and the second bishop takes g7!"
+  },
+  {
+   "t": 24.96,
+   "texte": "The king takes again and the queen gives check."
+  },
+  {
+   "t": 28.44,
+   "texte": "The king hides in the corner."
+  },
+  {
+   "t": 30.65,
+   "texte": "Now the rook swings to f3."
+  },
+  {
+   "t": 33.34,
+   "texte": "Black pushes a pawn and the rook slides to h3 check!"
+  },
+  {
+   "t": 38.0,
+   "texte": "Black blocks with the queen and the rook takes her with check."
+  },
+  {
+   "t": 42.08,
+   "texte": "The king takes back."
+  },
+  {
+   "t": 43.92,
+   "texte": "Then the queen forks two bishops."
+  },
+  {
+   "t": 46.26,
+   "texte": "Black saves one and the queen takes the other."
+  },
+  {
+   "t": 49.62,
+   "texte": "Lasker wins."
+  }
+ ],
+ "coups": [
+  {
+   "t": 5.64,
+   "coup": "Nxh5",
+   "badge": "gaffe"
+  },
+  {
+   "t": 14.36,
+   "coup": "Bxh7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 17.02,
+   "coup": "Kxh7",
+   "badge": null
+  },
+  {
+   "t": 19.08,
+   "coup": "Qxh5+",
+   "badge": null
+  },
+  {
+   "t": 21.34,
+   "coup": "Kg8",
+   "badge": null
+  },
+  {
+   "t": 23.2,
+   "coup": "Bxg7",
+   "badge": "brillant"
+  },
+  {
+   "t": 25.46,
+   "coup": "Kxg7",
+   "badge": null
+  },
+  {
+   "t": 26.9,
+   "coup": "Qg4+",
+   "badge": null
+  },
+  {
+   "t": 28.98,
+   "coup": "Kh7",
+   "badge": null
+  },
+  {
+   "t": 31.36,
+   "coup": "Rf3",
+   "badge": null
+  },
+  {
+   "t": 33.62,
+   "coup": "e5",
+   "badge": null
+  },
+  {
+   "t": 35.3,
+   "coup": "Rh3+",
+   "badge": null
+  },
+  {
+   "t": 38.66,
+   "coup": "Qh6",
+   "badge": null
+  },
+  {
+   "t": 40.18,
+   "coup": "Rxh6+",
+   "badge": null
+  },
+  {
+   "t": 42.42,
+   "coup": "Kxh6",
+   "badge": null
+  },
+  {
+   "t": 44.44,
+   "coup": "Qd7",
+   "badge": null
+  },
+  {
+   "t": 46.58,
+   "coup": "Bf6",
+   "badge": null
+  },
+  {
+   "t": 48.02,
+   "coup": "Qxb7",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 9.36,
+   "duree": 1.0,
+   "texte": "Find it?"
+  }
+ ]
+}
