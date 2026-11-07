@@ -458,3 +458,12 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 25, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 25, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 25, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 25, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-07 07:40 publications/tiktok-en/fou_mauvaise_couleur_1.json
+{"publish_id": "v_inbox_file~v2.7705330732646713366", "mode": "brouillon", "vie_privee": null, "legende": "A bishop and a pawn up. Can White win? 🤔 Could you win it? 👇 Wrong-coloured bishop plus a rook pawn is a draw once the king reaches the corner. One new endgame trick every day. #chess #chesstok"}
+### 2026-11-07 07:40 publications/tiktok-en/lasker_bauer_1.json
+{"publish_id": "v_inbox_file~v2.7705330880901859350", "mode": "brouillon", "vie_privee": null, "legende": "Would you have sacrificed both bishops? 🤯 👇 Lasker – Bauer, Amsterdam 1889 (Wikipedia, chessgames): the most famous double bishop sacrifice. One new chess story every day. #chess #chesstok"}
+### 2026-11-07 07:40 publications/tiktok-en/percee_3v3_1.json
+{"publish_id": "v_inbox_file~v2.7705330732646811670", "mode": "brouillon", "vie_privee": null, "legende": "One pawn push wins. Which one? 🤯 Would you have found it? 👇 Three pawns against three: only the middle one works. Give two pawns to free one. One new endgame trick every day. #chess #chesstok"}
+### 2026-11-07 07:40 publications/tiktok-en/vienne_stanley_1.json
+{"publish_id": "v_inbox_file~v2.7705330880901892118", "mode": "brouillon", "vie_privee": null, "legende": "A free rook on h8. Should he take it? 😈 Would you have taken it? 👇 Real-game trap (Vienna, Stanley variation, 2 Lichess games, ~1740). White was already better; 9.c3 was right. One new trap every day. #chess #chesstok"}
