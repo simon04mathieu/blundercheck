@@ -1,0 +1,117 @@
+{
+ "nom": "percee_3v3_1_fr",
+ "tempo": 1.0,
+ "duree_s": 40.4,
+ "hook": {
+  "texte": "Trois pions chacun.|Un seul gagne.",
+  "fin": 3.98
+ },
+ "question": {
+  "texte": "Tu aurais trouvé|b6 ?",
+  "t": 37.2
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Trois pions contre trois et les deux rois sont loin."
+  },
+  {
+   "t": 3.98,
+   "texte": "Aux Blancs de jouer  un seul coup gagne les autres perdent."
+  },
+  {
+   "t": 8.58,
+   "texte": "Tu le trouves ?"
+  },
+  {
+   "t": 11.22,
+   "texte": "Abonne-toi : une astuce de finale par jour."
+  },
+  {
+   "t": 15.06,
+   "texte": "Le pion en b6 !"
+  },
+  {
+   "t": 17.0,
+   "texte": "Si les Noirs prennent avec le pion a, alors le pion c saute en c6 !"
+  },
+  {
+   "t": 22.12,
+   "texte": "Les Noirs doivent reprendre mais plus rien n'arrête le pion a."
+  },
+  {
+   "t": 26.04,
+   "texte": "Il file en a6."
+  },
+  {
+   "t": 28.12,
+   "texte": "Le pion noir court aussi trop tard."
+  },
+  {
+   "t": 30.94,
+   "texte": "Le pion arrive en a7."
+  },
+  {
+   "t": 33.12,
+   "texte": "Encore un pas pour les Noirs et le pion a devient dame !"
+  },
+  {
+   "t": 37.9,
+   "texte": "Donne deux pions pour en libérer un."
+  }
+ ],
+ "coups": [
+  {
+   "t": 15.76,
+   "coup": "b6",
+   "badge": "brillant"
+  },
+  {
+   "t": 18.32,
+   "coup": "axb6",
+   "badge": null
+  },
+  {
+   "t": 20.38,
+   "coup": "c6",
+   "badge": "brillant"
+  },
+  {
+   "t": 22.88,
+   "coup": "bxc6",
+   "badge": null
+  },
+  {
+   "t": 26.52,
+   "coup": "a6",
+   "badge": null
+  },
+  {
+   "t": 29.22,
+   "coup": "b5",
+   "badge": null
+  },
+  {
+   "t": 31.12,
+   "coup": "a7",
+   "badge": null
+  },
+  {
+   "t": 33.82,
+   "coup": "b4",
+   "badge": null
+  },
+  {
+   "t": 35.78,
+   "coup": "a8=Q",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 10.2,
+   "duree": 1.0,
+   "texte": "Lequel ?"
+  }
+ ]
+}
