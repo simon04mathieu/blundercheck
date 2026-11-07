@@ -104,3 +104,5 @@
 {"reseau": "facebook", "id": "2346164959500336", "ok": true}
 ### 2026-11-07 14:36 publications/facebook/percee_3v3_1.json
 {"reseau": "facebook", "id": "2025444268124166", "ok": true}
+### 2026-11-07 16:33 publications/facebook/lasker_bauer_1.json
+{"reseau": "facebook", "id": "1835366901115226", "ok": true}

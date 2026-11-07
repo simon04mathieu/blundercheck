@@ -77,3 +77,5 @@
 {"reseau": "instagram", "id": "18120259432959008"}
 ### 2026-11-06 20:41 publications/instagram/finale_lucena_1_fr.json
 {"reseau": "instagram", "id": "18080362817729460"}
+### 2026-11-07 16:33 publications/instagram/lasker_bauer_1_fr.json
+{"reseau": "instagram", "id": "18136536874679666"}
