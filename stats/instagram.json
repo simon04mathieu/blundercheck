@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-06T17:29:51Z",
+ "releve": "2026-11-07T17:15:26Z",
  "compte": "blundercheckapp",
  "abonnes": 1,
  "publications": [
+  {
+   "id": "18136536874679666",
+   "caption": "Les Noirs prennent le cavalier. Que joue Lasker ? 🤯 Tu aurais sacrifié les deux ",
+   "comments_count": 0,
+   "like_count": 0,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfcniSuEagp/",
+   "timestamp": "2026-11-07T16:32:56+0000",
+   "insights": {
+    "views": 125,
+    "reach": 17,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0
+   }
+  },
+  {
+   "id": "18080362817729460",
+   "caption": "Les Blancs gagnent ? Construis le pont ! 🌉 Tu aurais construit le pont ? 👇 La po",
+   "comments_count": 0,
+   "like_count": 1,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfafQGXGhnx/",
+   "timestamp": "2026-11-06T20:41:41+0000",
+   "insights": {
+    "views": 141,
+    "reach": 117,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1
+   }
+  },
   {
    "id": "18120259432959008",
    "caption": "La dame noire va en a4. Tu la punis ? 😈 Tu l'aurais vu ? 👇 Vu dans 3 vraies part",
@@ -12,8 +44,8 @@
    "permalink": "https://www.instagram.com/reel/DfaERlkjwWA/",
    "timestamp": "2026-11-06T16:46:03+0000",
    "insights": {
-    "views": 88,
-    "reach": 10,
+    "views": 150,
+    "reach": 113,
     "shares": 0,
     "saved": 0,
     "total_interactions": 0
@@ -28,8 +60,8 @@
    "permalink": "https://www.instagram.com/reel/DfX6rHdDQRV/",
    "timestamp": "2026-11-05T20:43:40+0000",
    "insights": {
-    "views": 175,
-    "reach": 116,
+    "views": 177,
+    "reach": 117,
     "shares": 0,
     "saved": 0,
     "total_interactions": 0
@@ -449,38 +481,6 @@
     "shares": 0,
     "saved": 0,
     "total_interactions": 1
-   }
-  },
-  {
-   "id": "17911730910559840",
-   "caption": "Ton pion mange le vide et fait mat 😳 Légal ? Tu le savais ? Oui ou non 👇\n\n#echec",
-   "comments_count": 0,
-   "like_count": 0,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/De4eX5GlIGJ/",
-   "timestamp": "2026-10-24T15:40:12+0000",
-   "insights": {
-    "views": 1,
-    "reach": 1,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 0
-   }
-  },
-  {
-   "id": "18489952603129768",
-   "caption": "Le pigeon du jour #3 🐦 S'il mange ta dame, il est mat. Tu serais tombé dedans ? ",
-   "comments_count": 0,
-   "like_count": 3,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/De4KjCxD67n/",
-   "timestamp": "2026-10-24T12:46:40+0000",
-   "insights": {
-    "views": 159,
-    "reach": 132,
-    "shares": 1,
-    "saved": 0,
-    "total_interactions": 4
    }
   }
  ],
