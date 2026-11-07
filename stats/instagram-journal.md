@@ -79,3 +79,5 @@
 {"reseau": "instagram", "id": "18080362817729460"}
 ### 2026-11-07 16:33 publications/instagram/lasker_bauer_1_fr.json
 {"reseau": "instagram", "id": "18136536874679666"}
+### 2026-11-07 20:30 publications/instagram/percee_3v3_1_fr.json
+{"reseau": "instagram", "id": "18003327867032238"}
