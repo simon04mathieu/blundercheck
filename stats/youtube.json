@@ -1,5 +1,5 @@
 {
- "date": "2026-11-07T14:30:50.389053+00:00",
+ "date": "2026-11-07T14:41:33.522555+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,6 +7,15 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "X8jGygzGpTo": {
+   "titre": "One pawn push wins. Which one? ♟️ #chess #shorts",
+   "publiee": "2026-11-07T14:31:16Z",
+   "statut": "public",
+   "duree": "PT42S",
+   "vues": 0,
+   "jaime": 0,
+   "commentaires": 0
+  },
   "yRfAQhfQLBw": {
    "titre": "Black castles. What does White play? ♟️ #chess #shorts",
    "publiee": "2026-11-06T20:35:02Z",
@@ -39,7 +48,7 @@
    "publiee": "2026-11-06T14:15:43Z",
    "statut": "public",
    "duree": "PT57S",
-   "vues": 861,
+   "vues": 869,
    "jaime": 11,
    "commentaires": 0
   },
@@ -48,7 +57,7 @@
    "publiee": "2026-11-05T20:36:21Z",
    "statut": "public",
    "duree": "PT33S",
-   "vues": 1727,
+   "vues": 1734,
    "jaime": 14,
    "commentaires": 2
   },
@@ -66,7 +75,7 @@
    "publiee": "2026-11-05T16:53:47Z",
    "statut": "public",
    "duree": "PT42S",
-   "vues": 1270,
+   "vues": 1301,
    "jaime": 13,
    "commentaires": 4
   },
@@ -84,7 +93,7 @@
    "publiee": "2026-11-04T20:39:55Z",
    "statut": "public",
    "duree": "PT46S",
-   "vues": 11961,
+   "vues": 11963,
    "jaime": 234,
    "commentaires": 12
   },
@@ -93,7 +102,7 @@
    "publiee": "2026-11-04T18:41:53Z",
    "statut": "public",
    "duree": "PT39S",
-   "vues": 2022,
+   "vues": 2032,
    "jaime": 16,
    "commentaires": 2
   },
@@ -120,7 +129,7 @@
    "publiee": "2026-11-03T20:33:54Z",
    "statut": "public",
    "duree": "PT37S",
-   "vues": 1246,
+   "vues": 1248,
    "jaime": 10,
    "commentaires": 1
   },
@@ -165,7 +174,7 @@
    "publiee": "2026-11-02T17:02:34Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 8904,
+   "vues": 8905,
    "jaime": 82,
    "commentaires": 0
   },
@@ -327,7 +336,7 @@
    "publiee": "2026-10-28T19:47:32Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 10856,
+   "vues": 10857,
    "jaime": 69,
    "commentaires": 20
   },
