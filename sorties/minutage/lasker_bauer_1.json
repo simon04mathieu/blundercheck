@@ -16,7 +16,7 @@
    "texte": "Amsterdam, 1889."
   },
   {
-   "t": 2.78,
+   "t": 2.76,
    "texte": "Lasker offers a knight on h5 and Black takes it."
   },
   {
@@ -56,7 +56,7 @@
    "texte": "Now the rook swings to f3."
   },
   {
-   "t": 33.34,
+   "t": 33.36,
    "texte": "Black pushes a pawn and the rook slides to h3 check!"
   },
   {
@@ -76,7 +76,7 @@
    "texte": "Black saves one and the queen takes the other."
   },
   {
-   "t": 49.62,
+   "t": 49.54,
    "texte": "Lasker wins."
   }
  ],
@@ -102,7 +102,7 @@
    "badge": null
   },
   {
-   "t": 21.34,
+   "t": 21.32,
    "coup": "Kg8",
    "badge": null
   },
@@ -117,12 +117,12 @@
    "badge": null
   },
   {
-   "t": 26.9,
+   "t": 27.24,
    "coup": "Qg4+",
    "badge": null
   },
   {
-   "t": 28.98,
+   "t": 29.28,
    "coup": "Kh7",
    "badge": null
   },
@@ -132,7 +132,7 @@
    "badge": null
   },
   {
-   "t": 33.62,
+   "t": 33.6,
    "coup": "e5",
    "badge": null
   },
@@ -167,7 +167,7 @@
    "badge": null
   },
   {
-   "t": 48.02,
+   "t": 48.34,
    "coup": "Qxb7",
    "badge": null
   }

@@ -658,3 +658,8 @@
 ### commandes/perso_vienne_stanley_1.json
     voix générée : 322 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/vienne_stanley_1.mp4 {"voix_brute_s": 30.0, "tempo": 1.0, "video_s": 31.7, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 65, "minutage": "12 phrases, 6 coups, 1 pauses"}
+## 2026-11-07 00:13 UTC · run 42316815803
+### commandes/perso_lasker_bauer_1.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/lasker_bauer_1.mp4 {"voix_brute_s": 49.7, "tempo": 1.0, "video_s": 51.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 113, "minutage": "17 phrases, 18 coups, 1 pauses"}
