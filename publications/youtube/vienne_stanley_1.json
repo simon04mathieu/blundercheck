@@ -1,0 +1,35 @@
+{
+ "titre": "A free rook on h8. Should he take it? ♟️ #chess #shorts",
+ "description": "Vienna Game, Stanley variation. White grabs the undefended rook on h8, and Black mates in 3: Qg4+, Nxc2+ forking king and rook, then Qd1#. After Qg4+ White has only two replies, and both lose. White was already better: 9.c3 was right. Seen in 2 real Lichess games (~1740). Would you have taken the rook? 👇\n\nAnalyze your own game, free: https://blundercheck.app/try?src=youtube-en\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess trap",
+  "chess tactics",
+  "vienna game"
+ ],
+ "envoyer_apres": "2026-11-07T19:00:00+01:00",
+ "fichier": "sorties/vienne_stanley_1.mp4",
+ "concept": "vienne_stanley",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "T4-titre",
+ "duree": 31.06,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 31,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T4-titre",
+  "variante": "B",
+  "appel_site": "oui",
+  "fin": "follow_avant_reponse",
+  "motif": "echec_dame_puis_fourchette_cavalier_mat",
+  "niveau": 1740,
+  "hook": "question",
+  "interet": "la_tour_offerte_coute_la_partie"
+ }
+}

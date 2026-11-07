@@ -1,0 +1,35 @@
+{
+ "titre": "One pawn push wins. Which one? ♟️ #chess #shorts",
+ "description": "Three pawns against three, both kings far away. Only the middle push wins: 1.b6! If 1…axb6, 2.c6! bxc6 3.a6 and the a-pawn queens (after 1…cxb6, 2.a6! wins the same way). 1.a6 and 1.c6 both lose. Checked with Stockfish. Would you have found b6? 👇\n\nAnalyze your own game, free: https://blundercheck.app/try?src=youtube-en\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess endgame",
+  "pawn endgame",
+  "pawn breakthrough"
+ ],
+ "envoyer_apres": "2026-11-07T15:00:00+01:00",
+ "fichier": "sorties/percee_3v3_1.mp4",
+ "concept": "percee_3v3",
+ "format": "FINALE",
+ "langue": "en",
+ "test": "T16-finale",
+ "duree": 40.4,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 40,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T16-finale",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "percee_pions_3_contre_3",
+  "niveau": "theorie classique 1500-2300",
+  "hook": "question",
+  "interet": "un_seul_coup_gagne_les_deux_autres_perdent"
+ }
+}

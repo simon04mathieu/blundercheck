@@ -1,0 +1,32 @@
+{
+ "legende": "One pawn push wins. Which one? 🤯 Would you have found it? 👇 Three pawns against three: only the middle one works. Give two pawns to free one. One new endgame trick every day. #chess #chesstok",
+ "envoyer_apres": "2026-11-07T08:00:00+01:00",
+ "heure_conseillee": "2026-11-07T15:00:00+01:00",
+ "repere": "15 h · percee_3v3_1 · 40.4 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/percee_3v3_1.mp4",
+ "concept": "percee_3v3",
+ "format": "FINALE",
+ "langue": "en",
+ "test": "T16-finale",
+ "duree": 40.4,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 40,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T16-finale",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "percee_pions_3_contre_3",
+  "niveau": "theorie classique 1500-2300",
+  "hook": "question",
+  "interet": "un_seul_coup_gagne_les_deux_autres_perdent"
+ }
+}

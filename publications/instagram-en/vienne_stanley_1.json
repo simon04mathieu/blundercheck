@@ -1,0 +1,28 @@
+{
+ "legende": "A free rook on h8. Should he take it? 😈 Would you have taken it? 👇 Real-game trap (Vienna, Stanley variation, 2 Lichess games, ~1740). White was already better; 9.c3 was right. One new trap every day.\n\nAnalyze your own game, free: link in bio\n\n#chess #chesspuzzle #chesstactics",
+ "envoyer_apres": "2026-11-07T19:00:00+01:00",
+ "fichier": "sorties/vienne_stanley_1.mp4",
+ "concept": "vienne_stanley",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "T4-titre",
+ "duree": 31.06,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 31,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T4-titre",
+  "variante": "B",
+  "appel_site": "oui",
+  "fin": "follow_avant_reponse",
+  "motif": "echec_dame_puis_fourchette_cavalier_mat",
+  "niveau": 1740,
+  "hook": "question",
+  "interet": "la_tour_offerte_coute_la_partie"
+ }
+}

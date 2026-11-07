@@ -1,0 +1,33 @@
+{
+ "legende": "Les Noirs prennent le cavalier. Que joue Lasker ? 🤯 Tu aurais sacrifié les deux fous ? 👇 Lasker – Bauer, Amsterdam 1889 (Wikipédia) : le plus célèbre double sacrifice de fou. Une histoire d'échecs par jour. #echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-07T08:00:00+01:00",
+ "heure_conseillee": "2026-11-07T17:00:00+01:00",
+ "repere": "17 h · lasker_bauer_1_fr · 54.28 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/lasker_bauer_1_fr.mp4",
+ "concept": "lasker_bauer",
+ "format": "HISTOIRE",
+ "langue": "fr",
+ "paire": "lasker_bauer_1",
+ "test": "T16-histoire",
+ "duree": 54.28,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "HISTOIRE",
+  "categorie": "histoire",
+  "langue": "fr",
+  "duree_s": 54,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T16-histoire",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "double_sacrifice_de_fou",
+  "niveau": "partie historique 1700-2500",
+  "hook": "question",
+  "interet": "la_combinaison_celebre_du_double_sacrifice"
+ }
+}
