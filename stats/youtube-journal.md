@@ -567,3 +567,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "62"}
 ### 2026-11-07 18:24 publications/youtube/vienne_stanley_1.json
 {"id": "fnKhUc7M1f0", "url": "https://www.youtube.com/shorts/fnKhUc7M1f0", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "62"}

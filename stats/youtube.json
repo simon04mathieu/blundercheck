@@ -1,5 +1,5 @@
 {
- "date": "2026-11-07T18:24:43.402715+00:00",
+ "date": "2026-11-07T18:43:25.615776+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,13 +7,22 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "fnKhUc7M1f0": {
+   "titre": "A free rook on h8. Should he take it? ♟️ #chess #shorts",
+   "publiee": "2026-11-07T18:25:04Z",
+   "statut": "public",
+   "duree": "PT32S",
+   "vues": 14,
+   "jaime": 0,
+   "commentaires": 0
+  },
   "2bkmRgnuDYk": {
    "titre": "Black takes the knight. What does Lasker play? ♟️ #chess #shorts",
    "publiee": "2026-11-07T16:26:01Z",
    "statut": "public",
    "duree": "PT52S",
-   "vues": 123,
-   "jaime": 2,
+   "vues": 160,
+   "jaime": 3,
    "commentaires": 0
   },
   "X8jGygzGpTo": {
@@ -21,8 +30,8 @@
    "publiee": "2026-11-07T14:31:16Z",
    "statut": "public",
    "duree": "PT42S",
-   "vues": 1091,
-   "jaime": 27,
+   "vues": 1245,
+   "jaime": 28,
    "commentaires": 1
   },
   "yRfAQhfQLBw": {
@@ -48,7 +57,7 @@
    "publiee": "2026-11-06T16:38:54Z",
    "statut": "public",
    "duree": "PT43S",
-   "vues": 5476,
+   "vues": 5490,
    "jaime": 29,
    "commentaires": 1
   },
@@ -66,8 +75,8 @@
    "publiee": "2026-11-05T20:36:21Z",
    "statut": "public",
    "duree": "PT33S",
-   "vues": 1918,
-   "jaime": 15,
+   "vues": 1974,
+   "jaime": 16,
    "commentaires": 3
   },
   "40fpfzPwYPc": {
@@ -93,7 +102,7 @@
    "publiee": "2026-11-05T14:25:17Z",
    "statut": "public",
    "duree": "PT37S",
-   "vues": 2863,
+   "vues": 2918,
    "jaime": 12,
    "commentaires": 1
   },
@@ -102,7 +111,7 @@
    "publiee": "2026-11-04T20:39:55Z",
    "statut": "public",
    "duree": "PT46S",
-   "vues": 12271,
+   "vues": 12321,
    "jaime": 239,
    "commentaires": 12
   },
@@ -282,7 +291,7 @@
    "publiee": "2026-10-30T16:48:21Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 5171,
+   "vues": 5174,
    "jaime": 94,
    "commentaires": 1
   },
