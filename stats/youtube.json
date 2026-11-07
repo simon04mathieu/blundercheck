@@ -1,5 +1,5 @@
 {
- "date": "2026-11-07T16:25:36.763661+00:00",
+ "date": "2026-11-07T16:39:27.884607+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,13 +7,22 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "2bkmRgnuDYk": {
+   "titre": "Black takes the knight. What does Lasker play? ♟️ #chess #shorts",
+   "publiee": "2026-11-07T16:26:01Z",
+   "statut": "public",
+   "duree": "PT52S",
+   "vues": 9,
+   "jaime": 0,
+   "commentaires": 0
+  },
   "X8jGygzGpTo": {
    "titre": "One pawn push wins. Which one? ♟️ #chess #shorts",
    "publiee": "2026-11-07T14:31:16Z",
    "statut": "public",
    "duree": "PT42S",
-   "vues": 398,
-   "jaime": 10,
+   "vues": 474,
+   "jaime": 12,
    "commentaires": 0
   },
   "yRfAQhfQLBw": {
@@ -30,7 +39,7 @@
    "publiee": "2026-11-06T18:37:53Z",
    "statut": "public",
    "duree": "PT31S",
-   "vues": 1582,
+   "vues": 1573,
    "jaime": 9,
    "commentaires": 0
   },
@@ -39,7 +48,7 @@
    "publiee": "2026-11-06T16:38:54Z",
    "statut": "public",
    "duree": "PT43S",
-   "vues": 5297,
+   "vues": 5332,
    "jaime": 29,
    "commentaires": 1
   },
@@ -57,7 +66,7 @@
    "publiee": "2026-11-05T20:36:21Z",
    "statut": "public",
    "duree": "PT33S",
-   "vues": 1804,
+   "vues": 1819,
    "jaime": 14,
    "commentaires": 3
   },
@@ -75,7 +84,7 @@
    "publiee": "2026-11-05T16:53:47Z",
    "statut": "public",
    "duree": "PT42S",
-   "vues": 1304,
+   "vues": 1303,
    "jaime": 13,
    "commentaires": 4
   },
@@ -84,7 +93,7 @@
    "publiee": "2026-11-05T14:25:17Z",
    "statut": "public",
    "duree": "PT37S",
-   "vues": 2548,
+   "vues": 2591,
    "jaime": 10,
    "commentaires": 1
   },
@@ -93,7 +102,7 @@
    "publiee": "2026-11-04T20:39:55Z",
    "statut": "public",
    "duree": "PT46S",
-   "vues": 11989,
+   "vues": 12013,
    "jaime": 237,
    "commentaires": 12
   },
@@ -111,7 +120,7 @@
    "publiee": "2026-11-04T16:42:28Z",
    "statut": "public",
    "duree": "PT44S",
-   "vues": 3665,
+   "vues": 3675,
    "jaime": 50,
    "commentaires": 1
   },
@@ -120,7 +129,7 @@
    "publiee": "2026-11-04T14:16:54Z",
    "statut": "public",
    "duree": "PT35S",
-   "vues": 2958,
+   "vues": 2965,
    "jaime": 17,
    "commentaires": 5
   },
@@ -147,7 +156,7 @@
    "publiee": "2026-11-03T14:13:46Z",
    "statut": "public",
    "duree": "PT31S",
-   "vues": 1506,
+   "vues": 1492,
    "jaime": 11,
    "commentaires": 1
   },
@@ -174,7 +183,7 @@
    "publiee": "2026-11-02T17:02:34Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 8905,
+   "vues": 8907,
    "jaime": 82,
    "commentaires": 0
   },
