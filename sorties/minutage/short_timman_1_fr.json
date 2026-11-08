@@ -16,7 +16,7 @@
    "texte": "Tilburg, 1991."
   },
   {
-   "t": 2.9,
+   "t": 2.86,
    "texte": "La dame et les deux tours blanches sont déjà chez le roi noir, mais il manque une pièce : le roi blanc."
   },
   {
@@ -40,7 +40,7 @@
    "texte": "Les Noirs bougent une tour."
   },
   {
-   "t": 23.34,
+   "t": 23.36,
    "texte": "Le roi va en g3 et la tour revient."
   },
   {
@@ -48,29 +48,29 @@
    "texte": "Roi en f4 !"
   },
   {
-   "t": 27.82,
+   "t": 27.92,
    "texte": "Le fou recule."
   },
   {
-   "t": 29.32,
+   "t": 28.84,
    "texte": "Et le roi file en g5 en plein camp ennemi !"
   },
   {
-   "t": 33.08,
+   "t": 32.94,
    "texte": "Les Noirs prennent une tour et le roi va en h6."
   },
   {
-   "t": 36.8,
+   "t": 36.78,
    "texte": "La dame en g7 fera mat et les Noirs abandonnent."
   },
   {
-   "t": 40.3,
+   "t": 40.34,
    "texte": "Parfois, le meilleur attaquant c'est ton roi."
   }
  ],
  "coups": [
   {
-   "t": 16.3,
+   "t": 16.08,
    "coup": "h4",
    "badge": null
   },
@@ -80,27 +80,27 @@
    "badge": null
   },
   {
-   "t": 20.14,
+   "t": 19.9,
    "coup": "Kh2",
    "badge": null
   },
   {
-   "t": 22.46,
+   "t": 21.74,
    "coup": "Rc8",
    "badge": null
   },
   {
-   "t": 23.84,
+   "t": 23.74,
    "coup": "Kg3",
    "badge": null
   },
   {
-   "t": 25.22,
+   "t": 25.24,
    "coup": "Rce8",
    "badge": null
   },
   {
-   "t": 26.46,
+   "t": 26.56,
    "coup": "Kf4",
    "badge": "brillant"
   },
@@ -115,7 +115,7 @@
    "badge": "brillant"
   },
   {
-   "t": 33.9,
+   "t": 33.58,
    "coup": "Bxd7",
    "badge": null
   },

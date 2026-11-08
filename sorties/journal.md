@@ -694,3 +694,6 @@
 ### commandes/perso_short_timman_1.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/short_timman_1.mp4 {"voix_brute_s": 46.3, "tempo": 1.0, "video_s": 47.9, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 105, "minutage": "15 phrases, 11 coups, 1 pauses"}
+### commandes/perso_short_timman_1_fr.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/short_timman_1_fr.mp4 {"voix_brute_s": 42.3, "tempo": 1.0, "video_s": 44.1, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 112, "minutage": "14 phrases, 11 coups, 1 pauses"}
