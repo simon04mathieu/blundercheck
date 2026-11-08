@@ -666,3 +666,8 @@
 ### commandes/perso_lasker_bauer_1_fr.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/lasker_bauer_1_fr.mp4 {"voix_brute_s": 53.2, "tempo": 1.0, "video_s": 54.9, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 117, "minutage": "17 phrases, 18 coups, 1 pauses"}
+## 2026-11-08 00:06 UTC · run 42428115133
+### commandes/perso_passant_decouverte_1.json
+    voix générée : 485 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/passant_decouverte_1.mp4 {"voix_brute_s": 38.3, "tempo": 1.0, "video_s": 39.9, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 95, "minutage": "14 phrases, 7 coups, 1 pauses"}

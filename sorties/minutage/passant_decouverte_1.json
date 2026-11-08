@@ -1,0 +1,115 @@
+{
+ "nom": "passant_decouverte_1",
+ "tempo": 1.0,
+ "duree_s": 39.34,
+ "hook": {
+  "texte": "King in check.|Hide in the corner?",
+  "fin": 3.02
+ },
+ "question": {
+  "texte": "Analyze your own|game, free",
+  "t": 36.14
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "The black king is in check from the knight."
+  },
+  {
+   "t": 3.02,
+   "texte": "The corner looks like the safest room."
+  },
+  {
+   "t": 5.62,
+   "texte": "Should he hide there?"
+  },
+  {
+   "t": 8.42,
+   "texte": "One new trap a day."
+  },
+  {
+   "t": 10.18,
+   "texte": "Follow so you don't miss it."
+  },
+  {
+   "t": 12.7,
+   "texte": "The king runs to the corner."
+  },
+  {
+   "t": 14.72,
+   "texte": "It's a dead end!"
+  },
+  {
+   "t": 16.36,
+   "texte": "The queen checks on the long diagonal."
+  },
+  {
+   "t": 18.88,
+   "texte": "Only one shield the pawn jumps two squares."
+  },
+  {
+   "t": 22.82,
+   "texte": "And now, magic the pawn takes en passant and the queen's check is back!"
+  },
+  {
+   "t": 29.1,
+   "texte": "The bishop is the last shield and the queen eats it."
+  },
+  {
+   "t": 32.7,
+   "texte": "Checkmate!"
+  },
+  {
+   "t": 34.26,
+   "texte": "The safe door was the king to e8."
+  },
+  {
+   "t": 37.32,
+   "texte": "Analyze your own game free."
+  }
+ ],
+ "coups": [
+  {
+   "t": 13.42,
+   "coup": "Kg8",
+   "badge": "gaffe"
+  },
+  {
+   "t": 16.9,
+   "coup": "Qb3+",
+   "badge": "brillant"
+  },
+  {
+   "t": 20.88,
+   "coup": "d5",
+   "badge": null
+  },
+  {
+   "t": 25.28,
+   "coup": "exd6+",
+   "badge": "brillant"
+  },
+  {
+   "t": 29.48,
+   "coup": "Be6",
+   "badge": null
+  },
+  {
+   "t": 31.42,
+   "coup": "Qxe6#",
+   "badge": "mat"
+  },
+  {
+   "t": 35.6,
+   "coup": "Ke8",
+   "badge": "meilleur"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 7.4,
+   "duree": 1.0,
+   "texte": "Hide there?"
+  }
+ ]
+}
