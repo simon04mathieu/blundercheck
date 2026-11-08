@@ -499,3 +499,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 ### 2026-11-08 07:40 publications/tiktok-en/sicilienne_dame_1.json
 {"publish_id": "v_inbox_file~v2.7705701681275635734", "mode": "brouillon", "vie_privee": null, "legende": "Would you have saved your queen? 👇 Sicilian trap seen in 4 real Lichess games (~1776). Black's 7...Bd7 was better. One new trap every day. #chess #chesstactics #chesstok"}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 28, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 29, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
