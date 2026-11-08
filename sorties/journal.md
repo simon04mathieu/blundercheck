@@ -677,3 +677,6 @@
 ### commandes/perso_rotlewi_rubinstein_1_fr.json
     voix générée : 457 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/rotlewi_rubinstein_1_fr.mp4 {"voix_brute_s": 37.9, "tempo": 1.0, "video_s": 39.5, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 94, "minutage": "13 phrases, 8 coups, 1 pauses"}
+### commandes/perso_short_timman_1.json
+    voix générée : 540 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/short_timman_1.mp4 {"voix_brute_s": 46.3, "tempo": 1.0, "video_s": 47.9, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 105, "minutage": "15 phrases, 11 coups, 1 pauses"}

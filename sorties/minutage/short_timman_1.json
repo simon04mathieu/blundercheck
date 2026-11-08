@@ -1,0 +1,139 @@
+{
+ "nom": "short_timman_1",
+ "tempo": 1.0,
+ "duree_s": 47.32,
+ "hook": {
+  "texte": "Queen and rooks in.|What's missing?",
+  "fin": 6.24
+ },
+ "question": {
+  "texte": "Would you walk|your king up?",
+  "t": 44.12
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Tilburg, 1991."
+  },
+  {
+   "t": 1.22,
+   "texte": "White's queen and two rooks are already at Black's king but one piece is missing the king itself."
+  },
+  {
+   "t": 9.68,
+   "texte": "Can it join the attack?"
+  },
+  {
+   "t": 12.74,
+   "texte": "New story every day."
+  },
+  {
+   "t": 14.58,
+   "texte": "Follow to get tomorrow's."
+  },
+  {
+   "t": 16.68,
+   "texte": "The pawn goes to h4 and Black answers."
+  },
+  {
+   "t": 20.72,
+   "texte": "Now the king walks to h2."
+  },
+  {
+   "t": 23.3,
+   "texte": "Black just moves a rook."
+  },
+  {
+   "t": 25.62,
+   "texte": "The king goes to g3 and the rook goes back."
+  },
+  {
+   "t": 29.16,
+   "texte": "King to f4!"
+  },
+  {
+   "t": 31.46,
+   "texte": "The bishop retreats."
+  },
+  {
+   "t": 32.42,
+   "texte": "And the king steps to g5 right into the enemy camp!"
+  },
+  {
+   "t": 37.16,
+   "texte": "Black takes a rook and the king goes to h6."
+  },
+  {
+   "t": 41.0,
+   "texte": "Queen to g7 will be mate and Black resigns."
+  },
+  {
+   "t": 45.08,
+   "texte": "Sometimes your king is your best attacker."
+  }
+ ],
+ "coups": [
+  {
+   "t": 17.76,
+   "coup": "h4",
+   "badge": null
+  },
+  {
+   "t": 19.24,
+   "coup": "h5",
+   "badge": null
+  },
+  {
+   "t": 21.84,
+   "coup": "Kh2",
+   "badge": null
+  },
+  {
+   "t": 24.26,
+   "coup": "Rc8",
+   "badge": null
+  },
+  {
+   "t": 26.4,
+   "coup": "Kg3",
+   "badge": null
+  },
+  {
+   "t": 27.98,
+   "coup": "Rce8",
+   "badge": null
+  },
+  {
+   "t": 29.74,
+   "coup": "Kf4",
+   "badge": "brillant"
+  },
+  {
+   "t": 31.74,
+   "coup": "Bc8",
+   "badge": null
+  },
+  {
+   "t": 33.62,
+   "coup": "Kg5",
+   "badge": "brillant"
+  },
+  {
+   "t": 37.74,
+   "coup": "Bxd7",
+   "badge": null
+  },
+  {
+   "t": 39.02,
+   "coup": "Kh6",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 11.72,
+   "duree": 1.0,
+   "texte": "Your plan?"
+  }
+ ]
+}
