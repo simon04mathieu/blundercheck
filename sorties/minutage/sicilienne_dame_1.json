@@ -1,0 +1,124 @@
+{
+ "nom": "sicilienne_dame_1",
+ "tempo": 1.0,
+ "duree_s": 40.24,
+ "hook": {
+  "texte": "Queen attacked.|Ignore it!",
+  "fin": 4.74
+ },
+ "question": {
+  "texte": "Would you have|saved your queen?",
+  "t": 37.04
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Sicilian."
+  },
+  {
+   "t": 1.3,
+   "texte": "Bishop check, and Black blocks with the knight."
+  },
+  {
+   "t": 4.74,
+   "texte": "Now that knight is pinned."
+  },
+  {
+   "t": 6.8,
+   "texte": "But White's knight is pinned too against his queen."
+  },
+  {
+   "t": 10.54,
+   "texte": "White to move what now?"
+  },
+  {
+   "t": 14.12,
+   "texte": "Follow: one new trap every day."
+  },
+  {
+   "t": 17.32,
+   "texte": "Knight takes e5!"
+  },
+  {
+   "t": 19.48,
+   "texte": "His queen hangs but who cares?"
+  },
+  {
+   "t": 21.98,
+   "texte": "Black takes her."
+  },
+  {
+   "t": 23.64,
+   "texte": "Bishop takes d7 check!"
+  },
+  {
+   "t": 26.24,
+   "texte": "The queen takes it."
+  },
+  {
+   "t": 28.1,
+   "texte": "The knight takes the queen and the king takes the knight."
+  },
+  {
+   "t": 31.96,
+   "texte": "Now the rook takes the bishop with check."
+  },
+  {
+   "t": 35.14,
+   "texte": "White gave a queen and ends a piece up."
+  },
+  {
+   "t": 38.4,
+   "texte": "A pinned piece defends nothing."
+  }
+ ],
+ "coups": [
+  {
+   "t": 3.12,
+   "coup": "Nfd7",
+   "badge": "gaffe"
+  },
+  {
+   "t": 17.58,
+   "coup": "Nxe5",
+   "badge": "brillant"
+  },
+  {
+   "t": 22.22,
+   "coup": "Bxd1",
+   "badge": null
+  },
+  {
+   "t": 23.96,
+   "coup": "Bxd7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 26.66,
+   "coup": "Qxd7",
+   "badge": null
+  },
+  {
+   "t": 28.78,
+   "coup": "Nxd7",
+   "badge": null
+  },
+  {
+   "t": 30.44,
+   "coup": "Kxd7",
+   "badge": null
+  },
+  {
+   "t": 32.48,
+   "coup": "Rxd1+",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 13.1,
+   "duree": 1.0,
+   "texte": "Your move?"
+  }
+ ]
+}

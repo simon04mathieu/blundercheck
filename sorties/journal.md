@@ -683,3 +683,6 @@
 ### commandes/perso_short_timman_1_fr.json
     voix générée : 543 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/short_timman_1_fr.mp4 {"voix_brute_s": 42.3, "tempo": 1.0, "video_s": 44.1, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 112, "minutage": "14 phrases, 11 coups, 1 pauses"}
+### commandes/perso_sicilienne_dame_1.json
+    voix générée : 479 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/sicilienne_dame_1.mp4 {"voix_brute_s": 39.2, "tempo": 1.0, "video_s": 40.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 87, "minutage": "15 phrases, 8 coups, 1 pauses"}
