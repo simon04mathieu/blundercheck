@@ -697,3 +697,8 @@
 ### commandes/perso_short_timman_1_fr.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/short_timman_1_fr.mp4 {"voix_brute_s": 42.3, "tempo": 1.0, "video_s": 44.1, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 112, "minutage": "14 phrases, 11 coups, 1 pauses"}
+## 2026-11-08 00:24 UTC · run 42429522134
+### commandes/perso_short_timman_1_fr.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/short_timman_1_fr.mp4 {"voix_brute_s": 42.3, "tempo": 1.0, "video_s": 44.1, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 112, "minutage": "14 phrases, 11 coups, 1 pauses"}
