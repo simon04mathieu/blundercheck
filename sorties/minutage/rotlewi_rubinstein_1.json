@@ -16,7 +16,7 @@
    "texte": "Lodz, 1907."
   },
   {
-   "t": 2.52,
+   "t": 2.34,
    "texte": "White pushes the pawn and attacks the black queen."
   },
   {
@@ -28,7 +28,7 @@
    "texte": "What does he play?"
   },
   {
-   "t": 10.72,
+   "t": 10.7,
    "texte": "Follow: one new chess story every day."
   },
   {
@@ -52,7 +52,7 @@
    "texte": "The queen takes it and the bishop takes e4 check."
   },
   {
-   "t": 27.16,
+   "t": 27.18,
    "texte": "The queen blocks and the last rook jumps to h3."
   },
   {
@@ -96,19 +96,19 @@
    "badge": null
   },
   {
-   "t": 27.6,
+   "t": 27.36,
    "coup": "Qg2",
    "badge": null
   },
   {
-   "t": 28.96,
+   "t": 29.28,
    "coup": "Rh3",
    "badge": "brillant"
   }
  ],
  "pauses": [
   {
-   "t": 9.7,
+   "t": 9.68,
    "duree": 1.0,
    "texte": "Your move?"
   }
