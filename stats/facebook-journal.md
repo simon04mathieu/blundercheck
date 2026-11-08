@@ -112,3 +112,5 @@
 {"reseau": "facebook", "id": "1432929758435220", "ok": true}
 ### 2026-11-08 14:34 publications/facebook/short_timman_1.json
 {"reseau": "facebook", "id": "1681148910048704", "ok": true}
+### 2026-11-08 16:33 publications/facebook/sicilienne_dame_1.json
+{"reseau": "facebook", "id": "1634125017795374", "ok": true}
