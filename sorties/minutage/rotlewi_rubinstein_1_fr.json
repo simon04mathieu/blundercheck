@@ -1,0 +1,116 @@
+{
+ "nom": "rotlewi_rubinstein_1_fr",
+ "tempo": 1.0,
+ "duree_s": 38.94,
+ "hook": {
+  "texte": "Dame attaquée.|Tu la sauves ?",
+  "fin": 7.36
+ },
+ "question": {
+  "texte": "Tu aurais donné|la dame ?",
+  "t": 35.74
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Lodz, 1907."
+  },
+  {
+   "t": 2.6,
+   "texte": "Les Blancs poussent le pion et attaquent la dame noire."
+  },
+  {
+   "t": 7.36,
+   "texte": "Rubinstein ne la sauve pas."
+  },
+  {
+   "t": 9.16,
+   "texte": "Que joue-t-il ?"
+  },
+  {
+   "t": 11.94,
+   "texte": "Abonne-toi : une histoire d'échecs par jour."
+  },
+  {
+   "t": 15.12,
+   "texte": "La tour prend c3 !"
+  },
+  {
+   "t": 17.64,
+   "texte": "Les deux fous visent le roi blanc."
+  },
+  {
+   "t": 19.8,
+   "texte": "Les Blancs prennent la dame."
+  },
+  {
+   "t": 21.38,
+   "texte": "L'autre tour va en d2 !"
+  },
+  {
+   "t": 23.92,
+   "texte": "La dame la prend et le fou prend e4 échec."
+  },
+  {
+   "t": 27.4,
+   "texte": "La dame s'interpose et la dernière tour saute en h3."
+  },
+  {
+   "t": 32.66,
+   "texte": "Le mat arrive et les Blancs abandonnent."
+  },
+  {
+   "t": 35.84,
+   "texte": "Une dame, ce n'est qu'une pièce : compte les échecs."
+  }
+ ],
+ "coups": [
+  {
+   "t": 3.5,
+   "coup": "g3",
+   "badge": "gaffe"
+  },
+  {
+   "t": 15.8,
+   "coup": "Rxc3",
+   "badge": "brillant"
+  },
+  {
+   "t": 20.22,
+   "coup": "gxh4",
+   "badge": null
+  },
+  {
+   "t": 22.32,
+   "coup": "Rd2",
+   "badge": "brillant"
+  },
+  {
+   "t": 24.46,
+   "coup": "Qxd2",
+   "badge": null
+  },
+  {
+   "t": 26.08,
+   "coup": "Bxe4+",
+   "badge": null
+  },
+  {
+   "t": 28.56,
+   "coup": "Qg2",
+   "badge": null
+  },
+  {
+   "t": 30.5,
+   "coup": "Rh3",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 10.92,
+   "duree": 1.0,
+   "texte": "Ton coup ?"
+  }
+ ]
+}
