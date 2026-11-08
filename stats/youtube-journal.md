@@ -593,3 +593,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "76"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "76"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "76"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "79"}
+### 2026-11-08 14:29 publications/youtube/short_timman_1.json
+{"id": "aOfop_M4h_Y", "url": "https://www.youtube.com/shorts/aOfop_M4h_Y", "statut": "public", "publier_le": null}
