@@ -1555,3 +1555,34 @@ QUESTIONS.update({
     "lasker_bauer_1_fr": "Tu aurais sacrifié|les deux fous ?",
     "percee_3v3_1_fr": "Tu aurais trouvé|b6 ?",
 })
+
+# 8/11 (Producteur) : file du Scénariste du 7/11 ; lignes vérifiées python-chess + Stockfish 16 (prof. 20-22) ; « Follow / Abonne-toi » juste avant la révélation (Simon, 3/11)
+# E3 remplacé : Kieninger déjà fait en EN (pigeon_en_12, 29/10, vu par deja_fait.py --verifier) → réserve n° 20 (Bishop's Opening, prise en passant à la découverte, 2 parties Lichess ~1874)
+# Rotlewi : 22.g3 n'enferme PAS la dame (22…Qe7 possible, −3,5) → « attaquée », jamais « piégée »
+SHORT = "fen:4rrk1/1bpR1p1p/1pq1pQp1/p3P3/P1PR4/5N1P/2P2PP1/6K1_w_-_-_4_30"
+SICIL = "fen:r2qkb1r/pp2pppp/3p1n2/1Bp1n3/4P1b1/2P2N2/PP1P1PPP/RNBQR1K1_b_kq_-_2_7"
+PASSANT = "fen:r1bq1b1r/pppp1kpp/2n5/4P1N1/6n1/2Pp4/PP3PPP/RNBQK2R_b_KQ_-_2_8"
+ROTLEWI = "fen:2rr2k1/1b3ppp/pb2p3/1p2P3/1P2BPnq/P1N5/1B2Q1PP/R4R1K_w_-_-_5_22"
+_S = {
+"short_timman_1": ("blancs", "Queen and rooks in.|What's missing?",   # Short – Timman, Tilburg 1991 : 30.h4 … 35.Kh6 (abandon) ; Stockfish +3,6 → mat en 8 après 33.Kf4 → Qg7# menacé
+"""[p """ + SHORT + """] [f f6g7] Tilburg, 1991. White's queen and two rooks are already at Black's king, [h] but one piece is missing: the king itself. Can it join the attack? [q 1 Your_plan?] New story every day. Follow to get tomorrow's. The pawn goes [m h4] to h4, and Black [m h5] answers. Now the king walks to [m Kh2] h2. Black just moves [m Rc8] a rook. The king goes [m Kg3] to g3, and the rook [m Rce8] goes back. King [m Kf4 brillant] to f4! The bishop [m Bc8] retreats. And the king steps [m Kg5 brillant] [z g5 1.3 2.0] to g5, right into the enemy camp! Black takes [m Bxd7] a rook, and the king [m Kh6 brillant] [z h6 1.3 2.0] goes to h6. [f f6g7] Queen to g7 will be mate, [s tag g7 2.5 1-0] and Black resigns. Sometimes your king is your best attacker."""),
+"sicilienne_dame_1": ("blancs", "Queen attacked.|Ignore it!",   # réserve n° 12 (Old Sicilian, 4 parties Lichess ~1776) : 7…Nfd7?? (7…Bd7 +0,7) 8.Nxe5! (+4,8 ; 8.d4 +0,6) … 11.Rxd1+ (+5,1)
+"""[p """ + SICIL + """] [f b5e8] Sicilian. Bishop check, and Black blocks [m Nfd7 gaffe] with the knight. [h] [f b5e8] Now that knight is pinned. But White's knight is pinned too, [f g4d1] against his queen. White to move: what now? [q 1 Your_move?] Follow: one new trap every day. Knight [m Nxe5 brillant] [z e5 1.3 2.0] takes e5! His queen hangs, but who cares? Black [m Bxd1] takes her. Bishop [m Bxd7+ brillant] takes d7, check! The queen [m Qxd7] takes it. The knight takes [m Nxd7] the queen, and the king takes [m Kxd7] the knight. Now the rook [m Rxd1+] [x impact] [z d1 1.3 2.0] takes the bishop, with check. [s tag d1 2.5 +3] White gave a queen, and ends a piece up. A pinned piece defends nothing."""),
+"passant_decouverte_1": ("blancs", "King in check.|Hide in the corner?",   # réserve n° 20 (Bishop's Opening, 2 parties Lichess, puzzle ~1874) : 8…Kg8?? (8…Ke8 −0,2) 9.Qb3+ d5 (seul coup) 10.exd6+ e.p. Be6 (seul coup) 11.Qxe6# ; T18 ton imagé
+"""[p """ + PASSANT + """] [f g5f7] The black king is in check from the knight. [h] The corner looks like the safest room. Should he hide there? [q 1 Hide_there?] One new trap a day. Follow so you don't miss it. The king runs [m Kg8 gaffe] to the corner. It's a dead end! The queen [m Qb3+ brillant] [z b3 1.3 2.0] checks on the long diagonal. Only one shield: the pawn [m d5] jumps two squares. And now, magic: the pawn takes [m exd6+ brillant] [z d6 1.3 2.0] en passant, and the queen's check is back! The bishop [m Be6] is the last shield, and the queen [m Qxe6# mat] [x impact] [z e6 1.3 2.0] eats it. Checkmate! [s tag e6 2.5 MATE] [p """ + PASSANT + """] The safe door was the king [m Ke8 meilleur] to e8. Analyze your own game, free."""),
+"rotlewi_rubinstein_1": ("noirs", "Queen attacked.|Save her?",   # Rotlewi – Rubinstein, Lodz 1907 (Wikipédia) : 22.g3 Rxc3! 23.gxh4 Rd2!! 24.Qxd2 Bxe4+ 25.Qg2 Rh3 0-1 ; Stockfish −4,4 → −6,1 → mat en 3 (Noirs)
+"""[p """ + ROTLEWI + """] Lodz, 1907. White pushes [m g3 gaffe] [z h4 1.3 2.0] the pawn and attacks the black queen. [h] Rubinstein does not save her. What does he play? [q 1 Your_move?] Follow: one new chess story every day. Rook [m Rxc3 brillant] takes c3! [f b6g1 b7h1] Both bishops now aim at the white king. White [m gxh4] takes the queen. The other rook goes [m Rd2 brillant] [z d2 1.3 2.0] to d2! The queen [m Qxd2] takes it, and the bishop takes [m Bxe4+] e4, check. The queen [m Qg2] blocks, and the last rook [m Rh3 brillant] [x impact] [z h3 1.3 2.0] jumps to h3. [s tag h3 2.5 0-1] Mate is coming, and White resigns. A queen is only a piece: count the checks."""),
+"short_timman_1_fr": ("blancs", "Dame et tours en place.|Qui manque ?",   # jumeau FR de short_timman_1
+"""[p """ + SHORT + """] [f f6g7] Tilburg, 1991. La dame et les deux tours blanches sont déjà chez le roi noir, [h] mais il manque une pièce : le roi blanc. Peut-il rejoindre l'attaque ? [q 1 Ton_plan ?] Abonne-toi : une histoire d'échecs par jour. Le pion va [m h4] en h4, et les Noirs [m h5] répondent. Puis le roi monte [m Kh2] en h2. Les Noirs bougent [m Rc8] une tour. Le roi va [m Kg3] en g3, et la tour [m Rce8] revient. Roi [m Kf4 brillant] en f4 ! Le fou [m Bc8] recule. Et le roi file [m Kg5 brillant] [z g5 1.3 2.0] en g5, en plein camp ennemi ! Les Noirs prennent [m Bxd7] une tour, et le roi va [m Kh6 brillant] [z h6 1.3 2.0] en h6. [f f6g7] La dame en g7 fera mat, [s tag g7 2.5 1-0] et les Noirs abandonnent. Parfois, le meilleur attaquant, c'est ton roi."""),
+"rotlewi_rubinstein_1_fr": ("noirs", "Dame attaquée.|Tu la sauves ?",   # jumeau FR de rotlewi_rubinstein_1
+"""[p """ + ROTLEWI + """] Lodz, 1907. Les Blancs poussent [m g3 gaffe] [z h4 1.3 2.0] le pion et attaquent la dame noire. [h] Rubinstein ne la sauve pas. Que joue-t-il ? [q 1 Ton_coup ?] Abonne-toi : une histoire d'échecs par jour. La tour [m Rxc3 brillant] prend c3 ! [f b6g1 b7h1] Les deux fous visent le roi blanc. Les Blancs [m gxh4] prennent la dame. L'autre tour va [m Rd2 brillant] [z d2 1.3 2.0] en d2 ! La dame [m Qxd2] la prend, et le fou prend [m Bxe4+] e4, échec. La dame [m Qg2] s'interpose, et la dernière tour [m Rh3 brillant] [x impact] [z h3 1.3 2.0] saute en h3. [s tag h3 2.5 0-1] Le mat arrive, et les Blancs abandonnent. Une dame, ce n'est qu'une pièce : compte les échecs."""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
+QUESTIONS.update({
+    "short_timman_1": "Would you walk|your king up?",
+    "sicilienne_dame_1": "Would you have|saved your queen?",
+    "passant_decouverte_1": "Analyze your own|game, free",
+    "rotlewi_rubinstein_1": "Would you give|the queen?",
+    "short_timman_1_fr": "Tu aurais fait|marcher ton roi ?",
+    "rotlewi_rubinstein_1_fr": "Tu aurais donné|la dame ?",
+})
