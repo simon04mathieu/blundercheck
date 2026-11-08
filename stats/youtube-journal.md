@@ -614,3 +614,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "85"}
 ### 2026-11-08 20:23 publications/youtube/rotlewi_rubinstein_1.json
 {"id": "J3gI_pZUF08", "url": "https://www.youtube.com/shorts/J3gI_pZUF08", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "85"}
