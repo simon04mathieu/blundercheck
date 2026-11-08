@@ -1,0 +1,135 @@
+{
+ "nom": "short_timman_1_fr",
+ "tempo": 1.0,
+ "duree_s": 43.52,
+ "hook": {
+  "texte": "Dame et tours en place.|Qui manque ?",
+  "fin": 5.98
+ },
+ "question": {
+  "texte": "Tu aurais fait|marcher ton roi ?",
+  "t": 40.32
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Tilburg, 1991."
+  },
+  {
+   "t": 2.9,
+   "texte": "La dame et les deux tours blanches sont déjà chez le roi noir, mais il manque une pièce : le roi blanc."
+  },
+  {
+   "t": 8.96,
+   "texte": "Peut-il rejoindre l'attaque ?"
+  },
+  {
+   "t": 12.22,
+   "texte": "Abonne-toi : une histoire d'échecs par jour."
+  },
+  {
+   "t": 15.4,
+   "texte": "Le pion va en h4 et les Noirs répondent."
+  },
+  {
+   "t": 19.06,
+   "texte": "Puis le roi monte en h2."
+  },
+  {
+   "t": 21.52,
+   "texte": "Les Noirs bougent une tour."
+  },
+  {
+   "t": 23.34,
+   "texte": "Le roi va en g3 et la tour revient."
+  },
+  {
+   "t": 26.08,
+   "texte": "Roi en f4 !"
+  },
+  {
+   "t": 27.82,
+   "texte": "Le fou recule."
+  },
+  {
+   "t": 29.32,
+   "texte": "Et le roi file en g5 en plein camp ennemi !"
+  },
+  {
+   "t": 33.08,
+   "texte": "Les Noirs prennent une tour et le roi va en h6."
+  },
+  {
+   "t": 36.8,
+   "texte": "La dame en g7 fera mat et les Noirs abandonnent."
+  },
+  {
+   "t": 40.3,
+   "texte": "Parfois, le meilleur attaquant c'est ton roi."
+  }
+ ],
+ "coups": [
+  {
+   "t": 16.3,
+   "coup": "h4",
+   "badge": null
+  },
+  {
+   "t": 17.8,
+   "coup": "h5",
+   "badge": null
+  },
+  {
+   "t": 20.14,
+   "coup": "Kh2",
+   "badge": null
+  },
+  {
+   "t": 22.46,
+   "coup": "Rc8",
+   "badge": null
+  },
+  {
+   "t": 23.84,
+   "coup": "Kg3",
+   "badge": null
+  },
+  {
+   "t": 25.22,
+   "coup": "Rce8",
+   "badge": null
+  },
+  {
+   "t": 26.46,
+   "coup": "Kf4",
+   "badge": "brillant"
+  },
+  {
+   "t": 28.36,
+   "coup": "Bc8",
+   "badge": null
+  },
+  {
+   "t": 30.02,
+   "coup": "Kg5",
+   "badge": "brillant"
+  },
+  {
+   "t": 33.9,
+   "coup": "Bxd7",
+   "badge": null
+  },
+  {
+   "t": 35.2,
+   "coup": "Kh6",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 11.2,
+   "duree": 1.0,
+   "texte": "Ton plan ?"
+  }
+ ]
+}
