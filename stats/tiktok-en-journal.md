@@ -489,3 +489,12 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 28, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 28, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 28, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 28, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-08 07:40 publications/tiktok-en/passant_decouverte_1.json
+{"publish_id": "v_inbox_file~v2.7705701681275537430", "mode": "brouillon", "vie_privee": null, "legende": "Would you have hidden in the corner? 👇 Bishop's Opening trap seen in 2 real Lichess games (~1874): en passant with discovered check. Better: 8...Ke8. One new trap a day. #chess #chesstrap #chesstok"}
+### 2026-11-08 07:40 publications/tiktok-en/rotlewi_rubinstein_1.json
+{"publish_id": "v_inbox_file~v2.7705701796019095574", "mode": "brouillon", "vie_privee": null, "legende": "Would you have given up the queen? 👇 Rotlewi – Rubinstein, Lodz 1907: \"Rubinstein's Immortal\". One new chess story every day. #chess #chesshistory #chesstok"}
+### 2026-11-08 07:40 publications/tiktok-en/short_timman_1.json
+{"publish_id": "v_inbox_file~v2.7705701659624523798", "mode": "brouillon", "vie_privee": null, "legende": "Would you have walked your king up the board? 👇 Short – Timman, Tilburg 1991: the most famous king walk in chess history. New story every day. #chess #chesshistory #chesstok"}
+### 2026-11-08 07:40 publications/tiktok-en/sicilienne_dame_1.json
+{"publish_id": "v_inbox_file~v2.7705701681275635734", "mode": "brouillon", "vie_privee": null, "legende": "Would you have saved your queen? 👇 Sicilian trap seen in 4 real Lichess games (~1776). Black's 7...Bd7 was better. One new trap every day. #chess #chesstactics #chesstok"}

@@ -637,3 +637,8 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-08 07:39 publications/tiktok/rotlewi_rubinstein_1_fr.json
+{"publish_id": "v_inbox_file~v2.7705701494615689238", "mode": "brouillon", "vie_privee": null, "legende": "La dame noire est attaquée. Que joue Rubinstein ? 🤯 Tu aurais donné la dame ? 👇 Rotlewi – Rubinstein, Lodz 1907 : « l'Immortelle de Rubinstein ». Une histoire d'échecs par jour. #echecs #chess #echecsfr"}
+### 2026-11-08 07:39 publications/tiktok/short_timman_1_fr.json
+{"publish_id": "v_inbox_file~v2.7705701659624392726", "mode": "brouillon", "vie_privee": null, "legende": "Le roi blanc va jusqu'en h6. Les Noirs peuvent l'arrêter ? 👑 Tu aurais fait marcher ton roi ? 👇 Short – Timman, Tilburg 1991 : la marche du roi la plus célèbre. Une histoire d'échecs par jour. #echecs #chess #echecsfr"}
