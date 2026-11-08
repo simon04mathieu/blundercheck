@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-07T17:15:26Z",
+ "releve": "2026-11-08T17:14:54Z",
  "compte": "blundercheckapp",
  "abonnes": 1,
  "publications": [
+  {
+   "id": "18080067422757106",
+   "caption": "Le roi blanc va jusqu'en h6. Les Noirs peuvent l'arrêter ? 👑 Tu aurais fait marc",
+   "comments_count": 0,
+   "like_count": 3,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DffMXcaCOkb/",
+   "timestamp": "2026-11-08T16:33:11+0000",
+   "insights": {
+    "views": 108,
+    "reach": 0,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 3
+   }
+  },
+  {
+   "id": "18003327867032238",
+   "caption": "Un seul coup de pion gagne. Lequel ? 🤯 Quel coup gagne ? 👇 Trois pions contre tr",
+   "comments_count": 0,
+   "like_count": 2,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfdCxVggAM9/",
+   "timestamp": "2026-11-07T20:30:38+0000",
+   "insights": {
+    "views": 186,
+    "reach": 129,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 2
+   }
+  },
   {
    "id": "18136536874679666",
    "caption": "Les Noirs prennent le cavalier. Que joue Lasker ? 🤯 Tu aurais sacrifié les deux ",
@@ -12,8 +44,8 @@
    "permalink": "https://www.instagram.com/reel/DfcniSuEagp/",
    "timestamp": "2026-11-07T16:32:56+0000",
    "insights": {
-    "views": 125,
-    "reach": 17,
+    "views": 158,
+    "reach": 115,
     "shares": 0,
     "saved": 0,
     "total_interactions": 0
@@ -446,38 +478,6 @@
    "insights": {
     "views": 143,
     "reach": 127,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 1
-   }
-  },
-  {
-   "id": "17923423350439489",
-   "caption": "Le pigeon du jour #5 🐦 S'il sort ce poney, tu le mates. Tu serais tombé dedans ?",
-   "comments_count": 0,
-   "like_count": 1,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/De6g1IPlef2/",
-   "timestamp": "2026-10-25T10:39:53+0000",
-   "insights": {
-    "views": 164,
-    "reach": 126,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 1
-   }
-  },
-  {
-   "id": "18129965335871721",
-   "caption": "Le pigeon du jour #4 🐦 S'il mange ton fou, il est mat. Suis le compte pour la su",
-   "comments_count": 0,
-   "like_count": 1,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/De4zIrVDasA/",
-   "timestamp": "2026-10-24T18:41:22+0000",
-   "insights": {
-    "views": 183,
-    "reach": 157,
     "shares": 0,
     "saved": 0,
     "total_interactions": 1

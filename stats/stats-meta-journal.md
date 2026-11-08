@@ -63,3 +63,7 @@ jeton Threads renouvelé (valable 60 jours)
 instagram OK : 1 abonnés, 30 publications, 0 statistiques refusées
 facebook OK : 0 abonnés, 30 publications, 30 statistiques refusées
 threads OK : 0 abonnés, 30 publications, 0 statistiques refusées
+### 2026-11-08 17:14 relevé
+instagram OK : 1 abonnés, 30 publications, 0 statistiques refusées
+facebook OK : 0 abonnés, 30 publications, 30 statistiques refusées
+threads OK : 0 abonnés, 30 publications, 0 statistiques refusées
