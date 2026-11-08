@@ -1,0 +1,116 @@
+{
+ "nom": "rotlewi_rubinstein_1",
+ "tempo": 1.0,
+ "duree_s": 36.52,
+ "hook": {
+  "texte": "Queen attacked.|Save her?",
+  "fin": 5.98
+ },
+ "question": {
+  "texte": "Would you give|the queen?",
+  "t": 33.32
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Lodz, 1907."
+  },
+  {
+   "t": 2.52,
+   "texte": "White pushes the pawn and attacks the black queen."
+  },
+  {
+   "t": 5.98,
+   "texte": "Rubinstein does not save her."
+  },
+  {
+   "t": 8.02,
+   "texte": "What does he play?"
+  },
+  {
+   "t": 10.72,
+   "texte": "Follow: one new chess story every day."
+  },
+  {
+   "t": 14.22,
+   "texte": "Rook takes c3!"
+  },
+  {
+   "t": 16.18,
+   "texte": "Both bishops now aim at the white king."
+  },
+  {
+   "t": 19.0,
+   "texte": "White takes the queen."
+  },
+  {
+   "t": 20.86,
+   "texte": "The other rook goes to d2!"
+  },
+  {
+   "t": 23.3,
+   "texte": "The queen takes it and the bishop takes e4 check."
+  },
+  {
+   "t": 27.16,
+   "texte": "The queen blocks and the last rook jumps to h3."
+  },
+  {
+   "t": 31.06,
+   "texte": "Mate is coming and White resigns."
+  },
+  {
+   "t": 34.02,
+   "texte": "A queen is only a piece count the checks."
+  }
+ ],
+ "coups": [
+  {
+   "t": 3.12,
+   "coup": "g3",
+   "badge": "gaffe"
+  },
+  {
+   "t": 14.54,
+   "coup": "Rxc3",
+   "badge": "brillant"
+  },
+  {
+   "t": 19.26,
+   "coup": "gxh4",
+   "badge": null
+  },
+  {
+   "t": 21.66,
+   "coup": "Rd2",
+   "badge": "brillant"
+  },
+  {
+   "t": 23.66,
+   "coup": "Qxd2",
+   "badge": null
+  },
+  {
+   "t": 25.34,
+   "coup": "Bxe4+",
+   "badge": null
+  },
+  {
+   "t": 27.6,
+   "coup": "Qg2",
+   "badge": null
+  },
+  {
+   "t": 28.96,
+   "coup": "Rh3",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 9.7,
+   "duree": 1.0,
+   "texte": "Your move?"
+  }
+ ]
+}

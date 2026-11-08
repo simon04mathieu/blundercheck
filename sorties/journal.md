@@ -671,3 +671,6 @@
     voix générée : 485 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/passant_decouverte_1.mp4 {"voix_brute_s": 38.3, "tempo": 1.0, "video_s": 39.9, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 95, "minutage": "14 phrases, 7 coups, 1 pauses"}
+### commandes/perso_rotlewi_rubinstein_1.json
+    voix générée : 434 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/rotlewi_rubinstein_1.mp4 {"voix_brute_s": 35.6, "tempo": 1.0, "video_s": 37.1, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 83, "minutage": "13 phrases, 8 coups, 1 pauses"}
