@@ -16,7 +16,7 @@
    "texte": "Tilburg, 1991."
   },
   {
-   "t": 1.22,
+   "t": 2.76,
    "texte": "White's queen and two rooks are already at Black's king but one piece is missing the king itself."
   },
   {
@@ -24,7 +24,7 @@
    "texte": "Can it join the attack?"
   },
   {
-   "t": 12.74,
+   "t": 12.72,
    "texte": "New story every day."
   },
   {
@@ -36,23 +36,23 @@
    "texte": "The pawn goes to h4 and Black answers."
   },
   {
-   "t": 20.72,
+   "t": 20.7,
    "texte": "Now the king walks to h2."
   },
   {
-   "t": 23.3,
+   "t": 23.38,
    "texte": "Black just moves a rook."
   },
   {
-   "t": 25.62,
+   "t": 25.6,
    "texte": "The king goes to g3 and the rook goes back."
   },
   {
-   "t": 29.16,
+   "t": 29.18,
    "texte": "King to f4!"
   },
   {
-   "t": 31.46,
+   "t": 31.42,
    "texte": "The bishop retreats."
   },
   {
@@ -74,7 +74,7 @@
  ],
  "coups": [
   {
-   "t": 17.76,
+   "t": 17.42,
    "coup": "h4",
    "badge": null
   },
@@ -119,19 +119,19 @@
    "badge": "brillant"
   },
   {
-   "t": 37.74,
+   "t": 37.38,
    "coup": "Bxd7",
    "badge": null
   },
   {
-   "t": 39.02,
+   "t": 39.32,
    "coup": "Kh6",
    "badge": "brillant"
   }
  ],
  "pauses": [
   {
-   "t": 11.72,
+   "t": 11.7,
    "duree": 1.0,
    "texte": "Your plan?"
   }
