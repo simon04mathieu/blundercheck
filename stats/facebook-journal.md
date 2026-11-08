@@ -116,3 +116,5 @@
 {"reseau": "facebook", "id": "1634125017795374", "ok": true}
 ### 2026-11-08 18:35 publications/facebook/passant_decouverte_1.json
 {"reseau": "facebook", "id": "4580290668920599", "ok": true}
+### 2026-11-08 20:30 publications/facebook/rotlewi_rubinstein_1.json
+{"reseau": "facebook", "id": "1164756432554622", "ok": true}

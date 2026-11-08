@@ -83,3 +83,5 @@
 {"reseau": "instagram", "id": "18003327867032238"}
 ### 2026-11-08 16:33 publications/instagram/short_timman_1_fr.json
 {"reseau": "instagram", "id": "18080067422757106"}
+### 2026-11-08 20:30 publications/instagram/rotlewi_rubinstein_1_fr.json
+{"reseau": "instagram", "id": "18202722313340311"}
