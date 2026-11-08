@@ -1,0 +1,37 @@
+{
+ "titre": "King in check. Should he hide in the corner? ♟️ #chess #shorts",
+ "description": "Bishop's Opening. In check from the knight, Black ran to the corner with 8...Kg8?? and it's mate in 3: 9.Qb3+ d5 (only move) 10.exd6+ en passant, a discovered check (only Be6 blocks) 11.Qxe6#. The right square was 8...Ke8. Seen in 2 real Lichess games (puzzle rating ~1874). Checked with Stockfish. Would you have hidden in the corner? 👇\n\nAnalyze your own game, free: https://blundercheck.app/try?src=youtube-en\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess trap",
+  "en passant",
+  "bishops opening"
+ ],
+ "envoyer_apres": "2026-11-08T19:00:00+01:00",
+ "fichier": "sorties/passant_decouverte_1.mp4",
+ "concept": "passant_decouverte",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "T4-titre",
+ "duree": 39.34,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "piege",
+  "langue": "en",
+  "duree_s": 39,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T4-titre",
+  "variante": "B",
+  "appel_site": "oui",
+  "fin": "follow_avant_reponse",
+  "motif": "prise_en_passant_echec_a_la_decouverte_mat",
+  "niveau": 1874,
+  "hook": "question",
+  "interet": "la_prise_en_passant_rouvre_l_echec_de_la_dame",
+  "rdv": "oui",
+  "ton": "imagé"
+ }
+}

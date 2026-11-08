@@ -1,0 +1,30 @@
+{
+ "legende": "Would you have hidden in the corner? 👇 Bishop's Opening trap seen in 2 real Lichess games (~1874): en passant with discovered check. Better: 8...Ke8. One new trap a day.\n\nAnalyze your own game, free: link in bio\n\n#chess #chesstrap #chesstactics",
+ "envoyer_apres": "2026-11-08T19:00:00+01:00",
+ "fichier": "sorties/passant_decouverte_1.mp4",
+ "concept": "passant_decouverte",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "T4-titre",
+ "duree": 39.34,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "piege",
+  "langue": "en",
+  "duree_s": 39,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T4-titre",
+  "variante": "B",
+  "appel_site": "oui",
+  "fin": "follow_avant_reponse",
+  "motif": "prise_en_passant_echec_a_la_decouverte_mat",
+  "niveau": 1874,
+  "hook": "question",
+  "interet": "la_prise_en_passant_rouvre_l_echec_de_la_dame",
+  "rdv": "oui",
+  "ton": "imagé"
+ }
+}

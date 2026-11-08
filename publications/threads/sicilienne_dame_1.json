@@ -1,0 +1,29 @@
+{
+ "legende": "Would you have saved your queen? 👇 Sicilian trap seen in 4 real Lichess games (~1776). Black's 7...Bd7 was better. One new trap every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=threads-en\n\n#chess #chesstactics #chesstactics",
+ "envoyer_apres": "2026-11-08T17:00:00+01:00",
+ "fichier": "sorties/sicilienne_dame_1.mp4",
+ "concept": "sicilienne_dame",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "test": "T4-titre",
+ "duree": 40.24,
+ "voix": "oui",
+ "variante": "A",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 40,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T4-titre",
+  "variante": "A",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "dame_laissee_en_prise_double_clouage",
+  "niveau": 1776,
+  "hook": "question",
+  "interet": "on_laisse_sa_dame_et_on_gagne_une_piece",
+  "rdv": "non"
+ }
+}

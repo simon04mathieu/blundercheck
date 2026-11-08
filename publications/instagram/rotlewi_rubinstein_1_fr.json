@@ -1,0 +1,30 @@
+{
+ "legende": "La dame noire est attaquée. Que joue Rubinstein ? 🤯 Tu aurais donné la dame ? 👇 Rotlewi – Rubinstein, Lodz 1907 : « l'Immortelle de Rubinstein ». Une histoire d'échecs par jour.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-08T21:00:00+01:00",
+ "fichier": "sorties/rotlewi_rubinstein_1_fr.mp4",
+ "concept": "rotlewi_rubinstein",
+ "format": "HISTOIRE",
+ "langue": "fr",
+ "test": "T19-histoire",
+ "duree": 38.94,
+ "voix": "oui",
+ "variante": "A",
+ "paire": "rotlewi_rubinstein_1",
+ "etiquettes": {
+  "format": "HISTOIRE",
+  "categorie": "histoire",
+  "langue": "fr",
+  "duree_s": 39,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T19-histoire",
+  "variante": "A",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "dame_puis_tour_sacrifiees",
+  "niveau": "partie historique 1800-2500",
+  "hook": "question",
+  "interet": "rubinstein_laisse_sa_dame_et_donne_une_tour",
+  "rdv": "non"
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "legende": "Le roi blanc va jusqu'en h6. Les Noirs peuvent l'arrêter ? 👑 Tu aurais fait marcher ton roi ? 👇 Short – Timman, Tilburg 1991 : la marche du roi la plus célèbre. Une histoire d'échecs par jour.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-08T17:00:00+01:00",
+ "fichier": "sorties/short_timman_1_fr.mp4",
+ "concept": "short_timman",
+ "format": "HISTOIRE",
+ "langue": "fr",
+ "test": "T19-histoire",
+ "duree": 43.52,
+ "voix": "oui",
+ "variante": "B",
+ "paire": "short_timman_1",
+ "etiquettes": {
+  "format": "HISTOIRE",
+  "categorie": "histoire",
+  "langue": "fr",
+  "duree_s": 44,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T19-histoire",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "marche_du_roi",
+  "niveau": "partie historique 1700-2500",
+  "hook": "question",
+  "interet": "le_roi_rejoint_l_attaque",
+  "rdv": "oui"
+ }
+}

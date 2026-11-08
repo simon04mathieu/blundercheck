@@ -1,0 +1,33 @@
+{
+ "legende": "Would you have walked your king up the board? 👇 Short – Timman, Tilburg 1991: the most famous king walk in chess history. New story every day. #chess #chesshistory #chesstok",
+ "envoyer_apres": "2026-11-08T08:00:00+01:00",
+ "heure_conseillee": "2026-11-08T15:00:00+01:00",
+ "repere": "15 h · short_timman_1 · 47.32 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/short_timman_1.mp4",
+ "concept": "short_timman",
+ "format": "HISTOIRE",
+ "langue": "en",
+ "test": "T19-histoire",
+ "duree": 47.32,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "HISTOIRE",
+  "categorie": "histoire",
+  "langue": "en",
+  "duree_s": 47,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T19-histoire",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "marche_du_roi",
+  "niveau": "partie historique 1700-2500",
+  "hook": "question",
+  "interet": "le_roi_rejoint_l_attaque",
+  "rdv": "oui"
+ }
+}
