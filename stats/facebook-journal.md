@@ -124,3 +124,5 @@
 {"reseau": "facebook", "id": "1764410594615595", "ok": true}
 ### 2026-11-09 18:02 publications/facebook/lasker_albin_1.json
 {"reseau": "facebook", "id": "2639260393190469", "ok": true}
+### 2026-11-09 20:01 publications/facebook/opposition_ke5_1.json
+{"reseau": "facebook", "id": "970404955717435", "ok": true}
