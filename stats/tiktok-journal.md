@@ -668,3 +668,4 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"publish_id": "v_inbox_file~v2.7706090983015942146", "mode": "brouillon", "vie_privee": null, "legende": "Deux cavaliers ne font pas mat… sauf si les Noirs ont un pion ? 🐴 Tu aurais vu Rc7 ? 👇 Position composée : mat en 4 vérifié coup par coup. Un défi d'échecs par jour. #echecs #chess #echecsfr"}
 ### 2026-11-09 08:49 publications/tiktok/opposition_ke5_1_fr.json
 {"publish_id": "v_inbox_file~v2.7706090983016040450", "mode": "brouillon", "vie_privee": null, "legende": "Roi et pion : un seul coup gagne. 👑 Tu aurais trouvé Re5 ? 👇 Pousser le pion (1.d5 ?) donne nulle (Stockfish 16). Position composée. Un défi d'échecs par jour. #echecs #chess #echecsfr"}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
