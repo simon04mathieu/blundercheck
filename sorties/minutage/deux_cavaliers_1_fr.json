@@ -1,0 +1,111 @@
+{
+ "nom": "deux_cavaliers_1_fr",
+ "tempo": 1.0,
+ "duree_s": 44.72,
+ "hook": {
+  "texte": "Deux cavaliers.|Mat en 4 ?",
+  "fin": 3.4
+ },
+ "question": {
+  "texte": "Tu aurais trouvé|Rc7 ?",
+  "t": 41.52
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Deux cavaliers seuls ne peuvent pas forcer le mat."
+  },
+  {
+   "t": 3.4,
+   "texte": "Mais ici, les Noirs ont un pion !"
+  },
+  {
+   "t": 6.35,
+   "texte": "Aux Blancs de jouer  mat en quatre."
+  },
+  {
+   "t": 9.72,
+   "texte": "Tu trouves ?"
+  },
+  {
+   "t": 12.6,
+   "texte": "Abonne-toi : un défi d'échecs par jour."
+  },
+  {
+   "t": 16.72,
+   "texte": "Le roi va en c7 !"
+  },
+  {
+   "t": 18.98,
+   "texte": "Un coup calme  il prend les cases b7 et b8."
+  },
+  {
+   "t": 23.12,
+   "texte": "Le pion avance et le cavalier saute en c6."
+  },
+  {
+   "t": 27.04,
+   "texte": "Le pion avance encore."
+  },
+  {
+   "t": 28.6,
+   "texte": "Puis l'autre cavalier saute en d5."
+  },
+  {
+   "t": 32.64,
+   "texte": "Sans ce pion ce serait pat !"
+  },
+  {
+   "t": 35.16,
+   "texte": "Mais les Noirs doivent le pousser et le cavalier arrive en b6 : échec et mat !"
+  },
+  {
+   "t": 41.52,
+   "texte": "Le pion a donné aux Blancs le temps qui manquait."
+  }
+ ],
+ "coups": [
+  {
+   "t": 17.4,
+   "coup": "Kc7",
+   "badge": "brillant"
+  },
+  {
+   "t": 23.56,
+   "coup": "a5",
+   "badge": null
+  },
+  {
+   "t": 25.2,
+   "coup": "Nc6",
+   "badge": null
+  },
+  {
+   "t": 28.26,
+   "coup": "a4",
+   "badge": null
+  },
+  {
+   "t": 30.94,
+   "coup": "Nd5",
+   "badge": null
+  },
+  {
+   "t": 36.08,
+   "coup": "a3",
+   "badge": null
+  },
+  {
+   "t": 37.96,
+   "coup": "Nb6#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 11.58,
+   "duree": 1.0,
+   "texte": "Mat en 4 ?"
+  }
+ ]
+}

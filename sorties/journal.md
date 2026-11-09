@@ -707,3 +707,6 @@
     voix générée : 460 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/deux_cavaliers_1.mp4 {"voix_brute_s": 37.6, "tempo": 1.0, "video_s": 41.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 89, "minutage": "14 phrases, 7 coups, 1 pauses"}
+### commandes/perso_deux_cavaliers_1_fr.json
+    voix générée : 499 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/deux_cavaliers_1_fr.mp4 {"voix_brute_s": 43.5, "tempo": 1.0, "video_s": 45.3, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 100, "minutage": "13 phrases, 7 coups, 1 pauses"}
