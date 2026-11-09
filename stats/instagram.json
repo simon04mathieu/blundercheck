@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-08T17:14:54Z",
+ "releve": "2026-11-09T17:36:03Z",
  "compte": "blundercheckapp",
  "abonnes": 1,
  "publications": [
+  {
+   "id": "18644454379061329",
+   "caption": "Deux cavaliers ne font pas mat… sauf si les Noirs ont un pion ? 🐴 Tu aurais vu R",
+   "comments_count": 0,
+   "like_count": 5,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfhuiH-EfrL/",
+   "timestamp": "2026-11-09T16:10:13+0000",
+   "insights": {
+    "views": 527,
+    "reach": 323,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 5
+   }
+  },
+  {
+   "id": "18202722313340311",
+   "caption": "La dame noire est attaquée. Que joue Rubinstein ? 🤯 Tu aurais donné la dame ? 👇 ",
+   "comments_count": 0,
+   "like_count": 2,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/Dffnj8ykvvd/",
+   "timestamp": "2026-11-08T20:30:36+0000",
+   "insights": {
+    "views": 149,
+    "reach": 119,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 2
+   }
+  },
   {
    "id": "18080067422757106",
    "caption": "Le roi blanc va jusqu'en h6. Les Noirs peuvent l'arrêter ? 👑 Tu aurais fait marc",
@@ -12,8 +44,8 @@
    "permalink": "https://www.instagram.com/reel/DffMXcaCOkb/",
    "timestamp": "2026-11-08T16:33:11+0000",
    "insights": {
-    "views": 108,
-    "reach": 0,
+    "views": 156,
+    "reach": 127,
     "shares": 0,
     "saved": 0,
     "total_interactions": 3
@@ -28,8 +60,8 @@
    "permalink": "https://www.instagram.com/reel/DfdCxVggAM9/",
    "timestamp": "2026-11-07T20:30:38+0000",
    "insights": {
-    "views": 186,
-    "reach": 129,
+    "views": 194,
+    "reach": 135,
     "shares": 0,
     "saved": 0,
     "total_interactions": 2
@@ -76,8 +108,8 @@
    "permalink": "https://www.instagram.com/reel/DfaERlkjwWA/",
    "timestamp": "2026-11-06T16:46:03+0000",
    "insights": {
-    "views": 150,
-    "reach": 113,
+    "views": 152,
+    "reach": 114,
     "shares": 0,
     "saved": 0,
     "total_interactions": 0
@@ -449,38 +481,6 @@
     "shares": 0,
     "saved": 0,
     "total_interactions": 3
-   }
-  },
-  {
-   "id": "18153009499539521",
-   "caption": "Le pigeon du jour #6 🐦 S'il mange ton fou, tu le mates en 5 coups. Suis le compt",
-   "comments_count": 0,
-   "like_count": 1,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/De7KMd8FZ4p/",
-   "timestamp": "2026-10-25T16:41:11+0000",
-   "insights": {
-    "views": 160,
-    "reach": 125,
-    "shares": 1,
-    "saved": 0,
-    "total_interactions": 2
-   }
-  },
-  {
-   "id": "18102380909376860",
-   "caption": "Tu joues pendant l'opéra ? Mat en 17 coups 🎭 Tu l'avais vu ? Oui ou non 👇\n\n#eche",
-   "comments_count": 0,
-   "like_count": 1,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/De61a9UjAEl/",
-   "timestamp": "2026-10-25T13:39:58+0000",
-   "insights": {
-    "views": 143,
-    "reach": 127,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 1
    }
   }
  ],
