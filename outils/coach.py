@@ -58,18 +58,42 @@ def damier(s):
         _DAMIER[s] = im
     return _DAMIER[s]
 
+# Looks (Simon, 8/11 : il aime les 6 testés ; pas de néon, pas de 3D). Couleurs reprises de marketing/rendu-tests/rendu_make2-3.py.
+# Commande : "look": "bois" | "papier" | "emeraude" | "ardoise" | "corail" | "mono" ; absent = style Club d'origine.
+def _hx(h): h = h.lstrip("#"); return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
+LOOKS = {
+    "bois":     dict(bg1="#2a1d14", bg2="#150e09", light="#f0d9b5", dark="#b58863", hl="#f7ec74", accent="#f0b74a", accent_text="#2a1d14"),
+    "papier":   dict(bg1="#f6f3ec", bg2="#e8e3d8", light="#e9eef0", dark="#7f9bab", hl="#ffd54a", accent="#1f6feb", accent_text="#ffffff"),
+    "emeraude": dict(bg1="#12261f", bg2="#08130f", light="#e8f0d8", dark="#4f8a66", hl="#f5e663", accent="#7be0a4", accent_text="#08130f"),
+    "ardoise":  dict(bg1="#1c2433", bg2="#0d121b", light="#dfe6ee", dark="#6b7f99", hl="#ffe066", accent="#6cb6ff", accent_text="#0d121b"),
+    "corail":   dict(bg1="#fff1e6", bg2="#ffd9c2", light="#fbeadc", dark="#d98a66", hl="#ffd54a", accent="#e4572e", accent_text="#ffffff"),
+    "mono":     dict(bg1="#141414", bg2="#050505", light="#e6e6e6", dark="#5a5a5a", hl="#e0b341", accent="#e0b341", accent_text="#111111"),
+}
+LOOK = None
+ACCENT, ACCENT_TXT = LAITON, (16, 28, 22)
+def appliquer_look(nom=None):
+    """Change les couleurs du plateau, du fond, du surlignage et des bandeaux (avant coach.fond())."""
+    global LOOK, CASE_C, CASE_F, SURL, ACCENT, ACCENT_TXT
+    if not nom or nom not in LOOKS:
+        LOOK = None; CASE_C, CASE_F, SURL = (239, 234, 220), (112, 146, 108), (246, 214, 92); ACCENT, ACCENT_TXT = LAITON, (16, 28, 22)
+    else:
+        L = LOOKS[nom]; LOOK = nom
+        CASE_C, CASE_F, SURL = _hx(L["light"]), _hx(L["dark"]), _hx(L["hl"]); ACCENT, ACCENT_TXT = _hx(L["accent"]), _hx(L["accent_text"])
+    _DAMIER.clear(); _MASK.clear()
+
 def fond(serie=None):
     _DAMIER.clear()
     """Fond dégradé vert forêt + ombre du plateau + signature (+ badge de série permanent, ex. « Chess Trap #2 », 29/10)."""
     g = Image.new("RGB", (1, 256))
+    a_, b_ = (_hx(LOOKS[LOOK]["bg1"]), _hx(LOOKS[LOOK]["bg2"])) if LOOK else ((14, 30, 24), (26, 46, 36))
     for i in range(256):
-        k = i / 255; g.putpixel((0, i), (int(14 + 12 * k), int(30 + 16 * k), int(24 + 12 * k)))
+        k = i / 255; g.putpixel((0, i), tuple(int(a_[j] + (b_[j] - a_[j]) * k) for j in range(3)))
     im = g.resize((W, H)).convert("RGBA")
     sh = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ImageDraw.Draw(sh).rounded_rectangle(
         [BX + 4, BY + 18, BX + 8 * SQ + 4, BY + 8 * SQ + 22], radius=RAYON, fill=(0, 0, 0, 150))
     im.alpha_composite(sh.filter(ImageFilter.GaussianBlur(22)))
     d = ImageDraw.Draw(im); fw = font(F_BOLD, 36); t = "blundercheck.app"
-    d.text(((W - d.textlength(t, font=fw)) / 2, BY + 8 * SQ + 44), t, font=fw, fill=LAITON)
+    d.text(((W - d.textlength(t, font=fw)) / 2, BY + 8 * SQ + 44), t, font=fw, fill=ACCENT)
     if serie:  # badge permanent juste au-dessus du plateau, à gauche (hors des zones d'interface TikTok)
         fs = font(F_BLACK, 50); tw = d.textlength(serie, font=fs); x0, y0 = BX + 8, BY - 88
         d.rounded_rectangle([x0, y0, x0 + tw + 56, y0 + 74], radius=37, fill=LAITON)
@@ -243,11 +267,11 @@ def bandeau_hook(im, texte, alpha=1.0):
     f = font(F_BLACK, size); lines = lignes(f, W - 150)
     lh = f.size + 14; hb = len(lines) * lh + 54; top = max(40, 280 - hb // 2)
     d.rounded_rectangle([40, top + 10, W - 40, top + hb + 10], radius=36, fill=(0, 0, 0, int(110 * alpha)))
-    d.rounded_rectangle([40, top, W - 40, top + hb], radius=36, fill=LAITON + (int(252 * alpha),))
+    d.rounded_rectangle([40, top, W - 40, top + hb], radius=36, fill=ACCENT + (int(252 * alpha),))
     yy = top + 24
     for ln in lines:
         tw = d.textlength(ln, font=f)
-        d.text(((W - tw) / 2, yy), ln, font=f, fill=(16, 28, 22, int(255 * alpha)))
+        d.text(((W - tw) / 2, yy), ln, font=f, fill=ACCENT_TXT + (int(255 * alpha),))
         yy += lh
     im.alpha_composite(lay.filter(ImageFilter.SMOOTH) if False else lay)
 
@@ -286,6 +310,20 @@ def decompte(im, n, age):
     d.text((cx - (bb[0] + bb[2]) / 2, cy - (bb[1] + bb[3]) / 2), n, font=f, fill=(16, 28, 22))
 
 FX_BADGE = {"gaffe": "bwomp", "mat": "impact", "meilleur": "chime"}
+
+def carte_fin(im, texte, alpha=1.0):
+    """Carte de fin : voile sur le plateau + texte « · » sur deux lignes dans un bandeau à la couleur du look."""
+    lay = Image.new("RGBA", (W, H), (0, 0, 0, int(150 * alpha))); d = ImageDraw.Draw(lay)
+    parts = [x.strip() for x in texte.split("·")]
+    f1, f2 = font(F_BLACK, 84), font(F_BLACK, 110)
+    hb = 340; top = BY + 4 * SQ - hb // 2
+    d.rounded_rectangle([60, top, W - 60, top + hb], radius=40, fill=ACCENT + (int(250 * alpha),))
+    y = top + 50
+    for i, ln in enumerate(parts[:2]):
+        f = f1 if i == 0 else f2
+        while d.textlength(ln, font=f) > W - 180 and f.size > 40: f = font(F_BLACK, f.size - 4)
+        d.text(((W - d.textlength(ln, font=f)) / 2, y), ln, font=f, fill=ACCENT_TXT + (int(255 * alpha),)); y += f.size + 40
+    im.alpha_composite(lay)
 
 def run(spec, out_video, out_wav, tempo=1.0):
     """spec : 'duree', 'actions' [(t, type, données)], 'captions' [(t0, t1, texte)] en secondes de voix originale.
@@ -426,6 +464,14 @@ def run(spec, out_video, out_wav, tempo=1.0):
         if fade and t > dur - fade:  # raccord de boucle : on revient sur l'image 1
             frame = Image.blend(frame, first, ease((t - (dur - fade)) / fade))
         p.stdin.write(frame.convert("RGB").tobytes())
+    fin = spec.get("fin_carte")  # T22 (Simon, 8/11) : image de fin 2 s « New endgame every day · Follow »
+    if fin:
+        base = image(b, last, None, icons, (), (), t, (1.0, None))
+        for f2 in range(int(2.0 * FPS)):
+            fr = base.copy(); carte_fin(fr, fin, min(1.0, f2 / (0.25 * FPS)))
+            p.stdin.write(fr.convert("RGB").tobytes())
+        events.append((dur + 0.05, "move"))
+        dur += 2.0
     p.stdin.close(); p.wait()
     import numpy as np
     from scipy.io import wavfile

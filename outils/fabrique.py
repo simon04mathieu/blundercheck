@@ -4,7 +4,8 @@ Commandes (fichiers commandes/*.json) :
   {"type": "perso", "nom": "perso_lasker", "voix": "<id>"?}     voix ElevenLabs + calage + rendu + mixage
   {"type": "prof", "nom": "prof_1", "source": "essai_1", "langue": "en", "voix": "<id>"}  « Le prof corrige ma partie » (outils/prof_montage.py)
   {"type": "coach", "nom": "v_stafford"}                        idem pour un script coach (sous-titres en phrases)
-  options : "sans_musique": true, "volume_musique": 0.14, "duree_max": 52
+  options : "sans_musique": true, "volume_musique": 0.14, "duree_max": 52, "look": "bois|papier|emeraude|ardoise|corail|mono",
+            "fin_carte": "New endgame every day · Follow" (image de fin 2 s), "muet": true + "duree_cible": 35 (sans voix, 0 crédit)
   {"type": "test_voix", "nom": "cases", "versions": ["..."]}  une phrase par version, voix habituelle
   {"type": "echantillons", "n": 5}                              voix françaises de la bibliothèque, à écouter
 La voix par défaut est dans outils/voix.json ; sinon la première voix des échantillons.
@@ -134,6 +135,8 @@ def video_voix(cmd):
     if cmd.get("sans_musique") is not True: spec["musique"] = 0.0
     if cmd.get("hook") and spec.get("hook"): spec["hook"] = (cmd["hook"], spec["hook"][1])  # test A/B du hook (0 crédit)  # la musique de fond vient d'ElevenLabs, pas du synthé
     minutage = ecrire_minutage(cmd.get("sortie", nom), spec, tempo)
+    if cmd.get("fin_carte"): spec["fin_carte"] = cmd["fin_carte"]  # T22 : image de fin 2 s (8/11)
+    coach.appliquer_look(cmd.get("look"))  # looks variés (Simon, 8/11) ; absent = style Club
     coach.FLIP = spec["noirs"]; coach.BG = coach.fond(spec.get("serie"))
     muet, fx = os.path.join(tmp, "muet.mp4"), os.path.join(tmp, "fx.wav")
     coach.run(spec, muet, fx, tempo)
