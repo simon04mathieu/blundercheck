@@ -640,3 +640,6 @@
 {"id": "IaUXL6AT_ps", "url": "https://www.youtube.com/shorts/IaUXL6AT_ps", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "94"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "94"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "96"}
+### 2026-11-09 18:40 publications/youtube/lasker_albin_1.json
+{"id": "xsRfb875zE4", "url": "https://www.youtube.com/shorts/xsRfb875zE4", "statut": "public", "publier_le": null}
