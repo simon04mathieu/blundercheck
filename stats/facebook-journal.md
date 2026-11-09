@@ -122,3 +122,5 @@
 {"reseau": "facebook", "id": "1144336894983536", "ok": true}
 ### 2026-11-09 16:10 publications/facebook/reti_tartakower_1.json
 {"reseau": "facebook", "id": "1764410594615595", "ok": true}
+### 2026-11-09 18:02 publications/facebook/lasker_albin_1.json
+{"reseau": "facebook", "id": "2639260393190469", "ok": true}
