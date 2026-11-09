@@ -519,3 +519,12 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 30, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 30, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 30, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 31, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-09 08:50 publications/tiktok-en/deux_cavaliers_1.json
+{"publish_id": "v_inbox_file~v2.7706090924996167702", "mode": "brouillon", "vie_privee": null, "legende": "Would you have found Kc7? 👇 Two knights can't force mate against a lone king. Give Black a pawn and they can: mate in 4, checked move by move (composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
+### 2026-11-09 08:50 publications/tiktok-en/lasker_albin_1.json
+{"publish_id": "v_inbox_file~v2.7706090883006924822", "mode": "brouillon", "vie_privee": null, "legende": "Would you have taken the bishop? 👇 Albin Countergambit, the Lasker Trap (a classic): the pawn becomes a knight, with check. Better: 6.fxe3. One new trap a day. #chess #chesstrap #chesstok"}
+### 2026-11-09 08:50 publications/tiktok-en/opposition_ke5_1.json
+{"publish_id": "v_inbox_file~v2.7706090883006957590", "mode": "brouillon", "vie_privee": null, "legende": "Would you have found it? 👇 King and pawn vs king: only 1.Ke5! wins. 1.d5? Kd6 is a draw (Stockfish 16). Composed position. One new endgame every day. #chess #chessendgame #chesspuzzle"}
+### 2026-11-09 08:50 publications/tiktok-en/reti_tartakower_1.json
+{"publish_id": "v_inbox_file~v2.7706090883006990358", "mode": "brouillon", "vie_privee": null, "legende": "Would you have sacrificed your queen? 👇 Réti – Tartakower, Vienna 1910: a famous miniature (Edward Winter). One new story every day. #chess #chesshistory #chesstok"}
