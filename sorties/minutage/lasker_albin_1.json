@@ -1,0 +1,157 @@
+{
+ "nom": "lasker_albin_1",
+ "tempo": 1.0,
+ "duree_s": 46.84,
+ "hook": {
+  "texte": "Free bishop?|Look first!",
+  "fin": 6.66
+ },
+ "question": {
+  "texte": "Analyze your own|game, free",
+  "t": 43.64
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Albin Countergambit."
+  },
+  {
+   "t": 2.26,
+   "texte": "Black's bishop on b4 is attacked and nothing defends it."
+  },
+  {
+   "t": 6.66,
+   "texte": "Should White take it?"
+  },
+  {
+   "t": 9.44,
+   "texte": "One new trap a day."
+  },
+  {
+   "t": 10.96,
+   "texte": "Follow so you don't miss it."
+  },
+  {
+   "t": 13.08,
+   "texte": "White grabs the candy."
+  },
+  {
+   "t": 15.18,
+   "texte": "The pawn takes f2 check!"
+  },
+  {
+   "t": 17.8,
+   "texte": "The king steps to e2 and the pawn becomes a knight with check!"
+  },
+  {
+   "t": 22.52,
+   "texte": "A queen would give no check here."
+  },
+  {
+   "t": 25.0,
+   "texte": "The king runs back and the queen jumps out with check."
+  },
+  {
+   "t": 28.56,
+   "texte": "The king goes to d2 and the other knight hits the bishop."
+  },
+  {
+   "t": 32.82,
+   "texte": "White offers a queen trade."
+  },
+  {
+   "t": 34.96,
+   "texte": "Black takes, with check."
+  },
+  {
+   "t": 37.42,
+   "texte": "The king takes back and the knight grabs the bishop."
+  },
+  {
+   "t": 40.74,
+   "texte": "Black is winning."
+  },
+  {
+   "t": 42.42,
+   "texte": "Better: take the pawn first."
+  },
+  {
+   "t": 44.9,
+   "texte": "Analyze your own game free."
+  }
+ ],
+ "coups": [
+  {
+   "t": 13.74,
+   "coup": "Bxb4",
+   "badge": "gaffe"
+  },
+  {
+   "t": 15.86,
+   "coup": "exf2+",
+   "badge": "brillant"
+  },
+  {
+   "t": 18.78,
+   "coup": "Ke2",
+   "badge": null
+  },
+  {
+   "t": 20.62,
+   "coup": "fxg1=N+",
+   "badge": "brillant"
+  },
+  {
+   "t": 25.58,
+   "coup": "Ke1",
+   "badge": null
+  },
+  {
+   "t": 27.28,
+   "coup": "Qh4+",
+   "badge": null
+  },
+  {
+   "t": 29.38,
+   "coup": "Kd2",
+   "badge": null
+  },
+  {
+   "t": 31.12,
+   "coup": "Nc6",
+   "badge": null
+  },
+  {
+   "t": 33.4,
+   "coup": "Qe1",
+   "badge": null
+  },
+  {
+   "t": 35.16,
+   "coup": "Qxe1+",
+   "badge": null
+  },
+  {
+   "t": 38.1,
+   "coup": "Kxe1",
+   "badge": null
+  },
+  {
+   "t": 39.44,
+   "coup": "Nxb4",
+   "badge": null
+  },
+  {
+   "t": 43.5,
+   "coup": "fxe3",
+   "badge": "meilleur"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 8.42,
+   "duree": 1.0,
+   "texte": "Take it?"
+  }
+ ]
+}

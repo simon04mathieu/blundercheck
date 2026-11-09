@@ -710,3 +710,6 @@
 ### commandes/perso_deux_cavaliers_1_fr.json
     voix générée : 499 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/deux_cavaliers_1_fr.mp4 {"voix_brute_s": 43.5, "tempo": 1.0, "video_s": 45.3, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 100, "minutage": "13 phrases, 7 coups, 1 pauses"}
+### commandes/perso_lasker_albin_1.json
+    voix générée : 595 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/lasker_albin_1.mp4 {"voix_brute_s": 45.8, "tempo": 1.0, "video_s": 47.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 112, "minutage": "17 phrases, 13 coups, 1 pauses"}
