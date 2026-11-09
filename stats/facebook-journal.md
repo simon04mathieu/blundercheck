@@ -118,3 +118,5 @@
 {"reseau": "facebook", "id": "4580290668920599", "ok": true}
 ### 2026-11-08 20:30 publications/facebook/rotlewi_rubinstein_1.json
 {"reseau": "facebook", "id": "1164756432554622", "ok": true}
+### 2026-11-09 14:50 publications/facebook/deux_cavaliers_1.json
+{"reseau": "facebook", "id": "1144336894983536", "ok": true}

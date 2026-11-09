@@ -126,3 +126,5 @@ jeton Threads renouvelé (valable 60 jours)
 {"reseau": "threads", "id": "18580184416075732"}
 ### 2026-11-08 20:31 publications/threads/rotlewi_rubinstein_1.json
 {"reseau": "threads", "id": "18136301404776392"}
+### 2026-11-09 14:51 publications/threads/deux_cavaliers_1.json
+{"reseau": "threads", "id": "17954431140339691"}
