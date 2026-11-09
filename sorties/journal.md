@@ -727,3 +727,6 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/deux_cavaliers_1.mp4 {"voix_brute_s": 37.6, "tempo": 1.0, "video_s": 41.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 89, "minutage": "14 phrases, 7 coups, 1 pauses"}
+### commandes/perso_lasker_albin_1.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/lasker_albin_1.mp4 {"voix_brute_s": 45.8, "tempo": 1.0, "video_s": 47.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 112, "minutage": "17 phrases, 13 coups, 1 pauses"}
