@@ -1,0 +1,33 @@
+{
+ "legende": "Would you have sacrificed your queen? 👇 Réti – Tartakower, Vienna 1910: a famous miniature (Edward Winter). One new story every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=facebook-en\n\n#chess #chesshistory #chesstok",
+ "envoyer_apres": "2026-11-09T17:00:00+01:00",
+ "fichier": "sorties/reti_tartakower_1.mp4",
+ "concept": "reti_tartakower",
+ "format": "HISTOIRE",
+ "langue": "en",
+ "test": "T19-histoire",
+ "duree": 35.2,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "HISTOIRE",
+  "categorie": "histoire",
+  "langue": "en",
+  "duree_s": 35,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T19-histoire",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "sacrifice_de_dame_double_echec",
+  "niveau": "partie historique 1600-2500",
+  "hook": "defi_gros_texte",
+  "interet": "miniature_celebre_mat_en_3",
+  "rdv": "oui",
+  "pieces": 27,
+  "look": "ardoise",
+  "fx": "zoom+tag",
+  "adn": "partiel"
+ }
+}

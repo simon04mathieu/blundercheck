@@ -1,0 +1,33 @@
+{
+ "legende": "Would you have found it? 👇 King and pawn vs king: only 1.Ke5! wins. 1.d5? Kd6 is a draw (Stockfish 16). Composed position. One new endgame every day.\n\nAnalyze your own game, free: link in bio\n\n#chess #chessendgame #chesspuzzle",
+ "envoyer_apres": "2026-11-09T21:00:00+01:00",
+ "fichier": "sorties/opposition_ke5_1.mp4",
+ "concept": "opposition_ke5",
+ "format": "FINALE",
+ "langue": "en",
+ "test": "T23-muet",
+ "duree": 45.07,
+ "voix": "non",
+ "variante": "B",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 45,
+  "musique": "aucune",
+  "voix": "non",
+  "test": "T23-muet",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "opposition",
+  "niveau": "1500-2000",
+  "hook": "defi_gros_texte",
+  "interet": "un_seul_coup_gagne",
+  "rdv": "non",
+  "pieces": 3,
+  "look": "mono",
+  "fx": "zoom+tag+fin_carte",
+  "adn": "oui"
+ }
+}

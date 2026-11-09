@@ -1,0 +1,40 @@
+{
+ "titre": "Two knights can't checkmate. Unless Black has a pawn? ♟️ #chess #shorts",
+ "description": "Two knights alone can't force mate against a lone king. Give Black a pawn and they can: 1.Kc7! a5 2.Nc6 a4 3.Nd5 a3 4.Nb6#. Without the pawn, 3.Nd5 would be stalemate. Composed position, mate in 4 checked move by move (python-chess + Stockfish 16). Would you have found Kc7? 👇\n\nAnalyze your own game, free: https://blundercheck.app/try?src=youtube-en\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess endgame",
+  "chess puzzle",
+  "two knights"
+ ],
+ "envoyer_apres": "2026-11-09T15:00:00+01:00",
+ "fichier": "sorties/deux_cavaliers_1.mp4",
+ "concept": "deux_cavaliers",
+ "format": "FINALE",
+ "langue": "en",
+ "test": "T20-épuré",
+ "duree": 41.27,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 41,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T20-épuré",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "deux_cavaliers_contre_roi_et_pion",
+  "niveau": "1600-2200",
+  "hook": "defi_gros_texte",
+  "interet": "exception_deux_cavaliers",
+  "rdv": "oui",
+  "pieces": 5,
+  "look": "bois",
+  "fx": "zoom+tag+fin_carte",
+  "adn": "oui"
+ }
+}

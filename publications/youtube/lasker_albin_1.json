@@ -1,0 +1,41 @@
+{
+ "titre": "Free bishop on b4. Take it? Look first! ♟️ #chess #shorts",
+ "description": "Albin Countergambit, the Lasker Trap (a classic): 1.d4 d5 2.c4 e5 3.dxe5 d4 4.e3 Bb4+ 5.Bd2 dxe3 6.Bxb4?? exf2+ 7.Ke2 fxg1=N+! (a queen would give no check) 8.Ke1 Qh4+ 9.Kd2 Nc6 10.Qe1 Qxe1+ 11.Kxe1 Nxb4, and Black is winning (Stockfish 16: -6). Better: 6.fxe3. Would you have taken the bishop? 👇\n\nAnalyze your own game, free: https://blundercheck.app/try?src=youtube-en\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess trap",
+  "albin countergambit",
+  "underpromotion"
+ ],
+ "envoyer_apres": "2026-11-09T19:00:00+01:00",
+ "fichier": "sorties/lasker_albin_1.mp4",
+ "concept": "lasker_albin",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "T18-ton-imagé",
+ "duree": 47.43,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "piege",
+  "langue": "en",
+  "duree_s": 47,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T18-ton-imagé",
+  "variante": "B",
+  "appel_site": "oui",
+  "fin": "follow_avant_reponse",
+  "motif": "sous_promotion_cavalier_avec_echec",
+  "niveau": "1500-1900",
+  "hook": "question",
+  "interet": "pion_devient_cavalier_avec_echec",
+  "rdv": "non",
+  "pieces": 30,
+  "look": "papier",
+  "fx": "zoom+tag",
+  "adn": "partiel",
+  "ton": "imagé"
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "titre": "King and pawn. Only one move wins. ♟️ #chess #shorts",
+ "description": "King and pawn vs king, White to move: only 1.Ke5! wins (opposition), e.g. 1...Kd7 2.Kd5 Ke7 3.Kc6 Ke6 4.d5+ Ke5 5.d6 Ke4 6.d7 Kd3 7.d8=Q+. The six other moves only draw, including 1.d5? Kd6 (Stockfish 16). Composed position. Would you have found it? 👇\n\nAnalyze your own game, free: https://blundercheck.app/try?src=youtube-en\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess endgame",
+  "opposition",
+  "king and pawn"
+ ],
+ "envoyer_apres": "2026-11-09T21:00:00+01:00",
+ "fichier": "sorties/opposition_ke5_1.mp4",
+ "concept": "opposition_ke5",
+ "format": "FINALE",
+ "langue": "en",
+ "test": "T23-muet",
+ "duree": 45.07,
+ "voix": "non",
+ "variante": "B",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 45,
+  "musique": "aucune",
+  "voix": "non",
+  "test": "T23-muet",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "opposition",
+  "niveau": "1500-2000",
+  "hook": "defi_gros_texte",
+  "interet": "un_seul_coup_gagne",
+  "rdv": "non",
+  "pieces": 3,
+  "look": "mono",
+  "fx": "zoom+tag+fin_carte",
+  "adn": "oui"
+ }
+}
