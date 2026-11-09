@@ -1,5 +1,5 @@
 {
- "date": "2026-11-09T14:55:35.921432+00:00",
+ "date": "2026-11-09T15:40:38.074397+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -12,8 +12,8 @@
    "publiee": "2026-11-09T14:45:46Z",
    "statut": "public",
    "duree": "PT42S",
-   "vues": 0,
-   "jaime": 0,
+   "vues": 12,
+   "jaime": 1,
    "commentaires": 0
   },
   "J3gI_pZUF08": {
@@ -21,7 +21,7 @@
    "publiee": "2026-11-08T20:24:08Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 977,
+   "vues": 974,
    "jaime": 15,
    "commentaires": 0
   },
@@ -49,7 +49,7 @@
    "statut": "public",
    "duree": "PT48S",
    "vues": 1012,
-   "jaime": 12,
+   "jaime": 13,
    "commentaires": 1
   },
   "jK1Qg_8nXB0": {
@@ -57,7 +57,7 @@
    "publiee": "2026-11-07T20:24:14Z",
    "statut": "public",
    "duree": "PT39S",
-   "vues": 4190,
+   "vues": 4194,
    "jaime": 41,
    "commentaires": 6
   },
@@ -66,8 +66,8 @@
    "publiee": "2026-11-07T18:25:04Z",
    "statut": "public",
    "duree": "PT32S",
-   "vues": 2077,
-   "jaime": 15,
+   "vues": 2127,
+   "jaime": 16,
    "commentaires": 0
   },
   "2bkmRgnuDYk": {
@@ -84,8 +84,8 @@
    "publiee": "2026-11-07T14:31:16Z",
    "statut": "public",
    "duree": "PT42S",
-   "vues": 26776,
-   "jaime": 282,
+   "vues": 27118,
+   "jaime": 284,
    "commentaires": 9
   },
   "yRfAQhfQLBw": {
@@ -102,7 +102,7 @@
    "publiee": "2026-11-06T18:37:53Z",
    "statut": "public",
    "duree": "PT31S",
-   "vues": 1742,
+   "vues": 1736,
    "jaime": 12,
    "commentaires": 1
   },
@@ -111,8 +111,8 @@
    "publiee": "2026-11-06T16:38:54Z",
    "statut": "public",
    "duree": "PT43S",
-   "vues": 7888,
-   "jaime": 37,
+   "vues": 7894,
+   "jaime": 38,
    "commentaires": 1
   },
   "ESuaELyE-l4": {
@@ -165,7 +165,7 @@
    "publiee": "2026-11-04T20:39:55Z",
    "statut": "public",
    "duree": "PT46S",
-   "vues": 13594,
+   "vues": 13586,
    "jaime": 255,
    "commentaires": 12
   },
@@ -246,7 +246,7 @@
    "publiee": "2026-11-02T17:02:34Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 8913,
+   "vues": 8912,
    "jaime": 82,
    "commentaires": 0
   },
