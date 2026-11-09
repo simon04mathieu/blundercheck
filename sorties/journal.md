@@ -722,3 +722,8 @@
 ### commandes/perso_reti_tartakower_1.json
     voix générée : 376 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/reti_tartakower_1.mp4 {"voix_brute_s": 33.5, "tempo": 1.0, "video_s": 35.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 72, "minutage": "12 phrases, 6 coups, 1 pauses"}
+## 2026-11-09 00:18 UTC · run 42539407042
+### commandes/perso_deux_cavaliers_1.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/deux_cavaliers_1.mp4 {"voix_brute_s": 37.6, "tempo": 1.0, "video_s": 41.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 89, "minutage": "14 phrases, 7 coups, 1 pauses"}
