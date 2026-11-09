@@ -85,3 +85,5 @@
 {"reseau": "instagram", "id": "18080067422757106"}
 ### 2026-11-08 20:30 publications/instagram/rotlewi_rubinstein_1_fr.json
 {"reseau": "instagram", "id": "18202722313340311"}
+### 2026-11-09 16:10 publications/instagram/deux_cavaliers_1_fr.json
+{"reseau": "instagram", "id": "18644454379061329"}

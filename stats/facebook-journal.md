@@ -120,3 +120,5 @@
 {"reseau": "facebook", "id": "1164756432554622", "ok": true}
 ### 2026-11-09 14:50 publications/facebook/deux_cavaliers_1.json
 {"reseau": "facebook", "id": "1144336894983536", "ok": true}
+### 2026-11-09 16:10 publications/facebook/reti_tartakower_1.json
+{"reseau": "facebook", "id": "1764410594615595", "ok": true}
