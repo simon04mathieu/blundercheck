@@ -529,3 +529,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 ### 2026-11-09 08:50 publications/tiktok-en/reti_tartakower_1.json
 {"publish_id": "v_inbox_file~v2.7706090883006990358", "mode": "brouillon", "vie_privee": null, "legende": "Would you have sacrificed your queen? 👇 Réti – Tartakower, Vienna 1910: a famous miniature (Edward Winter). One new story every day. #chess #chesshistory #chesstok"}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 31, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 32, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
