@@ -639,3 +639,4 @@
 ### 2026-11-09 16:00 publications/youtube/reti_tartakower_1.json
 {"id": "IaUXL6AT_ps", "url": "https://www.youtube.com/shorts/IaUXL6AT_ps", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "94"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "94"}
