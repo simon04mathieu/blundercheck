@@ -1,0 +1,102 @@
+{
+ "nom": "reti_tartakower_1",
+ "tempo": 1.0,
+ "duree_s": 34.6,
+ "hook": {
+  "texte": "Queen sacrifice.|Mate in 3.",
+  "fin": 6.12
+ },
+ "question": {
+  "texte": "Would you give|the queen?",
+  "t": 31.4
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Vienna, 1910."
+  },
+  {
+   "t": 2.52,
+   "texte": "Réti plays White and Black grabs a knight."
+  },
+  {
+   "t": 6.12,
+   "texte": "White to move mate in three."
+  },
+  {
+   "t": 9.08,
+   "texte": "Can you find it?"
+  },
+  {
+   "t": 11.56,
+   "texte": "New story every day."
+  },
+  {
+   "t": 13.4,
+   "texte": "Follow to get tomorrow's."
+  },
+  {
+   "t": 15.54,
+   "texte": "Queen to d8 check!"
+  },
+  {
+   "t": 18.0,
+   "texte": "The king must take her."
+  },
+  {
+   "t": 19.94,
+   "texte": "Bishop to g5 double check!"
+  },
+  {
+   "t": 22.88,
+   "texte": "The king steps to c7 and the bishop goes to d8 checkmate!"
+  },
+  {
+   "t": 28.11,
+   "texte": "A queen sacrifice and a mate with a bishop."
+  },
+  {
+   "t": 31.6,
+   "texte": "Against a double check only the king can move."
+  }
+ ],
+ "coups": [
+  {
+   "t": 4.9,
+   "coup": "Nxe4",
+   "badge": "gaffe"
+  },
+  {
+   "t": 16.32,
+   "coup": "Qd8+",
+   "badge": "brillant"
+  },
+  {
+   "t": 18.64,
+   "coup": "Kxd8",
+   "badge": null
+  },
+  {
+   "t": 20.52,
+   "coup": "Bg5+",
+   "badge": "brillant"
+  },
+  {
+   "t": 23.58,
+   "coup": "Kc7",
+   "badge": null
+  },
+  {
+   "t": 25.58,
+   "coup": "Bd8#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 10.54,
+   "duree": 1.0,
+   "texte": "Mate in 3?"
+  }
+ ]
+}

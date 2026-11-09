@@ -719,3 +719,6 @@
 ### commandes/perso_opposition_ke5_1_fr.json
     voix générée : 551 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/opposition_ke5_1_fr.mp4 {"voix_brute_s": 46.3, "tempo": 1.0, "video_s": 47.9, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 116, "minutage": "21 phrases, 15 coups, 1 pauses"}
+### commandes/perso_reti_tartakower_1.json
+    voix générée : 376 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/reti_tartakower_1.mp4 {"voix_brute_s": 33.5, "tempo": 1.0, "video_s": 35.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 72, "minutage": "12 phrases, 6 coups, 1 pauses"}
