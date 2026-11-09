@@ -716,3 +716,6 @@
 ### commandes/perso_opposition_ke5_1.json
     sans voix (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/opposition_ke5_1.mp4 {"voix_brute_s": 40.5, "tempo": 1.0, "video_s": 45.1, "voice_id": "aucune", "musique": "aucune", "mots_transcrits": 101, "minutage": "22 phrases, 15 coups, 1 pauses"}
+### commandes/perso_opposition_ke5_1_fr.json
+    voix générée : 551 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/opposition_ke5_1_fr.mp4 {"voix_brute_s": 46.3, "tempo": 1.0, "video_s": 47.9, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 116, "minutage": "21 phrases, 15 coups, 1 pauses"}

@@ -1,0 +1,183 @@
+{
+ "nom": "opposition_ke5_1_fr",
+ "tempo": 1.0,
+ "duree_s": 47.26,
+ "hook": {
+  "texte": "Roi et pion.|Un seul coup gagne.",
+  "fin": 2.5
+ },
+ "question": {
+  "texte": "Tu aurais trouvé|Re5 ?",
+  "t": 44.06
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Roi et pion contre roi."
+  },
+  {
+   "t": 2.5,
+   "texte": "Aux Blancs de jouer et un seul coup gagne."
+  },
+  {
+   "t": 5.92,
+   "texte": "Lequel ?"
+  },
+  {
+   "t": 8.76,
+   "texte": "Abonne-toi : un défi d'échecs par jour."
+  },
+  {
+   "t": 12.14,
+   "texte": "Le roi va en e5 !"
+  },
+  {
+   "t": 13.92,
+   "texte": "Les rois face à face  l'opposition."
+  },
+  {
+   "t": 17.36,
+   "texte": "Les Noirs s'écartent."
+  },
+  {
+   "t": 18.64,
+   "texte": "Le roi blanc passe devant le pion."
+  },
+  {
+   "t": 21.34,
+   "texte": "Les Noirs attendent en e7."
+  },
+  {
+   "t": 23.46,
+   "texte": "Le roi va en c6."
+  },
+  {
+   "t": 25.24,
+   "texte": "Les Noirs reviennent."
+  },
+  {
+   "t": 26.62,
+   "texte": "Le pion file avec échec."
+  },
+  {
+   "t": 28.22,
+   "texte": "Le roi noir s'écarte."
+  },
+  {
+   "t": 30.66,
+   "texte": "Le pion va en d6."
+  },
+  {
+   "t": 32.86,
+   "texte": "Le roi est trop loin."
+  },
+  {
+   "t": 34.3,
+   "texte": "Le pion va en d7."
+  },
+  {
+   "t": 36.52,
+   "texte": "Un dernier pas mais c'est trop tard."
+  },
+  {
+   "t": 38.76,
+   "texte": "Le pion devient dame !"
+  },
+  {
+   "t": 40.99,
+   "texte": "Pousser le pion d'abord ?"
+  },
+  {
+   "t": 42.82,
+   "texte": "Le roi noir le bloque  nulle."
+  },
+  {
+   "t": 45.08,
+   "texte": "Le roi d'abord le pion ensuite."
+  }
+ ],
+ "coups": [
+  {
+   "t": 12.74,
+   "coup": "Ke5",
+   "badge": "brillant"
+  },
+  {
+   "t": 17.82,
+   "coup": "Kd7",
+   "badge": null
+  },
+  {
+   "t": 19.76,
+   "coup": "Kd5",
+   "badge": null
+  },
+  {
+   "t": 22.3,
+   "coup": "Ke7",
+   "badge": null
+  },
+  {
+   "t": 24.0,
+   "coup": "Kc6",
+   "badge": "brillant"
+  },
+  {
+   "t": 25.66,
+   "coup": "Ke6",
+   "badge": null
+  },
+  {
+   "t": 27.3,
+   "coup": "d5+",
+   "badge": null
+  },
+  {
+   "t": 29.58,
+   "coup": "Ke5",
+   "badge": null
+  },
+  {
+   "t": 31.32,
+   "coup": "d6",
+   "badge": null
+  },
+  {
+   "t": 33.48,
+   "coup": "Ke4",
+   "badge": null
+  },
+  {
+   "t": 34.96,
+   "coup": "d7",
+   "badge": null
+  },
+  {
+   "t": 37.66,
+   "coup": "Kd3",
+   "badge": null
+  },
+  {
+   "t": 39.58,
+   "coup": "d8=Q+",
+   "badge": null
+  },
+  {
+   "t": 42.0,
+   "coup": "d5",
+   "badge": "erreur"
+  },
+  {
+   "t": 43.58,
+   "coup": "Kd6",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 7.74,
+   "duree": 1.0,
+   "texte": "Trouve-le !"
+  }
+ ]
+}
