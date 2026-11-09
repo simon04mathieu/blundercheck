@@ -1,0 +1,115 @@
+{
+ "nom": "deux_cavaliers_1",
+ "tempo": 1.0,
+ "duree_s": 38.68,
+ "hook": {
+  "texte": "Two knights.|Mate in 4?",
+  "fin": 2.8
+ },
+ "question": {
+  "texte": "Would you have|found Kc7?",
+  "t": 35.48
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Two knights alone can't force checkmate."
+  },
+  {
+   "t": 2.8,
+   "texte": "But here, Black has a pawn!"
+  },
+  {
+   "t": 5.5,
+   "texte": "White to move mate in four."
+  },
+  {
+   "t": 8.06,
+   "texte": "Can you find it?"
+  },
+  {
+   "t": 10.44,
+   "texte": "New puzzle every day."
+  },
+  {
+   "t": 12.1,
+   "texte": "Follow to get tomorrow's."
+  },
+  {
+   "t": 14.12,
+   "texte": "King to c7!"
+  },
+  {
+   "t": 16.06,
+   "texte": "A quiet move the king takes away b7 and b8."
+  },
+  {
+   "t": 20.38,
+   "texte": "The pawn runs and the knight jumps to c6."
+  },
+  {
+   "t": 23.78,
+   "texte": "The pawn runs again."
+  },
+  {
+   "t": 25.8,
+   "texte": "Now the other knight jumps to d5."
+  },
+  {
+   "t": 28.46,
+   "texte": "Without that pawn this would be stalemate!"
+  },
+  {
+   "t": 31.52,
+   "texte": "But Black must push it and the knight lands on b6 checkmate!"
+  },
+  {
+   "t": 36.5,
+   "texte": "The pawn gave White the extra move."
+  }
+ ],
+ "coups": [
+  {
+   "t": 14.7,
+   "coup": "Kc7",
+   "badge": "brillant"
+  },
+  {
+   "t": 20.78,
+   "coup": "a5",
+   "badge": null
+  },
+  {
+   "t": 22.26,
+   "coup": "Nc6",
+   "badge": null
+  },
+  {
+   "t": 24.54,
+   "coup": "a4",
+   "badge": null
+  },
+  {
+   "t": 26.88,
+   "coup": "Nd5",
+   "badge": null
+  },
+  {
+   "t": 32.58,
+   "coup": "a3",
+   "badge": null
+  },
+  {
+   "t": 33.84,
+   "coup": "Nb6#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 9.42,
+   "duree": 1.0,
+   "texte": "Mate in 4?"
+  }
+ ]
+}
