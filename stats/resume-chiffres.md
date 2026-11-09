@@ -1,33 +1,32 @@
 # Résumé des chiffres
 
-Généré le 2026-11-08 21:17 (Zurich) par GitHub Actions, commit 17d4a81.
+Généré le 2026-11-09 20:42 (Zurich) par GitHub Actions, commit 5a5e1c1.
 
 Vues sur 24 h (relevés stats/, différence avec le relevé d'il y a ≥ 24 h)
 
 | Réseau | Vues | Abonnés (variation) | Vidéos suivies |
 |---|---|---|---|
-| youtube | +27091 | 84 (+22) | 82 |
-| tiktok-en | +8453 | 29 (+2) | 51 |
-| tiktok | +461 | 18 (+0) | 44 |
-| instagram | +327 | 1 (+0) | 30 |
+| youtube | +20470 | 96 (+12) | 86 |
+| tiktok-en | +9080 | 33 (+4) | 55 |
+| tiktok | +1720 | 18 (+0) | 47 |
+| instagram | +734 | 1 (+0) | 30 |
 | facebook | +0 | 0 (+0) | 30 |
-| threads | +7 | 0 (+0) | 30 |
+| threads | +18 | 0 (+0) | 30 |
 
-Total : +36339 vues.
+Total : +32022 vues.
 
 Meilleures vidéos (vues gagnées) :
-- +13777 · youtube · One pawn push wins. Which one? ♟️ #chess #shorts
-- +3950 · tiktok-en · #BlunderCheck 
-- +3391 · youtube · A bishop and a pawn up. Can White win? ♟️ #chess #shorts
-- +2294 · youtube · Can White queen the pawn? Build the bridge! ♟️ #chess #shorts
-- +2015 · tiktok-en · #BlunderCheck 
+- +13162 · youtube · One pawn push wins. Which one? ♟️ #chess #shorts
+- +3137 · tiktok-en · #BlunderCheck 
+- +1822 · tiktok-en · #BlunderCheck 
+- +1087 · youtube · King in check. Should he hide in the corner? ♟️ #chess #shorts
+- +1031 · tiktok-en · #BlunderCheck 
 
-Par catégorie (YouTube EN, 7 derniers jours, vues à 48 h ; moyenne 2880, médiane 1837 sur 18 vidéos ; règle 17 = moyenne) :
+Par catégorie (YouTube EN, 7 derniers jours, vues à 48 h ; moyenne 3800, médiane 1837 sur 19 vidéos ; règle 17 = moyenne) :
 | Catégorie | Vidéos | Moyenne à 48 h | % de la moyenne | Jeunes (< 48 h, vues actuelles) |
 |---|---|---|---|---|
-| finale | 5 | 4332 | 150 % | 3391, 15322 |
-| histoire | 3 | 4290 | 149 % | 531, 958 |
-| strategie | 1 | 3003 | 104 % | – |
-| tactique | 2 | 1867 | 65 % | 883, 1454, 16 |
-| piege | 6 | 1578 | 55 % | 121 |
-| enigme | 1 | 1104 | 38 % ⚠ < 50 % | – |
+| finale | 5 | 8236 | 217 % | 705, 4310 |
+| histoire | 4 | 3467 | 91 % | 246, 993, 1080 |
+| strategie | 1 | 3003 | 79 % | – |
+| piege | 5 | 1647 | 43 % ⚠ < 50 % | 3, 1178 |
+| tactique | 4 | 1476 | 39 % ⚠ < 50 % | 1800 |
