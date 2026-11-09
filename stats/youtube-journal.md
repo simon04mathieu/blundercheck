@@ -646,3 +646,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "96"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "96"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "96"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "96"}
+### 2026-11-09 20:40 publications/youtube/opposition_ke5_1.json
+{"id": "0TJ3ypM-qMQ", "url": "https://www.youtube.com/shorts/0TJ3ypM-qMQ", "statut": "public", "publier_le": null}
