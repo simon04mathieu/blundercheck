@@ -1,0 +1,187 @@
+{
+ "nom": "opposition_ke5_1",
+ "tempo": 1.0,
+ "duree_s": 42.45,
+ "hook": {
+  "texte": "King and pawn.|One move wins.",
+  "fin": 2.16
+ },
+ "question": {
+  "texte": "Would you have|found Ke5?",
+  "t": 39.25
+ },
+ "phrases": [
+  {
+   "t": 0.2,
+   "texte": "King and pawn against king."
+  },
+  {
+   "t": 2.16,
+   "texte": "White to move."
+  },
+  {
+   "t": 3.48,
+   "texte": "Only one move wins."
+  },
+  {
+   "t": 5.07,
+   "texte": "Which one?"
+  },
+  {
+   "t": 8.13,
+   "texte": "Follow: one new endgame every day."
+  },
+  {
+   "t": 10.58,
+   "texte": "King to e5!"
+  },
+  {
+   "t": 11.81,
+   "texte": "Kings face to face the opposition."
+  },
+  {
+   "t": 14.3,
+   "texte": "Black steps aside."
+  },
+  {
+   "t": 15.72,
+   "texte": "The white king walks in front of the pawn."
+  },
+  {
+   "t": 18.68,
+   "texte": "Black waits on e7."
+  },
+  {
+   "t": 20.25,
+   "texte": "The king goes to c6."
+  },
+  {
+   "t": 22.02,
+   "texte": "Black comes back."
+  },
+  {
+   "t": 23.41,
+   "texte": "Now the pawn runs with check."
+  },
+  {
+   "t": 25.76,
+   "texte": "The king steps away."
+  },
+  {
+   "t": 27.38,
+   "texte": "The pawn goes to d6."
+  },
+  {
+   "t": 29.15,
+   "texte": "The king is too far."
+  },
+  {
+   "t": 30.92,
+   "texte": "The pawn goes to d7."
+  },
+  {
+   "t": 32.69,
+   "texte": "One last step but it's too late."
+  },
+  {
+   "t": 35.26,
+   "texte": "The pawn queens!"
+  },
+  {
+   "t": 36.63,
+   "texte": "Push the pawn first?"
+  },
+  {
+   "t": 38.25,
+   "texte": "The king blocks it draw."
+  },
+  {
+   "t": 40.31,
+   "texte": "King first, pawn second."
+  }
+ ],
+ "coups": [
+  {
+   "t": 11.1,
+   "coup": "Ke5",
+   "badge": "brillant"
+  },
+  {
+   "t": 14.92,
+   "coup": "Kd7",
+   "badge": null
+  },
+  {
+   "t": 17.11,
+   "coup": "Kd5",
+   "badge": null
+  },
+  {
+   "t": 19.3,
+   "coup": "Ke7",
+   "badge": null
+  },
+  {
+   "t": 21.07,
+   "coup": "Kc6",
+   "badge": "brillant"
+  },
+  {
+   "t": 22.64,
+   "coup": "Ke6",
+   "badge": null
+  },
+  {
+   "t": 24.21,
+   "coup": "d5+",
+   "badge": null
+  },
+  {
+   "t": 26.61,
+   "coup": "Ke5",
+   "badge": null
+  },
+  {
+   "t": 28.2,
+   "coup": "d6",
+   "badge": null
+  },
+  {
+   "t": 29.92,
+   "coup": "Ke4",
+   "badge": null
+  },
+  {
+   "t": 31.74,
+   "coup": "d7",
+   "badge": null
+  },
+  {
+   "t": 33.69,
+   "coup": "Kd3",
+   "badge": null
+  },
+  {
+   "t": 35.8,
+   "coup": "d8=Q+",
+   "badge": null
+  },
+  {
+   "t": 37.45,
+   "coup": "d5",
+   "badge": "erreur"
+  },
+  {
+   "t": 39.13,
+   "coup": "Kd6",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 6.11,
+   "duree": 2.0,
+   "texte": "Find it!"
+  }
+ ]
+}

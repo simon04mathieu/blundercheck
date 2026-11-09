@@ -713,3 +713,6 @@
 ### commandes/perso_lasker_albin_1.json
     voix générée : 595 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/lasker_albin_1.mp4 {"voix_brute_s": 45.8, "tempo": 1.0, "video_s": 47.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 112, "minutage": "17 phrases, 13 coups, 1 pauses"}
+### commandes/perso_opposition_ke5_1.json
+    sans voix (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/opposition_ke5_1.mp4 {"voix_brute_s": 40.5, "tempo": 1.0, "video_s": 45.1, "voice_id": "aucune", "musique": "aucune", "mots_transcrits": 101, "minutage": "22 phrases, 15 coups, 1 pauses"}
