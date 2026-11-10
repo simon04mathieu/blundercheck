@@ -30,7 +30,7 @@ APRES = {"instagram": {17, 21}, "youtube": {15, 17, 19, 21}, "instagram-en": {15
 CHANGEMENT2 = dt.date(2026, 11, 11)
 APRES2 = {"instagram": {13, 19}, "youtube": {10, 13, 16, 19}, "instagram-en": {10, 13, 16, 19},
           "facebook": {10, 13, 16, 19}, "threads": {10, 13, 16, 19}}
-JOUR_TRANSITION = (dt.date(2026, 11, 10), {(16, 0), (18, 30), (21, 0)})   # 10/11 : 15 h déjà parti, puis 16 h, 18 h 30, 21 h
+JOUR_TRANSITION = (dt.date(2026, 11, 10), {(16, 0), (22, 0)})   # 10/11 : 15 h, 16 h déjà partis, puis 19 h et 22 h (3 h d'écart)
 CRENEAUX = AVANT
 FIN_PROF = dt.date(2026, 11, 1)   # prof IA arrêté par Simon le 1/11 : plus aucune vidéo prof après cette date
 
