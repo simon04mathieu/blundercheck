@@ -1,0 +1,126 @@
+{
+ "nom": "deux_pions_e6_1",
+ "tempo": 1.0,
+ "duree_s": 40.4,
+ "hook": {
+  "texte": "Push or|sacrifice?",
+  "fin": 3.3
+ },
+ "question": {
+  "texte": "Would you have|sacrificed the pawn?",
+  "t": 37.2
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Two pawns each and the kings are far away."
+  },
+  {
+   "t": 3.3,
+   "texte": "White to move only one move wins."
+  },
+  {
+   "t": 6.8,
+   "texte": "Which one?"
+  },
+  {
+   "t": 10.02,
+   "texte": "Follow for one new puzzle every day."
+  },
+  {
+   "t": 13.04,
+   "texte": "Pawn to e6!"
+  },
+  {
+   "t": 15.1,
+   "texte": "Black takes the pawn."
+  },
+  {
+   "t": 17.16,
+   "texte": "And White takes back now this pawn is free."
+  },
+  {
+   "t": 20.72,
+   "texte": "The black pawn runs too but the white king stops it."
+  },
+  {
+   "t": 24.62,
+   "texte": "The black king hurries but it is too far."
+  },
+  {
+   "t": 27.88,
+   "texte": "The pawn steps to e7 the king comes closer but too late the pawn queens!"
+  },
+  {
+   "t": 34.38,
+   "texte": "Push the other pawn instead?"
+  },
+  {
+   "t": 36.62,
+   "texte": "Only a draw."
+  },
+  {
+   "t": 38.26,
+   "texte": "The pawn you give opens the road."
+  }
+ ],
+ "coups": [
+  {
+   "t": 13.64,
+   "coup": "e6",
+   "badge": "brillant"
+  },
+  {
+   "t": 15.4,
+   "coup": "dxe6",
+   "badge": null
+  },
+  {
+   "t": 17.84,
+   "coup": "dxe6",
+   "badge": null
+  },
+  {
+   "t": 21.42,
+   "coup": "g5",
+   "badge": null
+  },
+  {
+   "t": 23.2,
+   "coup": "Kg3",
+   "badge": null
+  },
+  {
+   "t": 25.36,
+   "coup": "Kb7",
+   "badge": null
+  },
+  {
+   "t": 28.66,
+   "coup": "e7",
+   "badge": null
+  },
+  {
+   "t": 30.12,
+   "coup": "Kc7",
+   "badge": null
+  },
+  {
+   "t": 32.94,
+   "coup": "e8=Q",
+   "badge": null
+  },
+  {
+   "t": 35.06,
+   "coup": "d6",
+   "badge": "erreur"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 8.0,
+   "duree": 2.0,
+   "texte": "Find it!"
+  }
+ ]
+}
