@@ -744,3 +744,6 @@
 ### commandes/perso_deux_pions_e6_1.json
     voix générée : 454 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/deux_pions_e6_1.mp4 {"voix_brute_s": 38.3, "tempo": 1.0, "video_s": 43.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 91, "minutage": "13 phrases, 10 coups, 1 pauses"}
+### commandes/perso_deux_pions_e6_1_fr.json
+    voix générée : 467 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/deux_pions_e6_1_fr.mp4 {"voix_brute_s": 35.2, "tempo": 1.0, "video_s": 37.9, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 92, "minutage": "13 phrases, 10 coups, 1 pauses"}

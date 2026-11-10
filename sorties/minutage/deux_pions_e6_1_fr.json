@@ -1,0 +1,126 @@
+{
+ "nom": "deux_pions_e6_1_fr",
+ "tempo": 1.0,
+ "duree_s": 37.28,
+ "hook": {
+  "texte": "Pousser ou|sacrifier ?",
+  "fin": 3.56
+ },
+ "question": {
+  "texte": "Tu aurais sacrifié|le pion ?",
+  "t": 34.08
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Deux pions chacun et les rois sont loin."
+  },
+  {
+   "t": 3.56,
+   "texte": "Aux Blancs de jouer  un seul coup gagne."
+  },
+  {
+   "t": 6.36,
+   "texte": "Lequel ?"
+  },
+  {
+   "t": 9.58,
+   "texte": "Abonne-toi : un défi d'échecs par jour."
+  },
+  {
+   "t": 12.56,
+   "texte": "Pion en e6 !"
+  },
+  {
+   "t": 14.28,
+   "texte": "Les Noirs prennent le pion."
+  },
+  {
+   "t": 15.92,
+   "texte": "Et les Blancs reprennent  ce pion est libre."
+  },
+  {
+   "t": 19.06,
+   "texte": "Le pion noir file aussi mais le roi blanc l'arrête."
+  },
+  {
+   "t": 22.62,
+   "texte": "Le roi noir se dépêche mais il est trop loin."
+  },
+  {
+   "t": 25.78,
+   "texte": "Le pion va en e7 le roi s'approche mais trop tard  le pion devient dame !"
+  },
+  {
+   "t": 32.39,
+   "texte": "Pousser l'autre pion ?"
+  },
+  {
+   "t": 33.66,
+   "texte": "Seulement nulle."
+  },
+  {
+   "t": 35.26,
+   "texte": "Le pion offert ouvre la route."
+  }
+ ],
+ "coups": [
+  {
+   "t": 13.06,
+   "coup": "e6",
+   "badge": "brillant"
+  },
+  {
+   "t": 14.76,
+   "coup": "dxe6",
+   "badge": null
+  },
+  {
+   "t": 16.42,
+   "coup": "dxe6",
+   "badge": null
+  },
+  {
+   "t": 19.7,
+   "coup": "g5",
+   "badge": null
+  },
+  {
+   "t": 21.42,
+   "coup": "Kg3",
+   "badge": null
+  },
+  {
+   "t": 23.1,
+   "coup": "Kb7",
+   "badge": null
+  },
+  {
+   "t": 26.5,
+   "coup": "e7",
+   "badge": null
+  },
+  {
+   "t": 28.06,
+   "coup": "Kc7",
+   "badge": null
+  },
+  {
+   "t": 30.7,
+   "coup": "e8=Q",
+   "badge": null
+  },
+  {
+   "t": 32.84,
+   "coup": "d6",
+   "badge": "erreur"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 7.56,
+   "duree": 2.0,
+   "texte": "Trouve-le !"
+  }
+ ]
+}
