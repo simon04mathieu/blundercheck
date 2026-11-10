@@ -686,3 +686,4 @@
 ### 2026-11-10 18:32 publications/youtube/krause_bxf6_1.json
 {"id": "iIJ-V6BVbFE", "url": "https://www.youtube.com/shorts/iIJ-V6BVbFE", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "106"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "106"}
