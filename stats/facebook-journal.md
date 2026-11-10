@@ -130,3 +130,5 @@
 {"reseau": "facebook", "id": "1102192015775737", "ok": true}
 ### 2026-11-10 15:32 publications/facebook/course_d6_1.json
 {"reseau": "facebook", "id": "1738306463913213", "ok": true}
+### 2026-11-10 18:43 publications/facebook/krause_bxf6_1.json
+{"reseau": "facebook", "id": "2184786225805776", "ok": true}
