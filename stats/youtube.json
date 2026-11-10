@@ -1,5 +1,5 @@
 {
- "date": "2026-11-10T14:22:28.475500+00:00",
+ "date": "2026-11-10T14:36:53.320667+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -21,7 +21,7 @@
    "publiee": "2026-11-09T20:40:33Z",
    "statut": "public",
    "duree": "PT46S",
-   "vues": 935,
+   "vues": 934,
    "jaime": 10,
    "commentaires": 2
   },
@@ -39,8 +39,8 @@
    "publiee": "2026-11-09T16:00:46Z",
    "statut": "public",
    "duree": "PT36S",
-   "vues": 851,
-   "jaime": 19,
+   "vues": 887,
+   "jaime": 21,
    "commentaires": 1
   },
   "Jg95MAmZCl0": {
@@ -48,7 +48,7 @@
    "publiee": "2026-11-09T14:45:46Z",
    "statut": "public",
    "duree": "PT42S",
-   "vues": 1222,
+   "vues": 1220,
    "jaime": 23,
    "commentaires": 2
   },
@@ -57,7 +57,7 @@
    "publiee": "2026-11-08T20:24:08Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 1242,
+   "vues": 1239,
    "jaime": 18,
    "commentaires": 1
   },
@@ -75,7 +75,7 @@
    "publiee": "2026-11-08T16:25:15Z",
    "statut": "public",
    "duree": "PT41S",
-   "vues": 6316,
+   "vues": 6331,
    "jaime": 45,
    "commentaires": 7
   },
@@ -84,7 +84,7 @@
    "publiee": "2026-11-08T14:29:30Z",
    "statut": "public",
    "duree": "PT48S",
-   "vues": 1261,
+   "vues": 1241,
    "jaime": 14,
    "commentaires": 2
   },
@@ -93,7 +93,7 @@
    "publiee": "2026-11-07T20:24:14Z",
    "statut": "public",
    "duree": "PT39S",
-   "vues": 4848,
+   "vues": 4815,
    "jaime": 42,
    "commentaires": 6
   },
@@ -102,7 +102,7 @@
    "publiee": "2026-11-07T18:25:04Z",
    "statut": "public",
    "duree": "PT32S",
-   "vues": 2522,
+   "vues": 2512,
    "jaime": 18,
    "commentaires": 0
   },
@@ -156,7 +156,7 @@
    "publiee": "2026-11-06T14:15:43Z",
    "statut": "public",
    "duree": "PT57S",
-   "vues": 1275,
+   "vues": 1272,
    "jaime": 14,
    "commentaires": 0
   },
@@ -381,7 +381,7 @@
    "publiee": "2026-10-30T16:48:21Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 5175,
+   "vues": 5176,
    "jaime": 94,
    "commentaires": 1
   },

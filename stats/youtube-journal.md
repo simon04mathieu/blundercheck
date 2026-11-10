@@ -671,3 +671,4 @@
 ### 2026-11-10 14:12 publications/youtube/deux_pions_e6_1.json
 {"id": "F0mnX9GL2yE", "url": "https://www.youtube.com/shorts/F0mnX9GL2yE", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "104"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "104"}
