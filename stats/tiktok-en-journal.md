@@ -565,3 +565,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 33, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 ### 2026-11-10 09:28 publications/tiktok-en/deux_pions_e6_1.json
 {"publish_id": "v_inbox_file~v2.7706471761134946306", "mode": "brouillon", "vie_privee": null, "legende": "Would you have sacrificed the pawn? 👇 Only 1.e6! wins; 1.d6? is a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 33, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}

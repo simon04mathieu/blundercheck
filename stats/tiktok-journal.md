@@ -693,3 +693,4 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 ### 2026-11-10 07:49 publications/tiktok/deux_pions_e6_1_fr.json
 {"publish_id": "v_inbox_file~v2.7706446480877455362", "mode": "brouillon", "vie_privee": null, "legende": "Tu aurais sacrifié le pion ? 👇 Seul 1.e6 ! gagne ; 1.d6 ? ne donne que nulle (Stockfish 16, position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr"}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
