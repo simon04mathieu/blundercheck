@@ -128,3 +128,5 @@
 {"reseau": "facebook", "id": "970404955717435", "ok": true}
 ### 2026-11-10 14:20 publications/facebook/deux_pions_e6_1.json
 {"reseau": "facebook", "id": "1102192015775737", "ok": true}
+### 2026-11-10 15:32 publications/facebook/course_d6_1.json
+{"reseau": "facebook", "id": "1738306463913213", "ok": true}
