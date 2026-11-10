@@ -676,3 +676,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "105"}
 ### 2026-11-10 15:28 publications/youtube/course_d6_1.json
 {"id": "THODyuiGGII", "url": "https://www.youtube.com/shorts/THODyuiGGII", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "105"}
