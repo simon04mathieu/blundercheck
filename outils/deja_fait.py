@@ -59,6 +59,12 @@ def parcours(nom):
 
 def langue_nom(nom):
     if "_en" in nom or nom.endswith("_en"): return "en"
+    # 10/11 : sans publication, la langue vient de la commande de fabrication (sinon une version refaite en EN était comptée FR)
+    for f in glob.glob(f"{ROOT}/commandes/faites/*{nom}.json") + glob.glob(f"{ROOT}/commandes/*{nom}.json"):
+        try:
+            l = json.load(open(f, encoding="utf-8")).get("langue")
+            if l in ("fr", "en"): return l
+        except Exception: pass
     return "fr"
 
 
