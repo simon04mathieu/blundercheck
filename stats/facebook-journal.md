@@ -126,3 +126,5 @@
 {"reseau": "facebook", "id": "2639260393190469", "ok": true}
 ### 2026-11-09 20:01 publications/facebook/opposition_ke5_1.json
 {"reseau": "facebook", "id": "970404955717435", "ok": true}
+### 2026-11-10 14:20 publications/facebook/deux_pions_e6_1.json
+{"reseau": "facebook", "id": "1102192015775737", "ok": true}
