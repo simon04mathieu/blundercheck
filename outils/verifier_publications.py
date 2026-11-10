@@ -26,11 +26,11 @@ AVANT = {"instagram": {14, 20}, "youtube": {11, 14, 17, 20}, "instagram-en": {11
          "facebook": {11, 14, 17, 20}, "threads": {11, 14, 17, 20}}
 APRES = {"instagram": {17, 21}, "youtube": {15, 17, 19, 21}, "instagram-en": {15, 17, 19, 21},
          "facebook": {15, 17, 19, 21}, "threads": {15, 17, 19, 21}}
-# Dès le 11/11 (Simon, 10/11 : « espace tout plus, on reste à 4 par jour ») : EN 12/15/18/21, FR 12/20 (3 h minimum entre deux EN).
+# Dès le 11/11 (Simon, 10/11 : « espace tout plus, on reste à 4 par jour », puis « commence plus tôt ») : EN 10/13/16/19, FR 13/19 (3 h entre deux EN).
 CHANGEMENT2 = dt.date(2026, 11, 11)
-APRES2 = {"instagram": {12, 20}, "youtube": {12, 15, 18, 21}, "instagram-en": {12, 15, 18, 21},
-          "facebook": {12, 15, 18, 21}, "threads": {12, 15, 18, 21}}
-JOUR_TRANSITION = (dt.date(2026, 11, 10), {(17, 30), (19, 45), (22, 0)})   # 10/11 : 15 h déjà parti, les 3 autres EN espacées
+APRES2 = {"instagram": {13, 19}, "youtube": {10, 13, 16, 19}, "instagram-en": {10, 13, 16, 19},
+          "facebook": {10, 13, 16, 19}, "threads": {10, 13, 16, 19}}
+JOUR_TRANSITION = (dt.date(2026, 11, 10), {(16, 0), (18, 30), (21, 0)})   # 10/11 : 15 h déjà parti, puis 16 h, 18 h 30, 21 h
 CRENEAUX = AVANT
 FIN_PROF = dt.date(2026, 11, 1)   # prof IA arrêté par Simon le 1/11 : plus aucune vidéo prof après cette date
 
