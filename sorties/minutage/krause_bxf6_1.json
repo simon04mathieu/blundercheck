@@ -1,0 +1,105 @@
+{
+ "nom": "krause_bxf6_1",
+ "tempo": 1.0,
+ "duree_s": 36.92,
+ "hook": {
+  "texte": "Take on f6?|Look at f2.",
+  "fin": 7.96
+ },
+ "question": {
+  "texte": "Analyze your own|game, free",
+  "t": 33.72
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Queen's Pawn Game."
+  },
+  {
+   "t": 1.92,
+   "texte": "Black's queen has just jumped to b6."
+  },
+  {
+   "t": 5.06,
+   "texte": "White's bishop can take the knight on f6."
+  },
+  {
+   "t": 7.96,
+   "texte": "Should it?"
+  },
+  {
+   "t": 10.32,
+   "texte": "One new trap a day."
+  },
+  {
+   "t": 11.94,
+   "texte": "Follow so you don't miss it."
+  },
+  {
+   "t": 14.06,
+   "texte": "White takes the knight."
+  },
+  {
+   "t": 15.96,
+   "texte": "But the bishop takes f2 check!"
+  },
+  {
+   "t": 18.76,
+   "texte": "The king can't take it the queen guards f2."
+  },
+  {
+   "t": 22.54,
+   "texte": "The king runs to d2."
+  },
+  {
+   "t": 24.74,
+   "texte": "Now the queen jumps to e3 checkmate!"
+  },
+  {
+   "t": 28.34,
+   "texte": "The bishop on c5 was hiding the queen."
+  },
+  {
+   "t": 31.86,
+   "texte": "Better: queen to e2."
+  },
+  {
+   "t": 34.72,
+   "texte": "Analyze your own game free."
+  }
+ ],
+ "coups": [
+  {
+   "t": 14.4,
+   "coup": "Bxf6",
+   "badge": "gaffe"
+  },
+  {
+   "t": 16.76,
+   "coup": "Bxf2+",
+   "badge": "brillant"
+  },
+  {
+   "t": 23.24,
+   "coup": "Kd2",
+   "badge": null
+  },
+  {
+   "t": 25.92,
+   "coup": "Qe3#",
+   "badge": "mat"
+  },
+  {
+   "t": 33.38,
+   "coup": "Qe2",
+   "badge": "meilleur"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 9.3,
+   "duree": 1.0,
+   "texte": "Take it?"
+  }
+ ]
+}
