@@ -733,3 +733,8 @@
 ### commandes/perso_opposition_ke5_1_fr.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/opposition_ke5_1_fr.mp4 {"voix_brute_s": 46.3, "tempo": 1.0, "video_s": 47.9, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 116, "minutage": "21 phrases, 15 coups, 1 pauses"}
+## 2026-11-10 00:05 UTC · run 42725463913
+### commandes/perso_course_d6_1.json
+    voix générée : 304 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/course_d6_1.mp4 {"voix_brute_s": 28.4, "tempo": 1.0, "video_s": 30.9, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 62, "minutage": "11 phrases, 5 coups, 1 pauses"}

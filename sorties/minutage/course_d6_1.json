@@ -1,0 +1,93 @@
+{
+ "nom": "course_d6_1",
+ "tempo": 1.0,
+ "duree_s": 30.28,
+ "hook": {
+  "texte": "Race!|One move wins.",
+  "fin": 1.5
+ },
+ "question": {
+  "texte": "Race or wait?|One move wins.",
+  "t": 27.08
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "A pawn race."
+  },
+  {
+   "t": 1.5,
+   "texte": "White to move only one move wins."
+  },
+  {
+   "t": 7.0,
+   "texte": "Follow for one new puzzle every day."
+  },
+  {
+   "t": 10.16,
+   "texte": "Pawn to d6!"
+  },
+  {
+   "t": 12.06,
+   "texte": "The black king runs to stop it."
+  },
+  {
+   "t": 14.42,
+   "texte": "But the pawn is faster it goes to d7 and the king only reaches f7."
+  },
+  {
+   "t": 20.48,
+   "texte": "One step short!"
+  },
+  {
+   "t": 22.48,
+   "texte": "The pawn queens!"
+  },
+  {
+   "t": 24.22,
+   "texte": "Any other move and the black king catches the pawn."
+  },
+  {
+   "t": 28.0,
+   "texte": "Race!"
+  },
+  {
+   "t": 29.1,
+   "texte": "One move wins."
+  }
+ ],
+ "coups": [
+  {
+   "t": 10.74,
+   "coup": "d6",
+   "badge": "brillant"
+  },
+  {
+   "t": 12.7,
+   "coup": "Kg8",
+   "badge": null
+  },
+  {
+   "t": 16.78,
+   "coup": "d7",
+   "badge": null
+  },
+  {
+   "t": 18.94,
+   "coup": "Kf7",
+   "badge": null
+  },
+  {
+   "t": 22.9,
+   "coup": "d8=Q",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 4.98,
+   "duree": 2.0,
+   "texte": "Race!"
+  }
+ ]
+}
