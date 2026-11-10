@@ -132,3 +132,5 @@
 {"reseau": "facebook", "id": "1738306463913213", "ok": true}
 ### 2026-11-10 18:43 publications/facebook/krause_bxf6_1.json
 {"reseau": "facebook", "id": "2184786225805776", "ok": true}
+### 2026-11-10 21:24 publications/facebook/kasparov_topalov_1.json
+{"reseau": "facebook", "id": "1939001747084763", "ok": true}
