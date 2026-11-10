@@ -1,0 +1,85 @@
+{
+ "nom": "krause_bxf6_2",
+ "tempo": 1.0,
+ "duree_s": 22.28,
+ "hook": {
+  "texte": "Free knight?|Big mistake.",
+  "fin": 1.72
+ },
+ "question": {
+  "texte": "Analyze your own|game, free",
+  "t": 19.08
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "White takes the knight."
+  },
+  {
+   "t": 1.72,
+   "texte": "Big mistake!"
+  },
+  {
+   "t": 2.92,
+   "texte": "Can you see why?"
+  },
+  {
+   "t": 5.38,
+   "texte": "Follow for one new trap every day."
+  },
+  {
+   "t": 8.28,
+   "texte": "The bishop takes f2 check!"
+  },
+  {
+   "t": 10.92,
+   "texte": "The queen guards f2 so the king must run to d2."
+  },
+  {
+   "t": 15.16,
+   "texte": "Queen to e3 checkmate!"
+  },
+  {
+   "t": 17.96,
+   "texte": "Better: queen to e2."
+  },
+  {
+   "t": 20.28,
+   "texte": "Analyze your own game free."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.64,
+   "coup": "Bxf6",
+   "badge": "gaffe"
+  },
+  {
+   "t": 9.0,
+   "coup": "Bxf2+",
+   "badge": "brillant"
+  },
+  {
+   "t": 13.54,
+   "coup": "Kd2",
+   "badge": null
+  },
+  {
+   "t": 15.76,
+   "coup": "Qe3#",
+   "badge": "mat"
+  },
+  {
+   "t": 18.84,
+   "coup": "Qe2",
+   "badge": "meilleur"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 4.36,
+   "duree": 1.0,
+   "texte": "Why?"
+  }
+ ]
+}

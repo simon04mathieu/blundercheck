@@ -766,3 +766,6 @@
     voix générée : 357 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/kasparov_topalov_2.mp4 {"voix_brute_s": 31.9, "tempo": 1.0, "video_s": 35.5, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 72, "minutage": "10 phrases, 9 coups, 1 pauses"}
+### commandes/perso_krause_bxf6_2.json
+    voix générée : 239 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/krause_bxf6_2.mp4 {"voix_brute_s": 21.2, "tempo": 1.0, "video_s": 22.9, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 46, "minutage": "9 phrases, 5 coups, 1 pauses"}
