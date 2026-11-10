@@ -562,3 +562,6 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"publish_id": "v_inbox_file~v2.7706446480877717506", "mode": "brouillon", "vie_privee": null, "legende": "Would you have sacrificed the rook? 👇 Kasparov – Topalov, Wijk aan Zee 1999 (1–0, 44 moves; moves replayed with python-chess): 24.Rxd4!! cxd4 25.Re7+ and the black king is hunted across the board. One new story every day. #chess #chesshistory #kasparov"}
 ### 2026-11-10 07:49 publications/tiktok-en/krause_bxf6_1.json
 {"publish_id": "v_inbox_file~v2.7706446292804978710", "mode": "brouillon", "vie_privee": null, "legende": "Would you have taken on f6? 👇 A trap from the Lichess puzzle set (rated ≈ 1385): 7.Bxf6?? Bxf2+ 8.Kd2 Qe3#. Better: 7.Qe2. One new trap a day. #chess #chesstrap #chesstok"}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 33, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-10 09:28 publications/tiktok-en/deux_pions_e6_1.json
+{"publish_id": "v_inbox_file~v2.7706471761134946306", "mode": "brouillon", "vie_privee": null, "legende": "Would you have sacrificed the pawn? 👇 Only 1.e6! wins; 1.d6? is a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
