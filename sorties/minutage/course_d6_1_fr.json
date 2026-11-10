@@ -1,0 +1,93 @@
+{
+ "nom": "course_d6_1_fr",
+ "tempo": 1.0,
+ "duree_s": 29.14,
+ "hook": {
+  "texte": "Course !|Un seul coup gagne.",
+  "fin": 1.27
+ },
+ "question": {
+  "texte": "Courir ou attendre ?|Un seul coup gagne.",
+  "t": 25.94
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Une course de pions."
+  },
+  {
+   "t": 1.27,
+   "texte": "Aux Blancs de jouer  un seul coup gagne."
+  },
+  {
+   "t": 7.64,
+   "texte": "Abonne-toi : un défi d'échecs par jour."
+  },
+  {
+   "t": 10.64,
+   "texte": "Pion en d6 !"
+  },
+  {
+   "t": 11.92,
+   "texte": "Le roi noir court pour l'arrêter."
+  },
+  {
+   "t": 14.5,
+   "texte": "Mais le pion est plus rapide : il va en d7 et le roi n'arrive qu'en f7."
+  },
+  {
+   "t": 19.74,
+   "texte": "Un pas trop court !"
+  },
+  {
+   "t": 21.16,
+   "texte": "Le pion devient dame !"
+  },
+  {
+   "t": 23.2,
+   "texte": "Tout autre coup et le roi noir attrape le pion."
+  },
+  {
+   "t": 27.16,
+   "texte": "Course !"
+  },
+  {
+   "t": 27.98,
+   "texte": "Un seul coup gagne."
+  }
+ ],
+ "coups": [
+  {
+   "t": 11.12,
+   "coup": "d6",
+   "badge": "brillant"
+  },
+  {
+   "t": 12.46,
+   "coup": "Kg8",
+   "badge": null
+  },
+  {
+   "t": 16.78,
+   "coup": "d7",
+   "badge": null
+  },
+  {
+   "t": 18.72,
+   "coup": "Kf7",
+   "badge": null
+  },
+  {
+   "t": 21.9,
+   "coup": "d8=Q",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 5.62,
+   "duree": 2.0,
+   "texte": "Course !"
+  }
+ ]
+}
