@@ -1616,3 +1616,33 @@ QUESTIONS.update({
     "deux_cavaliers_1_fr": "Tu aurais trouvé|Rc7 ?",
     "opposition_ke5_1_fr": "Tu aurais trouvé|Re5 ?",
 })
+
+# 10/11 (Producteur) : file du Scénariste du 9/11 ; lignes revérifiées python-chess + Stockfish 16 (prof. 22) ; « Follow / Abonne-toi » juste avant la révélation (Simon, 3/11)
+# E1 émeraude + T22, E2 ardoise T24-boucle, E3 bois vers /try, E4 papier + T22 ; F1 corail, F2 mono
+DPE6 = "fen:k7/3p2p1/8/3PP3/8/8/7K/8_w_-_-_0_1"
+COURSE = "fen:7k/1p4p1/8/3P4/6P1/8/7K/8_w_-_-_0_1"
+KRAUSE = "fen:rnb1k2r/pp3ppp/1q2pn2/2bP2B1/8/5N2/PPP2PPP/RN1QKB1R_w_KQkq_-_1_7"
+KASPA = "fen:b2r3r/k4p1p/p2q1np1/NppP4/3p1Q2/P4PPB/1PP4P/1K1RR3_w_-_-_1_24"
+_S = {
+"deux_pions_e6_1": ("blancs", "Push or|sacrifice?",   # composée : 1.e6! seul gain (Stockfish 16 prof. 22 : +34,9 ; d6, Kg3, Kh3, Kg2 0,00 ; Kh1, Kg1 −0,02) ; ligne 1.e6 dxe6 2.dxe6 g5 3.Kg3 Kb7 4.e7 Kc7 5.e8=Q
+"""[p """ + DPE6 + """] Two pawns each, and the kings are far away. [h] White to move: only one move wins. Which one? [q 2 Find_it!] Follow for one new puzzle every day. Pawn to [m e6 brillant] [z e6 1.3 2.0] e6! Black [m dxe6] takes the pawn. And White takes [m dxe6] back: now this pawn is free. The black pawn [m g5] runs too, but the white king [m Kg3] stops it. The black king [m Kb7] hurries, but it is too far. The pawn steps [m e7] to e7, the king [m Kc7] comes closer, but too late: the pawn [m e8=Q] [x impact] [z e8 1.3 2.0] queens! [s tag e8 2.5 QUEEN] [p """ + DPE6 + """] Push the other [m d6 erreur] pawn instead? Only a draw. [s tag d6 2.5 DRAW] The pawn you give opens the road."""),
+"course_d6_1": ("blancs", "Race!|One move wins.",   # composée : 1.d6! seul gain (Stockfish 16 prof. 22 : +34,3 ; g5 −6,6, coups de roi −5,7 à −6,5) ; T24-boucle : la dernière image revient au départ
+"""[p """ + COURSE + """] A pawn race. [h] White to move: only one move wins. [q 2 Race!] Follow for one new puzzle every day. Pawn to [m d6 brillant] [z d6 1.3 2.0] d6! The black king [m Kg8] runs to stop it. But the pawn is faster: it goes to [m d7] d7, and the king only reaches [m Kf7] f7. One step short! The pawn [m d8=Q] [x impact] [z d8 1.3 2.0] queens! [s tag d8 2.5 QUEEN] Any other move, and the black king catches the pawn. [p """ + COURSE + """] Race! One move wins."""),
+"krause_bxf6_1": ("blancs", "Take on f6?|Look at f2.",   # Pion Dame (Krause) : 1.d4 d5 2.Nf3 c5 3.dxc5 e6 4.Bg5 Nf6 5.e4 Bxc5 6.exd5 Qb6 ; 7.Bxf6?? Bxf2+ 8.Kd2 Qe3# (Kxf2 illégal, Ke2 Qe3#) ; Stockfish 16 : −0,50 avant ; meilleur 7.Qe2 ; réserve n° 8 (Lichess ≈ 1 385)
+"""[p """ + KRAUSE + """] [f g5f6] Queen's Pawn Game. Black's queen has just jumped to b6. White's bishop can take the knight on f6. [h] Should it? [q 1 Take_it?] One new trap a day. Follow so you don't miss it. White [m Bxf6 gaffe] takes the knight. But the bishop takes [m Bxf2+ brillant] [z f2 1.3 2.0] f2, check! The king can't take it: the queen guards f2. The king runs [m Kd2] to d2. Now the queen jumps to [m Qe3# mat] [x impact] [z e3 1.3 2.0] e3: checkmate! [s tag e3 2.5 MATE] The bishop on c5 was hiding the queen. [p """ + KRAUSE + """] Better: queen to [m Qe2 meilleur] e2. Analyze your own game, free."""),
+"kasparov_topalov_1": ("blancs", "Rook sacrifice.|Why?",   # Kasparov – Topalov, Wijk aan Zee 1999, 1–0 (44 coups, partie rejouée entière python-chess) ; 24.Rxd4!! cxd4 25.Re7+ Kb6 26.Qxd4+ Kxa5 27.b4+ Ka4 28.Qc3 (menace Qb3#, vérifié) ; Stockfish 16 : pas de gain forcé (−0,37 → +0,73) : on ne dit pas « forcé »
+"""[p """ + KASPA + """] Wijk aan Zee, 1999. Kasparov has White, and Black's king hides on a7. [h] Kasparov gives a rook! Can you see why? [q 1 Why?] New story every day. Follow to get tomorrow's. Rook takes [m Rxd4 brillant] [z d4 1.3 2.0] d4! Black's pawn has no choice: it [m cxd4] takes the rook. Now the other rook goes to [m Re7+ brillant] e7, check! The king has to run [m Kb6] to b6. The queen takes [m Qxd4+] d4, check, and the king [m Kxa5] takes the knight. Pawn to [m b4+ brillant] b4, check! The king walks [m Ka4] to a4. Then a quiet move: queen [m Qc3] [z a4 1.3 2.0] to c3, and queen to b3 is mate. [s tag a4 2.5 TRAPPED] The king is trapped in the open, and Kasparov wins on move 44."""),
+"deux_pions_e6_1_fr": ("blancs", "Pousser ou|sacrifier ?",   # jumeau FR de deux_pions_e6_1
+"""[p """ + DPE6 + """] Deux pions chacun, et les rois sont loin. [h] Aux Blancs de jouer : un seul coup gagne. Lequel ? [q 2 Trouve-le !] Abonne-toi : un défi d'échecs par jour. Pion en [m e6 brillant] [z e6 1.3 2.0] e6 ! Les Noirs [m dxe6] prennent le pion. Et les Blancs [m dxe6] reprennent : ce pion est libre. Le pion noir [m g5] file aussi, mais le roi blanc [m Kg3] l'arrête. Le roi noir [m Kb7] se dépêche, mais il est trop loin. Le pion va [m e7] en e7, le roi [m Kc7] s'approche, mais trop tard : le pion devient [m e8=Q] [x impact] [z e8 1.3 2.0] dame ! [s tag e8 2.5 DAME] [p """ + DPE6 + """] Pousser l'autre [m d6 erreur] pion ? Seulement nulle. [s tag d6 2.5 NULLE] Le pion offert ouvre la route."""),
+"course_d6_1_fr": ("blancs", "Course !|Un seul coup gagne.",   # jumeau FR de course_d6_1 (T24-boucle)
+"""[p """ + COURSE + """] Une course de pions. [h] Aux Blancs de jouer : un seul coup gagne. [q 2 Course !] Abonne-toi : un défi d'échecs par jour. Pion en [m d6 brillant] [z d6 1.3 2.0] d6 ! Le roi noir [m Kg8] court pour l'arrêter. Mais le pion est plus rapide : il va en [m d7] d7, et le roi n'arrive qu'en [m Kf7] f7. Un pas trop court ! Le pion devient [m d8=Q] [x impact] [z d8 1.3 2.0] dame ! [s tag d8 2.5 DAME] Tout autre coup, et le roi noir attrape le pion. [p """ + COURSE + """] Course ! Un seul coup gagne."""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
+QUESTIONS.update({
+    "deux_pions_e6_1": "Would you have|sacrificed the pawn?",
+    "course_d6_1": "Race or wait?|One move wins.",
+    "krause_bxf6_1": "Analyze your own|game, free",
+    "kasparov_topalov_1": "Would you give|the rook?",
+    "deux_pions_e6_1_fr": "Tu aurais sacrifié|le pion ?",
+    "course_d6_1_fr": "Courir ou attendre ?|Un seul coup gagne.",
+})
