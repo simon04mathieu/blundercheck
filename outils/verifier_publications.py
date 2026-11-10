@@ -64,6 +64,15 @@ def verifier(chemin, reseau):
         pb.append(f"vidéo introuvable : {d['fichier']}")
     if reseau == "youtube" and len(d.get("titre", "")) > 100:
         pb.append("titre YouTube > 100 caractères")
+    # Règles de montage vérifiées par le code (claude/regles-montage.md, Simon 10/11) : dès le 11/11, une vidéo
+    # qui ne passe pas outils/controle_accroche.py ne peut pas être publiée.
+    try:
+        if d.get("fichier") and dt.datetime.fromisoformat(d["envoyer_apres"]).date() >= dt.date(2026, 11, 11):
+            import controle_accroche
+            nom = os.path.splitext(os.path.basename(d["fichier"]))[0]
+            pb += [f"accroche : {x}" for x in controle_accroche.controler(nom)]
+    except (KeyError, TypeError, ValueError):
+        pass
     return pb
 
 

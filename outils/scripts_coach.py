@@ -1646,3 +1646,14 @@ QUESTIONS.update({
     "deux_pions_e6_1_fr": "Tu aurais sacrifié|le pion ?",
     "course_d6_1_fr": "Courir ou attendre ?|Un seul coup gagne.",
 })
+
+# 10/11 après-midi (Simon : « l'accroche décroche ») : Krause et Kasparov refaits selon claude/regles-montage.md
+# (un coup dès la 1re seconde, 1re phrase = l'enjeu, contexte après, plus court) ; contrôlés par outils/controle_accroche.py
+_S = {
+"krause_bxf6_2": ("blancs", "Free knight?|Big mistake.",   # mêmes coups que krause_bxf6_1 (vérifiés python-chess + Stockfish 16)
+"""[p """ + KRAUSE + """] White takes [m Bxf6 gaffe] [z f6 1.2 1.5] the knight. [h] Big mistake! Can you see why? [q 1 Why?] Follow for one new trap every day. The bishop takes [m Bxf2+ brillant] [z f2 1.3 2.0] f2, check! The queen guards f2, so the king must run [m Kd2] to d2. Queen to [m Qe3# mat] [x impact] [z e3 1.3 2.0] e3: checkmate! [s tag e3 2.5 MATE] [p """ + KRAUSE + """] Better: queen [m Qe2 meilleur] to e2. Analyze your own game, free."""),
+"kasparov_topalov_2": ("blancs", "Kasparov gives|a rook. Why?",   # mêmes coups que kasparov_topalov_1 (partie rejouée entière, Wijk aan Zee 1999)
+"""[p """ + KASPA + """] Kasparov gives [m Rxd4 brillant] [z d4 1.3 1.5] a rook! [h] Can you see why? [q 1 Why?] Follow for one new story every day. Black [m cxd4] takes it. Now the other rook goes to [m Re7+ brillant] e7, check! The black king has to run [m Kb6] to b6. Then the queen takes [m Qxd4+] d4, with check, and the king [m Kxa5] grabs a knight. Now a pawn goes to [m b4+ brillant] b4, check! The king steps up [m Ka4] to a4, and the queen slides [m Qc3] [z a4 1.3 2.0] to c3. [s tag a4 2.5 TRAPPED] Kasparov against Topalov, 1999: Kasparov won."""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
+QUESTIONS.update({"krause_bxf6_2": "Analyze your own|game, free", "kasparov_topalov_2": "Would you give|the rook?"})
