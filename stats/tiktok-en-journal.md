@@ -547,3 +547,18 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 33, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 33, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 33, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 33, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-10 07:49 publications/tiktok-en/course_d6_1.json
+{"publish_id": "v_inbox_file~v2.7706446480877586434", "mode": "brouillon", "vie_privee": null, "legende": "Race or wait? Only 1.d6! wins; every other move loses (Stockfish 16, composed position). Which move did you play first? 👇 One new puzzle every day. #chess #chessendgame #chesspuzzle"}
+### 2026-11-10 07:49 publications/tiktok-en/deux_pions_e6_1.json
+ÉCHEC : TikTok PUT https://open-upload-i18n.tiktokapis.com/upload -> 500 : <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>TLB</center>
+</body>
+</html>
+### 2026-11-10 07:49 publications/tiktok-en/kasparov_topalov_1.json
+{"publish_id": "v_inbox_file~v2.7706446480877717506", "mode": "brouillon", "vie_privee": null, "legende": "Would you have sacrificed the rook? 👇 Kasparov – Topalov, Wijk aan Zee 1999 (1–0, 44 moves; moves replayed with python-chess): 24.Rxd4!! cxd4 25.Re7+ and the black king is hunted across the board. One new story every day. #chess #chesshistory #kasparov"}
+### 2026-11-10 07:49 publications/tiktok-en/krause_bxf6_1.json
+{"publish_id": "v_inbox_file~v2.7706446292804978710", "mode": "brouillon", "vie_privee": null, "legende": "Would you have taken on f6? 👇 A trap from the Lichess puzzle set (rated ≈ 1385): 7.Bxf6?? Bxf2+ 8.Kd2 Qe3#. Better: 7.Qe2. One new trap a day. #chess #chesstrap #chesstok"}
