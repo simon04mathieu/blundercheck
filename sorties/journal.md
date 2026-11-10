@@ -753,3 +753,8 @@
 ### commandes/perso_krause_bxf6_1.json
     voix générée : 406 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/krause_bxf6_1.mp4 {"voix_brute_s": 35.9, "tempo": 1.0, "video_s": 37.5, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 79, "minutage": "14 phrases, 5 coups, 1 pauses"}
+## 2026-11-10 00:13 UTC · run 42726477094
+### commandes/perso_course_d6_1_fr.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/course_d6_1_fr.mp4 {"voix_brute_s": 27.0, "tempo": 1.0, "video_s": 29.7, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 73, "minutage": "11 phrases, 5 coups, 1 pauses"}
