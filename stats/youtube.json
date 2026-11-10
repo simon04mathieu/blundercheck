@@ -1,9 +1,9 @@
 {
- "date": "2026-11-10T16:53:10.630231+00:00",
+ "date": "2026-11-10T17:27:17.887816+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
-  "abonnes": "105",
+  "abonnes": "106",
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
@@ -12,7 +12,7 @@
    "publiee": "2026-11-10T15:29:19Z",
    "statut": "public",
    "duree": "PT31S",
-   "vues": 1,
+   "vues": 3,
    "jaime": 1,
    "commentaires": 2
   },
@@ -21,7 +21,7 @@
    "publiee": "2026-11-10T14:13:20Z",
    "statut": "public",
    "duree": "PT44S",
-   "vues": 52,
+   "vues": 91,
    "jaime": 2,
    "commentaires": 0
   },
@@ -39,8 +39,8 @@
    "publiee": "2026-11-09T18:40:22Z",
    "statut": "public",
    "duree": "PT48S",
-   "vues": 1035,
-   "jaime": 12,
+   "vues": 1051,
+   "jaime": 13,
    "commentaires": 2
   },
   "IaUXL6AT_ps": {
@@ -48,8 +48,8 @@
    "publiee": "2026-11-09T16:00:46Z",
    "statut": "public",
    "duree": "PT36S",
-   "vues": 889,
-   "jaime": 21,
+   "vues": 905,
+   "jaime": 22,
    "commentaires": 1
   },
   "Jg95MAmZCl0": {
@@ -84,9 +84,9 @@
    "publiee": "2026-11-08T16:25:15Z",
    "statut": "public",
    "duree": "PT41S",
-   "vues": 6767,
+   "vues": 6874,
    "jaime": 45,
-   "commentaires": 7
+   "commentaires": 9
   },
   "aOfop_M4h_Y": {
    "titre": "White's king walks to h6. Can Black stop it? ♟️ #chess #shorts",
@@ -129,7 +129,7 @@
    "publiee": "2026-11-07T14:31:16Z",
    "statut": "public",
    "duree": "PT42S",
-   "vues": 28698,
+   "vues": 28794,
    "jaime": 288,
    "commentaires": 9
   },
@@ -669,7 +669,7 @@
    "publiee": "2026-10-22T16:32:29Z",
    "statut": "public",
    "duree": "PT44S",
-   "vues": 993,
+   "vues": 992,
    "jaime": 13,
    "commentaires": 0
   },
