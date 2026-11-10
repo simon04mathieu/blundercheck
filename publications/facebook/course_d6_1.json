@@ -1,0 +1,33 @@
+{
+ "legende": "Race or wait? Only 1.d6! wins; every other move loses (Stockfish 16, composed position). Which move did you play first? 👇 One new puzzle every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=facebook-en\n\n#chess #chessendgame #chesspuzzle",
+ "envoyer_apres": "2026-11-10T17:00:00+01:00",
+ "fichier": "sorties/course_d6_1.mp4",
+ "concept": "course_d6",
+ "format": "FINALE",
+ "langue": "en",
+ "test": "T24-boucle",
+ "duree": 30.9,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "strategie",
+  "langue": "en",
+  "duree_s": 31,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T24-boucle",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "course_de_pions_compter_les_temps",
+  "niveau": "1200-1800",
+  "hook": "defi_gros_texte",
+  "interet": "ne_pas_perdre_un_temps",
+  "rdv": "non",
+  "pieces": 6,
+  "look": "ardoise",
+  "fx": "zoom+tag+boucle",
+  "adn": "oui"
+ }
+}

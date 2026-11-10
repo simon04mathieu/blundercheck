@@ -1,0 +1,33 @@
+{
+ "legende": "Would you have taken on f6? 👇 A trap from the Lichess puzzle set (rated ≈ 1385): 7.Bxf6?? Bxf2+ 8.Kd2 Qe3#. Better: 7.Qe2. One new trap a day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=threads-en\n\n#chess #chesstrap #chesstok",
+ "envoyer_apres": "2026-11-10T19:00:00+01:00",
+ "fichier": "sorties/krause_bxf6_1.mp4",
+ "concept": "krause_bxf6",
+ "format": "PIGEON",
+ "langue": "en",
+ "test": "T4-titre",
+ "duree": 37.5,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "PIGEON",
+  "categorie": "piege",
+  "langue": "en",
+  "duree_s": 38,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T4-titre",
+  "variante": "B",
+  "appel_site": "oui",
+  "fin": "follow_avant_reponse",
+  "motif": "echec_a_la_decouverte_fou_puis_mat_de_dame",
+  "niveau": "~1385 (puzzle Lichess)",
+  "hook": "question",
+  "interet": "la_piece_qui_bouge_avec_echec_ouvre_une_ligne",
+  "rdv": "non",
+  "pieces": 29,
+  "look": "bois",
+  "fx": "zoom+tag",
+  "adn": "non"
+ }
+}
