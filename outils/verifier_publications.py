@@ -26,6 +26,11 @@ AVANT = {"instagram": {14, 20}, "youtube": {11, 14, 17, 20}, "instagram-en": {11
          "facebook": {11, 14, 17, 20}, "threads": {11, 14, 17, 20}}
 APRES = {"instagram": {17, 21}, "youtube": {15, 17, 19, 21}, "instagram-en": {15, 17, 19, 21},
          "facebook": {15, 17, 19, 21}, "threads": {15, 17, 19, 21}}
+# Dès le 11/11 (Simon, 10/11 : « espace tout plus, on reste à 4 par jour ») : EN 12/15/18/21, FR 12/20 (3 h minimum entre deux EN).
+CHANGEMENT2 = dt.date(2026, 11, 11)
+APRES2 = {"instagram": {12, 20}, "youtube": {12, 15, 18, 21}, "instagram-en": {12, 15, 18, 21},
+          "facebook": {12, 15, 18, 21}, "threads": {12, 15, 18, 21}}
+JOUR_TRANSITION = (dt.date(2026, 11, 10), {(17, 30), (19, 45), (22, 0)})   # 10/11 : 15 h déjà parti, les 3 autres EN espacées
 CRENEAUX = AVANT
 FIN_PROF = dt.date(2026, 11, 1)   # prof IA arrêté par Simon le 1/11 : plus aucune vidéo prof après cette date
 
@@ -47,8 +52,9 @@ def verifier(chemin, reseau):
         h = dt.datetime.fromisoformat(d["envoyer_apres"])
         if h.tzinfo is None: pb.append("« envoyer_apres » sans fuseau (+01:00)")
         elif reseau in AVANT:
-            cren = (APRES if h.date() >= CHANGEMENT else AVANT)[reseau]
-            if h.hour not in cren or h.minute:
+            cren = (APRES2 if h.date() >= CHANGEMENT2 else APRES if h.date() >= CHANGEMENT else AVANT)[reseau]
+            transition = h.date() == JOUR_TRANSITION[0] and (h.hour, h.minute) in JOUR_TRANSITION[1]
+            if (h.hour not in cren or h.minute) and not transition:
                 pb.append(f"créneau {h:%H:%M} hors règle 5 ({sorted(cren)} h)")
         if "prof" in (d.get("concept") or os.path.basename(chemin)) and h.date() > FIN_PROF:
             pb.append("vidéo prof IA : format arrêté par Simon le 1/11")
