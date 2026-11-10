@@ -1,9 +1,9 @@
 {
- "date": "2026-11-10T19:53:30.068004+00:00",
+ "date": "2026-11-10T20:32:39.219352+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
-  "abonnes": "106",
+  "abonnes": "107",
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
@@ -12,7 +12,7 @@
    "publiee": "2026-11-10T18:33:01Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 4,
+   "vues": 1,
    "jaime": 1,
    "commentaires": 0
   },
@@ -21,7 +21,7 @@
    "publiee": "2026-11-10T15:29:19Z",
    "statut": "public",
    "duree": "PT31S",
-   "vues": 18,
+   "vues": 17,
    "jaime": 2,
    "commentaires": 2
   },
@@ -30,16 +30,16 @@
    "publiee": "2026-11-10T14:13:20Z",
    "statut": "public",
    "duree": "PT44S",
-   "vues": 171,
-   "jaime": 1,
-   "commentaires": 0
+   "vues": 206,
+   "jaime": 2,
+   "commentaires": 1
   },
   "0TJ3ypM-qMQ": {
    "titre": "King and pawn. Only one move wins. ♟️ #chess #shorts",
    "publiee": "2026-11-09T20:40:33Z",
    "statut": "public",
    "duree": "PT46S",
-   "vues": 953,
+   "vues": 949,
    "jaime": 10,
    "commentaires": 2
   },
@@ -66,7 +66,7 @@
    "publiee": "2026-11-09T14:45:46Z",
    "statut": "public",
    "duree": "PT42S",
-   "vues": 1239,
+   "vues": 1238,
    "jaime": 24,
    "commentaires": 2
   },
@@ -75,7 +75,7 @@
    "publiee": "2026-11-08T20:24:08Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 1282,
+   "vues": 1262,
    "jaime": 18,
    "commentaires": 1
   },
@@ -84,7 +84,7 @@
    "publiee": "2026-11-08T18:25:38Z",
    "statut": "public",
    "duree": "PT40S",
-   "vues": 1471,
+   "vues": 1453,
    "jaime": 22,
    "commentaires": 1
   },
@@ -102,8 +102,8 @@
    "publiee": "2026-11-08T14:29:30Z",
    "statut": "public",
    "duree": "PT48S",
-   "vues": 1315,
-   "jaime": 15,
+   "vues": 1285,
+   "jaime": 14,
    "commentaires": 2
   },
   "jK1Qg_8nXB0": {
@@ -111,7 +111,7 @@
    "publiee": "2026-11-07T20:24:14Z",
    "statut": "public",
    "duree": "PT39S",
-   "vues": 4945,
+   "vues": 4932,
    "jaime": 43,
    "commentaires": 6
   },
@@ -120,7 +120,7 @@
    "publiee": "2026-11-07T18:25:04Z",
    "statut": "public",
    "duree": "PT32S",
-   "vues": 2560,
+   "vues": 2572,
    "jaime": 18,
    "commentaires": 0
   },
@@ -130,7 +130,7 @@
    "statut": "public",
    "duree": "PT52S",
    "vues": 1016,
-   "jaime": 10,
+   "jaime": 11,
    "commentaires": 0
   },
   "X8jGygzGpTo": {
@@ -354,7 +354,7 @@
    "publiee": "2026-10-31T19:38:59Z",
    "statut": "public",
    "duree": "PT24S",
-   "vues": 2227,
+   "vues": 2229,
    "jaime": 12,
    "commentaires": 1
   },
