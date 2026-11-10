@@ -758,3 +758,6 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/course_d6_1_fr.mp4 {"voix_brute_s": 27.0, "tempo": 1.0, "video_s": 29.7, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 73, "minutage": "11 phrases, 5 coups, 1 pauses"}
+### commandes/perso_deux_pions_e6_1.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/deux_pions_e6_1.mp4 {"voix_brute_s": 38.3, "tempo": 1.0, "video_s": 43.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 91, "minutage": "13 phrases, 10 coups, 1 pauses"}
