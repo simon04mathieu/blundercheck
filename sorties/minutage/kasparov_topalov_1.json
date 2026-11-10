@@ -1,0 +1,129 @@
+{
+ "nom": "kasparov_topalov_1",
+ "tempo": 1.0,
+ "duree_s": 46.92,
+ "hook": {
+  "texte": "Rook sacrifice.|Why?",
+  "fin": 7.96
+ },
+ "question": {
+  "texte": "Would you give|the rook?",
+  "t": 43.72
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Wijk aan Zee 1999."
+  },
+  {
+   "t": 3.52,
+   "texte": "Kasparov has White and Black's king hides on a7."
+  },
+  {
+   "t": 7.96,
+   "texte": "Kasparov gives a rook!"
+  },
+  {
+   "t": 9.96,
+   "texte": "Can you see why?"
+  },
+  {
+   "t": 12.58,
+   "texte": "New story every day."
+  },
+  {
+   "t": 14.3,
+   "texte": "Follow to get tomorrow's."
+  },
+  {
+   "t": 16.3,
+   "texte": "Rook takes d4!"
+  },
+  {
+   "t": 18.42,
+   "texte": "Black's pawn has no choice it takes the rook."
+  },
+  {
+   "t": 22.06,
+   "texte": "Now the other rook goes to e7, check!"
+  },
+  {
+   "t": 25.12,
+   "texte": "The king has to run to b6."
+  },
+  {
+   "t": 27.56,
+   "texte": "The queen takes d4 check, and the king takes the knight."
+  },
+  {
+   "t": 32.22,
+   "texte": "Pawn to b4 check!"
+  },
+  {
+   "t": 34.68,
+   "texte": "The king walks to a4."
+  },
+  {
+   "t": 36.88,
+   "texte": "Then a quiet move queen to c3 and queen to b3 is mate."
+  },
+  {
+   "t": 42.78,
+   "texte": "The king is trapped in the open, and Kasparov wins on move 44."
+  }
+ ],
+ "coups": [
+  {
+   "t": 17.06,
+   "coup": "Rxd4",
+   "badge": "brillant"
+  },
+  {
+   "t": 20.5,
+   "coup": "cxd4",
+   "badge": null
+  },
+  {
+   "t": 23.3,
+   "coup": "Re7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 26.12,
+   "coup": "Kb6",
+   "badge": null
+  },
+  {
+   "t": 28.4,
+   "coup": "Qxd4+",
+   "badge": null
+  },
+  {
+   "t": 30.52,
+   "coup": "Kxa5",
+   "badge": null
+  },
+  {
+   "t": 32.66,
+   "coup": "b4+",
+   "badge": "brillant"
+  },
+  {
+   "t": 35.32,
+   "coup": "Ka4",
+   "badge": null
+  },
+  {
+   "t": 38.78,
+   "coup": "Qc3",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 11.56,
+   "duree": 1.0,
+   "texte": "Why?"
+  }
+ ]
+}
