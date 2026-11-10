@@ -761,3 +761,8 @@
 ### commandes/perso_deux_pions_e6_1.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/deux_pions_e6_1.mp4 {"voix_brute_s": 38.3, "tempo": 1.0, "video_s": 43.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 91, "minutage": "13 phrases, 10 coups, 1 pauses"}
+## 2026-11-10 18:28 UTC · run 42875260334
+### commandes/perso_kasparov_topalov_2.json
+    voix générée : 357 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/kasparov_topalov_2.mp4 {"voix_brute_s": 31.9, "tempo": 1.0, "video_s": 35.5, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 72, "minutage": "10 phrases, 9 coups, 1 pauses"}

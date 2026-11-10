@@ -1,0 +1,109 @@
+{
+ "nom": "kasparov_topalov_2",
+ "tempo": 1.0,
+ "duree_s": 32.9,
+ "hook": {
+  "texte": "Kasparov gives|a rook. Why?",
+  "fin": 1.9
+ },
+ "question": {
+  "texte": "Would you give|the rook?",
+  "t": 29.7
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Kasparov gives a rook!"
+  },
+  {
+   "t": 1.9,
+   "texte": "Can you see why?"
+  },
+  {
+   "t": 4.38,
+   "texte": "Follow for one new story every day."
+  },
+  {
+   "t": 7.42,
+   "texte": "Black takes it."
+  },
+  {
+   "t": 9.04,
+   "texte": "Now the other rook goes to e7, check!"
+  },
+  {
+   "t": 12.26,
+   "texte": "The black king has to run to b6."
+  },
+  {
+   "t": 15.1,
+   "texte": "Then the queen takes d4 with check, and the king grabs a knight."
+  },
+  {
+   "t": 19.8,
+   "texte": "Now a pawn goes to b4 check!"
+  },
+  {
+   "t": 22.84,
+   "texte": "The king steps up to a4 and the queen slides to c3."
+  },
+  {
+   "t": 27.66,
+   "texte": "Kasparov against Topalov 1999: Kasparov won."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.82,
+   "coup": "Rxd4",
+   "badge": "brillant"
+  },
+  {
+   "t": 7.7,
+   "coup": "cxd4",
+   "badge": null
+  },
+  {
+   "t": 10.26,
+   "coup": "Re7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 13.6,
+   "coup": "Kb6",
+   "badge": null
+  },
+  {
+   "t": 16.02,
+   "coup": "Qxd4+",
+   "badge": null
+  },
+  {
+   "t": 18.18,
+   "coup": "Kxa5",
+   "badge": null
+  },
+  {
+   "t": 20.76,
+   "coup": "b4+",
+   "badge": "brillant"
+  },
+  {
+   "t": 23.76,
+   "coup": "Ka4",
+   "badge": null
+  },
+  {
+   "t": 25.72,
+   "coup": "Qc3",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 3.36,
+   "duree": 1.0,
+   "texte": "Why?"
+  }
+ ]
+}
