@@ -1,5 +1,5 @@
 {
- "date": "2026-11-10T18:32:33.763259+00:00",
+ "date": "2026-11-10T18:51:09.585143+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,13 +7,22 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "iIJ-V6BVbFE": {
+   "titre": "Take the knight on f6? Think again! ♟️ #chess #shorts",
+   "publiee": "2026-11-10T18:33:01Z",
+   "statut": "public",
+   "duree": "PT38S",
+   "vues": 1,
+   "jaime": 1,
+   "commentaires": 0
+  },
   "THODyuiGGII": {
    "titre": "A pawn race. Only one move wins. ♟️ #chess #shorts",
    "publiee": "2026-11-10T15:29:19Z",
    "statut": "public",
    "duree": "PT31S",
-   "vues": 12,
-   "jaime": 1,
+   "vues": 17,
+   "jaime": 2,
    "commentaires": 2
   },
   "F0mnX9GL2yE": {
@@ -21,7 +30,7 @@
    "publiee": "2026-11-10T14:13:20Z",
    "statut": "public",
    "duree": "PT44S",
-   "vues": 152,
+   "vues": 164,
    "jaime": 2,
    "commentaires": 0
   },
@@ -57,7 +66,7 @@
    "publiee": "2026-11-09T14:45:46Z",
    "statut": "public",
    "duree": "PT42S",
-   "vues": 1233,
+   "vues": 1238,
    "jaime": 24,
    "commentaires": 2
   },
@@ -66,7 +75,7 @@
    "publiee": "2026-11-08T20:24:08Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 1258,
+   "vues": 1262,
    "jaime": 18,
    "commentaires": 1
   },
@@ -75,8 +84,8 @@
    "publiee": "2026-11-08T18:25:38Z",
    "statut": "public",
    "duree": "PT40S",
-   "vues": 1375,
-   "jaime": 21,
+   "vues": 1446,
+   "jaime": 22,
    "commentaires": 1
   },
   "htdC5yK4TWA": {
@@ -84,7 +93,7 @@
    "publiee": "2026-11-08T16:25:15Z",
    "statut": "public",
    "duree": "PT41S",
-   "vues": 7024,
+   "vues": 7052,
    "jaime": 46,
    "commentaires": 9
   },
@@ -93,7 +102,7 @@
    "publiee": "2026-11-08T14:29:30Z",
    "statut": "public",
    "duree": "PT48S",
-   "vues": 1265,
+   "vues": 1285,
    "jaime": 14,
    "commentaires": 2
   },
@@ -102,8 +111,8 @@
    "publiee": "2026-11-07T20:24:14Z",
    "statut": "public",
    "duree": "PT39S",
-   "vues": 4874,
-   "jaime": 42,
+   "vues": 4932,
+   "jaime": 43,
    "commentaires": 6
   },
   "fnKhUc7M1f0": {
@@ -111,7 +120,7 @@
    "publiee": "2026-11-07T18:25:04Z",
    "statut": "public",
    "duree": "PT32S",
-   "vues": 2533,
+   "vues": 2552,
    "jaime": 18,
    "commentaires": 0
   },
@@ -120,7 +129,7 @@
    "publiee": "2026-11-07T16:26:01Z",
    "statut": "public",
    "duree": "PT52S",
-   "vues": 1013,
+   "vues": 1014,
    "jaime": 10,
    "commentaires": 0
   },
@@ -147,7 +156,7 @@
    "publiee": "2026-11-06T18:37:53Z",
    "statut": "public",
    "duree": "PT31S",
-   "vues": 1758,
+   "vues": 1757,
    "jaime": 13,
    "commentaires": 1
   },
@@ -165,7 +174,7 @@
    "publiee": "2026-11-06T14:15:43Z",
    "statut": "public",
    "duree": "PT57S",
-   "vues": 1275,
+   "vues": 1285,
    "jaime": 14,
    "commentaires": 0
   },
@@ -201,7 +210,7 @@
    "publiee": "2026-11-05T14:25:17Z",
    "statut": "public",
    "duree": "PT37S",
-   "vues": 3841,
+   "vues": 3843,
    "jaime": 14,
    "commentaires": 2
   },
@@ -444,7 +453,7 @@
    "publiee": "2026-10-29T10:48:25Z",
    "statut": "public",
    "duree": "PT11S",
-   "vues": 1438,
+   "vues": 1439,
    "jaime": 11,
    "commentaires": 0
   },
