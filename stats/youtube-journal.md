@@ -716,3 +716,6 @@
 {"id": "6aZQBibpg4Q", "url": "https://www.youtube.com/shorts/6aZQBibpg4Q", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "110"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "110"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "110"}
+### 2026-11-11 15:32 publications/youtube/decouverte_g_1.json
+{"id": "6N0DtHpgSoQ", "url": "https://www.youtube.com/shorts/6N0DtHpgSoQ", "statut": "public", "publier_le": null}
