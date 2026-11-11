@@ -719,3 +719,4 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 ### 2026-11-11 07:54 publications/tiktok/trois_pions_d7_1_fr.json
 {"publish_id": "v_inbox_file~v2.7706818738766809111", "mode": "brouillon", "vie_privee": null, "legende": "Quelle prise as-tu choisie en premier ? 👇 Seul 1.cxd7 ! gagne ; 1.dxc7+ ne donne que nulle (Stockfish 16, position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr"}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
