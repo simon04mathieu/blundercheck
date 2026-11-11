@@ -142,3 +142,5 @@ jeton Threads renouvelé (valable 60 jours)
 {"reseau": "threads", "id": "17997730185029234"}
 ### 2026-11-10 21:24 publications/threads/kasparov_topalov_1.json
 {"reseau": "threads", "id": "17984652911908549"}
+### 2026-11-11 09:02 publications/threads/trois_pions_d7_1.json
+{"reseau": "threads", "id": "17877342378637825"}

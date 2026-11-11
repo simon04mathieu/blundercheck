@@ -134,3 +134,5 @@
 {"reseau": "facebook", "id": "2184786225805776", "ok": true}
 ### 2026-11-10 21:24 publications/facebook/kasparov_topalov_1.json
 {"reseau": "facebook", "id": "1939001747084763", "ok": true}
+### 2026-11-11 09:02 publications/facebook/trois_pions_d7_1.json
+{"reseau": "facebook", "id": "2223023515312677", "ok": true}
