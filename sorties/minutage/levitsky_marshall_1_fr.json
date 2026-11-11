@@ -1,0 +1,119 @@
+{
+ "nom": "levitsky_marshall_1_fr",
+ "tempo": 1.0,
+ "duree_s": 36.06,
+ "hook": {
+  "texte": "Fuir ou|la donner ?",
+  "fin": 2.94
+ },
+ "question": {
+  "texte": "Tu aurais sauvé|la dame ?",
+  "t": 32.86
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "La dame noire est attaquée et la tour aussi."
+  },
+  {
+   "t": 2.94,
+   "texte": "La dame s'enfuit-elle ?"
+  },
+  {
+   "t": 7.78,
+   "texte": "Abonne-toi : une histoire d'échecs par jour."
+  },
+  {
+   "t": 10.42,
+   "texte": "Non !"
+  },
+  {
+   "t": 11.04,
+   "texte": "Dame en g3 !"
+  },
+  {
+   "t": 12.22,
+   "texte": "Trois pièces peuvent la prendre."
+  },
+  {
+   "t": 14.74,
+   "texte": "Si le pion h prend le cavalier file en e2  mat !"
+  },
+  {
+   "t": 19.8,
+   "texte": "Si le pion f prend le cavalier en e2 donne échec le roi se met à l'abri et la tour prend en f1 : mat."
+  },
+  {
+   "t": 27.98,
+   "texte": "Si la dame prend le cavalier donne échec le roi s'écarte et le cavalier regagne la dame."
+  },
+  {
+   "t": 34.08,
+   "texte": "Les Blancs ont abandonné."
+  }
+ ],
+ "coups": [
+  {
+   "t": 11.32,
+   "coup": "Qg3",
+   "badge": "brillant"
+  },
+  {
+   "t": 15.9,
+   "coup": "hxg3",
+   "badge": null
+  },
+  {
+   "t": 17.34,
+   "coup": "Ne2#",
+   "badge": "mat"
+  },
+  {
+   "t": 21.1,
+   "coup": "fxg3",
+   "badge": null
+  },
+  {
+   "t": 22.58,
+   "coup": "Ne2+",
+   "badge": null
+  },
+  {
+   "t": 24.36,
+   "coup": "Kh1",
+   "badge": null
+  },
+  {
+   "t": 25.86,
+   "coup": "Rxf1#",
+   "badge": "mat"
+  },
+  {
+   "t": 28.72,
+   "coup": "Qxg3",
+   "badge": null
+  },
+  {
+   "t": 30.02,
+   "coup": "Ne2+",
+   "badge": null
+  },
+  {
+   "t": 31.26,
+   "coup": "Kh1",
+   "badge": null
+  },
+  {
+   "t": 32.6,
+   "coup": "Nxg3+",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 5.76,
+   "duree": 2.0,
+   "texte": "Fuir ?"
+  }
+ ]
+}
