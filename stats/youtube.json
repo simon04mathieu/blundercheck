@@ -1,5 +1,5 @@
 {
- "date": "2026-11-11T10:59:39.838078+00:00",
+ "date": "2026-11-11T11:56:19.321700+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -12,16 +12,16 @@
    "publiee": "2026-11-11T09:59:18Z",
    "statut": "public",
    "duree": "PT30S",
-   "vues": 8,
+   "vues": 120,
    "jaime": 1,
-   "commentaires": 0
+   "commentaires": 1
   },
   "TU8i-s11B3o": {
    "titre": "Kasparov gives a rook. Can you see why? ♟️ #chess #shorts",
    "publiee": "2026-11-10T21:20:10Z",
    "statut": "public",
    "duree": "PT36S",
-   "vues": 875,
+   "vues": 982,
    "jaime": 13,
    "commentaires": 0
   },
@@ -30,7 +30,7 @@
    "publiee": "2026-11-10T18:33:01Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 165,
+   "vues": 138,
    "jaime": 5,
    "commentaires": 0
   },
@@ -39,7 +39,7 @@
    "publiee": "2026-11-10T15:29:19Z",
    "statut": "public",
    "duree": "PT31S",
-   "vues": 970,
+   "vues": 978,
    "jaime": 9,
    "commentaires": 3
   },
@@ -48,8 +48,8 @@
    "publiee": "2026-11-10T14:13:20Z",
    "statut": "public",
    "duree": "PT44S",
-   "vues": 939,
-   "jaime": 11,
+   "vues": 943,
+   "jaime": 12,
    "commentaires": 3
   },
   "0TJ3ypM-qMQ": {
@@ -57,7 +57,7 @@
    "publiee": "2026-11-09T20:40:33Z",
    "statut": "public",
    "duree": "PT46S",
-   "vues": 1005,
+   "vues": 1003,
    "jaime": 10,
    "commentaires": 2
   },
@@ -66,7 +66,7 @@
    "publiee": "2026-11-09T18:40:22Z",
    "statut": "public",
    "duree": "PT48S",
-   "vues": 1352,
+   "vues": 1375,
    "jaime": 15,
    "commentaires": 2
   },
@@ -84,7 +84,7 @@
    "publiee": "2026-11-09T14:45:46Z",
    "statut": "public",
    "duree": "PT42S",
-   "vues": 1607,
+   "vues": 1640,
    "jaime": 28,
    "commentaires": 2
   },
@@ -93,7 +93,7 @@
    "publiee": "2026-11-08T20:24:08Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 1375,
+   "vues": 1381,
    "jaime": 19,
    "commentaires": 1
   },
@@ -102,7 +102,7 @@
    "publiee": "2026-11-08T18:25:38Z",
    "statut": "public",
    "duree": "PT40S",
-   "vues": 1738,
+   "vues": 1740,
    "jaime": 23,
    "commentaires": 1
   },
@@ -111,7 +111,7 @@
    "publiee": "2026-11-08T16:25:15Z",
    "statut": "public",
    "duree": "PT41S",
-   "vues": 7625,
+   "vues": 7622,
    "jaime": 46,
    "commentaires": 9
   },
@@ -120,7 +120,7 @@
    "publiee": "2026-11-08T14:29:30Z",
    "statut": "public",
    "duree": "PT48S",
-   "vues": 1444,
+   "vues": 1454,
    "jaime": 15,
    "commentaires": 2
   },
@@ -129,7 +129,7 @@
    "publiee": "2026-11-07T20:24:14Z",
    "statut": "public",
    "duree": "PT39S",
-   "vues": 5070,
+   "vues": 5064,
    "jaime": 43,
    "commentaires": 6
   },
@@ -237,7 +237,7 @@
    "publiee": "2026-11-04T20:39:55Z",
    "statut": "public",
    "duree": "PT46S",
-   "vues": 13672,
+   "vues": 13673,
    "jaime": 255,
    "commentaires": 12
   },
