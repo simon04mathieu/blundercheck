@@ -1,0 +1,86 @@
+{
+ "nom": "trois_pions_d7_1",
+ "tempo": 1.0,
+ "duree_s": 26.96,
+ "hook": {
+  "texte": "Which capture|wins?",
+  "fin": 1.96
+ },
+ "question": {
+  "texte": "Which capture did|you pick first?",
+  "t": 23.76
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which capture wins?"
+  },
+  {
+   "t": 1.96,
+   "texte": "Three pawns each White to move."
+  },
+  {
+   "t": 7.06,
+   "texte": "Follow for one new puzzle every day."
+  },
+  {
+   "t": 10.16,
+   "texte": "Pawn takes d7!"
+  },
+  {
+   "t": 12.18,
+   "texte": "Now d8 threatens a queen."
+  },
+  {
+   "t": 14.66,
+   "texte": "The black king runs to b7 but White queens anyway."
+  },
+  {
+   "t": 19.02,
+   "texte": "Black takes on d6 and then the white queen takes back."
+  },
+  {
+   "t": 23.36,
+   "texte": "The other capture d takes c7 only draws."
+  }
+ ],
+ "coups": [
+  {
+   "t": 10.82,
+   "coup": "cxd7",
+   "badge": "brillant"
+  },
+  {
+   "t": 15.56,
+   "coup": "Kb7",
+   "badge": null
+  },
+  {
+   "t": 17.56,
+   "coup": "d8=Q",
+   "badge": null
+  },
+  {
+   "t": 19.64,
+   "coup": "cxd6",
+   "badge": null
+  },
+  {
+   "t": 21.66,
+   "coup": "Qxd6",
+   "badge": null
+  },
+  {
+   "t": 25.04,
+   "coup": "dxc7+",
+   "badge": "erreur"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 5.04,
+   "duree": 2.0,
+   "texte": "Think…"
+  }
+ ]
+}
