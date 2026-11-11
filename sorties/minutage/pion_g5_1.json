@@ -1,0 +1,89 @@
+{
+ "nom": "pion_g5_1",
+ "tempo": 1.0,
+ "duree_s": 23.16,
+ "hook": {
+  "texte": "Free pawn?|Careful.",
+  "fin": 5.54
+ },
+ "question": {
+  "texte": "Would you have|taken the pawn?",
+  "t": 19.96
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "A free pawn on g5."
+  },
+  {
+   "t": 2.38,
+   "texte": "Take it?"
+  },
+  {
+   "t": 5.54,
+   "texte": "Follow for one new puzzle every day."
+  },
+  {
+   "t": 8.44,
+   "texte": "No!"
+  },
+  {
+   "t": 9.18,
+   "texte": "Pawn to a7."
+  },
+  {
+   "t": 10.92,
+   "texte": "It queens next move and the black king is too far."
+  },
+  {
+   "t": 14.8,
+   "texte": "Queen on a8!"
+  },
+  {
+   "t": 16.58,
+   "texte": "Taking on g5 lets the king catch the pawn a draw."
+  },
+  {
+   "t": 20.96,
+   "texte": "Free pawn?"
+  },
+  {
+   "t": 22.32,
+   "texte": "Careful."
+  }
+ ],
+ "coups": [
+  {
+   "t": 9.58,
+   "coup": "a7",
+   "badge": "brillant"
+  },
+  {
+   "t": 13.18,
+   "coup": "Ke5",
+   "badge": null
+  },
+  {
+   "t": 15.18,
+   "coup": "a8=Q",
+   "badge": null
+  },
+  {
+   "t": 16.9,
+   "coup": "Nxg5",
+   "badge": "erreur"
+  },
+  {
+   "t": 18.48,
+   "coup": "Kc6",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 3.52,
+   "duree": 2.0,
+   "texte": "Take it?"
+  }
+ ]
+}
