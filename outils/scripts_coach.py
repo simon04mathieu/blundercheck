@@ -1657,3 +1657,34 @@ _S = {
 }
 PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
 QUESTIONS.update({"krause_bxf6_2": "Analyze your own|game, free", "kasparov_topalov_2": "Would you give|the rook?"})
+
+# 11/11 (Producteur) : file du Scénariste du 10/11 ; lignes revérifiées python-chess + Stockfish 16 (prof. 22) ; quelque chose bouge dès la 1re seconde (flèches ou étiquette)
+# E1 papier + T22, E2 ardoise (histoire), E3 corail T25 vers /try (barre Stockfish pas encore dans le rendu : étiquette « WHO WINS? » puis « MATE IN 3 »), E4 émeraude T24-boucle + T22 ; F1 émeraude, F2 bois
+TROIS = "fen:1k6/2pp4/2PP4/4p3/4P3/8/8/2K5_w_-_-_0_1"
+LEVM = "fen:5rk1/pp4pp/4p3/2R3Q1/3n4/2q4r/P1P2PPP/5RK1_b_-_-_1_23"
+LEVQ = "fen:5rk1/pp4pp/4p3/2R3Q1/3n4/6qr/P1P2PPP/5RK1_w_-_-_2_24"
+DECG = "fen:8/7Q/8/8/2R1n1r1/1k6/6n1/6K1_b_-_-_0_1"
+PG5 = "fen:8/7N/P2k4/6pp/8/K7/8/8_w_-_-_0_1"
+_S = {
+"trois_pions_d7_1": ("blancs", "Which capture|wins?",   # composée : 1.cxd7! (SF16 d22 +43) ; 1.dxc7+ 0,00 ; Kc2/Kd1 ≈ −0,25
+"""[p """ + TROIS + """] [f c6d7 d6c7] Which capture wins? [h] Three pawns each, White to move. [q 2 Think…] Follow for one new puzzle every day. Pawn takes [m cxd7 brillant] [z d7 1.3 2.0] d7! Now d8 threatens a queen. [s tag d8 2.0 QUEEN?] The black king runs [m Kb7] to b7, but White queens [m d8=Q] [x impact] anyway. Black takes [m cxd6] on d6, and then the white queen [m Qxd6] [z d6 1.3 2.0] takes back. [s tag d6 2.5 ONLY_1_WINS] [p """ + TROIS + """] The other capture, d takes [m dxc7+ erreur] c7, only draws. [s tag c7 2.5 DRAW]"""),
+"levitsky_marshall_1": ("noirs", "Run, or|give it away?",   # Levitsky – Marshall, Breslau 1912, 0–1 (partie rejouée python-chess) ; 23…Qg3 +5,36 (Qb4/Qa3/Qb2 gagnent aussi : pas « seul coup ») ; hxg3 Ne2# ; fxg3 Ne2+ Kh1 Rxf1# ; Qxg3 Ne2+ Kh1 Nxg3+
+"""[p """ + LEVM + """] [f c5c3 g2h3] Black's queen is attacked, and so is his rook. [h] Does the queen run? [q 2 Run?] Follow for one new story every day. No! Queen to [m Qg3 brillant] [z g3 1.3 2.0] g3! [f h2g3 f2g3 g5g3] Three pieces can take her. If the h pawn [m hxg3] takes, knight to [m Ne2# mat] [x impact] e2 is checkmate! [s tag e2 2.0 MATE] [p """ + LEVQ + """] If the f pawn [m fxg3] takes, knight e2 [m Ne2+] is check again, the king steps [m Kh1] aside, and the rook takes [m Rxf1# mat] on f1: mate. [p """ + LEVQ + """] If the queen [m Qxg3] takes, the knight checks [m Ne2+] from e2, the king steps [m Kh1] away, and the knight takes [m Nxg3+ brillant] [z g3 1.3 2.0] her back. [s tag g3 2.5 0-1] White resigned."""),
+"decouverte_g_1": ("noirs", "Who's|winning?",   # composée : 1…Ne3+! mat en 3 (SF16 d22) ; Nh4+ +0,37, Nf4+ +0,14, Ne1+ 0 ; Blancs au trait : ils gagnent
+"""[p """ + DECG + """] [s tag d5 2.5 WHO_WINS?] White has a queen and a rook. [f c4e4] Black has a rook and two knights. [h] Black to move. Who is winning? [q 3 Think…] Follow for one new puzzle every day. Black! Knight to [m Ne3+ brillant] [z g1 1.3 2.0] e3: [f g4g1] the rook checks from behind! The king steps [m Kh2] to h2. Knight to [m Nf1+] f1, check. The king goes [m Kh3] to h3, and knight to [m Nf2# mat] [x impact] [z f2 1.3 2.0] f2 is checkmate! [s tag h3 2.5 MATE_IN_3] Analyze your own game, free."""),
+"pion_g5_1": ("blancs", "Free pawn?|Careful.",   # composée : 1.a7! (SF16 d22 +34) ; 1.Nxg5 / 1.Kb4 ≈ +0,2 (nulle, 0,00 à d26 d'après le Scénariste) ; T24-boucle
+"""[p """ + PG5 + """] [f h7g5] A free pawn on g5. Take it? [h] [q 2 Take_it?] Follow for one new puzzle every day. No! Pawn to [m a7 brillant] [z a7 1.3 2.0] a7. It queens next move, and the black king [m Ke5] is too far. Queen [m a8=Q] [x impact] [s tag a8 2.0 QUEEN] on a8! [p """ + PG5 + """] Taking [m Nxg5 erreur] on g5 lets the king [m Kc6] catch the pawn: a draw. [s tag a6 2.5 DRAW] [p """ + PG5 + """] Free pawn? Careful."""),
+"trois_pions_d7_1_fr": ("blancs", "Quelle prise|gagne ?",   # jumeau FR de trois_pions_d7_1
+"""[p """ + TROIS + """] [f c6d7 d6c7] Quelle prise gagne ? [h] Trois pions chacun, aux Blancs de jouer. [q 2 Réfléchis…] Abonne-toi : un défi d'échecs par jour. Le pion prend [m cxd7 brillant] [z d7 1.3 2.0] en d7 ! Maintenant, d8 menace de faire une dame. [s tag d8 2.0 DAME?] Le roi noir file [m Kb7] en b7, mais les Blancs font [m d8=Q] [x impact] dame quand même. Les Noirs prennent [m cxd6] en d6, et la dame blanche [m Qxd6] [z d6 1.3 2.0] reprend. [s tag d6 2.5 UNE_SEULE] [p """ + TROIS + """] L'autre prise, d prend [m dxc7+ erreur] c7, ne donne que nulle. [s tag c7 2.5 NULLE]"""),
+"levitsky_marshall_1_fr": ("noirs", "Fuir ou|la donner ?",   # jumeau FR de levitsky_marshall_1
+"""[p """ + LEVM + """] [f c5c3 g2h3] La dame noire est attaquée, et la tour aussi. [h] La dame s'enfuit-elle ? [q 2 Fuir ?] Abonne-toi : une histoire d'échecs par jour. Non ! Dame en [m Qg3 brillant] [z g3 1.3 2.0] g3 ! [f h2g3 f2g3 g5g3] Trois pièces peuvent la prendre. Si le pion h [m hxg3] prend, le cavalier file [m Ne2# mat] [x impact] en e2 : mat ! [s tag e2 2.0 MAT] [p """ + LEVQ + """] Si le pion f [m fxg3] prend, le cavalier en e2 [m Ne2+] donne échec, le roi se met [m Kh1] à l'abri, et la tour prend [m Rxf1# mat] en f1 : mat. [p """ + LEVQ + """] Si la dame [m Qxg3] prend, le cavalier donne [m Ne2+] échec, le roi [m Kh1] s'écarte, et le cavalier [m Nxg3+ brillant] [z g3 1.3 2.0] regagne la dame. [s tag g3 2.5 0-1] Les Blancs ont abandonné."""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
+QUESTIONS.update({
+    "trois_pions_d7_1": "Which capture did|you pick first?",
+    "levitsky_marshall_1": "Would you have|saved the queen?",
+    "decouverte_g_1": "Analyze your own|game, free",
+    "pion_g5_1": "Would you have|taken the pawn?",
+    "trois_pions_d7_1_fr": "Quelle prise as-tu|choisie d'abord ?",
+    "levitsky_marshall_1_fr": "Tu aurais sauvé|la dame ?",
+})
