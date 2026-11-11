@@ -20,11 +20,11 @@
    "texte": "La dame s'enfuit-elle ?"
   },
   {
-   "t": 7.78,
+   "t": 7.72,
    "texte": "Abonne-toi : une histoire d'échecs par jour."
   },
   {
-   "t": 10.42,
+   "t": 10.4,
    "texte": "Non !"
   },
   {
@@ -32,7 +32,7 @@
    "texte": "Dame en g3 !"
   },
   {
-   "t": 12.22,
+   "t": 12.2,
    "texte": "Trois pièces peuvent la prendre."
   },
   {
@@ -40,15 +40,15 @@
    "texte": "Si le pion h prend le cavalier file en e2  mat !"
   },
   {
-   "t": 19.8,
+   "t": 19.74,
    "texte": "Si le pion f prend le cavalier en e2 donne échec le roi se met à l'abri et la tour prend en f1 : mat."
   },
   {
-   "t": 27.98,
+   "t": 28.0,
    "texte": "Si la dame prend le cavalier donne échec le roi s'écarte et le cavalier regagne la dame."
   },
   {
-   "t": 34.08,
+   "t": 34.06,
    "texte": "Les Blancs ont abandonné."
   }
  ],
@@ -64,7 +64,7 @@
    "badge": null
   },
   {
-   "t": 18.23,
+   "t": 17.99,
    "coup": "Ne2#",
    "badge": "mat"
   },
@@ -74,7 +74,7 @@
    "badge": null
   },
   {
-   "t": 22.76,
+   "t": 22.78,
    "coup": "Ne2+",
    "badge": null
   },
@@ -84,17 +84,17 @@
    "badge": null
   },
   {
-   "t": 26.04,
+   "t": 25.86,
    "coup": "Rxf1#",
    "badge": "mat"
   },
   {
-   "t": 28.72,
+   "t": 28.54,
    "coup": "Qxg3",
    "badge": null
   },
   {
-   "t": 30.5,
+   "t": 30.02,
    "coup": "Ne2+",
    "badge": null
   },
@@ -104,14 +104,14 @@
    "badge": null
   },
   {
-   "t": 33.12,
+   "t": 33.1,
    "coup": "Nxg3+",
    "badge": "brillant"
   }
  ],
  "pauses": [
   {
-   "t": 5.76,
+   "t": 5.7,
    "duree": 2.0,
    "texte": "Fuir ?"
   }

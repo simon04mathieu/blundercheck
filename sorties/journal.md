@@ -808,3 +808,6 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/levitsky_marshall_1.mp4 {"voix_brute_s": 33.5, "tempo": 1.0, "video_s": 36.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 81, "minutage": "10 phrases, 11 coups, 1 pauses"}
+### commandes/perso_levitsky_marshall_1_fr.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/levitsky_marshall_1_fr.mp4 {"voix_brute_s": 33.9, "tempo": 1.0, "video_s": 36.7, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 90, "minutage": "10 phrases, 11 coups, 1 pauses"}
