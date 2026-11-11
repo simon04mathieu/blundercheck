@@ -786,3 +786,6 @@
 ### commandes/perso_trois_pions_d7_1.json
     voix générée : 281 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/trois_pions_d7_1.mp4 {"voix_brute_s": 25.0, "tempo": 1.0, "video_s": 29.6, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 53, "minutage": "8 phrases, 6 coups, 1 pauses"}
+### commandes/perso_trois_pions_d7_1_fr.json
+    voix générée : 327 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/trois_pions_d7_1_fr.mp4 {"voix_brute_s": 26.6, "tempo": 1.0, "video_s": 29.3, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 63, "minutage": "8 phrases, 6 coups, 1 pauses"}

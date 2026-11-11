@@ -1,0 +1,86 @@
+{
+ "nom": "trois_pions_d7_1_fr",
+ "tempo": 1.0,
+ "duree_s": 28.66,
+ "hook": {
+  "texte": "Quelle prise|gagne ?",
+  "fin": 1.6
+ },
+ "question": {
+  "texte": "Quelle prise as-tu|choisie d'abord ?",
+  "t": 25.46
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Quelle prise gagne ?"
+  },
+  {
+   "t": 1.6,
+   "texte": "Trois pions chacun aux Blancs de jouer."
+  },
+  {
+   "t": 6.19,
+   "texte": "Abonne-toi : un défi d'échecs par jour."
+  },
+  {
+   "t": 10.32,
+   "texte": "Le pion prend en d7 !"
+  },
+  {
+   "t": 12.92,
+   "texte": "Maintenant, d8 menace de faire une dame."
+  },
+  {
+   "t": 16.26,
+   "texte": "Le roi noir file en b7 mais les Blancs font dame quand même."
+  },
+  {
+   "t": 21.12,
+   "texte": "Les Noirs prennent en d6 et la dame blanche reprend."
+  },
+  {
+   "t": 25.0,
+   "texte": "L'autre prise, d prend c7 ne donne que nulle."
+  }
+ ],
+ "coups": [
+  {
+   "t": 11.52,
+   "coup": "cxd7",
+   "badge": "brillant"
+  },
+  {
+   "t": 17.24,
+   "coup": "Kb7",
+   "badge": null
+  },
+  {
+   "t": 19.38,
+   "coup": "d8=Q",
+   "badge": null
+  },
+  {
+   "t": 22.12,
+   "coup": "cxd6",
+   "badge": null
+  },
+  {
+   "t": 23.84,
+   "coup": "Qxd6",
+   "badge": null
+  },
+  {
+   "t": 26.74,
+   "coup": "dxc7+",
+   "badge": "erreur"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 4.17,
+   "duree": 2.0,
+   "texte": "Réfléchis…"
+  }
+ ]
+}
