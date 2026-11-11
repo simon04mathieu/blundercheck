@@ -769,3 +769,8 @@
 ### commandes/perso_krause_bxf6_2.json
     voix générée : 239 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/krause_bxf6_2.mp4 {"voix_brute_s": 21.2, "tempo": 1.0, "video_s": 22.9, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 46, "minutage": "9 phrases, 5 coups, 1 pauses"}
+## 2026-11-11 00:07 UTC · run 42928758899
+### commandes/perso_decouverte_g_1.json
+    voix générée : 305 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/decouverte_g_1.mp4 {"voix_brute_s": 27.8, "tempo": 1.0, "video_s": 31.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 61, "minutage": "11 phrases, 5 coups, 1 pauses"}

@@ -1,0 +1,93 @@
+{
+ "nom": "decouverte_g_1",
+ "tempo": 1.0,
+ "duree_s": 30.82,
+ "hook": {
+  "texte": "Who's|winning?",
+  "fin": 5.08
+ },
+ "question": {
+  "texte": "Analyze your own|game, free",
+  "t": 27.62
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "White has a queen and a rook."
+  },
+  {
+   "t": 2.42,
+   "texte": "Black has a rook and two knights."
+  },
+  {
+   "t": 5.08,
+   "texte": "Black to move."
+  },
+  {
+   "t": 6.58,
+   "texte": "Who is winning?"
+  },
+  {
+   "t": 11.0,
+   "texte": "Follow for one new puzzle every day."
+  },
+  {
+   "t": 14.02,
+   "texte": "Black!"
+  },
+  {
+   "t": 15.1,
+   "texte": "Knight to e3 the rook checks from behind!"
+  },
+  {
+   "t": 19.32,
+   "texte": "The king steps to h2."
+  },
+  {
+   "t": 21.7,
+   "texte": "Knight to f1 check."
+  },
+  {
+   "t": 24.0,
+   "texte": "The king goes to h3 and knight to f2 is checkmate!"
+  },
+  {
+   "t": 28.74,
+   "texte": "Analyze your own game free."
+  }
+ ],
+ "coups": [
+  {
+   "t": 15.62,
+   "coup": "Ne3+",
+   "badge": "brillant"
+  },
+  {
+   "t": 20.04,
+   "coup": "Kh2",
+   "badge": null
+  },
+  {
+   "t": 22.18,
+   "coup": "Nf1+",
+   "badge": null
+  },
+  {
+   "t": 24.66,
+   "coup": "Kh3",
+   "badge": null
+  },
+  {
+   "t": 26.36,
+   "coup": "Nf2#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 7.98,
+   "duree": 3.0,
+   "texte": "Think…"
+  }
+ ]
+}
