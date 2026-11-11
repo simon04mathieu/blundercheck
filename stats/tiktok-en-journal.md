@@ -585,3 +585,12 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 34, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 34, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 34, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 34, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-11 07:54 publications/tiktok-en/decouverte_g_1.json
+{"publish_id": "v_inbox_file~v2.7706818738766940183", "mode": "brouillon", "vie_privee": null, "legende": "Who's winning, White or Black? 👇 Black to move: 1…Ne3+! mates in 3 (Stockfish 16, composed position). One new puzzle every day. Analyze your own game: blundercheck.app/try #chess #chesspuzzle #checkmate"}
+### 2026-11-11 07:54 publications/tiktok-en/levitsky_marshall_1.json
+{"publish_id": "v_inbox_file~v2.7706818804919109655", "mode": "brouillon", "vie_privee": null, "legende": "Would you have saved the queen? 👇 Levitsky – Marshall, Breslau 1912 (0–1; moves replayed with python-chess, checked with Stockfish 16). One new story every day. #chess #chesshistory #chesstok"}
+### 2026-11-11 07:54 publications/tiktok-en/pion_g5_1.json
+{"publish_id": "v_inbox_file~v2.7706818804919240727", "mode": "brouillon", "vie_privee": null, "legende": "Would you have taken the pawn? 👇 Only 1.a7! wins; 1.Nxg5 is a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
+### 2026-11-11 07:54 publications/tiktok-en/trois_pions_d7_1.json
+{"publish_id": "v_inbox_file~v2.7706818804919306263", "mode": "brouillon", "vie_privee": null, "legende": "Which capture did you pick first? 👇 Only 1.cxd7! wins; 1.dxc7+ is a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
