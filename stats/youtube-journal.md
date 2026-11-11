@@ -727,3 +727,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "110"}
 ### 2026-11-11 18:40 publications/youtube/pion_g5_1.json
 {"id": "p_VKt5BTwD8", "url": "https://www.youtube.com/shorts/p_VKt5BTwD8", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "110"}
