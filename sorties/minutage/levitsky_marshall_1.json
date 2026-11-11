@@ -1,0 +1,119 @@
+{
+ "nom": "levitsky_marshall_1",
+ "tempo": 1.0,
+ "duree_s": 35.46,
+ "hook": {
+  "texte": "Run, or|give it away?",
+  "fin": 3.24
+ },
+ "question": {
+  "texte": "Would you have|saved the queen?",
+  "t": 32.26
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Black's queen is attacked and so is his rook."
+  },
+  {
+   "t": 3.24,
+   "texte": "Does the queen run?"
+  },
+  {
+   "t": 7.42,
+   "texte": "Follow for one new story every day."
+  },
+  {
+   "t": 10.6,
+   "texte": "No!"
+  },
+  {
+   "t": 11.38,
+   "texte": "Queen to g3!"
+  },
+  {
+   "t": 13.14,
+   "texte": "Three pieces can take her."
+  },
+  {
+   "t": 15.5,
+   "texte": "If the h pawn takes knight to e2 is checkmate!"
+  },
+  {
+   "t": 19.6,
+   "texte": "If the f pawn takes knight e2 is check again the king steps aside and the rook takes on f1 mate."
+  },
+  {
+   "t": 27.56,
+   "texte": "If the queen takes the knight checks from e2 the king steps away and the knight takes her back."
+  },
+  {
+   "t": 34.5,
+   "texte": "White resigned."
+  }
+ ],
+ "coups": [
+  {
+   "t": 11.82,
+   "coup": "Qg3",
+   "badge": "brillant"
+  },
+  {
+   "t": 16.42,
+   "coup": "hxg3",
+   "badge": null
+  },
+  {
+   "t": 17.66,
+   "coup": "Ne2#",
+   "badge": "mat"
+  },
+  {
+   "t": 20.52,
+   "coup": "fxg3",
+   "badge": null
+  },
+  {
+   "t": 22.02,
+   "coup": "Ne2+",
+   "badge": null
+  },
+  {
+   "t": 24.02,
+   "coup": "Kh1",
+   "badge": null
+  },
+  {
+   "t": 25.62,
+   "coup": "Rxf1#",
+   "badge": "mat"
+  },
+  {
+   "t": 28.22,
+   "coup": "Qxg3",
+   "badge": null
+  },
+  {
+   "t": 29.56,
+   "coup": "Ne2+",
+   "badge": null
+  },
+  {
+   "t": 31.5,
+   "coup": "Kh1",
+   "badge": null
+  },
+  {
+   "t": 33.04,
+   "coup": "Nxg3+",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 5.4,
+   "duree": 2.0,
+   "texte": "Run?"
+  }
+ ]
+}
