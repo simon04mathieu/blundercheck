@@ -594,3 +594,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"publish_id": "v_inbox_file~v2.7706818804919240727", "mode": "brouillon", "vie_privee": null, "legende": "Would you have taken the pawn? 👇 Only 1.a7! wins; 1.Nxg5 is a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
 ### 2026-11-11 07:54 publications/tiktok-en/trois_pions_d7_1.json
 {"publish_id": "v_inbox_file~v2.7706818804919306263", "mode": "brouillon", "vie_privee": null, "legende": "Which capture did you pick first? 👇 Only 1.cxd7! wins; 1.dxc7+ is a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 35, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
