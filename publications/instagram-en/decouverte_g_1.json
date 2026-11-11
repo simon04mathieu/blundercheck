@@ -1,0 +1,33 @@
+{
+ "legende": "Who's winning, White or Black? 👇 Black to move: 1…Ne3+! mates in 3 (Stockfish 16, composed position). One new puzzle every day.\n\nAnalyze your own game, free: link in bio\n\n#chess #chesspuzzle #checkmate",
+ "envoyer_apres": "2026-11-11T16:00:00+01:00",
+ "fichier": "sorties/decouverte_g_1.mp4",
+ "concept": "decouverte_g",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "test": "T25-whos-winning",
+ "duree": 29.8,
+ "voix": "oui",
+ "variante": "E",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 30,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T25-whos-winning",
+  "variante": "E",
+  "appel_site": "oui",
+  "fin": "follow_avant_reponse",
+  "motif": "echecs_a_la_decouverte_mat_cavalier",
+  "niveau": "1600-2200",
+  "hook": "whos_winning+chrono",
+  "interet": "materiel_trompeur",
+  "rdv": "non",
+  "pieces": 7,
+  "look": "corail",
+  "fx": "tag+fleches+zoom (barre Stockfish pas encore dans le rendu)",
+  "adn": "oui"
+ }
+}

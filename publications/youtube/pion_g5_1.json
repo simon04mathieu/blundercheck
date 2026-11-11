@@ -1,0 +1,40 @@
+{
+ "titre": "A free pawn on g5. Take it? ♟️ #chess #shorts",
+ "description": "Would you have taken the pawn? 👇 Only 1.a7! wins; 1.Nxg5 is a draw (Stockfish 16, composed position). One new puzzle every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=youtube-en\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess endgame",
+  "passed pawn",
+  "chess puzzle"
+ ],
+ "envoyer_apres": "2026-11-11T19:00:00+01:00",
+ "fichier": "sorties/pion_g5_1.mp4",
+ "concept": "pion_g5",
+ "format": "FINALE",
+ "langue": "en",
+ "test": "T24-boucle+T20-épuré+T22",
+ "duree": 23.2,
+ "voix": "oui",
+ "variante": "D",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 23,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T24-boucle+T20-épuré+T22",
+  "variante": "D",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "pousser_plutot_que_prendre",
+  "niveau": "1200-1800",
+  "hook": "fausse_piste+fleche_image1",
+  "interet": "pion_gratuit_piege",
+  "rdv": "non",
+  "pieces": 6,
+  "look": "emeraude",
+  "fx": "fleche+zoom+tag+boucle+fin_carte",
+  "adn": "oui"
+ }
+}

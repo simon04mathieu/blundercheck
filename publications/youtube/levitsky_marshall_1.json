@@ -1,0 +1,40 @@
+{
+ "titre": "His queen is attacked. Does it run? ♟️ #chess #shorts",
+ "description": "Would you have saved the queen? 👇 Levitsky – Marshall, Breslau 1912 (0–1; moves replayed with python-chess, checked with Stockfish 16). One new story every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=youtube-en\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess history",
+  "queen sacrifice",
+  "Marshall"
+ ],
+ "envoyer_apres": "2026-11-11T13:00:00+01:00",
+ "fichier": "sorties/levitsky_marshall_1.mp4",
+ "concept": "levitsky_marshall",
+ "format": "HISTOIRE",
+ "langue": "en",
+ "test": "T19-histoire",
+ "duree": 35.4,
+ "voix": "oui",
+ "variante": "A",
+ "etiquettes": {
+  "format": "HISTOIRE",
+  "categorie": "histoire",
+  "langue": "en",
+  "duree_s": 35,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T19-histoire",
+  "variante": "A",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "dame_offerte_trois_prises",
+  "niveau": "partie célèbre 1700-2500",
+  "hook": "enjeu_visible+fleches_image1",
+  "interet": "livrer_la_dame_mate",
+  "rdv": "non",
+  "pieces": 19,
+  "look": "ardoise",
+  "fx": "fleches+zoom+tag",
+  "adn": "partiel"
+ }
+}

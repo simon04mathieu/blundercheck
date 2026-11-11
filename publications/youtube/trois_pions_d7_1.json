@@ -1,0 +1,40 @@
+{
+ "titre": "Three pawns each. Which capture wins? ♟️ #chess #shorts",
+ "description": "Which capture did you pick first? 👇 Only 1.cxd7! wins; 1.dxc7+ is a draw (Stockfish 16, composed position). One new puzzle every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=youtube-en\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess endgame",
+  "pawn endgame",
+  "chess puzzle"
+ ],
+ "envoyer_apres": "2026-11-11T10:00:00+01:00",
+ "fichier": "sorties/trois_pions_d7_1.mp4",
+ "concept": "trois_pions_d7",
+ "format": "FINALE",
+ "langue": "en",
+ "test": "T20-épuré+T22",
+ "duree": 27.0,
+ "voix": "oui",
+ "variante": "C",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 27,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T20-épuré+T22",
+  "variante": "C",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "percee_la_bonne_prise",
+  "niveau": "1400-2000",
+  "hook": "defi_gros_texte+fleches_image1",
+  "interet": "deux_prises_une_seule_gagne",
+  "rdv": "non",
+  "pieces": 8,
+  "look": "papier",
+  "fx": "fleches+zoom+tag+fin_carte",
+  "adn": "oui"
+ }
+}
