@@ -789,3 +789,8 @@
 ### commandes/perso_trois_pions_d7_1_fr.json
     voix générée : 327 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/trois_pions_d7_1_fr.mp4 {"voix_brute_s": 26.6, "tempo": 1.0, "video_s": 29.3, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 63, "minutage": "8 phrases, 6 coups, 1 pauses"}
+## 2026-11-11 00:17 UTC · run 42930044482
+### commandes/perso_decouverte_g_1.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/decouverte_g_1.mp4 {"voix_brute_s": 27.8, "tempo": 1.0, "video_s": 30.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 61, "minutage": "11 phrases, 5 coups, 1 pauses"}

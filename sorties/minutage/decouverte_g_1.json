@@ -1,14 +1,14 @@
 {
  "nom": "decouverte_g_1",
  "tempo": 1.0,
- "duree_s": 30.82,
+ "duree_s": 29.82,
  "hook": {
   "texte": "Who's|winning?",
   "fin": 5.08
  },
  "question": {
   "texte": "Analyze your own|game, free",
-  "t": 27.62
+  "t": 26.62
  },
  "phrases": [
   {
@@ -28,57 +28,57 @@
    "texte": "Who is winning?"
   },
   {
-   "t": 11.0,
+   "t": 10.0,
    "texte": "Follow for one new puzzle every day."
   },
   {
-   "t": 14.02,
+   "t": 13.02,
    "texte": "Black!"
   },
   {
-   "t": 15.1,
+   "t": 14.1,
    "texte": "Knight to e3 the rook checks from behind!"
   },
   {
-   "t": 19.32,
+   "t": 18.32,
    "texte": "The king steps to h2."
   },
   {
-   "t": 21.7,
+   "t": 20.7,
    "texte": "Knight to f1 check."
   },
   {
-   "t": 24.0,
+   "t": 23.0,
    "texte": "The king goes to h3 and knight to f2 is checkmate!"
   },
   {
-   "t": 28.74,
+   "t": 27.74,
    "texte": "Analyze your own game free."
   }
  ],
  "coups": [
   {
-   "t": 15.62,
+   "t": 14.62,
    "coup": "Ne3+",
    "badge": "brillant"
   },
   {
-   "t": 20.04,
+   "t": 19.04,
    "coup": "Kh2",
    "badge": null
   },
   {
-   "t": 22.18,
+   "t": 21.18,
    "coup": "Nf1+",
    "badge": null
   },
   {
-   "t": 24.66,
+   "t": 23.66,
    "coup": "Kh3",
    "badge": null
   },
   {
-   "t": 26.36,
+   "t": 25.36,
    "coup": "Nf2#",
    "badge": "mat"
   }
@@ -86,7 +86,7 @@
  "pauses": [
   {
    "t": 7.98,
-   "duree": 3.0,
+   "duree": 2.0,
    "texte": "Think…"
   }
  ]
