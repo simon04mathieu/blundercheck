@@ -140,3 +140,5 @@
 {"reseau": "facebook", "id": "1121961137114862", "ok": true}
 ### 2026-11-11 15:35 publications/facebook/decouverte_g_1.json
 {"reseau": "facebook", "id": "4736514369966717", "ok": true}
+### 2026-11-11 18:50 publications/facebook/pion_g5_1.json
+{"reseau": "facebook", "id": "1035702846271186", "ok": true}

@@ -95,3 +95,5 @@
 {"reseau": "instagram", "id": "18116362583332328"}
 ### 2026-11-11 12:01 publications/instagram/trois_pions_d7_1_fr.json
 {"reseau": "instagram", "id": "18114602108144925"}
+### 2026-11-11 18:50 publications/instagram/levitsky_marshall_1_fr.json
+{"reseau": "instagram", "id": "18127239184715072"}
