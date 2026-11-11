@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-10T17:29:18Z",
+ "releve": "2026-11-11T17:38:16Z",
  "compte": "blundercheckapp",
  "abonnes": 6,
  "publications": [
+  {
+   "id": "18114602108144925",
+   "caption": "Quelle prise as-tu choisie en premier ? 👇 Seul 1.cxd7 ! gagne ; 1.dxc7+ ne donne",
+   "comments_count": 0,
+   "like_count": 0,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/Dfmbq36HQE1/",
+   "timestamp": "2026-11-11T12:01:23+0000",
+   "insights": {
+    "views": 212,
+    "reach": 137,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0
+   }
+  },
+  {
+   "id": "18116362583332328",
+   "caption": "Courir ou attendre ? Seul 1.d6 ! gagne, tous les autres coups perdent (Stockfish",
+   "comments_count": 0,
+   "like_count": 1,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfkyNJfjJKb/",
+   "timestamp": "2026-11-10T20:39:49+0000",
+   "insights": {
+    "views": 202,
+    "reach": 166,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1
+   }
+  },
   {
    "id": "18020833358959601",
    "caption": "Tu aurais sacrifié le pion ? 👇 Seul 1.e6 ! gagne ; 1.d6 ? ne donne que nulle (St",
@@ -12,8 +44,8 @@
    "permalink": "https://www.instagram.com/reel/DfkXfcegtfu/",
    "timestamp": "2026-11-10T16:46:19+0000",
    "insights": {
-    "views": 162,
-    "reach": 47,
+    "views": 188,
+    "reach": 142,
     "shares": 0,
     "saved": 0,
     "total_interactions": 2
@@ -44,8 +76,8 @@
    "permalink": "https://www.instagram.com/reel/DfhuiH-EfrL/",
    "timestamp": "2026-11-09T16:10:13+0000",
    "insights": {
-    "views": 2118,
-    "reach": 1661,
+    "views": 2149,
+    "reach": 1687,
     "shares": 0,
     "saved": 2,
     "total_interactions": 24
@@ -92,8 +124,8 @@
    "permalink": "https://www.instagram.com/reel/DfdCxVggAM9/",
    "timestamp": "2026-11-07T20:30:38+0000",
    "insights": {
-    "views": 196,
-    "reach": 135,
+    "views": 197,
+    "reach": 136,
     "shares": 0,
     "saved": 0,
     "total_interactions": 2
@@ -449,38 +481,6 @@
     "shares": 0,
     "saved": 1,
     "total_interactions": 4
-   }
-  },
-  {
-   "id": "18132003781748639",
-   "caption": "Une tour clouée peut-elle faire mat ? Légal ou pas ? Oui ou non 👇\n\n#echecs #ches",
-   "comments_count": 0,
-   "like_count": 0,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/De9rceyDAr9/",
-   "timestamp": "2026-10-26T16:10:39+0000",
-   "insights": {
-    "views": 149,
-    "reach": 130,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 0
-   }
-  },
-  {
-   "id": "18130042423887659",
-   "caption": "Le pigeon du jour #7 🐦 S'il sort ce fou, ta dame menace le mat. Tu serais tombé ",
-   "comments_count": 0,
-   "like_count": 16,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/De9k27KAfL8/",
-   "timestamp": "2026-10-26T15:12:42+0000",
-   "insights": {
-    "views": 1813,
-    "reach": 1384,
-    "shares": 1,
-    "saved": 0,
-    "total_interactions": 17
    }
   }
  ],

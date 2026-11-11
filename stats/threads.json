@@ -1,8 +1,83 @@
 {
- "releve": "2026-11-10T17:30:24Z",
+ "releve": "2026-11-11T17:40:16Z",
  "compte": "blundercheckapp",
  "abonnes": 0,
  "publications": [
+  {
+   "id": "18102026003431398",
+   "text": "Who's winning, White or Black? 👇 Black to move: 1…Ne3+! mates in 3 (Stockfish 16",
+   "timestamp": "2026-11-11T15:35:34+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfm0L9xPFyE",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 0,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18109845836250587",
+   "text": "Would you have saved the queen? 👇 Levitsky – Marshall, Breslau 1912 (0–1; moves ",
+   "timestamp": "2026-11-11T12:02:09+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfmbxEnvbEr",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 0,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "17877342378637825",
+   "text": "Which capture did you pick first? 👇 Only 1.cxd7! wins; 1.dxc7+ is a draw (Stockf",
+   "timestamp": "2026-11-11T09:02:53+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfmHP5WObu6",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 1,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "17984652911908549",
+   "text": "Would you have sacrificed the rook? 👇 Kasparov – Topalov, Wijk aan Zee 1999 (1–0",
+   "timestamp": "2026-11-10T21:24:53+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfk3XrgRm_E",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 0,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "17997730185029234",
+   "text": "Would you have taken on f6? 👇 A trap from the Lichess puzzle set (rated ≈ 1385):",
+   "timestamp": "2026-11-10T18:43:40+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfkk6ypRBjp",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 9,
+    "likes": 1,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
   {
    "id": "18091341089276719",
    "text": "Race or wait? Only 1.d6! wins; every other move loses (Stockfish 16, composed po",
@@ -10,7 +85,7 @@
    "permalink": "https://www.threads.com/@blundercheckapp/post/DfkPDLFg9wu",
    "media_type": "VIDEO",
    "insights": {
-    "views": 0,
+    "views": 1,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -25,7 +100,7 @@
    "permalink": "https://www.threads.com/@blundercheckapp/post/DfkG2Pjuk6w",
    "media_type": "VIDEO",
    "insights": {
-    "views": 0,
+    "views": 2,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -40,7 +115,7 @@
    "permalink": "https://www.threads.com/@blundercheckapp/post/DfiJDp3BcAG",
    "media_type": "VIDEO",
    "insights": {
-    "views": 3,
+    "views": 5,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -371,81 +446,6 @@
    "media_type": "VIDEO",
    "insights": {
     "views": 3,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18110575912898394",
-   "text": "Would you kick this knight? 😈 One natural pawn move, and the queen is gone. Woul",
-   "timestamp": "2026-11-04T14:25:34+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfUqlysiQXF",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 0,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18076525748474864",
-   "text": "Don't make a queen! 🤯 Would you have made a queen? 👇 Study by Saavedra, 1895. On",
-   "timestamp": "2026-11-03T20:42:59+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfSxAoduVpV",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 3,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18637770355008564",
-   "text": "White played a quiet move. What's the threat? 😈 Would you have seen the queen ch",
-   "timestamp": "2026-11-03T18:45:31+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfSjkL3JDj3",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 1,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18175735258397389",
-   "text": "You touched your king. Can you still mate? 🤔 Would you have moved the king? 👇 Ru",
-   "timestamp": "2026-11-03T16:49:40+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfSWTzio-mS",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 3,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18456070312124024",
-   "text": "The shortest game ever… or a myth? 😈 Would you have pushed that pawn? 👇 Legend: ",
-   "timestamp": "2026-11-03T14:22:47+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfSFgGlgM_Y",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 5,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
