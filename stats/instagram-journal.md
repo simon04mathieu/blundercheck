@@ -93,3 +93,5 @@
 {"reseau": "instagram", "id": "18020833358959601"}
 ### 2026-11-10 20:39 publications/instagram/course_d6_1_fr.json
 {"reseau": "instagram", "id": "18116362583332328"}
+### 2026-11-11 12:01 publications/instagram/trois_pions_d7_1_fr.json
+{"reseau": "instagram", "id": "18114602108144925"}

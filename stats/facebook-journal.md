@@ -136,3 +136,5 @@
 {"reseau": "facebook", "id": "1939001747084763", "ok": true}
 ### 2026-11-11 09:02 publications/facebook/trois_pions_d7_1.json
 {"reseau": "facebook", "id": "2223023515312677", "ok": true}
+### 2026-11-11 12:01 publications/facebook/levitsky_marshall_1.json
+{"reseau": "facebook", "id": "1121961137114862", "ok": true}
