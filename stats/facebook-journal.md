@@ -138,3 +138,5 @@
 {"reseau": "facebook", "id": "2223023515312677", "ok": true}
 ### 2026-11-11 12:01 publications/facebook/levitsky_marshall_1.json
 {"reseau": "facebook", "id": "1121961137114862", "ok": true}
+### 2026-11-11 15:35 publications/facebook/decouverte_g_1.json
+{"reseau": "facebook", "id": "4736514369966717", "ok": true}
