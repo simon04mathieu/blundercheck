@@ -1,32 +1,32 @@
 # Résumé des chiffres
 
-Généré le 2026-11-10 21:28 (Zurich) par GitHub Actions, commit 4064716.
+Généré le 2026-11-11 20:43 (Zurich) par GitHub Actions, commit 60101ed.
 
 Vues sur 24 h (relevés stats/, différence avec le relevé d'il y a ≥ 24 h)
 
 | Réseau | Vues | Abonnés (variation) | Vidéos suivies |
 |---|---|---|---|
-| youtube | +11028 | 106 (+10) | 90 |
-| tiktok-en | +7147 | 34 (+1) | 60 |
-| tiktok | +2636 | 18 (+0) | 49 |
-| instagram | +2048 | 6 (+5) | 30 |
-| facebook | +1 | 0 (+0) | 30 |
-| threads | +7 | 0 (+0) | 30 |
+| youtube | +9268 | 110 (+4) | 95 |
+| tiktok-en | +5554 | 35 (+2) | 63 |
+| tiktok | +2442 | 18 (+0) | 51 |
+| instagram | +472 | 6 (+0) | 30 |
+| facebook | +0 | 0 (+0) | 30 |
+| threads | +15 | 0 (+0) | 30 |
 
-Total : +22867 vues.
+Total : +17751 vues.
 
 Meilleures vidéos (vues gagnées) :
-- +5286 · youtube · His queen is attacked. Does White run? ♟️ #chess #shorts
-- +1591 · instagram · Deux cavaliers ne font pas mat… sauf si les Noirs ont un pio
-- +1337 · tiktok-en · #BlunderCheck 
-- +1300 · tiktok-en · #BlunderCheck 
-- +1085 · tiktok · #BlunderCheck 
+- +2607 · tiktok-en · #BlunderCheck 
+- +1177 · youtube · Three pawns each. Which capture wins? ♟️ #chess #shorts
+- +1142 · tiktok-en · #BlunderCheck 
+- +1108 · youtube · His queen is attacked. Does White run? ♟️ #chess #shorts
+- +1076 · tiktok · #BlunderCheck 
 
-Par catégorie (YouTube EN, 7 derniers jours, vues à 48 h ; moyenne 3923, médiane 1837 sur 21 vidéos ; règle 17 = moyenne) :
+Par catégorie (YouTube EN, 7 derniers jours, vues à 48 h ; moyenne 3956, médiane 1675 sur 20 vidéos ; règle 17 = moyenne) :
 | Catégorie | Vidéos | Moyenne à 48 h | % de la moyenne | Jeunes (< 48 h, vues actuelles) |
 |---|---|---|---|---|
-| finale | 6 | 7618 | 194 % | 171, 953, 1239 |
-| histoire | 5 | 3030 | 77 % | 906 |
-| strategie | 1 | 3003 | 77 % | 18 |
-| tactique | 4 | 2543 | 65 % | – |
-| piege | 5 | 1669 | 43 % ⚠ < 50 % | 4, 1051 |
+| finale | 5 | 8727 | 221 % | 22, 1177, 970, 1018 |
+| strategie | 1 | 3003 | 76 % | 994 |
+| histoire | 6 | 2699 | 68 % | 796, 1004 |
+| tactique | 4 | 2543 | 64 % | 565 |
+| piege | 4 | 1529 | 39 % ⚠ < 50 % | 334 |
