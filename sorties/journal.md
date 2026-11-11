@@ -803,3 +803,8 @@
 ### commandes/perso_trois_pions_d7_1.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/trois_pions_d7_1.mp4 {"voix_brute_s": 25.0, "tempo": 1.0, "video_s": 29.6, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 53, "minutage": "8 phrases, 6 coups, 1 pauses"}
+## 2026-11-11 00:24 UTC · run 42930897526
+### commandes/perso_levitsky_marshall_1.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/levitsky_marshall_1.mp4 {"voix_brute_s": 33.5, "tempo": 1.0, "video_s": 36.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 81, "minutage": "10 phrases, 11 coups, 1 pauses"}

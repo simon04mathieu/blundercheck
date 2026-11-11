@@ -1,14 +1,14 @@
 {
  "nom": "levitsky_marshall_1",
  "tempo": 1.0,
- "duree_s": 35.46,
+ "duree_s": 35.4,
  "hook": {
   "texte": "Run, or|give it away?",
   "fin": 3.24
  },
  "question": {
   "texte": "Would you have|saved the queen?",
-  "t": 32.26
+  "t": 32.2
  },
  "phrases": [
   {
@@ -20,7 +20,7 @@
    "texte": "Does the queen run?"
   },
   {
-   "t": 7.42,
+   "t": 7.4,
    "texte": "Follow for one new story every day."
   },
   {
@@ -44,11 +44,11 @@
    "texte": "If the f pawn takes knight e2 is check again the king steps aside and the rook takes on f1 mate."
   },
   {
-   "t": 27.56,
+   "t": 27.54,
    "texte": "If the queen takes the knight checks from e2 the king steps away and the knight takes her back."
   },
   {
-   "t": 34.5,
+   "t": 34.3,
    "texte": "White resigned."
   }
  ],
@@ -79,7 +79,7 @@
    "badge": null
   },
   {
-   "t": 24.88,
+   "t": 24.0,
    "coup": "Kh1",
    "badge": null
   },
@@ -89,12 +89,12 @@
    "badge": "mat"
   },
   {
-   "t": 28.22,
+   "t": 28.0,
    "coup": "Qxg3",
    "badge": null
   },
   {
-   "t": 29.56,
+   "t": 29.8,
    "coup": "Ne2+",
    "badge": null
   },
@@ -111,7 +111,7 @@
  ],
  "pauses": [
   {
-   "t": 5.4,
+   "t": 5.38,
    "duree": 2.0,
    "texte": "Run?"
   }
