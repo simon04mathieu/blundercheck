@@ -709,3 +709,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "108"}
 ### 2026-11-11 09:58 publications/youtube/trois_pions_d7_1.json
 {"id": "4ua7iU-LrXM", "url": "https://www.youtube.com/shorts/4ua7iU-LrXM", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "108"}
