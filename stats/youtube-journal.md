@@ -714,3 +714,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "109"}
 ### 2026-11-11 13:06 publications/youtube/levitsky_marshall_1.json
 {"id": "6aZQBibpg4Q", "url": "https://www.youtube.com/shorts/6aZQBibpg4Q", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "110"}
