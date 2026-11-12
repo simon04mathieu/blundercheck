@@ -620,3 +620,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"publish_id": "v_inbox_file~v2.7707189845495629846", "mode": "brouillon", "vie_privee": null, "legende": "Would you have saved the pawn? 👇 Only 1.d5! wins; 1.Ke4 Kxc6 is a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
 ### 2026-11-12 07:54 publications/tiktok-en/torre_lasker_1.json
 {"publish_id": "v_inbox_file~v2.7707189893084678166", "mode": "brouillon", "vie_privee": null, "legende": "Would you have left the queen hanging? 👇 Torre – Lasker, Moscow 1925 (1–0; moves from a published scoresheet, replayed with python-chess, checked with Stockfish 16). One new story every day. #chess #chesshistory #chesstactics"}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 36, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
