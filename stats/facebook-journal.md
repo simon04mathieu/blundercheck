@@ -142,3 +142,5 @@
 {"reseau": "facebook", "id": "4736514369966717", "ok": true}
 ### 2026-11-11 18:50 publications/facebook/pion_g5_1.json
 {"reseau": "facebook", "id": "1035702846271186", "ok": true}
+### 2026-11-12 09:08 publications/facebook/mur_trois_pions_1.json
+{"reseau": "facebook", "id": "4615029632075552", "ok": true}
