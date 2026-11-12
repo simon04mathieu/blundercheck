@@ -1,32 +1,33 @@
 # Résumé des chiffres
 
-Généré le 2026-11-11 22:13 (Zurich) par GitHub Actions, commit be3756f.
+Généré le 2026-11-12 20:39 (Zurich) par GitHub Actions, commit bc9d9ac.
 
 Vues sur 24 h (relevés stats/, différence avec le relevé d'il y a ≥ 24 h)
 
 | Réseau | Vues | Abonnés (variation) | Vidéos suivies |
 |---|---|---|---|
-| youtube | +9908 | 110 (+3) | 95 |
-| tiktok-en | +5011 | 35 (+1) | 63 |
-| tiktok | +2293 | 18 (+0) | 51 |
-| instagram | +472 | 6 (+0) | 30 |
+| youtube | +10150 | 114 (+4) | 99 |
+| tiktok-en | +7422 | 36 (+1) | 68 |
+| tiktok | +2165 | 18 (+0) | 52 |
+| instagram | +417 | 6 (+0) | 30 |
 | facebook | +0 | 0 (+0) | 30 |
-| threads | +15 | 0 (+0) | 30 |
+| threads | +10 | 0 (+0) | 30 |
 
-Total : +17699 vues.
+Total : +20164 vues.
 
 Meilleures vidéos (vues gagnées) :
-- +2607 · tiktok-en · #BlunderCheck 
-- +1233 · youtube · Three pawns each. Which capture wins? ♟️ #chess #shorts
-- +1160 · youtube · His queen is attacked. Does White run? ♟️ #chess #shorts
-- +1142 · tiktok-en · #BlunderCheck 
-- +1076 · tiktok · #BlunderCheck 
+- +1817 · tiktok-en · #BlunderCheck 
+- +1683 · tiktok-en · #BlunderCheck #game #trap 
+- +1420 · youtube · His queen is attacked. Does White run? ♟️ #chess #shorts
+- +1341 · youtube · White leaves his queen hanging. Why? ♟️ #chess #shorts
+- +1232 · youtube · Three white pawns, two black. Take c7 or e7? ♟️ #chess #shorts
 
-Par catégorie (YouTube EN, 7 derniers jours, vues à 48 h ; moyenne 3484, médiane 1675 sur 20 vidéos ; règle 17 = moyenne) :
+Par catégorie (YouTube EN, 7 derniers jours, vues à 48 h ; moyenne 3365, médiane 1471 sur 20 vidéos ; règle 17 = moyenne) :
 | Catégorie | Vidéos | Moyenne à 48 h | % de la moyenne | Jeunes (< 48 h, vues actuelles) |
 |---|---|---|---|---|
-| finale | 6 | 7442 | 214 % | 36, 1233, 971 |
-| strategie | 1 | 3003 | 86 % | 998 |
-| tactique | 4 | 2543 | 73 % | 711 |
-| piege | 4 | 1533 | 44 % ⚠ < 50 % | 354 |
-| histoire | 5 | 1144 | 33 % ⚠ < 50 % | 1019, 1009 |
+| finale | 6 | 7182 | 213 % | 3, 1232, 1129, 1928 |
+| tactique | 3 | 2956 | 88 % | 1449 |
+| strategie | 2 | 2018 | 60 % | – |
+| piege | 4 | 1397 | 42 % ⚠ < 50 % | – |
+| histoire | 5 | 1144 | 34 % ⚠ < 50 % | 1341, 1639, 1052 |
+| ? | 0 | 0 | 0 % | 427 |
