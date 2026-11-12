@@ -148,3 +148,5 @@
 {"reseau": "facebook", "id": "1891865491803096", "ok": true}
 ### 2026-11-12 15:02 publications/facebook/pat_10_coups_1.json
 {"reseau": "facebook", "id": "2966160240409346", "ok": true}
+### 2026-11-12 18:48 publications/facebook/pion_d5_c6_1.json
+{"reseau": "facebook", "id": "1455894109859783", "ok": true}
