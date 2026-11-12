@@ -750,3 +750,4 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 ### 2026-11-12 09:34 publications/tiktok/torre_lasker_1_fr.json
 {"publish_id": "v_inbox_file~v2.7707215912385923094", "mode": "brouillon", "vie_privee": null, "legende": "Tu aurais laissé la dame ? 👇 Torre – Lasker, Moscou 1925 (1–0 ; coups rejoués avec python-chess, vérifiés Stockfish 16). Une histoire d'échecs par jour. #echecs #chess #echecsfr"}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
