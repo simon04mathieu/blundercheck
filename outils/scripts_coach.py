@@ -1688,3 +1688,34 @@ QUESTIONS.update({
     "trois_pions_d7_1_fr": "Quelle prise as-tu|choisie d'abord ?",
     "levitsky_marshall_1_fr": "Tu aurais sauvé|la dame ?",
 })
+
+# 12/11 (Producteur) : file du Scénariste du 11/11 ; lignes revérifiées python-chess + Stockfish 16 (d20) ; ça bouge dès l'image 1 (flèches ou étiquette), question en 1re phrase
+# E1 mono + T22, E2 ardoise (histoire), E3 émeraude T26 vers /try, E4 corail + T22 ; F1 papier, F2 bois
+MUR = "fen:4k3/2p1p3/2PPP3/8/8/8/8/5K2_w_-_-_0_1"
+TORRE = "fen:r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1_w_-_-_4_25"
+PAT = "fen:5bnr/4p1pq/4Qpkr/7p/7P/4P3/PPPP1PP1/RNB1KBNR_b_KQ_-_2_10"
+DEPART = "fen:rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR_w_KQkq_-_0_1"
+D5C6 = "fen:8/2p5/1kP5/1p6/1P1P4/4K3/8/8_w_-_-_0_1"
+_S = {
+"mur_trois_pions_1": ("blancs", "c7 or e7?",   # composée : 1.dxc7! mat en 9 (SF16 d20) ; 1.d7+ 0,00 ; 1.dxe7 −0,03 ; après dxc7 seul Kf8 est légal
+"""[p """ + MUR + """] [f d6c7 d6e7] Take c7, or take e7? [h] Three white pawns against two, White to move. [q 2 Think…] Follow for one new puzzle every day. Pawn takes [m dxc7 brillant] [z c7 1.3 2.0] c7! The black king has one move only: [m Kf8] f8. Then the pawn [m c8=Q+] [x impact] queens, with check. The king runs [m Kg7] to g7, and another pawn [m c7] steps up, ready to queen. [s tag c7 2.5 ONLY_1_WINS] [p """ + MUR + """] Taking on [m dxe7 erreur] [z e7 1.3 2.0] e7 only draws. [s tag e7 2.5 DRAW]"""),
+"torre_lasker_1": ("blancs", "One move|wins. Which?",   # Torre – Lasker, Moscou 1925, 1–0 (partie rejouée python-chess) ; 25.Bf6 +5,04 seul coup gagnant (a4 −0,05, Rc1 −0,64) ; après 32.Rxh5 +5,03
+"""[p """ + TORRE + """] [f b5g5 g5h5] Two queens, and a bishop in between. [h] White to move: what does he play? [q 2 Think…] Follow for one new story every day. Bishop to [m Bf6 brillant] [z f6 1.3 2.0] f6! Black takes [m Qxh5] the queen, and the rook starts a windmill. Rook takes [m Rxg7+] g7, check. The king goes [m Kh8] to h8, and the rook takes [m Rxf7+] f7: [f f6h8] the bishop gives check. The king [m Kg8] steps back, and the rook [m Rg7+] checks again. The king [m Kh8] returns, and the rook takes [m Rxb7+] [z b7 1.3 2.0] the bishop on b7! Back [m Kg8] to g8, check [m Rg7+] on g7, the king [m Kh8] returns, and check [m Rg5+] from g5. The king [m Kh7] runs, and the rook [m Rxh5] [x ding] [z h5 1.3 2.0] takes the queen back! [s tag h5 2.5 1-0] Torre against Lasker, Moscow, 1925."""),
+"pat_10_coups_1": ("blancs", "Checkmate?",   # problème de Sam Loyd (1882) : pat en 10 coups, plus court connu ; rejoué python-chess, is_stalemate() vrai, pas d'échec
+"""[p """ + PAT + """] [s tag g6 2.5 CHECKMATE?] Black to move. Is it checkmate? [h] [q 2 Think…] Follow for one new puzzle every day. No! It's [s tag g6 2.5 STALEMATE] [x ding] stalemate: Black can't move, but there is no check. How fast can that happen? Just ten moves! [p """ + DEPART + """] White [m e3] pushes a pawn, Black [m a5] too. The queen [m Qh5] comes out, a rook [m Ra6] lifts, and the queen [m Qxa5] eats one. Pawn [m h5] h5, pawn [m h4] h4, the rook [m Rah6] slides over, and the queen [m Qxc7] eats two. Pawn [m f6] f6, and [m Qxd7+] three, check! The king [m Kf7] steps up, and [m Qxb7] four! Black's queen [m Qd3] jumps out, and [m Qxb8] five! The queen [m Qh7] hides, [m Qxc8] six! The king [m Kg6] walks in, and queen [m Qe6] [x impact] [z e6 1.3 2.0] e6. [s tag g6 2.5 10_MOVES] The shortest known stalemate. Analyze your own game, free."""),
+"pion_d5_c6_1": ("blancs", "Save the|pawn!",   # composée : 1.d5! mat en 15 (SF16 d20) ; 1.Kf4 +0,06 / 1.Ke4 +0,05 (nulle après Kxc6) ; après d5 seuls Ka7/Ka6 légaux
+"""[p """ + D5C6 + """] [f b6c6] The black king attacks the pawn on c6. [h] Can White save it, and win? [q 2 Think…] Follow for one new puzzle every day. Pawn to [m d5 brillant] [z d5 1.3 2.0] d5! Now c6 is protected, [s tag c6 2.0 SAVED] and the black king [m Ka7] is stuck. The white king walks [m Kd4] to d4. Black [m Ka8] waits. [m Ke4] e4, and Black [m Kb8] waits. [m Kf5] f5, and [m Ka7] again. [m Ke6] e6, and [m Ka8] again. [m Kd7] d7, and [m Kb8] again. [m Kd8] d8, [m Ka8] and the king takes [m Kxc7] [x ding] [z c7 1.3 2.0] c7! [s tag c8 2.5 ONLY_1_WINS] Defending with the king only draws."""),
+"pion_d5_c6_1_fr": ("blancs", "Sauve le|pion !",   # jumeau FR de pion_d5_c6_1
+"""[p """ + D5C6 + """] [f b6c6] Le roi noir attaque le pion c6. [h] Les Blancs peuvent-ils le sauver, et gagner ? [q 2 Réfléchis…] Abonne-toi : un défi d'échecs par jour. Pion en [m d5 brillant] [z d5 1.3 2.0] d5 ! Maintenant c6 est protégé, [s tag c6 2.0 SAUVÉ] et le roi noir [m Ka7] est bloqué. Le roi blanc marche [m Kd4] en d4. Les Noirs [m Ka8] attendent. [m Ke4] e4, et les Noirs [m Kb8] attendent. [m Kf5] f5, et [m Ka7] encore. [m Ke6] e6, et [m Ka8] encore. [m Kd7] d7, et [m Kb8] encore. [m Kd8] d8, [m Ka8] et le roi prend [m Kxc7] [x ding] [z c7 1.3 2.0] c7 ! [s tag c8 2.5 SEUL_COUP] Défendre avec le roi ne fait que nulle."""),
+"torre_lasker_1_fr": ("blancs", "Un seul coup|gagne. Lequel ?",   # jumeau FR de torre_lasker_1
+"""[p """ + TORRE + """] [f b5g5 g5h5] Deux dames, et un fou au milieu. [h] Aux Blancs de jouer : que jouent-ils ? [q 2 Réfléchis…] Abonne-toi : une histoire d'échecs par jour. Le fou file en [m Bf6 brillant] [z f6 1.3 2.0] f6 ! Les Noirs prennent [m Qxh5] la dame, et la tour lance un moulin. La tour prend [m Rxg7+] g7, échec. Le roi va [m Kh8] en h8, et la tour prend [m Rxf7+] f7 : [f f6h8] le fou donne échec. Le roi [m Kg8] recule, et la tour [m Rg7+] redonne échec. Le roi [m Kh8] revient, et la tour prend [m Rxb7+] [z b7 1.3 2.0] le fou en b7 ! Retour [m Kg8] en g8, échec [m Rg7+] en g7, le roi [m Kh8] revient, et échec [m Rg5+] depuis g5. Le roi [m Kh7] s'enfuit, et la tour [m Rxh5] [x ding] [z h5 1.3 2.0] regagne la dame ! [s tag h5 2.5 1-0] Torre contre Lasker, Moscou, 1925."""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
+QUESTIONS.update({
+    "mur_trois_pions_1": "c7 or e7: which|did you pick?",
+    "torre_lasker_1": "Would you have left|the queen hanging?",
+    "pat_10_coups_1": "Analyze your own|game, free",
+    "pion_d5_c6_1": "Would you have|saved the pawn?",
+    "pion_d5_c6_1_fr": "Tu aurais sauvé|le pion ?",
+    "torre_lasker_1_fr": "Tu aurais laissé|la dame ?",
+})
