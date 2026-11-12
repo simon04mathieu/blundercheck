@@ -762,3 +762,4 @@
 ### 2026-11-12 18:39 publications/youtube/pion_d5_c6_1.json
 {"id": "dtccySA-8Jc", "url": "https://www.youtube.com/shorts/dtccySA-8Jc", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "114"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "114"}
