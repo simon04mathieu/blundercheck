@@ -1,0 +1,33 @@
+{
+ "legende": "Would you have saved the pawn? 👇 Only 1.d5! wins; 1.Ke4 Kxc6 is a draw (Stockfish 16, composed position). One new puzzle every day.\n\nAnalyze your own game, free: link in bio\n\n#chess #chessendgame #chesspuzzle",
+ "envoyer_apres": "2026-11-12T19:00:00+01:00",
+ "fichier": "sorties/pion_d5_c6_1.mp4",
+ "concept": "pion_d5_c6",
+ "format": "FINALE",
+ "langue": "en",
+ "test": "T20-épuré+T22",
+ "duree": 35.4,
+ "voix": "oui",
+ "variante": "C",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 35,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T20-épuré+T22",
+  "variante": "C",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "pion_protege_pion_roi_traverse",
+  "niveau": "1400-1900",
+  "hook": "interpellation+fleche_image1+chrono",
+  "interet": "coup_de_pion_au_lieu_du_roi",
+  "rdv": "non",
+  "pieces": 7,
+  "look": "corail",
+  "fx": "fleche+zoom+tag+fin_carte",
+  "adn": "oui"
+ }
+}

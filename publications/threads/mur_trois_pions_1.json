@@ -1,0 +1,33 @@
+{
+ "legende": "c7 or e7? 👇 Only 1.dxc7! wins; 1.dxe7 and 1.d7+ are draws (Stockfish 16, composed position). One new puzzle every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=threads-en\n\n#chess #chessendgame #chesspuzzle",
+ "envoyer_apres": "2026-11-12T10:00:00+01:00",
+ "fichier": "sorties/mur_trois_pions_1.mp4",
+ "concept": "mur_trois_pions",
+ "format": "FINALE",
+ "langue": "en",
+ "test": "T20-épuré+T22",
+ "duree": 27.0,
+ "voix": "oui",
+ "variante": "B",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 27,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T20-épuré+T22",
+  "variante": "B",
+  "appel_site": "non",
+  "fin": "follow_avant_reponse",
+  "motif": "la_prise_qui_enferme_le_roi",
+  "niveau": "1400-2000",
+  "hook": "defi_gros_texte+fleches_image1+chrono",
+  "interet": "deux_prises_une_seule_gagne",
+  "rdv": "non",
+  "pieces": 7,
+  "look": "mono",
+  "fx": "fleches+zoom+tag+fin_carte",
+  "adn": "oui"
+ }
+}

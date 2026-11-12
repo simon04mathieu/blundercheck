@@ -1,0 +1,33 @@
+{
+ "legende": "Checkmate or stalemate? 👇 Shortest known stalemate: 10 moves (Sam Loyd's 1882 puzzle; moves replayed with python-chess). One new puzzle every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=threads-en\n\n#chess #chesspuzzle #chessfacts",
+ "envoyer_apres": "2026-11-12T16:00:00+01:00",
+ "fichier": "sorties/pat_10_coups_1.mp4",
+ "concept": "pat_10_coups",
+ "format": "RECORD",
+ "langue": "en",
+ "test": "T26-record",
+ "duree": 45.1,
+ "voix": "oui",
+ "variante": "D",
+ "etiquettes": {
+  "format": "RECORD",
+  "categorie": "record",
+  "langue": "en",
+  "duree_s": 45,
+  "musique": "aucune",
+  "voix": "oui",
+  "test": "T26-record",
+  "variante": "D",
+  "appel_site": "oui",
+  "fin": "follow_avant_reponse",
+  "motif": "pat_le_plus_court",
+  "niveau": "tous",
+  "hook": "enjeu_visible+fin_montree_puis_rembobine",
+  "interet": "record_verifie",
+  "rdv": "non",
+  "pieces": 26,
+  "look": "emeraude",
+  "fx": "tag+zoom+ding+rejeu",
+  "adn": "oui"
+ }
+}
