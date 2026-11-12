@@ -744,3 +744,4 @@
 ### 2026-11-12 10:00 publications/youtube/mur_trois_pions_1.json
 {"id": "LlKKGJD2moA", "url": "https://www.youtube.com/shorts/LlKKGJD2moA", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "111"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "112"}
