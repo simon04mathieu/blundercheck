@@ -146,3 +146,5 @@
 {"reseau": "facebook", "id": "4615029632075552", "ok": true}
 ### 2026-11-12 12:06 publications/facebook/torre_lasker_1.json
 {"reseau": "facebook", "id": "1891865491803096", "ok": true}
+### 2026-11-12 15:02 publications/facebook/pat_10_coups_1.json
+{"reseau": "facebook", "id": "2966160240409346", "ok": true}
