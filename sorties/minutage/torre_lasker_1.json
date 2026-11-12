@@ -1,0 +1,147 @@
+{
+ "nom": "torre_lasker_1",
+ "tempo": 1.0,
+ "duree_s": 45.72,
+ "hook": {
+  "texte": "One move|wins. Which?",
+  "fin": 3.28
+ },
+ "question": {
+  "texte": "Would you have left|the queen hanging?",
+  "t": 42.52
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Two queens, and a bishop in between."
+  },
+  {
+   "t": 3.28,
+   "texte": "White to move what does he play?"
+  },
+  {
+   "t": 8.12,
+   "texte": "Follow for one new story every day."
+  },
+  {
+   "t": 11.38,
+   "texte": "Bishop to f6!"
+  },
+  {
+   "t": 13.42,
+   "texte": "Black takes the queen and the rook starts a windmill."
+  },
+  {
+   "t": 17.24,
+   "texte": "Rook takes g7 check."
+  },
+  {
+   "t": 19.8,
+   "texte": "The king goes to h8 and the rook takes f7 the bishop gives check."
+  },
+  {
+   "t": 25.18,
+   "texte": "The king steps back and the rook checks again."
+  },
+  {
+   "t": 28.56,
+   "texte": "The king returns and the rook takes the bishop on b7!"
+  },
+  {
+   "t": 32.8,
+   "texte": "Back to g8 check on g7 the king returns and check from g5."
+  },
+  {
+   "t": 38.74,
+   "texte": "The king runs and the rook takes the queen back!"
+  },
+  {
+   "t": 42.2,
+   "texte": "Torre against Lasker Moscow, 1925."
+  }
+ ],
+ "coups": [
+  {
+   "t": 12.0,
+   "coup": "Bf6",
+   "badge": "brillant"
+  },
+  {
+   "t": 14.04,
+   "coup": "Qxh5",
+   "badge": null
+  },
+  {
+   "t": 17.86,
+   "coup": "Rxg7+",
+   "badge": null
+  },
+  {
+   "t": 20.48,
+   "coup": "Kh8",
+   "badge": null
+  },
+  {
+   "t": 22.26,
+   "coup": "Rxf7+",
+   "badge": null
+  },
+  {
+   "t": 25.62,
+   "coup": "Kg8",
+   "badge": null
+  },
+  {
+   "t": 26.98,
+   "coup": "Rg7+",
+   "badge": null
+  },
+  {
+   "t": 29.08,
+   "coup": "Kh8",
+   "badge": null
+  },
+  {
+   "t": 30.68,
+   "coup": "Rxb7+",
+   "badge": null
+  },
+  {
+   "t": 33.02,
+   "coup": "Kg8",
+   "badge": null
+  },
+  {
+   "t": 34.16,
+   "coup": "Rg7+",
+   "badge": null
+  },
+  {
+   "t": 35.58,
+   "coup": "Kh8",
+   "badge": null
+  },
+  {
+   "t": 36.8,
+   "coup": "Rg5+",
+   "badge": null
+  },
+  {
+   "t": 39.06,
+   "coup": "Kh7",
+   "badge": null
+  },
+  {
+   "t": 40.18,
+   "coup": "Rxh5",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 6.1,
+   "duree": 2.0,
+   "texte": "Think…"
+  }
+ ]
+}

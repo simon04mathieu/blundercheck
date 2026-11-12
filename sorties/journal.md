@@ -830,3 +830,6 @@
 ### commandes/perso_pion_d5_c6_1_fr.json
     voix générée : 370 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pion_d5_c6_1_fr.mp4 {"voix_brute_s": 35.6, "tempo": 1.0, "video_s": 38.3, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 74, "minutage": "13 phrases, 15 coups, 1 pauses"}
+### commandes/perso_torre_lasker_1.json
+    voix générée : 516 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/torre_lasker_1.mp4 {"voix_brute_s": 44.0, "tempo": 1.0, "video_s": 46.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 100, "minutage": "12 phrases, 15 coups, 1 pauses"}
