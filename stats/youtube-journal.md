@@ -748,3 +748,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "112"}
 ### 2026-11-12 13:08 publications/youtube/torre_lasker_1.json
 {"id": "6TGm2HUTbxQ", "url": "https://www.youtube.com/shorts/6TGm2HUTbxQ", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "112"}
