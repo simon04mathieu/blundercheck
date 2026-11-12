@@ -836,3 +836,8 @@
 ### commandes/perso_torre_lasker_1_fr.json
     voix générée : 509 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/torre_lasker_1_fr.mp4 {"voix_brute_s": 49.0, "tempo": 1.0, "video_s": 51.4, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 105, "minutage": "12 phrases, 15 coups, 1 pauses"}
+## 2026-11-12 00:16 UTC · run 43125951053
+### commandes/perso_pat_10_coups_1.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pat_10_coups_1.mp4 {"voix_brute_s": 48.0, "tempo": 1.11, "video_s": 45.7, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 100, "minutage": "17 phrases, 19 coups, 1 pauses"}
