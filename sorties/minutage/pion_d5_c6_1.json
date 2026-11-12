@@ -1,0 +1,151 @@
+{
+ "nom": "pion_d5_c6_1",
+ "tempo": 1.0,
+ "duree_s": 35.38,
+ "hook": {
+  "texte": "Save the|pawn!",
+  "fin": 3.3
+ },
+ "question": {
+  "texte": "Would you have|saved the pawn?",
+  "t": 32.18
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "The black king attacks the pawn on c6."
+  },
+  {
+   "t": 3.3,
+   "texte": "Can White save it and win?"
+  },
+  {
+   "t": 8.06,
+   "texte": "Follow for one new puzzle every day."
+  },
+  {
+   "t": 10.98,
+   "texte": "Pawn to d5!"
+  },
+  {
+   "t": 12.92,
+   "texte": "Now c6 is protected and the black king is stuck."
+  },
+  {
+   "t": 17.04,
+   "texte": "The white king walks to d4."
+  },
+  {
+   "t": 19.74,
+   "texte": "Black waits."
+  },
+  {
+   "t": 21.12,
+   "texte": "e4, and Black waits."
+  },
+  {
+   "t": 23.64,
+   "texte": "f5, and again."
+  },
+  {
+   "t": 25.78,
+   "texte": "e6, and again."
+  },
+  {
+   "t": 27.8,
+   "texte": "d7, and again."
+  },
+  {
+   "t": 29.9,
+   "texte": "d8, and the king takes c7!"
+  },
+  {
+   "t": 33.16,
+   "texte": "Defending with the king only draws."
+  }
+ ],
+ "coups": [
+  {
+   "t": 11.6,
+   "coup": "d5",
+   "badge": "brillant"
+  },
+  {
+   "t": 15.5,
+   "coup": "Ka7",
+   "badge": null
+  },
+  {
+   "t": 18.02,
+   "coup": "Kd4",
+   "badge": null
+  },
+  {
+   "t": 20.04,
+   "coup": "Ka8",
+   "badge": null
+  },
+  {
+   "t": 21.12,
+   "coup": "Ke4",
+   "badge": null
+  },
+  {
+   "t": 22.22,
+   "coup": "Kb8",
+   "badge": null
+  },
+  {
+   "t": 23.64,
+   "coup": "Kf5",
+   "badge": null
+  },
+  {
+   "t": 24.62,
+   "coup": "Ka7",
+   "badge": null
+  },
+  {
+   "t": 25.78,
+   "coup": "Ke6",
+   "badge": null
+  },
+  {
+   "t": 26.64,
+   "coup": "Ka8",
+   "badge": null
+  },
+  {
+   "t": 27.8,
+   "coup": "Kd7",
+   "badge": null
+  },
+  {
+   "t": 28.8,
+   "coup": "Kb8",
+   "badge": null
+  },
+  {
+   "t": 29.9,
+   "coup": "Kd8",
+   "badge": null
+  },
+  {
+   "t": 30.56,
+   "coup": "Ka8",
+   "badge": null
+  },
+  {
+   "t": 31.5,
+   "coup": "Kxc7",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 6.04,
+   "duree": 2.0,
+   "texte": "Think…"
+  }
+ ]
+}

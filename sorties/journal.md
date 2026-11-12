@@ -824,3 +824,6 @@
 ### commandes/perso_pat_10_coups_1.json
     voix générée : 531 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pat_10_coups_1.mp4 {"voix_brute_s": 48.0, "tempo": 1.0, "video_s": 50.6, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 100, "minutage": "17 phrases, 19 coups, 1 pauses"}
+### commandes/perso_pion_d5_c6_1.json
+    voix générée : 335 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pion_d5_c6_1.mp4 {"voix_brute_s": 33.5, "tempo": 1.0, "video_s": 38.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 67, "minutage": "13 phrases, 15 coups, 1 pauses"}
