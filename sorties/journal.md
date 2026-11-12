@@ -833,3 +833,6 @@
 ### commandes/perso_torre_lasker_1.json
     voix générée : 516 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/torre_lasker_1.mp4 {"voix_brute_s": 44.0, "tempo": 1.0, "video_s": 46.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 100, "minutage": "12 phrases, 15 coups, 1 pauses"}
+### commandes/perso_torre_lasker_1_fr.json
+    voix générée : 509 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/torre_lasker_1_fr.mp4 {"voix_brute_s": 49.0, "tempo": 1.0, "video_s": 51.4, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 105, "minutage": "12 phrases, 15 coups, 1 pauses"}
