@@ -753,3 +753,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "113"}
 ### 2026-11-12 15:40 publications/youtube/pat_10_coups_1.json
 {"id": "TsodSwiHcBs", "url": "https://www.youtube.com/shorts/TsodSwiHcBs", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "113"}
