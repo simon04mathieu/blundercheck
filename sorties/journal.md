@@ -841,3 +841,6 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/pat_10_coups_1.mp4 {"voix_brute_s": 48.0, "tempo": 1.11, "video_s": 45.7, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 100, "minutage": "17 phrases, 19 coups, 1 pauses"}
+### commandes/perso_torre_lasker_1.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/torre_lasker_1.mp4 {"voix_brute_s": 44.0, "tempo": 1.069, "video_s": 43.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 100, "minutage": "12 phrases, 15 coups, 1 pauses"}
