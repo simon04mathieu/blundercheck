@@ -144,3 +144,5 @@
 {"reseau": "facebook", "id": "1035702846271186", "ok": true}
 ### 2026-11-12 09:08 publications/facebook/mur_trois_pions_1.json
 {"reseau": "facebook", "id": "4615029632075552", "ok": true}
+### 2026-11-12 12:06 publications/facebook/torre_lasker_1.json
+{"reseau": "facebook", "id": "1891865491803096", "ok": true}
