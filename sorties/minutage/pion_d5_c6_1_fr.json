@@ -1,0 +1,151 @@
+{
+ "nom": "pion_d5_c6_1_fr",
+ "tempo": 1.0,
+ "duree_s": 37.74,
+ "hook": {
+  "texte": "Sauve le|pion !",
+  "fin": 2.3
+ },
+ "question": {
+  "texte": "Tu aurais sauvé|le pion ?",
+  "t": 34.54
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Le roi noir attaque le pion c6."
+  },
+  {
+   "t": 2.3,
+   "texte": "Les Blancs peuvent-ils le sauver et gagner ?"
+  },
+  {
+   "t": 8.22,
+   "texte": "Abonne-toi : un défi d'échecs par jour."
+  },
+  {
+   "t": 10.84,
+   "texte": "Pion en d5 !"
+  },
+  {
+   "t": 12.86,
+   "texte": "Maintenant c6 est protégé et le roi noir est bloqué."
+  },
+  {
+   "t": 15.94,
+   "texte": "Le roi blanc marche en d4."
+  },
+  {
+   "t": 19.4,
+   "texte": "Les Noirs attendent."
+  },
+  {
+   "t": 21.38,
+   "texte": "e4, et les Noirs attendent."
+  },
+  {
+   "t": 23.42,
+   "texte": "f5, et encore."
+  },
+  {
+   "t": 25.56,
+   "texte": "e6, et encore."
+  },
+  {
+   "t": 27.9,
+   "texte": "d7, et encore."
+  },
+  {
+   "t": 31.5,
+   "texte": "d8, et le roi prend c7 !"
+  },
+  {
+   "t": 34.02,
+   "texte": "Défendre avec le roi ne fait que nulle."
+  }
+ ],
+ "coups": [
+  {
+   "t": 11.92,
+   "coup": "d5",
+   "badge": "brillant"
+  },
+  {
+   "t": 15.3,
+   "coup": "Ka7",
+   "badge": null
+  },
+  {
+   "t": 18.42,
+   "coup": "Kd4",
+   "badge": null
+  },
+  {
+   "t": 20.04,
+   "coup": "Ka8",
+   "badge": null
+  },
+  {
+   "t": 21.38,
+   "coup": "Ke4",
+   "badge": null
+  },
+  {
+   "t": 22.76,
+   "coup": "Kb8",
+   "badge": null
+  },
+  {
+   "t": 23.42,
+   "coup": "Kf5",
+   "badge": null
+  },
+  {
+   "t": 25.12,
+   "coup": "Ka7",
+   "badge": null
+  },
+  {
+   "t": 25.56,
+   "coup": "Ke6",
+   "badge": null
+  },
+  {
+   "t": 27.5,
+   "coup": "Ka8",
+   "badge": null
+  },
+  {
+   "t": 27.9,
+   "coup": "Kd7",
+   "badge": null
+  },
+  {
+   "t": 30.18,
+   "coup": "Kb8",
+   "badge": null
+  },
+  {
+   "t": 31.5,
+   "coup": "Kd8",
+   "badge": null
+  },
+  {
+   "t": 32.24,
+   "coup": "Ka8",
+   "badge": null
+  },
+  {
+   "t": 33.42,
+   "coup": "Kxc7",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 6.2,
+   "duree": 2.0,
+   "texte": "Réfléchis…"
+  }
+ ]
+}
