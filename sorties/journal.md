@@ -816,3 +816,8 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/levitsky_marshall_1_fr.mp4 {"voix_brute_s": 33.9, "tempo": 1.0, "video_s": 36.7, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 90, "minutage": "10 phrases, 11 coups, 1 pauses"}
+## 2026-11-12 00:07 UTC · run 43124810431
+### commandes/perso_mur_trois_pions_1.json
+    voix générée : 279 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/mur_trois_pions_1.mp4 {"voix_brute_s": 25.1, "tempo": 1.0, "video_s": 29.6, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 55, "minutage": "8 phrases, 6 coups, 1 pauses"}

@@ -1,0 +1,86 @@
+{
+ "nom": "mur_trois_pions_1",
+ "tempo": 1.0,
+ "duree_s": 27.04,
+ "hook": {
+  "texte": "c7 or e7?",
+  "fin": 2.94
+ },
+ "question": {
+  "texte": "c7 or e7: which|did you pick?",
+  "t": 23.84
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take c7, or take e7?"
+  },
+  {
+   "t": 2.94,
+   "texte": "Three white pawns against two White to move."
+  },
+  {
+   "t": 8.6,
+   "texte": "Follow for one new puzzle every day."
+  },
+  {
+   "t": 11.46,
+   "texte": "Pawn takes c7!"
+  },
+  {
+   "t": 13.46,
+   "texte": "The black king has one move only: f8."
+  },
+  {
+   "t": 17.1,
+   "texte": "Then the pawn queens with check."
+  },
+  {
+   "t": 19.82,
+   "texte": "The king runs to g7 and another pawn steps up ready to queen."
+  },
+  {
+   "t": 24.86,
+   "texte": "Taking on e7 only draws."
+  }
+ ],
+ "coups": [
+  {
+   "t": 12.08,
+   "coup": "dxc7",
+   "badge": "brillant"
+  },
+  {
+   "t": 15.66,
+   "coup": "Kf8",
+   "badge": null
+  },
+  {
+   "t": 17.72,
+   "coup": "c8=Q+",
+   "badge": null
+  },
+  {
+   "t": 20.52,
+   "coup": "Kg7",
+   "badge": null
+  },
+  {
+   "t": 22.36,
+   "coup": "c7",
+   "badge": null
+  },
+  {
+   "t": 25.44,
+   "coup": "dxe7",
+   "badge": "erreur"
+  }
+ ],
+ "pauses": [
+  {
+   "t": 6.58,
+   "duree": 2.0,
+   "texte": "Think…"
+  }
+ ]
+}
