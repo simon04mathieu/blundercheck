@@ -1,0 +1,187 @@
+{
+ "nom": "pat_10_coups_1",
+ "tempo": 1.0,
+ "duree_s": 50.04,
+ "hook": {
+  "texte": "Checkmate?",
+  "fin": 5.34
+ },
+ "question": {
+  "texte": "Analyze your own|game, free",
+  "t": 46.84
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Black to move."
+  },
+  {
+   "t": 1.74,
+   "texte": "Is it checkmate?"
+  },
+  {
+   "t": 5.34,
+   "texte": "Follow for one new puzzle every day."
+  },
+  {
+   "t": 8.44,
+   "texte": "No!"
+  },
+  {
+   "t": 9.22,
+   "texte": "It's stalemate: Black can't move but there is no check."
+  },
+  {
+   "t": 13.38,
+   "texte": "How fast can that happen?"
+  },
+  {
+   "t": 15.34,
+   "texte": "Just ten moves!"
+  },
+  {
+   "t": 17.2,
+   "texte": "White pushes a pawn Black too."
+  },
+  {
+   "t": 20.12,
+   "texte": "The queen comes out a rook lifts and the queen eats one."
+  },
+  {
+   "t": 24.6,
+   "texte": "Pawn h5, pawn h4 the rook slides over and the queen eats two."
+  },
+  {
+   "t": 30.92,
+   "texte": "Pawn f6, and three check!"
+  },
+  {
+   "t": 34.28,
+   "texte": "The king steps up and four!"
+  },
+  {
+   "t": 37.14,
+   "texte": "Black's queen jumps out and five!"
+  },
+  {
+   "t": 40.14,
+   "texte": "The queen hides six!"
+  },
+  {
+   "t": 42.54,
+   "texte": "The king walks in and queen e6."
+  },
+  {
+   "t": 45.82,
+   "texte": "The shortest known stalemate."
+  },
+  {
+   "t": 47.96,
+   "texte": "Analyze your own game free."
+  }
+ ],
+ "coups": [
+  {
+   "t": 17.54,
+   "coup": "e3",
+   "badge": null
+  },
+  {
+   "t": 19.04,
+   "coup": "a5",
+   "badge": null
+  },
+  {
+   "t": 20.54,
+   "coup": "Qh5",
+   "badge": null
+  },
+  {
+   "t": 21.88,
+   "coup": "Ra6",
+   "badge": null
+  },
+  {
+   "t": 23.16,
+   "coup": "Qxa5",
+   "badge": null
+  },
+  {
+   "t": 24.96,
+   "coup": "h5",
+   "badge": null
+  },
+  {
+   "t": 26.18,
+   "coup": "h4",
+   "badge": null
+  },
+  {
+   "t": 27.64,
+   "coup": "Rah6",
+   "badge": null
+  },
+  {
+   "t": 29.24,
+   "coup": "Qxc7",
+   "badge": null
+  },
+  {
+   "t": 31.28,
+   "coup": "f6",
+   "badge": null
+  },
+  {
+   "t": 32.36,
+   "coup": "Qxd7+",
+   "badge": null
+  },
+  {
+   "t": 34.68,
+   "coup": "Kf7",
+   "badge": null
+  },
+  {
+   "t": 35.78,
+   "coup": "Qxb7",
+   "badge": null
+  },
+  {
+   "t": 37.76,
+   "coup": "Qd3",
+   "badge": null
+  },
+  {
+   "t": 38.78,
+   "coup": "Qxb8",
+   "badge": null
+  },
+  {
+   "t": 40.48,
+   "coup": "Qh7",
+   "badge": null
+  },
+  {
+   "t": 41.32,
+   "coup": "Qxc8",
+   "badge": null
+  },
+  {
+   "t": 42.82,
+   "coup": "Kg6",
+   "badge": null
+  },
+  {
+   "t": 44.1,
+   "coup": "Qe6",
+   "badge": null
+  }
+ ],
+ "pauses": [
+  {
+   "t": 3.32,
+   "duree": 2.0,
+   "texte": "Think…"
+  }
+ ]
+}
