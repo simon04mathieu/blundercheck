@@ -735,3 +735,14 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-12 07:54 publications/tiktok/pion_d5_c6_1_fr.json
+{"publish_id": "v_inbox_file~v2.7707189713689675798", "mode": "brouillon", "vie_privee": null, "legende": "Tu aurais sauvé le pion ? 👇 Seul 1.d5 ! gagne ; 1.Re4 Rxc6 ne donne que nulle (Stockfish 16, position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr"}
+### 2026-11-12 07:54 publications/tiktok/torre_lasker_1_fr.json
+ÉCHEC : TikTok PUT https://open-upload-i18n.tiktokapis.com/upload -> 500 : <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>TLB</center>
+</body>
+</html>

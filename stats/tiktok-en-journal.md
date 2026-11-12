@@ -611,3 +611,12 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 36, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 36, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 36, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 36, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-12 07:54 publications/tiktok-en/mur_trois_pions_1.json
+{"publish_id": "v_inbox_file~v2.7707189893084645398", "mode": "brouillon", "vie_privee": null, "legende": "c7 or e7? 👇 Only 1.dxc7! wins; 1.dxe7 and 1.d7+ are draws (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
+### 2026-11-12 07:54 publications/tiktok-en/pat_10_coups_1.json
+{"publish_id": "v_inbox_file~v2.7707189785957484566", "mode": "brouillon", "vie_privee": null, "legende": "Checkmate or stalemate? 👇 Shortest known stalemate: 10 moves (Sam Loyd's 1882 puzzle; moves replayed with python-chess). One new puzzle every day. Analyze your own game: blundercheck.app/try #chess #chesspuzzle #chessfacts"}
+### 2026-11-12 07:54 publications/tiktok-en/pion_d5_c6_1.json
+{"publish_id": "v_inbox_file~v2.7707189845495629846", "mode": "brouillon", "vie_privee": null, "legende": "Would you have saved the pawn? 👇 Only 1.d5! wins; 1.Ke4 Kxc6 is a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
+### 2026-11-12 07:54 publications/tiktok-en/torre_lasker_1.json
+{"publish_id": "v_inbox_file~v2.7707189893084678166", "mode": "brouillon", "vie_privee": null, "legende": "Would you have left the queen hanging? 👇 Torre – Lasker, Moscow 1925 (1–0; moves from a published scoresheet, replayed with python-chess, checked with Stockfish 16). One new story every day. #chess #chesshistory #chesstactics"}
