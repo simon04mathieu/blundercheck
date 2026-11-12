@@ -1,5 +1,5 @@
 {
- "date": "2026-11-12T18:39:26.018218+00:00",
+ "date": "2026-11-12T18:54:38.285646+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,13 +7,22 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "dtccySA-8Jc": {
+   "titre": "His king attacks your pawn. Save it and win? ♟️ #chess #shorts",
+   "publiee": "2026-11-12T18:39:40Z",
+   "statut": "public",
+   "duree": "PT38S",
+   "vues": 3,
+   "jaime": 1,
+   "commentaires": 0
+  },
   "TsodSwiHcBs": {
-   "titre": "Black can't move. Is it checkmate? ♟️ #chess #shorts",
+   "titre": "What is this elo? ♟️ #chess #shorts",
    "publiee": "2026-11-12T15:40:45Z",
    "statut": "public",
    "duree": "PT46S",
-   "vues": 308,
-   "jaime": 5,
+   "vues": 332,
+   "jaime": 6,
    "commentaires": 2
   },
   "6TGm2HUTbxQ": {
@@ -21,7 +30,7 @@
    "publiee": "2026-11-12T13:09:20Z",
    "statut": "public",
    "duree": "PT44S",
-   "vues": 1205,
+   "vues": 1238,
    "jaime": 31,
    "commentaires": 0
   },
@@ -30,8 +39,8 @@
    "publiee": "2026-11-12T10:00:41Z",
    "statut": "public",
    "duree": "PT30S",
-   "vues": 1163,
-   "jaime": 9,
+   "vues": 1172,
+   "jaime": 10,
    "commentaires": 4
   },
   "p_VKt5BTwD8": {
@@ -48,7 +57,7 @@
    "publiee": "2026-11-11T15:33:14Z",
    "statut": "public",
    "duree": "PT31S",
-   "vues": 1439,
+   "vues": 1446,
    "jaime": 8,
    "commentaires": 1
   },
@@ -66,7 +75,7 @@
    "publiee": "2026-11-11T09:59:18Z",
    "statut": "public",
    "duree": "PT30S",
-   "vues": 1826,
+   "vues": 1850,
    "jaime": 17,
    "commentaires": 1
   },
