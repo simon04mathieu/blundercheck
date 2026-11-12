@@ -844,3 +844,6 @@
 ### commandes/perso_torre_lasker_1.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/torre_lasker_1.mp4 {"voix_brute_s": 44.0, "tempo": 1.069, "video_s": 43.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 100, "minutage": "12 phrases, 15 coups, 1 pauses"}
+### commandes/perso_torre_lasker_1_fr.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/torre_lasker_1_fr.mp4 {"voix_brute_s": 49.0, "tempo": 1.133, "video_s": 45.5, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 105, "minutage": "12 phrases, 15 coups, 1 pauses"}

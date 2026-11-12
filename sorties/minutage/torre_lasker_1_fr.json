@@ -1,14 +1,14 @@
 {
  "nom": "torre_lasker_1_fr",
- "tempo": 1.0,
- "duree_s": 50.84,
+ "tempo": 1.133,
+ "duree_s": 44.85,
  "hook": {
   "texte": "Un seul coup|gagne. Lequel ?",
-  "fin": 3.42
+  "fin": 3.02
  },
  "question": {
   "texte": "Tu aurais laissé|la dame ?",
-  "t": 47.64
+  "t": 41.65
  },
  "phrases": [
   {
@@ -16,131 +16,131 @@
    "texte": "Deux dames, et un fou au milieu."
   },
   {
-   "t": 3.42,
+   "t": 3.02,
    "texte": "Aux Blancs de jouer  que jouent-ils ?"
   },
   {
-   "t": 9.74,
+   "t": 8.59,
    "texte": "Abonne-toi : une histoire d'échecs par jour."
   },
   {
-   "t": 12.82,
+   "t": 11.31,
    "texte": "Le fou file en f6 !"
   },
   {
-   "t": 15.34,
+   "t": 13.53,
    "texte": "Les Noirs prennent la dame et la tour lance un moulin."
   },
   {
-   "t": 19.72,
+   "t": 17.4,
    "texte": "La tour prend g7 échec."
   },
   {
-   "t": 22.92,
+   "t": 20.22,
    "texte": "Le roi va en h8 et la tour prend f7  le fou donne échec."
   },
   {
-   "t": 28.66,
+   "t": 25.29,
    "texte": "Le roi recule et la tour redonne échec."
   },
   {
-   "t": 32.36,
+   "t": 28.55,
    "texte": "Le roi revient et la tour prend le fou en b7 !"
   },
   {
-   "t": 36.72,
+   "t": 32.4,
    "texte": "Retour en g8 échec en g7 le roi revient et échec depuis g5."
   },
   {
-   "t": 43.4,
+   "t": 38.29,
    "texte": "Le roi s'enfuit et la tour regagne la dame !"
   },
   {
-   "t": 47.12,
+   "t": 41.57,
    "texte": "Torre contre Lasker Moscou, 1925."
   }
  ],
  "coups": [
   {
-   "t": 13.82,
+   "t": 12.19,
    "coup": "Bf6",
    "badge": "brillant"
   },
   {
-   "t": 16.12,
+   "t": 14.22,
    "coup": "Qxh5",
    "badge": null
   },
   {
-   "t": 20.86,
+   "t": 18.4,
    "coup": "Rxg7+",
    "badge": null
   },
   {
-   "t": 23.5,
+   "t": 20.73,
    "coup": "Kh8",
    "badge": null
   },
   {
-   "t": 25.4,
+   "t": 22.41,
    "coup": "Rxf7+",
    "badge": null
   },
   {
-   "t": 29.46,
+   "t": 25.99,
    "coup": "Kg8",
+   "badge": null
+  },
+  {
+   "t": 27.12,
+   "coup": "Rg7+",
+   "badge": null
+  },
+  {
+   "t": 29.5,
+   "coup": "Kh8",
    "badge": null
   },
   {
    "t": 30.74,
-   "coup": "Rg7+",
-   "badge": null
-  },
-  {
-   "t": 33.44,
-   "coup": "Kh8",
-   "badge": null
-  },
-  {
-   "t": 34.84,
    "coup": "Rxb7+",
    "badge": null
   },
   {
-   "t": 37.26,
+   "t": 32.87,
    "coup": "Kg8",
    "badge": null
   },
   {
-   "t": 38.68,
+   "t": 34.13,
    "coup": "Rg7+",
    "badge": null
   },
   {
-   "t": 40.24,
+   "t": 35.5,
    "coup": "Kh8",
    "badge": null
   },
   {
-   "t": 41.68,
+   "t": 36.77,
    "coup": "Rg5+",
    "badge": null
   },
   {
-   "t": 43.96,
+   "t": 38.78,
    "coup": "Kh7",
    "badge": null
   },
   {
-   "t": 45.2,
+   "t": 39.88,
    "coup": "Rxh5",
    "badge": null
   }
  ],
  "pauses": [
   {
-   "t": 7.72,
-   "duree": 2.0,
+   "t": 6.81,
+   "duree": 1.76,
    "texte": "Réfléchis…"
   }
  ]
