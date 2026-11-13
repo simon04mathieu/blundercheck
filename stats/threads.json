@@ -1,8 +1,68 @@
 {
- "releve": "2026-11-12T17:34:32Z",
+ "releve": "2026-11-13T17:33:43Z",
  "compte": "blundercheckapp",
  "abonnes": 0,
  "publications": [
+  {
+   "id": "18156588313528186",
+   "text": "Which pawn takes? 👇 Only 1.fxg5! wins; 1.hxg5 is a draw (Stockfish 16, composed ",
+   "timestamp": "2026-11-13T15:33:06+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfr9gDOg6mN",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 3,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "17936445801142438",
+   "text": "Would you have taken the rook? 👇 Only 1.Qxf7+! wins (mate in 2); 1.Qxd8+ Qxd8 lo",
+   "timestamp": "2026-11-13T12:03:52+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfrljIbhhac",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 0,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18121209451968853",
+   "text": "Which pawn takes first? 👇 Only 1.gxh7! wins; 1.exd5 and 1.g7+ are draws (Stockfi",
+   "timestamp": "2026-11-13T09:05:50+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfrRLPIxcRc",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 2,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18289931689294271",
+   "text": "Would you have saved the pawn? 👇 Only 1.d5! wins; 1.Ke4 Kxc6 is a draw (Stockfis",
+   "timestamp": "2026-11-12T18:49:00+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfpvF1IRPQd",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 0,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
   {
    "id": "18108372146261355",
    "text": "Checkmate or stalemate? 👇 Shortest known stalemate: 10 moves (Sam Loyd's 1882 pu",
@@ -40,7 +100,7 @@
    "permalink": "https://www.threads.com/@blundercheckapp/post/DfosxTqIAST",
    "media_type": "VIDEO",
    "insights": {
-    "views": 3,
+    "views": 5,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -130,7 +190,7 @@
    "permalink": "https://www.threads.com/@blundercheckapp/post/Dfkk6ypRBjp",
    "media_type": "VIDEO",
    "insights": {
-    "views": 10,
+    "views": 11,
     "likes": 1,
     "replies": 0,
     "reposts": 0,
@@ -386,66 +446,6 @@
    "media_type": "VIDEO",
    "insights": {
     "views": 1,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18153648190530690",
-   "text": "Kasparov played h6. Would you sacrifice the knight? 🤯 Would you have taken on e6",
-   "timestamp": "2026-11-06T14:23:55+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfZ0BDYBmyC",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 0,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18188412730416757",
-   "text": "Your rook is attacked twice. Don't run! 🤯 Would you have grabbed the pawn? 👇 Com",
-   "timestamp": "2026-11-05T20:44:28+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfX6xFwhu1m",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 1,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18196939255394096",
-   "text": "White hid his king. Black mates in 3! 😈 Would you have sacrificed the knight? 👇 ",
-   "timestamp": "2026-11-05T18:48:16+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfXteJZh6jF",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 1,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "17933540451164351",
-   "text": "He took your knight. Recapture? Look first! 😈 Would you have recaptured? 👇 Real-",
-   "timestamp": "2026-11-05T16:09:55+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfXbWa8xldi",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 0,
     "likes": 0,
     "replies": 0,
     "reposts": 0,

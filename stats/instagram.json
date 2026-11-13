@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-12T17:32:28Z",
+ "releve": "2026-11-13T17:31:49Z",
  "compte": "blundercheckapp",
  "abonnes": 6,
  "publications": [
+  {
+   "id": "18351508084269151",
+   "caption": "Quel pion prend en premier ? 👇 Seul 1.gxh7 ! gagne ; 1.exd5 et 1.g7+ ne font que",
+   "comments_count": 0,
+   "like_count": 1,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/Dfrlciikj7z/",
+   "timestamp": "2026-11-13T12:03:01+0000",
+   "insights": {
+    "views": 221,
+    "reach": 145,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1
+   }
+  },
+  {
+   "id": "18178699180454564",
+   "caption": "Tu aurais laissé la dame ? 👇 Torre – Lasker, Moscou 1925 (1–0 ; coups rejoués av",
+   "comments_count": 0,
+   "like_count": 4,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/Dfpu9WfEfdG/",
+   "timestamp": "2026-11-12T18:47:55+0000",
+   "insights": {
+    "views": 173,
+    "reach": 135,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 4
+   }
+  },
   {
    "id": "18121492576766812",
    "caption": "Tu aurais sauvé le pion ? 👇 Seul 1.d5 ! gagne ; 1.Re4 Rxc6 ne donne que nulle (S",
@@ -108,8 +140,8 @@
    "permalink": "https://www.instagram.com/reel/DfhuiH-EfrL/",
    "timestamp": "2026-11-09T16:10:13+0000",
    "insights": {
-    "views": 2170,
-    "reach": 1708,
+    "views": 2173,
+    "reach": 1711,
     "shares": 0,
     "saved": 2,
     "total_interactions": 24
@@ -449,38 +481,6 @@
     "shares": 0,
     "saved": 1,
     "total_interactions": 2
-   }
-  },
-  {
-   "id": "18103908296292562",
-   "caption": "Le pigeon du jour #11 🐦 Il mange ton poney… puis tu lui mets mat. Tu serais tomb",
-   "comments_count": 0,
-   "like_count": 2,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfCfnmFkpsi/",
-   "timestamp": "2026-10-28T13:03:13+0000",
-   "insights": {
-    "views": 148,
-    "reach": 138,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 2
-   }
-  },
-  {
-   "id": "17921307327448704",
-   "caption": "Le pigeon du jour #10 🐦 Il mange ta tour… et tu lui mets mat. Tu serais tombé de",
-   "comments_count": 0,
-   "like_count": 2,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfApFYLkpgx/",
-   "timestamp": "2026-10-27T19:47:29+0000",
-   "insights": {
-    "views": 191,
-    "reach": 167,
-    "shares": 0,
-    "saved": 1,
-    "total_interactions": 3
    }
   }
  ],
