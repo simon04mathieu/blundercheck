@@ -4,7 +4,7 @@
  "duree_s": 23.3,
  "hook": {
   "texte": "Tu prends sa tour,|ou tu fuis ?",
-  "fin": 2.48
+  "fin": 2.42
  },
  "question": {
   "texte": "Tu prends sa tour,|ou tu fuis ?",
@@ -16,19 +16,19 @@
    "texte": "Tu prends sa tour ou tu fuis ?"
   },
   {
-   "t": 2.48,
+   "t": 2.42,
    "texte": "Aucun des deux !"
   },
   {
-   "t": 4.1,
+   "t": 4.12,
    "texte": "La tour prend f7 échec."
   },
   {
-   "t": 7.38,
+   "t": 7.34,
    "texte": "Le roi va en g8 la tour donne échec en f8 le roi revient et la dame fait mat en f7 !"
   },
   {
-   "t": 15.68,
+   "t": 15.72,
    "texte": "Prendre sa tour ne fait qu'égaliser."
   },
   {
@@ -43,7 +43,7 @@
    "badge": null
   },
   {
-   "t": 2.48,
+   "t": 2.42,
    "coup": "Rxf7+",
    "badge": "brillant"
   },
@@ -83,19 +83,19 @@
    "type": "fleches"
   },
   {
-   "t": 1.26,
+   "t": 1.3,
    "type": "sticker"
   },
   {
-   "t": 2.48,
+   "t": 2.42,
    "type": "coup"
   },
   {
-   "t": 2.48,
+   "t": 2.42,
    "type": "zoom"
   },
   {
-   "t": 6.02,
+   "t": 6.0,
    "type": "fleches"
   },
   {
@@ -119,7 +119,7 @@
    "type": "zoom"
   },
   {
-   "t": 13.74,
+   "t": 13.8,
    "type": "sticker"
   },
   {
@@ -136,6 +136,10 @@
   },
   {
    "t": 19.42,
+   "type": "fleches"
+  },
+  {
+   "t": 21.26,
    "type": "fleches"
   }
  ]
