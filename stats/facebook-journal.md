@@ -156,3 +156,5 @@
 {"reseau": "facebook", "id": "1121242290747657", "ok": true}
 ### 2026-11-13 15:32 publications/facebook/fourchette_g5_1.json
 {"reseau": "facebook", "id": "2741970226316446", "ok": true}
+### 2026-11-13 18:46 publications/facebook/tour_attaquee_f7_1.json
+{"reseau": "facebook", "id": "2138813800336186", "ok": true}
