@@ -639,3 +639,12 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 36, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 36, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 36, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 36, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-13 07:53 publications/tiktok-en/fourchette_g5_1.json
+{"publish_id": "v_inbox_file~v2.7707560632895342614", "mode": "brouillon", "vie_privee": null, "legende": "Which pawn takes? 👇 Only 1.fxg5! wins; 1.hxg5 is a draw (Stockfish 16, composed position). One new puzzle every day. Analyze your own game: blundercheck.app/try #chess #chessendgame #chesspuzzle"}
+### 2026-11-13 07:53 publications/tiktok-en/pions_attaques_1.json
+{"publish_id": "v_inbox_file~v2.7707560603891550230", "mode": "brouillon", "vie_privee": null, "legende": "Which pawn takes first? 👇 Only 1.gxh7! wins; 1.exd5 and 1.g7+ are draws (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
+### 2026-11-13 07:53 publications/tiktok-en/tour_attaquee_f7_1.json
+{"publish_id": "v_inbox_file~v2.7707560603891582998", "mode": "brouillon", "vie_privee": null, "legende": "Take his rook, or run? 👇 Only 1.Rxf7+! wins (mate in 3); 1.Rxb6 is only equal (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle"}
+### 2026-11-13 07:53 publications/tiktok-en/tour_gratuite_1.json
+{"publish_id": "v_inbox_file~v2.7707560611453995030", "mode": "brouillon", "vie_privee": null, "legende": "Would you have taken the rook? 👇 Only 1.Qxf7+! wins (mate in 2); 1.Qxd8+ Qxd8 loses the queen (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle"}

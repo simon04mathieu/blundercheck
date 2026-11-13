@@ -767,3 +767,8 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-13 07:53 publications/tiktok/pions_attaques_1_fr.json
+{"publish_id": "v_inbox_file~v2.7707560278527084566", "mode": "brouillon", "vie_privee": null, "legende": "Quel pion prend en premier ? 👇 Seul 1.gxh7 ! gagne ; 1.exd5 et 1.g7+ ne font que nulle (Stockfish 16, position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr"}
+### 2026-11-13 07:53 publications/tiktok/tour_attaquee_f7_1_fr.json
+{"publish_id": "v_inbox_file~v2.7707560632895293462", "mode": "brouillon", "vie_privee": null, "legende": "Tu prends sa tour, ou tu fuis ? 👇 Seul 1.Txf7+ ! gagne (mat en 3) ; 1.Txb6 ne fait qu'égaliser (Stockfish 16, position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr"}
