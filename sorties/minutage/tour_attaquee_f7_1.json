@@ -1,0 +1,134 @@
+{
+ "nom": "tour_attaquee_f7_1",
+ "tempo": 1.0,
+ "duree_s": 20.54,
+ "hook": {
+  "texte": "Take his rook,|or run?",
+  "fin": 2.34
+ },
+ "question": {
+  "texte": "Take his rook,|or run?",
+  "t": 17.34
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take his rook or run?"
+  },
+  {
+   "t": 2.34,
+   "texte": "Neither!"
+  },
+  {
+   "t": 3.56,
+   "texte": "Rook takes f7 check."
+  },
+  {
+   "t": 6.08,
+   "texte": "The king goes to g8 the rook checks on f8 the king comes back and the queen mates on f7!"
+  },
+  {
+   "t": 14.12,
+   "texte": "Taking his rook is only equal."
+  },
+  {
+   "t": 16.56,
+   "texte": "So when your rook is attacked look at every check before you ask"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.2,
+   "coup": "Rb6",
+   "badge": null
+  },
+  {
+   "t": 2.34,
+   "coup": "Rxf7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 6.54,
+   "coup": "Kg8",
+   "badge": null
+  },
+  {
+   "t": 8.32,
+   "coup": "Rf8+",
+   "badge": null
+  },
+  {
+   "t": 10.36,
+   "coup": "Kg7",
+   "badge": null
+  },
+  {
+   "t": 11.86,
+   "coup": "Qf7#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.2,
+   "type": "coup"
+  },
+  {
+   "t": 0.4,
+   "type": "fleches"
+  },
+  {
+   "t": 0.66,
+   "type": "sticker"
+  },
+  {
+   "t": 2.34,
+   "type": "coup"
+  },
+  {
+   "t": 2.34,
+   "type": "zoom"
+  },
+  {
+   "t": 6.54,
+   "type": "coup"
+  },
+  {
+   "t": 8.32,
+   "type": "coup"
+  },
+  {
+   "t": 10.36,
+   "type": "coup"
+  },
+  {
+   "t": 11.86,
+   "type": "coup"
+  },
+  {
+   "t": 11.86,
+   "type": "zoom"
+  },
+  {
+   "t": 14.44,
+   "type": "fleches"
+  },
+  {
+   "t": 14.92,
+   "type": "sticker"
+  },
+  {
+   "t": 17.09,
+   "type": "position"
+  },
+  {
+   "t": 17.4,
+   "type": "fleches"
+  }
+ ]
+}
