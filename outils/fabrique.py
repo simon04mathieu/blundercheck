@@ -190,7 +190,10 @@ def ecrire_minutage(nom, spec, tempo=1.0):
     m = {"nom": nom, "tempo": round(tempo, 3), "duree_s": duree_v,
          "hook": {"texte": spec["hook"][0], "fin": r(spec["hook"][1])} if spec.get("hook") else None,
          "question": {"texte": spec.get("question"), "t": round(max(0.0, duree_v - 3.2), 2)} if spec.get("question") else None,
-         "phrases": phrases, "coups": coups, "pauses": pauses}
+         "phrases": phrases, "coups": coups, "pauses": pauses,
+         # 13/11 : tous les événements visuels (coup, flèche, zoom, étiquette, position) pour la porte du hook (plus grand trou)
+         "evenements": sorted([{"t": r(t), "type": typ} for t, typ, d in spec.get("actions", [])
+                               if typ in ("coup", "fleches", "zoom", "sticker", "position")], key=lambda e: e["t"])}
     d = os.path.join(SORTIES, "minutage"); os.makedirs(d, exist_ok=True)
     json.dump(m, open(os.path.join(d, f"{nom}.json"), "w"), ensure_ascii=False, indent=1)
     return f"{len(phrases)} phrases, {len(coups)} coups, {len(pauses)} pauses"  # dans la ligne OK : le journal ne garde que 3 lignes

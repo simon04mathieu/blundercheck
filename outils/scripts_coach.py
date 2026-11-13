@@ -1719,3 +1719,38 @@ QUESTIONS.update({
     "pion_d5_c6_1_fr": "Tu aurais sauvé|le pion ?",
     "torre_lasker_1_fr": "Tu aurais laissé|la dame ?",
 })
+
+# 13/11 (Producteur) : file du Scénariste du 12/11 ; lignes revérifiées python-chess + Stockfish 16 (d20) ; RÉTENTION seule (regles-retention-simon-12-11.md)
+# 1er coup = le coup noir qui crée le drame, sur le 2e mot (≈ 0,3 s) ; flèche + étiquette avant 1,5 s ; la vraie tactique juste après la question (< 3 s) ;
+# boucle : la dernière phrase s'enchaîne à la première, et la position de départ revient pendant la dernière phrase ; rien après.
+PA = "fen:5k2/7p/3p2P1/8/4P3/8/4K3/8_b_-_-_0_1"        # avant …d6-d5 ; 1.gxh7! seul gain (SF16 d20 +43) ; exd5, Ke3 = 0,00
+PB = "fen:5k2/7p/6P1/3p4/4P3/8/4K3/8_w_-_-_0_2"
+TA = "fen:r5k1/2RQ1pp1/8/P3P3/7q/5K2/P7/8_b_-_-_0_1"   # avant …Ta8-d8 ; 1.Qxf7+! mat en 2 ; Rc8 = 0,00 ; Qxd8+?? Qxd8
+TB = "fen:3r2k1/2RQ1pp1/8/P3P3/7q/5K2/P7/8_w_-_-_1_2"
+GA = "fen:8/5p2/K5p1/8/5P1P/1k6/8/8_b_-_-_0_1"         # avant …g6-g5 ; 1.fxg5! gagne (+35) ; hxg5 = 0,00
+GB = "fen:8/5p2/K7/6p1/5P1P/1k6/8/8_w_-_-_0_2"
+RA = "fen:1r6/5pkp/5Rpp/5Q2/3P3b/8/6K1/8_b_-_-_0_1"    # avant …Tb8-b6 ; 1.Rxf7+! mat en 3 ; Rxb6 = +0,07 (égal)
+RB = "fen:8/5pkp/1r3Rpp/5Q2/3P3b/8/6K1/8_w_-_-_1_2"
+_S = {
+"pions_attaques_1": ("blancs", "Which pawn|takes first?",
+"""[p """ + PA + """] Which [m d5] pawn [f h7g6 d5e4] takes [s tag e4 1.6 BOTH_ATTACKED] first? [h] [m gxh7 brillant] [z h7 1.3 2.0] Pawn takes h7! The king [m Ke7] runs to e7, and the pawn [m h8=Q] [x ding] queens! Taking [f e4d5] on d5 [s tag d5 2.0 ONLY_A_DRAW] only draws. So when [p """ + PB + """] both your pawns [f h7g6 d5e4] are attacked, ask yourself:"""),
+"tour_gratuite_1": ("blancs", "Should you|take this rook?",
+"""[p """ + TA + """] Should [m Rd8] you [f d8d7] take [s tag d8 1.6 FREE_ROOK?] this rook? [h] [m Qxf7+ brillant] [z f7 1.3 2.0] No! Queen takes f7, check. The king [m Kh7] goes to h7, and the queen [m Qxg7# mat] [x ding] takes g7: checkmate! Taking [f d7d8 h4d8] the rook loses [s tag d8 2.0 BAIT] the queen. So when a rook [p """ + TB + """] is free, [f d7d8] with check, always wonder:"""),
+"fourchette_g5_1": ("blancs", "Which pawn|takes on g5?",
+"""[p """ + GA + """] Which [m g5] pawn [f f4g5 h4g5] takes [s tag g5 1.6 WHICH_PAWN?] on g5? [h] [m fxg5 brillant] [z g5 1.3 2.0] The f pawn takes! The black king [m Kc2] runs, but the h pawn [m h5] runs faster. [m Kd3] Again, [m h6] and again. [m Ke3] Still [m h7] too late, [m Kf2] and the pawn [m h8=Q] [x ding] [z h8 1.3 2.0] queens! If the h pawn [f h4g5] takes, [s tag g5 2.0 ONLY_A_DRAW] it's only a draw. Analyze your own game, free. So when [p """ + GB + """] two pawns [f f4g5 h4g5] can take, think first:"""),
+"tour_attaquee_f7_1": ("blancs", "Take his rook,|or run?",
+"""[p """ + RA + """] Take [m Rb6] his [f b6f6] rook, [s tag f6 1.6 ROOK_ATTACKED] or run? [h] [m Rxf7+ brillant] [z f7 1.3 2.0] Neither! Rook takes f7, check. The king [m Kg8] goes to g8, the rook [m Rf8+] checks on f8, the king [m Kg7] comes back, and the queen [m Qf7# mat] [x ding] [z f7 1.3 2.0] mates on f7! Taking [f f6b6] his rook [s tag b6 2.0 ONLY_EQUAL] is only equal. So when your [p """ + RB + """] rook [f b6f6] is attacked, look at every check before you ask:"""),
+"pions_attaques_1_fr": ("blancs", "Quel pion|prend en premier ?",
+"""[p """ + PA + """] Quel [m d5] pion [f h7g6 d5e4] prend [s tag e4 1.6 DEUX_ATTAQUÉS] en premier ? [h] [m gxh7 brillant] [z h7 1.3 2.0] Le pion prend h7 ! Le roi file [m Ke7] en e7, et le pion [m h8=Q] [x ding] devient dame ! Prendre [f e4d5] en d5 [s tag d5 2.0 SEULEMENT_NULLE] ne fait que nulle. Alors, quand [p """ + PB + """] tes deux pions [f h7g6 d5e4] sont attaqués, demande-toi :"""),
+"tour_attaquee_f7_1_fr": ("blancs", "Tu prends sa tour,|ou tu fuis ?",
+"""[p """ + RA + """] Tu [m Rb6] prends [f b6f6] sa tour, [s tag f6 1.6 TOUR_ATTAQUÉE] ou tu fuis ? [h] [m Rxf7+ brillant] [z f7 1.3 2.0] Aucun des deux ! La tour prend f7, échec. Le roi [m Kg8] va en g8, la tour [m Rf8+] donne échec en f8, le roi [m Kg7] revient, et la dame [m Qf7# mat] [x ding] [z f7 1.3 2.0] fait mat en f7 ! Prendre [f f6b6] sa tour [s tag b6 2.0 ÉGALITÉ] ne fait qu'égaliser. Alors, quand ta [p """ + RB + """] tour [f b6f6] est attaquée, regarde tous les échecs avant de te demander :"""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
+QUESTIONS.update({
+    "pions_attaques_1": "Which pawn|takes first?",
+    "tour_gratuite_1": "Should you|take this rook?",
+    "fourchette_g5_1": "Analyze your game|blundercheck.app/try",
+    "tour_attaquee_f7_1": "Take his rook,|or run?",
+    "pions_attaques_1_fr": "Quel pion|prend en premier ?",
+    "tour_attaquee_f7_1_fr": "Tu prends sa tour,|ou tu fuis ?",
+})
