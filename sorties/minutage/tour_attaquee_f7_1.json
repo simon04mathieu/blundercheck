@@ -1,14 +1,14 @@
 {
  "nom": "tour_attaquee_f7_1",
  "tempo": 1.0,
- "duree_s": 20.54,
+ "duree_s": 20.52,
  "hook": {
   "texte": "Take his rook,|or run?",
-  "fin": 2.34
+  "fin": 2.32
  },
  "question": {
   "texte": "Take his rook,|or run?",
-  "t": 17.34
+  "t": 17.32
  },
  "phrases": [
   {
@@ -16,7 +16,7 @@
    "texte": "Take his rook or run?"
   },
   {
-   "t": 2.34,
+   "t": 2.32,
    "texte": "Neither!"
   },
   {
@@ -28,7 +28,7 @@
    "texte": "The king goes to g8 the rook checks on f8 the king comes back and the queen mates on f7!"
   },
   {
-   "t": 14.12,
+   "t": 14.1,
    "texte": "Taking his rook is only equal."
   },
   {
@@ -38,17 +38,17 @@
  ],
  "coups": [
   {
-   "t": 0.2,
+   "t": 0.22,
    "coup": "Rb6",
    "badge": null
   },
   {
-   "t": 2.34,
+   "t": 2.32,
    "coup": "Rxf7+",
    "badge": "brillant"
   },
   {
-   "t": 6.54,
+   "t": 6.52,
    "coup": "Kg8",
    "badge": null
   },
@@ -75,7 +75,7 @@
    "type": "position"
   },
   {
-   "t": 0.2,
+   "t": 0.22,
    "type": "coup"
   },
   {
@@ -87,11 +87,11 @@
    "type": "sticker"
   },
   {
-   "t": 2.34,
+   "t": 2.32,
    "type": "coup"
   },
   {
-   "t": 2.34,
+   "t": 2.32,
    "type": "zoom"
   },
   {
@@ -99,7 +99,7 @@
    "type": "fleches"
   },
   {
-   "t": 6.54,
+   "t": 6.52,
    "type": "coup"
   },
   {
@@ -132,6 +132,10 @@
   },
   {
    "t": 17.4,
+   "type": "fleches"
+  },
+  {
+   "t": 18.94,
    "type": "fleches"
   }
  ]
