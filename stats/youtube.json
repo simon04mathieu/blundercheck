@@ -1,5 +1,5 @@
 {
- "date": "2026-11-13T16:41:06.242425+00:00",
+ "date": "2026-11-13T16:55:02.742291+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -12,8 +12,8 @@
    "publiee": "2026-11-13T15:30:25Z",
    "statut": "public",
    "duree": "PT23S",
-   "vues": 25,
-   "jaime": 1,
+   "vues": 138,
+   "jaime": 2,
    "commentaires": 0
   },
   "ypdgPislpaA": {
@@ -30,8 +30,8 @@
    "publiee": "2026-11-13T09:59:20Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 1697,
-   "jaime": 8,
+   "vues": 1705,
+   "jaime": 9,
    "commentaires": 3
   },
   "dtccySA-8Jc": {
@@ -39,7 +39,7 @@
    "publiee": "2026-11-12T18:39:40Z",
    "statut": "public",
    "duree": "PT38S",
-   "vues": 1018,
+   "vues": 1002,
    "jaime": 14,
    "commentaires": 0
   },
@@ -66,7 +66,7 @@
    "publiee": "2026-11-12T10:00:41Z",
    "statut": "public",
    "duree": "PT30S",
-   "vues": 1637,
+   "vues": 1617,
    "jaime": 12,
    "commentaires": 4
   },
@@ -75,8 +75,8 @@
    "publiee": "2026-11-11T18:40:30Z",
    "statut": "public",
    "duree": "PT26S",
-   "vues": 1207,
-   "jaime": 16,
+   "vues": 1200,
+   "jaime": 14,
    "commentaires": 1
   },
   "6N0DtHpgSoQ": {
@@ -102,7 +102,7 @@
    "publiee": "2026-11-11T09:59:18Z",
    "statut": "public",
    "duree": "PT30S",
-   "vues": 2540,
+   "vues": 2534,
    "jaime": 19,
    "commentaires": 1
   },
@@ -111,7 +111,7 @@
    "publiee": "2026-11-10T21:20:10Z",
    "statut": "public",
    "duree": "PT36S",
-   "vues": 1168,
+   "vues": 1157,
    "jaime": 16,
    "commentaires": 0
   },
@@ -129,7 +129,7 @@
    "publiee": "2026-11-10T15:29:19Z",
    "statut": "public",
    "duree": "PT31S",
-   "vues": 1054,
+   "vues": 1053,
    "jaime": 12,
    "commentaires": 3
   },
@@ -147,7 +147,7 @@
    "publiee": "2026-11-09T20:40:33Z",
    "statut": "public",
    "duree": "PT46S",
-   "vues": 1103,
+   "vues": 1100,
    "jaime": 10,
    "commentaires": 2
   },
@@ -174,7 +174,7 @@
    "publiee": "2026-11-09T14:45:46Z",
    "statut": "public",
    "duree": "PT42S",
-   "vues": 2052,
+   "vues": 2051,
    "jaime": 32,
    "commentaires": 2
   },
