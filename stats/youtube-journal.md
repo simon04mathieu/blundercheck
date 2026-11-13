@@ -783,3 +783,6 @@
 {"id": "d75yELLbxjI", "url": "https://www.youtube.com/shorts/d75yELLbxjI", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "115"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "116"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "116"}
+### 2026-11-13 13:06 publications/youtube/tour_gratuite_1.json
+{"id": "ypdgPislpaA", "url": "https://www.youtube.com/shorts/ypdgPislpaA", "statut": "public", "publier_le": null}
