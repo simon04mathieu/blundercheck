@@ -1,0 +1,27 @@
+{
+ "legende": "Take his rook, or run? 👇 Only 1.Rxf7+! wins (mate in 3); 1.Rxb6 is only equal (Stockfish 16, composed position). One new puzzle every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=facebook-en\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-13T19:00:00+01:00",
+ "fichier": "sorties/tour_attaquee_f7_1.mp4",
+ "concept": "tour_attaquee_f7",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 20.5,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 20,
+  "musique": "aucune",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "tour_attaquee_echec_f7",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "ni_prendre_ni_fuir",
+  "pieces": 11,
+  "look": "ardoise",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

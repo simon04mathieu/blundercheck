@@ -1,0 +1,28 @@
+{
+ "legende": "Tu prends sa tour, ou tu fuis ? 👇 Seul 1.Txf7+ ! gagne (mat en 3) ; 1.Txb6 ne fait qu'égaliser (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-13T19:00:00+01:00",
+ "fichier": "sorties/tour_attaquee_f7_1_fr.mp4",
+ "concept": "tour_attaquee_f7",
+ "format": "TACTIQUE",
+ "langue": "fr",
+ "duree": 23.3,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "fr",
+  "duree_s": 23,
+  "musique": "aucune",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "tour_attaquee_echec_f7",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "ni_prendre_ni_fuir",
+  "pieces": 11,
+  "look": "corail",
+  "fx": "fleches+zoom+tag+ding"
+ },
+ "paire": "tour_attaquee_f7_1"
+}

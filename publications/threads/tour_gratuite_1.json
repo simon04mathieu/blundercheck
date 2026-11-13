@@ -1,0 +1,27 @@
+{
+ "legende": "Would you have taken the rook? 👇 Only 1.Qxf7+! wins (mate in 2); 1.Qxd8+ Qxd8 loses the queen (Stockfish 16, composed position). One new puzzle every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=threads-en\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-13T13:00:00+01:00",
+ "fichier": "sorties/tour_gratuite_1.mp4",
+ "concept": "tour_gratuite",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 16.8,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 17,
+  "musique": "aucune",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "tour_appat_echec_f7",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "appat_avec_echec",
+  "pieces": 11,
+  "look": "mono",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

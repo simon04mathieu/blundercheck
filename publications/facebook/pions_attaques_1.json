@@ -1,0 +1,27 @@
+{
+ "legende": "Which pawn takes first? 👇 Only 1.gxh7! wins; 1.exd5 and 1.g7+ are draws (Stockfish 16, composed position). One new puzzle every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=facebook-en\n\n#chess #chessendgame #chesspuzzle",
+ "envoyer_apres": "2026-11-13T10:00:00+01:00",
+ "fichier": "sorties/pions_attaques_1.mp4",
+ "concept": "pions_attaques",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 14.1,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 14,
+  "musique": "aucune",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "deux_pions_attaques_prise_gagnante",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prise_qui_promeut",
+  "pieces": 6,
+  "look": "papier",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

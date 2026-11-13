@@ -1,0 +1,27 @@
+{
+ "legende": "Which pawn takes? 👇 Only 1.fxg5! wins; 1.hxg5 is a draw (Stockfish 16, composed position). One new puzzle every day.\n\nAnalyze your own game, free: link in bio\n\n#chess #chessendgame #chesspuzzle",
+ "envoyer_apres": "2026-11-13T16:00:00+01:00",
+ "fichier": "sorties/fourchette_g5_1.mp4",
+ "concept": "fourchette_g5",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 22.0,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 22,
+  "musique": "aucune",
+  "voix": "oui",
+  "appel_site": "oui",
+  "fin": "boucle",
+  "motif": "deux_prises_possibles_pion_passe",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "bonne_prise_cree_pion_passe",
+  "pieces": 6,
+  "look": "emeraude",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}
