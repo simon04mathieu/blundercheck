@@ -782,3 +782,4 @@
 ### 2026-11-13 09:59 publications/youtube/pions_attaques_1.json
 {"id": "d75yELLbxjI", "url": "https://www.youtube.com/shorts/d75yELLbxjI", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "115"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "116"}
