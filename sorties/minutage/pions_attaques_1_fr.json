@@ -1,0 +1,108 @@
+{
+ "nom": "pions_attaques_1_fr",
+ "tempo": 1.0,
+ "duree_s": 15.06,
+ "hook": {
+  "texte": "Quel pion|prend en premier ?",
+  "fin": 2.24
+ },
+ "question": {
+  "texte": "Quel pion|prend en premier ?",
+  "t": 11.86
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Quel pion prend en premier ?"
+  },
+  {
+   "t": 2.24,
+   "texte": "Le pion prend h7 !"
+  },
+  {
+   "t": 4.62,
+   "texte": "Le roi file en e7 et le pion devient dame !"
+  },
+  {
+   "t": 8.8,
+   "texte": "Prendre en d5 ne fait que nulle."
+  },
+  {
+   "t": 11.72,
+   "texte": "Alors, quand tes deux pions sont attaqués, demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.22,
+   "coup": "d5",
+   "badge": null
+  },
+  {
+   "t": 2.24,
+   "coup": "gxh7",
+   "badge": "brillant"
+  },
+  {
+   "t": 5.32,
+   "coup": "Ke7",
+   "badge": null
+  },
+  {
+   "t": 6.94,
+   "coup": "h8=Q",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.22,
+   "type": "coup"
+  },
+  {
+   "t": 0.64,
+   "type": "fleches"
+  },
+  {
+   "t": 0.92,
+   "type": "sticker"
+  },
+  {
+   "t": 2.24,
+   "type": "coup"
+  },
+  {
+   "t": 2.24,
+   "type": "zoom"
+  },
+  {
+   "t": 5.32,
+   "type": "coup"
+  },
+  {
+   "t": 6.94,
+   "type": "coup"
+  },
+  {
+   "t": 9.38,
+   "type": "fleches"
+  },
+  {
+   "t": 10.06,
+   "type": "sticker"
+  },
+  {
+   "t": 12.49,
+   "type": "position"
+  },
+  {
+   "t": 13.22,
+   "type": "fleches"
+  }
+ ]
+}
