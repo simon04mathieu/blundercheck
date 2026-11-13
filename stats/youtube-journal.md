@@ -796,3 +796,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "116"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "116"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "116"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "116"}
+### 2026-11-13 18:36 publications/youtube/tour_attaquee_f7_1.json
+{"id": "9NP32Q23Sw4", "url": "https://www.youtube.com/shorts/9NP32Q23Sw4", "statut": "public", "publier_le": null}
