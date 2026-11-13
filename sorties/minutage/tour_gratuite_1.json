@@ -38,7 +38,7 @@
  ],
  "coups": [
   {
-   "t": 0.18,
+   "t": 0.34,
    "coup": "Rd8",
    "badge": null
   },
@@ -65,15 +65,15 @@
    "type": "position"
   },
   {
-   "t": 0.18,
+   "t": 0.34,
    "type": "coup"
   },
   {
-   "t": 0.34,
+   "t": 0.54,
    "type": "fleches"
   },
   {
-   "t": 0.54,
+   "t": 0.74,
    "type": "sticker"
   },
   {
@@ -85,12 +85,20 @@
    "type": "zoom"
   },
   {
+   "t": 4.32,
+   "type": "fleches"
+  },
+  {
    "t": 5.94,
    "type": "coup"
   },
   {
    "t": 7.78,
    "type": "coup"
+  },
+  {
+   "t": 9.68,
+   "type": "sticker"
   },
   {
    "t": 11.22,
