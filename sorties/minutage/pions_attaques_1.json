@@ -1,0 +1,108 @@
+{
+ "nom": "pions_attaques_1",
+ "tempo": 1.0,
+ "duree_s": 14.12,
+ "hook": {
+  "texte": "Which pawn|takes first?",
+  "fin": 2.16
+ },
+ "question": {
+  "texte": "Which pawn|takes first?",
+  "t": 10.92
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which pawn takes first?"
+  },
+  {
+   "t": 2.16,
+   "texte": "Pawn takes h7!"
+  },
+  {
+   "t": 4.3,
+   "texte": "The king runs to e7 and the pawn queens!"
+  },
+  {
+   "t": 7.94,
+   "texte": "Taking on d5 only draws."
+  },
+  {
+   "t": 10.86,
+   "texte": "So when both your pawns are attacked, ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.2,
+   "coup": "d5",
+   "badge": null
+  },
+  {
+   "t": 2.16,
+   "coup": "gxh7",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.6,
+   "coup": "Ke7",
+   "badge": null
+  },
+  {
+   "t": 6.64,
+   "coup": "h8=Q",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.2,
+   "type": "coup"
+  },
+  {
+   "t": 0.5,
+   "type": "fleches"
+  },
+  {
+   "t": 0.8,
+   "type": "sticker"
+  },
+  {
+   "t": 2.16,
+   "type": "coup"
+  },
+  {
+   "t": 2.16,
+   "type": "zoom"
+  },
+  {
+   "t": 4.6,
+   "type": "coup"
+  },
+  {
+   "t": 6.64,
+   "type": "coup"
+  },
+  {
+   "t": 8.36,
+   "type": "fleches"
+  },
+  {
+   "t": 9.12,
+   "type": "sticker"
+  },
+  {
+   "t": 11.27,
+   "type": "position"
+  },
+  {
+   "t": 12.24,
+   "type": "fleches"
+  }
+ ]
+}
