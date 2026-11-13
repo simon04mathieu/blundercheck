@@ -95,8 +95,12 @@
    "type": "zoom"
   },
   {
-   "t": 6.0,
+   "t": 4.54,
    "type": "fleches"
+  },
+  {
+   "t": 6.0,
+   "type": "sticker"
   },
   {
    "t": 7.58,

@@ -892,3 +892,8 @@
 ### commandes/perso_tour_attaquee_f7_1_fr.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_attaquee_f7_1_fr.mp4 {"voix_brute_s": 23.0, "tempo": 1.0, "video_s": 23.9, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 59, "minutage": "6 phrases, 6 coups, 0 pauses"}
+## 2026-11-13 00:22 UTC · run 43336445417
+### commandes/perso_tour_attaquee_f7_1_fr.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/tour_attaquee_f7_1_fr.mp4 {"voix_brute_s": 23.0, "tempo": 1.0, "video_s": 23.9, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 59, "minutage": "6 phrases, 6 coups, 0 pauses"}
