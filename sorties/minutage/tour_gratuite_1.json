@@ -1,0 +1,112 @@
+{
+ "nom": "tour_gratuite_1",
+ "tempo": 1.0,
+ "duree_s": 16.76,
+ "hook": {
+  "texte": "Should you|take this rook?",
+  "fin": 2.02
+ },
+ "question": {
+  "texte": "Should you|take this rook?",
+  "t": 13.56
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Should you take this rook?"
+  },
+  {
+   "t": 2.02,
+   "texte": "No!"
+  },
+  {
+   "t": 2.98,
+   "texte": "Queen takes f7 check."
+  },
+  {
+   "t": 5.62,
+   "texte": "The king goes to h7 and the queen takes g7 checkmate!"
+  },
+  {
+   "t": 10.86,
+   "texte": "Taking the rook loses the queen."
+  },
+  {
+   "t": 13.4,
+   "texte": "So when a rook is free with check, always wonder"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.18,
+   "coup": "Rd8",
+   "badge": null
+  },
+  {
+   "t": 2.02,
+   "coup": "Qxf7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 5.94,
+   "coup": "Kh7",
+   "badge": null
+  },
+  {
+   "t": 7.78,
+   "coup": "Qxg7#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.18,
+   "type": "coup"
+  },
+  {
+   "t": 0.34,
+   "type": "fleches"
+  },
+  {
+   "t": 0.54,
+   "type": "sticker"
+  },
+  {
+   "t": 2.02,
+   "type": "coup"
+  },
+  {
+   "t": 2.02,
+   "type": "zoom"
+  },
+  {
+   "t": 5.94,
+   "type": "coup"
+  },
+  {
+   "t": 7.78,
+   "type": "coup"
+  },
+  {
+   "t": 11.22,
+   "type": "fleches"
+  },
+  {
+   "t": 12.06,
+   "type": "sticker"
+  },
+  {
+   "t": 14.01,
+   "type": "position"
+  },
+  {
+   "t": 14.92,
+   "type": "fleches"
+  }
+ ]
+}

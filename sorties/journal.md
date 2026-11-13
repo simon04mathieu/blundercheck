@@ -864,3 +864,6 @@
 ### commandes/perso_tour_attaquee_f7_1_fr.json
     voix générée : 280 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_attaquee_f7_1_fr.mp4 {"voix_brute_s": 23.0, "tempo": 1.0, "video_s": 23.9, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 59, "minutage": "6 phrases, 6 coups, 0 pauses"}
+### commandes/perso_tour_gratuite_1.json
+    voix générée : 193 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/tour_gratuite_1.mp4 {"voix_brute_s": 16.8, "tempo": 1.0, "video_s": 17.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 37, "minutage": "6 phrases, 4 coups, 0 pauses"}
