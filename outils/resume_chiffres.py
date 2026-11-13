@@ -122,6 +122,48 @@ def categories(jours=7):
         print(f"| {cat} | {len(l)} | {m:.0f} | {100 * m / moy:.0f} %{alerte} | {', '.join(map(str, jeunes.get(cat, []))) or '–'} |")
 
 
+def j0_j1(jours=10):
+    """Tableau J0/J1 (marketing/suivi-j0-j1.md, intégré le 13/11) : vues YouTube des 24 premières heures (J0), des 24 suivantes (J1),
+    ratio J1/J0 et total, par vidéo des `jours` derniers jours. Vues interpolées entre deux relevés git de stats/youtube.json ; manque = n/a."""
+    import datetime as dt
+    maint = lire("youtube")
+    if not maint: return
+    log = subprocess.run(["git", "-C", ROOT, "log", "--format=%H %ct", f"--since={jours + 3} days ago", "--", "stats/youtube.json"],
+                         capture_output=True, text=True).stdout.split()
+    snaps, dernier = [], 0
+    for h, t in sorted(zip(log[::2], map(int, log[1::2])), key=lambda x: x[1]):
+        if t - dernier < 2.5 * 3600: continue
+        o = subprocess.run(["git", "-C", ROOT, "show", f"{h}:stats/youtube.json"], capture_output=True, text=True)
+        try: snaps.append((t, json.loads(o.stdout).get("videos", {}))); dernier = t
+        except Exception: pass
+    def at(k, t):
+        prev = None
+        for T, s in snaps:
+            if k not in s: continue
+            v = int(s[k].get("vues") or 0)
+            if T >= t:
+                if prev is None: return None
+                T0, v0 = prev; return v0 + (v - v0) * (t - T0) / max(T - T0, 1)
+            prev = (T, v)
+        return None
+    now = dt.datetime.now(dt.timezone.utc).timestamp(); rows = []
+    for k, v in maint.get("videos", {}).items():
+        if not v.get("publiee"): continue
+        pub = dt.datetime.fromisoformat(v["publiee"].replace("Z", "+00:00")).timestamp()
+        if now - pub > jours * 86400: continue
+        a, b = at(k, pub + 86400), at(k, pub + 2 * 86400)
+        rows.append((pub, v.get("titre", "")[:50], a, b, int(v.get("vues") or 0)))
+    if not rows: return
+    f = lambda x: "n/a" if x is None else f"{x:.0f}"
+    print(f"\nJ0/J1 (YouTube, {jours} derniers jours ; J0 = vues des 24 premières heures, J1 = des 24 suivantes) :")
+    print("| Publiée (UTC) | J0 | J1 | J1/J0 | Total | Titre |\n|---|---|---|---|---|---|")
+    for pub, ti, a, b, tot in sorted(rows):
+        j1 = None if a is None or b is None else b - a
+        r = f"{j1 / a:.2f}" if j1 is not None and a else "–"
+        print(f"| {dt.datetime.fromtimestamp(pub, dt.timezone.utc):%d/%m %H:%M} | {f(a)} | {f(j1)} | {r} | {tot} | {ti} |")
+
+
 if __name__ == "__main__":
     main()
     categories()
+    j0_j1()
