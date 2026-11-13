@@ -1,0 +1,134 @@
+{
+ "nom": "tour_attaquee_f7_1_fr",
+ "tempo": 1.0,
+ "duree_s": 23.3,
+ "hook": {
+  "texte": "Tu prends sa tour,|ou tu fuis ?",
+  "fin": 2.48
+ },
+ "question": {
+  "texte": "Tu prends sa tour,|ou tu fuis ?",
+  "t": 20.1
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Tu prends sa tour ou tu fuis ?"
+  },
+  {
+   "t": 2.48,
+   "texte": "Aucun des deux !"
+  },
+  {
+   "t": 4.1,
+   "texte": "La tour prend f7 échec."
+  },
+  {
+   "t": 7.38,
+   "texte": "Le roi va en g8 la tour donne échec en f8 le roi revient et la dame fait mat en f7 !"
+  },
+  {
+   "t": 15.68,
+   "texte": "Prendre sa tour ne fait qu'égaliser."
+  },
+  {
+   "t": 18.22,
+   "texte": "Alors, quand ta tour est attaquée regarde tous les échecs avant de te demander "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.18,
+   "coup": "Rb6",
+   "badge": null
+  },
+  {
+   "t": 2.48,
+   "coup": "Rxf7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 7.88,
+   "coup": "Kg8",
+   "badge": null
+  },
+  {
+   "t": 9.5,
+   "coup": "Rf8+",
+   "badge": null
+  },
+  {
+   "t": 11.86,
+   "coup": "Kg7",
+   "badge": null
+  },
+  {
+   "t": 13.2,
+   "coup": "Qf7#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.18,
+   "type": "coup"
+  },
+  {
+   "t": 0.38,
+   "type": "fleches"
+  },
+  {
+   "t": 1.26,
+   "type": "sticker"
+  },
+  {
+   "t": 2.48,
+   "type": "coup"
+  },
+  {
+   "t": 2.48,
+   "type": "zoom"
+  },
+  {
+   "t": 7.88,
+   "type": "coup"
+  },
+  {
+   "t": 9.5,
+   "type": "coup"
+  },
+  {
+   "t": 11.86,
+   "type": "coup"
+  },
+  {
+   "t": 13.2,
+   "type": "coup"
+  },
+  {
+   "t": 13.2,
+   "type": "zoom"
+  },
+  {
+   "t": 16.16,
+   "type": "fleches"
+  },
+  {
+   "t": 16.68,
+   "type": "sticker"
+  },
+  {
+   "t": 19.19,
+   "type": "position"
+  },
+  {
+   "t": 19.42,
+   "type": "fleches"
+  }
+ ]
+}
