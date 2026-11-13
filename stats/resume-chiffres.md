@@ -1,41 +1,40 @@
 # Résumé des chiffres
 
-Généré le 2026-11-13 20:38 (Zurich) par GitHub Actions, commit bcb29c4.
+Généré le 2026-11-13 21:36 (Zurich) par GitHub Actions, commit 7f86ea3.
 
 Vues sur 24 h (relevés stats/, différence avec le relevé d'il y a ≥ 24 h)
 
 | Réseau | Vues | Abonnés (variation) | Vidéos suivies |
 |---|---|---|---|
-| youtube | +9070 | 116 (+2) | 103 |
-| tiktok-en | +14389 | 39 (+3) | 72 |
-| tiktok | +1739 | 18 (+0) | 54 |
+| youtube | +9100 | 116 (+2) | 103 |
+| tiktok-en | +14455 | 39 (+3) | 72 |
+| tiktok | +1776 | 18 (+0) | 54 |
 | instagram | +397 | 6 (+0) | 30 |
 | facebook | +0 | 0 (+0) | 30 |
 | threads | +8 | 0 (+0) | 30 |
 
-Total : +25603 vues.
+Total : +25736 vues.
 
 Meilleures vidéos (vues gagnées) :
-- +4800 · tiktok-en · #BlunderCheck 
-- +4698 · tiktok-en · #BlunderCheck 
-- +3121 · tiktok-en · #BlunderCheck 
-- +2183 · youtube · Both pawns are attacked. Which one takes? ♟️ #chess #shorts
-- +1407 · youtube · White leaves his queen hanging. Why? ♟️ #chess #shorts
+- +4803 · tiktok-en · #BlunderCheck 
+- +4700 · tiktok-en · #BlunderCheck 
+- +3181 · tiktok-en · #BlunderCheck 
+- +2212 · youtube · Both pawns are attacked. Which one takes? ♟️ #chess #shorts
+- +1359 · youtube · White leaves his queen hanging. Why? ♟️ #chess #shorts
 
-Par catégorie (YouTube EN, 7 derniers jours, vues à 48 h ; moyenne 2953, médiane 1308 sur 21 vidéos ; règle 17 = moyenne) :
+Par catégorie (YouTube EN, 7 derniers jours, vues à 48 h ; moyenne 3100, médiane 1471 sur 20 vidéos ; règle 17 = moyenne) :
 | Catégorie | Vidéos | Moyenne à 48 h | % de la moyenne | Jeunes (< 48 h, vues actuelles) |
 |---|---|---|---|---|
-| finale | 7 | 5628 | 191 % | 838, 2183, 1044, 1637 |
-| tactique | 4 | 2588 | 88 % | 20, 1234 |
-| piege | 3 | 1306 | 44 % ⚠ < 50 % | – |
-| histoire | 6 | 1220 | 41 % ⚠ < 50 % | 2748 |
-| strategie | 1 | 1034 | 35 % ⚠ < 50 % | – |
+| finale | 7 | 5628 | 182 % | 986, 2212, 1044, 1637 |
+| tactique | 3 | 3445 | 111 % | 87, 1234 |
+| piege | 3 | 1306 | 42 % ⚠ < 50 % | – |
+| histoire | 6 | 1220 | 39 % ⚠ < 50 % | 2748 |
+| strategie | 1 | 1034 | 33 % ⚠ < 50 % | – |
 | ? | 0 | 0 | 0 % | 1069 |
 
 J0/J1 (YouTube, 10 derniers jours ; J0 = vues des 24 premières heures, J1 = des 24 suivantes) :
 | Publiée (UTC) | J0 | J1 | J1/J0 | Total | Titre |
 |---|---|---|---|---|---|
-| 03/11 20:33 | 909 | 252 | 0.28 | 1257 | Don't make a queen! ♟️ #chess #shorts |
 | 04/11 14:16 | 1125 | 701 | 0.62 | 3302 | Would you kick this knight? ♟️ #chess #shorts |
 | 04/11 16:42 | 1745 | 800 | 0.46 | 3906 | Can your king catch both pawns? ♟️ #chess #shorts |
 | 04/11 18:41 | 1149 | 688 | 0.60 | 2265 | White castled. Can you win a piece? ♟️ #chess #sho |
@@ -72,7 +71,7 @@ J0/J1 (YouTube, 10 derniers jours ; J0 = vues des 24 premières heures, J1 = des
 | 12/11 13:09 | 2452 | n/a | – | 2748 | White leaves his queen hanging. Why? ♟️ #chess #sh |
 | 12/11 15:40 | 1051 | n/a | – | 1069 | What is this elo? ♟️ #chess #shorts |
 | 12/11 18:39 | n/a | n/a | – | 1044 | His king attacks your pawn. Save it and win? ♟️ #c |
-| 13/11 09:59 | n/a | n/a | – | 2183 | Both pawns are attacked. Which one takes? ♟️ #ches |
+| 13/11 09:59 | n/a | n/a | – | 2212 | Both pawns are attacked. Which one takes? ♟️ #ches |
 | 13/11 13:06 | n/a | n/a | – | 1234 | A free rook, with check. Do you take it? ♟️ #chess |
-| 13/11 15:30 | n/a | n/a | – | 838 | Two pawns can take on g5. Which one? ♟️ #chess #sh |
-| 13/11 18:37 | n/a | n/a | – | 20 | His rook attacks yours. Take it, or run? ♟️ #chess |
+| 13/11 15:30 | n/a | n/a | – | 986 | Two pawns can take on g5. Which one? ♟️ #chess #sh |
+| 13/11 18:37 | n/a | n/a | – | 87 | His rook attacks yours. Take it, or run? ♟️ #chess |
