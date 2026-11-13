@@ -150,3 +150,5 @@
 {"reseau": "facebook", "id": "2966160240409346", "ok": true}
 ### 2026-11-12 18:48 publications/facebook/pion_d5_c6_1.json
 {"reseau": "facebook", "id": "1455894109859783", "ok": true}
+### 2026-11-13 09:05 publications/facebook/pions_attaques_1.json
+{"reseau": "facebook", "id": "963490603185479", "ok": true}
