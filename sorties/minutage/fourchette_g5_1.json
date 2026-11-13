@@ -1,0 +1,178 @@
+{
+ "nom": "fourchette_g5_1",
+ "tempo": 1.0,
+ "duree_s": 21.98,
+ "hook": {
+  "texte": "Which pawn|takes on g5?",
+  "fin": 2.98
+ },
+ "question": {
+  "texte": "Analyze your game|blundercheck.app/try",
+  "t": 18.78
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which pawn takes on g5?"
+  },
+  {
+   "t": 2.98,
+   "texte": "The f pawn takes!"
+  },
+  {
+   "t": 4.68,
+   "texte": "The black king runs but the h pawn runs faster."
+  },
+  {
+   "t": 8.42,
+   "texte": "Again, and again."
+  },
+  {
+   "t": 10.18,
+   "texte": "Still too late and the pawn queens!"
+  },
+  {
+   "t": 13.22,
+   "texte": "If the h pawn takes it's only a draw."
+  },
+  {
+   "t": 16.4,
+   "texte": "Analyze your own game free."
+  },
+  {
+   "t": 18.16,
+   "texte": "So when two pawns can take think first"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.22,
+   "coup": "g5",
+   "badge": null
+  },
+  {
+   "t": 2.98,
+   "coup": "fxg5",
+   "badge": "brillant"
+  },
+  {
+   "t": 5.3,
+   "coup": "Kc2",
+   "badge": null
+  },
+  {
+   "t": 6.8,
+   "coup": "h5",
+   "badge": null
+  },
+  {
+   "t": 8.42,
+   "coup": "Kd3",
+   "badge": null
+  },
+  {
+   "t": 8.76,
+   "coup": "h6",
+   "badge": null
+  },
+  {
+   "t": 10.18,
+   "coup": "Ke3",
+   "badge": null
+  },
+  {
+   "t": 10.48,
+   "coup": "h7",
+   "badge": null
+  },
+  {
+   "t": 11.3,
+   "coup": "Kf2",
+   "badge": null
+  },
+  {
+   "t": 11.8,
+   "coup": "h8=Q",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.22,
+   "type": "coup"
+  },
+  {
+   "t": 0.54,
+   "type": "fleches"
+  },
+  {
+   "t": 0.84,
+   "type": "sticker"
+  },
+  {
+   "t": 2.98,
+   "type": "coup"
+  },
+  {
+   "t": 2.98,
+   "type": "zoom"
+  },
+  {
+   "t": 5.3,
+   "type": "coup"
+  },
+  {
+   "t": 6.8,
+   "type": "coup"
+  },
+  {
+   "t": 8.42,
+   "type": "coup"
+  },
+  {
+   "t": 8.76,
+   "type": "coup"
+  },
+  {
+   "t": 10.18,
+   "type": "coup"
+  },
+  {
+   "t": 10.48,
+   "type": "coup"
+  },
+  {
+   "t": 11.3,
+   "type": "coup"
+  },
+  {
+   "t": 11.8,
+   "type": "coup"
+  },
+  {
+   "t": 11.8,
+   "type": "zoom"
+  },
+  {
+   "t": 14.16,
+   "type": "fleches"
+  },
+  {
+   "t": 14.72,
+   "type": "sticker"
+  },
+  {
+   "t": 19.57,
+   "type": "position"
+  },
+  {
+   "t": 20.34,
+   "type": "fleches"
+  }
+ ]
+}
