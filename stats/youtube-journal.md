@@ -829,3 +829,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "117"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "117"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "117"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "117"}
+### 2026-11-14 15:16 publications/youtube/roi_defend_d5_1.json
+{"id": "5ZI9JxMRu7Y", "url": "https://www.youtube.com/shorts/5ZI9JxMRu7Y", "statut": "public", "publier_le": null}
