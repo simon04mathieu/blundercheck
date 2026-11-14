@@ -46,7 +46,7 @@
  ],
  "coups": [
   {
-   "t": 0.16,
+   "t": 0.28,
    "coup": "Ke5",
    "badge": null
   },
@@ -73,11 +73,11 @@
    "type": "position"
   },
   {
-   "t": 0.16,
+   "t": 0.28,
    "type": "coup"
   },
   {
-   "t": 0.28,
+   "t": 0.52,
    "type": "fleches"
   },
   {
@@ -97,12 +97,20 @@
    "type": "zoom"
   },
   {
+   "t": 4.34,
+   "type": "fleches"
+  },
+  {
    "t": 5.82,
    "type": "fleches"
   },
   {
    "t": 6.42,
    "type": "sticker"
+  },
+  {
+   "t": 7.74,
+   "type": "fleches"
   },
   {
    "t": 9.16,
@@ -115,6 +123,10 @@
   {
    "t": 10.48,
    "type": "fleches"
+  },
+  {
+   "t": 11.86,
+   "type": "sticker"
   },
   {
    "t": 14.04,
