@@ -821,3 +821,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "116"}
 ### 2026-11-14 09:46 publications/youtube/pion_c4_1.json
 {"id": "ApWO3lG8rrI", "url": "https://www.youtube.com/shorts/ApWO3lG8rrI", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "116"}
