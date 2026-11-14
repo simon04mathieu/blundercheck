@@ -1,0 +1,140 @@
+{
+ "nom": "dames_face_e7_1",
+ "tempo": 1.0,
+ "duree_s": 20.34,
+ "hook": {
+  "texte": "Take his queen,|or run away?",
+  "fin": 3.16
+ },
+ "question": {
+  "texte": "Take his queen,|or run away?",
+  "t": 17.14
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take his queen or run away?"
+  },
+  {
+   "t": 3.16,
+   "texte": "Neither!"
+  },
+  {
+   "t": 4.22,
+   "texte": "Knight to e7 check."
+  },
+  {
+   "t": 6.66,
+   "texte": "The bishop is pinned so it can't take."
+  },
+  {
+   "t": 9.72,
+   "texte": "Then the queen takes f8 checkmate."
+  },
+  {
+   "t": 12.94,
+   "texte": "Trading queens leaves you down material."
+  },
+  {
+   "t": 16.04,
+   "texte": "So when queens clash find the check first then ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.24,
+   "coup": "Qc4",
+   "badge": null
+  },
+  {
+   "t": 3.16,
+   "coup": "Ne7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 9.72,
+   "coup": "Kh8",
+   "badge": null
+  },
+  {
+   "t": 10.28,
+   "coup": "Qxf8#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.24,
+   "type": "coup"
+  },
+  {
+   "t": 0.4,
+   "type": "fleches"
+  },
+  {
+   "t": 0.74,
+   "type": "sticker"
+  },
+  {
+   "t": 1.24,
+   "type": "fleches"
+  },
+  {
+   "t": 3.16,
+   "type": "coup"
+  },
+  {
+   "t": 3.16,
+   "type": "zoom"
+  },
+  {
+   "t": 6.78,
+   "type": "fleches"
+  },
+  {
+   "t": 7.22,
+   "type": "sticker"
+  },
+  {
+   "t": 9.72,
+   "type": "coup"
+  },
+  {
+   "t": 9.9,
+   "type": "fleches"
+  },
+  {
+   "t": 10.28,
+   "type": "coup"
+  },
+  {
+   "t": 11.66,
+   "type": "sticker"
+  },
+  {
+   "t": 13.36,
+   "type": "fleches"
+  },
+  {
+   "t": 14.2,
+   "type": "sticker"
+  },
+  {
+   "t": 16.37,
+   "type": "position"
+  },
+  {
+   "t": 16.84,
+   "type": "fleches"
+  },
+  {
+   "t": 18.36,
+   "type": "sticker"
+  }
+ ]
+}
