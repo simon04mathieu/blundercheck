@@ -1,0 +1,34 @@
+{
+ "titre": "Your pawn is attacked. Defend or push? ♟️ #chess #shorts",
+ "description": "Defend or push? 👇 Only 1.Kc5! wins; 1.d6 Kxd6 is a draw (Stockfish 16, composed position). One new puzzle every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=youtube-en\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess endgame",
+  "pawn endgame",
+  "chess puzzle"
+ ],
+ "envoyer_apres": "2026-11-14T16:00:00+01:00",
+ "fichier": "sorties/roi_defend_d5_1.mp4",
+ "concept": "roi_defend_d5",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 19.9,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 20,
+  "musique": "aucune",
+  "voix": "oui",
+  "appel_site": "oui",
+  "fin": "boucle",
+  "motif": "roi_defend_pion",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "defendre_pas_pousser",
+  "pieces": 3,
+  "look": "mono",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

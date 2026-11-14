@@ -1,0 +1,28 @@
+{
+ "legende": "Tu prends sa dame, ou tu fuis ? 👇 Seul 1.Ce7+ ! gagne (mat en 2) ; 1.Dxc4 Txc4 te laisse avec moins de matériel (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-14T19:00:00+01:00",
+ "fichier": "sorties/dames_face_e7_1_fr.mp4",
+ "concept": "dames_face_e7",
+ "format": "TACTIQUE",
+ "langue": "fr",
+ "duree": 21.2,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "fr",
+  "duree_s": 21,
+  "musique": "aucune",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "echec_cavalier_fou_cloue",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "ni_prendre_ni_fuir",
+  "pieces": 14,
+  "look": "bois",
+  "fx": "fleches+zoom+tag+ding"
+ },
+ "paire": "dames_face_e7_1"
+}

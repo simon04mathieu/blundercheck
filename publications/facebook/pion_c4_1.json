@@ -1,0 +1,27 @@
+{
+ "legende": "Which pawn do you take? 👇 Only 1.Kxc4! wins; 1.axb4 loses the race and 1.a6 is a draw (Stockfish 16, composed position). One new puzzle every day.\n\nAnalyze your own game, free: https://blundercheck.app/try?src=facebook-en\n\n#chess #chessendgame #chesspuzzle",
+ "envoyer_apres": "2026-11-14T10:00:00+01:00",
+ "fichier": "sorties/pion_c4_1.mp4",
+ "concept": "pion_c4",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 15.6,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 16,
+  "musique": "aucune",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "deux_pions_en_prise_un_seul",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "bonne_prise_course",
+  "pieces": 6,
+  "look": "ardoise",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}
