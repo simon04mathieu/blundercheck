@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-13T17:31:49Z",
+ "releve": "2026-11-14T17:17:25Z",
  "compte": "blundercheckapp",
  "abonnes": 6,
  "publications": [
+  {
+   "id": "18099494258407219",
+   "caption": "Quel pion prends-tu ? 👇 Seul 1.Rxc4 ! gagne ; 1.axb4 perd la course et 1.a6 ne f",
+   "comments_count": 0,
+   "like_count": 1,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfuQkmSFB3Q/",
+   "timestamp": "2026-11-14T12:58:18+0000",
+   "insights": {
+    "views": 230,
+    "reach": 153,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1
+   }
+  },
+  {
+   "id": "17962566318255909",
+   "caption": "Tu prends sa tour, ou tu fuis ? 👇 Seul 1.Txf7+ ! gagne (mat en 3) ; 1.Txb6 ne fa",
+   "comments_count": 0,
+   "like_count": 0,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfsTkKHCEvS/",
+   "timestamp": "2026-11-13T18:45:53+0000",
+   "insights": {
+    "views": 164,
+    "reach": 132,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0
+   }
+  },
   {
    "id": "18351508084269151",
    "caption": "Quel pion prend en premier ? 👇 Seul 1.gxh7 ! gagne ; 1.exd5 et 1.g7+ ne font que",
@@ -12,8 +44,8 @@
    "permalink": "https://www.instagram.com/reel/Dfrlciikj7z/",
    "timestamp": "2026-11-13T12:03:01+0000",
    "insights": {
-    "views": 221,
-    "reach": 145,
+    "views": 222,
+    "reach": 146,
     "shares": 0,
     "saved": 0,
     "total_interactions": 1
@@ -140,8 +172,8 @@
    "permalink": "https://www.instagram.com/reel/DfhuiH-EfrL/",
    "timestamp": "2026-11-09T16:10:13+0000",
    "insights": {
-    "views": 2173,
-    "reach": 1711,
+    "views": 2180,
+    "reach": 1718,
     "shares": 0,
     "saved": 2,
     "total_interactions": 24
@@ -449,38 +481,6 @@
     "shares": 0,
     "saved": 0,
     "total_interactions": 0
-   }
-  },
-  {
-   "id": "18393842923233922",
-   "caption": "Ton roi a pris un échec. Tu peux encore roquer ? ♟️ Légal ou pas ?\n\n#echecs #che",
-   "comments_count": 0,
-   "like_count": 1,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfFEefvDaCj/",
-   "timestamp": "2026-10-29T13:03:36+0000",
-   "insights": {
-    "views": 264,
-    "reach": 163,
-    "shares": 0,
-    "saved": 1,
-    "total_interactions": 2
-   }
-  },
-  {
-   "id": "18149073514571791",
-   "caption": "Le pigeon du jour #12 🐦 Il mange un pion gratuit… et tu lui mets mat en un coup.",
-   "comments_count": 0,
-   "like_count": 1,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfDOsYLEwD8/",
-   "timestamp": "2026-10-28T19:54:32+0000",
-   "insights": {
-    "views": 205,
-    "reach": 172,
-    "shares": 0,
-    "saved": 1,
-    "total_interactions": 2
    }
   }
  ],
