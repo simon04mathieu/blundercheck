@@ -1,0 +1,132 @@
+{
+ "nom": "mat_couloir_b8_1",
+ "tempo": 1.0,
+ "duree_s": 15.8,
+ "hook": {
+  "texte": "Should you|take his rook?",
+  "fin": 1.78
+ },
+ "question": {
+  "texte": "Should you|take his rook?",
+  "t": 12.6
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Should you take his rook?"
+  },
+  {
+   "t": 1.78,
+   "texte": "No!"
+  },
+  {
+   "t": 2.54,
+   "texte": "Queen to b8 check!"
+  },
+  {
+   "t": 4.68,
+   "texte": "He must take and the rook takes back checkmate."
+  },
+  {
+   "t": 8.66,
+   "texte": "Taking his rook gets you mated."
+  },
+  {
+   "t": 11.24,
+   "texte": "So when your king is in danger, check your back rank then ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.2,
+   "coup": "Raa5",
+   "badge": null
+  },
+  {
+   "t": 1.78,
+   "coup": "Qb8+",
+   "badge": "brillant"
+  },
+  {
+   "t": 5.08,
+   "coup": "Rxb8",
+   "badge": null
+  },
+  {
+   "t": 6.1,
+   "coup": "Rxb8#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.2,
+   "type": "coup"
+  },
+  {
+   "t": 0.34,
+   "type": "fleches"
+  },
+  {
+   "t": 0.5,
+   "type": "sticker"
+  },
+  {
+   "t": 0.68,
+   "type": "fleches"
+  },
+  {
+   "t": 1.78,
+   "type": "coup"
+  },
+  {
+   "t": 1.78,
+   "type": "zoom"
+  },
+  {
+   "t": 4.92,
+   "type": "fleches"
+  },
+  {
+   "t": 5.08,
+   "type": "coup"
+  },
+  {
+   "t": 6.1,
+   "type": "coup"
+  },
+  {
+   "t": 7.38,
+   "type": "sticker"
+  },
+  {
+   "t": 8.98,
+   "type": "fleches"
+  },
+  {
+   "t": 9.54,
+   "type": "fleches"
+  },
+  {
+   "t": 9.98,
+   "type": "sticker"
+  },
+  {
+   "t": 11.71,
+   "type": "position"
+  },
+  {
+   "t": 12.16,
+   "type": "fleches"
+  },
+  {
+   "t": 13.5,
+   "type": "sticker"
+  }
+ ]
+}

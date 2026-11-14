@@ -905,3 +905,6 @@
 ### commandes/perso_dames_face_e7_1_fr.json
     voix générée : 274 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/dames_face_e7_1_fr.mp4 {"voix_brute_s": 21.1, "tempo": 1.0, "video_s": 21.8, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 53, "minutage": "7 phrases, 4 coups, 0 pauses"}
+### commandes/perso_mat_couloir_b8_1.json
+    voix générée : 204 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/mat_couloir_b8_1.mp4 {"voix_brute_s": 15.7, "tempo": 1.0, "video_s": 16.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 40, "minutage": "6 phrases, 4 coups, 0 pauses"}
