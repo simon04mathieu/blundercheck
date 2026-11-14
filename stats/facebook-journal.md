@@ -158,3 +158,5 @@
 {"reseau": "facebook", "id": "2741970226316446", "ok": true}
 ### 2026-11-13 18:46 publications/facebook/tour_attaquee_f7_1.json
 {"reseau": "facebook", "id": "2138813800336186", "ok": true}
+### 2026-11-14 09:52 publications/facebook/pion_c4_1.json
+{"reseau": "facebook", "id": "2366778047416682", "ok": true}
