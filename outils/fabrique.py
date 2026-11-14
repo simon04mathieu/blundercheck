@@ -4,7 +4,7 @@ Commandes (fichiers commandes/*.json) :
   {"type": "perso", "nom": "perso_lasker", "voix": "<id>"?}     voix ElevenLabs + calage + rendu + mixage
   {"type": "prof", "nom": "prof_1", "source": "essai_1", "langue": "en", "voix": "<id>"}  « Le prof corrige ma partie » (outils/prof_montage.py)
   {"type": "coach", "nom": "v_stafford"}                        idem pour un script coach (sous-titres en phrases)
-  options : "aucune_musique": true (sans musique ; par défaut : musique libre en rotation, "sans_musique" ignoré depuis le 14/11), "volume_musique": 0.14, "musique_fichier": "investigations.mp3", "duree_max": 52, "look": "bois|papier|emeraude|ardoise|corail|mono",
+  options : "aucune_musique": true (sans musique ; par défaut : musique libre en rotation, "sans_musique" ignoré depuis le 14/11), "volume_musique": 0.22, "musique_fichier": "investigations.mp3", "duree_max": 52, "look": "bois|papier|emeraude|ardoise|corail|mono",
             "fin_carte": "New endgame every day · Follow" (image de fin 2 s), "muet": true + "duree_cible": 35 (sans voix, 0 crédit)
   {"type": "test_voix", "nom": "cases", "versions": ["..."]}  une phrase par version, voix habituelle
   {"type": "echantillons", "n": 5}                              voix françaises de la bibliothèque, à écouter
@@ -151,7 +151,7 @@ def video_voix(cmd):
     os.makedirs(SORTIES, exist_ok=True); out = os.path.join(SORTIES, f"{cmd.get('sortie', nom)}.mp4")
     # 14/11 (Simon) : musique libre légère sur TOUTES les vidéos ; l'ancien "sans_musique" est ignoré (commandes recopiées), seul "aucune_musique": true la coupe
     mus = None if cmd.get("aucune_musique") else musique_fond(cmd)
-    vol = cmd.get("volume_musique", 0.14)  # 14/11 : musique légère, ≈ 19 dB sous la voix, encore baissée pendant la voix (compresseur)
+    vol = cmd.get("volume_musique", 0.22)  # 14/11 : musique légère (+4 dB à la demande de Simon), ≈ 15 dB sous la voix, encore baissée pendant la voix (compresseur)
     if mus:  # musique notée dans le minutage : outils/credits_musique.py ajoute le crédit (CC BY) aux textes publiés
         fm = os.path.join(SORTIES, "minutage", f"{cmd.get('sortie', nom)}.json")
         try:
