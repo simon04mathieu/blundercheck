@@ -1754,3 +1754,37 @@ QUESTIONS.update({
     "pions_attaques_1_fr": "Quel pion|prend en premier ?",
     "tour_attaquee_f7_1_fr": "Tu prends sa tour,|ou tu fuis ?",
 })
+
+# 14/11 (Producteur) : file du Scénariste du 13/11 ; lignes revérifiées python-chess + Stockfish 16 (d18) ; RÉTENTION seule (regles-retention-simon-12-11.md)
+# 1er coup noir sur le 1er mot (≈ 0,3 s) ; flèche + étiquette avant 1,5 s ; tactique juste après la question (< 3 s) ; boucle ; rien après.
+C4A = "fen:8/8/8/Pp1K4/2p5/P5k1/8/8_b_-_-_0_1"          # avant …b5-b4 ; 1.Kxc4! gagne (+34) ; a6, Kd4 = 0,00 ; axb4 = −6,9
+C4B = "fen:8/8/8/P2K4/1pp5/P5k1/8/8_w_-_-_0_2"
+B8A = "fen:r5k1/5ppp/8/1r6/8/6Q1/1R3PPP/6K1_b_-_-_0_1"   # avant …Ta8-a5 ; 1.Qb8+! mat en 2 ; h3 = −0,15 ; Rxb5?? Ra1+ mat
+B8B = "fen:6k1/5ppp/8/rr6/8/6Q1/1R3PPP/6K1_w_-_-_1_2"
+D5A = "fen:8/8/5k2/3P4/2K5/8/8/8_b_-_-_0_1"              # avant …Kf6-e5 ; 1.Kc5! gagne (+34) ; d6 Kxd6 = 0,00
+D5B = "fen:8/8/8/3Pk3/2K5/8/8/8_w_-_-_1_2"
+E7A = "fen:2Q2bk1/5ppp/8/3N4/5qB1/8/2r2PPP/6K1_b_-_-_0_1" # avant …Df4-c4 ; 1.Ne7+! mat en 2 ; Qxc4 Rxc4 = −3,5 ; Nf6+ = −4,9
+E7B = "fen:2Q2bk1/5ppp/8/3N4/2q3B1/8/2r2PPP/6K1_w_-_-_1_2"
+_S = {
+"pion_c4_1": ("blancs", "Which of his pawns|do you take?",
+"""[p """ + C4A + """] Which [m b4] of his [f b4a3] pawns [s tag c4 1.6 BOTH_HANG] do you [f d5c4] take? [h] [m Kxc4 brillant] [z c4 1.3 2.0] King takes c4! He [m bxa3] takes a3, [f c4b3] and the king [m Kb3] comes back for it, [f a5a8] while the a-pawn [s tag a5 2.0 A-PAWN_RUNS] runs home. Taking [f a3b4] on b4 [s tag b4 2.0 LOSES_THE_RACE] loses the race. So when [p """ + C4B + """] two enemy [f b4a3 d5c4] pawns hang, ask [s tag c4 1.6 BOTH_HANG] yourself:"""),
+"mat_couloir_b8_1": ("blancs", "Should you|take his rook?",
+"""[p """ + B8A + """] Should [m Raa5] you [f a5a1] take [s tag a1 1.6 MATE_THREAT] his [f b2b5] rook? [h] [m Qb8+ brillant] [z b8 1.3 2.0] No! Queen to b8, check! He [f b5b8] must [m Rxb8] take, and the rook [m Rxb8# mat] [x ding] takes back: [s tag b8 2.0 CHECKMATE] checkmate. Taking [f b2b5] his rook [f a5a1] gets you [s tag a1 2.0 BACK_RANK] mated. So when [p """ + B8B + """] your king [f a5a1] is in danger, check [s tag g1 1.6 BACK_RANK] your back rank, then ask yourself:"""),
+"roi_defend_d5_1": ("blancs", "Defend the pawn,|or push it?",
+"""[p """ + D5A + """] Do [m Ke5] you [f e5d5] defend [s tag d5 1.6 DEFEND?] the pawn, [f d5d6] or push it? [h] [m Kc5 brillant] [z c5 1.3 2.0] Defend! King to c5. Push [f d5d6] it, and he [s tag d6 2.0 ONLY_A_DRAW] takes the pawn: a draw. The [m Kf5] king leads, [m Kc6] the pawn [f d5d8] follows, and the win [x ding] is yours. Analyze [s tag c6 1.6 YOUR_GAME] your own game, free. So when [p """ + D5B + """] your pawn [f e5d5] is attacked, don't [s tag d5 1.6 DEFEND?] rush. Ask yourself:"""),
+"dames_face_e7_1": ("blancs", "Take his queen,|or run away?",
+"""[p """ + E7A + """] Take [m Qc4] his [f c4c8] queen, [s tag c8 1.6 QUEEN_ATTACKED] or [f c8c4] run away? [h] [m Ne7+ brillant] [z e7 1.3 2.0] Neither! Knight to e7, check. The [f f8e7] bishop is [s tag f8 2.0 PINNED] pinned, so it can't take. [m Kh8] Then [f c8f8] the queen [m Qxf8# mat] [x ding] takes f8: [s tag f8 2.0 CHECKMATE] checkmate. Trading [f c8c4] queens leaves [s tag c4 2.0 DOWN_MATERIAL] you down material. So when [p """ + E7B + """] queens [f c4c8] clash, find the check [s tag e7 1.6 CHECK_FIRST] first, then ask yourself:"""),
+"pion_c4_1_fr": ("blancs", "Lequel de ses pions|prends-tu ?",
+"""[p """ + C4A + """] Lequel [m b4] de ses [f b4a3] pions [s tag c4 1.6 DEUX_EN_PRISE] prends-tu [f d5c4] ? [h] [m Kxc4 brillant] [z c4 1.3 2.0] Le roi prend en c4 ! Il [m bxa3] prend a3, [f c4b3] le roi [m Kb3] revient le chercher, [f a5a8] et ton pion a [s tag a5 2.0 LE_PION_FILE] file vers la dame. Prendre [f a3b4] en b4 [s tag b4 2.0 PERD_LA_COURSE] perd la course. Alors, quand [p """ + C4B + """] deux pions [f b4a3 d5c4] ennemis sont en prise, [s tag c4 1.6 DEUX_EN_PRISE] demande-toi :"""),
+"dames_face_e7_1_fr": ("blancs", "Dame prend dame,|ou tu fuis ?",
+"""[p """ + E7A + """] Dame [m Qc4] prend [f c4c8] dame, [s tag c8 1.6 DAME_ATTAQUÉE] ou tu [f c8c4] fuis ? [h] [m Ne7+ brillant] [z e7 1.3 2.0] Ni l'un ni l'autre ! Cavalier en e7, échec. Le [f f8e7] fou est [s tag f8 2.0 CLOUÉ] cloué, il ne peut pas prendre. [m Kh8] Alors [f c8f8] la dame [m Qxf8# mat] [x ding] prend en f8 : [s tag f8 2.0 MAT] mat. Échanger [f c8c4] les dames [s tag c4 2.0 MOINS_DE_MATÉRIEL] te laisse en retard de matériel. Quand les dames [p """ + E7B + """] s'affrontent, [f c4c8] cherche d'abord [s tag e7 1.6 ÉCHEC_D'ABORD] l'échec, puis demande-toi :"""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
+QUESTIONS.update({
+    "pion_c4_1": "Which of his pawns|do you take?",
+    "mat_couloir_b8_1": "Should you|take his rook?",
+    "roi_defend_d5_1": "Analyze your game|blundercheck.app/try",
+    "dames_face_e7_1": "Take his queen,|or run away?",
+    "pion_c4_1_fr": "Lequel de ses pions|prends-tu ?",
+    "dames_face_e7_1_fr": "Dame prend dame,|ou tu fuis ?",
+})
