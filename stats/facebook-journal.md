@@ -162,3 +162,5 @@
 {"reseau": "facebook", "id": "2366778047416682", "ok": true}
 ### 2026-11-14 12:58 publications/facebook/mat_couloir_b8_1.json
 {"reseau": "facebook", "id": "1608731777210699", "ok": true}
+### 2026-11-14 15:20 publications/facebook/roi_defend_d5_1.json
+{"reseau": "facebook", "id": "4607577179508131", "ok": true}
