@@ -1,0 +1,136 @@
+{
+ "nom": "roi_defend_d5_1",
+ "tempo": 1.0,
+ "duree_s": 19.88,
+ "hook": {
+  "texte": "Defend the pawn,|or push it?",
+  "fin": 2.98
+ },
+ "question": {
+  "texte": "Analyze your game|blundercheck.app/try",
+  "t": 16.68
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Do you defend the pawn or push it?"
+  },
+  {
+   "t": 2.98,
+   "texte": "Defend!"
+  },
+  {
+   "t": 3.54,
+   "texte": "King to c5."
+  },
+  {
+   "t": 5.32,
+   "texte": "Push it, and he takes the pawn: a draw."
+  },
+  {
+   "t": 9.04,
+   "texte": "The king leads the pawn follows and the win is yours."
+  },
+  {
+   "t": 13.76,
+   "texte": "Analyze your own game free."
+  },
+  {
+   "t": 16.0,
+   "texte": "So when your pawn is attacked don't rush."
+  },
+  {
+   "t": 18.98,
+   "texte": "Ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.16,
+   "coup": "Ke5",
+   "badge": null
+  },
+  {
+   "t": 2.98,
+   "coup": "Kc5",
+   "badge": "brillant"
+  },
+  {
+   "t": 9.16,
+   "coup": "Kf5",
+   "badge": null
+  },
+  {
+   "t": 10.16,
+   "coup": "Kc6",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.16,
+   "type": "coup"
+  },
+  {
+   "t": 0.28,
+   "type": "fleches"
+  },
+  {
+   "t": 0.52,
+   "type": "sticker"
+  },
+  {
+   "t": 1.0,
+   "type": "fleches"
+  },
+  {
+   "t": 2.98,
+   "type": "coup"
+  },
+  {
+   "t": 2.98,
+   "type": "zoom"
+  },
+  {
+   "t": 5.82,
+   "type": "fleches"
+  },
+  {
+   "t": 6.42,
+   "type": "sticker"
+  },
+  {
+   "t": 9.16,
+   "type": "coup"
+  },
+  {
+   "t": 10.16,
+   "type": "coup"
+  },
+  {
+   "t": 10.48,
+   "type": "fleches"
+  },
+  {
+   "t": 14.04,
+   "type": "sticker"
+  },
+  {
+   "t": 16.31,
+   "type": "position"
+  },
+  {
+   "t": 16.78,
+   "type": "fleches"
+  },
+  {
+   "t": 17.94,
+   "type": "sticker"
+  }
+ ]
+}

@@ -914,3 +914,6 @@
 ### commandes/perso_pion_c4_1_fr.json
     voix générée : 217 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pion_c4_1_fr.mp4 {"voix_brute_s": 17.6, "tempo": 1.0, "video_s": 18.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 47, "minutage": "5 phrases, 4 coups, 0 pauses"}
+### commandes/perso_roi_defend_d5_1.json
+    voix générée : 237 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/roi_defend_d5_1.mp4 {"voix_brute_s": 19.9, "tempo": 1.0, "video_s": 20.5, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 47, "minutage": "8 phrases, 4 coups, 0 pauses"}
