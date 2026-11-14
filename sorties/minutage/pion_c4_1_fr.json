@@ -1,0 +1,128 @@
+{
+ "nom": "pion_c4_1_fr",
+ "tempo": 1.0,
+ "duree_s": 17.38,
+ "hook": {
+  "texte": "Lequel de ses pions|prends-tu ?",
+  "fin": 2.84
+ },
+ "question": {
+  "texte": "Lequel de ses pions|prends-tu ?",
+  "t": 14.18
+ },
+ "phrases": [
+  {
+   "t": 0.12,
+   "texte": "Lequel de ses pions prends-tu ?"
+  },
+  {
+   "t": 2.84,
+   "texte": "Le roi prend en c4 !"
+  },
+  {
+   "t": 4.94,
+   "texte": "Il prend a3 le roi revient le chercher et ton pion a file vers la dame."
+  },
+  {
+   "t": 10.34,
+   "texte": "Prendre en b4 perd la course."
+  },
+  {
+   "t": 13.86,
+   "texte": "Alors, quand deux pions ennemis sont en prise, demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.42,
+   "coup": "b4",
+   "badge": null
+  },
+  {
+   "t": 2.84,
+   "coup": "Kxc4",
+   "badge": "brillant"
+  },
+  {
+   "t": 5.04,
+   "coup": "bxa3",
+   "badge": null
+  },
+  {
+   "t": 6.66,
+   "coup": "Kb3",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.42,
+   "type": "coup"
+  },
+  {
+   "t": 0.86,
+   "type": "fleches"
+  },
+  {
+   "t": 1.1,
+   "type": "sticker"
+  },
+  {
+   "t": 1.62,
+   "type": "fleches"
+  },
+  {
+   "t": 2.84,
+   "type": "coup"
+  },
+  {
+   "t": 2.84,
+   "type": "zoom"
+  },
+  {
+   "t": 5.04,
+   "type": "coup"
+  },
+  {
+   "t": 6.34,
+   "type": "fleches"
+  },
+  {
+   "t": 6.66,
+   "type": "coup"
+  },
+  {
+   "t": 7.36,
+   "type": "fleches"
+  },
+  {
+   "t": 8.76,
+   "type": "sticker"
+  },
+  {
+   "t": 10.66,
+   "type": "fleches"
+  },
+  {
+   "t": 11.4,
+   "type": "sticker"
+  },
+  {
+   "t": 14.51,
+   "type": "position"
+  },
+  {
+   "t": 15.12,
+   "type": "fleches"
+  },
+  {
+   "t": 16.58,
+   "type": "sticker"
+  }
+ ]
+}
