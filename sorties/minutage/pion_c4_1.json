@@ -1,0 +1,128 @@
+{
+ "nom": "pion_c4_1",
+ "tempo": 1.0,
+ "duree_s": 15.6,
+ "hook": {
+  "texte": "Which of his pawns|do you take?",
+  "fin": 2.36
+ },
+ "question": {
+  "texte": "Which of his pawns|do you take?",
+  "t": 12.4
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which of his pawns do you take?"
+  },
+  {
+   "t": 2.36,
+   "texte": "King takes c4!"
+  },
+  {
+   "t": 4.5,
+   "texte": "He takes a3 and the king comes back for it, while the a-pawn runs home."
+  },
+  {
+   "t": 9.94,
+   "texte": "Taking on b4 loses the race."
+  },
+  {
+   "t": 12.58,
+   "texte": "So when two enemy pawns hang ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.18,
+   "coup": "b4",
+   "badge": null
+  },
+  {
+   "t": 2.36,
+   "coup": "Kxc4",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.6,
+   "coup": "bxa3",
+   "badge": null
+  },
+  {
+   "t": 6.14,
+   "coup": "Kb3",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.18,
+   "type": "coup"
+  },
+  {
+   "t": 0.48,
+   "type": "fleches"
+  },
+  {
+   "t": 0.96,
+   "type": "sticker"
+  },
+  {
+   "t": 1.2,
+   "type": "fleches"
+  },
+  {
+   "t": 2.36,
+   "type": "coup"
+  },
+  {
+   "t": 2.36,
+   "type": "zoom"
+  },
+  {
+   "t": 4.6,
+   "type": "coup"
+  },
+  {
+   "t": 5.3,
+   "type": "fleches"
+  },
+  {
+   "t": 6.14,
+   "type": "coup"
+  },
+  {
+   "t": 7.38,
+   "type": "fleches"
+  },
+  {
+   "t": 8.26,
+   "type": "sticker"
+  },
+  {
+   "t": 10.22,
+   "type": "fleches"
+  },
+  {
+   "t": 10.98,
+   "type": "sticker"
+  },
+  {
+   "t": 12.95,
+   "type": "position"
+  },
+  {
+   "t": 13.56,
+   "type": "fleches"
+  },
+  {
+   "t": 15.06,
+   "type": "sticker"
+  }
+ ]
+}
