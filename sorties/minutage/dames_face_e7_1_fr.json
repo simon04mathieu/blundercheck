@@ -1,0 +1,140 @@
+{
+ "nom": "dames_face_e7_1_fr",
+ "tempo": 1.0,
+ "duree_s": 21.2,
+ "hook": {
+  "texte": "Dame prend dame,|ou tu fuis ?",
+  "fin": 2.6
+ },
+ "question": {
+  "texte": "Dame prend dame,|ou tu fuis ?",
+  "t": 18.0
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Dame prend dame ou tu fuis ?"
+  },
+  {
+   "t": 2.6,
+   "texte": "Ni l'un ni l'autre !"
+  },
+  {
+   "t": 4.76,
+   "texte": "Cavalier en e7 échec."
+  },
+  {
+   "t": 7.62,
+   "texte": "Le fou est cloué il ne peut pas prendre."
+  },
+  {
+   "t": 10.34,
+   "texte": "Alors la dame prend en f8 : mat."
+  },
+  {
+   "t": 14.1,
+   "texte": "Échanger les dames te laisse en retard de matériel."
+  },
+  {
+   "t": 17.12,
+   "texte": "Quand les dames s'affrontent cherche d'abord l'échec puis demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.26,
+   "coup": "Qc4",
+   "badge": null
+  },
+  {
+   "t": 2.6,
+   "coup": "Ne7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 10.34,
+   "coup": "Kh8",
+   "badge": null
+  },
+  {
+   "t": 11.12,
+   "coup": "Qxf8#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.26,
+   "type": "coup"
+  },
+  {
+   "t": 0.5,
+   "type": "fleches"
+  },
+  {
+   "t": 1.26,
+   "type": "sticker"
+  },
+  {
+   "t": 1.56,
+   "type": "fleches"
+  },
+  {
+   "t": 2.6,
+   "type": "coup"
+  },
+  {
+   "t": 2.6,
+   "type": "zoom"
+  },
+  {
+   "t": 7.76,
+   "type": "fleches"
+  },
+  {
+   "t": 8.06,
+   "type": "sticker"
+  },
+  {
+   "t": 10.34,
+   "type": "coup"
+  },
+  {
+   "t": 10.56,
+   "type": "fleches"
+  },
+  {
+   "t": 11.12,
+   "type": "coup"
+  },
+  {
+   "t": 12.48,
+   "type": "sticker"
+  },
+  {
+   "t": 14.62,
+   "type": "fleches"
+  },
+  {
+   "t": 15.1,
+   "type": "sticker"
+  },
+  {
+   "t": 17.63,
+   "type": "position"
+  },
+  {
+   "t": 18.64,
+   "type": "fleches"
+  },
+  {
+   "t": 19.34,
+   "type": "sticker"
+  }
+ ]
+}
