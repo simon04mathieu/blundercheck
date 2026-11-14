@@ -107,3 +107,5 @@
 {"reseau": "instagram", "id": "17962566318255909"}
 ### 2026-11-14 12:58 publications/instagram/pion_c4_1_fr.json
 {"reseau": "instagram", "id": "18099494258407219"}
+### 2026-11-14 18:36 publications/instagram/dames_face_e7_1_fr.json
+{"reseau": "instagram", "id": "18579722941079077"}

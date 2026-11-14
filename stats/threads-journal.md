@@ -172,3 +172,5 @@ jeton Threads renouvelé (valable 60 jours)
 {"reseau": "threads", "id": "18438541327195173"}
 ### 2026-11-14 15:20 publications/threads/roi_defend_d5_1.json
 {"reseau": "threads", "id": "18214169188367801"}
+### 2026-11-14 18:37 publications/threads/dames_face_e7_1.json
+{"reseau": "threads", "id": "18143551663616467"}

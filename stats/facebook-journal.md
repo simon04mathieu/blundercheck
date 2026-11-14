@@ -164,3 +164,5 @@
 {"reseau": "facebook", "id": "1608731777210699", "ok": true}
 ### 2026-11-14 15:20 publications/facebook/roi_defend_d5_1.json
 {"reseau": "facebook", "id": "4607577179508131", "ok": true}
+### 2026-11-14 18:36 publications/facebook/dames_face_e7_1.json
+{"reseau": "facebook", "id": "1147178358153301", "ok": true}
