@@ -837,3 +837,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "117"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "117"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "117"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "117"}
+### 2026-11-14 18:25 publications/youtube/dames_face_e7_1.json
+{"id": "tucc37ja4v0", "url": "https://www.youtube.com/shorts/tucc37ja4v0", "statut": "public", "publier_le": null}
