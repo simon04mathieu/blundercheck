@@ -793,3 +793,8 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 18, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-14 07:42 publications/tiktok/dames_face_e7_1_fr.json
+{"publish_id": "v_inbox_file~v2.7707928822821423126", "mode": "brouillon", "vie_privee": null, "legende": "Tu prends sa dame, ou tu fuis ? 👇 Seul 1.Ce7+ ! gagne (mat en 2) ; 1.Dxc4 Txc4 te laisse avec moins de matériel (Stockfish 16, position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr"}
+### 2026-11-14 07:42 publications/tiktok/pion_c4_1_fr.json
+{"publish_id": "v_inbox_file~v2.7707928822821488662", "mode": "brouillon", "vie_privee": null, "legende": "Quel pion prends-tu ? 👇 Seul 1.Rxc4 ! gagne ; 1.axb4 perd la course et 1.a6 ne fait que nulle (Stockfish 16, position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr"}

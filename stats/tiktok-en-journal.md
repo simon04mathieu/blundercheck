@@ -669,3 +669,12 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 39, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 39, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 39, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 40, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-14 07:42 publications/tiktok-en/dames_face_e7_1.json
+{"publish_id": "v_inbox_file~v2.7707928851644827651", "mode": "brouillon", "vie_privee": null, "legende": "Take his queen, or run? 👇 Only 1.Ne7+! wins (mate in 2); 1.Qxc4 Rxc4 leaves you down material (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle"}
+### 2026-11-14 07:42 publications/tiktok-en/mat_couloir_b8_1.json
+{"publish_id": "v_inbox_file~v2.7707928822821586966", "mode": "brouillon", "vie_privee": null, "legende": "Would you have taken the rook? 👇 Only 1.Qb8+! wins (mate in 2); 1.Rxb5 Ra1+ mates you (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle"}
+### 2026-11-14 07:42 publications/tiktok-en/pion_c4_1.json
+{"publish_id": "v_inbox_file~v2.7707929063976863766", "mode": "brouillon", "vie_privee": null, "legende": "Which pawn do you take? 👇 Only 1.Kxc4! wins; 1.axb4 loses the race and 1.a6 is a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
+### 2026-11-14 07:42 publications/tiktok-en/roi_defend_d5_1.json
+{"publish_id": "v_inbox_file~v2.7707929063976912918", "mode": "brouillon", "vie_privee": null, "legende": "Defend or push? 👇 Only 1.Kc5! wins; 1.d6 Kxd6 is a draw (Stockfish 16, composed position). One new puzzle every day. Analyze your own game: blundercheck.app/try #chess #chessendgame #chesspuzzle"}
