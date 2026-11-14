@@ -678,3 +678,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"publish_id": "v_inbox_file~v2.7707929063976863766", "mode": "brouillon", "vie_privee": null, "legende": "Which pawn do you take? 👇 Only 1.Kxc4! wins; 1.axb4 loses the race and 1.a6 is a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
 ### 2026-11-14 07:42 publications/tiktok-en/roi_defend_d5_1.json
 {"publish_id": "v_inbox_file~v2.7707929063976912918", "mode": "brouillon", "vie_privee": null, "legende": "Defend or push? 👇 Only 1.Kc5! wins; 1.d6 Kxd6 is a draw (Stockfish 16, composed position). One new puzzle every day. Analyze your own game: blundercheck.app/try #chess #chessendgame #chesspuzzle"}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 40, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
