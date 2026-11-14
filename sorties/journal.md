@@ -922,3 +922,6 @@
     voix générée : 233 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/dames_face_e7_1.mp4 {"voix_brute_s": 19.8, "tempo": 1.0, "video_s": 20.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 41, "minutage": "7 phrases, 4 coups, 0 pauses"}
+### commandes/perso_dames_face_e7_1_fr.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/dames_face_e7_1_fr.mp4 {"voix_brute_s": 21.1, "tempo": 1.0, "video_s": 21.8, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "aucune", "mots_transcrits": 53, "minutage": "7 phrases, 4 coups, 0 pauses"}
