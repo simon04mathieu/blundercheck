@@ -823,3 +823,6 @@
 {"id": "ApWO3lG8rrI", "url": "https://www.youtube.com/shorts/ApWO3lG8rrI", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "116"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "116"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "117"}
+### 2026-11-14 12:49 publications/youtube/mat_couloir_b8_1.json
+{"id": "8ScdAk7aKLQ", "url": "https://www.youtube.com/shorts/8ScdAk7aKLQ", "statut": "public", "publier_le": null}
