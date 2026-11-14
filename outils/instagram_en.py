@@ -10,6 +10,7 @@ lui-même chaque semaine et range la version à jour chiffrée dans instagram-en
 variable CHIFFRE). Garde-fou : le nom du compte est lu chez Instagram juste avant chaque envoi (outils/garde_fou.py).
 """
 import sys, os, json, time, subprocess, urllib.request, urllib.parse, datetime
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from credits_musique import ajouter as credit_musique  # 14/11 : crédit CC BY auto
 from garde_fou import verifier
 
 BASE = "https://graph.instagram.com"
@@ -79,7 +80,7 @@ def envoi(chemin):
     moi = req("GET", f"{API}/me", {"fields": "user_id,username", "access_token": tok})
     if not ESSAI: verifier("instagram", moi.get("username"))   # garde-fou juste avant l'envoi
     ig = moi.get("user_id") or "me"
-    c = req("POST", f"{API}/{ig}/media", {"media_type": "REELS", "video_url": RAW + d["fichier"], "caption": d["legende"],
+    c = req("POST", f"{API}/{ig}/media", {"media_type": "REELS", "video_url": RAW + d["fichier"], "caption": credit_musique(d["legende"], d["fichier"]),
                                           "share_to_feed": "true", "access_token": tok})
     for _ in range(40):
         s = req("GET", f"{API}/{c['id']}", {"fields": "status_code,status", "access_token": tok})

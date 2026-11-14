@@ -12,6 +12,7 @@ La vidéo doit être publique : on donne à Threads l'URL brute GitHub de la bra
 Code retour : 0 = envoyé ou rien à faire (pas encore l'heure, outil inactif) ; 1 = échec (message « ÉCHEC : ... »).
 """
 import sys, os, json, time, subprocess, urllib.request, urllib.parse, datetime
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from credits_musique import ajouter as credit_musique  # 14/11 : crédit CC BY auto
 from garde_fou import verifier   # liste fermée des comptes BlunderCheck autorisés
 API = "https://graph.threads.com/v1.0"
 BASE = "https://graph.threads.com"
@@ -69,7 +70,7 @@ def publier(d, tok):
     if not ESSAI:   # garde-fou : profil réellement connecté au jeton
         verifier("threads", req("GET", f"{API}/me", {"fields": "id,username", "access_token": tok}).get("username"))
     c = req("POST", f"{API}/me/threads", {"media_type": "VIDEO", "video_url": RAW + d["fichier"],
-            "text": d["legende"].encode()[:500].decode(errors="ignore"), "access_token": tok})
+            "text": credit_musique(d["legende"], d["fichier"], 500).encode()[:500].decode(errors="ignore"), "access_token": tok})
     for _ in range(40):  # Threads télécharge et encode la vidéo : jusqu'à ~10 min
         s = req("GET", f"{API}/{c['id']}", {"fields": "status,error_message", "access_token": tok})
         if s.get("status") == "FINISHED": break

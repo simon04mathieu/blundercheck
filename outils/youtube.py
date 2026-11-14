@@ -15,6 +15,7 @@ Fichier d'envoi (publications/youtube/*.json) :
 Note : tant que Google n'a pas audité l'appli, YouTube peut forcer les vidéos envoyées par l'API en privé.
 """
 import os, sys, json, datetime, urllib.request, urllib.parse
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from credits_musique import ajouter as credit_musique  # 14/11 : crédit CC BY auto
 from garde_fou import verifier   # liste fermée des comptes BlunderCheck autorisés
 
 def jeton():
@@ -45,7 +46,7 @@ def envoi(cmd, tok):
     if cmd.get("publier_le"):
         status["privacyStatus"] = "private"
         status["publishAt"] = datetime.datetime.fromisoformat(cmd["publier_le"]).astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
-    meta = {"snippet": {"title": cmd["titre"][:100], "description": cmd.get("description", ""),
+    meta = {"snippet": {"title": cmd["titre"][:100], "description": credit_musique(cmd.get("description", ""), cmd.get("fichier")),
                         "tags": cmd.get("tags", []), "categoryId": "27", "defaultLanguage": "fr",
                         "defaultAudioLanguage": "fr"}, "status": status}
     taille = os.path.getsize(cmd["fichier"])

@@ -17,6 +17,7 @@ Fichier d'envoi : {"fichier": "sorties/v_noe.mp4", "legende": "...", "envoyer_ap
 Tant que l'appli n'est pas auditée par TikTok, les vidéos publiées par l'API sont forcément privées (SELF_ONLY).
 """
 import os, sys, json, math, subprocess, urllib.request, urllib.parse, datetime
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from credits_musique import ajouter as credit_musique  # 14/11 : crédit CC BY auto
 from garde_fou import verifier   # liste fermée des comptes BlunderCheck autorisés
 
 API = "https://open.tiktokapis.com"
@@ -78,6 +79,7 @@ def envoi(cmd, tok):
     taille = os.path.getsize(cmd["fichier"])
     morceau = taille if taille < 5_000_000 else 10_000_000
     n = 1 if morceau == taille else math.floor(taille / morceau)
+    cmd["legende"] = credit_musique(cmd["legende"], cmd.get("fichier"))
     post = {"title": cmd["legende"][:2200], "privacy_level": vie_privee,
             "disable_comment": False, "disable_duet": False, "disable_stitch": False,
             "brand_content_toggle": False, "brand_organic_toggle": bool(cmd.get("marque", True)),

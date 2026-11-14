@@ -11,6 +11,7 @@ META_PAGE_ID (id de la Page). La vidéo doit être publique : on donne à Meta l
 Code retour : 0 = envoyé ou rien à faire (pas encore l'heure, outil inactif) ; 1 = échec (message « ÉCHEC : ... »).
 """
 import sys, os, json, time, urllib.request, urllib.parse, datetime
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from credits_musique import ajouter as credit_musique  # 14/11 : crédit CC BY auto
 from garde_fou import verifier   # liste fermée des comptes BlunderCheck autorisés
 API = "https://graph.facebook.com/v26.0"   # version de l'API (vérifiée à l'activation le 23/10/2026)
 RAW = "https://raw.githubusercontent.com/simon04mathieu/blundercheck/videos/"
@@ -35,7 +36,7 @@ def heure_venue(d):
 
 def instagram(d, tok, ig):
     c = req("POST", f"{API}/{ig}/media", {"media_type": "REELS", "video_url": RAW + d["fichier"],
-            "caption": d["legende"], "share_to_feed": "true", "access_token": tok})
+            "caption": credit_musique(d["legende"], d["fichier"]), "share_to_feed": "true", "access_token": tok})
     for _ in range(40):  # Meta télécharge et encode la vidéo : jusqu'à ~10 min
         s = req("GET", f"{API}/{c['id']}", {"fields": "status_code,status", "access_token": tok})
         if s.get("status_code") == "FINISHED": break
@@ -51,7 +52,7 @@ def facebook(d, tok, page):
     req("POST", s.get("upload_url") or f"https://rupload.facebook.com/video-upload/v26.0/{vid}", None,
         {"Authorization": f"OAuth {tok}", "file_url": RAW + d["fichier"]})
     f = req("POST", f"{API}/{page}/video_reels", {"upload_phase": "finish", "video_id": vid, "video_state": "PUBLISHED",
-            "description": d["legende"], "access_token": tok})
+            "description": credit_musique(d["legende"], d["fichier"]), "access_token": tok})
     return {"reseau": "facebook", "id": vid, "ok": f.get("success")}
 
 def envoi(chemin):

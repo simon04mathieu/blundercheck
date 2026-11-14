@@ -4,7 +4,7 @@ Commandes (fichiers commandes/*.json) :
   {"type": "perso", "nom": "perso_lasker", "voix": "<id>"?}     voix ElevenLabs + calage + rendu + mixage
   {"type": "prof", "nom": "prof_1", "source": "essai_1", "langue": "en", "voix": "<id>"}  « Le prof corrige ma partie » (outils/prof_montage.py)
   {"type": "coach", "nom": "v_stafford"}                        idem pour un script coach (sous-titres en phrases)
-  options : "sans_musique": true, "volume_musique": 0.14, "duree_max": 52, "look": "bois|papier|emeraude|ardoise|corail|mono",
+  options : "aucune_musique": true (sans musique ; par défaut : musique libre en rotation, "sans_musique" ignoré depuis le 14/11), "volume_musique": 0.14, "musique_fichier": "investigations.mp3", "duree_max": 52, "look": "bois|papier|emeraude|ardoise|corail|mono",
             "fin_carte": "New endgame every day · Follow" (image de fin 2 s), "muet": true + "duree_cible": 35 (sans voix, 0 crédit)
   {"type": "test_voix", "nom": "cases", "versions": ["..."]}  une phrase par version, voix habituelle
   {"type": "echantillons", "n": 5}                              voix françaises de la bibliothèque, à écouter
@@ -72,15 +72,23 @@ MUSIQUE_PROMPT = ("Calm, pleasant lo-fi hip hop instrumental, warm Rhodes piano,
                   "85 BPM, relaxed and focused, light and positive, no vocals, seamless loop")
 
 def musique_fond(cmd):
-    """Musique douce générée une fois par ElevenLabs Music, gardée dans outils/musique/ et réutilisée.
-    Renvoie None si la génération échoue (la vidéo sort alors sans musique, c'est noté au journal)."""
-    d = os.path.join(HERE, "musique"); os.makedirs(d, exist_ok=True)
-    f = os.path.join(d, cmd.get("musique_fichier", "fond1.mp3"))
-    if os.path.exists(f): return f
-    try:
-        return eleven.musique(cmd.get("musique_prompt", MUSIQUE_PROMPT), f, 60000)
-    except SystemExit as e:
-        print("MUSIQUE INDISPONIBLE :", e, flush=True); return None
+    """Musique de fond LIBRE (14/11, Simon) : outils/musique/libre/*.mp3 (bibliothèque audio YouTube + Kevin MacLeod CC BY,
+    normalisées à -16 LUFS), choisie en rotation selon le nom de la vidéo (0 crédit, 0 token). "musique_fichier" force un titre.
+    ElevenLabs Music seulement si "musique_prompt" est donné explicitement (jamais par défaut). None = vidéo sans musique."""
+    d = os.path.join(HERE, "musique", "libre")
+    if cmd.get("musique_fichier"):
+        f = os.path.join(d, cmd["musique_fichier"])
+        return f if os.path.exists(f) else None
+    if cmd.get("musique_prompt"):
+        f = os.path.join(HERE, "musique", "fond_genere.mp3")
+        try:
+            return f if os.path.exists(f) else eleven.musique(cmd["musique_prompt"], f, 60000)
+        except SystemExit as e:
+            print("MUSIQUE INDISPONIBLE :", e, flush=True); return None
+    import hashlib
+    titres = sorted(x for x in os.listdir(d) if x.endswith(".mp3")) if os.path.isdir(d) else []
+    if not titres: return None
+    return os.path.join(d, titres[int(hashlib.sha1(cmd.get("nom", "").encode()).hexdigest(), 16) % len(titres)])
 
 def video_voix(cmd):
     """Format coach (SCRIPTS) ou PERSO : voix ElevenLabs + calage + rendu + mixage (voix devant, musique douce dessous)."""
@@ -141,8 +149,15 @@ def video_voix(cmd):
     muet, fx = os.path.join(tmp, "muet.mp4"), os.path.join(tmp, "fx.wav")
     coach.run(spec, muet, fx, tempo)
     os.makedirs(SORTIES, exist_ok=True); out = os.path.join(SORTIES, f"{cmd.get('sortie', nom)}.mp4")
-    mus = None if cmd.get("sans_musique") else musique_fond(cmd)
-    vol = cmd.get("volume_musique", 0.14)  # ≈ -20 dB, encore baissée sous la voix par le compresseur
+    # 14/11 (Simon) : musique libre légère sur TOUTES les vidéos ; l'ancien "sans_musique" est ignoré (commandes recopiées), seul "aucune_musique": true la coupe
+    mus = None if cmd.get("aucune_musique") else musique_fond(cmd)
+    vol = cmd.get("volume_musique", 0.14)  # 14/11 : musique légère, ≈ 19 dB sous la voix, encore baissée pendant la voix (compresseur)
+    if mus:  # musique notée dans le minutage : outils/credits_musique.py ajoute le crédit (CC BY) aux textes publiés
+        fm = os.path.join(SORTIES, "minutage", f"{cmd.get('sortie', nom)}.json")
+        try:
+            mm = json.load(open(fm)); mm["musique"] = os.path.basename(mus)
+            json.dump(mm, open(fm, "w"), ensure_ascii=False, indent=1)
+        except (OSError, ValueError): pass
     if mus:
         fc = (f"[1:a]atempo={tempo:.4f},asplit=2[v][key];[2:a]aresample=48000,aformat=channel_layouts=mono,volume=0.45[f];"
               f"[3:a]aresample=48000,aformat=channel_layouts=mono,volume={vol}[m0];[m0][key]sidechaincompress=threshold=0.02:ratio=6:attack=20:release=400[m];"
