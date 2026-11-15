@@ -820,3 +820,8 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 20, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 20, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 20, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 20, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-15 07:44 publications/tiktok/cavalier_g6_1_fr.json
+{"publish_id": "v_inbox_file~v2.7708300702355130390", "mode": "brouillon", "vie_privee": null, "legende": "Tu prends la tour gratuite ? 👇 Seul 1.Cg6# gagne (mat) ; 1.Cxg8 ?? Tf1# (Stockfish 16, position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr"}
+### 2026-11-15 07:44 publications/tiktok/pions_attaques_2_fr.json
+{"publish_id": "v_inbox_file~v2.7708300402953160727", "mode": "brouillon", "vie_privee": null, "legende": "Quel pion prend ? 👇 Seul 1.cxb4 ! gagne ; 1.hxg6 bxc3 est nulle : les deux camps font dame (Stockfish 16, position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr"}

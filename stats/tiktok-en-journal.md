@@ -700,3 +700,18 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 42, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 42, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 42, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 42, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-15 07:44 publications/tiktok-en/cavalier_g6_1.json
+ÉCHEC : TikTok PUT https://open-upload-i18n.tiktokapis.com/upload -> 500 : <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>TLB</center>
+</body>
+</html>
+### 2026-11-15 07:44 publications/tiktok-en/echec_f7_tour_1.json
+{"publish_id": "v_inbox_file~v2.7708300402953226263", "mode": "brouillon", "vie_privee": null, "legende": "Take his rook, or save yours? 👇 Only 1.Rf7+! wins a rook; 1.Bxc2 Kxe7 lets his king take yours (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle"}
+### 2026-11-15 07:44 publications/tiktok-en/pions_attaques_2.json
+{"publish_id": "v_inbox_file~v2.7708300702355195926", "mode": "brouillon", "vie_privee": null, "legende": "Which pawn takes? 👇 Only 1.cxb4! wins; 1.hxg6 bxc3 is a draw: both sides queen (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle\n\nMusic: \"Fluffing a Duck\" by Kevin MacLeod (incompetech.com), licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/"}
+### 2026-11-15 07:44 publications/tiktok-en/pions_roi_g5_1.json
+{"publish_id": "v_inbox_file~v2.7708300702355228694", "mode": "brouillon", "vie_privee": null, "legende": "Pawn or king? 👇 Only 1.Kxg5! wins; 1.gxh5 and 1.fxg5 are draws (Stockfish 16, composed position). One new puzzle every day. Analyze your own game: blundercheck.app/try #chess #chessendgame #chesspuzzle\n\nMusic: \"Investigations\" by Kevin MacLeod (incompetech.com), licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/"}
