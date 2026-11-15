@@ -719,3 +719,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 ### 2026-11-15 09:23 publications/tiktok-en/cavalier_g6_1.json
 {"publish_id": "v_inbox_file~v2.7708326153240758294", "mode": "brouillon", "vie_privee": null, "legende": "Do you take the free rook? 👇 Only 1.Ng6# wins (mate); 1.Nxg8?? Rf1# (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle"}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 42, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 42, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
