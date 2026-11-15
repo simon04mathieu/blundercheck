@@ -1,0 +1,129 @@
+{
+ "nom": "cavalier_g6_1",
+ "tempo": 1.0,
+ "duree_s": 16.3,
+ "hook": {
+  "texte": "Do you take|the free rook?",
+  "fin": 1.96
+ },
+ "question": {
+  "texte": "Do you take|the free rook?",
+  "t": 13.1
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Do you take the free rook?"
+  },
+  {
+   "t": 1.96,
+   "texte": "No!"
+  },
+  {
+   "t": 2.9,
+   "texte": "Knight to g6 checkmate."
+  },
+  {
+   "t": 5.82,
+   "texte": "His h-pawn is pinned so it can't take."
+  },
+  {
+   "t": 9.14,
+   "texte": "Taking the rook loses to mate on f1."
+  },
+  {
+   "t": 12.26,
+   "texte": "So when a rook is free check for mate first then ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.14,
+   "coup": "Bd8",
+   "badge": null
+  },
+  {
+   "t": 1.96,
+   "coup": "Ng6#",
+   "badge": "mat"
+  },
+  {
+   "t": 9.44,
+   "coup": "Nxg8",
+   "badge": "erreur"
+  },
+  {
+   "t": 10.22,
+   "coup": "Rf1#",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.14,
+   "type": "coup"
+  },
+  {
+   "t": 0.28,
+   "type": "fleches"
+  },
+  {
+   "t": 0.6,
+   "type": "sticker"
+  },
+  {
+   "t": 1.96,
+   "type": "coup"
+  },
+  {
+   "t": 1.96,
+   "type": "zoom"
+  },
+  {
+   "t": 4.26,
+   "type": "sticker"
+  },
+  {
+   "t": 6.68,
+   "type": "fleches"
+  },
+  {
+   "t": 7.44,
+   "type": "sticker"
+  },
+  {
+   "t": 9.39,
+   "type": "position"
+  },
+  {
+   "t": 9.44,
+   "type": "coup"
+  },
+  {
+   "t": 10.22,
+   "type": "coup"
+  },
+  {
+   "t": 10.48,
+   "type": "sticker"
+  },
+  {
+   "t": 12.43,
+   "type": "position"
+  },
+  {
+   "t": 12.92,
+   "type": "sticker"
+  },
+  {
+   "t": 14.46,
+   "type": "sticker"
+  }
+ ],
+ "musique": "chicago.mp3"
+}

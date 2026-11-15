@@ -937,3 +937,8 @@
 ### commandes/perso_roi_defend_d5_1.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/roi_defend_d5_1.mp4 {"voix_brute_s": 19.9, "tempo": 1.0, "video_s": 20.5, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "aucune", "mots_transcrits": 47, "minutage": "8 phrases, 4 coups, 0 pauses"}
+## 2026-11-15 00:07 UTC · run 43656482691
+### commandes/perso_cavalier_g6_1.json
+    voix générée : 197 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/cavalier_g6_1.mp4 {"voix_brute_s": 16.2, "tempo": 1.0, "video_s": 16.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "chicago.mp3", "mots_transcrits": 41, "minutage": "6 phrases, 4 coups, 0 pauses"}
