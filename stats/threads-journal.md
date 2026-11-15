@@ -176,3 +176,5 @@ jeton Threads renouvelé (valable 60 jours)
 {"reseau": "threads", "id": "18143551663616467"}
 ### 2026-11-15 09:54 publications/threads/pions_attaques_2.json
 {"reseau": "threads", "id": "18079899413445607"}
+### 2026-11-15 13:01 publications/threads/echec_f7_tour_1.json
+{"reseau": "threads", "id": "17916205599283082"}
