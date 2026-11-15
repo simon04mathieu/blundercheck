@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-14T17:17:25Z",
+ "releve": "2026-11-15T17:17:14Z",
  "compte": "blundercheckapp",
  "abonnes": 6,
  "publications": [
+  {
+   "id": "18286228129291932",
+   "caption": "Quel pion prend ? 👇 Seul 1.cxb4 ! gagne ; 1.hxg6 bxc3 est nulle : les deux camps",
+   "comments_count": 0,
+   "like_count": 1,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/Dfw1lvfEhth/",
+   "timestamp": "2026-11-15T13:00:15+0000",
+   "insights": {
+    "views": 193,
+    "reach": 133,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1
+   }
+  },
+  {
+   "id": "18579722941079077",
+   "caption": "Tu prends sa dame, ou tu fuis ? 👇 Seul 1.Ce7+ ! gagne (mat en 2) ; 1.Dxc4 Txc4 t",
+   "comments_count": 0,
+   "like_count": 0,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/Dfu3PvSgNPf/",
+   "timestamp": "2026-11-14T18:36:16+0000",
+   "insights": {
+    "views": 206,
+    "reach": 142,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0
+   }
+  },
   {
    "id": "18099494258407219",
    "caption": "Quel pion prends-tu ? 👇 Seul 1.Rxc4 ! gagne ; 1.axb4 perd la course et 1.a6 ne f",
@@ -172,11 +204,11 @@
    "permalink": "https://www.instagram.com/reel/DfhuiH-EfrL/",
    "timestamp": "2026-11-09T16:10:13+0000",
    "insights": {
-    "views": 2180,
-    "reach": 1718,
+    "views": 2189,
+    "reach": 1727,
     "shares": 0,
-    "saved": 2,
-    "total_interactions": 24
+    "saved": 3,
+    "total_interactions": 25
    }
   },
   {
@@ -446,38 +478,6 @@
    "insights": {
     "views": 185,
     "reach": 144,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 0
-   }
-  },
-  {
-   "id": "18093375512213324",
-   "caption": "Ne reprends pas le cavalier 🐦 Laisse ta dame en prise… et mat en un coup. Piège ",
-   "comments_count": 0,
-   "like_count": 2,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfHo91Oj5am/",
-   "timestamp": "2026-10-30T13:01:08+0000",
-   "insights": {
-    "views": 208,
-    "reach": 154,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 2
-   }
-  },
-  {
-   "id": "18087490106325424",
-   "caption": "Ton roi peut manger ce pion ? Le fou est cloué… mais il protège quand même ! ♟️ ",
-   "comments_count": 0,
-   "like_count": 0,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfFzlx_CbRl/",
-   "timestamp": "2026-10-29T19:55:26+0000",
-   "insights": {
-    "views": 245,
-    "reach": 154,
     "shares": 0,
     "saved": 0,
     "total_interactions": 0
