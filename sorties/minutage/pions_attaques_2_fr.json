@@ -1,0 +1,125 @@
+{
+ "nom": "pions_attaques_2_fr",
+ "tempo": 1.0,
+ "duree_s": 18.08,
+ "hook": {
+  "texte": "Lequel de tes|pions prend ?",
+  "fin": 2.06
+ },
+ "question": {
+  "texte": "Lequel de tes|pions prend ?",
+  "t": 14.88
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Lequel de tes pions prend ?"
+  },
+  {
+   "t": 2.06,
+   "texte": "Prends en b4 !"
+  },
+  {
+   "t": 4.32,
+   "texte": "Il prend en h5 et ton pion b file à la promotion."
+  },
+  {
+   "t": 9.18,
+   "texte": "Prendre en g6 ne fait que nulle : les deux camps font dame."
+  },
+  {
+   "t": 14.38,
+   "texte": "Alors, quand deux de tes pions sont attaqués, demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.4,
+   "coup": "b4",
+   "badge": null
+  },
+  {
+   "t": 2.06,
+   "coup": "cxb4",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.6,
+   "coup": "gxh5",
+   "badge": null
+  },
+  {
+   "t": 7.04,
+   "coup": "b5",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.4,
+   "type": "coup"
+  },
+  {
+   "t": 0.74,
+   "type": "fleches"
+  },
+  {
+   "t": 0.98,
+   "type": "sticker"
+  },
+  {
+   "t": 2.06,
+   "type": "coup"
+  },
+  {
+   "t": 2.06,
+   "type": "zoom"
+  },
+  {
+   "t": 4.6,
+   "type": "coup"
+  },
+  {
+   "t": 7.04,
+   "type": "coup"
+  },
+  {
+   "t": 7.4,
+   "type": "fleches"
+  },
+  {
+   "t": 7.58,
+   "type": "sticker"
+  },
+  {
+   "t": 9.59,
+   "type": "position"
+  },
+  {
+   "t": 10.5,
+   "type": "fleches"
+  },
+  {
+   "t": 10.98,
+   "type": "sticker"
+  },
+  {
+   "t": 12.66,
+   "type": "sticker"
+  },
+  {
+   "t": 15.26,
+   "type": "sticker"
+  },
+  {
+   "t": 17.24,
+   "type": "sticker"
+  }
+ ],
+ "musique": "sneaky_spelunking.mp3"
+}
