@@ -24,7 +24,7 @@
    "texte": "Knight to g6 checkmate."
   },
   {
-   "t": 5.82,
+   "t": 5.88,
    "texte": "His h-pawn is pinned so it can't take."
   },
   {
@@ -38,7 +38,7 @@
  ],
  "coups": [
   {
-   "t": 0.14,
+   "t": 0.26,
    "coup": "Bd8",
    "badge": null
   },
@@ -65,15 +65,15 @@
    "type": "position"
   },
   {
-   "t": 0.14,
+   "t": 0.26,
    "type": "coup"
   },
   {
-   "t": 0.28,
+   "t": 0.44,
    "type": "fleches"
   },
   {
-   "t": 0.6,
+   "t": 0.84,
    "type": "sticker"
   },
   {
