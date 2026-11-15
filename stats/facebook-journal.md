@@ -166,3 +166,5 @@
 {"reseau": "facebook", "id": "4607577179508131", "ok": true}
 ### 2026-11-14 18:36 publications/facebook/dames_face_e7_1.json
 {"reseau": "facebook", "id": "1147178358153301", "ok": true}
+### 2026-11-15 09:53 publications/facebook/pions_attaques_2.json
+{"reseau": "facebook", "id": "1660877188876989", "ok": true}
