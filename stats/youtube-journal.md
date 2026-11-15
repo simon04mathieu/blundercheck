@@ -858,3 +858,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "120"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "122"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "122"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "123"}
+### 2026-11-15 09:46 publications/youtube/pions_attaques_2.json
+{"id": "IB3rxSVX-JU", "url": "https://www.youtube.com/shorts/IB3rxSVX-JU", "statut": "public", "publier_le": null}
