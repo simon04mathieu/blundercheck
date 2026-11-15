@@ -1,0 +1,125 @@
+{
+ "nom": "pions_attaques_2",
+ "tempo": 1.0,
+ "duree_s": 16.68,
+ "hook": {
+  "texte": "Which of your|pawns takes?",
+  "fin": 1.92
+ },
+ "question": {
+  "texte": "Which of your|pawns takes?",
+  "t": 13.48
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which of your pawns takes?"
+  },
+  {
+   "t": 1.92,
+   "texte": "Take on b4!"
+  },
+  {
+   "t": 3.94,
+   "texte": "He takes on h5 and the b-pawn runs home and queens."
+  },
+  {
+   "t": 8.26,
+   "texte": "Take on g6 and it's only a draw both sides queen."
+  },
+  {
+   "t": 13.66,
+   "texte": "So when two of your pawns are attacked, ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.2,
+   "coup": "b4",
+   "badge": null
+  },
+  {
+   "t": 1.92,
+   "coup": "cxb4",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.06,
+   "coup": "gxh5",
+   "badge": null
+  },
+  {
+   "t": 6.12,
+   "coup": "b5",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.2,
+   "type": "coup"
+  },
+  {
+   "t": 0.48,
+   "type": "fleches"
+  },
+  {
+   "t": 1.0,
+   "type": "sticker"
+  },
+  {
+   "t": 1.92,
+   "type": "coup"
+  },
+  {
+   "t": 1.92,
+   "type": "zoom"
+  },
+  {
+   "t": 4.06,
+   "type": "coup"
+  },
+  {
+   "t": 6.12,
+   "type": "coup"
+  },
+  {
+   "t": 6.48,
+   "type": "fleches"
+  },
+  {
+   "t": 6.82,
+   "type": "sticker"
+  },
+  {
+   "t": 8.73,
+   "type": "position"
+  },
+  {
+   "t": 9.52,
+   "type": "fleches"
+  },
+  {
+   "t": 10.44,
+   "type": "sticker"
+  },
+  {
+   "t": 12.18,
+   "type": "sticker"
+  },
+  {
+   "t": 14.14,
+   "type": "sticker"
+  },
+  {
+   "t": 16.1,
+   "type": "sticker"
+  }
+ ],
+ "musique": "fluffing_a_duck.mp3"
+}

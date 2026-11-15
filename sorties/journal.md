@@ -948,3 +948,6 @@
 ### commandes/perso_echec_f7_tour_1.json
     voix générée : 239 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/echec_f7_tour_1.mp4 {"voix_brute_s": 18.1, "tempo": 1.0, "video_s": 18.1, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "losing_your_marbles.mp3", "mots_transcrits": 45, "minutage": "7 phrases, 4 coups, 0 pauses"}
+### commandes/perso_pions_attaques_2.json
+    voix générée : 197 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pions_attaques_2.mp4 {"voix_brute_s": 16.7, "tempo": 1.0, "video_s": 16.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "fluffing_a_duck.mp3", "mots_transcrits": 41, "minutage": "5 phrases, 4 coups, 0 pauses"}
