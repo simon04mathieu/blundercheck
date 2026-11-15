@@ -954,3 +954,6 @@
 ### commandes/perso_pions_attaques_2_fr.json
     voix générée : 213 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pions_attaques_2_fr.mp4 {"voix_brute_s": 18.0, "tempo": 1.0, "video_s": 18.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 44, "minutage": "5 phrases, 4 coups, 0 pauses"}
+### commandes/perso_pions_roi_g5_1.json
+    voix générée : 215 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pions_roi_g5_1.mp4 {"voix_brute_s": 18.0, "tempo": 1.0, "video_s": 18.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "investigations.mp3", "mots_transcrits": 42, "minutage": "6 phrases, 4 coups, 0 pauses"}

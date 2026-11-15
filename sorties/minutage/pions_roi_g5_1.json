@@ -1,0 +1,125 @@
+{
+ "nom": "pions_roi_g5_1",
+ "tempo": 1.0,
+ "duree_s": 18.08,
+ "hook": {
+  "texte": "Pawn takes,|or king takes?",
+  "fin": 2.6
+ },
+ "question": {
+  "texte": "Analyze your game|blundercheck.app/try",
+  "t": 14.88
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Pawn takes, or king takes?"
+  },
+  {
+   "t": 2.6,
+   "texte": "King takes g5!"
+  },
+  {
+   "t": 4.52,
+   "texte": "He takes g4 the king takes again and the f-pawn walks home."
+  },
+  {
+   "t": 9.86,
+   "texte": "A pawn takes and it's only a draw."
+  },
+  {
+   "t": 12.78,
+   "texte": "Analyze your own game free."
+  },
+  {
+   "t": 15.38,
+   "texte": "So when your pawns are attacked ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.24,
+   "coup": "g5",
+   "badge": null
+  },
+  {
+   "t": 2.6,
+   "coup": "Kxg5",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.62,
+   "coup": "hxg4",
+   "badge": null
+  },
+  {
+   "t": 6.32,
+   "coup": "Kxg4",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.24,
+   "type": "coup"
+  },
+  {
+   "t": 0.6,
+   "type": "fleches"
+  },
+  {
+   "t": 1.28,
+   "type": "sticker"
+  },
+  {
+   "t": 2.6,
+   "type": "coup"
+  },
+  {
+   "t": 2.6,
+   "type": "zoom"
+  },
+  {
+   "t": 4.62,
+   "type": "coup"
+  },
+  {
+   "t": 6.32,
+   "type": "coup"
+  },
+  {
+   "t": 8.2,
+   "type": "fleches"
+  },
+  {
+   "t": 8.64,
+   "type": "sticker"
+  },
+  {
+   "t": 9.91,
+   "type": "position"
+  },
+  {
+   "t": 10.16,
+   "type": "fleches"
+  },
+  {
+   "t": 11.24,
+   "type": "sticker"
+  },
+  {
+   "t": 13.46,
+   "type": "sticker"
+  },
+  {
+   "t": 15.92,
+   "type": "sticker"
+  }
+ ],
+ "musique": "investigations.mp3"
+}
