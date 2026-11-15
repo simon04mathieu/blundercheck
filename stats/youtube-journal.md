@@ -863,3 +863,6 @@
 {"id": "IB3rxSVX-JU", "url": "https://www.youtube.com/shorts/IB3rxSVX-JU", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "123"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "123"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "124"}
+### 2026-11-15 12:51 publications/youtube/echec_f7_tour_1.json
+{"id": "zvnprf1u6_A", "url": "https://www.youtube.com/shorts/zvnprf1u6_A", "statut": "public", "publier_le": null}
