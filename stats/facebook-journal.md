@@ -172,3 +172,5 @@
 {"reseau": "facebook", "id": "1460458026264420", "ok": true}
 ### 2026-11-15 15:21 publications/facebook/pions_roi_g5_1.json
 {"reseau": "facebook", "id": "2057223548260743", "ok": true}
+### 2026-11-15 18:38 publications/facebook/cavalier_g6_1.json
+{"reseau": "facebook", "id": "1183717530655583", "ok": true}

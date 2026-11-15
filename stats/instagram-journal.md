@@ -111,3 +111,5 @@
 {"reseau": "instagram", "id": "18579722941079077"}
 ### 2026-11-15 13:00 publications/instagram/pions_attaques_2_fr.json
 {"reseau": "instagram", "id": "18286228129291932"}
+### 2026-11-15 18:38 publications/instagram/cavalier_g6_1_fr.json
+{"reseau": "instagram", "id": "18232014460328181"}

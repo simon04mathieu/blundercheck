@@ -180,3 +180,5 @@ jeton Threads renouvelé (valable 60 jours)
 {"reseau": "threads", "id": "17916205599283082"}
 ### 2026-11-15 15:22 publications/threads/pions_roi_g5_1.json
 {"reseau": "threads", "id": "18095988935195330"}
+### 2026-11-15 18:39 publications/threads/cavalier_g6_1.json
+{"reseau": "threads", "id": "18100971935387144"}
