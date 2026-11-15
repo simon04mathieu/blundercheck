@@ -942,3 +942,6 @@
     voix générée : 197 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/cavalier_g6_1.mp4 {"voix_brute_s": 16.2, "tempo": 1.0, "video_s": 16.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "chicago.mp3", "mots_transcrits": 41, "minutage": "6 phrases, 4 coups, 0 pauses"}
+### commandes/perso_cavalier_g6_1_fr.json
+    voix générée : 220 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/cavalier_g6_1_fr.mp4 {"voix_brute_s": 17.8, "tempo": 1.0, "video_s": 17.9, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "baby_animals_playing.mp3", "mots_transcrits": 45, "minutage": "6 phrases, 4 coups, 0 pauses"}

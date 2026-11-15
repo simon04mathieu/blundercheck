@@ -1,0 +1,129 @@
+{
+ "nom": "cavalier_g6_1_fr",
+ "tempo": 1.0,
+ "duree_s": 17.28,
+ "hook": {
+  "texte": "Tu prends la|tour gratuite ?",
+  "fin": 1.8
+ },
+ "question": {
+  "texte": "Tu prends la|tour gratuite ?",
+  "t": 14.08
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Tu prends la tour gratuite ?"
+  },
+  {
+   "t": 1.8,
+   "texte": "Non !"
+  },
+  {
+   "t": 3.42,
+   "texte": "Cavalier en g6  mat."
+  },
+  {
+   "t": 6.38,
+   "texte": "Son pion h est cloué il ne peut pas prendre."
+  },
+  {
+   "t": 9.7,
+   "texte": "Prendre la tour perd sur un mat en f1."
+  },
+  {
+   "t": 12.84,
+   "texte": "Alors, quand une tour est gratuite cherche d'abord le mat puis demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.16,
+   "coup": "Bd8",
+   "badge": null
+  },
+  {
+   "t": 1.8,
+   "coup": "Ng6#",
+   "badge": "mat"
+  },
+  {
+   "t": 9.94,
+   "coup": "Nxg8",
+   "badge": "erreur"
+  },
+  {
+   "t": 10.74,
+   "coup": "Rf1#",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.16,
+   "type": "coup"
+  },
+  {
+   "t": 0.36,
+   "type": "fleches"
+  },
+  {
+   "t": 0.66,
+   "type": "sticker"
+  },
+  {
+   "t": 1.8,
+   "type": "coup"
+  },
+  {
+   "t": 1.8,
+   "type": "zoom"
+  },
+  {
+   "t": 5.02,
+   "type": "sticker"
+  },
+  {
+   "t": 7.28,
+   "type": "fleches"
+  },
+  {
+   "t": 8.24,
+   "type": "sticker"
+  },
+  {
+   "t": 9.89,
+   "type": "position"
+  },
+  {
+   "t": 9.94,
+   "type": "coup"
+  },
+  {
+   "t": 10.74,
+   "type": "coup"
+  },
+  {
+   "t": 11.18,
+   "type": "sticker"
+  },
+  {
+   "t": 13.13,
+   "type": "position"
+  },
+  {
+   "t": 13.72,
+   "type": "sticker"
+  },
+  {
+   "t": 15.38,
+   "type": "sticker"
+  }
+ ],
+ "musique": "baby_animals_playing.mp3"
+}
