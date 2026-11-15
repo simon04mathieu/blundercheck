@@ -880,3 +880,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "124"}
 ### 2026-11-15 18:26 publications/youtube/cavalier_g6_1.json
 {"id": "r4WzpXiZ_50", "url": "https://www.youtube.com/shorts/r4WzpXiZ_50", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "124"}
