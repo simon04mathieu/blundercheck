@@ -1,0 +1,137 @@
+{
+ "nom": "echec_f7_tour_1",
+ "tempo": 1.0,
+ "duree_s": 18.14,
+ "hook": {
+  "texte": "Take his rook,|or save yours?",
+  "fin": 2.64
+ },
+ "question": {
+  "texte": "Take his rook,|or save yours?",
+  "t": 14.94
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take his rook or save yours?"
+  },
+  {
+   "t": 2.64,
+   "texte": "Neither!"
+  },
+  {
+   "t": 3.74,
+   "texte": "Rook to f7 check!"
+  },
+  {
+   "t": 5.8,
+   "texte": "The knight guards it so the king steps aside."
+  },
+  {
+   "t": 8.96,
+   "texte": "Then the bishop takes his rook."
+  },
+  {
+   "t": 11.08,
+   "texte": "Taking now lets his king take yours."
+  },
+  {
+   "t": 14.08,
+   "texte": "So when your rook is attacked find the check then ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.2,
+   "coup": "Kf8",
+   "badge": null
+  },
+  {
+   "t": 2.64,
+   "coup": "Rf7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 7.32,
+   "coup": "Ke8",
+   "badge": null
+  },
+  {
+   "t": 9.48,
+   "coup": "Bxc2",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.2,
+   "type": "coup"
+  },
+  {
+   "t": 0.38,
+   "type": "fleches"
+  },
+  {
+   "t": 1.0,
+   "type": "sticker"
+  },
+  {
+   "t": 2.64,
+   "type": "coup"
+  },
+  {
+   "t": 2.64,
+   "type": "zoom"
+  },
+  {
+   "t": 4.82,
+   "type": "sticker"
+  },
+  {
+   "t": 6.12,
+   "type": "fleches"
+  },
+  {
+   "t": 6.9,
+   "type": "sticker"
+  },
+  {
+   "t": 7.32,
+   "type": "coup"
+  },
+  {
+   "t": 9.48,
+   "type": "coup"
+  },
+  {
+   "t": 9.8,
+   "type": "sticker"
+  },
+  {
+   "t": 11.37,
+   "type": "position"
+  },
+  {
+   "t": 11.78,
+   "type": "fleches"
+  },
+  {
+   "t": 12.5,
+   "type": "sticker"
+  },
+  {
+   "t": 14.84,
+   "type": "sticker"
+  },
+  {
+   "t": 17.08,
+   "type": "sticker"
+  }
+ ],
+ "musique": "losing_your_marbles.mp3"
+}

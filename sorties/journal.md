@@ -945,3 +945,6 @@
 ### commandes/perso_cavalier_g6_1_fr.json
     voix générée : 220 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/cavalier_g6_1_fr.mp4 {"voix_brute_s": 17.8, "tempo": 1.0, "video_s": 17.9, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "baby_animals_playing.mp3", "mots_transcrits": 45, "minutage": "6 phrases, 4 coups, 0 pauses"}
+### commandes/perso_echec_f7_tour_1.json
+    voix générée : 239 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/echec_f7_tour_1.mp4 {"voix_brute_s": 18.1, "tempo": 1.0, "video_s": 18.1, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "losing_your_marbles.mp3", "mots_transcrits": 45, "minutage": "7 phrases, 4 coups, 0 pauses"}
