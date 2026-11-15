@@ -1,0 +1,28 @@
+{
+ "legende": "Tu prends la tour gratuite ? 👇 Seul 1.Cg6# gagne (mat) ; 1.Cxg8 ?? Tf1# (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-15T19:00:00+01:00",
+ "fichier": "sorties/cavalier_g6_1_fr.mp4",
+ "concept": "cavalier_g6",
+ "format": "TACTIQUE",
+ "langue": "fr",
+ "duree": 17.28,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "fr",
+  "duree_s": 17,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "mat_cavalier_pion_cloue",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_la_tour",
+  "pieces": 12,
+  "look": "corail",
+  "fx": "fleches+zoom+tag+ding"
+ },
+ "paire": "cavalier_g6_1"
+}

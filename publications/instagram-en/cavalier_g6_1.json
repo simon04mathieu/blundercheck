@@ -1,0 +1,27 @@
+{
+ "legende": "Do you take the free rook? 👇 Only 1.Ng6# wins (mate); 1.Nxg8?? Rf1# (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-15T19:00:00+01:00",
+ "fichier": "sorties/cavalier_g6_1.mp4",
+ "concept": "cavalier_g6",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 16.3,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 16,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "mat_cavalier_pion_cloue",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_la_tour",
+  "pieces": 12,
+  "look": "ardoise",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

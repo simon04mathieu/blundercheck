@@ -1,0 +1,33 @@
+{
+ "titre": "Your rook is attacked. Take his rook? ♟️ #chess #shorts",
+ "description": "Take his rook, or save yours? 👇 Only 1.Rf7+! wins a rook; 1.Bxc2 Kxe7 lets his king take yours (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess tactics",
+  "chess puzzle"
+ ],
+ "envoyer_apres": "2026-11-15T13:00:00+01:00",
+ "fichier": "sorties/echec_f7_tour_1.mp4",
+ "concept": "echec_f7_tour",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 18.14,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 18,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "echec_intermediaire_tour",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_la_tour",
+  "pieces": 13,
+  "look": "bois",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

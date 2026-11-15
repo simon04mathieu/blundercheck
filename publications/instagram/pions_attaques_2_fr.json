@@ -1,0 +1,28 @@
+{
+ "legende": "Quel pion prend ? 👇 Seul 1.cxb4 ! gagne ; 1.hxg6 bxc3 est nulle : les deux camps font dame (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-15T13:00:00+01:00",
+ "fichier": "sorties/pions_attaques_2_fr.mp4",
+ "concept": "pions_attaques_2",
+ "format": "FINALE",
+ "langue": "fr",
+ "duree": 18.08,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "fr",
+  "duree_s": 18,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "deux_pions_attaques_un_seul",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "bonne_prise_pion_passe",
+  "pieces": 6,
+  "look": "mono",
+  "fx": "fleches+zoom+tag+ding"
+ },
+ "paire": "pions_attaques_2"
+}

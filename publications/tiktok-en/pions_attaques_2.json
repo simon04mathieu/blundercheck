@@ -1,0 +1,31 @@
+{
+ "legende": "Which pawn takes? 👇 Only 1.cxb4! wins; 1.hxg6 bxc3 is a draw: both sides queen (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle",
+ "envoyer_apres": "2026-11-15T08:00:00+01:00",
+ "heure_conseillee": "2026-11-15T10:00:00+01:00",
+ "repere": "10 h · pions_attaques_2 · 16.68 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/pions_attaques_2.mp4",
+ "concept": "pions_attaques_2",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 16.68,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 17,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "deux_pions_attaques_un_seul",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "bonne_prise_pion_passe",
+  "pieces": 6,
+  "look": "emeraude",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}
