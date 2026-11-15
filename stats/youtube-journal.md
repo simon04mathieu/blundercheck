@@ -872,3 +872,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "124"}
 ### 2026-11-15 15:17 publications/youtube/pions_roi_g5_1.json
 {"id": "1T20bwlE-pI", "url": "https://www.youtube.com/shorts/1T20bwlE-pI", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "124"}
