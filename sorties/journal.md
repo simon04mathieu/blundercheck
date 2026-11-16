@@ -976,3 +976,6 @@
 ### commandes/perso_dames_pin_g7_1_fr.json
     voix générée : 282 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/dames_pin_g7_1_fr.mp4 {"voix_brute_s": 20.4, "tempo": 1.0, "video_s": 20.4, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fluffing_a_duck.mp3", "mots_transcrits": 58, "minutage": "7 phrases, 4 coups, 0 pauses"}
+### commandes/perso_pions_fourchette_g6_1.json
+    voix générée : 205 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pions_fourchette_g6_1.mp4 {"voix_brute_s": 16.7, "tempo": 1.0, "video_s": 16.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "chicago.mp3", "mots_transcrits": 43, "minutage": "5 phrases, 4 coups, 0 pauses"}

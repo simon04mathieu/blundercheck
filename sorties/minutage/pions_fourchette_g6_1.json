@@ -1,0 +1,125 @@
+{
+ "nom": "pions_fourchette_g6_1",
+ "tempo": 1.0,
+ "duree_s": 16.8,
+ "hook": {
+  "texte": "Which pawn|takes?",
+  "fin": 1.78
+ },
+ "question": {
+  "texte": "Which pawn|takes?",
+  "t": 13.6
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which pawn takes?"
+  },
+  {
+   "t": 1.78,
+   "texte": "Take with the f-pawn!"
+  },
+  {
+   "t": 3.96,
+   "texte": "He takes back then h6: the pawn runs home and his king is too far."
+  },
+  {
+   "t": 9.84,
+   "texte": "Take with the h-pawn and it's only a draw."
+  },
+  {
+   "t": 13.3,
+   "texte": "So when one pawn attacks two of yours, ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.24,
+   "coup": "g6",
+   "badge": null
+  },
+  {
+   "t": 1.78,
+   "coup": "fxg6",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.06,
+   "coup": "hxg6",
+   "badge": null
+  },
+  {
+   "t": 6.44,
+   "coup": "h6",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.24,
+   "type": "coup"
+  },
+  {
+   "t": 0.52,
+   "type": "fleches"
+  },
+  {
+   "t": 0.52,
+   "type": "sticker"
+  },
+  {
+   "t": 1.78,
+   "type": "coup"
+  },
+  {
+   "t": 1.78,
+   "type": "zoom"
+  },
+  {
+   "t": 4.06,
+   "type": "coup"
+  },
+  {
+   "t": 6.44,
+   "type": "coup"
+  },
+  {
+   "t": 6.44,
+   "type": "fleches"
+  },
+  {
+   "t": 6.8,
+   "type": "sticker"
+  },
+  {
+   "t": 8.26,
+   "type": "sticker"
+  },
+  {
+   "t": 10.11,
+   "type": "position"
+  },
+  {
+   "t": 10.44,
+   "type": "fleches"
+  },
+  {
+   "t": 11.48,
+   "type": "sticker"
+  },
+  {
+   "t": 14.28,
+   "type": "sticker"
+  },
+  {
+   "t": 15.9,
+   "type": "sticker"
+  }
+ ],
+ "musique": "chicago.mp3"
+}
