@@ -39,7 +39,7 @@
    "badge": null
   },
   {
-   "t": 3.22,
+   "t": 1.76,
    "coup": "fxg7",
    "badge": "brillant"
   },
@@ -69,16 +69,20 @@
    "type": "fleches"
   },
   {
-   "t": 1.76,
+   "t": 1.58,
    "type": "sticker"
   },
   {
-   "t": 3.22,
+   "t": 1.76,
    "type": "coup"
   },
   {
-   "t": 3.22,
+   "t": 1.76,
    "type": "zoom"
+  },
+  {
+   "t": 3.42,
+   "type": "sticker"
   },
   {
    "t": 5.16,
