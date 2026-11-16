@@ -985,3 +985,8 @@
 ### commandes/perso_pions_g7_e5_1.json
     voix générée : 162 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pions_g7_e5_1.mp4 {"voix_brute_s": 14.9, "tempo": 1.0, "video_s": 14.9, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "zoobeedoo.mp3", "mots_transcrits": 36, "minutage": "5 phrases, 4 coups, 0 pauses"}
+## 2026-11-16 00:18 UTC · run 43779489457
+### commandes/perso_dames_g4_g6_1.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/dames_g4_g6_1.mp4 {"voix_brute_s": 19.3, "tempo": 1.0, "video_s": 19.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "corny_candy.mp3", "mots_transcrits": 43, "minutage": "7 phrases, 4 coups, 0 pauses"}
