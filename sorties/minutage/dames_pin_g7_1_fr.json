@@ -1,0 +1,137 @@
+{
+ "nom": "dames_pin_g7_1_fr",
+ "tempo": 1.0,
+ "duree_s": 20.0,
+ "hook": {
+  "texte": "Tu prends sa dame,|ou tu fuis ?",
+  "fin": 2.38
+ },
+ "question": {
+  "texte": "Tu prends sa dame,|ou tu fuis ?",
+  "t": 16.8
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Tu prends sa dame ou tu fuis ?"
+  },
+  {
+   "t": 2.38,
+   "texte": "Ni l'un ni l'autre !"
+  },
+  {
+   "t": 3.82,
+   "texte": "Cavalier en f6 échec !"
+  },
+  {
+   "t": 6.0,
+   "texte": "Sa dame est clouée elle ne peut pas le prendre."
+  },
+  {
+   "t": 8.74,
+   "texte": "Le roi s'écarte et la dame donne mat."
+  },
+  {
+   "t": 12.24,
+   "texte": "Prendre sa dame ne gagne rien : il reprend."
+  },
+  {
+   "t": 15.46,
+   "texte": "Alors, quand deux dames se font face, cherche l'échec puis demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.38,
+   "coup": "Ne5",
+   "badge": null
+  },
+  {
+   "t": 2.38,
+   "coup": "Nf6+",
+   "badge": "brillant"
+  },
+  {
+   "t": 9.14,
+   "coup": "Kf8",
+   "badge": null
+  },
+  {
+   "t": 10.22,
+   "coup": "Qb4#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.38,
+   "type": "coup"
+  },
+  {
+   "t": 0.58,
+   "type": "fleches"
+  },
+  {
+   "t": 1.06,
+   "type": "sticker"
+  },
+  {
+   "t": 2.38,
+   "type": "coup"
+  },
+  {
+   "t": 2.38,
+   "type": "zoom"
+  },
+  {
+   "t": 5.06,
+   "type": "sticker"
+  },
+  {
+   "t": 6.42,
+   "type": "fleches"
+  },
+  {
+   "t": 7.14,
+   "type": "sticker"
+  },
+  {
+   "t": 9.14,
+   "type": "coup"
+  },
+  {
+   "t": 10.22,
+   "type": "coup"
+  },
+  {
+   "t": 10.48,
+   "type": "sticker"
+  },
+  {
+   "t": 12.67,
+   "type": "position"
+  },
+  {
+   "t": 13.2,
+   "type": "fleches"
+  },
+  {
+   "t": 13.56,
+   "type": "sticker"
+  },
+  {
+   "t": 16.68,
+   "type": "sticker"
+  },
+  {
+   "t": 19.0,
+   "type": "sticker"
+  }
+ ],
+ "musique": "fluffing_a_duck.mp3"
+}
