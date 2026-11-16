@@ -1,0 +1,125 @@
+{
+ "nom": "pions_fourchette_g6_1_fr",
+ "tempo": 1.0,
+ "duree_s": 18.68,
+ "hook": {
+  "texte": "Quel pion|prend ?",
+  "fin": 1.56
+ },
+ "question": {
+  "texte": "Quel pion|prend ?",
+  "t": 15.48
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Quel pion prend ?"
+  },
+  {
+   "t": 1.56,
+   "texte": "Prends avec le pion f !"
+  },
+  {
+   "t": 4.3,
+   "texte": "Il reprend, puis h6  ton pion h file à la promotion, et son roi est trop loin."
+  },
+  {
+   "t": 11.58,
+   "texte": "Avec le pion h ce n'est qu'une nulle."
+  },
+  {
+   "t": 14.88,
+   "texte": "Alors, quand un pion en attaque deux des tiens demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.18,
+   "coup": "g6",
+   "badge": null
+  },
+  {
+   "t": 1.56,
+   "coup": "fxg6",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.44,
+   "coup": "hxg6",
+   "badge": null
+  },
+  {
+   "t": 7.5,
+   "coup": "h6",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.18,
+   "type": "coup"
+  },
+  {
+   "t": 0.52,
+   "type": "fleches"
+  },
+  {
+   "t": 0.52,
+   "type": "sticker"
+  },
+  {
+   "t": 1.56,
+   "type": "coup"
+  },
+  {
+   "t": 1.56,
+   "type": "zoom"
+  },
+  {
+   "t": 4.44,
+   "type": "coup"
+  },
+  {
+   "t": 7.5,
+   "type": "coup"
+  },
+  {
+   "t": 7.5,
+   "type": "fleches"
+  },
+  {
+   "t": 8.4,
+   "type": "sticker"
+  },
+  {
+   "t": 10.6,
+   "type": "sticker"
+  },
+  {
+   "t": 11.69,
+   "type": "position"
+  },
+  {
+   "t": 11.96,
+   "type": "fleches"
+  },
+  {
+   "t": 13.08,
+   "type": "sticker"
+  },
+  {
+   "t": 16.14,
+   "type": "sticker"
+  },
+  {
+   "t": 17.7,
+   "type": "sticker"
+  }
+ ],
+ "musique": "baby_animals_playing.mp3"
+}
