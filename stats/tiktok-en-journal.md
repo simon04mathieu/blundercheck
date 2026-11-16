@@ -746,3 +746,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"publish_id": "v_inbox_file~v2.7708697236368132118", "mode": "brouillon", "vie_privee": null, "legende": "Which pawn takes? 👇 Only 1.fxg6! wins; 1.hxg6 is only a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
 ### 2026-11-16 09:23 publications/tiktok-en/pions_g7_e5_1.json
 {"publish_id": "v_inbox_file~v2.7708697293735479318", "mode": "brouillon", "vie_privee": null, "legende": "Which pawn takes? 👇 Only 1.fxg7! wins; 1.exd6 gxf6 loses (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 45, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
