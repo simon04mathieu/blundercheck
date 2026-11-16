@@ -115,3 +115,5 @@
 {"reseau": "instagram", "id": "18232014460328181"}
 ### 2026-11-16 15:13 publications/instagram/dames_pin_g7_1_fr.json
 {"reseau": "instagram", "id": "18503529562098341"}
+### 2026-11-16 18:08 publications/instagram/pions_fourchette_g6_1_fr.json
+{"reseau": "instagram", "id": "17989761354092060"}
