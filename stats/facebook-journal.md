@@ -174,3 +174,5 @@
 {"reseau": "facebook", "id": "2057223548260743", "ok": true}
 ### 2026-11-15 18:38 publications/facebook/cavalier_g6_1.json
 {"reseau": "facebook", "id": "1183717530655583", "ok": true}
+### 2026-11-16 09:46 publications/facebook/dames_pin_g7_1.json
+{"reseau": "facebook", "id": "1593943479204816", "ok": true}
