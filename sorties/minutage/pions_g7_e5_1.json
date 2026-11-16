@@ -1,0 +1,125 @@
+{
+ "nom": "pions_g7_e5_1",
+ "tempo": 1.0,
+ "duree_s": 14.88,
+ "hook": {
+  "texte": "Take on g7,|or on d6?",
+  "fin": 3.22
+ },
+ "question": {
+  "texte": "Take on g7,|or on d6?",
+  "t": 11.68
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take on g7 or on d6?"
+  },
+  {
+   "t": 3.22,
+   "texte": "Take on g7!"
+  },
+  {
+   "t": 5.04,
+   "texte": "If he takes on e5 the g-pawn queens with check."
+  },
+  {
+   "t": 8.98,
+   "texte": "Take on d6 and you lose."
+  },
+  {
+   "t": 11.9,
+   "texte": "So when two of your pawns are attacked, ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.24,
+   "coup": "d6",
+   "badge": null
+  },
+  {
+   "t": 3.22,
+   "coup": "fxg7",
+   "badge": "brillant"
+  },
+  {
+   "t": 5.5,
+   "coup": "dxe5",
+   "badge": null
+  },
+  {
+   "t": 7.44,
+   "coup": "g8=Q+",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.24,
+   "type": "coup"
+  },
+  {
+   "t": 1.0,
+   "type": "fleches"
+  },
+  {
+   "t": 1.76,
+   "type": "sticker"
+  },
+  {
+   "t": 3.22,
+   "type": "coup"
+  },
+  {
+   "t": 3.22,
+   "type": "zoom"
+  },
+  {
+   "t": 5.16,
+   "type": "sticker"
+  },
+  {
+   "t": 5.5,
+   "type": "coup"
+  },
+  {
+   "t": 6.88,
+   "type": "fleches"
+  },
+  {
+   "t": 7.44,
+   "type": "coup"
+  },
+  {
+   "t": 7.8,
+   "type": "sticker"
+  },
+  {
+   "t": 9.37,
+   "type": "position"
+  },
+  {
+   "t": 10.16,
+   "type": "fleches"
+  },
+  {
+   "t": 10.44,
+   "type": "sticker"
+  },
+  {
+   "t": 12.54,
+   "type": "sticker"
+  },
+  {
+   "t": 14.04,
+   "type": "sticker"
+  }
+ ],
+ "musique": "zoobeedoo.mp3"
+}
