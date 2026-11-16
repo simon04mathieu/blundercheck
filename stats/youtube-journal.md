@@ -898,3 +898,8 @@
 ### 2026-11-16 09:40 publications/youtube/dames_pin_g7_1.json
 {"id": "yucrFFnubcA", "url": "https://www.youtube.com/shorts/yucrFFnubcA", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "128"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "131"}
+### 2026-11-16 15:04 publications/youtube/dames_g4_g6_1.json
+{"id": "W6RUrdqyYmQ", "url": "https://www.youtube.com/shorts/W6RUrdqyYmQ", "statut": "public", "publier_le": null}
+### 2026-11-16 15:04 publications/youtube/pions_fourchette_g6_1.json
+{"id": "uVegdaaKTLs", "url": "https://www.youtube.com/shorts/uVegdaaKTLs", "statut": "public", "publier_le": null}
