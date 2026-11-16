@@ -1,0 +1,137 @@
+{
+ "nom": "dames_g4_g6_1",
+ "tempo": 1.0,
+ "duree_s": 19.36,
+ "hook": {
+  "texte": "Trade queens,|or run?",
+  "fin": 2.2
+ },
+ "question": {
+  "texte": "Analyze your game|blundercheck.app/try",
+  "t": 16.16
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Trade queens, or run?"
+  },
+  {
+   "t": 2.2,
+   "texte": "Neither!"
+  },
+  {
+   "t": 3.16,
+   "texte": "Rook to a8 check!"
+  },
+  {
+   "t": 5.68,
+   "texte": "The knight must block and the rook takes it checkmate."
+  },
+  {
+   "t": 9.7,
+   "texte": "Trade queens, and nothing is won."
+  },
+  {
+   "t": 12.62,
+   "texte": "Analyze your own game free."
+  },
+  {
+   "t": 15.3,
+   "texte": "So when his queen attacks yours look for the check then ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.24,
+   "coup": "Qg6",
+   "badge": null
+  },
+  {
+   "t": 2.2,
+   "coup": "Ra8+",
+   "badge": "brillant"
+  },
+  {
+   "t": 6.0,
+   "coup": "Nc8",
+   "badge": null
+  },
+  {
+   "t": 7.38,
+   "coup": "Rxc8#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.24,
+   "type": "coup"
+  },
+  {
+   "t": 0.64,
+   "type": "fleches"
+  },
+  {
+   "t": 0.92,
+   "type": "sticker"
+  },
+  {
+   "t": 2.2,
+   "type": "coup"
+  },
+  {
+   "t": 2.2,
+   "type": "zoom"
+  },
+  {
+   "t": 4.36,
+   "type": "fleches"
+  },
+  {
+   "t": 5.68,
+   "type": "sticker"
+  },
+  {
+   "t": 6.0,
+   "type": "coup"
+  },
+  {
+   "t": 7.38,
+   "type": "coup"
+  },
+  {
+   "t": 7.7,
+   "type": "sticker"
+  },
+  {
+   "t": 10.11,
+   "type": "position"
+  },
+  {
+   "t": 10.92,
+   "type": "fleches"
+  },
+  {
+   "t": 11.04,
+   "type": "sticker"
+  },
+  {
+   "t": 13.3,
+   "type": "sticker"
+  },
+  {
+   "t": 16.12,
+   "type": "sticker"
+  },
+  {
+   "t": 18.34,
+   "type": "sticker"
+  }
+ ],
+ "musique": "corny_candy.mp3"
+}

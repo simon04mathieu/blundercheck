@@ -965,3 +965,8 @@
 ### commandes/perso_cavalier_g6_1_fr.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/cavalier_g6_1_fr.mp4 {"voix_brute_s": 17.8, "tempo": 1.0, "video_s": 17.9, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "baby_animals_playing.mp3", "mots_transcrits": 45, "minutage": "6 phrases, 4 coups, 0 pauses"}
+## 2026-11-16 00:09 UTC · run 43778527894
+### commandes/perso_dames_g4_g6_1.json
+    voix générée : 241 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/dames_g4_g6_1.mp4 {"voix_brute_s": 19.3, "tempo": 1.0, "video_s": 19.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "corny_candy.mp3", "mots_transcrits": 43, "minutage": "7 phrases, 4 coups, 0 pauses"}
