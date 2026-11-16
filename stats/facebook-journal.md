@@ -176,3 +176,7 @@
 {"reseau": "facebook", "id": "1183717530655583", "ok": true}
 ### 2026-11-16 09:46 publications/facebook/dames_pin_g7_1.json
 {"reseau": "facebook", "id": "1593943479204816", "ok": true}
+### 2026-11-16 15:13 publications/facebook/dames_g4_g6_1.json
+{"reseau": "facebook", "id": "1465390958883677", "ok": true}
+### 2026-11-16 15:13 publications/facebook/pions_fourchette_g6_1.json
+{"reseau": "facebook", "id": "1363842909032884", "ok": true}
