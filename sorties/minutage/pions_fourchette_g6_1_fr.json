@@ -34,7 +34,7 @@
  ],
  "coups": [
   {
-   "t": 0.18,
+   "t": 0.52,
    "coup": "g6",
    "badge": null
   },
@@ -49,7 +49,7 @@
    "badge": null
   },
   {
-   "t": 7.5,
+   "t": 5.46,
    "coup": "h6",
    "badge": null
   }
@@ -61,15 +61,15 @@
    "type": "position"
   },
   {
-   "t": 0.18,
+   "t": 0.52,
    "type": "coup"
   },
   {
-   "t": 0.52,
+   "t": 0.9,
    "type": "fleches"
   },
   {
-   "t": 0.52,
+   "t": 0.9,
    "type": "sticker"
   },
   {
@@ -81,11 +81,15 @@
    "type": "zoom"
   },
   {
+   "t": 2.18,
+   "type": "sticker"
+  },
+  {
    "t": 4.44,
    "type": "coup"
   },
   {
-   "t": 7.5,
+   "t": 5.46,
    "type": "coup"
   },
   {
