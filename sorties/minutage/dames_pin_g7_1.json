@@ -1,0 +1,137 @@
+{
+ "nom": "dames_pin_g7_1",
+ "tempo": 1.0,
+ "duree_s": 20.1,
+ "hook": {
+  "texte": "Take his queen,|or run?",
+  "fin": 2.36
+ },
+ "question": {
+  "texte": "Take his queen,|or run?",
+  "t": 16.9
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take his queen or run?"
+  },
+  {
+   "t": 2.36,
+   "texte": "Neither!"
+  },
+  {
+   "t": 2.64,
+   "texte": "Knight to f6 check!"
+  },
+  {
+   "t": 5.14,
+   "texte": "His queen is pinned so it can't take."
+  },
+  {
+   "t": 8.18,
+   "texte": "The king steps aside and the queen gives mate."
+  },
+  {
+   "t": 11.62,
+   "texte": "Take his queen and he takes back nothing is won."
+  },
+  {
+   "t": 15.74,
+   "texte": "So when queens face each other look for the check then ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.22,
+   "coup": "Ne5",
+   "badge": null
+  },
+  {
+   "t": 2.36,
+   "coup": "Nf6+",
+   "badge": "brillant"
+  },
+  {
+   "t": 8.52,
+   "coup": "Kf8",
+   "badge": null
+  },
+  {
+   "t": 10.08,
+   "coup": "Qb4#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.22,
+   "type": "coup"
+  },
+  {
+   "t": 0.44,
+   "type": "fleches"
+  },
+  {
+   "t": 0.78,
+   "type": "sticker"
+  },
+  {
+   "t": 2.36,
+   "type": "coup"
+  },
+  {
+   "t": 2.36,
+   "type": "zoom"
+  },
+  {
+   "t": 3.84,
+   "type": "sticker"
+  },
+  {
+   "t": 5.6,
+   "type": "fleches"
+  },
+  {
+   "t": 6.12,
+   "type": "sticker"
+  },
+  {
+   "t": 8.52,
+   "type": "coup"
+  },
+  {
+   "t": 10.08,
+   "type": "coup"
+  },
+  {
+   "t": 10.4,
+   "type": "sticker"
+  },
+  {
+   "t": 11.83,
+   "type": "position"
+  },
+  {
+   "t": 12.44,
+   "type": "fleches"
+  },
+  {
+   "t": 12.88,
+   "type": "sticker"
+  },
+  {
+   "t": 16.48,
+   "type": "sticker"
+  },
+  {
+   "t": 19.0,
+   "type": "sticker"
+  }
+ ],
+ "musique": "kitty_down_the_stairs.mp3"
+}
