@@ -1,0 +1,31 @@
+{
+ "legende": "Which pawn takes? 👇 Only 1.fxg7! wins; 1.exd6 gxf6 loses (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle",
+ "envoyer_apres": "2026-11-16T08:00:00+01:00",
+ "heure_conseillee": "2026-11-16T19:00:00+01:00",
+ "repere": "19 h · pions_g7_e5_1 · 14.88 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/pions_g7_e5_1.mp4",
+ "concept": "pions_g7_e5",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 14.88,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 15,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "prise_en_7e_qui_promeut",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "bonne_prise_promotion",
+  "pieces": 7,
+  "look": "bois",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

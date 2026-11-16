@@ -1,0 +1,28 @@
+{
+ "legende": "Tu prends sa dame, ou tu fuis ? 👇 Seul 1.Cf6+ ! gagne : sa dame est clouée (1...Rf8 2.Db4#). 1.Dxg7+ Rxg7 ne gagne rien (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-16T13:00:00+01:00",
+ "fichier": "sorties/dames_pin_g7_1_fr.mp4",
+ "concept": "dames_pin_g7",
+ "format": "TACTIQUE",
+ "langue": "fr",
+ "duree": 20.0,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "fr",
+  "duree_s": 20,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "dame_clouee_echec_cavalier",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_ou_fuir_dame",
+  "pieces": 10,
+  "look": "mono",
+  "fx": "fleches+zoom+tag+ding"
+ },
+ "paire": "dames_pin_g7_1"
+}

@@ -1,0 +1,27 @@
+{
+ "legende": "Trade queens, or run? 👇 Only 1.Ra8+! wins (1...Nc8 2.Rxc8#); 1.Qxg6 fxg6 is equal (Stockfish 16, composed position). One new puzzle every day.\n\nAnalyze your own game, free: link in bio\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-16T16:00:00+01:00",
+ "fichier": "sorties/dames_g4_g6_1.mp4",
+ "concept": "dames_g4_g6",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 19.36,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 19,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "oui",
+  "fin": "boucle",
+  "motif": "mat_couloir_dames_face",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_ou_fuir_dame",
+  "pieces": 13,
+  "look": "corail",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "titre": "Your queen is attacked twice. Take, or run? ♟️ #chess #shorts",
+ "description": "Take his queen, or run? 👇 Only 1.Nf6+! wins: his queen is pinned (1...Kf8 2.Qb4#). 1.Qxg7+ Kxg7 wins nothing (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess tactics",
+  "chess puzzle",
+  "checkmate"
+ ],
+ "envoyer_apres": "2026-11-16T10:00:00+01:00",
+ "fichier": "sorties/dames_pin_g7_1.mp4",
+ "concept": "dames_pin_g7",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 20.1,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 20,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "dame_clouee_echec_cavalier",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_ou_fuir_dame",
+  "pieces": 10,
+  "look": "emeraude",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}
