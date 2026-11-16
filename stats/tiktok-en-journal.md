@@ -737,3 +737,12 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 44, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 44, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 44, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 45, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-16 09:23 publications/tiktok-en/dames_g4_g6_1.json
+{"publish_id": "v_inbox_file~v2.7708697293735430166", "mode": "brouillon", "vie_privee": null, "legende": "Trade queens, or run? 👇 Only 1.Ra8+! wins (1...Nc8 2.Rxc8#); 1.Qxg6 fxg6 is equal (Stockfish 16, composed position). One new puzzle every day. Analyze your own game: blundercheck.app/try #chess #chesstactics #chesspuzzle"}
+### 2026-11-16 09:23 publications/tiktok-en/dames_pin_g7_1.json
+{"publish_id": "v_inbox_file~v2.7708697272640440342", "mode": "brouillon", "vie_privee": null, "legende": "Take his queen, or run? 👇 Only 1.Nf6+! wins: his queen is pinned (1...Kf8 2.Qb4#). 1.Qxg7+ Kxg7 wins nothing (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle"}
+### 2026-11-16 09:23 publications/tiktok-en/pions_fourchette_g6_1.json
+{"publish_id": "v_inbox_file~v2.7708697236368132118", "mode": "brouillon", "vie_privee": null, "legende": "Which pawn takes? 👇 Only 1.fxg6! wins; 1.hxg6 is only a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
+### 2026-11-16 09:23 publications/tiktok-en/pions_g7_e5_1.json
+{"publish_id": "v_inbox_file~v2.7708697293735479318", "mode": "brouillon", "vie_privee": null, "legende": "Which pawn takes? 👇 Only 1.fxg7! wins; 1.exd6 gxf6 loses (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
