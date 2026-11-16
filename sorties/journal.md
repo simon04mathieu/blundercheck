@@ -1002,3 +1002,8 @@
 ### commandes/perso_pions_g7_e5_1.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/pions_g7_e5_1.mp4 {"voix_brute_s": 14.9, "tempo": 1.0, "video_s": 14.9, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "zoobeedoo.mp3", "mots_transcrits": 36, "minutage": "5 phrases, 4 coups, 0 pauses"}
+## 2026-11-16 00:22 UTC · run 43779921258
+### commandes/perso_pions_fourchette_g6_1_fr.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pions_fourchette_g6_1_fr.mp4 {"voix_brute_s": 18.5, "tempo": 1.0, "video_s": 18.5, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "baby_animals_playing.mp3", "mots_transcrits": 46, "minutage": "5 phrases, 4 coups, 0 pauses"}
