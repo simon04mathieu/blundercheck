@@ -894,3 +894,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "127"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "127"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "127"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "127"}
+### 2026-11-16 09:40 publications/youtube/dames_pin_g7_1.json
+{"id": "yucrFFnubcA", "url": "https://www.youtube.com/shorts/yucrFFnubcA", "statut": "public", "publier_le": null}
