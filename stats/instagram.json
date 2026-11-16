@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-15T17:17:14Z",
+ "releve": "2026-11-16T17:44:36Z",
  "compte": "blundercheckapp",
  "abonnes": 6,
  "publications": [
+  {
+   "id": "18503529562098341",
+   "caption": "Tu prends sa dame, ou tu fuis ? 👇 Seul 1.Cf6+ ! gagne : sa dame est clouée (1...",
+   "comments_count": 0,
+   "like_count": 0,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/Dfzpk-Hgc3R/",
+   "timestamp": "2026-11-16T15:13:02+0000",
+   "insights": {
+    "views": 188,
+    "reach": 140,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0
+   }
+  },
+  {
+   "id": "18232014460328181",
+   "caption": "Tu prends la tour gratuite ? 👇 Seul 1.Cg6# gagne (mat) ; 1.Cxg8 ?? Tf1# (Stockfi",
+   "comments_count": 0,
+   "like_count": 0,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DfxcP6AjleA/",
+   "timestamp": "2026-11-15T18:38:11+0000",
+   "insights": {
+    "views": 178,
+    "reach": 134,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0
+   }
+  },
   {
    "id": "18286228129291932",
    "caption": "Quel pion prend ? 👇 Seul 1.cxb4 ! gagne ; 1.hxg6 bxc3 est nulle : les deux camps",
@@ -12,8 +44,8 @@
    "permalink": "https://www.instagram.com/reel/Dfw1lvfEhth/",
    "timestamp": "2026-11-15T13:00:15+0000",
    "insights": {
-    "views": 193,
-    "reach": 133,
+    "views": 198,
+    "reach": 136,
     "shares": 0,
     "saved": 0,
     "total_interactions": 1
@@ -204,8 +236,8 @@
    "permalink": "https://www.instagram.com/reel/DfhuiH-EfrL/",
    "timestamp": "2026-11-09T16:10:13+0000",
    "insights": {
-    "views": 2189,
-    "reach": 1727,
+    "views": 2201,
+    "reach": 1738,
     "shares": 0,
     "saved": 3,
     "total_interactions": 25
@@ -449,38 +481,6 @@
     "shares": 0,
     "saved": 0,
     "total_interactions": 1
-   }
-  },
-  {
-   "id": "18153797017519309",
-   "caption": "Un échec, deux cibles : ta dame gagne le poney ♟️ Ton piège préféré contre 1.e4 ",
-   "comments_count": 0,
-   "like_count": 1,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfM4aTCFPf3/",
-   "timestamp": "2026-11-01T13:52:15+0000",
-   "insights": {
-    "views": 169,
-    "reach": 133,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 1
-   }
-  },
-  {
-   "id": "18134655046805797",
-   "caption": "Mat ou pat ? 🤔 La dame juste à côté… et c'est nulle. Tu l'aurais vu ? Abonne-toi",
-   "comments_count": 0,
-   "like_count": 0,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfIYGyfjnxD/",
-   "timestamp": "2026-10-30T19:53:02+0000",
-   "insights": {
-    "views": 185,
-    "reach": 144,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 0
    }
   }
  ],

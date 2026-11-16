@@ -1,8 +1,68 @@
 {
- "releve": "2026-11-15T17:18:28Z",
+ "releve": "2026-11-16T17:45:32Z",
  "compte": "blundercheckapp",
- "abonnes": 0,
+ "abonnes": 1,
  "publications": [
+  {
+   "id": "18120279608088954",
+   "text": "Which pawn takes? 👇 Only 1.fxg6! wins; 1.hxg6 is only a draw (Stockfish 16, comp",
+   "timestamp": "2026-11-16T15:17:44+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfzqHBmwqTz",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 0,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18015345593766421",
+   "text": "Trade queens, or run? 👇 Only 1.Ra8+! wins (1...Nc8 2.Rxc8); 1.Qxg6 fxg6 is equal",
+   "timestamp": "2026-11-16T15:16:51+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfzqBYBtvLG",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 2,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18469507018136600",
+   "text": "Take his queen, or run? 👇 Only 1.Nf6+! wins: his queen is pinned (1...Kf8 2.Qb4)",
+   "timestamp": "2026-11-16T09:47:15+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfzETMSMF2x",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 4,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18100971935387144",
+   "text": "Do you take the free rook? 👇 Only 1.Ng6# wins (mate); 1.Nxg8?? Rf1# (Stockfish 1",
+   "timestamp": "2026-11-15T18:39:06+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfxcXsxAlm7",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 4,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
   {
    "id": "18095988935195330",
    "text": "Pawn or king? 👇 Only 1.Kxg5! wins; 1.gxh5 and 1.fxg5 are draws (Stockfish 16, co",
@@ -10,7 +70,7 @@
    "permalink": "https://www.threads.com/@blundercheckapp/post/DfxF3AGlLsS",
    "media_type": "VIDEO",
    "insights": {
-    "views": 0,
+    "views": 4,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -25,7 +85,7 @@
    "permalink": "https://www.threads.com/@blundercheckapp/post/Dfw1rqHAnXl",
    "media_type": "VIDEO",
    "insights": {
-    "views": 6,
+    "views": 8,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -386,66 +446,6 @@
    "media_type": "VIDEO",
    "insights": {
     "views": 0,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "17954431140339691",
-   "text": "Would you have found Kc7? 👇 Two knights can't force mate against a lone king. Gi",
-   "timestamp": "2026-11-09T14:51:16+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfhliIYhdW3",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 1,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18136301404776392",
-   "text": "Would you have given up the queen? 👇 Rotlewi – Rubinstein, Lodz 1907: \"Rubinstei",
-   "timestamp": "2026-11-08T20:31:22+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DffnqK8prFb",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 7,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18580184416075732",
-   "text": "Would you have hidden in the corner? 👇 Bishop's Opening trap seen in 2 real Lich",
-   "timestamp": "2026-11-08T18:35:53+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DffacQ7OkRx",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 2,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18141164971558160",
-   "text": "Would you have saved your queen? 👇 Sicilian trap seen in 4 real Lichess games (~",
-   "timestamp": "2026-11-08T16:34:01+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DffMfhmBksY",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 7,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
