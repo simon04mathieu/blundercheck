@@ -186,3 +186,5 @@
 {"reseau": "facebook", "id": "4292712744198317", "ok": true}
 ### 2026-11-17 13:17 publications/facebook/percee_a6_1.json
 {"reseau": "facebook", "id": "1012388995244734", "ok": true}
+### 2026-11-17 16:02 publications/facebook/tour_fou_h7_1.json
+{"reseau": "facebook", "id": "1122285120702690", "ok": true}
