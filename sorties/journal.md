@@ -1032,3 +1032,6 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_fou_h7_1.mp4 {"voix_brute_s": 20.6, "tempo": 1.0, "video_s": 20.6, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "got_him_from_behind.mp3", "mots_transcrits": 48, "minutage": "7 phrases, 4 coups, 0 pauses"}
+### commandes/perso_tours_hang_d8_1.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/tours_hang_d8_1.mp4 {"voix_brute_s": 17.8, "tempo": 1.0, "video_s": 17.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "zoobeedoo.mp3", "mots_transcrits": 44, "minutage": "6 phrases, 4 coups, 0 pauses"}
