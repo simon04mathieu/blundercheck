@@ -182,3 +182,5 @@
 {"reseau": "facebook", "id": "1363842909032884", "ok": true}
 ### 2026-11-16 18:09 publications/facebook/pions_g7_e5_1.json
 {"reseau": "facebook", "id": "2184157779143045", "ok": true}
+### 2026-11-17 09:10 publications/facebook/tours_hang_d8_1.json
+{"reseau": "facebook", "id": "4292712744198317", "ok": true}
