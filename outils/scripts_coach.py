@@ -1857,3 +1857,36 @@ QUESTIONS.update({
     "dames_pin_g7_1_fr": "Tu prends sa dame,|ou tu fuis ?",
     "pions_fourchette_g6_1_fr": "Quel pion|prend ?",
 })
+
+# 17/11 (Producteur) : file du Scénariste du 16/11 ; lignes revérifiées python-chess + Stockfish 16 (d18, tous les coups blancs, toutes les réponses noires) ; RÉTENTION seule
+T1A = "fen:6nk/3R1pp1/8/8/8/1N4r1/6PP/6K1_b_-_-_0_1"       # avant …Ng8-f6 ; 1.Rd8+! +4,7 (Kh7/Ng8/Ne8 perdent) ; hxg3 Nxd7 = 0 ; Rb7 = 0
+T1B = "fen:7k/3R1pp1/5n2/8/8/1N4r1/6PP/6K1_w_-_-_1_2"
+P2A = "fen:6k1/ppp5/8/PPP5/8/8/8/6K1_b_-_-_0_1"            # avant …a7-a6 ; 1.c6! gagne (toutes réponses) ; b6, bxa6, coups de roi = 0
+P2B = "fen:6k1/1pp5/p7/PPP5/8/8/8/6K1_w_-_-_0_2"
+T3A = "fen:4k3/p4p1R/8/5b2/8/8/4rPBP/5K2_b_-_-_0_1"        # avant …Bf5-g6 ; 1.Rh8+! +6,1 (Ke7/Kd7 puis Kxe2) ; Kxe2 Bxh7 = 0
+T3B = "fen:4k3/p4p1R/6b1/8/8/8/4rPBP/5K2_w_-_-_1_2"
+P4A = "fen:6k1/2ppp3/8/3PP3/2P5/8/8/7K_b_-_-_0_1"          # avant …c7-c6 ; 1.e6! gagne (toutes réponses) ; dxc6 = 0
+P4B = "fen:6k1/3pp3/2p5/3PP3/2P5/8/8/7K_w_-_-_0_2"
+_S = {
+"tours_hang_d8_1": ("blancs", "Take his rook,|or save yours?",
+"""[p """ + T1A + """] Take [m Nf6] his [f f6d7 h2g3] rook, [s tag d7 1.6 BOTH_HANG] or save yours? [h] [m Rd8+ brillant] [z d8 1.3 2.0] Neither! Rook to d8, [s tag h8 1.4 CHECK!] check! The king [m Kh7] steps aside, and the pawn [m hxg3 brillant] [x ding] takes [s tag g3 1.6 ROOK_WON] his rook. Take [p """ + T1B + """] at once, [f f6d7] and he [s tag d7 1.8 JUST_A_TRADE] takes yours: nothing is won. So when your rook [s tag d7 1.6 ATTACKED] is attacked, look for the check, [s tag d8 1.4 CHECK_FIRST] then ask yourself:"""),
+"percee_a6_1": ("blancs", "Which pawn|do you push?",
+"""[p """ + P2A + """] Which [m a6] pawn [f a6b5 b5b6] [s tag b5 1.6 ONLY_ONE_WINS] do you push? [h] [m c6 brillant] [z c6 1.3 2.0] The c-pawn! He [m bxc6] takes, you [m bxa6] take on a6, [f a6a8] and the pawn [s tag a8 1.6 IT_RUNS_HOME] on a6 runs home: his king [s tag g8 1.6 KING_TOO_FAR] is too far. [x ding] Push [p """ + P2B + """] the [f b5b6] b-pawn, and [s tag b6 1.8 ONLY_A_DRAW] it's only a draw. So when three pawns [s tag c5 1.6 ONLY_ONE_WINS] face three, [s tag b5 1.4 WHICH_ONE?] ask yourself:"""),
+"tour_fou_h7_1": ("blancs", "Take his rook,|or run?",
+"""[p """ + T3A + """] Take [m Bg6] his [f g6h7 f1e2] rook, [s tag h7 1.6 BOTH_HANG] or run? [h] [m Rh8+ brillant] [z h8 1.3 2.0] Neither! Rook to h8, [s tag e8 1.4 CHECK!] check! His king [m Ke7] steps aside, and your king [m Kxe2 brillant] [x ding] takes [s tag e2 1.6 ROOK_WON] his rook. Take [p """ + T3B + """] at once, [f g6h7] and he [s tag h7 1.8 ONLY_A_TRADE] takes yours: nothing is won. Analyze your [s tag d4 1.6 YOUR_GAME] own game, free. So when your rook [s tag h7 1.6 ATTACKED] is attacked, look for the check, [s tag h8 1.4 CHECK_FIRST] then ask yourself:"""),
+"pion_e6_push_1": ("blancs", "Take his pawn,|or push?",
+"""[p """ + P4A + """] Take [m c6] his [f c6d5] pawn, [s tag d5 1.6 PAWN_ATTACKED] or push? [h] [m e6 brillant] [z e6 1.3 2.0] Push the e-pawn! He [m dxe6] takes, you [m dxc6] take on c6, [f c6c8] and the c-pawn [s tag c8 1.6 IT_RUNS_HOME] runs home: his king [s tag g8 1.6 KING_TOO_FAR] is too far. [x ding] Take [p """ + P4B + """] on c6 [f d5c6] at once, and [s tag c6 1.8 ONLY_A_DRAW] it's only a draw. So when one [s tag d5 1.6 PAWN_ATTACKED] of your pawns is attacked, [s tag e5 1.4 WHICH_ONE?] ask yourself:"""),
+"tours_hang_d8_1_fr": ("blancs", "Tu prends sa tour,|ou tu fuis ?",
+"""[p """ + T1A + """] Tu prends [m Nf6] sa [f f6d7 h2g3] tour, [s tag d7 1.6 DEUX_EN_PRISE] ou tu fuis ? [h] [m Rd8+ brillant] [z d8 1.3 2.0] Ni l'un ni l'autre ! Tour en d8, [s tag h8 1.4 ÉCHEC_!] échec ! Le roi [m Kh7] s'écarte, et le pion [m hxg3 brillant] [x ding] prend [s tag g3 1.6 TOUR_GAGNÉE] sa tour. Si tu [p """ + T1B + """] prends tout de suite, [f f6d7] il prend [s tag d7 1.8 SIMPLE_ÉCHANGE] la tienne : rien de gagné. Alors, quand ta tour [s tag d7 1.6 ATTAQUÉE] est attaquée, cherche l'échec, [s tag d8 1.4 L'ÉCHEC_D'ABORD] puis demande-toi :"""),
+"percee_a6_1_fr": ("blancs", "Quel pion|tu pousses ?",
+"""[p """ + P2A + """] Quel pion [m a6] tu [f a6b5 b5b6] [s tag b5 1.6 UN_SEUL_GAGNE] pousses ? [h] [m c6 brillant] [z c6 1.3 2.0] Le pion c ! Il [m bxc6] prend, tu [m bxa6] prends en a6, [f a6a8] et le pion a6 [s tag a8 1.6 IL_FILE] file à la promotion : son roi [s tag g8 1.6 ROI_TROP_LOIN] est trop loin. [x ding] Avec [p """ + P2B + """] le [f b5b6] pion b, ce n'est [s tag b6 1.8 NULLE_SEULEMENT] qu'une nulle. Alors, quand trois pions [s tag c5 1.6 UN_SEUL_GAGNE] en affrontent trois, [s tag b5 1.4 LEQUEL_?] demande-toi :"""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
+QUESTIONS.update({
+    "tours_hang_d8_1": "Take his rook,|or save yours?",
+    "percee_a6_1": "Which pawn|do you push?",
+    "tour_fou_h7_1": "Analyze your game|blundercheck.app/try",
+    "pion_e6_push_1": "Take his pawn,|or push?",
+    "tours_hang_d8_1_fr": "Tu prends sa tour,|ou tu fuis ?",
+    "percee_a6_1_fr": "Quel pion|tu pousses ?",
+})
