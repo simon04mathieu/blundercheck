@@ -935,3 +935,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "134"}
 ### 2026-11-17 13:05 publications/youtube/percee_a6_1.json
 {"id": "5ohcp5ZOe7o", "url": "https://www.youtube.com/shorts/5ohcp5ZOe7o", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "134"}
