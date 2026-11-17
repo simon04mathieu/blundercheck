@@ -772,3 +772,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"publish_id": "v_inbox_file~v2.7709045648158574614", "mode": "brouillon", "vie_privee": null, "legende": "Take his rook, or save yours? 👇 Only 1.Rd8+! wins: 1...Kh7 2.hxg3 and the pawn takes his rook. 1.hxg3 Nxd7 wins nothing (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle"}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 45, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 45, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 44, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
