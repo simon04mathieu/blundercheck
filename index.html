@@ -4250,7 +4250,7 @@ function pageMentions(view) {
   if (ab) ab.onclick = async () => {
     ab.disabled = true;
     try { const j = await (await fetch('/api/editeur', { headers: { 'x-bc': '1' } })).json(); if (!j.adresse) throw 0; $('#adrEd').textContent = j.adresse; }
-    catch { ab.disabled = false; toast(window.BC_LANG === 'en' ? 'Address unavailable right now: write to us.' : 'Adresse indisponible pour le moment : écris-nous.', 'err'); }
+    catch { $('#adrEd').textContent = window.BC_LANG === 'en' ? 'address available on request at the contact address below.' : 'adresse communiquée sur demande à l’adresse de contact ci-dessous.'; }
   };
 }
 
@@ -9133,7 +9133,7 @@ function pageMentions(view) {
   if (ab) ab.onclick = async () => {
     ab.disabled = true;
     try { const j = await (await fetch('/api/editeur', { headers: { 'x-bc': '1' } })).json(); if (!j.adresse) throw 0; $('#adrEd').textContent = j.adresse; }
-    catch { ab.disabled = false; toast(window.BC_LANG === 'en' ? 'Address unavailable right now: write to us.' : 'Adresse indisponible pour le moment : écris-nous.', 'err'); }
+    catch { $('#adrEd').textContent = window.BC_LANG === 'en' ? 'address available on request at the contact address below.' : 'adresse communiquée sur demande à l’adresse de contact ci-dessous.'; }
   };
 }
 
