@@ -943,3 +943,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "134"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "135"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "135"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "136"}
+### 2026-11-17 18:00 publications/youtube/pion_e6_push_1.json
+{"id": "z7ue6--5g1A", "url": "https://www.youtube.com/shorts/z7ue6--5g1A", "statut": "public", "publier_le": null}
