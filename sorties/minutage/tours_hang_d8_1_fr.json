@@ -1,0 +1,125 @@
+{
+ "nom": "tours_hang_d8_1_fr",
+ "tempo": 1.0,
+ "duree_s": 19.54,
+ "hook": {
+  "texte": "Tu prends sa tour,|ou tu fuis ?",
+  "fin": 2.6
+ },
+ "question": {
+  "texte": "Tu prends sa tour,|ou tu fuis ?",
+  "t": 16.34
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Tu prends sa tour ou tu fuis ?"
+  },
+  {
+   "t": 2.6,
+   "texte": "Ni l'un ni l'autre !"
+  },
+  {
+   "t": 4.2,
+   "texte": "Tour en d8 échec !"
+  },
+  {
+   "t": 6.28,
+   "texte": "Le roi s'écarte et le pion prend sa tour."
+  },
+  {
+   "t": 10.5,
+   "texte": "Si tu prends tout de suite il prend la tienne  rien de gagné."
+  },
+  {
+   "t": 15.2,
+   "texte": "Alors, quand ta tour est attaquée cherche l'échec, puis demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.36,
+   "coup": "Nf6",
+   "badge": null
+  },
+  {
+   "t": 2.6,
+   "coup": "Rd8+",
+   "badge": "brillant"
+  },
+  {
+   "t": 6.64,
+   "coup": "Kh7",
+   "badge": null
+  },
+  {
+   "t": 8.2,
+   "coup": "hxg3",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.36,
+   "type": "coup"
+  },
+  {
+   "t": 0.56,
+   "type": "fleches"
+  },
+  {
+   "t": 1.26,
+   "type": "sticker"
+  },
+  {
+   "t": 2.6,
+   "type": "coup"
+  },
+  {
+   "t": 2.6,
+   "type": "zoom"
+  },
+  {
+   "t": 5.08,
+   "type": "sticker"
+  },
+  {
+   "t": 6.64,
+   "type": "coup"
+  },
+  {
+   "t": 8.2,
+   "type": "coup"
+  },
+  {
+   "t": 8.54,
+   "type": "sticker"
+  },
+  {
+   "t": 11.05,
+   "type": "position"
+  },
+  {
+   "t": 12.2,
+   "type": "fleches"
+  },
+  {
+   "t": 12.48,
+   "type": "sticker"
+  },
+  {
+   "t": 16.32,
+   "type": "sticker"
+  },
+  {
+   "t": 18.56,
+   "type": "sticker"
+  }
+ ],
+ "musique": "losing_your_marbles.mp3"
+}

@@ -1024,3 +1024,6 @@
 ### commandes/perso_tours_hang_d8_1.json
     voix générée : 228 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/tours_hang_d8_1.mp4 {"voix_brute_s": 17.8, "tempo": 1.0, "video_s": 17.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "zoobeedoo.mp3", "mots_transcrits": 44, "minutage": "6 phrases, 4 coups, 0 pauses"}
+### commandes/perso_tours_hang_d8_1_fr.json
+    voix générée : 250 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/tours_hang_d8_1_fr.mp4 {"voix_brute_s": 19.4, "tempo": 1.0, "video_s": 19.4, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "losing_your_marbles.mp3", "mots_transcrits": 54, "minutage": "6 phrases, 4 coups, 0 pauses"}
