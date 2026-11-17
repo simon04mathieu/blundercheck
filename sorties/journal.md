@@ -1038,3 +1038,8 @@
 ### commandes/perso_tours_hang_d8_1_fr.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/tours_hang_d8_1_fr.mp4 {"voix_brute_s": 19.4, "tempo": 1.0, "video_s": 19.4, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "losing_your_marbles.mp3", "mots_transcrits": 54, "minutage": "6 phrases, 4 coups, 0 pauses"}
+## 2026-11-17 00:18 UTC · run 43986450472
+### commandes/perso_tours_hang_d8_1_fr.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/tours_hang_d8_1_fr.mp4 {"voix_brute_s": 19.4, "tempo": 1.0, "video_s": 19.4, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "losing_your_marbles.mp3", "mots_transcrits": 54, "minutage": "6 phrases, 4 coups, 0 pauses"}

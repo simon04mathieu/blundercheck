@@ -24,7 +24,7 @@
    "texte": "Tour en d8 échec !"
   },
   {
-   "t": 6.28,
+   "t": 6.26,
    "texte": "Le roi s'écarte et le pion prend sa tour."
   },
   {
@@ -85,7 +85,7 @@
    "type": "zoom"
   },
   {
-   "t": 5.08,
+   "t": 5.1,
    "type": "sticker"
   },
   {
@@ -105,8 +105,12 @@
    "type": "position"
   },
   {
-   "t": 12.2,
+   "t": 11.1,
    "type": "fleches"
+  },
+  {
+   "t": 12.2,
+   "type": "sticker"
   },
   {
    "t": 12.48,
