@@ -80,7 +80,7 @@ BlunderCheck`;
 
 export async function onRequestGet({ request, env }) {
   const token = new URL(request.url).searchParams.get('token');
-  if (!env.LISTE || !env.ADMIN_TOKEN || token !== env.ADMIN_TOKEN) return new Response('Non autorisé', { status: 401 });
+  if (!env.LISTE || !env.ADMIN_TOKEN || !egal(token || '', env.ADMIN_TOKEN)) return new Response('Non autorisé', { status: 401 });
   const lignes = ['email,date,langue,source,canal'];
   let cursor;
   do {
@@ -93,3 +93,5 @@ export async function onRequestGet({ request, env }) {
   } while (cursor);
   return new Response(lignes.join('\n') + '\n', { headers: { 'content-type': 'text/csv; charset=utf-8', 'content-disposition': 'attachment; filename="liste-blundercheck.csv"' } });
 }
+
+function egal(a, b) { if (!a || !b || a.length !== b.length) return false; let d = 0; for (let i = 0; i < a.length; i++) d |= a.charCodeAt(i) ^ b.charCodeAt(i); return d === 0; }
