@@ -761,3 +761,12 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 46, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 46, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 46, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 45, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-17 07:55 publications/tiktok-en/percee_a6_1.json
+{"publish_id": "v_inbox_file~v2.7709045829697030166", "mode": "brouillon", "vie_privee": null, "legende": "Which pawn do you push? 👇 Only 1.c6! wins (1...bxc6 2.bxa6 and the a-pawn runs home); 1.b6 is a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
+### 2026-11-17 07:55 publications/tiktok-en/pion_e6_push_1.json
+{"publish_id": "v_inbox_file~v2.7709045785228396566", "mode": "brouillon", "vie_privee": null, "legende": "Take his pawn, or push? 👇 Only 1.e6! wins (1...dxe6 2.dxc6 and the c-pawn runs home); 1.dxc6 is a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle"}
+### 2026-11-17 07:56 publications/tiktok-en/tour_fou_h7_1.json
+{"publish_id": "v_inbox_file~v2.7709045648158459926", "mode": "brouillon", "vie_privee": null, "legende": "Take his rook, or run? 👇 Only 1.Rh8+! wins: 1...Ke7 2.Kxe2 and your king takes his rook. 1.Kxe2 Bxh7 is just a trade (Stockfish 16, composed position). One new puzzle every day. Analyze your own game: blundercheck.app/try #chess #chesstactics #chesspuzzle"}
+### 2026-11-17 07:56 publications/tiktok-en/tours_hang_d8_1.json
+{"publish_id": "v_inbox_file~v2.7709045648158574614", "mode": "brouillon", "vie_privee": null, "legende": "Take his rook, or save yours? 👇 Only 1.Rd8+! wins: 1...Kh7 2.hxg3 and the pawn takes his rook. 1.hxg3 Nxd7 wins nothing (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle"}

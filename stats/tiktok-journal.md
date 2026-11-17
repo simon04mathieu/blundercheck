@@ -865,3 +865,8 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 20, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 20, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 20, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 20, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-17 07:55 publications/tiktok/percee_a6_1_fr.json
+{"publish_id": "v_inbox_file~v2.7709045829696931862", "mode": "brouillon", "vie_privee": null, "legende": "Quel pion tu pousses ? 👇 Seul 1.c6 ! gagne (1...bxc6 2.bxa6 et le pion a6 file) ; 1.b6 est nulle (Stockfish 16, position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr"}
+### 2026-11-17 07:55 publications/tiktok/tours_hang_d8_1_fr.json
+{"publish_id": "v_inbox_file~v2.7709045829696964630", "mode": "brouillon", "vie_privee": null, "legende": "Tu prends sa tour, ou tu fuis ? 👇 Seul 1.Td8+ ! gagne : 1...Rh7 2.hxg3 et le pion prend sa tour. 1.hxg3 Cxd7 ne gagne rien (Stockfish 16, position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr"}
