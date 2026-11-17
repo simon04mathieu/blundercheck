@@ -40,7 +40,7 @@ export async function onRequestPost({ request, env }) {
     console.log('Erreur Stripe', e && e.status, e && e.message);
     // erreur de configuration (clé refusée, prix introuvable) : on renvoie le motif Stripe, sans aucune donnée secrète
     const config = e && (e.status === 401 || e.status === 403 || (e.status === 400 && /No such|similar object exists|API key/i.test(e.message || '')));
-    return json(502, { error: 'Le service de paiement ne répond pas. Réessaie dans un instant.', ...(config ? { motif: String(e.message).replace(/(sk|rk|pk)_(live|test)_\w+/g, '$1_$2_…') } : {}) });
+    return json(424, { error: 'Le service de paiement ne répond pas. Réessaie dans un instant.', ...(config ? { motif: String(e.message).replace(/(sk|rk|pk)_(live|test)_\w+/g, '$1_$2_…') } : {}) });
   }
   return json(400, { error: 'Action inconnue.' });
 }
