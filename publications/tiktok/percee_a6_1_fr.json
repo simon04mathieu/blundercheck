@@ -1,0 +1,32 @@
+{
+ "legende": "Quel pion tu pousses ? 👇 Seul 1.c6 ! gagne (1...bxc6 2.bxa6 et le pion a6 file) ; 1.b6 est nulle (Stockfish 16, position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-17T08:00:00+01:00",
+ "heure_conseillee": "2026-11-17T19:00:00+01:00",
+ "repere": "19 h · percee_a6_1_fr · 16.42 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/percee_a6_1_fr.mp4",
+ "concept": "percee_a6",
+ "format": "FINALE",
+ "langue": "fr",
+ "duree": 16.42,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "fr",
+  "duree_s": 16,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "percee_3v3_c6",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "quel_pion_pousser",
+  "pieces": 8,
+  "look": "bois",
+  "fx": "fleches+zoom+tag+ding"
+ },
+ "paire": "percee_a6_1"
+}

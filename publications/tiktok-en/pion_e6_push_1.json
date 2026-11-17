@@ -1,0 +1,31 @@
+{
+ "legende": "Take his pawn, or push? 👇 Only 1.e6! wins (1...dxe6 2.dxc6 and the c-pawn runs home); 1.dxc6 is a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle",
+ "envoyer_apres": "2026-11-17T08:00:00+01:00",
+ "heure_conseillee": "2026-11-17T19:00:00+01:00",
+ "repere": "19 h · pion_e6_push_1 · 17.36 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/pion_e6_push_1.mp4",
+ "concept": "pion_e6_push",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 17.36,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 17,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "sacrifice_e6_pion_passe",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_ou_pousser_pion",
+  "pieces": 8,
+  "look": "emeraude",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

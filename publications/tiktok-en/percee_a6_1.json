@@ -1,0 +1,31 @@
+{
+ "legende": "Which pawn do you push? 👇 Only 1.c6! wins (1...bxc6 2.bxa6 and the a-pawn runs home); 1.b6 is a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chessendgame #chesspuzzle",
+ "envoyer_apres": "2026-11-17T08:00:00+01:00",
+ "heure_conseillee": "2026-11-17T13:00:00+01:00",
+ "repere": "13 h · percee_a6_1 · 17.32 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/percee_a6_1.mp4",
+ "concept": "percee_a6",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 17.32,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 17,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "percee_3v3_c6",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "quel_pion_pousser",
+  "pieces": 8,
+  "look": "papier",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "legende": "Tu prends sa tour, ou tu fuis ? 👇 Seul 1.Td8+ ! gagne : 1...Rh7 2.hxg3 et le pion prend sa tour. 1.hxg3 Cxd7 ne gagne rien (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-17T13:00:00+01:00",
+ "fichier": "sorties/tours_hang_d8_1_fr.mp4",
+ "concept": "tours_hang_d8",
+ "format": "TACTIQUE",
+ "langue": "fr",
+ "duree": 19.54,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "fr",
+  "duree_s": 20,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "echec_puis_pion_prend_tour",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_ou_fuir_tour",
+  "pieces": 8,
+  "look": "mono",
+  "fx": "fleches+zoom+tag+ding"
+ },
+ "paire": "tours_hang_d8_1"
+}

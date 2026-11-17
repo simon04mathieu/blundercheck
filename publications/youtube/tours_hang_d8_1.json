@@ -1,0 +1,34 @@
+{
+ "titre": "Both rooks hang. Take his, or save yours? ♟️ #chess #shorts",
+ "description": "Take his rook, or save yours? 👇 Only 1.Rd8+! wins: 1...Kh7 2.hxg3 and the pawn takes his rook. 1.hxg3 Nxd7 wins nothing (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess tactics",
+  "chess puzzle",
+  "intermediate check"
+ ],
+ "envoyer_apres": "2026-11-17T10:00:00+01:00",
+ "fichier": "sorties/tours_hang_d8_1.mp4",
+ "concept": "tours_hang_d8",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 17.84,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 18,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "echec_puis_pion_prend_tour",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_ou_fuir_tour",
+  "pieces": 8,
+  "look": "ardoise",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}
