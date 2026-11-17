@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-16T17:44:36Z",
+ "releve": "2026-11-17T17:40:56Z",
  "compte": "blundercheckapp",
  "abonnes": 6,
  "publications": [
+  {
+   "id": "17897339808613968",
+   "caption": "Tu prends sa tour, ou tu fuis ? 👇 Seul 1.Td8+ ! gagne : 1...Rh7 2.hxg3 et le pio",
+   "comments_count": 0,
+   "like_count": 2,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/Df2BIguEXpi/",
+   "timestamp": "2026-11-17T13:17:19+0000",
+   "insights": {
+    "views": 214,
+    "reach": 154,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 2
+   }
+  },
+  {
+   "id": "17989761354092060",
+   "caption": "Quel pion prend ? 👇 Seul 1.fxg6 ! gagne ; 1.hxg6 n'est que nulle (Stockfish 16, ",
+   "comments_count": 0,
+   "like_count": 1,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/Dfz9tLnjE66/",
+   "timestamp": "2026-11-16T18:08:52+0000",
+   "insights": {
+    "views": 206,
+    "reach": 143,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1
+   }
+  },
   {
    "id": "18503529562098341",
    "caption": "Tu prends sa dame, ou tu fuis ? 👇 Seul 1.Cf6+ ! gagne : sa dame est clouée (1...",
@@ -12,8 +44,8 @@
    "permalink": "https://www.instagram.com/reel/Dfzpk-Hgc3R/",
    "timestamp": "2026-11-16T15:13:02+0000",
    "insights": {
-    "views": 188,
-    "reach": 140,
+    "views": 189,
+    "reach": 141,
     "shares": 0,
     "saved": 0,
     "total_interactions": 0
@@ -28,8 +60,8 @@
    "permalink": "https://www.instagram.com/reel/DfxcP6AjleA/",
    "timestamp": "2026-11-15T18:38:11+0000",
    "insights": {
-    "views": 178,
-    "reach": 134,
+    "views": 179,
+    "reach": 135,
     "shares": 0,
     "saved": 0,
     "total_interactions": 0
@@ -236,8 +268,8 @@
    "permalink": "https://www.instagram.com/reel/DfhuiH-EfrL/",
    "timestamp": "2026-11-09T16:10:13+0000",
    "insights": {
-    "views": 2201,
-    "reach": 1738,
+    "views": 2203,
+    "reach": 1739,
     "shares": 0,
     "saved": 3,
     "total_interactions": 25
@@ -449,38 +481,6 @@
     "shares": 0,
     "saved": 0,
     "total_interactions": 2
-   }
-  },
-  {
-   "id": "18652423240048854",
-   "caption": "Le roi rattrape-t-il ce pion ? ♟️ Tu l'aurais rattrapé ? 👇 Abonne-toi : une astu",
-   "comments_count": 0,
-   "like_count": 0,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfPsmnAGjHE/",
-   "timestamp": "2026-11-02T16:06:47+0000",
-   "insights": {
-    "views": 200,
-    "reach": 138,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 0
-   }
-  },
-  {
-   "id": "17978733729149277",
-   "caption": "Échec ! Peux-tu prendre en passant ? Tu l'aurais vu ? 👇 Abonne-toi : un piège pa",
-   "comments_count": 0,
-   "like_count": 1,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfNg0QFABz6/",
-   "timestamp": "2026-11-01T19:45:17+0000",
-   "insights": {
-    "views": 177,
-    "reach": 140,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 1
    }
   }
  ],

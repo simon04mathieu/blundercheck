@@ -1,8 +1,68 @@
 {
- "releve": "2026-11-16T17:45:32Z",
+ "releve": "2026-11-17T17:42:12Z",
  "compte": "blundercheckapp",
  "abonnes": 1,
  "publications": [
+  {
+   "id": "18123098846071811",
+   "text": "Take his rook, or run? 👇 Only 1.Rh8+! wins: 1...Ke7 2.Kxe2 and your king takes h",
+   "timestamp": "2026-11-17T16:02:56+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Df2UFqSt2l9",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 1,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18030905108701262",
+   "text": "Which pawn do you push? 👇 Only 1.c6! wins (1...bxc6 2.bxa6 and the a-pawn runs h",
+   "timestamp": "2026-11-17T14:29:12+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Df2JXPkAVtD",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 1,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18117494060113540",
+   "text": "Take his rook, or save yours? 👇 Only 1.Rd8+! wins: 1...Kh7 2.hxg3 and the pawn t",
+   "timestamp": "2026-11-17T09:11:33+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Df1lAjbOhMH",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 1,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18180858022445155",
+   "text": "Which pawn takes? 👇 Only 1.fxg7! wins; 1.exd6 gxf6 loses (Stockfish 16, composed",
+   "timestamp": "2026-11-16T18:09:43+0000",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfz9zgOhaC0",
+   "media_type": "VIDEO",
+   "insights": {
+    "views": 2,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
   {
    "id": "18120279608088954",
    "text": "Which pawn takes? 👇 Only 1.fxg6! wins; 1.hxg6 is only a draw (Stockfish 16, comp",
@@ -10,7 +70,7 @@
    "permalink": "https://www.threads.com/@blundercheckapp/post/DfzqHBmwqTz",
    "media_type": "VIDEO",
    "insights": {
-    "views": 0,
+    "views": 1,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -386,66 +446,6 @@
    "media_type": "VIDEO",
    "insights": {
     "views": 1,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18122592088980982",
-   "text": "Would you have sacrificed the pawn? 👇 Only 1.e6! wins; 1.d6? is a draw (Stockfis",
-   "timestamp": "2026-11-10T14:21:08+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfkG2Pjuk6w",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 2,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "17998495944044175",
-   "text": "Would you have found it? 👇 King and pawn vs king: only 1.Ke5! wins. 1.d5? Kd6 is",
-   "timestamp": "2026-11-09T20:01:44+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfiJDp3BcAG",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 5,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18096403433674873",
-   "text": "Would you have taken the bishop? 👇 Albin Countergambit, the Lasker Trap (a class",
-   "timestamp": "2026-11-09T18:03:02+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfh7eU-pvoM",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 2,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18220377307345050",
-   "text": "Would you have sacrificed your queen? 👇 Réti – Tartakower, Vienna 1910: a famous",
-   "timestamp": "2026-11-09T16:11:02+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfhuqONAtC2",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 0,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
