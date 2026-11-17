@@ -10273,7 +10273,7 @@ function ouvrirListe(source = 'site') {
     try {
       const r = await fetch('/api/liste', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ email, consent: true, site: $('#lsSite').value, lang: window.BC_LANG, source }) });
       const j = await r.json().catch(() => ({}));
-      if (!r.ok) { err.textContent = j.error || 'L’inscription n’a pas marché. Réessaie dans un instant.'; b.disabled = false; return; }
+      if (!r.ok) { err.textContent = (j.error || 'L’inscription n’a pas marché. Réessaie dans un instant.') + (j.motif ? ' (' + j.motif + ')' : ''); b.disabled = false; return; }
       ecrire(K_LISTE, true);
       fermerModal();
       toast('C’est noté ! Tu seras prévenu au lancement.');
@@ -10377,7 +10377,7 @@ function abonner(formuleAbo = 'an') {
     try {
       const r = await fetch('/api/paiement', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ action: 'abonner', formule: f, renonciation: true, lang: window.BC_LANG }) });
       const j = await r.json().catch(() => ({}));
-      if (!r.ok || !j.url) { err.textContent = j.error || 'Le paiement n’a pas pu démarrer. Réessaie.'; b.disabled = false; return; }
+      if (!r.ok || !j.url) { err.textContent = (j.error || 'Le paiement n’a pas pu démarrer. Réessaie.') + (j.motif ? ' (' + j.motif + ')' : ''); b.disabled = false; return; }
       location.href = j.url;
     } catch { err.textContent = 'Connexion impossible. Réessaie.'; b.disabled = false; }
   };
