@@ -937,3 +937,6 @@
 {"id": "5ohcp5ZOe7o", "url": "https://www.youtube.com/shorts/5ohcp5ZOe7o", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "134"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "134"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "134"}
+### 2026-11-17 15:37 publications/youtube/tour_fou_h7_1.json
+{"id": "VNhCf1fJTzQ", "url": "https://www.youtube.com/shorts/VNhCf1fJTzQ", "statut": "public", "publier_le": null}
