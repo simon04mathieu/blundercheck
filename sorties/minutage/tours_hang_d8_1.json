@@ -1,0 +1,125 @@
+{
+ "nom": "tours_hang_d8_1",
+ "tempo": 1.0,
+ "duree_s": 17.84,
+ "hook": {
+  "texte": "Take his rook,|or save yours?",
+  "fin": 2.8
+ },
+ "question": {
+  "texte": "Take his rook,|or save yours?",
+  "t": 14.64
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take his rook or save yours?"
+  },
+  {
+   "t": 2.8,
+   "texte": "Neither!"
+  },
+  {
+   "t": 3.8,
+   "texte": "Rook to d8 check!"
+  },
+  {
+   "t": 6.02,
+   "texte": "The king steps aside and the pawn takes his rook."
+  },
+  {
+   "t": 9.56,
+   "texte": "Take at once and he takes yours nothing is won."
+  },
+  {
+   "t": 13.96,
+   "texte": "So when your rook is attacked look for the check then ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.18,
+   "coup": "Nf6",
+   "badge": null
+  },
+  {
+   "t": 2.8,
+   "coup": "Rd8+",
+   "badge": "brillant"
+  },
+  {
+   "t": 6.34,
+   "coup": "Kh7",
+   "badge": null
+  },
+  {
+   "t": 7.96,
+   "coup": "hxg3",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.18,
+   "type": "coup"
+  },
+  {
+   "t": 0.38,
+   "type": "fleches"
+  },
+  {
+   "t": 1.04,
+   "type": "sticker"
+  },
+  {
+   "t": 2.8,
+   "type": "coup"
+  },
+  {
+   "t": 2.8,
+   "type": "zoom"
+  },
+  {
+   "t": 4.7,
+   "type": "sticker"
+  },
+  {
+   "t": 6.34,
+   "type": "coup"
+  },
+  {
+   "t": 7.96,
+   "type": "coup"
+  },
+  {
+   "t": 8.26,
+   "type": "sticker"
+  },
+  {
+   "t": 9.79,
+   "type": "position"
+  },
+  {
+   "t": 10.62,
+   "type": "fleches"
+  },
+  {
+   "t": 10.8,
+   "type": "sticker"
+  },
+  {
+   "t": 14.72,
+   "type": "sticker"
+  },
+  {
+   "t": 16.82,
+   "type": "sticker"
+  }
+ ],
+ "musique": "zoobeedoo.mp3"
+}
