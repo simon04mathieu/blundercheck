@@ -119,3 +119,5 @@
 {"reseau": "instagram", "id": "17989761354092060"}
 ### 2026-11-17 13:17 publications/instagram/tours_hang_d8_1_fr.json
 {"reseau": "instagram", "id": "17897339808613968"}
+### 2026-11-17 18:08 publications/instagram/percee_a6_1_fr.json
+{"reseau": "instagram", "id": "18080437508743516"}

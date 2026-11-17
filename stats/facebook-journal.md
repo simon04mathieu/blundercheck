@@ -188,3 +188,5 @@
 {"reseau": "facebook", "id": "1012388995244734", "ok": true}
 ### 2026-11-17 16:02 publications/facebook/tour_fou_h7_1.json
 {"reseau": "facebook", "id": "1122285120702690", "ok": true}
+### 2026-11-17 18:08 publications/facebook/pion_e6_push_1.json
+{"reseau": "facebook", "id": "1670806927842116", "ok": true}
