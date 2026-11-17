@@ -5208,7 +5208,7 @@ function lienPartie(txt, st, rerun) {
     try {
       const list = await partiesChessCom(u, 5000);
       const p = list.find(x => new RegExp('/' + id + '(?!\\d)').test((x.match(/\[Link "([^"]+)"/) || [])[1] || ''));
-      if (p) { PS.site = 'chesscom'; PS.pseudo = u; pose(p); }
+      if (p) { PS.site = 'chesscom'; PS.pseudo = u; const ps = (REGLAGES.pseudos || '').split(',').map(x => x.trim()).filter(Boolean); if (!ps.some(x => x.toLowerCase() === u.toLowerCase())) { REGLAGES.pseudos = [u, ...ps].join(', '); sauverReglages(); majProfil(); } pose(p); }
       else echec(T(`Partie introuvable dans les 3 derniers mois de « ${esc(u)} »`, `Game not found in the last 3 months of “${esc(u)}”`));
     } catch (e) { echec(esc((e && e.msg) || T('Chess.com ne répond pas pour le moment', 'Chess.com isn’t responding right now'))); }
   };
@@ -10135,7 +10135,7 @@ function lienPartie(txt, st, rerun) {
     try {
       const list = await partiesChessCom(u, 5000);
       const p = list.find(x => new RegExp('/' + id + '(?!\\d)').test((x.match(/\[Link "([^"]+)"/) || [])[1] || ''));
-      if (p) { PS.site = 'chesscom'; PS.pseudo = u; pose(p); }
+      if (p) { PS.site = 'chesscom'; PS.pseudo = u; const ps = (REGLAGES.pseudos || '').split(',').map(x => x.trim()).filter(Boolean); if (!ps.some(x => x.toLowerCase() === u.toLowerCase())) { REGLAGES.pseudos = [u, ...ps].join(', '); sauverReglages(); majProfil(); } pose(p); }
       else echec(T(`Partie introuvable dans les 3 derniers mois de « ${esc(u)} »`, `Game not found in the last 3 months of “${esc(u)}”`));
     } catch (e) { echec(esc((e && e.msg) || T('Chess.com ne répond pas pour le moment', 'Chess.com isn’t responding right now'))); }
   };
