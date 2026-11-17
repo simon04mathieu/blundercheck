@@ -1,0 +1,125 @@
+{
+ "nom": "percee_a6_1_fr",
+ "tempo": 1.0,
+ "duree_s": 16.42,
+ "hook": {
+  "texte": "Quel pion|tu pousses ?",
+  "fin": 1.58
+ },
+ "question": {
+  "texte": "Quel pion|tu pousses ?",
+  "t": 13.22
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Quel pion tu pousses ?"
+  },
+  {
+   "t": 1.58,
+   "texte": "Le pion c !"
+  },
+  {
+   "t": 3.02,
+   "texte": "Il prend, tu prends en a6 et le pion a6 file à la promotion  son roi est trop loin."
+  },
+  {
+   "t": 10.06,
+   "texte": "Avec le pion b ce n'est qu'une nulle."
+  },
+  {
+   "t": 12.98,
+   "texte": "Alors, quand trois pions en affrontent trois, demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.46,
+   "coup": "a6",
+   "badge": null
+  },
+  {
+   "t": 1.58,
+   "coup": "c6",
+   "badge": "brillant"
+  },
+  {
+   "t": 3.2,
+   "coup": "bxc6",
+   "badge": null
+  },
+  {
+   "t": 4.26,
+   "coup": "bxa6",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.46,
+   "type": "coup"
+  },
+  {
+   "t": 0.62,
+   "type": "fleches"
+  },
+  {
+   "t": 0.62,
+   "type": "sticker"
+  },
+  {
+   "t": 1.58,
+   "type": "coup"
+  },
+  {
+   "t": 1.58,
+   "type": "zoom"
+  },
+  {
+   "t": 3.2,
+   "type": "coup"
+  },
+  {
+   "t": 4.26,
+   "type": "coup"
+  },
+  {
+   "t": 5.08,
+   "type": "fleches"
+  },
+  {
+   "t": 5.96,
+   "type": "sticker"
+  },
+  {
+   "t": 8.58,
+   "type": "sticker"
+  },
+  {
+   "t": 10.23,
+   "type": "position"
+  },
+  {
+   "t": 10.54,
+   "type": "fleches"
+  },
+  {
+   "t": 11.61,
+   "type": "sticker"
+  },
+  {
+   "t": 14.52,
+   "type": "sticker"
+  },
+  {
+   "t": 15.66,
+   "type": "sticker"
+  }
+ ],
+ "musique": "kitty_down_the_stairs.mp3"
+}
