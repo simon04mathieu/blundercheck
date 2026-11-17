@@ -1015,3 +1015,6 @@
 ### commandes/perso_percee_a6_1_fr.json
     voix générée : 219 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/percee_a6_1_fr.mp4 {"voix_brute_s": 16.3, "tempo": 1.0, "video_s": 16.4, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "kitty_down_the_stairs.mp3", "mots_transcrits": 47, "minutage": "5 phrases, 4 coups, 0 pauses"}
+### commandes/perso_pion_e6_push_1.json
+    voix générée : 208 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pion_e6_push_1.mp4 {"voix_brute_s": 17.3, "tempo": 1.0, "video_s": 17.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "zoobeedoo.mp3", "mots_transcrits": 46, "minutage": "5 phrases, 4 coups, 0 pauses"}
