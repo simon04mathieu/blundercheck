@@ -184,3 +184,5 @@
 {"reseau": "facebook", "id": "2184157779143045", "ok": true}
 ### 2026-11-17 09:10 publications/facebook/tours_hang_d8_1.json
 {"reseau": "facebook", "id": "4292712744198317", "ok": true}
+### 2026-11-17 13:17 publications/facebook/percee_a6_1.json
+{"reseau": "facebook", "id": "1012388995244734", "ok": true}

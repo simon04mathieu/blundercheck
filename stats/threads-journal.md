@@ -192,3 +192,6 @@ jeton Threads renouvelé (valable 60 jours)
 {"reseau": "threads", "id": "18180858022445155"}
 ### 2026-11-17 09:11 publications/threads/tours_hang_d8_1.json
 {"reseau": "threads", "id": "18117494060113540"}
+### 2026-11-17 13:17 publications/threads/percee_a6_1.json
+ÉCHEC :
+ÉCHEC : Threads encodage : UNKNOWN
