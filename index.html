@@ -3357,19 +3357,20 @@ function pageImport(view) {
 const GUIDE = { site: 'chesscom' };
 function guideHTML(site) {
   const etapes = l => `<ol class="steps">${l.map(x => `<li><span>${x}</span></li>`).join('')}</ol>`;
-  if (site === 'chesscom') return `<div class="guide">
+  if (site === 'chesscom') return `<div class="guide"><div class="ready" style="margin-bottom:10px">${ico('check')}<div><b>Easiest: your username</b><p class="muted"><b>By username</b> tab: type your username and tick your games. You can also paste the game’s link directly.</p></div></div>
     <h4>${ico('board')}On a computer</h4>${etapes([
       'Open the game from your profile, under <b>Games</b> (or <code>chess.com/games/archive</code>).',
-      "Under the board, in the <b>Analysis</b>tab, click the <b>Share</b>.",
-      "Choose the <b>PGN</b>tab, then copy the text, or click <b>Download</b> to get a .pgn file.",
-      'Paste the text here, or drop the file in the <b>.pgn file</b>.'])}
+      "Under the board, in the <b>Analysis</b> tab, click the <b>Share</b> icon.",
+      "Choose the <b>PGN</b> tab, then copy the text, or click <b>Download</b> to get a .pgn file.",
+      'Paste the text here, or drop the file in the <b>.pgn file</b> tab.'])}
+    <a href="/aide/import-chesscom-1-en.png" target="_blank" rel="noopener"><img src="/aide/import-chesscom-1-en.png" alt="Chess.com: the Share icon under the move list" loading="lazy" style="display:block;width:100%;max-width:300px;border-radius:10px;border:1px solid var(--line, #333);margin:8px 0"></a><a href="/aide/import-chesscom-2-en.png" target="_blank" rel="noopener"><img src="/aide/import-chesscom-2-en.png" alt="Chess.com: PGN tab, then the copy button" loading="lazy" style="display:block;width:100%;max-width:300px;border-radius:10px;border:1px solid var(--line, #333);margin:8px 0"></a>
     <h4>${ico('board')}Android app</h4>${etapes(['Open the game.', 'Tap <b>More</b> at the bottom left, then <b>Export PGN</b>.', 'Tap <b>Copy</b> and paste the text here.'])}
     <h4>${ico('board')}iPhone app</h4>${etapes(["Open the game and tap the magnifier at the top right to open the analysis.", 'Tap <b>Options</b> at the bottom, then <b>Share</b>.', 'Tap <b>Copy</b> and paste the text here.'])}
-    <p class="faint" style="font-size:12.5px">A link like <code>chess.com/game/live/…</code> isn't enough: you need to paste the PGN text.</p></div>`;
-  if (site === 'lichess') return `<div class="guide">
+    <p class="faint" style="font-size:12.5px">Only have the link (<code>chess.com/game/live/…</code>)? Paste it in “Paste a PGN”: we find the game with your username.</p></div>`;
+  if (site === 'lichess') return `<div class="guide"><div class="ready" style="margin-bottom:10px">${ico('check')}<div><b>Easiest: your username</b><p class="muted"><b>By username</b> tab: type your username and tick your games. You can also paste the game’s link directly.</p></div></div>
     <h4>${ico('board')}One game</h4>${etapes([
       'Open the game on lichess.org.',
-      "Under the board, open the <b>Partager &amp; exporter</b>.",
+      "Under the board, open the <b>Share &amp; export</b> tab.",
       'Copy the PGN text shown, or download the .pgn file.',
       'Paste the text here, or drop the file in the <b>.pgn file</b>.'])}
     <h4>${ico('board')}All your games at once</h4>${etapes([
@@ -3430,7 +3431,7 @@ function corpsImport() {
     const lien = IMP.txt.match(/(chess\.com|lichess\.org)\/\S*/i);
     if (lien && !/\b1\.\s*\S/.test(IMP.txt)) {
       const site = /lichess/i.test(lien[1]) ? 'lichess' : 'chesscom';
-      st.innerHTML = `<div class="ready bad">${ico('info')}<div><b>You pasted a link, not the PGN</b><p class="muted">A link doesn't contain the moves. Follow the “ ${site === 'lichess' ? 'Lichess' : 'Chess.com'} ” steps in the guide to copy this game's PGN text, then paste it here.</p></div></div>`;
+      lienPartie(IMP.txt, st, check);
       go.disabled = true;
       if (GUIDE.site !== site && $('#guideBody')) { GUIDE.site = site; $$('[data-gs]').forEach(x => x.classList.toggle('on', x.dataset.gs === site)); $('#guideBody').innerHTML = guideHTML(site); }
       return;
@@ -4069,7 +4070,7 @@ function pageAccueil(view) {
     <h2>Frequently asked questions</h2>
     <div class="card faq">
       ${[
-      ['How do I import my games?', 'On Chess.com or Lichess, open your game and copy its PGN (Share button, PGN tab), then paste it into “Analyze a game”. The step-by-step guide is on that page.'],
+      ['How do I import my games?', 'Easiest: type your Chess.com or Lichess username at the top of this page and your latest games come in by themselves. You can also paste a game’s link or PGN into “Analyze a game” (picture guide on that page).'],
       ['Is it allowed?', "Yes: you export your games yourself with these sites' own feature. BlunderCheck doesn't connect to your account and doesn't read their pages."],
       ['Can the coach be wrong?', "The AI coach relies on Stockfish's calculations, but it can phrase an explanation badly. Its texts are always marked “AI”; when in doubt, the engine evaluation prevails."],
       ['Where do my games go?', "They stay in your browser. A game is only sent to Claude when you ask for a comment or ask the coach a question."],
@@ -4084,7 +4085,9 @@ function pageAccueil(view) {
   $$('#hpSite button').forEach(b => b.onclick = () => { PS.site = b.dataset.s; $$('#hpSite button').forEach(x => x.classList.toggle('on', x === b)); });
   $('#heroPs').onsubmit = e => {
     e.preventDefault();
-    const v = $('#hpIn').value.trim().replace(/^@/, '');
+    const brut = $('#hpIn').value;
+    if (estLienPartie(brut)) { IMP.tab = 'pgn'; IMP.txt = brut.trim(); aller('import'); return; }
+    const lu = lirePseudo(brut), v = lu.pseudo; if (lu.site) PS.site = lu.site;
     if (!/^[\w-]{2,30}$/.test(v)) { toast('Enter your Chess.com or Lichess username.', 'err'); $('#hpIn').focus(); return; }
     PS.pseudo = v; PS.n = 10; PS.autoGo = true; PS.list = null; IMP.tab = 'pseudo'; aller('import');
   };
@@ -5174,6 +5177,51 @@ async function partagerCoup(i) {
 // ---------- Import par pseudo, via les API publiques officielles de Chess.com et Lichess ----------
 const PS = { site: 'chesscom', pseudo: '', n: 10, list: null, etat: '', msg: '' };
 
+// Pseudo tapé, ou lien de profil collé (chess.com/member/x, lichess.org/@/x) : on garde le pseudo et le site.
+function lirePseudo(s) {
+  s = String(s || '').trim();
+  let m = s.match(/chess\.com\/(?:[a-z]{2}\/)?member\/([\w-]{2,30})/i);
+  if (m) return { pseudo: m[1], site: 'chesscom' };
+  m = s.match(/lichess\.org\/@\/([\w-]{2,30})/i);
+  if (m) return { pseudo: m[1], site: 'lichess' };
+  return { pseudo: s.replace(/^@/, '').trim(), site: null };
+}
+// Lien d'une partie collé : Lichess donne le PGN directement ; Chess.com non, on la retrouve dans les archives du joueur.
+const LIEN_CC = /chess\.com\/(?:[a-z]{2}\/)?(?:analysis\/)?game\/(?:live|daily)\/(\d+)/i;
+const LIEN_LI = /lichess\.org\/(?:game\/export\/)?([A-Za-z0-9]{8})(?:[A-Za-z0-9]{4})?(?![A-Za-z0-9])/i;
+const estLienPartie = t => LIEN_CC.test(t) || (/lichess\.org/i.test(t) && LIEN_LI.test(t) && !/lichess\.org\/@/i.test(t));
+function lienPartie(txt, st, rerun) {
+  const T = (f, e) => window.BC_LANG === 'en' ? e : f;
+  const pose = pgn => { const t = $('#pgnIn'); if (!t) return; t.value = pgn; rerun(); toast(T('Partie récupérée : vérifie et lance l’analyse.', 'Game fetched: check it and start the analysis.')); };
+  const echec = msg => { st.innerHTML = `<div class="ready bad">${ico('info')}<div><b>${msg}</b><p class="muted">${T('Le plus simple : onglet « Par pseudo ». Sinon, copie le texte PGN de la partie (étapes en images dans le guide).', 'Easiest: the “By username” tab. Otherwise, copy the game’s PGN text (steps with pictures in the guide).')}</p></div></div>`; };
+  let m = /lichess\.org/i.test(txt) && !/lichess\.org\/@/i.test(txt) ? txt.match(LIEN_LI) : null;
+  if (m) {
+    st.innerHTML = `<p class="thinking">${T('Lien Lichess reconnu : je récupère la partie…', 'Lichess link recognised: fetching the game…')}</p>`;
+    fetch(`https://lichess.org/game/export/${m[1]}?clocks=false&evals=false`, { headers: { Accept: 'application/x-chess-pgn' } })
+      .then(r => r.ok ? r.text() : Promise.reject()).then(p => { if ($('#pgnIn') && $('#pgnIn').value === txt) pose(p.trim()); })
+      .catch(() => echec(T('Je n’ai pas pu récupérer cette partie Lichess', 'Couldn’t fetch this Lichess game')));
+    return;
+  }
+  m = txt.match(LIEN_CC);
+  if (!m) return echec(T('Tu as collé un lien, pas une partie', 'You pasted a link, not a game'));
+  const id = m[1], deja = (PS.site === 'chesscom' && PS.pseudo) || (REGLAGES.pseudos || '').split(',')[0].trim();
+  st.innerHTML = `<div class="ready">${ico('info')}<div style="flex:1"><b>${T('Lien Chess.com reconnu', 'Chess.com link recognised')}</b><p class="muted">${T('Tape ton pseudo Chess.com : je retrouve cette partie dans tes parties des 3 derniers mois.', 'Type your Chess.com username: I’ll find this game among your games from the last 3 months.')}</p>
+    <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap"><input class="input" id="lnPs" placeholder="${T('Ton pseudo Chess.com', 'Your Chess.com username')}" value="${esc(deja)}" autocomplete="off" autocapitalize="off" spellcheck="false" style="flex:1;min-width:140px"><button class="btn primary" id="lnGo">${T('Retrouver la partie', 'Find the game')}</button></div></div></div>`;
+  const go = async () => {
+    const u = lirePseudo($('#lnPs').value).pseudo;
+    if (!/^[\w-]{2,30}$/.test(u)) { toast(T('Entre un pseudo valide.', 'Enter a valid username.'), 'err'); return; }
+    const b = $('#lnGo'); b.disabled = true; b.textContent = T('Je cherche…', 'Searching…');
+    try {
+      const list = await partiesChessCom(u, 5000);
+      const p = list.find(x => new RegExp('/' + id + '(?!\\d)').test((x.match(/\[Link "([^"]+)"/) || [])[1] || ''));
+      if (p) { PS.site = 'chesscom'; PS.pseudo = u; const ps = (REGLAGES.pseudos || '').split(',').map(x => x.trim()).filter(Boolean); if (!ps.some(x => x.toLowerCase() === u.toLowerCase())) { REGLAGES.pseudos = [u, ...ps].join(', '); sauverReglages(); majProfil(); } pose(p); }
+      else echec(T(`Partie introuvable dans les 3 derniers mois de « ${esc(u)} »`, `Game not found in the last 3 months of “${esc(u)}”`));
+    } catch (e) { echec(esc((e && e.msg) || T('Chess.com ne répond pas pour le moment', 'Chess.com isn’t responding right now'))); }
+  };
+  $('#lnGo').onclick = go; $('#lnPs').onkeydown = e => { if (e.key === 'Enter') go(); };
+  if (deja) go();
+}
+
 async function partiesChessCom(u, n) {
   const r = await fetch(`https://api.chess.com/pub/player/${encodeURIComponent(u.toLowerCase())}/games/archives`);
   if (r.status === 404) throw { msg: `No player “ ${u} ” on Chess.com.` };
@@ -5227,7 +5275,9 @@ function corpsPseudo(el) {
   $$('#psSite button', el).forEach(b => b.onclick = () => { PS.site = b.dataset.s; PS.list = null; PS.etat = ''; corpsPseudo(el); });
   $('#psN', el).onchange = e => { PS.n = +e.target.value; };
   const go = async () => {
-    PS.pseudo = $('#psIn', el).value.trim().replace(/^@/, '');
+    const brut = $('#psIn', el).value;
+    if (estLienPartie(brut)) { IMP.tab = 'pgn'; IMP.txt = brut.trim(); $$('[data-it]').forEach(x => x.classList.toggle('on', x.dataset.it === 'pgn')); corpsImport(); return; }
+    const lu = lirePseudo(brut); PS.pseudo = lu.pseudo; if (lu.site) PS.site = lu.site;
     if (!/^[\w-]{2,30}$/.test(PS.pseudo)) { toast('Enter a valid username.', 'err'); return; }
     PS.etat = 'charge'; PS.list = null; corpsPseudo(el);
     try {
@@ -8240,16 +8290,17 @@ function pageImport(view) {
 const GUIDE = { site: 'chesscom' };
 function guideHTML(site) {
   const etapes = l => `<ol class="steps">${l.map(x => `<li><span>${x}</span></li>`).join('')}</ol>`;
-  if (site === 'chesscom') return `<div class="guide">
+  if (site === 'chesscom') return `<div class="guide"><div class="ready" style="margin-bottom:10px">${ico('check')}<div><b>Le plus simple : ton pseudo</b><p class="muted">Onglet <b>Par pseudo</b>, tu tapes ton pseudo et tu coches tes parties. Tu peux aussi coller directement le lien de la partie.</p></div></div>
     <h4>${ico('board')}Sur ordinateur</h4>${etapes([
       'Ouvre la partie depuis ton profil, rubrique <b>Parties</b> (ou <code>chess.com/games/archive</code>).',
       "Sous l'échiquier, dans l'onglet <b>Analyse</b>, clique sur l'icône <b>Partager</b>.",
       "Choisis l'onglet <b>PGN</b>, puis copie le texte, ou clique sur <b>Télécharger</b> pour obtenir un fichier .pgn.",
       'Colle le texte ici, ou dépose le fichier dans l’onglet <b>Fichier .pgn</b>.'])}
+    <a href="/aide/import-chesscom-1.png" target="_blank" rel="noopener"><img src="/aide/import-chesscom-1.png" alt="Chess.com : l'icône Partager sous la liste des coups" loading="lazy" style="display:block;width:100%;max-width:300px;border-radius:10px;border:1px solid var(--line, #333);margin:8px 0"></a><a href="/aide/import-chesscom-2.png" target="_blank" rel="noopener"><img src="/aide/import-chesscom-2.png" alt="Chess.com : onglet PGN puis bouton copier" loading="lazy" style="display:block;width:100%;max-width:300px;border-radius:10px;border:1px solid var(--line, #333);margin:8px 0"></a>
     <h4>${ico('board')}Appli Android</h4>${etapes(['Ouvre la partie.', 'Touche <b>Plus</b> en bas à gauche, puis <b>Exporter PGN</b>.', 'Touche <b>Copier</b> et colle le texte ici.'])}
     <h4>${ico('board')}Appli iPhone</h4>${etapes(["Ouvre la partie et touche la loupe en haut à droite pour ouvrir l'analyse.", 'Touche <b>Options</b> en bas, puis <b>Partager</b>.', 'Touche <b>Copier</b> et colle le texte ici.'])}
-    <p class="faint" style="font-size:12.5px">Un lien du type <code>chess.com/game/live/…</code> ne suffit pas : c'est le texte PGN qu'il faut coller.</p></div>`;
-  if (site === 'lichess') return `<div class="guide">
+    <p class="faint" style="font-size:12.5px">Tu as seulement le lien (<code>chess.com/game/live/…</code>) ? Colle-le dans « Coller un PGN » : on retrouve la partie avec ton pseudo.</p></div>`;
+  if (site === 'lichess') return `<div class="guide"><div class="ready" style="margin-bottom:10px">${ico('check')}<div><b>Le plus simple : ton pseudo</b><p class="muted">Onglet <b>Par pseudo</b>, tu tapes ton pseudo et tu coches tes parties. Tu peux aussi coller directement le lien de la partie.</p></div></div>
     <h4>${ico('board')}Une partie</h4>${etapes([
       'Ouvre la partie sur lichess.org.',
       "Sous l'échiquier, ouvre l'onglet <b>Partager &amp; exporter</b>.",
@@ -8313,7 +8364,7 @@ function corpsImport() {
     const lien = IMP.txt.match(/(chess\.com|lichess\.org)\/\S*/i);
     if (lien && !/\b1\.\s*\S/.test(IMP.txt)) {
       const site = /lichess/i.test(lien[1]) ? 'lichess' : 'chesscom';
-      st.innerHTML = `<div class="ready bad">${ico('info')}<div><b>Tu as collé un lien, pas le PGN</b><p class="muted">Un lien ne contient pas les coups. Suis les étapes « ${site === 'lichess' ? 'Lichess' : 'Chess.com'} » du guide pour copier le texte PGN de cette partie, puis colle-le ici.</p></div></div>`;
+      lienPartie(IMP.txt, st, check);
       go.disabled = true;
       if (GUIDE.site !== site && $('#guideBody')) { GUIDE.site = site; $$('[data-gs]').forEach(x => x.classList.toggle('on', x.dataset.gs === site)); $('#guideBody').innerHTML = guideHTML(site); }
       return;
@@ -8952,7 +9003,7 @@ function pageAccueil(view) {
     <h2>Questions fréquentes</h2>
     <div class="card faq">
       ${[
-      ['Comment importer mes parties ?', 'Sur Chess.com ou Lichess, ouvre ta partie et copie son PGN (bouton Partager, onglet PGN), puis colle-le dans « Analyser une partie ». Le guide pas à pas est sur cette page.'],
+      ['Comment importer mes parties ?', 'Le plus simple : tape ton pseudo Chess.com ou Lichess en haut de cette page, tes dernières parties arrivent toutes seules. Tu peux aussi coller le lien ou le PGN d’une partie dans « Analyser une partie » (guide en images sur cette page).'],
       ['Est-ce autorisé ?', "Oui : tu exportes toi-même tes parties avec la fonction prévue par ces sites. BlunderCheck ne se connecte pas à ton compte et ne lit pas leurs pages."],
       ['Le prof peut-il se tromper ?', "Le prof IA s'appuie sur les calculs de Stockfish, mais il peut mal formuler une explication. Ses textes sont toujours marqués « IA » ; en cas de doute, l'évaluation du moteur fait foi."],
       ['Où vont mes parties ?', "Elles restent dans ton navigateur. Une partie n'est envoyée à Claude que quand tu demandes un commentaire ou poses une question au prof."],
@@ -8967,7 +9018,9 @@ function pageAccueil(view) {
   $$('#hpSite button').forEach(b => b.onclick = () => { PS.site = b.dataset.s; $$('#hpSite button').forEach(x => x.classList.toggle('on', x === b)); });
   $('#heroPs').onsubmit = e => {
     e.preventDefault();
-    const v = $('#hpIn').value.trim().replace(/^@/, '');
+    const brut = $('#hpIn').value;
+    if (estLienPartie(brut)) { IMP.tab = 'pgn'; IMP.txt = brut.trim(); aller('import'); return; }
+    const lu = lirePseudo(brut), v = lu.pseudo; if (lu.site) PS.site = lu.site;
     if (!/^[\w-]{2,30}$/.test(v)) { toast('Entre ton pseudo Chess.com ou Lichess.', 'err'); $('#hpIn').focus(); return; }
     PS.pseudo = v; PS.n = 10; PS.autoGo = true; PS.list = null; IMP.tab = 'pseudo'; aller('import');
   };
@@ -10057,6 +10110,51 @@ async function partagerCoup(i) {
 // ---------- Import par pseudo, via les API publiques officielles de Chess.com et Lichess ----------
 const PS = { site: 'chesscom', pseudo: '', n: 10, list: null, etat: '', msg: '' };
 
+// Pseudo tapé, ou lien de profil collé (chess.com/member/x, lichess.org/@/x) : on garde le pseudo et le site.
+function lirePseudo(s) {
+  s = String(s || '').trim();
+  let m = s.match(/chess\.com\/(?:[a-z]{2}\/)?member\/([\w-]{2,30})/i);
+  if (m) return { pseudo: m[1], site: 'chesscom' };
+  m = s.match(/lichess\.org\/@\/([\w-]{2,30})/i);
+  if (m) return { pseudo: m[1], site: 'lichess' };
+  return { pseudo: s.replace(/^@/, '').trim(), site: null };
+}
+// Lien d'une partie collé : Lichess donne le PGN directement ; Chess.com non, on la retrouve dans les archives du joueur.
+const LIEN_CC = /chess\.com\/(?:[a-z]{2}\/)?(?:analysis\/)?game\/(?:live|daily)\/(\d+)/i;
+const LIEN_LI = /lichess\.org\/(?:game\/export\/)?([A-Za-z0-9]{8})(?:[A-Za-z0-9]{4})?(?![A-Za-z0-9])/i;
+const estLienPartie = t => LIEN_CC.test(t) || (/lichess\.org/i.test(t) && LIEN_LI.test(t) && !/lichess\.org\/@/i.test(t));
+function lienPartie(txt, st, rerun) {
+  const T = (f, e) => window.BC_LANG === 'en' ? e : f;
+  const pose = pgn => { const t = $('#pgnIn'); if (!t) return; t.value = pgn; rerun(); toast(T('Partie récupérée : vérifie et lance l’analyse.', 'Game fetched: check it and start the analysis.')); };
+  const echec = msg => { st.innerHTML = `<div class="ready bad">${ico('info')}<div><b>${msg}</b><p class="muted">${T('Le plus simple : onglet « Par pseudo ». Sinon, copie le texte PGN de la partie (étapes en images dans le guide).', 'Easiest: the “By username” tab. Otherwise, copy the game’s PGN text (steps with pictures in the guide).')}</p></div></div>`; };
+  let m = /lichess\.org/i.test(txt) && !/lichess\.org\/@/i.test(txt) ? txt.match(LIEN_LI) : null;
+  if (m) {
+    st.innerHTML = `<p class="thinking">${T('Lien Lichess reconnu : je récupère la partie…', 'Lichess link recognised: fetching the game…')}</p>`;
+    fetch(`https://lichess.org/game/export/${m[1]}?clocks=false&evals=false`, { headers: { Accept: 'application/x-chess-pgn' } })
+      .then(r => r.ok ? r.text() : Promise.reject()).then(p => { if ($('#pgnIn') && $('#pgnIn').value === txt) pose(p.trim()); })
+      .catch(() => echec(T('Je n’ai pas pu récupérer cette partie Lichess', 'Couldn’t fetch this Lichess game')));
+    return;
+  }
+  m = txt.match(LIEN_CC);
+  if (!m) return echec(T('Tu as collé un lien, pas une partie', 'You pasted a link, not a game'));
+  const id = m[1], deja = (PS.site === 'chesscom' && PS.pseudo) || (REGLAGES.pseudos || '').split(',')[0].trim();
+  st.innerHTML = `<div class="ready">${ico('info')}<div style="flex:1"><b>${T('Lien Chess.com reconnu', 'Chess.com link recognised')}</b><p class="muted">${T('Tape ton pseudo Chess.com : je retrouve cette partie dans tes parties des 3 derniers mois.', 'Type your Chess.com username: I’ll find this game among your games from the last 3 months.')}</p>
+    <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap"><input class="input" id="lnPs" placeholder="${T('Ton pseudo Chess.com', 'Your Chess.com username')}" value="${esc(deja)}" autocomplete="off" autocapitalize="off" spellcheck="false" style="flex:1;min-width:140px"><button class="btn primary" id="lnGo">${T('Retrouver la partie', 'Find the game')}</button></div></div></div>`;
+  const go = async () => {
+    const u = lirePseudo($('#lnPs').value).pseudo;
+    if (!/^[\w-]{2,30}$/.test(u)) { toast(T('Entre un pseudo valide.', 'Enter a valid username.'), 'err'); return; }
+    const b = $('#lnGo'); b.disabled = true; b.textContent = T('Je cherche…', 'Searching…');
+    try {
+      const list = await partiesChessCom(u, 5000);
+      const p = list.find(x => new RegExp('/' + id + '(?!\\d)').test((x.match(/\[Link "([^"]+)"/) || [])[1] || ''));
+      if (p) { PS.site = 'chesscom'; PS.pseudo = u; const ps = (REGLAGES.pseudos || '').split(',').map(x => x.trim()).filter(Boolean); if (!ps.some(x => x.toLowerCase() === u.toLowerCase())) { REGLAGES.pseudos = [u, ...ps].join(', '); sauverReglages(); majProfil(); } pose(p); }
+      else echec(T(`Partie introuvable dans les 3 derniers mois de « ${esc(u)} »`, `Game not found in the last 3 months of “${esc(u)}”`));
+    } catch (e) { echec(esc((e && e.msg) || T('Chess.com ne répond pas pour le moment', 'Chess.com isn’t responding right now'))); }
+  };
+  $('#lnGo').onclick = go; $('#lnPs').onkeydown = e => { if (e.key === 'Enter') go(); };
+  if (deja) go();
+}
+
 async function partiesChessCom(u, n) {
   const r = await fetch(`https://api.chess.com/pub/player/${encodeURIComponent(u.toLowerCase())}/games/archives`);
   if (r.status === 404) throw { msg: `Aucun joueur « ${u} » sur Chess.com.` };
@@ -10110,7 +10208,9 @@ function corpsPseudo(el) {
   $$('#psSite button', el).forEach(b => b.onclick = () => { PS.site = b.dataset.s; PS.list = null; PS.etat = ''; corpsPseudo(el); });
   $('#psN', el).onchange = e => { PS.n = +e.target.value; };
   const go = async () => {
-    PS.pseudo = $('#psIn', el).value.trim().replace(/^@/, '');
+    const brut = $('#psIn', el).value;
+    if (estLienPartie(brut)) { IMP.tab = 'pgn'; IMP.txt = brut.trim(); $$('[data-it]').forEach(x => x.classList.toggle('on', x.dataset.it === 'pgn')); corpsImport(); return; }
+    const lu = lirePseudo(brut); PS.pseudo = lu.pseudo; if (lu.site) PS.site = lu.site;
     if (!/^[\w-]{2,30}$/.test(PS.pseudo)) { toast('Entre un pseudo valide.', 'err'); return; }
     PS.etat = 'charge'; PS.list = null; corpsPseudo(el);
     try {
