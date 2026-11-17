@@ -1007,3 +1007,8 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/pions_fourchette_g6_1_fr.mp4 {"voix_brute_s": 18.5, "tempo": 1.0, "video_s": 18.5, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "baby_animals_playing.mp3", "mots_transcrits": 46, "minutage": "5 phrases, 4 coups, 0 pauses"}
+## 2026-11-17 00:05 UTC · run 43984655840
+### commandes/perso_percee_a6_1.json
+    voix générée : 197 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/percee_a6_1.mp4 {"voix_brute_s": 17.4, "tempo": 1.0, "video_s": 17.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "losing_your_marbles.mp3", "mots_transcrits": 43, "minutage": "5 phrases, 4 coups, 0 pauses"}

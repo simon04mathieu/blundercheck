@@ -1,0 +1,125 @@
+{
+ "nom": "percee_a6_1",
+ "tempo": 1.0,
+ "duree_s": 17.32,
+ "hook": {
+  "texte": "Which pawn|do you push?",
+  "fin": 2.16
+ },
+ "question": {
+  "texte": "Which pawn|do you push?",
+  "t": 14.12
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which pawn do you push?"
+  },
+  {
+   "t": 2.16,
+   "texte": "The c-pawn!"
+  },
+  {
+   "t": 3.86,
+   "texte": "He takes, you take on a6 and the pawn on a6 runs home: his king is too far."
+  },
+  {
+   "t": 11.04,
+   "texte": "Push the b-pawn and it's only a draw."
+  },
+  {
+   "t": 14.3,
+   "texte": "So when three pawns face three ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.26,
+   "coup": "a6",
+   "badge": null
+  },
+  {
+   "t": 2.16,
+   "coup": "c6",
+   "badge": "brillant"
+  },
+  {
+   "t": 3.96,
+   "coup": "bxc6",
+   "badge": null
+  },
+  {
+   "t": 4.82,
+   "coup": "bxa6",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.26,
+   "type": "coup"
+  },
+  {
+   "t": 0.56,
+   "type": "fleches"
+  },
+  {
+   "t": 0.56,
+   "type": "sticker"
+  },
+  {
+   "t": 2.16,
+   "type": "coup"
+  },
+  {
+   "t": 2.16,
+   "type": "zoom"
+  },
+  {
+   "t": 3.96,
+   "type": "coup"
+  },
+  {
+   "t": 4.82,
+   "type": "coup"
+  },
+  {
+   "t": 6.14,
+   "type": "fleches"
+  },
+  {
+   "t": 6.64,
+   "type": "sticker"
+  },
+  {
+   "t": 9.36,
+   "type": "sticker"
+  },
+  {
+   "t": 11.27,
+   "type": "position"
+  },
+  {
+   "t": 11.52,
+   "type": "fleches"
+  },
+  {
+   "t": 12.5,
+   "type": "sticker"
+  },
+  {
+   "t": 15.5,
+   "type": "sticker"
+  },
+  {
+   "t": 16.12,
+   "type": "sticker"
+  }
+ ],
+ "musique": "losing_your_marbles.mp3"
+}
