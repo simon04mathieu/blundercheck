@@ -1,0 +1,133 @@
+{
+ "nom": "tour_fou_h7_1",
+ "tempo": 1.0,
+ "duree_s": 20.62,
+ "hook": {
+  "texte": "Take his rook,|or run?",
+  "fin": 2.62
+ },
+ "question": {
+  "texte": "Analyze your game|blundercheck.app/try",
+  "t": 17.42
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take his rook or run?"
+  },
+  {
+   "t": 2.62,
+   "texte": "Neither!"
+  },
+  {
+   "t": 3.66,
+   "texte": "Rook to h8 check!"
+  },
+  {
+   "t": 6.06,
+   "texte": "His king steps aside and your king takes his rook."
+  },
+  {
+   "t": 9.84,
+   "texte": "Take at once and he takes yours nothing is won."
+  },
+  {
+   "t": 14.02,
+   "texte": "Analyze your own game free."
+  },
+  {
+   "t": 16.72,
+   "texte": "So when your rook is attacked look for the check then ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.18,
+   "coup": "Bg6",
+   "badge": null
+  },
+  {
+   "t": 2.62,
+   "coup": "Rh8+",
+   "badge": "brillant"
+  },
+  {
+   "t": 6.5,
+   "coup": "Ke7",
+   "badge": null
+  },
+  {
+   "t": 8.24,
+   "coup": "Kxe2",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.18,
+   "type": "coup"
+  },
+  {
+   "t": 0.36,
+   "type": "fleches"
+  },
+  {
+   "t": 1.02,
+   "type": "sticker"
+  },
+  {
+   "t": 2.62,
+   "type": "coup"
+  },
+  {
+   "t": 2.62,
+   "type": "zoom"
+  },
+  {
+   "t": 4.84,
+   "type": "sticker"
+  },
+  {
+   "t": 6.5,
+   "type": "coup"
+  },
+  {
+   "t": 8.24,
+   "type": "coup"
+  },
+  {
+   "t": 8.52,
+   "type": "sticker"
+  },
+  {
+   "t": 10.11,
+   "type": "position"
+  },
+  {
+   "t": 10.88,
+   "type": "fleches"
+  },
+  {
+   "t": 11.04,
+   "type": "sticker"
+  },
+  {
+   "t": 14.68,
+   "type": "sticker"
+  },
+  {
+   "t": 17.46,
+   "type": "sticker"
+  },
+  {
+   "t": 19.6,
+   "type": "sticker"
+  }
+ ],
+ "musique": "got_him_from_behind.mp3"
+}
