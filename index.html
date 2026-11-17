@@ -4092,7 +4092,7 @@ function pageAccueil(view) {
 }
 
 // ---------- Pages d'entreprise : tarifs, FAQ, à propos, contact, légal + pied de page ----------
-const MAJ_LEGAL = 'October 22, 2026';
+const MAJ_LEGAL = 'November 17, 2026';
 const CONTACT = 'contact@blundercheck.app';
 const mail = (sujet, txt = CONTACT) => `<a href="mailto:${CONTACT}${sujet ? '?subject=' + encodeURIComponent(sujet) : ''}">${txt}</a>`;
 
@@ -4241,11 +4241,17 @@ function pageConfidentialite(view) {
 }
 function pageMentions(view) {
   view.innerHTML = docLegal('Legal notice', [
-    ['Publisher', `<p>BlunderCheck is a personal project, non-commercial during its beta, published by a private individual. In accordance with article 6, III, 2 of French law no. 2004-575 of June 21, 2004 (LCEN), the publisher chose not to make their personal data public; it has been provided to the host.</p><p>Contact: ${mail('')}</p>`],
+    ['Publisher', `<p>BlunderCheck is published by Simon Mathieu, sole trader (French micro-entreprise), registered with the Bordeaux Trade and Companies Register (RCS) under number 132 674 813.</p><p>Registered office: Bordeaux, France. <span id="adrEd"><button class="btn ghost sm" id="adrBtn" type="button">Show the full address</button></span></p><p>VAT not applicable, article 293 B of the French General Tax Code.</p><p>Director of publication: Simon Mathieu.</p><p>Contact: ${mail('')}</p>`],
     ['Hosting', '<p>Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, United States. cloudflare.com</p>'],
     ['Intellectual property', "<p>The texts, the design and the BlunderCheck name belong to the publisher. Chess.com and Lichess are trademarks of their respective owners; BlunderCheck is neither affiliated with nor endorsed by these services.</p>"],
     ['Third-party software', '<p>Stockfish (GNU GPL v3), chess.js (BSD), Cburnett pieces (CC BY-SA 3.0), Geist fonts (SIL OFL 1.1). Details are in Settings, under “Licenses and credits”.</p>'],
   ]);
+  const ab = $('#adrBtn');
+  if (ab) ab.onclick = async () => {
+    ab.disabled = true;
+    try { const j = await (await fetch('/api/editeur', { headers: { 'x-bc': '1' } })).json(); if (!j.adresse) throw 0; $('#adrEd').textContent = j.adresse; }
+    catch { ab.disabled = false; toast(window.BC_LANG === 'en' ? 'Address unavailable right now: write to us.' : 'Adresse indisponible pour le moment : écris-nous.', 'err'); }
+  };
 }
 
 // --- Pied de page ---
@@ -8969,7 +8975,7 @@ function pageAccueil(view) {
 }
 
 // ---------- Pages d'entreprise : tarifs, FAQ, à propos, contact, légal + pied de page ----------
-const MAJ_LEGAL = '22 octobre 2026';
+const MAJ_LEGAL = '17 novembre 2026';
 const CONTACT = 'contact@blundercheck.app';
 const mail = (sujet, txt = CONTACT) => `<a href="mailto:${CONTACT}${sujet ? '?subject=' + encodeURIComponent(sujet) : ''}">${txt}</a>`;
 
@@ -9118,11 +9124,17 @@ function pageConfidentialite(view) {
 }
 function pageMentions(view) {
   view.innerHTML = docLegal('Mentions légales', [
-    ['Éditeur', `<p>BlunderCheck est un projet personnel, non commercial pendant sa phase bêta, édité par un particulier. Conformément à l'article 6, III, 2 de la loi n° 2004-575 du 21 juin 2004 (LCEN), l'éditeur a choisi de ne pas rendre publiques ses données personnelles ; elles ont été communiquées à l'hébergeur.</p><p>Contact : ${mail('')}</p>`],
+    ['Éditeur', `<p>BlunderCheck est édité par Simon Mathieu, entrepreneur individuel (micro-entreprise), immatriculé au RCS de Bordeaux sous le numéro 132 674 813.</p><p>Siège : Bordeaux (33). <span id="adrEd"><button class="btn ghost sm" id="adrBtn" type="button">Afficher l'adresse complète</button></span></p><p>TVA non applicable, article 293 B du Code général des impôts.</p><p>Directeur de la publication : Simon Mathieu.</p><p>Contact : ${mail('')}</p>`],
     ['Hébergement', '<p>Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, États-Unis. cloudflare.com</p>'],
     ['Propriété intellectuelle', "<p>Les textes, le design et le nom BlunderCheck sont la propriété de l'éditeur. Chess.com et Lichess sont des marques de leurs propriétaires respectifs ; BlunderCheck n'est ni affilié à ces services, ni approuvé par eux.</p>"],
     ['Logiciels tiers', '<p>Stockfish (GNU GPL v3), chess.js (BSD), pièces Cburnett (CC BY-SA 3.0), polices Geist (SIL OFL 1.1). Le détail figure dans les Paramètres, rubrique « Licences et mentions ».</p>'],
   ]);
+  const ab = $('#adrBtn');
+  if (ab) ab.onclick = async () => {
+    ab.disabled = true;
+    try { const j = await (await fetch('/api/editeur', { headers: { 'x-bc': '1' } })).json(); if (!j.adresse) throw 0; $('#adrEd').textContent = j.adresse; }
+    catch { ab.disabled = false; toast(window.BC_LANG === 'en' ? 'Address unavailable right now: write to us.' : 'Adresse indisponible pour le moment : écris-nous.', 'err'); }
+  };
 }
 
 // --- Pied de page ---
