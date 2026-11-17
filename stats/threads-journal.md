@@ -195,3 +195,5 @@ jeton Threads renouvelé (valable 60 jours)
 ### 2026-11-17 13:17 publications/threads/percee_a6_1.json
 ÉCHEC :
 ÉCHEC : Threads encodage : UNKNOWN
+### 2026-11-17 14:29 publications/threads/percee_a6_1.json
+{"reseau": "threads", "id": "18030905108701262"}
