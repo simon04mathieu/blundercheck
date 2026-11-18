@@ -972,3 +972,4 @@
 ### 2026-11-18 12:02 publications/youtube/pions_fourchette_e6_1.json
 {"id": "u6UuHxYBSLw", "url": "https://www.youtube.com/shorts/u6UuHxYBSLw", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "138"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "138"}
