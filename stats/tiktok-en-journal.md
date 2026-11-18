@@ -797,3 +797,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 ### 2026-11-18 07:57 publications/tiktok-en/pions_fourchette_e6_1.json
 {"publish_id": "v_inbox_file~v2.7709417178298271747", "mode": "brouillon", "vie_privee": null, "legende": "Which pawn takes? 👇 Only 1.fxe6! wins: 1...dxe6 2.d6 and the d-pawn runs home. 1.dxe6 is only a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle"}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 43, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 43, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
