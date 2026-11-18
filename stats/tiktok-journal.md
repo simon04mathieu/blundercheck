@@ -892,3 +892,4 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"publish_id": "v_inbox_file~v2.7709417175031875606", "mode": "brouillon", "vie_privee": null, "legende": "Tu prends, ou tu fuis ? 👇 Seul 1.Ff5+ ! gagne : 1...Rb8 2.Dxh2 et ta dame prend la tour. 1.Dxg7 ?? Th1# est mat (Stockfish 16, position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr"}
 ### 2026-11-18 07:57 publications/tiktok/pions_fourchette_e6_1_fr.json
 {"publish_id": "v_inbox_file~v2.7709417175031908374", "mode": "brouillon", "vie_privee": null, "legende": "Quel pion prend ? 👇 Seul 1.fxe6 ! gagne : 1...dxe6 2.d6 et le pion d file à dame. 1.dxe6 n'est qu'une nulle (Stockfish 16, position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr"}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 20, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
