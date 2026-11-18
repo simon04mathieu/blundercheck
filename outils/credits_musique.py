@@ -13,6 +13,9 @@ def credit(fichier_video):
         return None
 
 def ajouter(texte, fichier_video, limite=None):
+    try:  # 18/11 (Simon) : phrase d'abonnement + hashtags, automatiques (outils/appel_abo.py)
+        from appel_abo import ajouter as appel; texte = appel(texte, fichier_video)
+    except Exception: pass
     c = credit(fichier_video)
     if not c or c in (texte or ""): return texte
     if limite:  # Threads (500 octets) : on raccourcit le texte, jamais le crédit
