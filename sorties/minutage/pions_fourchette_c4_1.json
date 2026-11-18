@@ -1,0 +1,121 @@
+{
+ "nom": "pions_fourchette_c4_1",
+ "tempo": 1.0,
+ "duree_s": 15.34,
+ "hook": {
+  "texte": "Which pawn|takes?",
+  "fin": 1.9
+ },
+ "question": {
+  "texte": "Which pawn|takes?",
+  "t": 12.14
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which pawn takes?"
+  },
+  {
+   "t": 1.9,
+   "texte": "The d-pawn!"
+  },
+  {
+   "t": 3.42,
+   "texte": "He takes back you take on c4 and the c-pawn runs home."
+  },
+  {
+   "t": 8.68,
+   "texte": "Take with the b-pawn and it's only a draw."
+  },
+  {
+   "t": 11.86,
+   "texte": "So when one pawn attacks two of yours, ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.24,
+   "coup": "c4",
+   "badge": null
+  },
+  {
+   "t": 1.9,
+   "coup": "dxc4",
+   "badge": "brillant"
+  },
+  {
+   "t": 3.64,
+   "coup": "bxc4",
+   "badge": null
+  },
+  {
+   "t": 4.92,
+   "coup": "bxc4",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.24,
+   "type": "coup"
+  },
+  {
+   "t": 0.58,
+   "type": "fleches"
+  },
+  {
+   "t": 0.58,
+   "type": "sticker"
+  },
+  {
+   "t": 1.9,
+   "type": "coup"
+  },
+  {
+   "t": 1.9,
+   "type": "zoom"
+  },
+  {
+   "t": 3.64,
+   "type": "coup"
+  },
+  {
+   "t": 4.92,
+   "type": "coup"
+  },
+  {
+   "t": 5.9,
+   "type": "fleches"
+  },
+  {
+   "t": 7.12,
+   "type": "sticker"
+  },
+  {
+   "t": 8.87,
+   "type": "position"
+  },
+  {
+   "t": 9.1,
+   "type": "fleches"
+  },
+  {
+   "t": 10.18,
+   "type": "sticker"
+  },
+  {
+   "t": 12.88,
+   "type": "sticker"
+  },
+  {
+   "t": 14.52,
+   "type": "sticker"
+  }
+ ],
+ "musique": "investigations.mp3"
+}
