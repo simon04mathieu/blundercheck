@@ -1,0 +1,133 @@
+{
+ "nom": "dame_fou_h6_1_fr",
+ "tempo": 1.0,
+ "duree_s": 18.94,
+ "hook": {
+  "texte": "Tu prends,|ou tu fuis ?",
+  "fin": 2.4
+ },
+ "question": {
+  "texte": "Tu prends,|ou tu fuis ?",
+  "t": 15.74
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Tu prends, ou tu fuis ?"
+  },
+  {
+   "t": 2.4,
+   "texte": "Ni l'un ni l'autre !"
+  },
+  {
+   "t": 3.58,
+   "texte": "Fou en f5 échec !"
+  },
+  {
+   "t": 6.7,
+   "texte": "Le roi s'écarte et ta dame prend la tour."
+  },
+  {
+   "t": 10.02,
+   "texte": "Si tu prends sa dame tout de suite, sa tour te mate."
+  },
+  {
+   "t": 13.94,
+   "texte": "Alors, quand ta dame est attaquée deux fois, cherche l'échec puis demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.84,
+   "coup": "Rh2",
+   "badge": null
+  },
+  {
+   "t": 2.4,
+   "coup": "Bf5+",
+   "badge": "brillant"
+  },
+  {
+   "t": 7.2,
+   "coup": "Kb8",
+   "badge": null
+  },
+  {
+   "t": 8.48,
+   "coup": "Qxh2",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.84,
+   "type": "coup"
+  },
+  {
+   "t": 1.24,
+   "type": "fleches"
+  },
+  {
+   "t": 1.24,
+   "type": "sticker"
+  },
+  {
+   "t": 2.4,
+   "type": "coup"
+  },
+  {
+   "t": 2.4,
+   "type": "zoom"
+  },
+  {
+   "t": 5.32,
+   "type": "sticker"
+  },
+  {
+   "t": 7.2,
+   "type": "coup"
+  },
+  {
+   "t": 8.48,
+   "type": "coup"
+  },
+  {
+   "t": 8.74,
+   "type": "sticker"
+  },
+  {
+   "t": 10.29,
+   "type": "position"
+  },
+  {
+   "t": 10.96,
+   "type": "fleches"
+  },
+  {
+   "t": 12.02,
+   "type": "sticker"
+  },
+  {
+   "t": 12.46,
+   "type": "fleches"
+  },
+  {
+   "t": 13.94,
+   "type": "sticker"
+  },
+  {
+   "t": 15.12,
+   "type": "sticker"
+  },
+  {
+   "t": 17.94,
+   "type": "sticker"
+  }
+ ],
+ "musique": "corny_candy.mp3"
+}
