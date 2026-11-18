@@ -984,3 +984,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "139"}
 ### 2026-11-18 18:40 publications/youtube/pions_fourchette_c4_1.json
 {"id": "Hv3wsm0pLaY", "url": "https://www.youtube.com/shorts/Hv3wsm0pLaY", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "139"}
