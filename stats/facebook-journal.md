@@ -190,3 +190,5 @@
 {"reseau": "facebook", "id": "1122285120702690", "ok": true}
 ### 2026-11-17 18:08 publications/facebook/pion_e6_push_1.json
 {"reseau": "facebook", "id": "1670806927842116", "ok": true}
+### 2026-11-18 09:12 publications/facebook/dame_fou_h6_1.json
+{"reseau": "facebook", "id": "4399790763621727", "ok": true}
