@@ -787,3 +787,12 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 43, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 43, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 43, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 43, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-18 07:57 publications/tiktok-en/dame_cavalier_d7_1.json
+{"publish_id": "v_inbox_file~v2.7709417175032006678", "mode": "brouillon", "vie_privee": null, "legende": "Take his queen, or run? 👇 Only 1.Nd7+! wins: the knight forks king and queen, 1...Kc8 2.Nxb6+. 1.Qxb6 cxb6 is just a trade (Stockfish 16, composed position). One new puzzle every day. Analyze your own game: blundercheck.app/try #chess #chesstactics #chesspuzzle"}
+### 2026-11-18 07:57 publications/tiktok-en/dame_fou_h6_1.json
+{"publish_id": "v_inbox_file~v2.7709417178298206211", "mode": "brouillon", "vie_privee": null, "legende": "Take, or run? 👇 Only 1.Bf5+! wins: 1...Kb8 2.Qxh2 and your queen takes the rook. 1.Qxg7?? Rh1# is mate (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle"}
+### 2026-11-18 07:57 publications/tiktok-en/pions_fourchette_c4_1.json
+{"publish_id": "v_inbox_file~v2.7709417173831272470", "mode": "brouillon", "vie_privee": null, "legende": "Which pawn takes? 👇 Only 1.dxc4! wins: 1...bxc4 2.bxc4 and the c-pawn runs home. 1.bxc4 b4 is only a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle\n\nMusic: \"Investigations\" by Kevin MacLeod (incompetech.com), licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/"}
+### 2026-11-18 07:57 publications/tiktok-en/pions_fourchette_e6_1.json
+{"publish_id": "v_inbox_file~v2.7709417178298271747", "mode": "brouillon", "vie_privee": null, "legende": "Which pawn takes? 👇 Only 1.fxe6! wins: 1...dxe6 2.d6 and the d-pawn runs home. 1.dxe6 is only a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle"}
