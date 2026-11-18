@@ -194,3 +194,5 @@
 {"reseau": "facebook", "id": "4399790763621727", "ok": true}
 ### 2026-11-18 12:07 publications/facebook/pions_fourchette_e6_1.json
 {"reseau": "facebook", "id": "2202109074022060", "ok": true}
+### 2026-11-18 15:04 publications/facebook/dame_cavalier_d7_1.json
+{"reseau": "facebook", "id": "1155012490442287", "ok": true}

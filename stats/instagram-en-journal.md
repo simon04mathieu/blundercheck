@@ -165,3 +165,5 @@ jeton Instagram EN renouvelé (valable 60 jours)
 {"reseau": "instagram-en", "id": "17959457877270540"}
 ### 2026-11-18 12:09 publications/instagram-en/pions_fourchette_e6_1.json
 {"reseau": "instagram-en", "id": "17913756657574975"}
+### 2026-11-18 15:06 publications/instagram-en/dame_cavalier_d7_1.json
+{"reseau": "instagram-en", "id": "18084174791722711"}
