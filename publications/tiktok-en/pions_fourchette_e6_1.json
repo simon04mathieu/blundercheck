@@ -1,0 +1,31 @@
+{
+ "legende": "Which pawn takes? 👇 Only 1.fxe6! wins: 1...dxe6 2.d6 and the d-pawn runs home. 1.dxe6 is only a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-18T08:00:00+01:00",
+ "heure_conseillee": "2026-11-18T13:00:00+01:00",
+ "repere": "13 h · pions_fourchette_e6_1 · 15.68 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/pions_fourchette_e6_1.mp4",
+ "concept": "pions_fourchette_e6",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 15.68,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 16,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "pion_attaque_deux_prise_f",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "quel_pion_prend",
+  "pieces": 6,
+  "look": "emeraude",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

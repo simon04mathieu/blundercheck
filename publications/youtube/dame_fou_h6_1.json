@@ -1,0 +1,34 @@
+{
+ "titre": "Your queen is hit twice. Take, or run? ♟️ #chess #shorts",
+ "description": "Take, or run? 👇 Only 1.Bf5+! wins: 1...Kb8 2.Qxh2 and your queen takes the rook. 1.Qxg7?? Rh1# is mate (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess tactics",
+  "chess puzzle",
+  "intermediate check"
+ ],
+ "envoyer_apres": "2026-11-18T10:00:00+01:00",
+ "fichier": "sorties/dame_fou_h6_1.mp4",
+ "concept": "dame_fou_h6",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 16.56,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 17,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "echec_fou_puis_dame_prend_tour",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_ou_fuir_dame",
+  "pieces": 12,
+  "look": "bois",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

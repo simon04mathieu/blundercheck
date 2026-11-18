@@ -1,0 +1,31 @@
+{
+ "legende": "Which pawn takes? 👇 Only 1.dxc4! wins: 1...bxc4 2.bxc4 and the c-pawn runs home. 1.bxc4 b4 is only a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-18T08:00:00+01:00",
+ "heure_conseillee": "2026-11-18T19:00:00+01:00",
+ "repere": "19 h · pions_fourchette_c4_1 · 15.34 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/pions_fourchette_c4_1.mp4",
+ "concept": "pions_fourchette_c4",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 15.34,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 15,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "pion_attaque_deux_prise_d",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "quel_pion_prend",
+  "pieces": 6,
+  "look": "ardoise",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

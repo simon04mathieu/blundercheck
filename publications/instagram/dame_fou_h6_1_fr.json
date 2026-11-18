@@ -1,0 +1,28 @@
+{
+ "legende": "Tu prends, ou tu fuis ? 👇 Seul 1.Ff5+ ! gagne : 1...Rb8 2.Dxh2 et ta dame prend la tour. 1.Dxg7 ?? Th1# est mat (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-18T13:00:00+01:00",
+ "fichier": "sorties/dame_fou_h6_1_fr.mp4",
+ "concept": "dame_fou_h6",
+ "format": "TACTIQUE",
+ "langue": "fr",
+ "duree": 18.76,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "fr",
+  "duree_s": 19,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "echec_fou_puis_dame_prend_tour",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_ou_fuir_dame",
+  "pieces": 12,
+  "look": "corail",
+  "fx": "fleches+zoom+tag+ding"
+ },
+ "paire": "dame_fou_h6_1"
+}

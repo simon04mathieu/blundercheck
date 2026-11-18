@@ -1,0 +1,32 @@
+{
+ "legende": "Quel pion prend ? 👇 Seul 1.fxe6 ! gagne : 1...dxe6 2.d6 et le pion d file à dame. 1.dxe6 n'est qu'une nulle (Stockfish 16, position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-18T08:00:00+01:00",
+ "heure_conseillee": "2026-11-18T19:00:00+01:00",
+ "repere": "19 h · pions_fourchette_e6_1_fr · 15.32 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/pions_fourchette_e6_1_fr.mp4",
+ "concept": "pions_fourchette_e6",
+ "format": "FINALE",
+ "langue": "fr",
+ "duree": 15.32,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "fr",
+  "duree_s": 15,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "pion_attaque_deux_prise_f",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "quel_pion_prend",
+  "pieces": 6,
+  "look": "mono",
+  "fx": "fleches+zoom+tag+ding"
+ },
+ "paire": "pions_fourchette_e6_1"
+}

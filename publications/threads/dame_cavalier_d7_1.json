@@ -1,0 +1,27 @@
+{
+ "legende": "Take his queen, or run? 👇 Only 1.Nd7+! wins: the knight forks king and queen, 1...Kc8 2.Nxb6+. 1.Qxb6 cxb6 is just a trade (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-18T16:00:00+01:00",
+ "fichier": "sorties/dame_cavalier_d7_1.mp4",
+ "concept": "dame_cavalier_d7",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 21.46,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 21,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "oui",
+  "fin": "boucle",
+  "motif": "fourchette_cavalier_roi_dame",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_ou_fuir_dame",
+  "pieces": 11,
+  "look": "papier",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}
