@@ -123,3 +123,5 @@
 {"reseau": "instagram", "id": "18080437508743516"}
 ### 2026-11-18 12:07 publications/instagram/dame_fou_h6_1_fr.json
 {"reseau": "instagram", "id": "18108300878346720"}
+### 2026-11-18 18:02 publications/instagram/pions_fourchette_e6_1_fr.json
+{"reseau": "instagram", "id": "18098202134479428"}
