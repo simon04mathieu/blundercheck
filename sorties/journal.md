@@ -1043,3 +1043,8 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/tours_hang_d8_1_fr.mp4 {"voix_brute_s": 19.4, "tempo": 1.0, "video_s": 19.4, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "losing_your_marbles.mp3", "mots_transcrits": 54, "minutage": "6 phrases, 4 coups, 0 pauses"}
+## 2026-11-18 00:04 UTC · run 44204687880
+### commandes/perso_dame_cavalier_d7_1.json
+    voix générée : 280 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/dame_cavalier_d7_1.mp4 {"voix_brute_s": 21.4, "tempo": 1.0, "video_s": 21.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "baby_animals_playing.mp3", "mots_transcrits": 54, "minutage": "8 phrases, 4 coups, 0 pauses"}

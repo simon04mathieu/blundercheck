@@ -1,0 +1,141 @@
+{
+ "nom": "dame_cavalier_d7_1",
+ "tempo": 1.0,
+ "duree_s": 21.46,
+ "hook": {
+  "texte": "Take his queen,|or run?",
+  "fin": 2.36
+ },
+ "question": {
+  "texte": "Analyze your game|blundercheck.app/try",
+  "t": 18.26
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take his queen or run?"
+  },
+  {
+   "t": 2.36,
+   "texte": "Neither!"
+  },
+  {
+   "t": 3.54,
+   "texte": "Knight to d7 check!"
+  },
+  {
+   "t": 5.78,
+   "texte": "It forks his king and his queen."
+  },
+  {
+   "t": 8.22,
+   "texte": "The king steps aside and the knight takes the queen."
+  },
+  {
+   "t": 11.68,
+   "texte": "Take at once and it's only a trade."
+  },
+  {
+   "t": 14.52,
+   "texte": "Analyze your own game free."
+  },
+  {
+   "t": 17.1,
+   "texte": "So when two pieces attack your queen, look for a fork then ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.38,
+   "coup": "Nc4",
+   "badge": null
+  },
+  {
+   "t": 2.36,
+   "coup": "Nd7+",
+   "badge": "brillant"
+  },
+  {
+   "t": 8.58,
+   "coup": "Kc8",
+   "badge": null
+  },
+  {
+   "t": 10.08,
+   "coup": "Nxb6+",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.38,
+   "type": "coup"
+  },
+  {
+   "t": 0.7,
+   "type": "fleches"
+  },
+  {
+   "t": 0.7,
+   "type": "sticker"
+  },
+  {
+   "t": 2.36,
+   "type": "coup"
+  },
+  {
+   "t": 2.36,
+   "type": "zoom"
+  },
+  {
+   "t": 4.54,
+   "type": "sticker"
+  },
+  {
+   "t": 6.3,
+   "type": "fleches"
+  },
+  {
+   "t": 8.58,
+   "type": "coup"
+  },
+  {
+   "t": 10.08,
+   "type": "coup"
+  },
+  {
+   "t": 10.38,
+   "type": "sticker"
+  },
+  {
+   "t": 11.85,
+   "type": "position"
+  },
+  {
+   "t": 12.3,
+   "type": "fleches"
+  },
+  {
+   "t": 12.7,
+   "type": "sticker"
+  },
+  {
+   "t": 15.18,
+   "type": "sticker"
+  },
+  {
+   "t": 18.02,
+   "type": "sticker"
+  },
+  {
+   "t": 20.54,
+   "type": "sticker"
+  }
+ ],
+ "musique": "baby_animals_playing.mp3"
+}
