@@ -151,7 +151,7 @@ def video_voix(cmd):
     os.makedirs(SORTIES, exist_ok=True); out = os.path.join(SORTIES, f"{cmd.get('sortie', nom)}.mp4")
     # 14/11 (Simon) : musique libre légère sur TOUTES les vidéos ; l'ancien "sans_musique" est ignoré (commandes recopiées), seul "aucune_musique": true la coupe
     mus = None if cmd.get("aucune_musique") else musique_fond(cmd)
-    vol = cmd.get("volume_musique", 0.30)  # 14/11 : musique légère, montée deux fois à la demande de Simon, ≈ 12 dB sous la voix, encore baissée pendant la voix (compresseur)
+    vol = cmd.get("volume_musique", 0.30)  # 14/11 : musique légère, montée deux fois à la demande de Simon, ≈ 12 dB sous la voix, volume constant (18/11 : plus baissée pendant la voix)
     if mus:  # musique notée dans le minutage : outils/credits_musique.py ajoute le crédit (CC BY) aux textes publiés
         fm = os.path.join(SORTIES, "minutage", f"{cmd.get('sortie', nom)}.json")
         try:
@@ -159,8 +159,9 @@ def video_voix(cmd):
             json.dump(mm, open(fm, "w"), ensure_ascii=False, indent=1)
         except (OSError, ValueError): pass
     if mus:
-        fc = (f"[1:a]atempo={tempo:.4f},asplit=2[v][key];[2:a]aresample=48000,aformat=channel_layouts=mono,volume=0.45[f];"
-              f"[3:a]aresample=48000,aformat=channel_layouts=mono,volume={vol}[m0];[m0][key]sidechaincompress=threshold=0.02:ratio=6:attack=20:release=400[m];"
+        # 18/11 (Simon) : « ne baisse pas le volume quand l'IA parle, ça fait bizarre » : plus de compresseur, musique à volume constant
+        fc = (f"[1:a]atempo={tempo:.4f}[v];[2:a]aresample=48000,aformat=channel_layouts=mono,volume=0.45[f];"
+              f"[3:a]aresample=48000,aformat=channel_layouts=mono,volume={vol}[m];"
               "[v][f][m]amix=inputs=3:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]")
         ins = ["-i", muet, "-i", wav, "-i", fx, "-stream_loop", "-1", "-i", mus]
     else:
