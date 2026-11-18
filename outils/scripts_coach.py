@@ -1909,8 +1909,8 @@ _S = {
 """[p """ + D3A + """] Take his [m Nc4] queen, [f b6a5 c4a5] [s tag a5 1.6 HIT_TWICE] or run? [h] [m Nd7+ brillant] [z d7 1.3 2.0] Neither! Knight to d7, [s tag b8 1.4 CHECK!] check! It forks [f d7b8 d7b6] his king and his queen. The king [m Kc8] steps aside, and the knight [m Nxb6+ brillant] [x ding] takes [s tag b6 1.6 QUEEN_WON] the queen. Take [p """ + D3B + """] at once, [f a5b6] and [s tag b6 1.8 ONLY_A_TRADE] it's only a trade. Analyze your [s tag d4 1.6 YOUR_GAME] own game, free. So when two pieces [s tag a5 1.6 HIT_TWICE] attack your queen, look for a fork, [s tag d7 1.4 FORK_FIRST] then ask yourself:"""),
 "pions_fourchette_c4_1": ("blancs", "Which pawn|takes?",
 """[p """ + P4A + """] Which [m c4] pawn [f c4b3 c4d3] [s tag c4 1.6 ATTACKS_TWO] takes? [h] [m dxc4 brillant] [z c4 1.3 2.0] The d-pawn! He [m bxc4] takes back, you [m bxc4 brillant] take on c4, [f c4c8] and the c-pawn [s tag c8 1.6 IT_RUNS_HOME] runs home. [x ding] Take [p """ + P4B + """] with [f b3c4] the b-pawn, and [s tag c4 1.8 ONLY_A_DRAW] it's only a draw. So when one pawn [s tag c4 1.6 ATTACKS_TWO] attacks two of yours, [s tag d3 1.4 WHICH_ONE?] ask yourself:"""),
-"dame_fou_h6_1_fr": ("blancs", "Tu prends,|ou tu fuis ?",
-"""[p """ + D1A + """] Tu [m Rh2] prends, ou tu [f h2h6 g7h6] [s tag h6 1.6 DEUX_ATTAQUES] fuis ? [h] [m Bf5+ brillant] [z f5 1.3 2.0] Ni l'un ni l'autre ! Fou en f5, [s tag c8 1.4 ÉCHEC_!] échec ! Le roi [m Kb8] s'écarte, et ta dame [m Qxh2 brillant] [x ding] prend [s tag h2 1.6 TOUR_GAGNÉE] la tour. Si tu [p """ + D1B + """] prends sa dame [f h6g7] tout de suite, [s tag g7 1.6 PRENDRE_PERD] sa tour [f h2h1] te mate. [s tag h1 1.4 MAT_!] Alors, quand ta dame [s tag h6 1.6 DEUX_ATTAQUES] est attaquée deux fois, cherche l'échec, [s tag f5 1.4 L'ÉCHEC_D'ABORD] puis demande-toi :"""),
+"dame_fou_h6_1_fr": ("blancs", "Tu prends sa dame,|ou tu fuis ?",
+"""[p """ + D1A + """] Tu prends [m Rh2] sa dame, [f h2h6 g7h6] [s tag h6 1.6 DEUX_ATTAQUES] ou tu fuis ? [h] [m Bf5+ brillant] [z f5 1.3 2.0] Ni l'un ni l'autre ! Fou [f g6f5] en f5, [s tag c8 1.4 ÉCHEC_!] échec ! Le roi [m Kb8] s'écarte, et ta dame [m Qxh2 brillant] [x ding] prend [s tag h2 1.6 TOUR_GAGNÉE] la tour. Si tu [p """ + D1B + """] prends sa dame [f h6g7] tout de suite, [s tag g7 1.6 PRENDRE_PERD] sa tour [f h2h1] te mate. [s tag h1 1.4 MAT_!] Alors, quand ta dame [s tag h6 1.6 DEUX_ATTAQUES] est attaquée deux fois, cherche l'échec, [s tag f5 1.4 L'ÉCHEC_D'ABORD] puis demande-toi :"""),
 "pions_fourchette_e6_1_fr": ("blancs", "Quel pion|prend ?",
 """[p """ + P2A + """] Quel [m e6] pion prend [f e6d5 e6f5] [s tag e6 1.6 EN_ATTAQUE_DEUX] ? [h] [m fxe6 brillant] [z e6 1.3 2.0] Le pion f ! Il [m dxe6] reprend, et ton [m d6 brillant] pion d [f d6d8] file à la promotion : [s tag d8 1.6 IL_FILE] son roi [s tag g5 1.6 ROI_TROP_LOIN] est trop loin. [x ding] Avec [p """ + P2B + """] le [f d5e6] pion d, ce n'est [s tag e6 1.8 NULLE_SEULEMENT] qu'une nulle. Alors, quand un pion [s tag e6 1.6 EN_ATTAQUE_DEUX] en attaque deux des tiens, [s tag f5 1.4 LEQUEL_?] demande-toi :"""),
 }
@@ -1920,6 +1920,6 @@ QUESTIONS.update({
     "pions_fourchette_e6_1": "Which pawn|takes?",
     "dame_cavalier_d7_1": "Analyze your game|blundercheck.app/try",
     "pions_fourchette_c4_1": "Which pawn|takes?",
-    "dame_fou_h6_1_fr": "Tu prends,|ou tu fuis ?",
+    "dame_fou_h6_1_fr": "Tu prends sa dame,|ou tu fuis ?",
     "pions_fourchette_e6_1_fr": "Quel pion|prend ?",
 })
