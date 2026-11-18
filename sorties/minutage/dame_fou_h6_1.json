@@ -1,0 +1,133 @@
+{
+ "nom": "dame_fou_h6_1",
+ "tempo": 1.0,
+ "duree_s": 16.56,
+ "hook": {
+  "texte": "Take,|or run?",
+  "fin": 1.92
+ },
+ "question": {
+  "texte": "Take,|or run?",
+  "t": 13.36
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take, or run?"
+  },
+  {
+   "t": 1.92,
+   "texte": "Neither!"
+  },
+  {
+   "t": 2.74,
+   "texte": "Bishop to f5 check!"
+  },
+  {
+   "t": 5.02,
+   "texte": "The king steps aside and your queen takes the rook."
+  },
+  {
+   "t": 8.56,
+   "texte": "Take his queen at once and his rook mates you."
+  },
+  {
+   "t": 12.02,
+   "texte": "So when your queen is attacked twice, look for the check then ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.28,
+   "coup": "Rh2",
+   "badge": null
+  },
+  {
+   "t": 1.92,
+   "coup": "Bf5+",
+   "badge": "brillant"
+  },
+  {
+   "t": 5.34,
+   "coup": "Kb8",
+   "badge": null
+  },
+  {
+   "t": 7.02,
+   "coup": "Qxh2",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.28,
+   "type": "coup"
+  },
+  {
+   "t": 0.72,
+   "type": "fleches"
+  },
+  {
+   "t": 0.72,
+   "type": "sticker"
+  },
+  {
+   "t": 1.92,
+   "type": "coup"
+  },
+  {
+   "t": 1.92,
+   "type": "zoom"
+  },
+  {
+   "t": 4.02,
+   "type": "sticker"
+  },
+  {
+   "t": 5.34,
+   "type": "coup"
+  },
+  {
+   "t": 7.02,
+   "type": "coup"
+  },
+  {
+   "t": 7.34,
+   "type": "sticker"
+  },
+  {
+   "t": 8.71,
+   "type": "position"
+  },
+  {
+   "t": 9.24,
+   "type": "fleches"
+  },
+  {
+   "t": 9.66,
+   "type": "sticker"
+  },
+  {
+   "t": 10.54,
+   "type": "fleches"
+  },
+  {
+   "t": 12.02,
+   "type": "sticker"
+  },
+  {
+   "t": 12.8,
+   "type": "sticker"
+  },
+  {
+   "t": 15.5,
+   "type": "sticker"
+  }
+ ],
+ "musique": "got_him_from_behind.mp3"
+}
