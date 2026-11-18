@@ -1,0 +1,125 @@
+{
+ "nom": "pions_fourchette_e6_1",
+ "tempo": 1.0,
+ "duree_s": 15.68,
+ "hook": {
+  "texte": "Which pawn|takes?",
+  "fin": 2.0
+ },
+ "question": {
+  "texte": "Which pawn|takes?",
+  "t": 12.48
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which pawn takes?"
+  },
+  {
+   "t": 2.0,
+   "texte": "The f-pawn!"
+  },
+  {
+   "t": 3.6,
+   "texte": "He takes back and your d-pawn runs home his king is too far."
+  },
+  {
+   "t": 8.92,
+   "texte": "Take with the d-pawn and it's only a draw."
+  },
+  {
+   "t": 12.22,
+   "texte": "So when one pawn attacks two of yours, ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.26,
+   "coup": "e6",
+   "badge": null
+  },
+  {
+   "t": 2.0,
+   "coup": "fxe6",
+   "badge": "brillant"
+  },
+  {
+   "t": 3.72,
+   "coup": "dxe6",
+   "badge": null
+  },
+  {
+   "t": 4.84,
+   "coup": "d6",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.26,
+   "type": "coup"
+  },
+  {
+   "t": 0.54,
+   "type": "fleches"
+  },
+  {
+   "t": 0.54,
+   "type": "sticker"
+  },
+  {
+   "t": 2.0,
+   "type": "coup"
+  },
+  {
+   "t": 2.0,
+   "type": "zoom"
+  },
+  {
+   "t": 3.72,
+   "type": "coup"
+  },
+  {
+   "t": 4.84,
+   "type": "coup"
+  },
+  {
+   "t": 5.5,
+   "type": "fleches"
+  },
+  {
+   "t": 6.96,
+   "type": "sticker"
+  },
+  {
+   "t": 7.36,
+   "type": "sticker"
+  },
+  {
+   "t": 9.19,
+   "type": "position"
+  },
+  {
+   "t": 9.46,
+   "type": "fleches"
+  },
+  {
+   "t": 10.46,
+   "type": "sticker"
+  },
+  {
+   "t": 13.26,
+   "type": "sticker"
+  },
+  {
+   "t": 14.88,
+   "type": "sticker"
+  }
+ ],
+ "musique": "got_him_from_behind.mp3"
+}
