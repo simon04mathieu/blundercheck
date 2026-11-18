@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-17T17:40:56Z",
+ "releve": "2026-11-18T17:36:02Z",
  "compte": "blundercheckapp",
  "abonnes": 6,
  "publications": [
+  {
+   "id": "18108300878346720",
+   "caption": "Tu prends, ou tu fuis ? 👇 Seul 1.Ff5+ ! gagne : 1...Rb8 2.Dxh2 et ta dame prend ",
+   "comments_count": 0,
+   "like_count": 18,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/Df4d45HAdkJ/",
+   "timestamp": "2026-11-18T12:07:05+0000",
+   "insights": {
+    "views": 2545,
+    "reach": 1483,
+    "shares": 0,
+    "saved": 1,
+    "total_interactions": 19
+   }
+  },
+  {
+   "id": "18080437508743516",
+   "caption": "Quel pion tu pousses ? 👇 Seul 1.c6 ! gagne (1...bxc6 2.bxa6 et le pion a6 file) ",
+   "comments_count": 0,
+   "like_count": 2,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/Df2idyMAvYD/",
+   "timestamp": "2026-11-17T18:08:33+0000",
+   "insights": {
+    "views": 212,
+    "reach": 140,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 2
+   }
+  },
   {
    "id": "17897339808613968",
    "caption": "Tu prends sa tour, ou tu fuis ? 👇 Seul 1.Td8+ ! gagne : 1...Rh7 2.hxg3 et le pio",
@@ -12,8 +44,8 @@
    "permalink": "https://www.instagram.com/reel/Df2BIguEXpi/",
    "timestamp": "2026-11-17T13:17:19+0000",
    "insights": {
-    "views": 214,
-    "reach": 154,
+    "views": 216,
+    "reach": 155,
     "shares": 0,
     "saved": 0,
     "total_interactions": 2
@@ -268,8 +300,8 @@
    "permalink": "https://www.instagram.com/reel/DfhuiH-EfrL/",
    "timestamp": "2026-11-09T16:10:13+0000",
    "insights": {
-    "views": 2203,
-    "reach": 1739,
+    "views": 2204,
+    "reach": 1740,
     "shares": 0,
     "saved": 3,
     "total_interactions": 25
@@ -448,38 +480,6 @@
     "reach": 153,
     "shares": 0,
     "saved": 1,
-    "total_interactions": 2
-   }
-  },
-  {
-   "id": "18055236392612177",
-   "caption": "La partie la plus courte du monde ? Une légende ! 😈 Tu aurais joué ce pion ? 👇 L",
-   "comments_count": 0,
-   "like_count": 0,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfSWNe-ETnw/",
-   "timestamp": "2026-11-03T16:48:51+0000",
-   "insights": {
-    "views": 170,
-    "reach": 132,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 0
-   }
-  },
-  {
-   "id": "17966450154209291",
-   "caption": "9 dames : combien de coups légaux ? 🤯 Tu en avais deviné combien ? 👇 Abonne-toi ",
-   "comments_count": 0,
-   "like_count": 2,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfQNVljAR0B/",
-   "timestamp": "2026-11-02T20:52:49+0000",
-   "insights": {
-    "views": 166,
-    "reach": 140,
-    "shares": 0,
-    "saved": 0,
     "total_interactions": 2
    }
   }

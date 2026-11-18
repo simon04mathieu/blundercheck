@@ -1,14 +1,74 @@
 {
- "releve": "2026-11-17T17:42:12Z",
+ "releve": "2026-11-18T17:37:16Z",
  "compte": "blundercheckapp",
  "abonnes": 1,
  "publications": [
   {
+   "id": "17875530078640178",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Df4ySurh1lz",
+   "text": "Take his queen, or run? 👇 Only 1.Nd7+! wins: the knight forks king and queen, 1.",
+   "timestamp": "2026-11-18T15:05:20+0000",
+   "insights": {
+    "views": 5,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "17956300407325628",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Df4d_IyJ4Db",
+   "text": "Which pawn takes? 👇 Only 1.fxe6! wins: 1...dxe6 2.d6 and the d-pawn runs home. 1",
+   "timestamp": "2026-11-18T12:07:54+0000",
+   "insights": {
+    "views": 0,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18040666604668306",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Df4J_ASuxLF",
+   "text": "Take, or run? 👇 Only 1.Bf5+! wins: 1...Kb8 2.Qxh2 and your queen takes the rook.",
+   "timestamp": "2026-11-18T09:13:07+0000",
+   "insights": {
+    "views": 0,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18112773842632594",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Df2ijinB7dS",
+   "text": "Take his pawn, or push? 👇 Only 1.e6! wins (1...dxe6 2.dxc6 and the c-pawn runs h",
+   "timestamp": "2026-11-17T18:09:19+0000",
+   "insights": {
+    "views": 5,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
    "id": "18123098846071811",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Df2UFqSt2l9",
    "text": "Take his rook, or run? 👇 Only 1.Rh8+! wins: 1...Ke7 2.Kxe2 and your king takes h",
    "timestamp": "2026-11-17T16:02:56+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Df2UFqSt2l9",
-   "media_type": "VIDEO",
    "insights": {
     "views": 1,
     "likes": 0,
@@ -20,12 +80,12 @@
   },
   {
    "id": "18030905108701262",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Df2JXPkAVtD",
    "text": "Which pawn do you push? 👇 Only 1.c6! wins (1...bxc6 2.bxa6 and the a-pawn runs h",
    "timestamp": "2026-11-17T14:29:12+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Df2JXPkAVtD",
-   "media_type": "VIDEO",
    "insights": {
-    "views": 1,
+    "views": 2,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -35,12 +95,12 @@
   },
   {
    "id": "18117494060113540",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Df1lAjbOhMH",
    "text": "Take his rook, or save yours? 👇 Only 1.Rd8+! wins: 1...Kh7 2.hxg3 and the pawn t",
    "timestamp": "2026-11-17T09:11:33+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Df1lAjbOhMH",
-   "media_type": "VIDEO",
    "insights": {
-    "views": 1,
+    "views": 2,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -50,10 +110,10 @@
   },
   {
    "id": "18180858022445155",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfz9zgOhaC0",
    "text": "Which pawn takes? 👇 Only 1.fxg7! wins; 1.exd6 gxf6 loses (Stockfish 16, composed",
    "timestamp": "2026-11-16T18:09:43+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfz9zgOhaC0",
-   "media_type": "VIDEO",
    "insights": {
     "views": 2,
     "likes": 0,
@@ -65,10 +125,10 @@
   },
   {
    "id": "18120279608088954",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfzqHBmwqTz",
    "text": "Which pawn takes? 👇 Only 1.fxg6! wins; 1.hxg6 is only a draw (Stockfish 16, comp",
    "timestamp": "2026-11-16T15:17:44+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfzqHBmwqTz",
-   "media_type": "VIDEO",
    "insights": {
     "views": 1,
     "likes": 0,
@@ -80,10 +140,10 @@
   },
   {
    "id": "18015345593766421",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfzqBYBtvLG",
    "text": "Trade queens, or run? 👇 Only 1.Ra8+! wins (1...Nc8 2.Rxc8); 1.Qxg6 fxg6 is equal",
    "timestamp": "2026-11-16T15:16:51+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfzqBYBtvLG",
-   "media_type": "VIDEO",
    "insights": {
     "views": 2,
     "likes": 0,
@@ -95,10 +155,10 @@
   },
   {
    "id": "18469507018136600",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfzETMSMF2x",
    "text": "Take his queen, or run? 👇 Only 1.Nf6+! wins: his queen is pinned (1...Kf8 2.Qb4)",
    "timestamp": "2026-11-16T09:47:15+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfzETMSMF2x",
-   "media_type": "VIDEO",
    "insights": {
     "views": 4,
     "likes": 0,
@@ -110,12 +170,12 @@
   },
   {
    "id": "18100971935387144",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfxcXsxAlm7",
    "text": "Do you take the free rook? 👇 Only 1.Ng6# wins (mate); 1.Nxg8?? Rf1# (Stockfish 1",
    "timestamp": "2026-11-15T18:39:06+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfxcXsxAlm7",
-   "media_type": "VIDEO",
    "insights": {
-    "views": 4,
+    "views": 6,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -125,10 +185,10 @@
   },
   {
    "id": "18095988935195330",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfxF3AGlLsS",
    "text": "Pawn or king? 👇 Only 1.Kxg5! wins; 1.gxh5 and 1.fxg5 are draws (Stockfish 16, co",
    "timestamp": "2026-11-15T15:22:24+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfxF3AGlLsS",
-   "media_type": "VIDEO",
    "insights": {
     "views": 4,
     "likes": 0,
@@ -140,10 +200,10 @@
   },
   {
    "id": "17916205599283082",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfw1rqHAnXl",
    "text": "Take his rook, or save yours? 👇 Only 1.Rf7+! wins a rook; 1.Bxc2 Kxe7 lets his k",
    "timestamp": "2026-11-15T13:01:02+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfw1rqHAnXl",
-   "media_type": "VIDEO",
    "insights": {
     "views": 8,
     "likes": 0,
@@ -155,10 +215,10 @@
   },
   {
    "id": "18079899413445607",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfwgRxiBCa_",
    "text": "Which pawn takes? 👇 Only 1.cxb4! wins; 1.hxg6 bxc3 is a draw: both sides queen (",
    "timestamp": "2026-11-15T09:53:59+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfwgRxiBCa_",
-   "media_type": "VIDEO",
    "insights": {
     "views": 0,
     "likes": 0,
@@ -170,10 +230,10 @@
   },
   {
    "id": "18143551663616467",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfu3WaUINlD",
    "text": "Take his queen, or run? 👇 Only 1.Ne7+! wins (mate in 2); 1.Qxc4 Rxc4 leaves you ",
    "timestamp": "2026-11-14T18:37:06+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfu3WaUINlD",
-   "media_type": "VIDEO",
    "insights": {
     "views": 2,
     "likes": 0,
@@ -185,10 +245,10 @@
   },
   {
    "id": "18214169188367801",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfug34jBf8M",
    "text": "Defend or push? 👇 Only 1.Kc5! wins; 1.d6 Kxd6 is a draw (Stockfish 16, composed ",
    "timestamp": "2026-11-14T15:20:43+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfug34jBf8M",
-   "media_type": "VIDEO",
    "insights": {
     "views": 0,
     "likes": 0,
@@ -200,10 +260,10 @@
   },
   {
    "id": "18438541327195173",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfuQrQMPgl-",
    "text": "Would you have taken the rook? 👇 Only 1.Qb8+! wins (mate in 2); 1.Rxb5 Ra1+ mate",
    "timestamp": "2026-11-14T12:59:11+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfuQrQMPgl-",
-   "media_type": "VIDEO",
    "insights": {
     "views": 0,
     "likes": 0,
@@ -215,10 +275,10 @@
   },
   {
    "id": "17962265115254548",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Dft7aAitfWy",
    "text": "Which pawn do you take? 👇 Only 1.Kxc4! wins; 1.axb4 loses the race and 1.a6 is a",
    "timestamp": "2026-11-14T09:53:20+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Dft7aAitfWy",
-   "media_type": "VIDEO",
    "insights": {
     "views": 4,
     "likes": 0,
@@ -230,10 +290,10 @@
   },
   {
    "id": "18075690143767310",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfsTpo3hpsB",
    "text": "Take his rook, or run? 👇 Only 1.Rxf7+! wins (mate in 3); 1.Rxb6 is only equal (S",
    "timestamp": "2026-11-13T18:46:41+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfsTpo3hpsB",
-   "media_type": "VIDEO",
    "insights": {
     "views": 1,
     "likes": 0,
@@ -245,10 +305,10 @@
   },
   {
    "id": "18156588313528186",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfr9gDOg6mN",
    "text": "Which pawn takes? 👇 Only 1.fxg5! wins; 1.hxg5 is a draw (Stockfish 16, composed ",
    "timestamp": "2026-11-13T15:33:06+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfr9gDOg6mN",
-   "media_type": "VIDEO",
    "insights": {
     "views": 5,
     "likes": 0,
@@ -260,10 +320,10 @@
   },
   {
    "id": "17936445801142438",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfrljIbhhac",
    "text": "Would you have taken the rook? 👇 Only 1.Qxf7+! wins (mate in 2); 1.Qxd8+ Qxd8 lo",
    "timestamp": "2026-11-13T12:03:52+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfrljIbhhac",
-   "media_type": "VIDEO",
    "insights": {
     "views": 3,
     "likes": 0,
@@ -275,10 +335,10 @@
   },
   {
    "id": "18121209451968853",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfrRLPIxcRc",
    "text": "Which pawn takes first? 👇 Only 1.gxh7! wins; 1.exd5 and 1.g7+ are draws (Stockfi",
    "timestamp": "2026-11-13T09:05:50+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfrRLPIxcRc",
-   "media_type": "VIDEO",
    "insights": {
     "views": 4,
     "likes": 0,
@@ -290,10 +350,10 @@
   },
   {
    "id": "18289931689294271",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfpvF1IRPQd",
    "text": "Would you have saved the pawn? 👇 Only 1.d5! wins; 1.Ke4 Kxc6 is a draw (Stockfis",
    "timestamp": "2026-11-12T18:49:00+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfpvF1IRPQd",
-   "media_type": "VIDEO",
    "insights": {
     "views": 0,
     "likes": 0,
@@ -305,10 +365,10 @@
   },
   {
    "id": "18108372146261355",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfpVPCTofhf",
    "text": "Checkmate or stalemate? 👇 Shortest known stalemate: 10 moves (Sam Loyd's 1882 pu",
    "timestamp": "2026-11-12T15:02:49+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfpVPCTofhf",
-   "media_type": "VIDEO",
    "insights": {
     "views": 0,
     "likes": 0,
@@ -320,10 +380,10 @@
   },
   {
    "id": "17978380758153858",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfpBIX0M8lJ",
    "text": "Would you have left the queen hanging? 👇 Torre – Lasker, Moscow 1925 (1–0; moves",
    "timestamp": "2026-11-12T12:07:08+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfpBIX0M8lJ",
-   "media_type": "VIDEO",
    "insights": {
     "views": 2,
     "likes": 0,
@@ -335,10 +395,10 @@
   },
   {
    "id": "18171515482481473",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfosxTqIAST",
    "text": "c7 or e7? 👇 Only 1.dxc7! wins; 1.dxe7 and 1.d7+ are draws (Stockfish 16, compose",
    "timestamp": "2026-11-12T09:09:12+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfosxTqIAST",
-   "media_type": "VIDEO",
    "insights": {
     "views": 7,
     "likes": 0,
@@ -350,10 +410,10 @@
   },
   {
    "id": "18169524631483179",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfnKmgstppa",
    "text": "Would you have taken the pawn? 👇 Only 1.a7! wins; 1.Nxg5 is a draw (Stockfish 16",
    "timestamp": "2026-11-11T18:51:25+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfnKmgstppa",
-   "media_type": "VIDEO",
    "insights": {
     "views": 0,
     "likes": 0,
@@ -365,10 +425,10 @@
   },
   {
    "id": "18102026003431398",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfm0L9xPFyE",
    "text": "Who's winning, White or Black? 👇 Black to move: 1…Ne3+! mates in 3 (Stockfish 16",
    "timestamp": "2026-11-11T15:35:34+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfm0L9xPFyE",
-   "media_type": "VIDEO",
    "insights": {
     "views": 0,
     "likes": 0,
@@ -380,72 +440,12 @@
   },
   {
    "id": "18109845836250587",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DfmbxEnvbEr",
    "text": "Would you have saved the queen? 👇 Levitsky – Marshall, Breslau 1912 (0–1; moves ",
    "timestamp": "2026-11-11T12:02:09+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfmbxEnvbEr",
-   "media_type": "VIDEO",
    "insights": {
     "views": 0,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "17877342378637825",
-   "text": "Which capture did you pick first? 👇 Only 1.cxd7! wins; 1.dxc7+ is a draw (Stockf",
-   "timestamp": "2026-11-11T09:02:53+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfmHP5WObu6",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 2,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "17984652911908549",
-   "text": "Would you have sacrificed the rook? 👇 Kasparov – Topalov, Wijk aan Zee 1999 (1–0",
-   "timestamp": "2026-11-10T21:24:53+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfk3XrgRm_E",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 1,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "17997730185029234",
-   "text": "Would you have taken on f6? 👇 A trap from the Lichess puzzle set (rated ≈ 1385):",
-   "timestamp": "2026-11-10T18:43:40+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfkk6ypRBjp",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 11,
-    "likes": 1,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18091341089276719",
-   "text": "Race or wait? Only 1.d6! wins; every other move loses (Stockfish 16, composed po",
-   "timestamp": "2026-11-10T15:32:35+0000",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfkPDLFg9wu",
-   "media_type": "VIDEO",
-   "insights": {
-    "views": 1,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
