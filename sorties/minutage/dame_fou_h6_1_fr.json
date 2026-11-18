@@ -4,7 +4,7 @@
  "duree_s": 18.94,
  "hook": {
   "texte": "Tu prends,|ou tu fuis ?",
-  "fin": 2.4
+  "fin": 2.32
  },
  "question": {
   "texte": "Tu prends,|ou tu fuis ?",
@@ -16,11 +16,11 @@
    "texte": "Tu prends, ou tu fuis ?"
   },
   {
-   "t": 2.4,
+   "t": 2.32,
    "texte": "Ni l'un ni l'autre !"
   },
   {
-   "t": 3.58,
+   "t": 3.64,
    "texte": "Fou en f5 échec !"
   },
   {
@@ -38,12 +38,12 @@
  ],
  "coups": [
   {
-   "t": 0.84,
+   "t": 0.14,
    "coup": "Rh2",
    "badge": null
   },
   {
-   "t": 2.4,
+   "t": 2.32,
    "coup": "Bf5+",
    "badge": "brillant"
   },
@@ -65,7 +65,7 @@
    "type": "position"
   },
   {
-   "t": 0.84,
+   "t": 0.14,
    "type": "coup"
   },
   {
@@ -77,15 +77,15 @@
    "type": "sticker"
   },
   {
-   "t": 2.4,
+   "t": 2.32,
    "type": "coup"
   },
   {
-   "t": 2.4,
+   "t": 2.32,
    "type": "zoom"
   },
   {
-   "t": 5.32,
+   "t": 5.34,
    "type": "sticker"
   },
   {
@@ -97,7 +97,7 @@
    "type": "coup"
   },
   {
-   "t": 8.74,
+   "t": 8.72,
    "type": "sticker"
   },
   {

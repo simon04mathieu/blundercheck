@@ -1063,3 +1063,8 @@
 ### commandes/perso_pions_fourchette_e6_1_fr.json
     voix générée : 201 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pions_fourchette_e6_1_fr.mp4 {"voix_brute_s": 15.2, "tempo": 1.0, "video_s": 15.2, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "chicago.mp3", "mots_transcrits": 42, "minutage": "5 phrases, 4 coups, 0 pauses"}
+## 2026-11-18 00:10 UTC · run 44205518754
+### commandes/perso_dame_fou_h6_1_fr.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/dame_fou_h6_1_fr.mp4 {"voix_brute_s": 18.8, "tempo": 1.0, "video_s": 18.8, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "corny_candy.mp3", "mots_transcrits": 51, "minutage": "6 phrases, 4 coups, 0 pauses"}
