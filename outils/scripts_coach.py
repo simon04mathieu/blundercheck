@@ -1890,3 +1890,36 @@ QUESTIONS.update({
     "tours_hang_d8_1_fr": "Tu prends sa tour,|ou tu fuis ?",
     "percee_a6_1_fr": "Quel pion|tu pousses ?",
 })
+
+# 18/11 (Producteur) : file du Scénariste du 17/11 ; lignes revérifiées python-chess + Stockfish 16 (tous les coups blancs, toutes les réponses noires) ; RÉTENTION seule
+D1A = "fen:2k5/ppp3q1/6BQ/8/8/8/PPPr4/1K6_b_-_-_0_1"       # avant …Rd2-h2 ; 1.Bf5+! +4,2 (Kb8/Kd8 perdent, Qd7 2.Qf8#) ; Qxh2 = 0 ; Qxg7?? Rh1#
+D1B = "fen:2k5/ppp3q1/6BQ/8/8/8/PPP4r/1K6_w_-_-_1_2"
+P2A = "fen:8/3pp3/1K6/3P1Pk1/8/8/8/8_b_-_-_0_1"             # avant …e7-e6 ; 1.fxe6! mat en 16 (toutes réponses perdent) ; dxe6 = 0 ; d6 = 0
+P2B = "fen:8/3p4/1K2p3/3P1Pk1/8/8/8/8_w_-_-_0_2"
+D3A = "fen:1k6/ppp5/1q3N2/Q7/8/8/1PPn4/2K5_b_-_-_0_1"       # avant …Nd2-c4 ; 1.Nd7+! +4,6 (Kc8/Ka8 puis Nxb6+) ; Qxb6 cxb6 = −0,1
+D3B = "fen:1k6/ppp5/1q3N2/Q7/2n5/8/1PP5/2K5_w_-_-_1_2"
+P4A = "fen:8/K7/8/1pp5/7k/1P1P4/8/8_b_-_-_0_1"              # avant …c5-c4 ; 1.dxc4! gagne (toutes réponses) ; bxc4 b4 = 0
+P4B = "fen:8/K7/8/1p6/2p4k/1P1P4/8/8_w_-_-_0_2"
+_S = {
+"dame_fou_h6_1": ("blancs", "Take,|or run?",
+"""[p """ + D1A + """] Take, [m Rh2] or [f h2h6 g7h6] [s tag h6 1.6 HIT_TWICE] run? [h] [m Bf5+ brillant] [z f5 1.3 2.0] Neither! Bishop to f5, [s tag c8 1.4 CHECK!] check! The king [m Kb8] steps aside, and your queen [m Qxh2 brillant] [x ding] takes [s tag h2 1.6 ROOK_WON] the rook. Take [p """ + D1B + """] his queen [f h6g7] at once, [s tag g7 1.6 TAKING_LOSES] and his rook [f h2h1] mates you. [s tag h1 1.4 MATE!] So when your queen [s tag h6 1.6 HIT_TWICE] is attacked twice, look for the check, [s tag f5 1.4 CHECK_FIRST] then ask yourself:"""),
+"pions_fourchette_e6_1": ("blancs", "Which pawn|takes?",
+"""[p """ + P2A + """] Which [m e6] pawn [f e6d5 e6f5] [s tag e6 1.6 ATTACKS_TWO] takes? [h] [m fxe6 brillant] [z e6 1.3 2.0] The f-pawn! He [m dxe6] takes back, and your [m d6 brillant] d-pawn [f d6d8] runs home: [s tag d8 1.6 IT_RUNS_HOME] his king [s tag g5 1.6 KING_TOO_FAR] is too far. [x ding] Take [p """ + P2B + """] with [f d5e6] the d-pawn, and [s tag e6 1.8 ONLY_A_DRAW] it's only a draw. So when one pawn [s tag e6 1.6 ATTACKS_TWO] attacks two of yours, [s tag f5 1.4 WHICH_ONE?] ask yourself:"""),
+"dame_cavalier_d7_1": ("blancs", "Take his queen,|or run?",
+"""[p """ + D3A + """] Take his [m Nc4] queen, [f b6a5 c4a5] [s tag a5 1.6 HIT_TWICE] or run? [h] [m Nd7+ brillant] [z d7 1.3 2.0] Neither! Knight to d7, [s tag b8 1.4 CHECK!] check! It forks [f d7b8 d7b6] his king and his queen. The king [m Kc8] steps aside, and the knight [m Nxb6+ brillant] [x ding] takes [s tag b6 1.6 QUEEN_WON] the queen. Take [p """ + D3B + """] at once, [f a5b6] and [s tag b6 1.8 ONLY_A_TRADE] it's only a trade. Analyze your [s tag d4 1.6 YOUR_GAME] own game, free. So when two pieces [s tag a5 1.6 HIT_TWICE] attack your queen, look for a fork, [s tag d7 1.4 FORK_FIRST] then ask yourself:"""),
+"pions_fourchette_c4_1": ("blancs", "Which pawn|takes?",
+"""[p """ + P4A + """] Which [m c4] pawn [f c4b3 c4d3] [s tag c4 1.6 ATTACKS_TWO] takes? [h] [m dxc4 brillant] [z c4 1.3 2.0] The d-pawn! He [m bxc4] takes back, you [m bxc4 brillant] take on c4, [f c4c8] and the c-pawn [s tag c8 1.6 IT_RUNS_HOME] runs home. [x ding] Take [p """ + P4B + """] with [f b3c4] the b-pawn, and [s tag c4 1.8 ONLY_A_DRAW] it's only a draw. So when one pawn [s tag c4 1.6 ATTACKS_TWO] attacks two of yours, [s tag d3 1.4 WHICH_ONE?] ask yourself:"""),
+"dame_fou_h6_1_fr": ("blancs", "Tu prends,|ou tu fuis ?",
+"""[p """ + D1A + """] Tu prends, [m Rh2] ou tu [f h2h6 g7h6] [s tag h6 1.6 DEUX_ATTAQUES] fuis ? [h] [m Bf5+ brillant] [z f5 1.3 2.0] Ni l'un ni l'autre ! Fou en f5, [s tag c8 1.4 ÉCHEC_!] échec ! Le roi [m Kb8] s'écarte, et ta dame [m Qxh2 brillant] [x ding] prend [s tag h2 1.6 TOUR_GAGNÉE] la tour. Si tu [p """ + D1B + """] prends sa dame [f h6g7] tout de suite, [s tag g7 1.6 PRENDRE_PERD] sa tour [f h2h1] te mate. [s tag h1 1.4 MAT_!] Alors, quand ta dame [s tag h6 1.6 DEUX_ATTAQUES] est attaquée deux fois, cherche l'échec, [s tag f5 1.4 L'ÉCHEC_D'ABORD] puis demande-toi :"""),
+"pions_fourchette_e6_1_fr": ("blancs", "Quel pion|prend ?",
+"""[p """ + P2A + """] Quel [m e6] pion [f e6d5 e6f5] [s tag e6 1.6 EN_ATTAQUE_DEUX] prend ? [h] [m fxe6 brillant] [z e6 1.3 2.0] Le pion f ! Il [m dxe6] reprend, et ton [m d6 brillant] pion d [f d6d8] file à la promotion : [s tag d8 1.6 IL_FILE] son roi [s tag g5 1.6 ROI_TROP_LOIN] est trop loin. [x ding] Avec [p """ + P2B + """] le [f d5e6] pion d, ce n'est [s tag e6 1.8 NULLE_SEULEMENT] qu'une nulle. Alors, quand un pion [s tag e6 1.6 EN_ATTAQUE_DEUX] en attaque deux des tiens, [s tag f5 1.4 LEQUEL_?] demande-toi :"""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
+QUESTIONS.update({
+    "dame_fou_h6_1": "Take,|or run?",
+    "pions_fourchette_e6_1": "Which pawn|takes?",
+    "dame_cavalier_d7_1": "Analyze your game|blundercheck.app/try",
+    "pions_fourchette_c4_1": "Which pawn|takes?",
+    "dame_fou_h6_1_fr": "Tu prends,|ou tu fuis ?",
+    "pions_fourchette_e6_1_fr": "Quel pion|prend ?",
+})
