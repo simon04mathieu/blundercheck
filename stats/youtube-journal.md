@@ -974,3 +974,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "138"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "138"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "138"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "138"}
+### 2026-11-18 15:40 publications/youtube/dame_cavalier_d7_1.json
+{"id": "sNHMc1mDwpE", "url": "https://www.youtube.com/shorts/sNHMc1mDwpE", "statut": "public", "publier_le": null}
