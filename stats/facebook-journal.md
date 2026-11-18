@@ -192,3 +192,5 @@
 {"reseau": "facebook", "id": "1670806927842116", "ok": true}
 ### 2026-11-18 09:12 publications/facebook/dame_fou_h6_1.json
 {"reseau": "facebook", "id": "4399790763621727", "ok": true}
+### 2026-11-18 12:07 publications/facebook/pions_fourchette_e6_1.json
+{"reseau": "facebook", "id": "2202109074022060", "ok": true}

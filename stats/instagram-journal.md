@@ -121,3 +121,5 @@
 {"reseau": "instagram", "id": "17897339808613968"}
 ### 2026-11-17 18:08 publications/instagram/percee_a6_1_fr.json
 {"reseau": "instagram", "id": "18080437508743516"}
+### 2026-11-18 12:07 publications/instagram/dame_fou_h6_1_fr.json
+{"reseau": "instagram", "id": "18108300878346720"}
