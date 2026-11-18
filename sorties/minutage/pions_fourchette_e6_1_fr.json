@@ -1,0 +1,125 @@
+{
+ "nom": "pions_fourchette_e6_1_fr",
+ "tempo": 1.0,
+ "duree_s": 15.32,
+ "hook": {
+  "texte": "Quel pion|prend ?",
+  "fin": 1.26
+ },
+ "question": {
+  "texte": "Quel pion|prend ?",
+  "t": 12.12
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Quel pion prend ?"
+  },
+  {
+   "t": 1.26,
+   "texte": "Le pion f !"
+  },
+  {
+   "t": 2.9,
+   "texte": "Il reprend, et ton pion d file à la promotion  son roi est trop loin."
+  },
+  {
+   "t": 8.76,
+   "texte": "Avec le pion d ce n'est qu'une nulle."
+  },
+  {
+   "t": 11.82,
+   "texte": "Alors, quand un pion en attaque deux des tiens demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.2,
+   "coup": "e6",
+   "badge": null
+  },
+  {
+   "t": 1.26,
+   "coup": "fxe6",
+   "badge": "brillant"
+  },
+  {
+   "t": 3.1,
+   "coup": "dxe6",
+   "badge": null
+  },
+  {
+   "t": 4.44,
+   "coup": "d6",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.2,
+   "type": "coup"
+  },
+  {
+   "t": 0.42,
+   "type": "fleches"
+  },
+  {
+   "t": 0.42,
+   "type": "sticker"
+  },
+  {
+   "t": 1.26,
+   "type": "coup"
+  },
+  {
+   "t": 1.26,
+   "type": "zoom"
+  },
+  {
+   "t": 3.1,
+   "type": "coup"
+  },
+  {
+   "t": 4.44,
+   "type": "coup"
+  },
+  {
+   "t": 5.0,
+   "type": "fleches"
+  },
+  {
+   "t": 6.8,
+   "type": "sticker"
+  },
+  {
+   "t": 7.24,
+   "type": "sticker"
+  },
+  {
+   "t": 9.07,
+   "type": "position"
+  },
+  {
+   "t": 9.34,
+   "type": "fleches"
+  },
+  {
+   "t": 10.54,
+   "type": "sticker"
+  },
+  {
+   "t": 13.0,
+   "type": "sticker"
+  },
+  {
+   "t": 14.44,
+   "type": "sticker"
+  }
+ ],
+ "musique": "chicago.mp3"
+}
