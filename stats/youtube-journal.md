@@ -963,3 +963,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "138"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "138"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "139"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "139"}
+### 2026-11-18 09:03 publications/youtube/dame_fou_h6_1.json
+{"id": "MD1GFp6dYho", "url": "https://www.youtube.com/shorts/MD1GFp6dYho", "statut": "public", "publier_le": null}
