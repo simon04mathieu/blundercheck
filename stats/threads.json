@@ -1,8 +1,68 @@
 {
- "releve": "2026-11-18T17:37:16Z",
+ "releve": "2026-11-19T17:37:07Z",
  "compte": "blundercheckapp",
  "abonnes": 1,
  "publications": [
+  {
+   "id": "18164668243509195",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Df7XDWySeCS",
+   "text": "Which pawn runs? 👇 Only 1.d6! wins: 1...exd6 2.exf6 and the pawn runs home. 1.ex",
+   "timestamp": "2026-11-19T15:05:02+0000",
+   "insights": {
+    "views": 0,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18118676384033799",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Df7Ctwyv-t6",
+   "text": "Take it, or push? 👇 Only 1.c6! wins: 1...dxc6 2.dxe6 and the pawn runs home. 1.d",
+   "timestamp": "2026-11-19T12:07:18+0000",
+   "insights": {
+    "views": 5,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18349588513254578",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Df6vAVvJU8U",
+   "text": "Which pawn do you push? 👇 Only 1.d6! wins: 1...cxd6 2.cxb6 and the pawn runs hom",
+   "timestamp": "2026-11-19T09:15:05+0000",
+   "insights": {
+    "views": 3,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18150674857582575",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Df5GovisNyi",
+   "text": "Which pawn takes? 👇 Only 1.dxc4! wins: 1...bxc4 2.bxc4 and the c-pawn runs home.",
+   "timestamp": "2026-11-18T18:03:06+0000",
+   "insights": {
+    "views": 0,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
   {
    "id": "17875530078640178",
    "media_type": "VIDEO",
@@ -10,7 +70,7 @@
    "text": "Take his queen, or run? 👇 Only 1.Nd7+! wins: the knight forks king and queen, 1.",
    "timestamp": "2026-11-18T15:05:20+0000",
    "insights": {
-    "views": 5,
+    "views": 10,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -85,7 +145,7 @@
    "text": "Which pawn do you push? 👇 Only 1.c6! wins (1...bxc6 2.bxa6 and the a-pawn runs h",
    "timestamp": "2026-11-17T14:29:12+0000",
    "insights": {
-    "views": 2,
+    "views": 3,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -386,66 +446,6 @@
    "timestamp": "2026-11-12T12:07:08+0000",
    "insights": {
     "views": 2,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18171515482481473",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfosxTqIAST",
-   "text": "c7 or e7? 👇 Only 1.dxc7! wins; 1.dxe7 and 1.d7+ are draws (Stockfish 16, compose",
-   "timestamp": "2026-11-12T09:09:12+0000",
-   "insights": {
-    "views": 7,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18169524631483179",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfnKmgstppa",
-   "text": "Would you have taken the pawn? 👇 Only 1.a7! wins; 1.Nxg5 is a draw (Stockfish 16",
-   "timestamp": "2026-11-11T18:51:25+0000",
-   "insights": {
-    "views": 0,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18102026003431398",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfm0L9xPFyE",
-   "text": "Who's winning, White or Black? 👇 Black to move: 1…Ne3+! mates in 3 (Stockfish 16",
-   "timestamp": "2026-11-11T15:35:34+0000",
-   "insights": {
-    "views": 0,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18109845836250587",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfmbxEnvbEr",
-   "text": "Would you have saved the queen? 👇 Levitsky – Marshall, Breslau 1912 (0–1; moves ",
-   "timestamp": "2026-11-11T12:02:09+0000",
-   "insights": {
-    "views": 0,
     "likes": 0,
     "replies": 0,
     "reposts": 0,

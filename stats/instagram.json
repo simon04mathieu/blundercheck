@@ -1,22 +1,54 @@
 {
- "releve": "2026-11-18T17:36:02Z",
+ "releve": "2026-11-19T17:35:27Z",
  "compte": "blundercheckapp",
  "abonnes": 6,
  "publications": [
   {
+   "id": "18118733810122664",
+   "caption": "Quel pion tu pousses ? 👇 Seul 1.d6 ! gagne : 1...cxd6 2.cxb6 et le pion file à d",
+   "comments_count": 0,
+   "like_count": 3,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/Df7Cn6UAj6n/",
+   "timestamp": "2026-11-19T12:06:32+0000",
+   "insights": {
+    "views": 229,
+    "reach": 145,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 3
+   }
+  },
+  {
+   "id": "18098202134479428",
+   "caption": "Quel pion prend ? 👇 Seul 1.fxe6 ! gagne : 1...dxe6 2.d6 et le pion d file à dame",
+   "comments_count": 0,
+   "like_count": 0,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/Df5Gi1ikYaD/",
+   "timestamp": "2026-11-18T18:02:18+0000",
+   "insights": {
+    "views": 213,
+    "reach": 134,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0
+   }
+  },
+  {
    "id": "18108300878346720",
    "caption": "Tu prends, ou tu fuis ? 👇 Seul 1.Ff5+ ! gagne : 1...Rb8 2.Dxh2 et ta dame prend ",
    "comments_count": 0,
-   "like_count": 18,
+   "like_count": 19,
    "media_product_type": "REELS",
    "permalink": "https://www.instagram.com/reel/Df4d45HAdkJ/",
    "timestamp": "2026-11-18T12:07:05+0000",
    "insights": {
-    "views": 2545,
-    "reach": 1483,
+    "views": 2759,
+    "reach": 1632,
     "shares": 0,
     "saved": 1,
-    "total_interactions": 19
+    "total_interactions": 20
    }
   },
   {
@@ -300,8 +332,8 @@
    "permalink": "https://www.instagram.com/reel/DfhuiH-EfrL/",
    "timestamp": "2026-11-09T16:10:13+0000",
    "insights": {
-    "views": 2204,
-    "reach": 1740,
+    "views": 2205,
+    "reach": 1741,
     "shares": 0,
     "saved": 3,
     "total_interactions": 25
@@ -449,38 +481,6 @@
     "shares": 0,
     "saved": 0,
     "total_interactions": 1
-   }
-  },
-  {
-   "id": "18111208796197463",
-   "caption": "Les Blancs roquent : peux-tu gagner une pièce ? 😈 Tu aurais vu Cxd5 ? 👇 Piège de",
-   "comments_count": 0,
-   "like_count": 1,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfU7OLtmaJG/",
-   "timestamp": "2026-11-04T16:50:59+0000",
-   "insights": {
-    "views": 209,
-    "reach": 148,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 1
-   }
-  },
-  {
-   "id": "18098208512430472",
-   "caption": "Tu touches ton roi : peux-tu quand même mater ? 🤔 Tu aurais bougé le roi ? 👇 Règ",
-   "comments_count": 0,
-   "like_count": 1,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfSw619nIq5/",
-   "timestamp": "2026-11-03T20:42:13+0000",
-   "insights": {
-    "views": 193,
-    "reach": 153,
-    "shares": 0,
-    "saved": 1,
-    "total_interactions": 2
    }
   }
  ],
