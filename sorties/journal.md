@@ -1093,3 +1093,6 @@
 ### commandes/perso_percee_b_d_1_fr.json
     voix générée : 218 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/percee_b_d_1_fr.mp4 {"voix_brute_s": 16.2, "tempo": 1.0, "video_s": 16.2, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "kitty_down_the_stairs.mp3", "mots_transcrits": 47, "minutage": "5 phrases, 4 coups, 0 pauses"}
+### commandes/perso_percee_d_f_1.json
+    voix générée : 214 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/percee_d_f_1.mp4 {"voix_brute_s": 18.8, "tempo": 1.0, "video_s": 18.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "fluffing_a_duck.mp3", "mots_transcrits": 44, "minutage": "6 phrases, 4 coups, 0 pauses"}

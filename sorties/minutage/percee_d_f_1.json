@@ -1,0 +1,133 @@
+{
+ "nom": "percee_d_f_1",
+ "tempo": 1.0,
+ "duree_s": 18.88,
+ "hook": {
+  "texte": "Which pawn|runs?",
+  "fin": 2.06
+ },
+ "question": {
+  "texte": "Analyze your game|blundercheck.app/try",
+  "t": 15.68
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which pawn runs?"
+  },
+  {
+   "t": 2.06,
+   "texte": "The d-pawn!"
+  },
+  {
+   "t": 3.42,
+   "texte": "He takes it you take on f6 and that pawn runs home his king is too far."
+  },
+  {
+   "t": 10.04,
+   "texte": "Take at once and it's only a draw."
+  },
+  {
+   "t": 13.12,
+   "texte": "Analyze your own game free."
+  },
+  {
+   "t": 15.82,
+   "texte": "So when three pawns face three ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.28,
+   "coup": "f6",
+   "badge": null
+  },
+  {
+   "t": 2.06,
+   "coup": "d6",
+   "badge": "brillant"
+  },
+  {
+   "t": 3.56,
+   "coup": "exd6",
+   "badge": null
+  },
+  {
+   "t": 4.64,
+   "coup": "exf6",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.28,
+   "type": "coup"
+  },
+  {
+   "t": 0.58,
+   "type": "fleches"
+  },
+  {
+   "t": 0.58,
+   "type": "sticker"
+  },
+  {
+   "t": 2.06,
+   "type": "coup"
+  },
+  {
+   "t": 2.06,
+   "type": "zoom"
+  },
+  {
+   "t": 3.56,
+   "type": "coup"
+  },
+  {
+   "t": 4.64,
+   "type": "coup"
+  },
+  {
+   "t": 5.9,
+   "type": "fleches"
+  },
+  {
+   "t": 6.52,
+   "type": "sticker"
+  },
+  {
+   "t": 8.4,
+   "type": "sticker"
+  },
+  {
+   "t": 10.27,
+   "type": "position"
+  },
+  {
+   "t": 11.16,
+   "type": "fleches"
+  },
+  {
+   "t": 11.26,
+   "type": "sticker"
+  },
+  {
+   "t": 13.8,
+   "type": "sticker"
+  },
+  {
+   "t": 17.02,
+   "type": "sticker"
+  },
+  {
+   "t": 18.04,
+   "type": "sticker"
+  }
+ ],
+ "musique": "fluffing_a_duck.mp3"
+}
