@@ -1,14 +1,14 @@
 {
  "nom": "pion_c6_push_1",
  "tempo": 1.0,
- "duree_s": 17.14,
+ "duree_s": 17.12,
  "hook": {
   "texte": "Take it,|or push?",
   "fin": 1.96
  },
  "question": {
   "texte": "Take it,|or push?",
-  "t": 13.94
+  "t": 13.92
  },
  "phrases": [
   {
@@ -20,7 +20,7 @@
    "texte": "Push!"
   },
   {
-   "t": 2.92,
+   "t": 2.9,
    "texte": "Pawn to c6!"
   },
   {
@@ -28,11 +28,11 @@
    "texte": "He takes it your d-pawn takes on e6 and it runs home his king is too far."
   },
   {
-   "t": 11.52,
+   "t": 11.54,
    "texte": "Take at once and it's only a draw."
   },
   {
-   "t": 14.34,
+   "t": 14.3,
    "texte": "So when his pawn attacks yours ask yourself"
   }
  ],
@@ -85,6 +85,10 @@
    "type": "zoom"
   },
   {
+   "t": 2.9,
+   "type": "fleches"
+  },
+  {
    "t": 4.92,
    "type": "coup"
   },
@@ -93,7 +97,7 @@
    "type": "coup"
   },
   {
-   "t": 8.06,
+   "t": 7.64,
    "type": "fleches"
   },
   {
@@ -109,7 +113,7 @@
    "type": "position"
   },
   {
-   "t": 12.52,
+   "t": 12.16,
    "type": "fleches"
   },
   {
