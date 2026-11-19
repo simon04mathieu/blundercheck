@@ -40,7 +40,7 @@
    "texte": "Analyze your own game free."
   },
   {
-   "t": 17.1,
+   "t": 17.08,
    "texte": "So when two pieces attack your queen, look for a fork then ask yourself"
   }
  ],
@@ -77,11 +77,11 @@
    "type": "coup"
   },
   {
-   "t": 0.7,
+   "t": 1.02,
    "type": "fleches"
   },
   {
-   "t": 0.7,
+   "t": 1.02,
    "type": "sticker"
   },
   {
@@ -93,7 +93,7 @@
    "type": "zoom"
   },
   {
-   "t": 4.54,
+   "t": 4.56,
    "type": "sticker"
   },
   {
@@ -117,7 +117,7 @@
    "type": "position"
   },
   {
-   "t": 12.3,
+   "t": 12.62,
    "type": "fleches"
   },
   {
@@ -129,11 +129,11 @@
    "type": "sticker"
   },
   {
-   "t": 18.02,
+   "t": 18.0,
    "type": "sticker"
   },
   {
-   "t": 20.54,
+   "t": 20.52,
    "type": "sticker"
   }
  ],

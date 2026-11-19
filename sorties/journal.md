@@ -1076,3 +1076,8 @@
     voix générée : 248 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/dame_fou_h6_1_fr.mp4 {"voix_brute_s": 18.6, "tempo": 1.0, "video_s": 18.6, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "corny_candy.mp3", "mots_transcrits": 55, "minutage": "6 phrases, 4 coups, 0 pauses"}
+## 2026-11-19 00:07 UTC · run 44426356636
+### commandes/perso_dame_cavalier_d7_1.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/dame_cavalier_d7_1.mp4 {"voix_brute_s": 21.4, "tempo": 1.0, "video_s": 21.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "baby_animals_playing.mp3", "mots_transcrits": 54, "minutage": "8 phrases, 4 coups, 0 pauses"}
