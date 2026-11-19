@@ -4,7 +4,7 @@
  "duree_s": 15.68,
  "hook": {
   "texte": "Which pawn|takes?",
-  "fin": 2.0
+  "fin": 1.98
  },
  "question": {
   "texte": "Which pawn|takes?",
@@ -16,19 +16,19 @@
    "texte": "Which pawn takes?"
   },
   {
-   "t": 2.0,
+   "t": 1.98,
    "texte": "The f-pawn!"
   },
   {
-   "t": 3.6,
+   "t": 3.62,
    "texte": "He takes back and your d-pawn runs home his king is too far."
   },
   {
-   "t": 8.92,
+   "t": 8.9,
    "texte": "Take with the d-pawn and it's only a draw."
   },
   {
-   "t": 12.22,
+   "t": 12.3,
    "texte": "So when one pawn attacks two of yours, ask yourself"
   }
  ],
@@ -39,7 +39,7 @@
    "badge": null
   },
   {
-   "t": 2.0,
+   "t": 1.98,
    "coup": "fxe6",
    "badge": "brillant"
   },
@@ -73,11 +73,11 @@
    "type": "sticker"
   },
   {
-   "t": 2.0,
+   "t": 1.98,
    "type": "coup"
   },
   {
-   "t": 2.0,
+   "t": 1.98,
    "type": "zoom"
   },
   {
@@ -89,7 +89,7 @@
    "type": "coup"
   },
   {
-   "t": 5.5,
+   "t": 5.4,
    "type": "fleches"
   },
   {
@@ -101,7 +101,7 @@
    "type": "sticker"
   },
   {
-   "t": 9.19,
+   "t": 9.17,
    "type": "position"
   },
   {
