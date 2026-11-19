@@ -1,0 +1,125 @@
+{
+ "nom": "percee_b_d_1_fr",
+ "tempo": 1.0,
+ "duree_s": 16.28,
+ "hook": {
+  "texte": "Quel pion|tu pousses ?",
+  "fin": 2.14
+ },
+ "question": {
+  "texte": "Quel pion|tu pousses ?",
+  "t": 13.08
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Quel pion tu pousses ?"
+  },
+  {
+   "t": 2.14,
+   "texte": "Le pion d !"
+  },
+  {
+   "t": 3.62,
+   "texte": "Il le prend tu prends en b6 et ton pion file à la promotion : son roi est trop loin."
+  },
+  {
+   "t": 10.88,
+   "texte": "Si tu prends tout de suite ce n'est qu'une nulle."
+  },
+  {
+   "t": 13.74,
+   "texte": "Alors, quand il avance un pion demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.2,
+   "coup": "b6",
+   "badge": null
+  },
+  {
+   "t": 2.14,
+   "coup": "d6",
+   "badge": "brillant"
+  },
+  {
+   "t": 3.9,
+   "coup": "cxd6",
+   "badge": null
+  },
+  {
+   "t": 4.98,
+   "coup": "cxb6",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.2,
+   "type": "coup"
+  },
+  {
+   "t": 0.46,
+   "type": "fleches"
+  },
+  {
+   "t": 0.62,
+   "type": "sticker"
+  },
+  {
+   "t": 2.14,
+   "type": "coup"
+  },
+  {
+   "t": 2.14,
+   "type": "zoom"
+  },
+  {
+   "t": 3.9,
+   "type": "coup"
+  },
+  {
+   "t": 4.98,
+   "type": "coup"
+  },
+  {
+   "t": 6.08,
+   "type": "fleches"
+  },
+  {
+   "t": 7.26,
+   "type": "sticker"
+  },
+  {
+   "t": 9.46,
+   "type": "sticker"
+  },
+  {
+   "t": 11.23,
+   "type": "position"
+  },
+  {
+   "t": 11.52,
+   "type": "fleches"
+  },
+  {
+   "t": 12.54,
+   "type": "sticker"
+  },
+  {
+   "t": 14.82,
+   "type": "sticker"
+  },
+  {
+   "t": 15.52,
+   "type": "sticker"
+  }
+ ],
+ "musique": "kitty_down_the_stairs.mp3"
+}
