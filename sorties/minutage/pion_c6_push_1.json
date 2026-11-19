@@ -1,0 +1,129 @@
+{
+ "nom": "pion_c6_push_1",
+ "tempo": 1.0,
+ "duree_s": 17.14,
+ "hook": {
+  "texte": "Take it,|or push?",
+  "fin": 1.96
+ },
+ "question": {
+  "texte": "Take it,|or push?",
+  "t": 13.94
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take it, or push?"
+  },
+  {
+   "t": 1.96,
+   "texte": "Push!"
+  },
+  {
+   "t": 2.92,
+   "texte": "Pawn to c6!"
+  },
+  {
+   "t": 4.76,
+   "texte": "He takes it your d-pawn takes on e6 and it runs home his king is too far."
+  },
+  {
+   "t": 11.52,
+   "texte": "Take at once and it's only a draw."
+  },
+  {
+   "t": 14.34,
+   "texte": "So when his pawn attacks yours ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.28,
+   "coup": "e6",
+   "badge": null
+  },
+  {
+   "t": 1.96,
+   "coup": "c6",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.92,
+   "coup": "dxc6",
+   "badge": null
+  },
+  {
+   "t": 6.6,
+   "coup": "dxe6",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.28,
+   "type": "coup"
+  },
+  {
+   "t": 0.48,
+   "type": "fleches"
+  },
+  {
+   "t": 0.86,
+   "type": "sticker"
+  },
+  {
+   "t": 1.96,
+   "type": "coup"
+  },
+  {
+   "t": 1.96,
+   "type": "zoom"
+  },
+  {
+   "t": 4.92,
+   "type": "coup"
+  },
+  {
+   "t": 6.6,
+   "type": "coup"
+  },
+  {
+   "t": 8.06,
+   "type": "fleches"
+  },
+  {
+   "t": 8.32,
+   "type": "sticker"
+  },
+  {
+   "t": 10.12,
+   "type": "sticker"
+  },
+  {
+   "t": 11.73,
+   "type": "position"
+  },
+  {
+   "t": 12.52,
+   "type": "fleches"
+  },
+  {
+   "t": 12.6,
+   "type": "sticker"
+  },
+  {
+   "t": 15.14,
+   "type": "sticker"
+  },
+  {
+   "t": 16.32,
+   "type": "sticker"
+  }
+ ],
+ "musique": "chicago.mp3"
+}
