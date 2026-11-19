@@ -1081,3 +1081,6 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/dame_cavalier_d7_1.mp4 {"voix_brute_s": 21.4, "tempo": 1.0, "video_s": 21.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "baby_animals_playing.mp3", "mots_transcrits": 54, "minutage": "8 phrases, 4 coups, 0 pauses"}
+### commandes/perso_dame_fou_h6_1.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/dame_fou_h6_1.mp4 {"voix_brute_s": 16.5, "tempo": 1.0, "video_s": 16.5, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "got_him_from_behind.mp3", "mots_transcrits": 42, "minutage": "6 phrases, 4 coups, 0 pauses"}
