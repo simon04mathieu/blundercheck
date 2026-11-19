@@ -1004,3 +1004,6 @@
 ### 2026-11-19 10:06 publications/youtube/percee_b_d_1.json
 {"id": "00GYOisVuh4", "url": "https://www.youtube.com/shorts/00GYOisVuh4", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "142"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "143"}
+### 2026-11-19 12:01 publications/youtube/pion_c6_push_1.json
+{"id": "FtzG2wlsE1w", "url": "https://www.youtube.com/shorts/FtzG2wlsE1w", "statut": "public", "publier_le": null}
