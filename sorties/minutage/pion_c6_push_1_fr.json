@@ -1,0 +1,129 @@
+{
+ "nom": "pion_c6_push_1_fr",
+ "tempo": 1.0,
+ "duree_s": 16.56,
+ "hook": {
+  "texte": "Tu prends,|ou tu pousses ?",
+  "fin": 2.22
+ },
+ "question": {
+  "texte": "Tu prends,|ou tu pousses ?",
+  "t": 13.36
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Tu prends, ou tu pousses ?"
+  },
+  {
+   "t": 2.22,
+   "texte": "Tu pousses !"
+  },
+  {
+   "t": 3.26,
+   "texte": "Pion en c6 !"
+  },
+  {
+   "t": 4.78,
+   "texte": "Il le prend ton pion d prend en e6 et il file à la promotion : son roi est trop loin."
+  },
+  {
+   "t": 11.28,
+   "texte": "Si tu prends tout de suite ce n'est qu'une nulle."
+  },
+  {
+   "t": 13.62,
+   "texte": "Alors, quand son pion attaque le tien, demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.48,
+   "coup": "e6",
+   "badge": null
+  },
+  {
+   "t": 2.22,
+   "coup": "c6",
+   "badge": "brillant"
+  },
+  {
+   "t": 5.04,
+   "coup": "dxc6",
+   "badge": null
+  },
+  {
+   "t": 6.33,
+   "coup": "dxe6",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.48,
+   "type": "coup"
+  },
+  {
+   "t": 0.9,
+   "type": "fleches"
+  },
+  {
+   "t": 0.9,
+   "type": "sticker"
+  },
+  {
+   "t": 2.22,
+   "type": "coup"
+  },
+  {
+   "t": 2.22,
+   "type": "zoom"
+  },
+  {
+   "t": 5.04,
+   "type": "coup"
+  },
+  {
+   "t": 6.33,
+   "type": "coup"
+  },
+  {
+   "t": 7.48,
+   "type": "fleches"
+  },
+  {
+   "t": 7.98,
+   "type": "sticker"
+  },
+  {
+   "t": 9.84,
+   "type": "sticker"
+  },
+  {
+   "t": 11.61,
+   "type": "position"
+  },
+  {
+   "t": 11.84,
+   "type": "fleches"
+  },
+  {
+   "t": 12.58,
+   "type": "sticker"
+  },
+  {
+   "t": 14.74,
+   "type": "sticker"
+  },
+  {
+   "t": 15.8,
+   "type": "sticker"
+  }
+ ],
+ "musique": "fluffing_a_duck.mp3"
+}

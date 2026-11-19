@@ -1099,3 +1099,6 @@
 ### commandes/perso_pion_c6_push_1.json
     voix générée : 194 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pion_c6_push_1.mp4 {"voix_brute_s": 17.0, "tempo": 1.0, "video_s": 17.1, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "chicago.mp3", "mots_transcrits": 42, "minutage": "6 phrases, 4 coups, 0 pauses"}
+### commandes/perso_pion_c6_push_1_fr.json
+    voix générée : 244 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pion_c6_push_1_fr.mp4 {"voix_brute_s": 16.4, "tempo": 1.0, "video_s": 16.4, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fluffing_a_duck.mp3", "mots_transcrits": 54, "minutage": "6 phrases, 4 coups, 0 pauses"}
