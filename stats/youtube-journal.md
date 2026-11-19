@@ -1021,3 +1021,4 @@
 ### 2026-11-19 18:46 publications/youtube/pion_f6_push_1.json
 {"id": "sr1AJddUmHw", "url": "https://www.youtube.com/shorts/sr1AJddUmHw", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "142"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "142"}
