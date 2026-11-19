@@ -1,0 +1,28 @@
+{
+ "legende": "Quel pion tu pousses ? 👇 Seul 1.d6 ! gagne : 1...cxd6 2.cxb6 et le pion file à dame. 1.cxb6 n'est qu'une nulle (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-19T13:00:00+01:00",
+ "fichier": "sorties/percee_b_d_1_fr.mp4",
+ "concept": "percee_b_d",
+ "format": "FINALE",
+ "langue": "fr",
+ "duree": 16.28,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "fr",
+  "duree_s": 16,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "percee_3v3_d6",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "quel_pion_pousser",
+  "pieces": 8,
+  "look": "papier",
+  "fx": "fleches+zoom+tag+ding"
+ },
+ "paire": "percee_b_d_1"
+}

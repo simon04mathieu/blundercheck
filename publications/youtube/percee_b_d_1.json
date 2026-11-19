@@ -1,0 +1,34 @@
+{
+ "titre": "Which of your three pawns should push? ♟️ #chess #shorts",
+ "description": "Which pawn do you push? 👇 Only 1.d6! wins: 1...cxd6 2.cxb6 and the pawn runs home. 1.cxb6 is just a draw (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess endgame",
+  "pawn endgame",
+  "chess puzzle"
+ ],
+ "envoyer_apres": "2026-11-19T10:00:00+01:00",
+ "fichier": "sorties/percee_b_d_1.mp4",
+ "concept": "percee_b_d",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 16.04,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 16,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "percee_3v3_d6",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "quel_pion_pousser",
+  "pieces": 8,
+  "look": "ardoise",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

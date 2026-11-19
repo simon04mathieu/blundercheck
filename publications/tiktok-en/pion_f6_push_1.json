@@ -1,0 +1,31 @@
+{
+ "legende": "Push, or take? 👇 Only 1.f6! wins: 1...gxf6 2.gxh6 and the pawn runs home. 1.gxh6 is just a draw (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-19T08:00:00+01:00",
+ "heure_conseillee": "2026-11-19T19:00:00+01:00",
+ "repere": "19 h · pion_f6_push_1 · 16.96 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/pion_f6_push_1.mp4",
+ "concept": "pion_f6_push",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 16.96,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 17,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "pion_attaque_poussee_f6",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_ou_pousser",
+  "pieces": 8,
+  "look": "emeraude",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "legende": "Which pawn runs? 👇 Only 1.d6! wins: 1...exd6 2.exf6 and the pawn runs home. 1.exf6 and 1.e6 are draws (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-19T16:00:00+01:00",
+ "fichier": "sorties/percee_d_f_1.mp4",
+ "concept": "percee_d_f",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 18.84,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 19,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "oui",
+  "fin": "boucle",
+  "motif": "percee_3v3_d6_centre",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "quel_pion_pousser",
+  "pieces": 8,
+  "look": "bois",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

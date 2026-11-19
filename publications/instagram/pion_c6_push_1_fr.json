@@ -1,0 +1,28 @@
+{
+ "legende": "Tu prends, ou tu pousses ? 👇 Seul 1.c6 ! gagne : 1...dxc6 2.dxe6 et le pion file à dame. 1.dxe6 n'est qu'une nulle (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-19T19:00:00+01:00",
+ "fichier": "sorties/pion_c6_push_1_fr.mp4",
+ "concept": "pion_c6_push",
+ "format": "FINALE",
+ "langue": "fr",
+ "duree": 16.56,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "fr",
+  "duree_s": 17,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "pion_attaque_poussee_c6",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_ou_pousser",
+  "pieces": 8,
+  "look": "mono",
+  "fx": "fleches+zoom+tag+ding"
+ },
+ "paire": "pion_c6_push_1"
+}
