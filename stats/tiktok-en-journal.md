@@ -823,3 +823,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 ### 2026-11-19 07:57 publications/tiktok-en/pion_f6_push_1.json
 {"publish_id": "v_inbox_file~v2.7709788346557548566", "mode": "brouillon", "vie_privee": null, "legende": "Push, or take? 👇 Only 1.f6! wins: 1...gxf6 2.gxh6 and the pawn runs home. 1.gxh6 is just a draw (Stockfish 16, composed position). One new puzzle every day.\n\nMissed it? Follow, you'll get the next one.\n\n#chess #chesstactics #chesspuzzle #chesstok #chessgame"}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 46, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 47, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
