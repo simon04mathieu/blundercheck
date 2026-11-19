@@ -1,14 +1,14 @@
 {
  "nom": "pions_fourchette_c4_1",
  "tempo": 1.0,
- "duree_s": 15.34,
+ "duree_s": 15.36,
  "hook": {
   "texte": "Which pawn|takes?",
-  "fin": 1.9
+  "fin": 1.86
  },
  "question": {
   "texte": "Which pawn|takes?",
-  "t": 12.14
+  "t": 12.16
  },
  "phrases": [
   {
@@ -16,30 +16,30 @@
    "texte": "Which pawn takes?"
   },
   {
-   "t": 1.9,
+   "t": 1.86,
    "texte": "The d-pawn!"
   },
   {
-   "t": 3.42,
+   "t": 3.46,
    "texte": "He takes back you take on c4 and the c-pawn runs home."
   },
   {
-   "t": 8.68,
+   "t": 8.64,
    "texte": "Take with the b-pawn and it's only a draw."
   },
   {
-   "t": 11.86,
+   "t": 11.88,
    "texte": "So when one pawn attacks two of yours, ask yourself"
   }
  ],
  "coups": [
   {
-   "t": 0.24,
+   "t": 0.26,
    "coup": "c4",
    "badge": null
   },
   {
-   "t": 1.9,
+   "t": 1.86,
    "coup": "dxc4",
    "badge": "brillant"
   },
@@ -61,23 +61,23 @@
    "type": "position"
   },
   {
-   "t": 0.24,
+   "t": 0.26,
    "type": "coup"
   },
   {
-   "t": 0.58,
+   "t": 0.5,
    "type": "fleches"
   },
   {
-   "t": 0.58,
+   "t": 0.5,
    "type": "sticker"
   },
   {
-   "t": 1.9,
+   "t": 1.86,
    "type": "coup"
   },
   {
-   "t": 1.9,
+   "t": 1.86,
    "type": "zoom"
   },
   {
@@ -89,11 +89,11 @@
    "type": "coup"
   },
   {
-   "t": 5.9,
+   "t": 5.92,
    "type": "fleches"
   },
   {
-   "t": 7.12,
+   "t": 7.02,
    "type": "sticker"
   },
   {
@@ -109,11 +109,11 @@
    "type": "sticker"
   },
   {
-   "t": 12.88,
+   "t": 12.8,
    "type": "sticker"
   },
   {
-   "t": 14.52,
+   "t": 14.44,
    "type": "sticker"
   }
  ],
