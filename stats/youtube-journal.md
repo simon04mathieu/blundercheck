@@ -1003,3 +1003,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "142"}
 ### 2026-11-19 10:06 publications/youtube/percee_b_d_1.json
 {"id": "00GYOisVuh4", "url": "https://www.youtube.com/shorts/00GYOisVuh4", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "142"}
