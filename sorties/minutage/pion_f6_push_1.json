@@ -4,7 +4,7 @@
  "duree_s": 16.96,
  "hook": {
   "texte": "Push,|or take?",
-  "fin": 1.92
+  "fin": 1.86
  },
  "question": {
   "texte": "Push,|or take?",
@@ -16,23 +16,23 @@
    "texte": "Push, or take?"
   },
   {
-   "t": 1.92,
+   "t": 1.86,
    "texte": "Push!"
   },
   {
-   "t": 3.08,
+   "t": 3.02,
    "texte": "Pawn to f6!"
   },
   {
-   "t": 5.02,
+   "t": 5.0,
    "texte": "He takes it you take on h6 and your pawn runs home his king is too far."
   },
   {
-   "t": 11.28,
+   "t": 11.34,
    "texte": "Take at once and it's only a draw."
   },
   {
-   "t": 14.16,
+   "t": 14.18,
    "texte": "So when a pawn attacks yours ask yourself"
   }
  ],
@@ -43,12 +43,12 @@
    "badge": null
   },
   {
-   "t": 1.92,
+   "t": 1.86,
    "coup": "f6",
    "badge": "brillant"
   },
   {
-   "t": 5.14,
+   "t": 5.16,
    "coup": "gxf6",
    "badge": null
   },
@@ -77,15 +77,19 @@
    "type": "sticker"
   },
   {
-   "t": 1.92,
+   "t": 1.86,
    "type": "coup"
   },
   {
-   "t": 1.92,
+   "t": 1.86,
    "type": "zoom"
   },
   {
-   "t": 5.14,
+   "t": 3.02,
+   "type": "fleches"
+  },
+  {
+   "t": 5.16,
    "type": "coup"
   },
   {
@@ -93,7 +97,7 @@
    "type": "coup"
   },
   {
-   "t": 6.96,
+   "t": 6.98,
    "type": "fleches"
   },
   {
@@ -109,7 +113,7 @@
    "type": "position"
   },
   {
-   "t": 12.1,
+   "t": 12.08,
    "type": "fleches"
   },
   {

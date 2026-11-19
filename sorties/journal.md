@@ -1122,3 +1122,6 @@
 ### commandes/perso_pion_c6_push_1.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/pion_c6_push_1.mp4 {"voix_brute_s": 17.0, "tempo": 1.0, "video_s": 17.1, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "chicago.mp3", "mots_transcrits": 42, "minutage": "6 phrases, 4 coups, 0 pauses"}
+### commandes/perso_pion_f6_push_1.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pion_f6_push_1.mp4 {"voix_brute_s": 16.9, "tempo": 1.0, "video_s": 16.9, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "zoobeedoo.mp3", "mots_transcrits": 40, "minutage": "6 phrases, 4 coups, 0 pauses"}
