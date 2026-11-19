@@ -1,5 +1,5 @@
 {
- "date": "2026-11-19T18:46:09.120740+00:00",
+ "date": "2026-11-19T18:59:30.625941+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,6 +7,15 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "sr1AJddUmHw": {
+   "titre": "A pawn attacks yours. Push, or take? ♟️ #chess #shorts",
+   "publiee": "2026-11-19T18:46:32Z",
+   "statut": "public",
+   "duree": "PT17S",
+   "vues": 0,
+   "jaime": 0,
+   "commentaires": 0
+  },
   "kPzSp8UUbdk": {
    "titre": "Three against three. Which one runs? ♟️ #chess #shorts",
    "publiee": "2026-11-19T15:41:04Z",
@@ -21,7 +30,7 @@
    "publiee": "2026-11-19T12:02:23Z",
    "statut": "public",
    "duree": "PT18S",
-   "vues": 1151,
+   "vues": 1147,
    "jaime": 10,
    "commentaires": 0
   },
@@ -30,7 +39,7 @@
    "publiee": "2026-11-19T10:06:37Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 1436,
+   "vues": 1576,
    "jaime": 10,
    "commentaires": 0
   },
@@ -39,7 +48,7 @@
    "publiee": "2026-11-18T18:40:42Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 16856,
+   "vues": 17124,
    "jaime": 137,
    "commentaires": 12
   },
@@ -48,7 +57,7 @@
    "publiee": "2026-11-18T15:40:40Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 1276,
+   "vues": 1272,
    "jaime": 6,
    "commentaires": 3
   },
@@ -57,8 +66,8 @@
    "publiee": "2026-11-18T12:03:12Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 30810,
-   "jaime": 184,
+   "vues": 30813,
+   "jaime": 183,
    "commentaires": 20
   },
   "MD1GFp6dYho": {
@@ -75,7 +84,7 @@
    "publiee": "2026-11-17T18:01:12Z",
    "statut": "public",
    "duree": "PT18S",
-   "vues": 8421,
+   "vues": 8590,
    "jaime": 38,
    "commentaires": 0
   },
@@ -93,7 +102,7 @@
    "publiee": "2026-11-17T13:05:40Z",
    "statut": "public",
    "duree": "PT18S",
-   "vues": 23245,
+   "vues": 23269,
    "jaime": 152,
    "commentaires": 3
   },
@@ -111,7 +120,7 @@
    "publiee": "2026-11-16T18:02:39Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 6017,
+   "vues": 6018,
    "jaime": 10,
    "commentaires": 1
   },
@@ -129,7 +138,7 @@
    "publiee": "2026-11-16T15:04:28Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 30801,
+   "vues": 30805,
    "jaime": 72,
    "commentaires": 4
   },
@@ -165,7 +174,7 @@
    "publiee": "2026-11-15T12:51:28Z",
    "statut": "public",
    "duree": "PT19S",
-   "vues": 27591,
+   "vues": 27593,
    "jaime": 85,
    "commentaires": 9
   },
@@ -246,7 +255,7 @@
    "publiee": "2026-11-13T09:59:20Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 20961,
+   "vues": 20960,
    "jaime": 56,
    "commentaires": 10
   },
