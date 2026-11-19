@@ -1087,3 +1087,6 @@
 ### commandes/perso_dame_fou_h6_1_fr.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/dame_fou_h6_1_fr.mp4 {"voix_brute_s": 18.6, "tempo": 1.0, "video_s": 18.6, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "corny_candy.mp3", "mots_transcrits": 55, "minutage": "6 phrases, 4 coups, 0 pauses"}
+### commandes/perso_percee_b_d_1.json
+    voix générée : 187 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/percee_b_d_1.mp4 {"voix_brute_s": 15.9, "tempo": 1.0, "video_s": 16.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "kitty_down_the_stairs.mp3", "mots_transcrits": 41, "minutage": "5 phrases, 4 coups, 0 pauses"}

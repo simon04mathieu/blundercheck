@@ -1,0 +1,125 @@
+{
+ "nom": "percee_b_d_1",
+ "tempo": 1.0,
+ "duree_s": 16.04,
+ "hook": {
+  "texte": "Which pawn|do you push?",
+  "fin": 2.16
+ },
+ "question": {
+  "texte": "Which pawn|do you push?",
+  "t": 12.84
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which pawn do you push?"
+  },
+  {
+   "t": 2.16,
+   "texte": "The d-pawn!"
+  },
+  {
+   "t": 3.48,
+   "texte": "He takes it you take on b6 and your pawn runs home his king is too far."
+  },
+  {
+   "t": 10.14,
+   "texte": "Take at once and it's only a draw."
+  },
+  {
+   "t": 13.22,
+   "texte": "So when he moves one pawn ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.24,
+   "coup": "b6",
+   "badge": null
+  },
+  {
+   "t": 2.16,
+   "coup": "d6",
+   "badge": "brillant"
+  },
+  {
+   "t": 3.6,
+   "coup": "cxd6",
+   "badge": null
+  },
+  {
+   "t": 4.64,
+   "coup": "cxb6",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.24,
+   "type": "coup"
+  },
+  {
+   "t": 0.52,
+   "type": "fleches"
+  },
+  {
+   "t": 0.7,
+   "type": "sticker"
+  },
+  {
+   "t": 2.16,
+   "type": "coup"
+  },
+  {
+   "t": 2.16,
+   "type": "zoom"
+  },
+  {
+   "t": 3.6,
+   "type": "coup"
+  },
+  {
+   "t": 4.64,
+   "type": "coup"
+  },
+  {
+   "t": 5.98,
+   "type": "fleches"
+  },
+  {
+   "t": 6.56,
+   "type": "sticker"
+  },
+  {
+   "t": 8.5,
+   "type": "sticker"
+  },
+  {
+   "t": 10.43,
+   "type": "position"
+  },
+  {
+   "t": 11.32,
+   "type": "fleches"
+  },
+  {
+   "t": 11.44,
+   "type": "sticker"
+  },
+  {
+   "t": 14.08,
+   "type": "sticker"
+  },
+  {
+   "t": 15.16,
+   "type": "sticker"
+  }
+ ],
+ "musique": "kitty_down_the_stairs.mp3"
+}
