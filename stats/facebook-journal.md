@@ -204,3 +204,5 @@
 {"reseau": "facebook", "id": "1162026442961741", "ok": true}
 ### 2026-11-19 15:04 publications/facebook/percee_d_f_1.json
 {"reseau": "facebook", "id": "1102292866143779", "ok": true}
+### 2026-11-19 18:03 publications/facebook/pion_f6_push_1.json
+{"reseau": "facebook", "id": "1645502007256915", "ok": true}
