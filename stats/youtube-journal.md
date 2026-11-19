@@ -1010,3 +1010,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "143"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "143"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "142"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "142"}
+### 2026-11-19 15:40 publications/youtube/percee_d_f_1.json
+{"id": "kPzSp8UUbdk", "url": "https://www.youtube.com/shorts/kPzSp8UUbdk", "statut": "public", "publier_le": null}
