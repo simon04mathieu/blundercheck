@@ -1,14 +1,14 @@
 {
  "nom": "percee_d_f_1",
  "tempo": 1.0,
- "duree_s": 18.88,
+ "duree_s": 18.84,
  "hook": {
   "texte": "Which pawn|runs?",
-  "fin": 2.06
+  "fin": 2.08
  },
  "question": {
   "texte": "Analyze your game|blundercheck.app/try",
-  "t": 15.68
+  "t": 15.64
  },
  "phrases": [
   {
@@ -16,7 +16,7 @@
    "texte": "Which pawn runs?"
   },
   {
-   "t": 2.06,
+   "t": 2.08,
    "texte": "The d-pawn!"
   },
   {
@@ -43,7 +43,7 @@
    "badge": null
   },
   {
-   "t": 2.06,
+   "t": 2.08,
    "coup": "d6",
    "badge": "brillant"
   },
@@ -77,11 +77,11 @@
    "type": "sticker"
   },
   {
-   "t": 2.06,
+   "t": 2.08,
    "type": "coup"
   },
   {
-   "t": 2.06,
+   "t": 2.08,
    "type": "zoom"
   },
   {
@@ -93,7 +93,7 @@
    "type": "coup"
   },
   {
-   "t": 5.9,
+   "t": 5.88,
    "type": "fleches"
   },
   {
@@ -105,11 +105,11 @@
    "type": "sticker"
   },
   {
-   "t": 10.27,
+   "t": 10.25,
    "type": "position"
   },
   {
-   "t": 11.16,
+   "t": 11.1,
    "type": "fleches"
   },
   {
@@ -121,11 +121,11 @@
    "type": "sticker"
   },
   {
-   "t": 17.02,
+   "t": 16.2,
    "type": "sticker"
   },
   {
-   "t": 18.04,
+   "t": 18.06,
    "type": "sticker"
   }
  ],
