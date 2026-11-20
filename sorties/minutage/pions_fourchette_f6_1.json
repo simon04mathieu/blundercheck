@@ -1,0 +1,125 @@
+{
+ "nom": "pions_fourchette_f6_1",
+ "tempo": 1.0,
+ "duree_s": 17.62,
+ "hook": {
+  "texte": "Which pawn|takes?",
+  "fin": 2.02
+ },
+ "question": {
+  "texte": "Which pawn|takes?",
+  "t": 14.42
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which pawn takes?"
+  },
+  {
+   "t": 2.02,
+   "texte": "The e-pawn!"
+  },
+  {
+   "t": 3.58,
+   "texte": "He takes back your g-pawn jumps to g6 and it runs home his king is too far."
+  },
+  {
+   "t": 10.26,
+   "texte": "Take with the g-pawn and he catches your last pawn."
+  },
+  {
+   "t": 14.34,
+   "texte": "So when his pawn forks two of yours, ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.26,
+   "coup": "f6",
+   "badge": null
+  },
+  {
+   "t": 2.02,
+   "coup": "exf6",
+   "badge": "brillant"
+  },
+  {
+   "t": 3.7,
+   "coup": "gxf6",
+   "badge": null
+  },
+  {
+   "t": 5.34,
+   "coup": "g6",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.26,
+   "type": "coup"
+  },
+  {
+   "t": 0.54,
+   "type": "fleches"
+  },
+  {
+   "t": 0.54,
+   "type": "sticker"
+  },
+  {
+   "t": 2.02,
+   "type": "coup"
+  },
+  {
+   "t": 2.02,
+   "type": "zoom"
+  },
+  {
+   "t": 3.7,
+   "type": "coup"
+  },
+  {
+   "t": 5.34,
+   "type": "coup"
+  },
+  {
+   "t": 6.68,
+   "type": "fleches"
+  },
+  {
+   "t": 6.96,
+   "type": "sticker"
+  },
+  {
+   "t": 8.64,
+   "type": "sticker"
+  },
+  {
+   "t": 10.47,
+   "type": "position"
+  },
+  {
+   "t": 10.74,
+   "type": "fleches"
+  },
+  {
+   "t": 11.96,
+   "type": "sticker"
+  },
+  {
+   "t": 15.2,
+   "type": "sticker"
+  },
+  {
+   "t": 16.76,
+   "type": "sticker"
+  }
+ ],
+ "musique": "corny_candy.mp3"
+}
