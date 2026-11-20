@@ -1,0 +1,125 @@
+{
+ "nom": "pions_fourchette_d4_1_fr",
+ "tempo": 1.0,
+ "duree_s": 18.92,
+ "hook": {
+  "texte": "Avec quel pion|tu prends ?",
+  "fin": 1.9
+ },
+ "question": {
+  "texte": "Avec quel pion|tu prends ?",
+  "t": 15.72
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Avec quel pion tu prends ?"
+  },
+  {
+   "t": 1.9,
+   "texte": "Le pion e !"
+  },
+  {
+   "t": 3.92,
+   "texte": "Il reprend, tu reprends en d4 et ton pion file à la promotion : son roi est trop loin."
+  },
+  {
+   "t": 11.54,
+   "texte": "Si tu prends avec le pion c, son pion c file aussi."
+  },
+  {
+   "t": 15.72,
+   "texte": "Alors, quand il pousse et vise deux pions, demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.2,
+   "coup": "d4",
+   "badge": null
+  },
+  {
+   "t": 1.9,
+   "coup": "exd4",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.08,
+   "coup": "cxd4",
+   "badge": null
+  },
+  {
+   "t": 4.96,
+   "coup": "cxd4",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.2,
+   "type": "coup"
+  },
+  {
+   "t": 0.76,
+   "type": "fleches"
+  },
+  {
+   "t": 0.76,
+   "type": "sticker"
+  },
+  {
+   "t": 1.9,
+   "type": "coup"
+  },
+  {
+   "t": 1.9,
+   "type": "zoom"
+  },
+  {
+   "t": 4.08,
+   "type": "coup"
+  },
+  {
+   "t": 4.96,
+   "type": "coup"
+  },
+  {
+   "t": 6.26,
+   "type": "fleches"
+  },
+  {
+   "t": 7.48,
+   "type": "sticker"
+  },
+  {
+   "t": 9.86,
+   "type": "sticker"
+  },
+  {
+   "t": 11.87,
+   "type": "position"
+  },
+  {
+   "t": 12.18,
+   "type": "fleches"
+  },
+  {
+   "t": 13.4,
+   "type": "sticker"
+  },
+  {
+   "t": 16.86,
+   "type": "sticker"
+  },
+  {
+   "t": 18.12,
+   "type": "sticker"
+  }
+ ],
+ "musique": "corny_candy.mp3"
+}
