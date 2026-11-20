@@ -1,0 +1,133 @@
+{
+ "nom": "pions_fourchette_d4_1",
+ "tempo": 1.0,
+ "duree_s": 19.0,
+ "hook": {
+  "texte": "Take with|which pawn?",
+  "fin": 1.74
+ },
+ "question": {
+  "texte": "Analyze your game|blundercheck.app/try",
+  "t": 15.8
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take with which pawn?"
+  },
+  {
+   "t": 1.74,
+   "texte": "The e-pawn!"
+  },
+  {
+   "t": 3.14,
+   "texte": "He takes back you take again and your pawn runs home his king is too far."
+  },
+  {
+   "t": 9.24,
+   "texte": "Take with the c-pawn and his c-pawn runs too."
+  },
+  {
+   "t": 13.04,
+   "texte": "Analyze your own game free."
+  },
+  {
+   "t": 15.76,
+   "texte": "So when a pawn steps in and hits two ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.24,
+   "coup": "d4",
+   "badge": null
+  },
+  {
+   "t": 1.74,
+   "coup": "exd4",
+   "badge": "brillant"
+  },
+  {
+   "t": 3.24,
+   "coup": "cxd4",
+   "badge": null
+  },
+  {
+   "t": 4.36,
+   "coup": "cxd4",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.24,
+   "type": "coup"
+  },
+  {
+   "t": 0.44,
+   "type": "fleches"
+  },
+  {
+   "t": 0.68,
+   "type": "sticker"
+  },
+  {
+   "t": 1.74,
+   "type": "coup"
+  },
+  {
+   "t": 1.74,
+   "type": "zoom"
+  },
+  {
+   "t": 3.24,
+   "type": "coup"
+  },
+  {
+   "t": 4.36,
+   "type": "coup"
+  },
+  {
+   "t": 5.36,
+   "type": "fleches"
+  },
+  {
+   "t": 5.84,
+   "type": "sticker"
+  },
+  {
+   "t": 7.68,
+   "type": "sticker"
+  },
+  {
+   "t": 9.43,
+   "type": "position"
+  },
+  {
+   "t": 9.68,
+   "type": "fleches"
+  },
+  {
+   "t": 10.82,
+   "type": "sticker"
+  },
+  {
+   "t": 13.68,
+   "type": "sticker"
+  },
+  {
+   "t": 17.04,
+   "type": "sticker"
+  },
+  {
+   "t": 18.14,
+   "type": "sticker"
+  }
+ ],
+ "musique": "investigations.mp3"
+}
