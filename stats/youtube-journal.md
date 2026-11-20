@@ -1030,3 +1030,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "144"}
 ### 2026-11-20 09:56 publications/youtube/pions_fourchette_f6_1.json
 {"id": "tbDXo3b8bxw", "url": "https://www.youtube.com/shorts/tbDXo3b8bxw", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "149"}
+### 2026-11-20 14:44 publications/youtube/pions_fourchette_g4_1.json
+{"id": "1pcVhKYkXFI", "url": "https://www.youtube.com/shorts/1pcVhKYkXFI", "statut": "public", "publier_le": null}
