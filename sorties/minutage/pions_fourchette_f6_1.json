@@ -4,7 +4,7 @@
  "duree_s": 17.62,
  "hook": {
   "texte": "Which pawn|takes?",
-  "fin": 2.02
+  "fin": 2.08
  },
  "question": {
   "texte": "Which pawn|takes?",
@@ -16,7 +16,7 @@
    "texte": "Which pawn takes?"
   },
   {
-   "t": 2.02,
+   "t": 2.08,
    "texte": "The e-pawn!"
   },
   {
@@ -28,7 +28,7 @@
    "texte": "Take with the g-pawn and he catches your last pawn."
   },
   {
-   "t": 14.34,
+   "t": 14.36,
    "texte": "So when his pawn forks two of yours, ask yourself"
   }
  ],
@@ -39,7 +39,7 @@
    "badge": null
   },
   {
-   "t": 2.02,
+   "t": 2.08,
    "coup": "exf6",
    "badge": "brillant"
   },
@@ -49,7 +49,7 @@
    "badge": null
   },
   {
-   "t": 5.34,
+   "t": 5.28,
    "coup": "g6",
    "badge": "brillant"
   }
@@ -73,11 +73,11 @@
    "type": "sticker"
   },
   {
-   "t": 2.02,
+   "t": 2.08,
    "type": "coup"
   },
   {
-   "t": 2.02,
+   "t": 2.08,
    "type": "zoom"
   },
   {
@@ -85,11 +85,11 @@
    "type": "coup"
   },
   {
-   "t": 5.34,
+   "t": 5.28,
    "type": "coup"
   },
   {
-   "t": 6.68,
+   "t": 6.7,
    "type": "fleches"
   },
   {
@@ -113,7 +113,11 @@
    "type": "sticker"
   },
   {
-   "t": 15.2,
+   "t": 12.66,
+   "type": "fleches"
+  },
+  {
+   "t": 14.74,
    "type": "sticker"
   },
   {
