@@ -1,0 +1,125 @@
+{
+ "nom": "pions_fourchette_g4_1",
+ "tempo": 1.0,
+ "duree_s": 16.76,
+ "hook": {
+  "texte": "Which one|takes?",
+  "fin": 1.54
+ },
+ "question": {
+  "texte": "Which one|takes?",
+  "t": 13.56
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which one takes?"
+  },
+  {
+   "t": 1.54,
+   "texte": "The f-pawn!"
+  },
+  {
+   "t": 3.16,
+   "texte": "He takes back you take again on g4 and your pawn runs home his king is too far."
+  },
+  {
+   "t": 9.96,
+   "texte": "Take with the h-pawn and his pawn runs too."
+  },
+  {
+   "t": 13.5,
+   "texte": "So when he hits two pawns at once, ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.22,
+   "coup": "g4",
+   "badge": null
+  },
+  {
+   "t": 1.54,
+   "coup": "fxg4",
+   "badge": "brillant"
+  },
+  {
+   "t": 3.32,
+   "coup": "hxg4",
+   "badge": null
+  },
+  {
+   "t": 4.5,
+   "coup": "hxg4",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.22,
+   "type": "coup"
+  },
+  {
+   "t": 0.44,
+   "type": "fleches"
+  },
+  {
+   "t": 0.44,
+   "type": "sticker"
+  },
+  {
+   "t": 1.54,
+   "type": "coup"
+  },
+  {
+   "t": 1.54,
+   "type": "zoom"
+  },
+  {
+   "t": 3.32,
+   "type": "coup"
+  },
+  {
+   "t": 4.5,
+   "type": "coup"
+  },
+  {
+   "t": 5.66,
+   "type": "fleches"
+  },
+  {
+   "t": 6.56,
+   "type": "sticker"
+  },
+  {
+   "t": 8.34,
+   "type": "sticker"
+  },
+  {
+   "t": 10.15,
+   "type": "position"
+  },
+  {
+   "t": 10.38,
+   "type": "fleches"
+  },
+  {
+   "t": 11.52,
+   "type": "sticker"
+  },
+  {
+   "t": 14.24,
+   "type": "sticker"
+  },
+  {
+   "t": 15.74,
+   "type": "sticker"
+  }
+ ],
+ "musique": "got_him_from_behind.mp3"
+}

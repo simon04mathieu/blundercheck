@@ -1142,3 +1142,6 @@
 ### commandes/perso_pions_fourchette_f6_1_fr.json
     voix générée : 225 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pions_fourchette_f6_1_fr.mp4 {"voix_brute_s": 19.9, "tempo": 1.0, "video_s": 19.9, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "got_him_from_behind.mp3", "mots_transcrits": 46, "minutage": "5 phrases, 4 coups, 0 pauses"}
+### commandes/perso_pions_fourchette_g4_1.json
+    voix générée : 205 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pions_fourchette_g4_1.mp4 {"voix_brute_s": 16.5, "tempo": 1.0, "video_s": 16.5, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "got_him_from_behind.mp3", "mots_transcrits": 43, "minutage": "5 phrases, 4 coups, 0 pauses"}
