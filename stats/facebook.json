@@ -1,9 +1,41 @@
 {
- "releve": "2026-11-19T17:36:32Z",
+ "releve": "2026-11-20T17:37:42Z",
  "page": "BlunderCheck",
  "abonnes": 0,
  "fans": 0,
  "publications": [
+  {
+   "id": "1756833142079341",
+   "description": "Which one takes? 👇 Only 1.fxg4! wins: 1.fxg4 hxg4 2.hxg4 and the pawn runs home.",
+   "created_time": "2026-11-20T14:51:16+0000",
+   "permalink_url": "/reel/1756833142079341/",
+   "insights": {
+    "blue_reels_play_count": 0,
+    "post_video_likes_by_reaction_type": {},
+    "post_video_social_actions": {}
+   }
+  },
+  {
+   "id": "2585595105608790",
+   "description": "Which pawn takes? 👇 Only 1.exf6! wins: 1.exf6 gxf6 2.g6 and the pawn runs home. ",
+   "created_time": "2026-11-20T11:33:34+0000",
+   "permalink_url": "/reel/2585595105608790/",
+   "insights": {
+    "blue_reels_play_count": 0,
+    "post_video_likes_by_reaction_type": {},
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "1645502007256915",
+   "description": "Push, or take? 👇 Only 1.f6! wins: 1...gxf6 2.gxh6 and the pawn runs home. 1.gxh6",
+   "created_time": "2026-11-19T18:03:27+0000",
+   "permalink_url": "/reel/1645502007256915/",
+   "insights": {
+    "blue_reels_play_count": 0,
+    "post_video_followers": 0
+   }
+  },
   {
    "id": "1102292866143779",
    "description": "Which pawn runs? 👇 Only 1.d6! wins: 1...exd6 2.exf6 and the pawn runs home. 1.ex",
@@ -34,8 +66,6 @@
    "created_time": "2026-11-19T09:14:24+0000",
    "permalink_url": "/reel/3212580178938807/",
    "insights": {
-    "blue_reels_play_count": 0,
-    "post_video_likes_by_reaction_type": {},
     "post_video_social_actions": {},
     "post_video_followers": 0
    }
@@ -47,7 +77,6 @@
    "permalink_url": "/reel/1691866342642489/",
    "insights": {
     "blue_reels_play_count": 0,
-    "post_video_likes_by_reaction_type": {},
     "post_video_social_actions": {},
     "post_video_followers": 0
    }
@@ -84,7 +113,6 @@
    "insights": {
     "blue_reels_play_count": 0,
     "post_video_likes_by_reaction_type": {},
-    "post_video_social_actions": {},
     "post_video_followers": 0
    }
   },
@@ -144,8 +172,7 @@
    "insights": {
     "blue_reels_play_count": 0,
     "post_video_likes_by_reaction_type": {},
-    "post_video_social_actions": {},
-    "post_video_followers": 0
+    "post_video_social_actions": {}
    }
   },
   {
@@ -179,7 +206,6 @@
    "permalink_url": "/reel/1593943479204816/",
    "insights": {
     "blue_reels_play_count": 0,
-    "post_video_likes_by_reaction_type": {},
     "post_video_social_actions": {},
     "post_video_followers": 0
    }
@@ -203,7 +229,6 @@
    "permalink_url": "/reel/2057223548260743/",
    "insights": {
     "blue_reels_play_count": 0,
-    "post_video_likes_by_reaction_type": {},
     "post_video_social_actions": {},
     "post_video_followers": 0
    }
@@ -216,7 +241,6 @@
    "insights": {
     "blue_reels_play_count": 0,
     "post_video_likes_by_reaction_type": {},
-    "post_video_social_actions": {},
     "post_video_followers": 0
    }
   },
@@ -250,7 +274,6 @@
    "created_time": "2026-11-14T15:20:02+0000",
    "permalink_url": "/reel/4607577179508131/",
    "insights": {
-    "blue_reels_play_count": 0,
     "post_video_likes_by_reaction_type": {},
     "post_video_social_actions": {},
     "post_video_followers": 0
@@ -288,7 +311,6 @@
    "insights": {
     "blue_reels_play_count": 0,
     "post_video_likes_by_reaction_type": {},
-    "post_video_social_actions": {},
     "post_video_followers": 0
    }
   },
@@ -298,7 +320,6 @@
    "created_time": "2026-11-13T15:32:20+0000",
    "permalink_url": "/reel/2741970226316446/",
    "insights": {
-    "blue_reels_play_count": 0,
     "post_video_likes_by_reaction_type": {},
     "post_video_social_actions": {},
     "post_video_followers": 0
@@ -327,74 +348,53 @@
     "post_video_social_actions": {},
     "post_video_followers": 0
    }
-  },
-  {
-   "id": "1455894109859783",
-   "description": "Would you have saved the pawn? 👇 Only 1.d5! wins; 1.Ke4 Kxc6 is a draw (Stockfis",
-   "created_time": "2026-11-12T18:48:01+0000",
-   "permalink_url": "/reel/1455894109859783/",
-   "insights": {
-    "blue_reels_play_count": 0,
-    "post_video_likes_by_reaction_type": {},
-    "post_video_social_actions": {},
-    "post_video_followers": 0
-   }
-  },
-  {
-   "id": "2966160240409346",
-   "description": "Checkmate or stalemate? 👇 Shortest known stalemate: 10 moves (Sam Loyd's 1882 pu",
-   "created_time": "2026-11-12T15:02:03+0000",
-   "permalink_url": "/reel/2966160240409346/",
-   "insights": {
-    "blue_reels_play_count": 0,
-    "post_video_likes_by_reaction_type": {},
-    "post_video_social_actions": {},
-    "post_video_followers": 0
-   }
-  },
-  {
-   "id": "1891865491803096",
-   "description": "Would you have left the queen hanging? 👇 Torre – Lasker, Moscow 1925 (1–0; moves",
-   "created_time": "2026-11-12T12:06:26+0000",
-   "permalink_url": "/reel/1891865491803096/",
-   "insights": {
-    "blue_reels_play_count": 0,
-    "post_video_likes_by_reaction_type": {},
-    "post_video_social_actions": {},
-    "post_video_followers": 0
-   }
   }
  ],
  "erreurs": [
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A-n5tza2KyEDMTESWud",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A0JYmQfPfuETwVjgCD8",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A1pzMxJdo-wUpGN3e0f",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A2tG8Ti5EF6NN1YJ4oo",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A3MzAcTTd9qEBVW1mRE",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A5kuNjzlFU-tw57LS76",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A6XFoLTM5SoGnBnXci1",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A8BN2IWJUdWcvc-bvHW",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A8l4YU77iFABslpcbbP",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ABj-GoMLQewvlRo1g2U",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ACLvIPG7Oqc7seltoMI",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ACvzMWLDjhjo0MGdbyG",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AEXDIH7W35Q_SJcJ73R",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AMSzTfEa5GVL31SUaHy",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AO04y7jBBiwHKF2gTwG",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AONyZQLdOXYGREM1Ifk",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ASq26P2o5-stwz8MsAm",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AWLaMJx_MpaTOJnn8cG",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A_UhRKOka6jIAs6lQzh",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AcYwEw7S-FqiJZuXtmY",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AevshoTZaS3Opu5Sc04",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AkkLbF2qKoQ2KoqFvwL",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AlZcPJeXrO5Upq1llt4",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"Am9p-C8YCT0z73Ik4PY",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"Anapfo6Oytg7up9KlCr",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ApcSEkNY6t4Pd37zvCd",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AsL5IuhBa0TtKwqT8eE",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"At0Vs7oqfP_woCD-sa7",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AtmuAGMGYA-KzjZ64VW",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AzfHqpu0idwo_BM1fXL"
+  "blue_reels_play_count : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"A6PVcPqYl",
+  "blue_reels_play_count : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"AGikkM02B",
+  "blue_reels_play_count : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"A_D0httaj",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A2sc5UTQM53uNwv5bkh",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A3RVHSXeIPiKHdSNUZK",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A3bGZ6FwNMgRtLalWZG",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A5_668ua8Bw3XZ3xaL-",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A7pCZLml7nlT2YZire6",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A95BYTIKQhSaX4m8y-c",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ABqywmq29lc7NaKe0Lm",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AERQlx6FoGlH2iTHRok",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AFAl6P_e_vj7Bs8voTU",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AJvNfFO_F8sWkeDXcSe",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ALQT6ArI7jVjYRCzz9i",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AMrHgkRYo1UJ7Xw6lMu",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AOwSPIDZcAlyKO_pnNH",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AS7JR_mtRP9Lh26SVtP",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"Aajsvja-ERtNncDtuE0",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"Ab1HgKSmJAmUU2-ymDM",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AbkcHtgvf1FJip2PdrZ",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AfF1OhzqczqnNhFmuF0",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"Ai_zoce_9zC8gsQehJg",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"Al1ev3aDE8DAXVeeLgM",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AqsNn00jJcuMjWM_Cbo",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"At2dd0uXtvdHTwgsCrW",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AtVMV8s70MNzHfOYDjQ",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AtXe5qTopUQ0MJx7aYq",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"Ax92IT615iKgmqlMrj1",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"Az3oyse86q_U4xd6kTW",
+  "post_impressions_unique : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"AGMzd6ohj",
+  "post_impressions_unique : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"AL45m4H9i",
+  "post_impressions_unique : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"Agm09lQBE",
+  "post_impressions_unique : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"Amv5FC450",
+  "post_video_followers : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"AIIEfD6JY",
+  "post_video_followers : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"AwzBVzF-c",
+  "post_video_likes_by_reaction_type : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"AAeBQesuu",
+  "post_video_likes_by_reaction_type : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"AB6rCNv-b",
+  "post_video_likes_by_reaction_type : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"ADCU6MZEE",
+  "post_video_likes_by_reaction_type : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"AdIUWh-LG",
+  "post_video_likes_by_reaction_type : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"Au-BGQU_z",
+  "post_video_social_actions : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"ABqBeP41u",
+  "post_video_social_actions : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"AED_9qX1x",
+  "post_video_social_actions : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"ASfJ6Ca26",
+  "post_video_social_actions : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"AZ8DVrTg1",
+  "post_video_social_actions : 429 video_insights : {\"error\":{\"message\":\"An error has occurred. No further information is available.\",\"type\":\"TooManyRequestsException\",\"fbtrace_id\":\"As-vBdnCa"
  ]
 }

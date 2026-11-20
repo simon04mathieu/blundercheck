@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-19T17:35:27Z",
+ "releve": "2026-11-20T17:37:09Z",
  "compte": "blundercheckapp",
  "abonnes": 6,
  "publications": [
+  {
+   "id": "17891358948620809",
+   "caption": "Quel pion prend ? 👇 Seul 1.exf6 ! gagne : 1.exf6 gxf6 2.g6 et le pion file à dam",
+   "comments_count": 0,
+   "like_count": 17,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/Df96QpNE4ZX/",
+   "timestamp": "2026-11-20T14:51:10+0000",
+   "insights": {
+    "views": 1960,
+    "reach": 1189,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 17
+   }
+  },
+  {
+   "id": "18137094961672751",
+   "caption": "Tu prends, ou tu pousses ? 👇 Seul 1.c6 ! gagne : 1...dxc6 2.dxe6 et le pion file",
+   "comments_count": 0,
+   "like_count": 2,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/Df7rcuujb1g/",
+   "timestamp": "2026-11-19T18:03:21+0000",
+   "insights": {
+    "views": 226,
+    "reach": 149,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 2
+   }
+  },
   {
    "id": "18118733810122664",
    "caption": "Quel pion tu pousses ? 👇 Seul 1.d6 ! gagne : 1...cxd6 2.cxb6 et le pion file à d",
@@ -44,8 +76,8 @@
    "permalink": "https://www.instagram.com/reel/Df4d45HAdkJ/",
    "timestamp": "2026-11-18T12:07:05+0000",
    "insights": {
-    "views": 2759,
-    "reach": 1632,
+    "views": 2761,
+    "reach": 1634,
     "shares": 0,
     "saved": 1,
     "total_interactions": 20
@@ -449,38 +481,6 @@
     "shares": 0,
     "saved": 0,
     "total_interactions": 0
-   }
-  },
-  {
-   "id": "18091972529700538",
-   "caption": "Il a pris ton cavalier. Ne reprends pas ! 😈 Tu aurais repris ? 👇 Piège de vraies",
-   "comments_count": 0,
-   "like_count": 1,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfXbP33lAor/",
-   "timestamp": "2026-11-05T16:09:05+0000",
-   "insights": {
-    "views": 145,
-    "reach": 117,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 1
-   }
-  },
-  {
-   "id": "18211545955367206",
-   "caption": "Ton roi peut-il rattraper les deux pions ? 🤯 Tu aurais trouvé Rg7 ? 👇 Étude de R",
-   "comments_count": 0,
-   "like_count": 1,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfVRQl2CdhK/",
-   "timestamp": "2026-11-04T20:03:15+0000",
-   "insights": {
-    "views": 173,
-    "reach": 131,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 1
    }
   }
  ],
