@@ -20,15 +20,15 @@
    "texte": "Le pion e !"
   },
   {
-   "t": 3.66,
+   "t": 3.84,
    "texte": "Il reprend, ton pion g saute en g6, et il file à la promotion  son roi est trop loin."
   },
   {
-   "t": 11.58,
+   "t": 11.54,
    "texte": "Si tu prends avec le pion g, il rattrape ton dernier pion."
   },
   {
-   "t": 16.1,
+   "t": 16.16,
    "texte": "Alors, quand son pion en vise deux, demande-toi "
   }
  ],
@@ -44,12 +44,12 @@
    "badge": "brillant"
   },
   {
-   "t": 3.92,
+   "t": 3.9,
    "coup": "gxf6",
    "badge": null
   },
   {
-   "t": 5.56,
+   "t": 5.72,
    "coup": "g6",
    "badge": "brillant"
   }
@@ -77,27 +77,27 @@
    "type": "coup"
   },
   {
-   "t": 0.88,
+   "t": 3.84,
    "type": "zoom"
   },
   {
-   "t": 3.92,
+   "t": 3.9,
    "type": "coup"
   },
   {
-   "t": 5.56,
+   "t": 5.72,
    "type": "coup"
   },
   {
-   "t": 7.74,
+   "t": 8.16,
    "type": "fleches"
   },
   {
-   "t": 8.72,
+   "t": 8.74,
    "type": "sticker"
   },
   {
-   "t": 10.4,
+   "t": 10.42,
    "type": "sticker"
   },
   {
@@ -109,15 +109,19 @@
    "type": "fleches"
   },
   {
-   "t": 13.46,
+   "t": 13.36,
    "type": "sticker"
   },
   {
-   "t": 17.58,
+   "t": 14.08,
+   "type": "fleches"
+  },
+  {
+   "t": 16.92,
    "type": "sticker"
   },
   {
-   "t": 18.31,
+   "t": 18.52,
    "type": "sticker"
   }
  ],
