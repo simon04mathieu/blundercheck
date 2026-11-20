@@ -1153,3 +1153,6 @@
 ### commandes/perso_pions_fourchette_d4_1.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/pions_fourchette_d4_1.mp4 {"voix_brute_s": 19.0, "tempo": 1.0, "video_s": 19.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "investigations.mp3", "mots_transcrits": 50, "minutage": "6 phrases, 4 coups, 0 pauses"}
+### commandes/perso_pions_fourchette_d4_1_fr.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pions_fourchette_d4_1_fr.mp4 {"voix_brute_s": 18.8, "tempo": 1.0, "video_s": 18.8, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "corny_candy.mp3", "mots_transcrits": 51, "minutage": "5 phrases, 4 coups, 0 pauses"}

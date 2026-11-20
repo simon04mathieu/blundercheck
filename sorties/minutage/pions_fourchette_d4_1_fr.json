@@ -20,11 +20,11 @@
    "texte": "Le pion e !"
   },
   {
-   "t": 3.92,
+   "t": 3.9,
    "texte": "Il reprend, tu reprends en d4 et ton pion file à la promotion : son roi est trop loin."
   },
   {
-   "t": 11.54,
+   "t": 11.58,
    "texte": "Si tu prends avec le pion c, son pion c file aussi."
   },
   {
@@ -113,7 +113,7 @@
    "type": "sticker"
   },
   {
-   "t": 16.86,
+   "t": 16.06,
    "type": "sticker"
   },
   {
