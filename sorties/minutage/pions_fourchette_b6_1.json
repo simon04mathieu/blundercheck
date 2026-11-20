@@ -4,7 +4,7 @@
  "duree_s": 17.42,
  "hook": {
   "texte": "Which of the two|takes?",
-  "fin": 2.02
+  "fin": 2.06
  },
  "question": {
   "texte": "Which of the two|takes?",
@@ -16,11 +16,11 @@
    "texte": "Which of the two takes?"
   },
   {
-   "t": 2.02,
+   "t": 2.06,
    "texte": "The c-pawn!"
   },
   {
-   "t": 3.52,
+   "t": 3.48,
    "texte": "Now your a-pawn guards it his king can't touch it and yours walks in."
   },
   {
@@ -28,7 +28,7 @@
    "texte": "Take with the a-pawn and his king takes your pawn only a draw."
   },
   {
-   "t": 14.02,
+   "t": 14.0,
    "texte": "So when two pawns share one target, ask yourself"
   }
  ],
@@ -39,7 +39,7 @@
    "badge": null
   },
   {
-   "t": 2.02,
+   "t": 2.06,
    "coup": "cxb6",
    "badge": "brillant"
   },
@@ -73,11 +73,11 @@
    "type": "sticker"
   },
   {
-   "t": 2.02,
+   "t": 2.06,
    "type": "coup"
   },
   {
-   "t": 2.02,
+   "t": 2.06,
    "type": "zoom"
   },
   {
@@ -113,11 +113,15 @@
    "type": "sticker"
   },
   {
-   "t": 15.26,
+   "t": 12.22,
+   "type": "fleches"
+  },
+  {
+   "t": 14.44,
    "type": "sticker"
   },
   {
-   "t": 16.58,
+   "t": 16.6,
    "type": "sticker"
   }
  ],
