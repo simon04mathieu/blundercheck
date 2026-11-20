@@ -219,3 +219,5 @@ jeton Threads renouvelé (valable 60 jours)
 {"reseau": "threads", "id": "18122702299758144"}
 ### 2026-11-20 11:34 publications/threads/pions_fourchette_f6_1.json
 {"reseau": "threads", "id": "18149468383577317"}
+### 2026-11-20 14:52 publications/threads/pions_fourchette_g4_1.json
+{"reseau": "threads", "id": "18582100771074972"}
