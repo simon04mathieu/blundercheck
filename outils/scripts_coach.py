@@ -1956,3 +1956,36 @@ QUESTIONS.update({
     "percee_b_d_1_fr": "Quel pion|tu pousses ?",
     "pion_c6_push_1_fr": "Tu prends,|ou tu pousses ?",
 })
+
+# 20/11 (Producteur) : file du Scénariste du 19/11 (variantes des hits « pawn hits two » / « pawn forks two ») ; lignes revérifiées python-chess + Stockfish 16 natif d22 (tous les coups blancs, toutes les réponses noires) ; RÉTENTION seule
+F6A = "fen:8/5pp1/2k5/4P1P1/8/8/8/7K_b_-_-_0_1"             # avant …f7-f6 ; 1.exf6! +34,8 (toutes réponses perdent) ; gxf6 = 0 ; autres ≈ −8 à −36
+F6B = "fen:8/6p1/2k2p2/4P1P1/8/8/8/7K_w_-_-_0_2"
+G4A = "fen:8/8/5K2/6pp/8/5P1P/8/k7_b_-_-_0_1"               # avant …g5-g4 ; 1.fxg4! +35,2 (toutes réponses perdent) ; hxg4 = 0 ; autres ≈ −33 à −35
+G4B = "fen:8/8/5K2/7p/6p1/5P1P/8/k7_w_-_-_0_2"
+D4A = "fen:8/4K3/8/2pp4/8/2P1P3/6k1/8_b_-_-_0_1"             # avant …d5-d4 ; 1.exd4! +35,4 (toutes réponses perdent) ; cxd4 = 0 ; autres perdent
+D4B = "fen:8/4K3/8/2p5/3p4/2P1P3/6k1/8_w_-_-_0_2"
+B6A = "fen:8/1p1p4/k7/P1P5/1K6/8/8/8_b_-_-_0_1"              # avant …b7-b6 ; 1.cxb6! +43 (3 réponses, toutes perdent) ; axb6 = 0 ; autres ≈ −33
+B6B = "fen:8/3p4/kp6/P1P5/1K6/8/8/8_w_-_-_0_2"
+_S = {
+"pions_fourchette_f6_1": ("blancs", "Which pawn|takes?",
+"""[p """ + F6A + """] Which [m f6] pawn [f f6e5 f6g5] [s tag f6 1.6 WHICH_PAWN?] takes? [h] [m exf6 brillant] [z f6 1.3 2.0] The e-pawn! He [m gxf6] takes back, your g-pawn [m g6 brillant] jumps to g6, [f g6g8] and it [s tag g8 1.6 IT_RUNS_HOME] runs home: his king [s tag c6 1.6 KING_TOO_FAR] is too far. [x ding] Take [p """ + F6B + """] with [f g5f6] the g-pawn, and [s tag f6 1.8 ONLY_A_DRAW] he catches your last pawn. So when his pawn [s tag f6 1.6 ATTACKS_TWO] forks two of yours, [s tag e5 1.4 WHICH_ONE?] ask yourself:"""),
+"pions_fourchette_g4_1": ("blancs", "Which one|takes?",
+"""[p """ + G4A + """] Which [m g4] one [f g4f3 g4h3] [s tag g4 1.6 WHICH_ONE?] takes? [h] [m fxg4 brillant] [z g4 1.3 2.0] The f-pawn! He [m hxg4] takes back, you [m hxg4 brillant] take again on g4, [f g4g8] and your pawn [s tag g8 1.6 IT_RUNS_HOME] runs home: his king [s tag a1 1.6 KING_TOO_FAR] is too far. [x ding] Take [p """ + G4B + """] with [f h3g4] the h-pawn, and [s tag h5 1.8 ONLY_A_DRAW] his pawn runs too. So when he hits [s tag g4 1.6 HITS_TWO] two pawns at once, [s tag f3 1.4 WHICH_ONE?] ask yourself:"""),
+"pions_fourchette_d4_1": ("blancs", "Take with|which pawn?",
+"""[p """ + D4A + """] Take [m d4] with [f d4c3 d4e3] which [s tag d4 1.6 WHICH_PAWN?] pawn? [h] [m exd4 brillant] [z d4 1.3 2.0] The e-pawn! He [m cxd4] takes back, you [m cxd4 brillant] take again, [f d4d8] and your pawn [s tag d8 1.6 IT_RUNS_HOME] runs home: his king [s tag g2 1.6 KING_TOO_FAR] is too far. [x ding] Take [p """ + D4B + """] with [f c3d4] the c-pawn, and [s tag c5 1.8 ONLY_A_DRAW] his c-pawn runs too. Analyze your [s tag d4 1.6 YOUR_GAME] own game, free. So when a pawn steps in [s tag d4 1.6 HITS_TWO] and hits two, [s tag e3 1.4 WHICH_ONE?] ask yourself:"""),
+"pions_fourchette_b6_1": ("blancs", "Which of the two|takes?",
+"""[p """ + B6A + """] Which of [m b6] the two [f b6a5 b6c5] [s tag b6 1.6 WHICH_ONE?] takes? [h] [m cxb6 brillant] [z b6 1.3 2.0] The c-pawn! Now your a-pawn [f a5b6] guards it, [s tag b6 1.6 A-PAWN_GUARDS_IT] his king [m Kb7] can't touch it, and yours [m Kb5] walks in. [s tag b7 1.6 KING_STUCK] [x ding] Take [p """ + B6B + """] with [f a5b6] the a-pawn, and his king [s tag b6 1.8 ONLY_A_DRAW] takes your pawn: only a draw. So when two pawns [s tag b6 1.6 ONE_TARGET] share one target, [s tag c5 1.4 WHICH_ONE?] ask yourself:"""),
+"pions_fourchette_f6_1_fr": ("blancs", "Quel pion|prend ?",
+"""[p """ + F6A + """] Quel [m f6] pion prend [f f6e5 f6g5] [s tag f6 1.6 QUEL_PION_?] ? [h] [m exf6 brillant] [z f6 1.3 2.0] Le pion e ! Il [m gxf6] reprend, ton pion g [m g6 brillant] saute en g6, [f g6g8] et il file [s tag g8 1.6 IL_FILE] à la promotion : son roi [s tag c6 1.6 ROI_TROP_LOIN] est trop loin. [x ding] Si tu [p """ + F6B + """] prends [f g5f6] avec le pion g, [s tag f6 1.8 NULLE_SEULEMENT] il rattrape ton dernier pion. Alors, quand son pion [s tag f6 1.6 EN_VISE_DEUX] en vise deux, [s tag e5 1.4 LEQUEL_?] demande-toi :"""),
+"pions_fourchette_d4_1_fr": ("blancs", "Avec quel pion|tu prends ?",
+"""[p """ + D4A + """] Avec [m d4] quel pion [f d4c3 d4e3] [s tag d4 1.6 QUEL_PION_?] tu prends ? [h] [m exd4 brillant] [z d4 1.3 2.0] Le pion e ! Il [m cxd4] reprend, tu [m cxd4 brillant] reprends en d4, [f d4d8] et ton pion [s tag d8 1.6 IL_FILE] file à la promotion : son roi [s tag g2 1.6 ROI_TROP_LOIN] est trop loin. [x ding] Si tu [p """ + D4B + """] prends [f c3d4] avec le pion c, [s tag c5 1.8 NULLE_SEULEMENT] son pion c file aussi. Alors, quand il pousse [s tag d4 1.6 VISE_DEUX] et vise deux pions, [s tag e3 1.4 LEQUEL_?] demande-toi :"""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
+QUESTIONS.update({
+    "pions_fourchette_f6_1": "Which pawn|takes?",
+    "pions_fourchette_g4_1": "Which one|takes?",
+    "pions_fourchette_d4_1": "Analyze your game|blundercheck.app/try",
+    "pions_fourchette_b6_1": "Which of the two|takes?",
+    "pions_fourchette_f6_1_fr": "Quel pion|prend ?",
+    "pions_fourchette_d4_1_fr": "Avec quel pion|tu prends ?",
+})
