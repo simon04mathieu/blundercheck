@@ -1,0 +1,125 @@
+{
+ "nom": "pions_fourchette_f6_1_fr",
+ "tempo": 1.0,
+ "duree_s": 19.28,
+ "hook": {
+  "texte": "Quel pion|prend ?",
+  "fin": 0.88
+ },
+ "question": {
+  "texte": "Quel pion|prend ?",
+  "t": 16.08
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Quel pion prend ?"
+  },
+  {
+   "t": 0.88,
+   "texte": "Le pion e !"
+  },
+  {
+   "t": 3.66,
+   "texte": "Il reprend, ton pion g saute en g6, et il file à la promotion  son roi est trop loin."
+  },
+  {
+   "t": 11.58,
+   "texte": "Si tu prends avec le pion g, il rattrape ton dernier pion."
+  },
+  {
+   "t": 16.1,
+   "texte": "Alors, quand son pion en vise deux, demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.22,
+   "coup": "f6",
+   "badge": null
+  },
+  {
+   "t": 0.88,
+   "coup": "exf6",
+   "badge": "brillant"
+  },
+  {
+   "t": 3.92,
+   "coup": "gxf6",
+   "badge": null
+  },
+  {
+   "t": 5.56,
+   "coup": "g6",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.22,
+   "type": "coup"
+  },
+  {
+   "t": 0.88,
+   "type": "fleches"
+  },
+  {
+   "t": 0.88,
+   "type": "sticker"
+  },
+  {
+   "t": 0.88,
+   "type": "coup"
+  },
+  {
+   "t": 0.88,
+   "type": "zoom"
+  },
+  {
+   "t": 3.92,
+   "type": "coup"
+  },
+  {
+   "t": 5.56,
+   "type": "coup"
+  },
+  {
+   "t": 7.74,
+   "type": "fleches"
+  },
+  {
+   "t": 8.72,
+   "type": "sticker"
+  },
+  {
+   "t": 10.4,
+   "type": "sticker"
+  },
+  {
+   "t": 11.87,
+   "type": "position"
+  },
+  {
+   "t": 12.16,
+   "type": "fleches"
+  },
+  {
+   "t": 13.46,
+   "type": "sticker"
+  },
+  {
+   "t": 17.58,
+   "type": "sticker"
+  },
+  {
+   "t": 18.31,
+   "type": "sticker"
+  }
+ ],
+ "musique": "got_him_from_behind.mp3"
+}
