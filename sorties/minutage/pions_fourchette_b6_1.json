@@ -1,0 +1,125 @@
+{
+ "nom": "pions_fourchette_b6_1",
+ "tempo": 1.0,
+ "duree_s": 17.42,
+ "hook": {
+  "texte": "Which of the two|takes?",
+  "fin": 2.02
+ },
+ "question": {
+  "texte": "Which of the two|takes?",
+  "t": 14.22
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which of the two takes?"
+  },
+  {
+   "t": 2.02,
+   "texte": "The c-pawn!"
+  },
+  {
+   "t": 3.52,
+   "texte": "Now your a-pawn guards it his king can't touch it and yours walks in."
+  },
+  {
+   "t": 8.84,
+   "texte": "Take with the a-pawn and his king takes your pawn only a draw."
+  },
+  {
+   "t": 14.02,
+   "texte": "So when two pawns share one target, ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.34,
+   "coup": "b6",
+   "badge": null
+  },
+  {
+   "t": 2.02,
+   "coup": "cxb6",
+   "badge": "brillant"
+  },
+  {
+   "t": 5.8,
+   "coup": "Kb7",
+   "badge": null
+  },
+  {
+   "t": 7.28,
+   "coup": "Kb5",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.34,
+   "type": "coup"
+  },
+  {
+   "t": 0.66,
+   "type": "fleches"
+  },
+  {
+   "t": 0.66,
+   "type": "sticker"
+  },
+  {
+   "t": 2.02,
+   "type": "coup"
+  },
+  {
+   "t": 2.02,
+   "type": "zoom"
+  },
+  {
+   "t": 4.54,
+   "type": "fleches"
+  },
+  {
+   "t": 5.4,
+   "type": "sticker"
+  },
+  {
+   "t": 5.8,
+   "type": "coup"
+  },
+  {
+   "t": 7.28,
+   "type": "coup"
+  },
+  {
+   "t": 8.84,
+   "type": "sticker"
+  },
+  {
+   "t": 9.03,
+   "type": "position"
+  },
+  {
+   "t": 9.26,
+   "type": "fleches"
+  },
+  {
+   "t": 10.76,
+   "type": "sticker"
+  },
+  {
+   "t": 15.26,
+   "type": "sticker"
+  },
+  {
+   "t": 16.58,
+   "type": "sticker"
+  }
+ ],
+ "musique": "corny_candy.mp3"
+}
