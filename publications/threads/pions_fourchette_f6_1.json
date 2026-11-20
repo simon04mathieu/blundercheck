@@ -1,0 +1,27 @@
+{
+ "legende": "Which pawn takes? 👇 Only 1.exf6! wins: 1.exf6 gxf6 2.g6 and the pawn runs home. 1.gxf6 is just a draw (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-20T10:00:00+01:00",
+ "fichier": "sorties/pions_fourchette_f6_1.mp4",
+ "concept": "pions_fourchette_f6",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 17.62,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 18,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "pion_fourchette_f6",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "quel_pion_prend",
+  "pieces": 6,
+  "look": "emeraude",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

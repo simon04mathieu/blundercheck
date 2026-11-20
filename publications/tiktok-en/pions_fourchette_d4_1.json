@@ -1,0 +1,31 @@
+{
+ "legende": "Take with which pawn? 👇 Only 1.exd4! wins: 1.exd4 cxd4 2.cxd4 and the pawn runs home. 1.cxd4 c4 is just a draw (Stockfish 16, composed position). One new puzzle every day. Analyze your own game: blundercheck.app/try #chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-20T08:00:00+01:00",
+ "heure_conseillee": "2026-11-20T16:00:00+01:00",
+ "repere": "16 h · pions_fourchette_d4_1 · 19.0 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/pions_fourchette_d4_1.mp4",
+ "concept": "pions_fourchette_d4",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 19.0,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 19,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "oui",
+  "fin": "boucle",
+  "motif": "pion_fourchette_d4",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "quel_pion_prend",
+  "pieces": 6,
+  "look": "bois",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

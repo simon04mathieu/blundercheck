@@ -1,0 +1,28 @@
+{
+ "legende": "Avec quel pion tu prends ? 👇 Seul 1.exd4 ! gagne : 1.exd4 cxd4 2.cxd4 et le pion file à dame. 1.cxd4 c4 n'est qu'une nulle (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nAnalyse ta partie gratuitement : lien en bio\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-20T19:00:00+01:00",
+ "fichier": "sorties/pions_fourchette_d4_1_fr.mp4",
+ "concept": "pions_fourchette_d4",
+ "format": "FINALE",
+ "langue": "fr",
+ "duree": 18.92,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "fr",
+  "duree_s": 19,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "pion_fourchette_d4",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "quel_pion_prend",
+  "pieces": 6,
+  "look": "mono",
+  "fx": "fleches+zoom+tag+ding"
+ },
+ "paire": "pions_fourchette_d4_1"
+}
