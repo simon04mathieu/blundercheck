@@ -206,3 +206,5 @@
 {"reseau": "facebook", "id": "1102292866143779", "ok": true}
 ### 2026-11-19 18:03 publications/facebook/pion_f6_push_1.json
 {"reseau": "facebook", "id": "1645502007256915", "ok": true}
+### 2026-11-20 11:33 publications/facebook/pions_fourchette_f6_1.json
+{"reseau": "facebook", "id": "2585595105608790", "ok": true}
