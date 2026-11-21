@@ -1187,3 +1187,6 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/sous_promotion_d8_1.mp4 {"voix_brute_s": 18.3, "tempo": 1.0, "video_s": 18.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "fluffing_a_duck.mp3", "mots_transcrits": 38, "minutage": "7 phrases, 4 coups, 0 pauses"}
+### commandes/perso_sous_promotion_d8_1_fr.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/sous_promotion_d8_1_fr.mp4 {"voix_brute_s": 17.2, "tempo": 1.0, "video_s": 17.2, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 37, "minutage": "6 phrases, 4 coups, 0 pauses"}

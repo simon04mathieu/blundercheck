@@ -4,7 +4,7 @@
  "duree_s": 17.34,
  "hook": {
   "texte": "Dame|ou cavalier ?",
-  "fin": 1.72
+  "fin": 1.8
  },
  "question": {
   "texte": "Dame|ou cavalier ?",
@@ -16,11 +16,11 @@
    "texte": "Dame ou cavalier ?"
   },
   {
-   "t": 1.72,
+   "t": 1.8,
    "texte": "Cavalier !"
   },
   {
-   "t": 3.28,
+   "t": 3.34,
    "texte": "Il fait échec au roi le roi s'écarte et sa dame tombe."
   },
   {
@@ -32,18 +32,18 @@
    "texte": "Il te fait échec sans fin : nulle seulement."
   },
   {
-   "t": 13.74,
+   "t": 13.76,
    "texte": "Alors, quand un pion arrive au bout, demande-toi "
   }
  ],
  "coups": [
   {
-   "t": 0.36,
+   "t": 0.34,
    "coup": "Qb7",
    "badge": null
   },
   {
-   "t": 1.72,
+   "t": 1.8,
    "coup": "d8=N+",
    "badge": "brillant"
   },
@@ -65,7 +65,7 @@
    "type": "position"
   },
   {
-   "t": 0.36,
+   "t": 0.34,
    "type": "coup"
   },
   {
@@ -77,11 +77,11 @@
    "type": "sticker"
   },
   {
-   "t": 1.72,
+   "t": 1.8,
    "type": "coup"
   },
   {
-   "t": 1.72,
+   "t": 1.8,
    "type": "zoom"
   },
   {
@@ -101,7 +101,7 @@
    "type": "sticker"
   },
   {
-   "t": 9.75,
+   "t": 8.35,
    "type": "position"
   },
   {
@@ -110,6 +110,10 @@
   },
   {
    "t": 10.8,
+   "type": "fleches"
+  },
+  {
+   "t": 12.03,
    "type": "sticker"
   },
   {
