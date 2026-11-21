@@ -1167,3 +1167,6 @@
     voix générée : 160 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/pat_tour_b8_1.mp4 {"voix_brute_s": 14.2, "tempo": 1.0, "video_s": 14.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "zoobeedoo.mp3", "mots_transcrits": 32, "minutage": "5 phrases, 3 coups, 0 pauses"}
+### commandes/perso_pions_pousser_h6_1.json
+    voix générée : 161 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pions_pousser_h6_1.mp4 {"voix_brute_s": 13.3, "tempo": 1.0, "video_s": 13.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "kitty_down_the_stairs.mp3", "mots_transcrits": 33, "minutage": "5 phrases, 4 coups, 0 pauses"}

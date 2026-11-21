@@ -1,0 +1,125 @@
+{
+ "nom": "pions_pousser_h6_1",
+ "tempo": 1.0,
+ "duree_s": 13.38,
+ "hook": {
+  "texte": "Push,|or take?",
+  "fin": 1.94
+ },
+ "question": {
+  "texte": "Push,|or take?",
+  "t": 10.18
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Push, or take?"
+  },
+  {
+   "t": 1.94,
+   "texte": "Push!"
+  },
+  {
+   "t": 3.02,
+   "texte": "Your pawn runs home and his king is too far."
+  },
+  {
+   "t": 6.26,
+   "texte": "Take his pawn and he takes back it's only a draw."
+  },
+  {
+   "t": 10.66,
+   "texte": "So when his pawn hits yours ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.32,
+   "coup": "g6",
+   "badge": null
+  },
+  {
+   "t": 1.94,
+   "coup": "h6",
+   "badge": "brillant"
+  },
+  {
+   "t": 3.42,
+   "coup": "Ke6",
+   "badge": null
+  },
+  {
+   "t": 4.06,
+   "coup": "h7",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.32,
+   "type": "coup"
+  },
+  {
+   "t": 0.78,
+   "type": "fleches"
+  },
+  {
+   "t": 0.78,
+   "type": "sticker"
+  },
+  {
+   "t": 1.94,
+   "type": "coup"
+  },
+  {
+   "t": 1.94,
+   "type": "zoom"
+  },
+  {
+   "t": 3.42,
+   "type": "coup"
+  },
+  {
+   "t": 3.72,
+   "type": "fleches"
+  },
+  {
+   "t": 4.06,
+   "type": "coup"
+  },
+  {
+   "t": 4.76,
+   "type": "sticker"
+  },
+  {
+   "t": 6.51,
+   "type": "position"
+  },
+  {
+   "t": 7.02,
+   "type": "fleches"
+  },
+  {
+   "t": 7.54,
+   "type": "sticker"
+  },
+  {
+   "t": 9.12,
+   "type": "fleches"
+  },
+  {
+   "t": 11.46,
+   "type": "sticker"
+  },
+  {
+   "t": 12.56,
+   "type": "sticker"
+  }
+ ],
+ "musique": "kitty_down_the_stairs.mp3"
+}
