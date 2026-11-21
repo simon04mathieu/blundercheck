@@ -4,7 +4,7 @@
  "duree_s": 16.86,
  "hook": {
   "texte": "Tu prends|sa tour ?",
-  "fin": 1.46
+  "fin": 1.74
  },
  "question": {
   "texte": "Tu prends|sa tour ?",
@@ -16,11 +16,11 @@
    "texte": "Tu prends sa tour ?"
   },
   {
-   "t": 1.46,
+   "t": 1.74,
    "texte": "Non !"
   },
   {
-   "t": 2.5,
+   "t": 2.42,
    "texte": "Fou en e3 échec !"
   },
   {
@@ -28,11 +28,11 @@
    "texte": "Son roi s'écarte et sa tour tombe."
   },
   {
-   "t": 8.36,
+   "t": 8.26,
    "texte": "Si tu prends tout de suite son pion devient dame  nulle seulement."
   },
   {
-   "t": 13.72,
+   "t": 13.56,
    "texte": "Alors, quand ta tour est en prise, demande-toi "
   }
  ],
@@ -43,7 +43,7 @@
    "badge": null
   },
   {
-   "t": 1.46,
+   "t": 1.74,
    "coup": "Be3+",
    "badge": "brillant"
   },
@@ -69,20 +69,24 @@
    "type": "coup"
   },
   {
-   "t": 0.52,
+   "t": 0.5,
    "type": "fleches"
   },
   {
-   "t": 0.52,
+   "t": 0.5,
    "type": "sticker"
   },
   {
-   "t": 1.46,
+   "t": 1.74,
    "type": "coup"
   },
   {
-   "t": 1.46,
+   "t": 1.74,
    "type": "zoom"
+  },
+  {
+   "t": 3.84,
+   "type": "fleches"
   },
   {
    "t": 5.48,
@@ -97,11 +101,11 @@
    "type": "sticker"
   },
   {
-   "t": 8.36,
+   "t": 8.26,
    "type": "fleches"
   },
   {
-   "t": 8.36,
+   "t": 8.26,
    "type": "sticker"
   },
   {
@@ -113,7 +117,11 @@
    "type": "fleches"
   },
   {
-   "t": 10.2,
+   "t": 10.54,
+   "type": "fleches"
+  },
+  {
+   "t": 11.89,
    "type": "sticker"
   },
   {
@@ -121,7 +129,7 @@
    "type": "sticker"
   },
   {
-   "t": 16.06,
+   "t": 16.08,
    "type": "sticker"
   }
  ],
