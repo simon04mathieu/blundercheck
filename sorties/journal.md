@@ -1170,3 +1170,6 @@
 ### commandes/perso_pions_pousser_h6_1.json
     voix générée : 161 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pions_pousser_h6_1.mp4 {"voix_brute_s": 13.3, "tempo": 1.0, "video_s": 13.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "kitty_down_the_stairs.mp3", "mots_transcrits": 33, "minutage": "5 phrases, 4 coups, 0 pauses"}
+### commandes/perso_sous_promotion_d8_1.json
+    voix générée : 205 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/sous_promotion_d8_1.mp4 {"voix_brute_s": 18.3, "tempo": 1.0, "video_s": 18.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "fluffing_a_duck.mp3", "mots_transcrits": 38, "minutage": "7 phrases, 4 coups, 0 pauses"}

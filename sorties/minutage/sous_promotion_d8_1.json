@@ -1,0 +1,133 @@
+{
+ "nom": "sous_promotion_d8_1",
+ "tempo": 1.0,
+ "duree_s": 18.34,
+ "hook": {
+  "texte": "Queen,|or knight?",
+  "fin": 2.3
+ },
+ "question": {
+  "texte": "Analyze your game|blundercheck.app/try",
+  "t": 15.14
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Queen, or knight?"
+  },
+  {
+   "t": 2.3,
+   "texte": "Knight!"
+  },
+  {
+   "t": 3.4,
+   "texte": "It checks the king he steps away and his queen falls."
+  },
+  {
+   "t": 7.94,
+   "texte": "Queen?"
+  },
+  {
+   "t": 9.28,
+   "texte": "He checks you forever only a draw."
+  },
+  {
+   "t": 12.34,
+   "texte": "Analyze your own game free."
+  },
+  {
+   "t": 15.1,
+   "texte": "So when a pawn reaches the last rank, ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.3,
+   "coup": "Qb7",
+   "badge": null
+  },
+  {
+   "t": 2.3,
+   "coup": "d8=N+",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.7,
+   "coup": "Kf8",
+   "badge": null
+  },
+  {
+   "t": 5.9,
+   "coup": "Nxb7",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.3,
+   "type": "coup"
+  },
+  {
+   "t": 0.8,
+   "type": "fleches"
+  },
+  {
+   "t": 0.8,
+   "type": "sticker"
+  },
+  {
+   "t": 2.3,
+   "type": "coup"
+  },
+  {
+   "t": 2.3,
+   "type": "zoom"
+  },
+  {
+   "t": 3.8,
+   "type": "fleches"
+  },
+  {
+   "t": 4.7,
+   "type": "coup"
+  },
+  {
+   "t": 5.9,
+   "type": "coup"
+  },
+  {
+   "t": 5.9,
+   "type": "sticker"
+  },
+  {
+   "t": 9.23,
+   "type": "position"
+  },
+  {
+   "t": 9.4,
+   "type": "fleches"
+  },
+  {
+   "t": 9.66,
+   "type": "sticker"
+  },
+  {
+   "t": 13.08,
+   "type": "sticker"
+  },
+  {
+   "t": 15.46,
+   "type": "sticker"
+  },
+  {
+   "t": 17.54,
+   "type": "sticker"
+  }
+ ],
+ "musique": "fluffing_a_duck.mp3"
+}
