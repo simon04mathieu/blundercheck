@@ -6,6 +6,11 @@ on:
     branches: [videos]
     paths: ["publications/instagram/*.json", "publications/facebook/*.json", "publications/threads/*.json", "publications/instagram-en/*.json"]
   workflow_dispatch:
+    inputs:
+      verif:
+        description: "Vérifier les secrets (ne publie rien). Décoché par défaut : le Worker Cloudflare lance sans cette entrée."
+        type: boolean
+        default: false
   schedule:
     - cron: "17 * * * *"
     - cron: "*/10 * * * *"   # 21/11 (audit des envois) : toutes les 10 min toute la journée, en attendant le Worker Cloudflare
@@ -21,8 +26,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: { ref: videos }
-      - name: Vérification des secrets (lancement à la main seulement, ne publie rien)
-        if: github.event_name == 'workflow_dispatch'
+      - name: Vérification des secrets (lancement à la main avec « verif » coché, ne publie rien)
+        if: github.event_name == 'workflow_dispatch' && inputs.verif
         env:
           META_TOKEN: ${{ secrets.META_TOKEN }}
           META_IG_ID: ${{ secrets.META_IG_ID }}
