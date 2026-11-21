@@ -1162,3 +1162,8 @@
 ### commandes/perso_pions_fourchette_f6_1_fr.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/pions_fourchette_f6_1_fr.mp4 {"voix_brute_s": 19.9, "tempo": 1.0, "video_s": 19.9, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "got_him_from_behind.mp3", "mots_transcrits": 47, "minutage": "5 phrases, 4 coups, 0 pauses"}
+## 2026-11-21 00:04 UTC · run 44841248967
+### commandes/perso_pat_tour_b8_1.json
+    voix générée : 160 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pat_tour_b8_1.mp4 {"voix_brute_s": 14.2, "tempo": 1.0, "video_s": 14.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "zoobeedoo.mp3", "mots_transcrits": 32, "minutage": "5 phrases, 3 coups, 0 pauses"}

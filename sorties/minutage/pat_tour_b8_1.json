@@ -1,0 +1,116 @@
+{
+ "nom": "pat_tour_b8_1",
+ "tempo": 1.0,
+ "duree_s": 14.3,
+ "hook": {
+  "texte": "Which move|saves the game?",
+  "fin": 2.68
+ },
+ "question": {
+  "texte": "Which move|saves the game?",
+  "t": 11.1
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which move saves the game?"
+  },
+  {
+   "t": 2.68,
+   "texte": "Rook to b8 check!"
+  },
+  {
+   "t": 5.16,
+   "texte": "He has to take and you have no moves stalemate."
+  },
+  {
+   "t": 9.18,
+   "texte": "Any other move and he wins."
+  },
+  {
+   "t": 11.8,
+   "texte": "So when you are lost ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.58,
+   "coup": "Qc5",
+   "badge": null
+  },
+  {
+   "t": 2.68,
+   "coup": "Rb8+",
+   "badge": "brillant"
+  },
+  {
+   "t": 5.38,
+   "coup": "Kxb8",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.58,
+   "type": "coup"
+  },
+  {
+   "t": 0.92,
+   "type": "fleches"
+  },
+  {
+   "t": 0.92,
+   "type": "sticker"
+  },
+  {
+   "t": 2.68,
+   "type": "coup"
+  },
+  {
+   "t": 2.68,
+   "type": "zoom"
+  },
+  {
+   "t": 5.38,
+   "type": "coup"
+  },
+  {
+   "t": 6.26,
+   "type": "fleches"
+  },
+  {
+   "t": 6.26,
+   "type": "sticker"
+  },
+  {
+   "t": 7.88,
+   "type": "sticker"
+  },
+  {
+   "t": 9.63,
+   "type": "position"
+  },
+  {
+   "t": 10.3,
+   "type": "fleches"
+  },
+  {
+   "t": 10.54,
+   "type": "sticker"
+  },
+  {
+   "t": 12.44,
+   "type": "fleches"
+  },
+  {
+   "t": 13.42,
+   "type": "sticker"
+  }
+ ],
+ "musique": "zoobeedoo.mp3"
+}
