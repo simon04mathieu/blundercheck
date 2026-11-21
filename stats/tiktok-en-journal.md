@@ -857,3 +857,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 ### 2026-11-21 08:56 publications/tiktok-en/tour_fou_e3_1.json
 {"publish_id": "v_inbox_file~v2.7710545857275316246", "mode": "brouillon", "vie_privee": null, "legende": "Take his rook? 👇 Only 1.Be3+! wins: his king runs, the rook falls, and the bishop covers g1. 1.Rxe8 g1=Q is just a draw (Stockfish 16, composed position). One new puzzle every day.\n\nGot it in 3 seconds? Follow and prove it tomorrow.\n\n#chess #chesstactics #chesspuzzle #chesstok #chessgame"}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 55, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 56, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
