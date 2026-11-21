@@ -1,0 +1,129 @@
+{
+ "nom": "tour_fou_e3_1_fr",
+ "tempo": 1.0,
+ "duree_s": 16.86,
+ "hook": {
+  "texte": "Tu prends|sa tour ?",
+  "fin": 1.46
+ },
+ "question": {
+  "texte": "Tu prends|sa tour ?",
+  "t": 13.66
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Tu prends sa tour ?"
+  },
+  {
+   "t": 1.46,
+   "texte": "Non !"
+  },
+  {
+   "t": 2.5,
+   "texte": "Fou en e3 échec !"
+  },
+  {
+   "t": 4.96,
+   "texte": "Son roi s'écarte et sa tour tombe."
+  },
+  {
+   "t": 8.36,
+   "texte": "Si tu prends tout de suite son pion devient dame  nulle seulement."
+  },
+  {
+   "t": 13.72,
+   "texte": "Alors, quand ta tour est en prise, demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.32,
+   "coup": "Re8",
+   "badge": null
+  },
+  {
+   "t": 1.46,
+   "coup": "Be3+",
+   "badge": "brillant"
+  },
+  {
+   "t": 5.48,
+   "coup": "Kd3",
+   "badge": null
+  },
+  {
+   "t": 6.36,
+   "coup": "Rxe8",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.32,
+   "type": "coup"
+  },
+  {
+   "t": 0.52,
+   "type": "fleches"
+  },
+  {
+   "t": 0.52,
+   "type": "sticker"
+  },
+  {
+   "t": 1.46,
+   "type": "coup"
+  },
+  {
+   "t": 1.46,
+   "type": "zoom"
+  },
+  {
+   "t": 5.48,
+   "type": "coup"
+  },
+  {
+   "t": 6.36,
+   "type": "coup"
+  },
+  {
+   "t": 6.72,
+   "type": "sticker"
+  },
+  {
+   "t": 8.36,
+   "type": "fleches"
+  },
+  {
+   "t": 8.36,
+   "type": "sticker"
+  },
+  {
+   "t": 8.75,
+   "type": "position"
+  },
+  {
+   "t": 9.88,
+   "type": "fleches"
+  },
+  {
+   "t": 10.2,
+   "type": "sticker"
+  },
+  {
+   "t": 14.54,
+   "type": "sticker"
+  },
+  {
+   "t": 16.06,
+   "type": "sticker"
+  }
+ ],
+ "musique": "zoobeedoo.mp3"
+}

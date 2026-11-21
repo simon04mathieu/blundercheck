@@ -1179,3 +1179,6 @@
 ### commandes/perso_tour_fou_e3_1.json
     voix générée : 170 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_fou_e3_1.mp4 {"voix_brute_s": 14.2, "tempo": 1.0, "video_s": 14.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "got_him_from_behind.mp3", "mots_transcrits": 34, "minutage": "6 phrases, 4 coups, 0 pauses"}
+### commandes/perso_tour_fou_e3_1_fr.json
+    voix générée : 198 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/tour_fou_e3_1_fr.mp4 {"voix_brute_s": 16.7, "tempo": 1.0, "video_s": 16.8, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "zoobeedoo.mp3", "mots_transcrits": 42, "minutage": "6 phrases, 4 coups, 0 pauses"}
