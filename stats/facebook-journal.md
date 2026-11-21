@@ -220,3 +220,5 @@
 {"reseau": "facebook", "id": "2404297223730686", "ok": true}
 ### 2026-11-21 17:30 publications/facebook/tour_fou_e3_1.json
 {"reseau": "facebook", "id": "1495673832447877", "ok": true}
+### 2026-11-21 18:12 publications/facebook/pat_tour_b8_1.json
+{"reseau": "facebook", "id": "4580304328904214", "ok": true}
