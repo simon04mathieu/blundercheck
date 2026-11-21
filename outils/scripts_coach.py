@@ -1989,3 +1989,36 @@ QUESTIONS.update({
     "pions_fourchette_f6_1_fr": "Quel pion|prend ?",
     "pions_fourchette_d4_1_fr": "Avec quel pion|tu prends ?",
 })
+
+# 21/11 (Producteur) : file variée du Scénariste du 20/11 (pions h6 ; tour + Fe3+ ; sous-promotion d8=N+ ; pat par Rb8+) ; lignes revérifiées python-chess + Stockfish 16 (tous les coups blancs, toutes les réponses noires) ; E4 : avant-coup corrigé …Df8-c5 (…Dc8 de la fiche = roi blanc en échec, position illégale) ; RÉTENTION seule
+H6A = "fen:8/5pp1/3k4/7P/7P/3K4/8/8_b_-_-_0_1"               # avant …g7-g6 ; 1.h6! mat en 15 (toutes réponses perdent) ; hxg6 = 0 ; Ke4 = 0 ; autres ≈ −6 à −8
+H6B = "fen:8/5p2/3k2p1/7P/7P/3K4/8/8_w_-_-_0_2"
+E3A = "fen:3r4/2p1R3/2K5/8/3k4/8/6p1/2B5_b_-_-_0_1"          # avant …Td8-e8 ; 1.Be3+! +33,6 (Kc4/Kd3/Kc3 : toutes perdent) ; Rxe8 = 0 ; Rg7/Rd7+/Bb2+ ≈ 0 ; autres perdent
+E3B = "fen:4r3/2p1R3/2K5/8/3k4/8/6p1/2B5_w_-_-_1_2"
+D8A = "fen:8/q2P1k2/3K1P2/4B3/8/8/8/8_b_-_-_0_1"             # avant …Da7-b7 ; 1.d8=N+! mat (Kg8/Kf8/Ke8/Kg6 : toutes matées) ; d8=Q = 0 (perpétuel) ; autres perdent
+D8B = "fen:8/1q1P1k2/3K1P2/4B3/8/8/8/8_w_-_-_1_2"
+B8A = "fen:k4q2/8/KR6/p7/8/8/8/8_b_-_-_0_1"                  # avant …Df8-c5 ; 1.Rb8+! Kxb8 (seul coup) = pat (python-chess is_stalemate) ; tous les autres coups ≤ −35
+B8B = "fen:k7/8/KR6/p1q5/8/8/8/8_w_-_-_1_2"
+_S = {
+"pions_pousser_h6_1": ("blancs", "Push,|or take?",
+"""[p """ + H6A + """] Push, [m g6] or [f g6h5 h5h6] [s tag h6 1.6 PUSH_OR_TAKE?] take? [h] [m h6 brillant] [z h6 1.3 2.0] Push! Your pawn [m Ke6] runs [f h6h8] home, [m h7 brillant] and his king [s tag e6 1.6 KING_TOO_FAR] is too far. [x ding] Take [p """ + H6B + """] his pawn, [f h5g6] and he [s tag g6 1.8 ONLY_A_DRAW] takes back: it's [f f7g6] only a draw. So when his pawn [s tag g6 1.6 PAWN_ATTACKED] hits yours, [s tag h5 1.4 PUSH_OR_TAKE?] ask yourself:"""),
+"tour_fou_e3_1": ("blancs", "Take|his rook?",
+"""[p """ + E3A + """] Take [m Re8] his [f e8e7 c1e3] [s tag e8 1.6 TAKE_HIS_ROOK?] rook? [h] [m Be3+ brillant] [z e3 1.3 2.0] No! Bishop to e3, check! His king [m Kd3] runs, and [m Rxe8 brillant] his rook [s tag e8 1.6 ROOK_FALLS] falls for free. [f e3g1] [s tag g1 1.6 G1_COVERED] [x ding] Take [p """ + E3B + """] at once, [f e7e8] and his pawn [s tag g2 1.8 ONLY_A_DRAW] queens: only a draw. So when [s tag e7 1.6 ROOK_HANGS] your rook hangs, [s tag e8 1.4 TAKE_HIS_ROOK?] ask yourself:"""),
+"sous_promotion_d8_1": ("blancs", "Queen,|or knight?",
+"""[p """ + D8A + """] Queen, [m Qb7] or [f b7d7 d7d8] [s tag d8 1.6 QUEEN?_KNIGHT?] knight? [h] [m d8=N+ brillant] [z d8 1.3 2.0] Knight! It checks [f d8f7 d8b7] the king, [m Kf8] he steps away, and [m Nxb7 brillant] [s tag b7 1.6 HIS_QUEEN_FALLS] his queen falls. [x ding] Queen? [p """ + D8B + """] He [f b7b4] checks [s tag b4 1.8 ONLY_A_DRAW] you forever: only a draw. Analyze your [s tag d4 1.6 YOUR_GAME] own game, free. So when [s tag d7 1.6 LAST_RANK] a pawn reaches the last rank, [s tag d8 1.4 QUEEN_OR_KNIGHT?] ask yourself:"""),
+"pat_tour_b8_1": ("blancs", "Which move|saves the game?",
+"""[p """ + B8A + """] Which move [m Qc5] saves [f c5b6 b6b8] [s tag b8 1.6 WHICH_MOVE?] the game? [h] [m Rb8+ brillant] [z b8 1.3 2.0] Rook to b8, check! He [m Kxb8] has to take, [f c5a7 c5b5] [s tag a6 1.6 NO_MOVES] and you have no moves: [x impact] [s tag b8 1.8 STALEMATE] stalemate. Any other [p """ + B8B + """] move, [f c5b6] and he [s tag c5 1.6 HE_WINS] wins. So when [f c5a7] you are lost, [s tag b8 1.4 WHICH_MOVE?] ask yourself:"""),
+"tour_fou_e3_1_fr": ("blancs", "Tu prends|sa tour ?",
+"""[p """ + E3A + """] Tu prends [m Re8] sa [f e8e7 c1e3] [s tag e8 1.6 TU_PRENDS_?] tour ? [h] [m Be3+ brillant] [z e3 1.3 2.0] Non ! Fou en e3, échec ! Son roi [m Kd3] s'écarte, et [m Rxe8 brillant] sa tour [s tag e8 1.6 TOUR_PERDUE] tombe. [f e3g1] [s tag g1 1.6 G1_COUVERT] [x ding] Si tu [p """ + E3B + """] prends tout de suite, [f e7e8] son pion [s tag g2 1.8 NULLE_SEULEMENT] devient dame : nulle seulement. Alors, [s tag e7 1.6 TOUR_EN_PRISE] quand ta tour est en prise, [s tag e8 1.4 TU_PRENDS_?] demande-toi :"""),
+"sous_promotion_d8_1_fr": ("blancs", "Dame|ou cavalier ?",
+"""[p """ + D8A + """] Dame [m Qb7] ou [f b7d7 d7d8] [s tag d8 1.6 DAME_?_CAVALIER_?] cavalier ? [h] [m d8=N+ brillant] [z d8 1.3 2.0] Cavalier ! Il fait [f d8f7 d8b7] échec au roi, [m Kf8] le roi s'écarte, et [m Nxb7 brillant] [s tag b7 1.6 SA_DAME_TOMBE] sa dame tombe. [x ding] En dame ? [p """ + D8B + """] Il te [f b7b4] fait échec [s tag b4 1.8 NULLE_SEULEMENT] sans fin : nulle seulement. Alors, [s tag d7 1.6 DERNIÈRE_RANGÉE] quand un pion arrive au bout, [s tag d8 1.4 DAME_OU_CAVALIER_?] demande-toi :"""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
+QUESTIONS.update({
+    "pions_pousser_h6_1": "Push,|or take?",
+    "tour_fou_e3_1": "Take|his rook?",
+    "sous_promotion_d8_1": "Analyze your game|blundercheck.app/try",
+    "pat_tour_b8_1": "Which move|saves the game?",
+    "tour_fou_e3_1_fr": "Tu prends|sa tour ?",
+    "sous_promotion_d8_1_fr": "Dame|ou cavalier ?",
+})
