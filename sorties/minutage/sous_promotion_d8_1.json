@@ -20,23 +20,23 @@
    "texte": "Knight!"
   },
   {
-   "t": 3.4,
+   "t": 3.42,
    "texte": "It checks the king he steps away and his queen falls."
   },
   {
-   "t": 7.94,
+   "t": 8.0,
    "texte": "Queen?"
   },
   {
-   "t": 9.28,
+   "t": 9.24,
    "texte": "He checks you forever only a draw."
   },
   {
-   "t": 12.34,
+   "t": 12.38,
    "texte": "Analyze your own game free."
   },
   {
-   "t": 15.1,
+   "t": 15.12,
    "texte": "So when a pawn reaches the last rank, ask yourself"
   }
  ],
@@ -105,7 +105,7 @@
    "type": "sticker"
   },
   {
-   "t": 9.23,
+   "t": 7.95,
    "type": "position"
   },
   {
@@ -117,7 +117,11 @@
    "type": "sticker"
   },
   {
-   "t": 13.08,
+   "t": 9.86,
+   "type": "fleches"
+  },
+  {
+   "t": 12.94,
    "type": "sticker"
   },
   {
@@ -125,7 +129,7 @@
    "type": "sticker"
   },
   {
-   "t": 17.54,
+   "t": 17.46,
    "type": "sticker"
   }
  ],
