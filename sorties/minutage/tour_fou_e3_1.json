@@ -4,7 +4,7 @@
  "duree_s": 14.44,
  "hook": {
   "texte": "Take|his rook?",
-  "fin": 1.4
+  "fin": 1.38
  },
  "question": {
   "texte": "Take|his rook?",
@@ -16,7 +16,7 @@
    "texte": "Take his rook?"
   },
   {
-   "t": 1.4,
+   "t": 1.38,
    "texte": "No!"
   },
   {
@@ -28,11 +28,11 @@
    "texte": "His king runs and his rook falls for free."
   },
   {
-   "t": 7.56,
+   "t": 7.54,
    "texte": "Take at once and his pawn queens only a draw."
   },
   {
-   "t": 11.58,
+   "t": 11.6,
    "texte": "So when your rook hangs ask yourself"
   }
  ],
@@ -43,7 +43,7 @@
    "badge": null
   },
   {
-   "t": 1.4,
+   "t": 1.38,
    "coup": "Be3+",
    "badge": "brillant"
   },
@@ -77,12 +77,16 @@
    "type": "sticker"
   },
   {
-   "t": 1.4,
+   "t": 1.38,
    "type": "coup"
   },
   {
-   "t": 1.4,
+   "t": 1.38,
    "type": "zoom"
+  },
+  {
+   "t": 3.0,
+   "type": "fleches"
   },
   {
    "t": 4.66,
@@ -97,11 +101,11 @@
    "type": "sticker"
   },
   {
-   "t": 7.56,
+   "t": 7.54,
    "type": "fleches"
   },
   {
-   "t": 7.56,
+   "t": 7.54,
    "type": "sticker"
   },
   {
@@ -114,6 +118,10 @@
   },
   {
    "t": 8.82,
+   "type": "fleches"
+  },
+  {
+   "t": 9.9,
    "type": "sticker"
   },
   {
