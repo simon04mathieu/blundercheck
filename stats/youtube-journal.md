@@ -1049,3 +1049,6 @@
 {"id": "YF7Zeo7CHQg", "url": "https://www.youtube.com/shorts/YF7Zeo7CHQg", "statut": "public", "publier_le": null}
 ### 2026-11-21 16:44 publications/youtube/tour_fou_e3_1.json
 {"id": "9klmaqPenzY", "url": "https://www.youtube.com/shorts/9klmaqPenzY", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "152"}
+### 2026-11-21 18:11 publications/youtube/pat_tour_b8_1.json
+{"id": "SQk0WeOYwxc", "url": "https://www.youtube.com/shorts/SQk0WeOYwxc", "statut": "public", "publier_le": null}
