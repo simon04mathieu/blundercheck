@@ -1042,3 +1042,10 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "146"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "146"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "147"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "152"}
+### 2026-11-21 16:43 publications/youtube/pions_pousser_h6_1.json
+{"id": "6_Py-L7pm8s", "url": "https://www.youtube.com/shorts/6_Py-L7pm8s", "statut": "public", "publier_le": null}
+### 2026-11-21 16:44 publications/youtube/sous_promotion_d8_1.json
+{"id": "YF7Zeo7CHQg", "url": "https://www.youtube.com/shorts/YF7Zeo7CHQg", "statut": "public", "publier_le": null}
+### 2026-11-21 16:44 publications/youtube/tour_fou_e3_1.json
+{"id": "9klmaqPenzY", "url": "https://www.youtube.com/shorts/9klmaqPenzY", "statut": "public", "publier_le": null}
