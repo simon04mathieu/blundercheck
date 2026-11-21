@@ -57,7 +57,7 @@ jobs:
             mkdir -p $dossier/faites
             for c in $dossier/*.json; do
               [ -e "$c" ] || continue
-              python3 -c "import json,sys,datetime as d; a=json.load(open(sys.argv[1])).get('envoyer_apres'); sys.exit(0 if not a or d.datetime.fromisoformat(a)<=d.datetime.now(d.timezone.utc) else 1)" "$c" || continue
+              [ "$GITHUB_EVENT_NAME" = push ] || python3 -c "import json,sys,datetime as d; a=json.load(open(sys.argv[1])).get('envoyer_apres'); sys.exit(0 if not a or d.datetime.fromisoformat(a)<=d.datetime.now(d.timezone.utc) else 1)" "$c" || continue
               echo "### $(date -u '+%F %H:%M') $c" >> $journal
               if python3 outils/tiktok.py envoi "$c" > /tmp/r.txt 2>&1; then
                 cat /tmp/r.txt >> $journal; git mv "$c" $dossier/faites/ 2>/dev/null || mv "$c" $dossier/faites/
