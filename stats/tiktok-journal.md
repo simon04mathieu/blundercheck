@@ -942,3 +942,4 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"publish_id": "v_inbox_file~v2.7710545786081511446", "mode": "brouillon", "vie_privee": null, "legende": "Tu prends sa tour ? 👇 Seul 1.Fe3+ ! gagne : son roi s'écarte, la tour tombe et le fou couvre g1. 1.Txe8 g1=D n'est qu'une nulle (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nRaté ? Abonne-toi, tu auras le prochain.\n\n#echecs #chess #echecsfr #chesstok #puzzle"}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
