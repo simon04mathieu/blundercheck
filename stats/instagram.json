@@ -1,22 +1,70 @@
 {
- "releve": "2026-11-20T17:37:09Z",
+ "releve": "2026-11-21T21:53:31Z",
  "compte": "blundercheckapp",
  "abonnes": 6,
  "publications": [
   {
+   "id": "17945188035100493",
+   "caption": "Dame ou cavalier ? 👇 Seul 1.d8=C+ ! gagne : échec et attaque de la dame. 1.d8=D ",
+   "comments_count": 0,
+   "like_count": 0,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DgA2CIXEZWZ/",
+   "timestamp": "2026-11-21T18:11:59+0000",
+   "insights": {
+    "views": 174,
+    "reach": 116,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0
+   }
+  },
+  {
+   "id": "17901630951398768",
+   "caption": "Tu prends sa tour ? 👇 Seul 1.Fe3+ ! gagne : son roi s'écarte, la tour tombe et l",
+   "comments_count": 0,
+   "like_count": 12,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DgAxMKaGfUs/",
+   "timestamp": "2026-11-21T17:29:40+0000",
+   "insights": {
+    "views": 2252,
+    "reach": 1428,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 12
+   }
+  },
+  {
+   "id": "17895333972653549",
+   "caption": "Avec quel pion tu prends ? 👇 Seul 1.exd4 ! gagne : 1.exd4 cxd4 2.cxd4 et le pion",
+   "comments_count": 0,
+   "like_count": 0,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/Df-fJGejHs6/",
+   "timestamp": "2026-11-20T20:13:27+0000",
+   "insights": {
+    "views": 196,
+    "reach": 126,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0
+   }
+  },
+  {
    "id": "17891358948620809",
    "caption": "Quel pion prend ? 👇 Seul 1.exf6 ! gagne : 1.exf6 gxf6 2.g6 et le pion file à dam",
    "comments_count": 0,
-   "like_count": 17,
+   "like_count": 21,
    "media_product_type": "REELS",
    "permalink": "https://www.instagram.com/reel/Df96QpNE4ZX/",
    "timestamp": "2026-11-20T14:51:10+0000",
    "insights": {
-    "views": 1960,
-    "reach": 1189,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 17
+    "views": 3089,
+    "reach": 1977,
+    "shares": 1,
+    "saved": 1,
+    "total_interactions": 23
    }
   },
   {
@@ -430,54 +478,6 @@
    "insights": {
     "views": 160,
     "reach": 116,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 0
-   }
-  },
-  {
-   "id": "18080362817729460",
-   "caption": "Les Blancs gagnent ? Construis le pont ! 🌉 Tu aurais construit le pont ? 👇 La po",
-   "comments_count": 0,
-   "like_count": 1,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfafQGXGhnx/",
-   "timestamp": "2026-11-06T20:41:41+0000",
-   "insights": {
-    "views": 142,
-    "reach": 118,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 1
-   }
-  },
-  {
-   "id": "18120259432959008",
-   "caption": "La dame noire va en a4. Tu la punis ? 😈 Tu l'aurais vu ? 👇 Vu dans 3 vraies part",
-   "comments_count": 0,
-   "like_count": 0,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfaERlkjwWA/",
-   "timestamp": "2026-11-06T16:46:03+0000",
-   "insights": {
-    "views": 153,
-    "reach": 115,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 0
-   }
-  },
-  {
-   "id": "18100061084408741",
-   "caption": "Une dame contre un pion. Les Blancs gagnent-ils ? 🤯 Tu aurais pris le pion ? 👇 D",
-   "comments_count": 0,
-   "like_count": 0,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfX6rHdDQRV/",
-   "timestamp": "2026-11-05T20:43:40+0000",
-   "insights": {
-    "views": 181,
-    "reach": 119,
     "shares": 0,
     "saved": 0,
     "total_interactions": 0

@@ -1,8 +1,98 @@
 {
- "releve": "2026-11-20T17:38:00Z",
+ "releve": "2026-11-21T21:55:34Z",
  "compte": "blundercheckapp",
  "abonnes": 1,
  "publications": [
+  {
+   "id": "17913714192603444",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DgA2IXVlMNu",
+   "text": "Which move saves the game? 👇 1.Rb8+! Kxb8 and White has no legal move: stalemate",
+   "timestamp": "2026-11-21T18:12:47+0000",
+   "insights": {
+    "views": 3,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18010508433030427",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DgAxX-FhGAQ",
+   "text": "Take his rook? 👇 Only 1.Be3+! wins: his king runs, the rook falls, and the bisho",
+   "timestamp": "2026-11-21T17:31:13+0000",
+   "insights": {
+    "views": 0,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "17998120632103248",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DgAxTZFhQqH",
+   "text": "Queen, or knight? 👇 Only 1.d8=N+! wins: it checks the king and hits the queen. 1",
+   "timestamp": "2026-11-21T17:30:36+0000",
+   "insights": {
+    "views": 1,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18008792966794327",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Df_8SniqsUe",
+   "text": "Push, or take? 👇 Only 1.h6! wins: the pawn runs home and his king is too far. 1.",
+   "timestamp": "2026-11-21T09:47:21+0000",
+   "insights": {
+    "views": 1,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18094849358696249",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Df-fUl3BDr4",
+   "text": "Take with which pawn? 👇 Only 1.exd4! wins: 1.exd4 cxd4 2.cxd4 and the pawn runs ",
+   "timestamp": "2026-11-20T20:15:01+0000",
+   "insights": {
+    "views": 1,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "17997306393106746",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/Df-fP7-st4e",
+   "text": "Which of the two takes? 👇 Only 1.cxb6! wins: your a-pawn guards b6, so his king ",
+   "timestamp": "2026-11-20T20:14:23+0000",
+   "insights": {
+    "views": 2,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
   {
    "id": "18582100771074972",
    "media_type": "VIDEO",
@@ -10,7 +100,7 @@
    "text": "Which one takes? 👇 Only 1.fxg4! wins: 1.fxg4 hxg4 2.hxg4 and the pawn runs home.",
    "timestamp": "2026-11-20T14:51:58+0000",
    "insights": {
-    "views": 1,
+    "views": 2,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -25,7 +115,7 @@
    "text": "Which pawn takes? 👇 Only 1.exf6! wins: 1.exf6 gxf6 2.g6 and the pawn runs home. ",
    "timestamp": "2026-11-20T11:34:16+0000",
    "insights": {
-    "views": 2,
+    "views": 3,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -70,7 +160,7 @@
    "text": "Take it, or push? 👇 Only 1.c6! wins: 1...dxc6 2.dxe6 and the pawn runs home. 1.d",
    "timestamp": "2026-11-19T12:07:18+0000",
    "insights": {
-    "views": 8,
+    "views": 9,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -85,7 +175,7 @@
    "text": "Which pawn do you push? 👇 Only 1.d6! wins: 1...cxd6 2.cxb6 and the pawn runs hom",
    "timestamp": "2026-11-19T09:15:05+0000",
    "insights": {
-    "views": 3,
+    "views": 4,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -356,96 +446,6 @@
    "timestamp": "2026-11-14T15:20:43+0000",
    "insights": {
     "views": 0,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18438541327195173",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfuQrQMPgl-",
-   "text": "Would you have taken the rook? 👇 Only 1.Qb8+! wins (mate in 2); 1.Rxb5 Ra1+ mate",
-   "timestamp": "2026-11-14T12:59:11+0000",
-   "insights": {
-    "views": 0,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "17962265115254548",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Dft7aAitfWy",
-   "text": "Which pawn do you take? 👇 Only 1.Kxc4! wins; 1.axb4 loses the race and 1.a6 is a",
-   "timestamp": "2026-11-14T09:53:20+0000",
-   "insights": {
-    "views": 4,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18075690143767310",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfsTpo3hpsB",
-   "text": "Take his rook, or run? 👇 Only 1.Rxf7+! wins (mate in 3); 1.Rxb6 is only equal (S",
-   "timestamp": "2026-11-13T18:46:41+0000",
-   "insights": {
-    "views": 1,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18156588313528186",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfr9gDOg6mN",
-   "text": "Which pawn takes? 👇 Only 1.fxg5! wins; 1.hxg5 is a draw (Stockfish 16, composed ",
-   "timestamp": "2026-11-13T15:33:06+0000",
-   "insights": {
-    "views": 5,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "17936445801142438",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfrljIbhhac",
-   "text": "Would you have taken the rook? 👇 Only 1.Qxf7+! wins (mate in 2); 1.Qxd8+ Qxd8 lo",
-   "timestamp": "2026-11-13T12:03:52+0000",
-   "insights": {
-    "views": 3,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18121209451968853",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfrRLPIxcRc",
-   "text": "Which pawn takes first? 👇 Only 1.gxh7! wins; 1.exd5 and 1.g7+ are draws (Stockfi",
-   "timestamp": "2026-11-13T09:05:50+0000",
-   "insights": {
-    "views": 4,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
