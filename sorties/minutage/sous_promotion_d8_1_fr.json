@@ -1,0 +1,125 @@
+{
+ "nom": "sous_promotion_d8_1_fr",
+ "tempo": 1.0,
+ "duree_s": 17.34,
+ "hook": {
+  "texte": "Dame|ou cavalier ?",
+  "fin": 1.72
+ },
+ "question": {
+  "texte": "Dame|ou cavalier ?",
+  "t": 14.14
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Dame ou cavalier ?"
+  },
+  {
+   "t": 1.72,
+   "texte": "Cavalier !"
+  },
+  {
+   "t": 3.28,
+   "texte": "Il fait échec au roi le roi s'écarte et sa dame tombe."
+  },
+  {
+   "t": 8.4,
+   "texte": "En dame ?"
+  },
+  {
+   "t": 9.8,
+   "texte": "Il te fait échec sans fin : nulle seulement."
+  },
+  {
+   "t": 13.74,
+   "texte": "Alors, quand un pion arrive au bout, demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.36,
+   "coup": "Qb7",
+   "badge": null
+  },
+  {
+   "t": 1.72,
+   "coup": "d8=N+",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.92,
+   "coup": "Kf8",
+   "badge": null
+  },
+  {
+   "t": 6.56,
+   "coup": "Nxb7",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.36,
+   "type": "coup"
+  },
+  {
+   "t": 0.64,
+   "type": "fleches"
+  },
+  {
+   "t": 0.64,
+   "type": "sticker"
+  },
+  {
+   "t": 1.72,
+   "type": "coup"
+  },
+  {
+   "t": 1.72,
+   "type": "zoom"
+  },
+  {
+   "t": 3.68,
+   "type": "fleches"
+  },
+  {
+   "t": 4.92,
+   "type": "coup"
+  },
+  {
+   "t": 6.56,
+   "type": "coup"
+  },
+  {
+   "t": 6.56,
+   "type": "sticker"
+  },
+  {
+   "t": 9.75,
+   "type": "position"
+  },
+  {
+   "t": 10.08,
+   "type": "fleches"
+  },
+  {
+   "t": 10.8,
+   "type": "sticker"
+  },
+  {
+   "t": 14.7,
+   "type": "sticker"
+  },
+  {
+   "t": 16.54,
+   "type": "sticker"
+  }
+ ],
+ "musique": "sneaky_spelunking.mp3"
+}
