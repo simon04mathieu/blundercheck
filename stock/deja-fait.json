@@ -2125,6 +2125,30 @@
   "ligne_uci": "e2e3 a7a5 d1h5 a8a6 h5a5 h7h5 h2h4 a6h6 a5c7 f7f6 c7d7 e8f7 d7b7 d8d3 b7b8 d3h7 b8c8 f7g6 c8e6"
  },
  {
+  "nom": "pat_tour_b8_1",
+  "langue": "en",
+  "concept": "pat_tour_b8",
+  "sujet": "You're lost. Which move saves the game? ♟️",
+  "reseaux": {
+   "youtube": "programmé 2026-11-21",
+   "tiktok-en": "programmé 2026-11-21",
+   "facebook": "programmé 2026-11-21",
+   "threads": "programmé 2026-11-21"
+  },
+  "statut": "programmé",
+  "test": null,
+  "variante": null,
+  "position_depart": "k4q2/8/KR6/p7/8/8/8/8 b",
+  "position_finale": "k7/8/KR6/p1q5/8/8/8/8 w",
+  "positions": [
+   "1k6/8/K7/p1q5/8/8/8/8 w",
+   "k4q2/8/KR6/p7/8/8/8/8 b",
+   "k7/8/KR6/p1q5/8/8/8/8 w",
+   "kR6/8/K7/p1q5/8/8/8/8 b"
+  ],
+  "ligne_uci": ""
+ },
+ {
   "nom": "percee_3v3_1",
   "langue": "en",
   "concept": "percee_3v3",
@@ -3666,6 +3690,31 @@
   "ligne_uci": ""
  },
  {
+  "nom": "pions_fourchette_b6_1",
+  "langue": "en",
+  "concept": "pions_fourchette_b6",
+  "sujet": "Two pawns, one target. Which one takes? ♟️",
+  "reseaux": {
+   "youtube": "publié 2026-11-20",
+   "tiktok-en": "publié 2026-11-20",
+   "facebook": "publié 2026-11-20",
+   "threads": "publié 2026-11-20"
+  },
+  "statut": "publié",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/1p1p4/k7/P1P5/1K6/8/8/8 b",
+  "position_finale": "8/3p4/kp6/P1P5/1K6/8/8/8 w",
+  "positions": [
+   "8/1k1p4/1P6/P7/1K6/8/8/8 w",
+   "8/1k1p4/1P6/PK6/8/8/8/8 b",
+   "8/1p1p4/k7/P1P5/1K6/8/8/8 b",
+   "8/3p4/kP6/P7/1K6/8/8/8 b",
+   "8/3p4/kp6/P1P5/1K6/8/8/8 w"
+  ],
+  "ligne_uci": ""
+ },
+ {
   "nom": "pions_fourchette_c4_1",
   "langue": "en",
   "concept": "pions_fourchette_c4",
@@ -3687,6 +3736,54 @@
    "8/K7/8/1pp5/7k/1P1P4/8/8 b",
    "8/K7/8/8/2P4k/8/8/8 b",
    "8/K7/8/8/2p4k/1P6/8/8 w"
+  ],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "pions_fourchette_d4_1",
+  "langue": "en",
+  "concept": "pions_fourchette_d4",
+  "sujet": "A pawn steps in and hits two. Which takes? ♟️",
+  "reseaux": {
+   "youtube": "publié 2026-11-20",
+   "tiktok-en": "publié 2026-11-20",
+   "facebook": "publié 2026-11-20",
+   "threads": "publié 2026-11-20"
+  },
+  "statut": "publié",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/4K3/8/2pp4/8/2P1P3/6k1/8 b",
+  "position_finale": "8/4K3/8/2p5/3p4/2P1P3/6k1/8 w",
+  "positions": [
+   "8/4K3/8/2p5/3P4/2P5/6k1/8 b",
+   "8/4K3/8/2p5/3p4/2P1P3/6k1/8 w",
+   "8/4K3/8/2pp4/8/2P1P3/6k1/8 b",
+   "8/4K3/8/8/3P4/8/6k1/8 b",
+   "8/4K3/8/8/3p4/2P5/6k1/8 w"
+  ],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "pions_fourchette_d4_1_fr",
+  "langue": "fr",
+  "concept": "pions_fourchette_d4",
+  "sujet": "Avec quel pion tu prends ? 👇 Seul 1.exd4 ! gagne : 1.exd4 cxd4 2.cxd4 et le pion file à dame. 1.cxd4 c4 n'est ",
+  "reseaux": {
+   "tiktok": "publié 2026-11-20",
+   "instagram": "publié 2026-11-20"
+  },
+  "statut": "publié",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/4K3/8/2pp4/8/2P1P3/6k1/8 b",
+  "position_finale": "8/4K3/8/2p5/3p4/2P1P3/6k1/8 w",
+  "positions": [
+   "8/4K3/8/2p5/3P4/2P5/6k1/8 b",
+   "8/4K3/8/2p5/3p4/2P1P3/6k1/8 w",
+   "8/4K3/8/2pp4/8/2P1P3/6k1/8 b",
+   "8/4K3/8/8/3P4/8/6k1/8 b",
+   "8/4K3/8/8/3p4/2P5/6k1/8 w"
   ],
   "ligne_uci": ""
  },
@@ -3735,6 +3832,79 @@
    "8/3pp3/1K6/3P1Pk1/8/8/8/8 b",
    "8/8/1K1Pp3/6k1/8/8/8/8 b",
    "8/8/1K2p3/3P2k1/8/8/8/8 w"
+  ],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "pions_fourchette_f6_1",
+  "langue": "en",
+  "concept": "pions_fourchette_f6",
+  "sujet": "His pawn forks yours. Which one takes? ♟️",
+  "reseaux": {
+   "youtube": "publié 2026-11-20",
+   "tiktok-en": "publié 2026-11-20",
+   "facebook": "publié 2026-11-20",
+   "threads": "publié 2026-11-20"
+  },
+  "statut": "publié",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/5pp1/2k5/4P1P1/8/8/8/7K b",
+  "position_finale": "8/6p1/2k2p2/4P1P1/8/8/8/7K w",
+  "positions": [
+   "8/5pp1/2k5/4P1P1/8/8/8/7K b",
+   "8/6p1/2k2P2/6P1/8/8/8/7K b",
+   "8/6p1/2k2p2/4P1P1/8/8/8/7K w",
+   "8/8/2k2p2/6P1/8/8/8/7K w",
+   "8/8/2k2pP1/8/8/8/8/7K b"
+  ],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "pions_fourchette_f6_1_fr",
+  "langue": "fr",
+  "concept": "pions_fourchette_f6",
+  "sujet": "Quel pion prend ? 👇 Seul 1.exf6 ! gagne : 1.exf6 gxf6 2.g6 et le pion file à dame. 1.gxf6 n'est qu'une nulle (",
+  "reseaux": {
+   "tiktok": "publié 2026-11-20",
+   "instagram": "publié 2026-11-20"
+  },
+  "statut": "publié",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/5pp1/2k5/4P1P1/8/8/8/7K b",
+  "position_finale": "8/6p1/2k2p2/4P1P1/8/8/8/7K w",
+  "positions": [
+   "8/5pp1/2k5/4P1P1/8/8/8/7K b",
+   "8/6p1/2k2P2/6P1/8/8/8/7K b",
+   "8/6p1/2k2p2/4P1P1/8/8/8/7K w",
+   "8/8/2k2p2/6P1/8/8/8/7K w",
+   "8/8/2k2pP1/8/8/8/8/7K b"
+  ],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "pions_fourchette_g4_1",
+  "langue": "en",
+  "concept": "pions_fourchette_g4",
+  "sujet": "He attacks two pawns at once. Which takes? ♟️",
+  "reseaux": {
+   "youtube": "publié 2026-11-20",
+   "tiktok-en": "publié 2026-11-20",
+   "facebook": "publié 2026-11-20",
+   "threads": "publié 2026-11-20"
+  },
+  "statut": "publié",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/8/5K2/6pp/8/5P1P/8/k7 b",
+  "position_finale": "8/8/5K2/7p/6p1/5P1P/8/k7 w",
+  "positions": [
+   "8/8/5K2/6pp/8/5P1P/8/k7 b",
+   "8/8/5K2/7p/6P1/7P/8/k7 b",
+   "8/8/5K2/7p/6p1/5P1P/8/k7 w",
+   "8/8/5K2/8/6P1/8/8/k7 b",
+   "8/8/5K2/8/6p1/7P/8/k7 w"
   ],
   "ligne_uci": ""
  },
@@ -3808,6 +3978,31 @@
    "3k4/6P1/3p4/4Pp2/8/8/8/6K1 b",
    "3k4/6P1/8/4pp2/8/8/8/6K1 w",
    "3k4/6p1/3p1P2/4Pp2/8/8/8/6K1 w"
+  ],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "pions_pousser_h6_1",
+  "langue": "en",
+  "concept": "pions_pousser_h6",
+  "sujet": "He attacks your pawn. Push, or take? ♟️",
+  "reseaux": {
+   "youtube": "programmé 2026-11-21",
+   "tiktok-en": "programmé 2026-11-21",
+   "facebook": "programmé 2026-11-21",
+   "threads": "programmé 2026-11-21"
+  },
+  "statut": "programmé",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/5pp1/3k4/7P/7P/3K4/8/8 b",
+  "position_finale": "8/5p2/3k2p1/7P/7P/3K4/8/8 w",
+  "positions": [
+   "8/5p1P/4k1p1/8/7P/3K4/8/8 b",
+   "8/5p2/3k2p1/7P/7P/3K4/8/8 w",
+   "8/5p2/3k2pP/8/7P/3K4/8/8 b",
+   "8/5p2/4k1pP/8/7P/3K4/8/8 w",
+   "8/5pp1/3k4/7P/7P/3K4/8/8 b"
   ],
   "ligne_uci": ""
  },
@@ -4709,6 +4904,54 @@
   "ligne_uci": "f6d7 f3e5 g4d1 b5d7 d8d7 e5d7 e8d7 e1d1"
  },
  {
+  "nom": "sous_promotion_d8_1",
+  "langue": "en",
+  "concept": "sous_promotion_d8",
+  "sujet": "Promote to a queen, or a knight? ♟️",
+  "reseaux": {
+   "youtube": "programmé 2026-11-21",
+   "tiktok-en": "programmé 2026-11-21",
+   "facebook": "programmé 2026-11-21",
+   "threads": "programmé 2026-11-21"
+  },
+  "statut": "programmé",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/q2P1k2/3K1P2/4B3/8/8/8/8 b",
+  "position_finale": "8/1q1P1k2/3K1P2/4B3/8/8/8/8 w",
+  "positions": [
+   "3N1k2/1q6/3K1P2/4B3/8/8/8/8 w",
+   "3N4/1q3k2/3K1P2/4B3/8/8/8/8 b",
+   "5k2/1N6/3K1P2/4B3/8/8/8/8 b",
+   "8/1q1P1k2/3K1P2/4B3/8/8/8/8 w",
+   "8/q2P1k2/3K1P2/4B3/8/8/8/8 b"
+  ],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "sous_promotion_d8_1_fr",
+  "langue": "fr",
+  "concept": "sous_promotion_d8",
+  "sujet": "Dame ou cavalier ? 👇 Seul 1.d8=C+ ! gagne : échec et attaque de la dame. 1.d8=D Db4+ n'est qu'un échec perpétu",
+  "reseaux": {
+   "tiktok": "programmé 2026-11-21",
+   "instagram": "programmé 2026-11-21"
+  },
+  "statut": "programmé",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/q2P1k2/3K1P2/4B3/8/8/8/8 b",
+  "position_finale": "8/1q1P1k2/3K1P2/4B3/8/8/8/8 w",
+  "positions": [
+   "3N1k2/1q6/3K1P2/4B3/8/8/8/8 w",
+   "3N4/1q3k2/3K1P2/4B3/8/8/8/8 b",
+   "5k2/1N6/3K1P2/4B3/8/8/8/8 b",
+   "8/1q1P1k2/3K1P2/4B3/8/8/8/8 w",
+   "8/q2P1k2/3K1P2/4B3/8/8/8/8 b"
+  ],
+  "ligne_uci": ""
+ },
+ {
   "nom": "tactique_clouage_1",
   "langue": "en",
   "concept": "tactique_clouage",
@@ -4914,6 +5157,54 @@
    "6k1/5R1p/1r4pp/5Q2/3P3b/8/6K1/8 w",
    "8/5Rkp/1r4pp/5Q2/3P3b/8/6K1/8 b",
    "8/5pkp/1r3Rpp/5Q2/3P3b/8/6K1/8 w"
+  ],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "tour_fou_e3_1",
+  "langue": "en",
+  "concept": "tour_fou_e3",
+  "sujet": "Your rook hangs. Take his rook? ♟️",
+  "reseaux": {
+   "youtube": "programmé 2026-11-21",
+   "tiktok-en": "programmé 2026-11-21",
+   "facebook": "programmé 2026-11-21",
+   "threads": "programmé 2026-11-21"
+  },
+  "statut": "programmé",
+  "test": null,
+  "variante": null,
+  "position_depart": "3r4/2p1R3/2K5/8/3k4/8/6p1/2B5 b",
+  "position_finale": "4r3/2p1R3/2K5/8/3k4/8/6p1/2B5 w",
+  "positions": [
+   "3r4/2p1R3/2K5/8/3k4/8/6p1/2B5 b",
+   "4R3/2p5/2K5/8/8/3kB3/6p1/8 b",
+   "4r3/2p1R3/2K5/8/3k4/4B3/6p1/8 b",
+   "4r3/2p1R3/2K5/8/3k4/8/6p1/2B5 w",
+   "4r3/2p1R3/2K5/8/8/3kB3/6p1/8 w"
+  ],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "tour_fou_e3_1_fr",
+  "langue": "fr",
+  "concept": "tour_fou_e3",
+  "sujet": "Tu prends sa tour ? 👇 Seul 1.Fe3+ ! gagne : son roi s'écarte, la tour tombe et le fou couvre g1. 1.Txe8 g1=D n",
+  "reseaux": {
+   "tiktok": "programmé 2026-11-21",
+   "instagram": "programmé 2026-11-21"
+  },
+  "statut": "programmé",
+  "test": null,
+  "variante": null,
+  "position_depart": "3r4/2p1R3/2K5/8/3k4/8/6p1/2B5 b",
+  "position_finale": "4r3/2p1R3/2K5/8/3k4/8/6p1/2B5 w",
+  "positions": [
+   "3r4/2p1R3/2K5/8/3k4/8/6p1/2B5 b",
+   "4R3/2p5/2K5/8/8/3kB3/6p1/8 b",
+   "4r3/2p1R3/2K5/8/3k4/4B3/6p1/8 b",
+   "4r3/2p1R3/2K5/8/3k4/8/6p1/2B5 w",
+   "4r3/2p1R3/2K5/8/8/3kB3/6p1/8 w"
   ],
   "ligne_uci": ""
  },

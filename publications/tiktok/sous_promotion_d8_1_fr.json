@@ -1,0 +1,32 @@
+{
+ "legende": "Dame ou cavalier ? 👇 Seul 1.d8=C+ ! gagne : échec et attaque de la dame. 1.d8=D Db4+ n'est qu'un échec perpétuel (Stockfish 16, position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-21T08:00:00+01:00",
+ "heure_conseillee": "2026-11-21T19:00:00+01:00",
+ "repere": "19 h · sous_promotion_d8_1_fr · 17.34 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/sous_promotion_d8_1_fr.mp4",
+ "concept": "sous_promotion_d8",
+ "format": "TACTIQUE",
+ "langue": "fr",
+ "duree": 17.34,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "fr",
+  "duree_s": 17,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "sous_promotion_d8",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "dame_ou_cavalier",
+  "pieces": 6,
+  "look": "emeraude",
+  "fx": "fleches+zoom+tag+ding"
+ },
+ "paire": "sous_promotion_d8_1"
+}

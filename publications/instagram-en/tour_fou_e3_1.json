@@ -1,0 +1,27 @@
+{
+ "legende": "Take his rook? 👇 Only 1.Be3+! wins: his king runs, the rook falls, and the bishop covers g1. 1.Rxe8 g1=Q is just a draw (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-21T13:00:00+01:00",
+ "fichier": "sorties/tour_fou_e3_1.mp4",
+ "concept": "tour_fou_e3",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 14.44,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 14,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "tour_fou_e3",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_la_tour",
+  "pieces": 7,
+  "look": "bois",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

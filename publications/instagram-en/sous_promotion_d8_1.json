@@ -1,0 +1,27 @@
+{
+ "legende": "Queen, or knight? 👇 Only 1.d8=N+! wins: it checks the king and hits the queen. 1.d8=Q Qb4+ is just a perpetual check (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-21T16:00:00+01:00",
+ "fichier": "sorties/sous_promotion_d8_1.mp4",
+ "concept": "sous_promotion_d8",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 18.34,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 18,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "oui",
+  "fin": "boucle",
+  "motif": "sous_promotion_d8",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "dame_ou_cavalier",
+  "pieces": 6,
+  "look": "papier",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

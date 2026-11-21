@@ -1,0 +1,31 @@
+{
+ "legende": "Which move saves the game? 👇 1.Rb8+! Kxb8 and White has no legal move: stalemate. Any other move loses (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-21T08:00:00+01:00",
+ "heure_conseillee": "2026-11-21T19:00:00+01:00",
+ "repere": "19 h · pat_tour_b8_1 · 14.3 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/pat_tour_b8_1.mp4",
+ "concept": "pat_tour_b8",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 14.3,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 14,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "pat_tour_b8",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "seul_coup_qui_sauve",
+  "pieces": 5,
+  "look": "ardoise",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}
