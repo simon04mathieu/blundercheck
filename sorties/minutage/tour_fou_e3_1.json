@@ -1,0 +1,129 @@
+{
+ "nom": "tour_fou_e3_1",
+ "tempo": 1.0,
+ "duree_s": 14.44,
+ "hook": {
+  "texte": "Take|his rook?",
+  "fin": 1.4
+ },
+ "question": {
+  "texte": "Take|his rook?",
+  "t": 11.24
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take his rook?"
+  },
+  {
+   "t": 1.4,
+   "texte": "No!"
+  },
+  {
+   "t": 2.1,
+   "texte": "Bishop to e3 check!"
+  },
+  {
+   "t": 4.26,
+   "texte": "His king runs and his rook falls for free."
+  },
+  {
+   "t": 7.56,
+   "texte": "Take at once and his pawn queens only a draw."
+  },
+  {
+   "t": 11.58,
+   "texte": "So when your rook hangs ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.2,
+   "coup": "Re8",
+   "badge": null
+  },
+  {
+   "t": 1.4,
+   "coup": "Be3+",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.66,
+   "coup": "Kd3",
+   "badge": null
+  },
+  {
+   "t": 5.5,
+   "coup": "Rxe8",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.2,
+   "type": "coup"
+  },
+  {
+   "t": 0.36,
+   "type": "fleches"
+  },
+  {
+   "t": 0.36,
+   "type": "sticker"
+  },
+  {
+   "t": 1.4,
+   "type": "coup"
+  },
+  {
+   "t": 1.4,
+   "type": "zoom"
+  },
+  {
+   "t": 4.66,
+   "type": "coup"
+  },
+  {
+   "t": 5.5,
+   "type": "coup"
+  },
+  {
+   "t": 5.88,
+   "type": "sticker"
+  },
+  {
+   "t": 7.56,
+   "type": "fleches"
+  },
+  {
+   "t": 7.56,
+   "type": "sticker"
+  },
+  {
+   "t": 7.71,
+   "type": "position"
+  },
+  {
+   "t": 8.2,
+   "type": "fleches"
+  },
+  {
+   "t": 8.82,
+   "type": "sticker"
+  },
+  {
+   "t": 11.96,
+   "type": "sticker"
+  },
+  {
+   "t": 13.3,
+   "type": "sticker"
+  }
+ ],
+ "musique": "got_him_from_behind.mp3"
+}
