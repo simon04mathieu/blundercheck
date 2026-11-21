@@ -214,3 +214,5 @@
 {"reseau": "facebook", "id": "1130590719970883", "ok": true}
 ### 2026-11-20 20:13 publications/facebook/pions_fourchette_d4_1.json
 {"reseau": "facebook", "id": "1678009820644556", "ok": true}
+### 2026-11-21 09:46 publications/facebook/pions_pousser_h6_1.json
+{"reseau": "facebook", "id": "1493221309368452", "ok": true}
