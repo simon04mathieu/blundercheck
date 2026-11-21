@@ -845,3 +845,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"publish_id": "v_inbox_file~v2.7710230649302485014", "mode": "brouillon", "vie_privee": null, "legende": "Which one takes? 👇 Only 1.fxg4! wins: 1.fxg4 hxg4 2.hxg4 and the pawn runs home. 1.hxg4 h4 is just a draw (Stockfish 16, composed position). One new puzzle every day.\n\nGot it in 3 seconds? Follow and prove it tomorrow.\n\n#chess #chesstactics #chesspuzzle #chesstok #chessgame"}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 50, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 52, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 52, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
