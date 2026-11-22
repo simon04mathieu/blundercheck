@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-21T21:53:31Z",
+ "releve": "2026-11-22T22:00:58Z",
  "compte": "blundercheckapp",
  "abonnes": 6,
  "publications": [
+  {
+   "id": "18163720753501556",
+   "caption": "Lequel prend ? 👇 Seul 1.cxd6 ! gagne : le pion e file en dame. 1.exd6 a5 n'est q",
+   "comments_count": 0,
+   "like_count": 0,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DgDZqcjD3SO/",
+   "timestamp": "2026-11-22T18:01:48+0000",
+   "insights": {
+    "views": 164,
+    "reach": 109,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0
+   }
+  },
+  {
+   "id": "18127442675024264",
+   "caption": "Tu la prends ? 👇 1.Dg7# est mat. 1.Dxe6 ? Dxe6 perd la dame contre une tour (Sto",
+   "comments_count": 0,
+   "like_count": 8,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DgCwd6aCWs1/",
+   "timestamp": "2026-11-22T12:01:50+0000",
+   "insights": {
+    "views": 2207,
+    "reach": 1407,
+    "shares": 0,
+    "saved": 1,
+    "total_interactions": 9
+   }
+  },
   {
    "id": "17945188035100493",
    "caption": "Dame ou cavalier ? 👇 Seul 1.d8=C+ ! gagne : échec et attaque de la dame. 1.d8=D ",
@@ -28,8 +60,8 @@
    "permalink": "https://www.instagram.com/reel/DgAxMKaGfUs/",
    "timestamp": "2026-11-21T17:29:40+0000",
    "insights": {
-    "views": 2252,
-    "reach": 1428,
+    "views": 2353,
+    "reach": 1494,
     "shares": 0,
     "saved": 0,
     "total_interactions": 12
@@ -60,8 +92,8 @@
    "permalink": "https://www.instagram.com/reel/Df96QpNE4ZX/",
    "timestamp": "2026-11-20T14:51:10+0000",
    "insights": {
-    "views": 3089,
-    "reach": 1977,
+    "views": 3096,
+    "reach": 1982,
     "shares": 1,
     "saved": 1,
     "total_interactions": 23
@@ -412,8 +444,8 @@
    "permalink": "https://www.instagram.com/reel/DfhuiH-EfrL/",
    "timestamp": "2026-11-09T16:10:13+0000",
    "insights": {
-    "views": 2205,
-    "reach": 1741,
+    "views": 2212,
+    "reach": 1747,
     "shares": 0,
     "saved": 3,
     "total_interactions": 25
@@ -449,38 +481,6 @@
     "shares": 0,
     "saved": 0,
     "total_interactions": 3
-   }
-  },
-  {
-   "id": "18003327867032238",
-   "caption": "Un seul coup de pion gagne. Lequel ? 🤯 Quel coup gagne ? 👇 Trois pions contre tr",
-   "comments_count": 0,
-   "like_count": 2,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfdCxVggAM9/",
-   "timestamp": "2026-11-07T20:30:38+0000",
-   "insights": {
-    "views": 197,
-    "reach": 136,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 2
-   }
-  },
-  {
-   "id": "18136536874679666",
-   "caption": "Les Noirs prennent le cavalier. Que joue Lasker ? 🤯 Tu aurais sacrifié les deux ",
-   "comments_count": 0,
-   "like_count": 0,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfcniSuEagp/",
-   "timestamp": "2026-11-07T16:32:56+0000",
-   "insights": {
-    "views": 160,
-    "reach": 116,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 0
    }
   }
  ],

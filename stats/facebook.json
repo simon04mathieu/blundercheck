@@ -1,9 +1,57 @@
 {
- "releve": "2026-11-21T21:54:25Z",
+ "releve": "2026-11-22T22:01:24Z",
  "page": "BlunderCheck",
  "abonnes": 0,
  "fans": 0,
  "publications": [
+  {
+   "id": "1145102104726661",
+   "description": "Take, or check? 👇 Only 1.Nc4+! wins: it forks the king and the queen. 1.Qxe3+ Nx",
+   "created_time": "2026-11-22T18:01:55+0000",
+   "permalink_url": "/reel/1145102104726661/",
+   "insights": {
+    "blue_reels_play_count": 0,
+    "post_video_likes_by_reaction_type": {},
+    "post_video_social_actions": {},
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "3329265080615683",
+   "description": "Legal, or illegal? 👇 1.Rxc4 is illegal: the rook is pinned to the king. 1.Rxe8+!",
+   "created_time": "2026-11-22T15:01:16+0000",
+   "permalink_url": "/reel/3329265080615683/",
+   "insights": {
+    "blue_reels_play_count": 0,
+    "post_video_likes_by_reaction_type": {},
+    "post_video_social_actions": {},
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "1112383164893995",
+   "description": "Take it, or not? 👇 1.Qg7# is checkmate. 1.Qxe6? Qxe6 loses the queen for a rook ",
+   "created_time": "2026-11-22T12:01:58+0000",
+   "permalink_url": "/reel/1112383164893995/",
+   "insights": {
+    "blue_reels_play_count": 1,
+    "post_video_likes_by_reaction_type": {},
+    "post_video_social_actions": {},
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "1114174974569959",
+   "description": "Which takes? 👇 Only 1.cxd6! wins: the e-pawn runs home. 1.exd6 a5 is just a draw",
+   "created_time": "2026-11-22T09:01:11+0000",
+   "permalink_url": "/reel/1114174974569959/",
+   "insights": {
+    "blue_reels_play_count": 0,
+    "post_video_likes_by_reaction_type": {},
+    "post_video_social_actions": {},
+    "post_video_followers": 0
+   }
+  },
   {
    "id": "4580304328904214",
    "description": "Which move saves the game? 👇 1.Rb8+! Kxb8 and White has no legal move: stalemate",
@@ -315,86 +363,38 @@
     "post_video_social_actions": {},
     "post_video_followers": 0
    }
-  },
-  {
-   "id": "1460458026264420",
-   "description": "Take his rook, or save yours? 👇 Only 1.Rf7+! wins a rook; 1.Bxc2 Kxe7 lets his k",
-   "created_time": "2026-11-15T13:00:20+0000",
-   "permalink_url": "/reel/1460458026264420/",
-   "insights": {
-    "blue_reels_play_count": 0,
-    "post_video_likes_by_reaction_type": {},
-    "post_video_social_actions": {},
-    "post_video_followers": 0
-   }
-  },
-  {
-   "id": "1660877188876989",
-   "description": "Which pawn takes? 👇 Only 1.cxb4! wins; 1.hxg6 bxc3 is a draw: both sides queen (",
-   "created_time": "2026-11-15T09:53:12+0000",
-   "permalink_url": "/reel/1660877188876989/",
-   "insights": {
-    "blue_reels_play_count": 0,
-    "post_video_likes_by_reaction_type": {},
-    "post_video_social_actions": {},
-    "post_video_followers": 0
-   }
-  },
-  {
-   "id": "1147178358153301",
-   "description": "Take his queen, or run? 👇 Only 1.Ne7+! wins (mate in 2); 1.Qxc4 Rxc4 leaves you ",
-   "created_time": "2026-11-14T18:36:23+0000",
-   "permalink_url": "/reel/1147178358153301/",
-   "insights": {
-    "blue_reels_play_count": 0,
-    "post_video_likes_by_reaction_type": {},
-    "post_video_social_actions": {},
-    "post_video_followers": 0
-   }
-  },
-  {
-   "id": "4607577179508131",
-   "description": "Defend or push? 👇 Only 1.Kc5! wins; 1.d6 Kxd6 is a draw (Stockfish 16, composed ",
-   "created_time": "2026-11-14T15:20:02+0000",
-   "permalink_url": "/reel/4607577179508131/",
-   "insights": {
-    "blue_reels_play_count": 0,
-    "post_video_likes_by_reaction_type": {},
-    "post_video_social_actions": {},
-    "post_video_followers": 0
-   }
   }
  ],
  "erreurs": [
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A-p6YZwU1gL24R55M2-",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A2McWYI0GhORlhGWXNt",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A5WZB7fMJR2TOaaJmsE",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A8Qb52XtMO8Vvwt9VcP",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A8gwkmGeacVDSoujioe",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ABw4RnSJ71PM16JhiyS",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AEo0KSUUdaPcxWeEiU2",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AI-DnS0sceIekgXGcge",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AKnQf8ZCvk9h7D3OLH4",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AM0dLel0ndbtfz7QDlD",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AO3ZDEVfP4Xnf6bLR-C",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AO6rL-x239l1gUitdxa",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"APvmzhC8Gm_RupCroKQ",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AQ5tLoHGh8lCCBfIstF",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AQ65KXTAxDyHXL_VIjL",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ASOQrnImgUAQxlRCHSH",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ASpXBIOtie9T5jJWh9a",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AXZa0tY7zf1UyQAN4Kv",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AYKUlS7AbOidY0KM_0M",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A_TJIOv-tASl_jCajU_",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"Ad9oxJIRM348dGoIyjh",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"Aes7GCYAYDCtqBaJR-w",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"Ah0aVjEZyW9fyJYeyM2",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AiOcibvQq8I4ql6EKno",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AlAazXySeGZ35pgzG1F",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"An58CRMUO7_NXxMql-h",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AryPWSzYKgZlwC3vSEx",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AtQmfxzx_348OVUKZWK",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AwdEnySywByfDcGcy1r",
-  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AxwirhvZOxSSpv2K78T"
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A-_EKytTxBzDYexwcLL",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A6Gua_XwWV36aBh_Krf",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A6OHhQwUFjmuRSipRzB",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A6aypvhX6e4MlIk6kmQ",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A73mymIxU-s0pGgm9YC",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A8Vk5RSQEXI0gfy9O1z",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A9WzOEc6V5-fn1CGYtn",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A9bAFVeZN6F_lEkpFwk",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ADa5mr55PvZZFYQpxLd",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AFnx-YeOBH-SPZktBg1",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AIYWsuyfjXhHKTABTCj",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AJYw8qNwflDWrYVfD7e",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AJdiJeos_2MczODppL-",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AMiu9P4CGTqEXBnQzzJ",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"ANkABQS7MG7eRFegBf0",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"A_J7WC_LUI8TZLUgT8d",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"Aa2BQp2Pkdp-51hdp1t",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AiSpIygBWmKvk-TgwIt",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AiiC8UK-Vd1oAvQRnN9",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AjCNVjFFZrvJ3-Fl59i",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AjG_07WV_PMhLuEZznq",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AjfK0zITq-WQ94MkUuY",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AktYvjDWL_pWNX2RIkG",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AmRPzolNhRtQ7x-SZC9",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AnSZMzBhYwvehYG1kEF",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AojaZafj5G-SuK6I0O-",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"Asw1EWYulCLCGhi-XU6",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AxbSKLDCYlqesDHMaeY",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"Az9Uu8a8Y7QC9yvPws0",
+  "post_impressions_unique : 400 video_insights : {\"error\":{\"message\":\"(#100) The value must be a valid insights metric\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"Azcl7W6VwdGAogs-dfQ"
  ]
 }

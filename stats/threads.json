@@ -1,8 +1,68 @@
 {
- "releve": "2026-11-21T21:55:34Z",
+ "releve": "2026-11-22T22:01:48Z",
  "compte": "blundercheckapp",
  "abonnes": 1,
  "publications": [
+  {
+   "id": "18123416563948924",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DgDZxEKhyTV",
+   "text": "Take, or check? 👇 Only 1.Nc4+! wins: it forks the king and the queen. 1.Qxe3+ Nx",
+   "timestamp": "2026-11-22T18:02:41+0000",
+   "insights": {
+    "views": 0,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18121728104077644",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DgDFFXmhmbP",
+   "text": "Legal, or illegal? 👇 1.Rxc4 is illegal: the rook is pinned to the king. 1.Rxe8+!",
+   "timestamp": "2026-11-22T15:01:58+0000",
+   "insights": {
+    "views": 0,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18097859531175790",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DgCwkJcuwk5",
+   "text": "Take it, or not? 👇 1.Qg7# is checkmate. 1.Qxe6? Qxe6 loses the queen for a rook ",
+   "timestamp": "2026-11-22T12:02:38+0000",
+   "insights": {
+    "views": 1,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "17920278873260937",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DgCb4BNP4k-",
+   "text": "Which takes? 👇 Only 1.cxd6! wins: the e-pawn runs home. 1.exd6 a5 is just a draw",
+   "timestamp": "2026-11-22T09:01:51+0000",
+   "insights": {
+    "views": 1,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
   {
    "id": "17913714192603444",
    "media_type": "VIDEO",
@@ -25,7 +85,7 @@
    "text": "Take his rook? 👇 Only 1.Be3+! wins: his king runs, the rook falls, and the bisho",
    "timestamp": "2026-11-21T17:31:13+0000",
    "insights": {
-    "views": 0,
+    "views": 2,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -40,8 +100,8 @@
    "text": "Queen, or knight? 👇 Only 1.d8=N+! wins: it checks the king and hits the queen. 1",
    "timestamp": "2026-11-21T17:30:36+0000",
    "insights": {
-    "views": 1,
-    "likes": 0,
+    "views": 3,
+    "likes": 1,
     "replies": 0,
     "reposts": 0,
     "quotes": 0,
@@ -386,66 +446,6 @@
    "timestamp": "2026-11-15T15:22:24+0000",
    "insights": {
     "views": 4,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "17916205599283082",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfw1rqHAnXl",
-   "text": "Take his rook, or save yours? 👇 Only 1.Rf7+! wins a rook; 1.Bxc2 Kxe7 lets his k",
-   "timestamp": "2026-11-15T13:01:02+0000",
-   "insights": {
-    "views": 8,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18079899413445607",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/DfwgRxiBCa_",
-   "text": "Which pawn takes? 👇 Only 1.cxb4! wins; 1.hxg6 bxc3 is a draw: both sides queen (",
-   "timestamp": "2026-11-15T09:53:59+0000",
-   "insights": {
-    "views": 0,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18143551663616467",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfu3WaUINlD",
-   "text": "Take his queen, or run? 👇 Only 1.Ne7+! wins (mate in 2); 1.Qxc4 Rxc4 leaves you ",
-   "timestamp": "2026-11-14T18:37:06+0000",
-   "insights": {
-    "views": 2,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18214169188367801",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Dfug34jBf8M",
-   "text": "Defend or push? 👇 Only 1.Kc5! wins; 1.d6 Kxd6 is a draw (Stockfish 16, composed ",
-   "timestamp": "2026-11-14T15:20:43+0000",
-   "insights": {
-    "views": 0,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
