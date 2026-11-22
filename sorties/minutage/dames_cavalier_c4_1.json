@@ -1,0 +1,121 @@
+{
+ "nom": "dames_cavalier_c4_1",
+ "tempo": 1.0,
+ "duree_s": 12.32,
+ "hook": {
+  "texte": "Take,|or check?",
+  "fin": 2.0
+ },
+ "question": {
+  "texte": "Take,|or check?",
+  "t": 9.12
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take, or check?"
+  },
+  {
+   "t": 2.0,
+   "texte": "Check!"
+  },
+  {
+   "t": 3.26,
+   "texte": "Knight to c4 hits his king and his queen."
+  },
+  {
+   "t": 6.76,
+   "texte": "Take the queen and it's just a trade."
+  },
+  {
+   "t": 9.56,
+   "texte": "So when queens face each other ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.22,
+   "coup": "Qe3",
+   "badge": null
+  },
+  {
+   "t": 2.0,
+   "coup": "Nc4+",
+   "badge": "brillant"
+  },
+  {
+   "t": 5.14,
+   "coup": "Kc6",
+   "badge": null
+  },
+  {
+   "t": 5.54,
+   "coup": "Nxe3",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.22,
+   "type": "coup"
+  },
+  {
+   "t": 0.22,
+   "type": "fleches"
+  },
+  {
+   "t": 0.22,
+   "type": "sticker"
+  },
+  {
+   "t": 2.0,
+   "type": "coup"
+  },
+  {
+   "t": 2.0,
+   "type": "zoom"
+  },
+  {
+   "t": 4.34,
+   "type": "fleches"
+  },
+  {
+   "t": 5.14,
+   "type": "coup"
+  },
+  {
+   "t": 5.54,
+   "type": "coup"
+  },
+  {
+   "t": 6.76,
+   "type": "sticker"
+  },
+  {
+   "t": 7.03,
+   "type": "position"
+  },
+  {
+   "t": 7.52,
+   "type": "fleches"
+  },
+  {
+   "t": 8.12,
+   "type": "sticker"
+  },
+  {
+   "t": 9.96,
+   "type": "fleches"
+  },
+  {
+   "t": 11.5,
+   "type": "sticker"
+  }
+ ],
+ "musique": "sneaky_spelunking.mp3"
+}

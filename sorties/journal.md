@@ -1201,3 +1201,8 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/sous_promotion_d8_1.mp4 {"voix_brute_s": 18.3, "tempo": 1.0, "video_s": 18.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "fluffing_a_duck.mp3", "mots_transcrits": 38, "minutage": "7 phrases, 4 coups, 0 pauses"}
+## 2026-11-22 00:03 UTC · run 44964696982
+### commandes/perso_dames_cavalier_c4_1.json
+    voix générée : 149 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/dames_cavalier_c4_1.mp4 {"voix_brute_s": 12.3, "tempo": 1.0, "video_s": 12.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 29, "minutage": "5 phrases, 4 coups, 0 pauses"}
