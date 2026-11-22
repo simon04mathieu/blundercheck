@@ -1,0 +1,125 @@
+{
+ "nom": "pions_fourchette_d6_1",
+ "tempo": 1.0,
+ "duree_s": 13.62,
+ "hook": {
+  "texte": "Which|takes?",
+  "fin": 1.6
+ },
+ "question": {
+  "texte": "Which|takes?",
+  "t": 10.42
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which takes?"
+  },
+  {
+   "t": 1.6,
+   "texte": "The c-pawn!"
+  },
+  {
+   "t": 3.14,
+   "texte": "Then the e-pawn runs home."
+  },
+  {
+   "t": 5.34,
+   "texte": "Take with the e-pawn and his far pawn runs only a draw."
+  },
+  {
+   "t": 10.46,
+   "texte": "So when two of your pawns hang, ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.2,
+   "coup": "d6",
+   "badge": null
+  },
+  {
+   "t": 1.6,
+   "coup": "cxd6",
+   "badge": "brillant"
+  },
+  {
+   "t": 3.22,
+   "coup": "Kd7",
+   "badge": null
+  },
+  {
+   "t": 4.14,
+   "coup": "Kf7",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.2,
+   "type": "coup"
+  },
+  {
+   "t": 0.2,
+   "type": "fleches"
+  },
+  {
+   "t": 0.2,
+   "type": "sticker"
+  },
+  {
+   "t": 1.6,
+   "type": "coup"
+  },
+  {
+   "t": 1.6,
+   "type": "zoom"
+  },
+  {
+   "t": 3.22,
+   "type": "coup"
+  },
+  {
+   "t": 3.88,
+   "type": "fleches"
+  },
+  {
+   "t": 4.14,
+   "type": "coup"
+  },
+  {
+   "t": 5.34,
+   "type": "sticker"
+  },
+  {
+   "t": 5.51,
+   "type": "position"
+  },
+  {
+   "t": 6.44,
+   "type": "fleches"
+  },
+  {
+   "t": 7.72,
+   "type": "fleches"
+  },
+  {
+   "t": 8.72,
+   "type": "sticker"
+  },
+  {
+   "t": 11.06,
+   "type": "sticker"
+  },
+  {
+   "t": 12.8,
+   "type": "sticker"
+  }
+ ],
+ "musique": "losing_your_marbles.mp3"
+}
