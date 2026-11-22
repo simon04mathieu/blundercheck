@@ -228,3 +228,5 @@
 {"reseau": "facebook", "id": "1112383164893995", "ok": true}
 ### 2026-11-22 15:01 publications/facebook/quiz_tour_clouee_c4_1.json
 {"reseau": "facebook", "id": "3329265080615683", "ok": true}
+### 2026-11-22 18:02 publications/facebook/dames_cavalier_c4_1.json
+{"reseau": "facebook", "id": "1145102104726661", "ok": true}
