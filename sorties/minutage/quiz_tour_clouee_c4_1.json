@@ -1,38 +1,38 @@
 {
  "nom": "quiz_tour_clouee_c4_1",
  "tempo": 1.0,
- "duree_s": 12.84,
+ "duree_s": 12.74,
  "hook": {
-  "texte": "Legal,|or illegal?",
-  "fin": 2.2
+  "texte": "Legal,|or not?",
+  "fin": 1.78
  },
  "question": {
   "texte": "Analyze your game|blundercheck.app/try",
-  "t": 9.64
+  "t": 9.54
  },
  "phrases": [
   {
    "t": 0.0,
-   "texte": "Legal, or illegal?"
+   "texte": "Legal, or not?"
   },
   {
-   "t": 2.2,
-   "texte": "Illegal: it's pinned!"
+   "t": 1.78,
+   "texte": "Illegal: pinned!"
   },
   {
-   "t": 4.5,
-   "texte": "Rook takes rook check!"
+   "t": 3.9,
+   "texte": "Take his rook check!"
   },
   {
-   "t": 6.5,
+   "t": 5.7,
    "texte": "You're winning."
   },
   {
-   "t": 7.6,
+   "t": 6.94,
    "texte": "Analyze your own game free."
   },
   {
-   "t": 10.14,
+   "t": 10.06,
    "texte": "So when a capture looks easy ask yourself"
   }
  ],
@@ -43,17 +43,17 @@
    "badge": null
   },
   {
-   "t": 4.5,
+   "t": 3.9,
    "coup": "Rxe8+",
    "badge": "brillant"
   },
   {
-   "t": 6.5,
+   "t": 5.7,
    "coup": "Kf7",
    "badge": null
   },
   {
-   "t": 7.6,
+   "t": 6.94,
    "coup": "Rc8",
    "badge": "brillant"
   }
@@ -77,51 +77,51 @@
    "type": "sticker"
   },
   {
-   "t": 2.2,
+   "t": 1.78,
    "type": "fleches"
   },
   {
-   "t": 3.2,
+   "t": 1.78,
    "type": "sticker"
   },
   {
-   "t": 4.5,
+   "t": 3.9,
    "type": "coup"
   },
   {
-   "t": 4.5,
+   "t": 3.9,
    "type": "zoom"
   },
   {
-   "t": 6.5,
+   "t": 5.7,
    "type": "coup"
   },
   {
-   "t": 6.72,
+   "t": 5.92,
    "type": "sticker"
   },
   {
-   "t": 7.6,
+   "t": 6.94,
    "type": "coup"
   },
   {
-   "t": 7.6,
+   "t": 6.94,
    "type": "fleches"
   },
   {
-   "t": 7.6,
+   "t": 6.94,
    "type": "sticker"
   },
   {
-   "t": 10.43,
+   "t": 10.35,
    "type": "position"
   },
   {
-   "t": 10.48,
+   "t": 10.4,
    "type": "fleches"
   },
   {
-   "t": 12.02,
+   "t": 11.94,
    "type": "sticker"
   }
  ],
