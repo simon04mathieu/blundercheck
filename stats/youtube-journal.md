@@ -1208,3 +1208,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "155"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "155"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "156"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "156"}
+### 2026-11-22 18:01 publications/youtube/dames_cavalier_c4_1.json
+{"id": "raqLc4KxLGk", "url": "https://www.youtube.com/shorts/raqLc4KxLGk", "statut": "public", "publier_le": null}
