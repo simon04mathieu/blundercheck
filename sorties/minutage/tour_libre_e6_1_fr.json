@@ -1,0 +1,121 @@
+{
+ "nom": "tour_libre_e6_1_fr",
+ "tempo": 1.0,
+ "duree_s": 12.6,
+ "hook": {
+  "texte": "Tu la|prends ?",
+  "fin": 1.1
+ },
+ "question": {
+  "texte": "Tu la|prends ?",
+  "t": 9.4
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Tu la prends ?"
+  },
+  {
+   "t": 1.1,
+   "texte": "Non !"
+  },
+  {
+   "t": 2.6,
+   "texte": "Dame en g7  échec et mat !"
+  },
+  {
+   "t": 5.52,
+   "texte": "Si tu prends la tour sa dame prend la tienne."
+  },
+  {
+   "t": 8.92,
+   "texte": "Alors, quand une tour semble gratuite demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.16,
+   "coup": "Re6",
+   "badge": null
+  },
+  {
+   "t": 1.1,
+   "coup": "Qg7#",
+   "badge": "mat"
+  },
+  {
+   "t": 6.82,
+   "coup": "Qxe6",
+   "badge": "gaffe"
+  },
+  {
+   "t": 7.22,
+   "coup": "Qxe6",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.16,
+   "type": "coup"
+  },
+  {
+   "t": 0.39,
+   "type": "fleches"
+  },
+  {
+   "t": 0.39,
+   "type": "sticker"
+  },
+  {
+   "t": 1.1,
+   "type": "coup"
+  },
+  {
+   "t": 1.1,
+   "type": "zoom"
+  },
+  {
+   "t": 3.76,
+   "type": "sticker"
+  },
+  {
+   "t": 5.52,
+   "type": "fleches"
+  },
+  {
+   "t": 5.83,
+   "type": "position"
+  },
+  {
+   "t": 6.06,
+   "type": "fleches"
+  },
+  {
+   "t": 6.82,
+   "type": "coup"
+  },
+  {
+   "t": 7.22,
+   "type": "coup"
+  },
+  {
+   "t": 7.22,
+   "type": "sticker"
+  },
+  {
+   "t": 9.82,
+   "type": "fleches"
+  },
+  {
+   "t": 11.9,
+   "type": "sticker"
+  }
+ ],
+ "musique": "sneaky_spelunking.mp3"
+}

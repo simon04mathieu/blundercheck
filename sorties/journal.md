@@ -1218,3 +1218,6 @@
 ### commandes/perso_tour_libre_e6_1.json
     voix générée : 130 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_libre_e6_1.mp4 {"voix_brute_s": 11.2, "tempo": 1.0, "video_s": 11.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "got_him_from_behind.mp3", "mots_transcrits": 25, "minutage": "5 phrases, 4 coups, 0 pauses"}
+### commandes/perso_tour_libre_e6_1_fr.json
+    voix générée : 148 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/tour_libre_e6_1_fr.mp4 {"voix_brute_s": 13.0, "tempo": 1.0, "video_s": 13.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 29, "minutage": "5 phrases, 4 coups, 0 pauses"}
