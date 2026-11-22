@@ -1187,3 +1187,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "155"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "155"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "155"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "155"}
+### 2026-11-22 15:01 publications/youtube/quiz_tour_clouee_c4_1.json
+{"id": "u6Ct32YKMTw", "url": "https://www.youtube.com/shorts/u6Ct32YKMTw", "statut": "public", "publier_le": null}
