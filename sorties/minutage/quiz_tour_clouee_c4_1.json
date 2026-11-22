@@ -1,14 +1,14 @@
 {
  "nom": "quiz_tour_clouee_c4_1",
  "tempo": 1.0,
- "duree_s": 12.74,
+ "duree_s": 12.76,
  "hook": {
   "texte": "Legal,|or not?",
   "fin": 1.78
  },
  "question": {
   "texte": "Analyze your game|blundercheck.app/try",
-  "t": 9.54
+  "t": 9.56
  },
  "phrases": [
   {
@@ -24,11 +24,11 @@
    "texte": "Take his rook check!"
   },
   {
-   "t": 5.7,
+   "t": 5.76,
    "texte": "You're winning."
   },
   {
-   "t": 6.94,
+   "t": 6.92,
    "texte": "Analyze your own game free."
   },
   {
@@ -48,12 +48,12 @@
    "badge": "brillant"
   },
   {
-   "t": 5.7,
+   "t": 5.76,
    "coup": "Kf7",
    "badge": null
   },
   {
-   "t": 6.94,
+   "t": 6.92,
    "coup": "Rc8",
    "badge": "brillant"
   }
@@ -93,7 +93,15 @@
    "type": "zoom"
   },
   {
-   "t": 5.7,
+   "t": 3.9,
+   "type": "fleches"
+  },
+  {
+   "t": 4.82,
+   "type": "sticker"
+  },
+  {
+   "t": 5.76,
    "type": "coup"
   },
   {
@@ -101,11 +109,11 @@
    "type": "sticker"
   },
   {
-   "t": 6.94,
+   "t": 6.92,
    "type": "coup"
   },
   {
-   "t": 6.94,
+   "t": 6.92,
    "type": "fleches"
   },
   {
