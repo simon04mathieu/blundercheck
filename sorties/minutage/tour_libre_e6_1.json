@@ -1,0 +1,121 @@
+{
+ "nom": "tour_libre_e6_1",
+ "tempo": 1.0,
+ "duree_s": 11.24,
+ "hook": {
+  "texte": "Take it,|or not?",
+  "fin": 2.1
+ },
+ "question": {
+  "texte": "Take it,|or not?",
+  "t": 8.04
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take it, or not?"
+  },
+  {
+   "t": 2.1,
+   "texte": "Don't!"
+  },
+  {
+   "t": 2.78,
+   "texte": "Queen to g7 checkmate!"
+  },
+  {
+   "t": 5.52,
+   "texte": "Take the rook and his queen takes yours."
+  },
+  {
+   "t": 8.66,
+   "texte": "So when a rook looks free ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.24,
+   "coup": "Re6",
+   "badge": null
+  },
+  {
+   "t": 2.1,
+   "coup": "Qg7#",
+   "badge": "mat"
+  },
+  {
+   "t": 6.18,
+   "coup": "Qxe6",
+   "badge": "gaffe"
+  },
+  {
+   "t": 6.76,
+   "coup": "Qxe6",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.24,
+   "type": "coup"
+  },
+  {
+   "t": 0.4,
+   "type": "fleches"
+  },
+  {
+   "t": 0.4,
+   "type": "sticker"
+  },
+  {
+   "t": 2.1,
+   "type": "coup"
+  },
+  {
+   "t": 2.1,
+   "type": "zoom"
+  },
+  {
+   "t": 4.22,
+   "type": "sticker"
+  },
+  {
+   "t": 5.52,
+   "type": "fleches"
+  },
+  {
+   "t": 5.67,
+   "type": "position"
+  },
+  {
+   "t": 5.9,
+   "type": "fleches"
+  },
+  {
+   "t": 6.18,
+   "type": "coup"
+  },
+  {
+   "t": 6.76,
+   "type": "coup"
+  },
+  {
+   "t": 7.04,
+   "type": "sticker"
+  },
+  {
+   "t": 9.16,
+   "type": "fleches"
+  },
+  {
+   "t": 10.46,
+   "type": "sticker"
+  }
+ ],
+ "musique": "got_him_from_behind.mp3"
+}
