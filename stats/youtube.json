@@ -1,5 +1,5 @@
 {
- "date": "2026-11-22T17:41:12.207237+00:00",
+ "date": "2026-11-22T17:46:26.430494+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -12,7 +12,7 @@
    "publiee": "2026-11-22T15:01:36Z",
    "statut": "public",
    "duree": "PT13S",
-   "vues": 831,
+   "vues": 842,
    "jaime": 8,
    "commentaires": 0
   },
@@ -21,7 +21,7 @@
    "publiee": "2026-11-22T12:01:46Z",
    "statut": "public",
    "duree": "PT12S",
-   "vues": 1481,
+   "vues": 1523,
    "jaime": 8,
    "commentaires": 1
   },
@@ -30,8 +30,8 @@
    "publiee": "2026-11-22T09:02:55Z",
    "statut": "public",
    "duree": "PT14S",
-   "vues": 2254,
-   "jaime": 16,
+   "vues": 2280,
+   "jaime": 19,
    "commentaires": 2
   },
   "SQk0WeOYwxc": {
@@ -39,8 +39,8 @@
    "publiee": "2026-11-21T18:11:31Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 7258,
-   "jaime": 34,
+   "vues": 7297,
+   "jaime": 35,
    "commentaires": 4
   },
   "9klmaqPenzY": {
@@ -48,7 +48,7 @@
    "publiee": "2026-11-21T16:44:33Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 5091,
+   "vues": 5101,
    "jaime": 30,
    "commentaires": 3
   },
@@ -57,7 +57,7 @@
    "publiee": "2026-11-21T16:44:26Z",
    "statut": "public",
    "duree": "PT19S",
-   "vues": 2169,
+   "vues": 2171,
    "jaime": 12,
    "commentaires": 1
   },
@@ -66,7 +66,7 @@
    "publiee": "2026-11-21T16:44:25Z",
    "statut": "public",
    "duree": "PT14S",
-   "vues": 20339,
+   "vues": 20437,
    "jaime": 28,
    "commentaires": 3
   },
@@ -84,8 +84,8 @@
    "publiee": "2026-11-20T18:31:20Z",
    "statut": "public",
    "duree": "PT20S",
-   "vues": 3367,
-   "jaime": 13,
+   "vues": 3377,
+   "jaime": 14,
    "commentaires": 1
   },
   "1pcVhKYkXFI": {
@@ -93,7 +93,7 @@
    "publiee": "2026-11-20T14:44:49Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 6239,
+   "vues": 6292,
    "jaime": 27,
    "commentaires": 0
   },
@@ -111,7 +111,7 @@
    "publiee": "2026-11-19T18:46:32Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 29539,
+   "vues": 29544,
    "jaime": 164,
    "commentaires": 2
   },
