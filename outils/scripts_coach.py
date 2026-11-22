@@ -2022,3 +2022,36 @@ QUESTIONS.update({
     "tour_fou_e3_1_fr": "Tu prends|sa tour ?",
     "sous_promotion_d8_1_fr": "Dame|ou cavalier ?",
 })
+
+# 22/11 (Producteur) : file variée du Scénariste du 21/11 (pions d6 ; tour « gratuite » e6 + Dg7# ; quiz tour clouée c4 ; dames face à face + Cc4+) ; lignes revérifiées python-chess + Stockfish 16 (tous les coups blancs, toutes les réponses noires) ; RÉTENTION seule
+D6A = "fen:3k4/3p4/p5K1/2P1P3/8/8/8/8_b_-_-_0_1"             # avant …d7-d6 ; 1.cxd6! +35 (Ke8/Kc8/Kd7/a5 : toutes perdent) ; exd6 = 0 ; Kf6/Kf5 = 0 ; c6/e6 ≈ 0 ; coups de roi ≈ −7
+D6B = "fen:3k4/8/p2p2K1/2P1P3/8/8/8/8_w_-_-_0_2"
+T6A = "fen:6R1/7k/5r2/3q4/6QK/8/8/8_b_-_-_0_1"               # avant …Tf6-e6 ; 1.Qg7# seul gagnant ; Qxe6 Qxe6 −3,05 ; Rg7+ = 0 ; autres perdent
+T6B = "fen:6R1/7k/4r3/3q4/6QK/8/8/8_w_-_-_1_2"
+C4A = "fen:4r1k1/8/b7/8/4R3/8/P6P/4K3_b_-_-_0_1"             # avant …Fa6-c4 ; 1.Rxc4 illégal (clouée) ; 1.Rxe8+ +6,5 (Kf7/Kg7/Kh7) ; autres ≤ −6
+C4B = "fen:4r1k1/8/8/8/2b1R3/8/P6P/4K3_w_-_-_1_2"
+N4A = "fen:8/8/1k1Nq3/5n2/8/3Q4/2K5/8_b_-_-_0_1"             # avant …De6-e3 ; 1.Nc4+! +35 seul gagnant (toutes réponses perdent) ; Qxe3+ = 0 ; Qb5+ ≈ 0
+N4B = "fen:8/8/1k1N4/5n2/8/3Qq3/2K5/8_w_-_-_1_2"
+_S = {
+"pions_fourchette_d6_1": ("blancs", "Which|takes?",
+"""[p """ + D6A + """] Which [m d6] [f d6c5 d6e5] [s tag d6 1.6 WHICH_TAKES?] takes? [h] [m cxd6 brillant] [z d6 1.3 2.0] The c-pawn! Then [m Kd7] the e-pawn [f e5e8] runs [m Kf7 brillant] home. [s tag e5 1.6 IT_RUNS_HOME] [x ding] Take [p """ + D6B + """] with the e-pawn, [f e5d6] and his far pawn [f a6a1] runs: [s tag a6 1.8 ONLY_A_DRAW] only a draw. So when [s tag c5 1.6 BOTH_HANG] two of your pawns hang, [s tag e5 1.4 WHICH_TAKES?] ask yourself:"""),
+"tour_libre_e6_1": ("blancs", "Take it,|or not?",
+"""[p """ + T6A + """] Take [m Re6] it, [f g4e6] [s tag e6 1.6 FREE_ROOK?] or not? [h] [m Qg7# mat] [z g7 1.3 2.0] Don't! Queen to g7: [x impact] [s tag h7 1.6 MATE] checkmate! [f g8g7] Take [p """ + T6B + """] the [f d5e6] rook, [m Qxe6 gaffe] and his [m Qxe6] queen [s tag e6 1.8 QUEEN_LOST] takes yours. So when [f g4e6] a rook looks free, [s tag e6 1.4 FREE_ROOK?] ask yourself:"""),
+"quiz_tour_clouee_c4_1": ("blancs", "Legal,|or illegal?",
+"""[p """ + C4A + """] Legal, [m Bc4] [f e4c4] [s tag c4 1.6 ROOK_TAKES_BISHOP?] or illegal? [h] [f e8e1] Illegal: [s tag e4 1.4 PINNED] it's pinned! [m Rxe8+ brillant] [z e8 1.3 2.0] Rook takes rook, check! [m Kf7] You're [s tag f7 1.6 WINNING] winning. [m Rc8 brillant] [f c8c4] [s tag d4 1.6 YOUR_GAME] Analyze your own game, free. So when [p """ + C4B + """] [f e4c4] a capture looks easy, [s tag e4 1.4 LEGAL?] ask yourself:"""),
+"dames_cavalier_c4_1": ("blancs", "Take,|or check?",
+"""[p """ + N4A + """] Take, [m Qe3] [f e3d3] [s tag e3 1.6 TAKE?_CHECK?] or check? [h] [m Nc4+ brillant] [z c4 1.3 2.0] Check! Knight to c4 [f c4b6 c4e3] hits his king [m Kc6] and his [m Nxe3 brillant] queen. [s tag e3 1.6 QUEEN_WON] [x ding] Take [p """ + N4B + """] the queen, [f d3e3 f5e3] and it's [s tag e3 1.8 JUST_A_TRADE] just a trade. So when [f d3e3] queens face each other, [s tag e3 1.4 TAKE_OR_CHECK?] ask yourself:"""),
+"tour_libre_e6_1_fr": ("blancs", "Tu la|prends ?",
+"""[p """ + T6A + """] Tu [m Re6] la [f g4e6] [s tag e6 1.6 TOUR_GRATUITE_?] prends ? [h] [m Qg7# mat] [z g7 1.3 2.0] Non ! Dame en g7 : [x impact] [s tag h7 1.6 MAT] échec et mat ! [f g8g7] Si tu [p """ + T6B + """] prends [f d5e6] la tour, [m Qxe6 gaffe] sa dame [m Qxe6] [s tag e6 1.8 DAME_PERDUE] prend la tienne. Alors, [f g4e6] quand une tour semble gratuite, [s tag e6 1.4 TU_LA_PRENDS_?] demande-toi :"""),
+"pions_fourchette_d6_1_fr": ("blancs", "Lequel|prend ?",
+"""[p """ + D6A + """] Lequel [m d6] [f d6c5 d6e5] [s tag d6 1.6 LEQUEL_PREND_?] prend ? [h] [m cxd6 brillant] [z d6 1.3 2.0] Le pion c ! Ensuite [m Kd7] le pion e [f e5e8] file [m Kf7 brillant] en dame. [s tag e5 1.6 LE_PION_FILE] [x ding] Si le pion e [p """ + D6B + """] prend, [f e5d6] son pion éloigné [f a6a1] file : [s tag a6 1.8 NULLE_SEULEMENT] nulle seulement. Alors, [s tag c5 1.6 DEUX_EN_PRISE] quand deux de tes pions sont attaqués, [s tag e5 1.4 LEQUEL_?] demande-toi :"""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
+QUESTIONS.update({
+    "pions_fourchette_d6_1": "Which|takes?",
+    "tour_libre_e6_1": "Take it,|or not?",
+    "quiz_tour_clouee_c4_1": "Analyze your game|blundercheck.app/try",
+    "dames_cavalier_c4_1": "Take,|or check?",
+    "tour_libre_e6_1_fr": "Tu la|prends ?",
+    "pions_fourchette_d6_1_fr": "Lequel|prend ?",
+})
