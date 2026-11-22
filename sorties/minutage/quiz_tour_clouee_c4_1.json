@@ -1,0 +1,129 @@
+{
+ "nom": "quiz_tour_clouee_c4_1",
+ "tempo": 1.0,
+ "duree_s": 12.84,
+ "hook": {
+  "texte": "Legal,|or illegal?",
+  "fin": 2.2
+ },
+ "question": {
+  "texte": "Analyze your game|blundercheck.app/try",
+  "t": 9.64
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Legal, or illegal?"
+  },
+  {
+   "t": 2.2,
+   "texte": "Illegal: it's pinned!"
+  },
+  {
+   "t": 4.5,
+   "texte": "Rook takes rook check!"
+  },
+  {
+   "t": 6.5,
+   "texte": "You're winning."
+  },
+  {
+   "t": 7.6,
+   "texte": "Analyze your own game free."
+  },
+  {
+   "t": 10.14,
+   "texte": "So when a capture looks easy ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.34,
+   "coup": "Bc4",
+   "badge": null
+  },
+  {
+   "t": 4.5,
+   "coup": "Rxe8+",
+   "badge": "brillant"
+  },
+  {
+   "t": 6.5,
+   "coup": "Kf7",
+   "badge": null
+  },
+  {
+   "t": 7.6,
+   "coup": "Rc8",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.34,
+   "type": "coup"
+  },
+  {
+   "t": 0.34,
+   "type": "fleches"
+  },
+  {
+   "t": 0.34,
+   "type": "sticker"
+  },
+  {
+   "t": 2.2,
+   "type": "fleches"
+  },
+  {
+   "t": 3.2,
+   "type": "sticker"
+  },
+  {
+   "t": 4.5,
+   "type": "coup"
+  },
+  {
+   "t": 4.5,
+   "type": "zoom"
+  },
+  {
+   "t": 6.5,
+   "type": "coup"
+  },
+  {
+   "t": 6.72,
+   "type": "sticker"
+  },
+  {
+   "t": 7.6,
+   "type": "coup"
+  },
+  {
+   "t": 7.6,
+   "type": "fleches"
+  },
+  {
+   "t": 7.6,
+   "type": "sticker"
+  },
+  {
+   "t": 10.43,
+   "type": "position"
+  },
+  {
+   "t": 10.48,
+   "type": "fleches"
+  },
+  {
+   "t": 12.02,
+   "type": "sticker"
+  }
+ ],
+ "musique": "sneaky_spelunking.mp3"
+}
