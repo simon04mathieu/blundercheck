@@ -985,3 +985,4 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 ### 2026-11-22 00:16 publications/tiktok/tour_libre_e6_1_fr.json
 {"publish_id": "v_inbox_file~v2.7710782824354252822", "mode": "brouillon", "vie_privee": null, "legende": "Tu la prends ? 👇 1.Dg7# est mat. 1.Dxe6 ? Dxe6 perd la dame contre une tour (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nTrouvé en 3 secondes ? Abonne-toi et prouve-le demain.\n\n#echecs #chess #echecsfr #chesstok #puzzle"}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}

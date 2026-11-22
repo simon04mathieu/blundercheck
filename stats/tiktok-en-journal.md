@@ -905,3 +905,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 ### 2026-11-22 00:16 publications/tiktok-en/tour_libre_e6_1.json
 {"publish_id": "v_inbox_file~v2.7710782760956430358", "mode": "brouillon", "vie_privee": null, "legende": "Take it, or not? 👇 1.Qg7# is checkmate. 1.Qxe6? Qxe6 loses the queen for a rook (Stockfish 16, composed position). One new puzzle every day.\n\nGot it in 3 seconds? Follow and prove it tomorrow.\n\n#chess #chesstactics #chesspuzzle #chesstok #chessgame"}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 56, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 56, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
