@@ -1,0 +1,28 @@
+{
+ "legende": "Lequel prend ? 👇 Seul 1.cxd6 ! gagne : le pion e file en dame. 1.exd6 a5 n'est qu'une nulle (Stockfish 16, position composée). Un défi d'échecs par jour.\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-22T19:00:00+01:00",
+ "fichier": "sorties/pions_fourchette_d6_1_fr.mp4",
+ "concept": "pions_fourchette_d6",
+ "format": "FINALE",
+ "langue": "fr",
+ "duree": 15.26,
+ "voix": "oui",
+ "paire": "pions_fourchette_d6_1",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "fr",
+  "duree_s": 15,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "pions_fourchette_d6",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "lequel_prend",
+  "pieces": 6,
+  "look": "mono",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

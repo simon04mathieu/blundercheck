@@ -1,0 +1,27 @@
+{
+ "legende": "Take, or check? 👇 Only 1.Nc4+! wins: it forks the king and the queen. 1.Qxe3+ Nxe3+ is just a trade (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-22T19:00:00+01:00",
+ "fichier": "sorties/dames_cavalier_c4_1.mp4",
+ "concept": "dames_cavalier_c4",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 12.32,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 12,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "dames_cavalier_c4",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_ou_echec",
+  "pieces": 6,
+  "look": "corail",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

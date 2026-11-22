@@ -1,0 +1,34 @@
+{
+ "titre": "A free rook appears. Take it, or not? ♟️ #chess #shorts",
+ "description": "Take it, or not? 👇 1.Qg7# is checkmate. 1.Qxe6? Qxe6 loses the queen for a rook (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess tactics",
+  "checkmate",
+  "chess puzzle"
+ ],
+ "envoyer_apres": "2026-11-22T13:00:00+01:00",
+ "fichier": "sorties/tour_libre_e6_1.mp4",
+ "concept": "tour_libre_e6",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 11.24,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 11,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "tour_libre_e6",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_ou_pas",
+  "pieces": 6,
+  "look": "ardoise",
+  "fx": "fleches+zoom+tag+impact"
+ }
+}

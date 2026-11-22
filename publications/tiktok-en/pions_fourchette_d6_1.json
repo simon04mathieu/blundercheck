@@ -1,0 +1,31 @@
+{
+ "legende": "Which takes? 👇 Only 1.cxd6! wins: the e-pawn runs home. 1.exd6 a5 is just a draw: his far pawn runs (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-22T08:00:00+01:00",
+ "heure_conseillee": "2026-11-22T10:00:00+01:00",
+ "repere": "10 h · pions_fourchette_d6_1 · 13.62 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/pions_fourchette_d6_1.mp4",
+ "concept": "pions_fourchette_d6",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 13.62,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 14,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "pions_fourchette_d6",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "lequel_prend",
+  "pieces": 6,
+  "look": "papier",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

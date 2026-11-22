@@ -1,0 +1,28 @@
+{
+ "legende": "Tu la prends ? 👇 1.Dg7# est mat. 1.Dxe6 ? Dxe6 perd la dame contre une tour (Stockfish 16, position composée). Un défi d'échecs par jour.\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-22T13:00:00+01:00",
+ "fichier": "sorties/tour_libre_e6_1_fr.mp4",
+ "concept": "tour_libre_e6",
+ "format": "TACTIQUE",
+ "langue": "fr",
+ "duree": 12.6,
+ "voix": "oui",
+ "paire": "tour_libre_e6_1",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "fr",
+  "duree_s": 13,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "tour_libre_e6",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_ou_pas",
+  "pieces": 6,
+  "look": "emeraude",
+  "fx": "fleches+zoom+tag+impact"
+ }
+}
