@@ -1232,3 +1232,8 @@
 ### commandes/perso_tour_libre_e6_1_fr.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_libre_e6_1_fr.mp4 {"voix_brute_s": 13.0, "tempo": 1.0, "video_s": 13.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 30, "minutage": "5 phrases, 4 coups, 0 pauses"}
+## 2026-11-22 00:11 UTC · run 44965298279
+### commandes/perso_quiz_tour_clouee_c4_1.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/quiz_tour_clouee_c4_1.mp4 {"voix_brute_s": 12.7, "tempo": 1.0, "video_s": 12.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 24, "minutage": "6 phrases, 4 coups, 0 pauses"}

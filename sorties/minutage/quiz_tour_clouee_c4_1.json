@@ -43,7 +43,7 @@
    "badge": null
   },
   {
-   "t": 3.9,
+   "t": 2.68,
    "coup": "Rxe8+",
    "badge": "brillant"
   },
@@ -85,11 +85,11 @@
    "type": "sticker"
   },
   {
-   "t": 3.9,
+   "t": 2.68,
    "type": "coup"
   },
   {
-   "t": 3.9,
+   "t": 2.68,
    "type": "zoom"
   },
   {
@@ -109,12 +109,16 @@
    "type": "fleches"
   },
   {
-   "t": 6.94,
+   "t": 7.64,
    "type": "sticker"
   },
   {
-   "t": 10.35,
+   "t": 8.49,
    "type": "position"
+  },
+  {
+   "t": 8.54,
+   "type": "fleches"
   },
   {
    "t": 10.4,
