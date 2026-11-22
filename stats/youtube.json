@@ -1,5 +1,5 @@
 {
- "date": "2026-11-22T10:21:14.166993+00:00",
+ "date": "2026-11-22T10:31:12.108342+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -12,7 +12,7 @@
    "publiee": "2026-11-22T09:02:55Z",
    "statut": "public",
    "duree": "PT14S",
-   "vues": 354,
+   "vues": 491,
    "jaime": 3,
    "commentaires": 2
   },
@@ -21,7 +21,7 @@
    "publiee": "2026-11-21T18:11:31Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 3504,
+   "vues": 3506,
    "jaime": 23,
    "commentaires": 3
   },
@@ -31,7 +31,7 @@
    "statut": "public",
    "duree": "PT15S",
    "vues": 3396,
-   "jaime": 21,
+   "jaime": 22,
    "commentaires": 1
   },
   "YF7Zeo7CHQg": {
@@ -66,7 +66,7 @@
    "publiee": "2026-11-20T18:31:20Z",
    "statut": "public",
    "duree": "PT20S",
-   "vues": 2584,
+   "vues": 2582,
    "jaime": 12,
    "commentaires": 1
   },
@@ -75,7 +75,7 @@
    "publiee": "2026-11-20T14:44:49Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 4749,
+   "vues": 4747,
    "jaime": 19,
    "commentaires": 0
   },
@@ -93,8 +93,8 @@
    "publiee": "2026-11-19T18:46:32Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 28493,
-   "jaime": 159,
+   "vues": 28547,
+   "jaime": 160,
    "commentaires": 2
   },
   "kPzSp8UUbdk": {
@@ -102,8 +102,8 @@
    "publiee": "2026-11-19T15:41:04Z",
    "statut": "public",
    "duree": "PT19S",
-   "vues": 6141,
-   "jaime": 35,
+   "vues": 6147,
+   "jaime": 36,
    "commentaires": 0
   },
   "FtzG2wlsE1w": {
@@ -129,7 +129,7 @@
    "publiee": "2026-11-18T18:40:42Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 32373,
+   "vues": 32371,
    "jaime": 161,
    "commentaires": 24
   },
@@ -138,8 +138,8 @@
    "publiee": "2026-11-18T15:40:40Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 3245,
-   "jaime": 19,
+   "vues": 3266,
+   "jaime": 20,
    "commentaires": 7
   },
   "u6UuHxYBSLw": {
@@ -147,7 +147,7 @@
    "publiee": "2026-11-18T12:03:12Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 31108,
+   "vues": 31105,
    "jaime": 184,
    "commentaires": 20
   },
@@ -183,7 +183,7 @@
    "publiee": "2026-11-17T13:05:40Z",
    "statut": "public",
    "duree": "PT18S",
-   "vues": 25114,
+   "vues": 25115,
    "jaime": 154,
    "commentaires": 3
   },
