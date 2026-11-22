@@ -4,7 +4,7 @@
  "duree_s": 12.6,
  "hook": {
   "texte": "Tu la|prends ?",
-  "fin": 1.1
+  "fin": 1.06
  },
  "question": {
   "texte": "Tu la|prends ?",
@@ -16,35 +16,35 @@
    "texte": "Tu la prends ?"
   },
   {
-   "t": 1.1,
+   "t": 1.06,
    "texte": "Non !"
   },
   {
-   "t": 2.6,
+   "t": 2.38,
    "texte": "Dame en g7  échec et mat !"
   },
   {
-   "t": 5.52,
+   "t": 5.44,
    "texte": "Si tu prends la tour sa dame prend la tienne."
   },
   {
-   "t": 8.92,
+   "t": 8.88,
    "texte": "Alors, quand une tour semble gratuite demande-toi "
   }
  ],
  "coups": [
   {
-   "t": 0.16,
+   "t": 0.39,
    "coup": "Re6",
    "badge": null
   },
   {
-   "t": 1.1,
+   "t": 1.06,
    "coup": "Qg7#",
    "badge": "mat"
   },
   {
-   "t": 6.82,
+   "t": 6.84,
    "coup": "Qxe6",
    "badge": "gaffe"
   },
@@ -61,7 +61,7 @@
    "type": "position"
   },
   {
-   "t": 0.16,
+   "t": 0.39,
    "type": "coup"
   },
   {
@@ -73,11 +73,11 @@
    "type": "sticker"
   },
   {
-   "t": 1.1,
+   "t": 1.06,
    "type": "coup"
   },
   {
-   "t": 1.1,
+   "t": 1.06,
    "type": "zoom"
   },
   {
@@ -85,7 +85,7 @@
    "type": "sticker"
   },
   {
-   "t": 5.52,
+   "t": 5.44,
    "type": "fleches"
   },
   {
@@ -97,7 +97,7 @@
    "type": "fleches"
   },
   {
-   "t": 6.82,
+   "t": 6.84,
    "type": "coup"
   },
   {
@@ -113,7 +113,7 @@
    "type": "fleches"
   },
   {
-   "t": 11.9,
+   "t": 11.88,
    "type": "sticker"
   }
  ],
