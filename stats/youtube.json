@@ -1,5 +1,5 @@
 {
- "date": "2026-11-22T09:21:14.605329+00:00",
+ "date": "2026-11-22T09:31:12.977225+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -12,9 +12,9 @@
    "publiee": "2026-11-22T09:02:55Z",
    "statut": "public",
    "duree": "PT14S",
-   "vues": 24,
-   "jaime": 0,
-   "commentaires": 0
+   "vues": 33,
+   "jaime": 1,
+   "commentaires": 1
   },
   "SQk0WeOYwxc": {
    "titre": "You're lost. Which move saves the game? ♟️ #chess #shorts",
@@ -30,8 +30,8 @@
    "publiee": "2026-11-21T16:44:33Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 3386,
-   "jaime": 16,
+   "vues": 3393,
+   "jaime": 17,
    "commentaires": 1
   },
   "YF7Zeo7CHQg": {
@@ -40,7 +40,7 @@
    "statut": "public",
    "duree": "PT19S",
    "vues": 1823,
-   "jaime": 9,
+   "jaime": 10,
    "commentaires": 1
   },
   "6_Py-L7pm8s": {
@@ -48,8 +48,8 @@
    "publiee": "2026-11-21T16:44:25Z",
    "statut": "public",
    "duree": "PT14S",
-   "vues": 6626,
-   "jaime": 17,
+   "vues": 6628,
+   "jaime": 19,
    "commentaires": 0
   },
   "JnkJJrU7oLo": {
@@ -93,7 +93,7 @@
    "publiee": "2026-11-19T18:46:32Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 28371,
+   "vues": 28393,
    "jaime": 157,
    "commentaires": 2
   },
