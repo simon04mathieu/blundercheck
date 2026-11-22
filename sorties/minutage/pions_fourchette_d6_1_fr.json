@@ -1,0 +1,125 @@
+{
+ "nom": "pions_fourchette_d6_1_fr",
+ "tempo": 1.0,
+ "duree_s": 15.24,
+ "hook": {
+  "texte": "Lequel|prend ?",
+  "fin": 0.66
+ },
+ "question": {
+  "texte": "Lequel|prend ?",
+  "t": 12.04
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Lequel prend ?"
+  },
+  {
+   "t": 0.66,
+   "texte": "Le pion c !"
+  },
+  {
+   "t": 3.02,
+   "texte": "Ensuite le pion e file en dame."
+  },
+  {
+   "t": 6.32,
+   "texte": "Si le pion e prend son pion éloigné file  nulle seulement."
+  },
+  {
+   "t": 11.74,
+   "texte": "Alors, quand deux de tes pions sont attaqués, demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.3,
+   "coup": "d6",
+   "badge": null
+  },
+  {
+   "t": 0.66,
+   "coup": "cxd6",
+   "badge": "brillant"
+  },
+  {
+   "t": 3.86,
+   "coup": "Kd7",
+   "badge": null
+  },
+  {
+   "t": 5.04,
+   "coup": "Kf7",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.3,
+   "type": "coup"
+  },
+  {
+   "t": 0.3,
+   "type": "fleches"
+  },
+  {
+   "t": 0.3,
+   "type": "sticker"
+  },
+  {
+   "t": 0.66,
+   "type": "coup"
+  },
+  {
+   "t": 0.66,
+   "type": "zoom"
+  },
+  {
+   "t": 3.86,
+   "type": "coup"
+  },
+  {
+   "t": 4.54,
+   "type": "fleches"
+  },
+  {
+   "t": 5.04,
+   "type": "coup"
+  },
+  {
+   "t": 6.32,
+   "type": "sticker"
+  },
+  {
+   "t": 7.21,
+   "type": "position"
+  },
+  {
+   "t": 7.64,
+   "type": "fleches"
+  },
+  {
+   "t": 9.1,
+   "type": "fleches"
+  },
+  {
+   "t": 10.26,
+   "type": "sticker"
+  },
+  {
+   "t": 12.42,
+   "type": "sticker"
+  },
+  {
+   "t": 14.48,
+   "type": "sticker"
+  }
+ ],
+ "musique": "fluffing_a_duck.mp3"
+}
