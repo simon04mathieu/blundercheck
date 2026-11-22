@@ -1221,3 +1221,8 @@
 ### commandes/perso_tour_libre_e6_1_fr.json
     voix générée : 148 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_libre_e6_1_fr.mp4 {"voix_brute_s": 13.0, "tempo": 1.0, "video_s": 13.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 29, "minutage": "5 phrases, 4 coups, 0 pauses"}
+## 2026-11-22 00:07 UTC · run 44965040606
+### commandes/perso_pions_fourchette_d6_1_fr.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pions_fourchette_d6_1_fr.mp4 {"voix_brute_s": 15.1, "tempo": 1.0, "video_s": 15.2, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "fluffing_a_duck.mp3", "mots_transcrits": 33, "minutage": "5 phrases, 4 coups, 0 pauses"}

@@ -1,14 +1,14 @@
 {
  "nom": "pions_fourchette_d6_1_fr",
  "tempo": 1.0,
- "duree_s": 15.24,
+ "duree_s": 15.26,
  "hook": {
   "texte": "Lequel|prend ?",
   "fin": 0.66
  },
  "question": {
   "texte": "Lequel|prend ?",
-  "t": 12.04
+  "t": 12.06
  },
  "phrases": [
   {
@@ -24,7 +24,7 @@
    "texte": "Ensuite le pion e file en dame."
   },
   {
-   "t": 6.32,
+   "t": 6.36,
    "texte": "Si le pion e prend son pion éloigné file  nulle seulement."
   },
   {
@@ -81,6 +81,10 @@
    "type": "zoom"
   },
   {
+   "t": 1.9,
+   "type": "sticker"
+  },
+  {
    "t": 3.86,
    "type": "coup"
   },
@@ -93,7 +97,7 @@
    "type": "coup"
   },
   {
-   "t": 6.32,
+   "t": 6.36,
    "type": "sticker"
   },
   {
@@ -105,7 +109,7 @@
    "type": "fleches"
   },
   {
-   "t": 9.1,
+   "t": 9.12,
    "type": "fleches"
   },
   {
@@ -117,7 +121,7 @@
    "type": "sticker"
   },
   {
-   "t": 14.48,
+   "t": 14.5,
    "type": "sticker"
   }
  ],
