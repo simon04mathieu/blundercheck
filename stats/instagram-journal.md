@@ -137,3 +137,5 @@
 {"reseau": "instagram", "id": "17901630951398768"}
 ### 2026-11-21 18:12 publications/instagram/sous_promotion_d8_1_fr.json
 {"reseau": "instagram", "id": "17945188035100493"}
+### 2026-11-22 12:01 publications/instagram/tour_libre_e6_1_fr.json
+{"reseau": "instagram", "id": "18127442675024264"}
