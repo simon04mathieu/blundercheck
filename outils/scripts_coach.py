@@ -2068,23 +2068,23 @@ B7B = "fen:k1B5/n1K5/8/8/8/8/8/8_w_-_-_1_2"
 _S = {
 "pions_pousser_e6_1": ("blancs", "Push,|or take?",
 """[p """ + E6A + """] Push, [m f6] or [f f6e5] [s tag e5 1.6 PUSH_OR_TAKE?] take? [h] [m e6 brillant] [z e6 1.3 2.0] Push! His king [m Kd8] is stuck, [f e2d4] and yours [m Kd3 brillant] takes the d-pawn. [s tag d4 1.6 WINS_D-PAWN] [x ding] Take [p """ + E6B + """] instead, [f e5f6] and it's [s tag f6 1.8 ONLY_A_DRAW] a draw. So when his pawn [s tag f6 1.6 PAWN_ATTACKED] hits yours, [s tag e5 1.4 PUSH_OR_TAKE?] ask yourself:"""),
-"tour_deux_pieces_e6_1": ("blancs", "Which|takes?",
-"""[p """ + R6A + """] Which [m Re6] [f c5e6 e4e6] [s tag e6 1.6 WHICH_TAKES?] takes? [h] [m Nxe6+ brillant] [z e6 1.3 2.0] The knight, with check! Pawn [m dxe6] takes knight, [f e4e6] rook [m Rxe6 brillant] takes pawn: [s tag e6 1.6 WINNING] you win. [x ding] Rook takes [p """ + R6B + """] first? [f d7e6] His pawn [s tag d7 1.8 PAWN_TAKES_BACK] takes back: a draw. So when [f c5e6 e4e6] two pieces hit a rook, [s tag e6 1.4 WHICH_TAKES?] ask yourself:"""),
+"tour_deux_pieces_e6_1": ("blancs", "Which piece|takes?",
+"""[p """ + R6A + """] Which [m Re6] piece [f c5e6 e4e6] [s tag e6 1.6 WHICH_TAKES?] takes? [h] [m Nxe6+ brillant] [z e6 1.3 2.0] The knight, with check! Pawn [m dxe6] takes knight, [f e4e6] rook [m Rxe6 brillant] takes pawn: [s tag e6 1.6 WINNING] you win. [x ding] Rook takes [p """ + R6B + """] first? [f d7e6] His pawn [s tag d7 1.8 PAWN_TAKES_BACK] takes back: a draw. So when [f c5e6 e4e6] two pieces hit a rook, [s tag e6 1.4 WHICH_TAKES?] ask yourself:"""),
 "pat_tour_h2_1": ("blancs", "Which move|saves it?",
 """[p """ + H2A + """] Which [m Qe3] move [f e3f2] [s tag f1 1.6 LOST_GAME] saves it? [h] [m Rh2+ brillant] [z h2 1.3 2.0] Rook to h2, check! He [m Kxh2] must take. Now you [s tag f1 1.6 NO_MOVES] have no move: [x impact] [s tag h2 1.8 STALEMATE] stalemate! Analyze your [s tag d4 1.6 YOUR_GAME] own game, [p """ + H2B + """] [f g2f2] free. So when [f e3f2] you're lost, [s tag f1 1.4 WHICH_MOVE?] ask yourself:"""),
-"quiz_fou_cavalier_b7_1": ("blancs", "Draw,|or checkmate?",
-"""[p """ + B7A + """] Draw, [m Na7] or [f a7a8] [s tag a7 1.6 HIS_OWN_KNIGHT] checkmate? [h] [m Bb7# mat] [z b7 1.3 2.0] Checkmate! [x impact] His own knight [f a7a8] blocks his king. [s tag a8 1.6 MATE] Bishop to b7: [f c7b8] mate! It isn't [s tag b7 1.6 NOT_A_DRAW] a draw: [p """ + B7B + """] mate is [f c8b7] still possible. So when [s tag a7 1.6 ONE_PIECE_EACH] each side has one piece, [s tag a8 1.4 DRAW_OR_MATE?] ask yourself:"""),
-"pions_pousser_e6_1_fr": ("blancs", "Pousser|ou prendre ?",
-"""[p """ + E6A + """] Pousser [m f6] ou [f f6e5] [s tag e5 1.6 POUSSER_OU_PRENDRE_?] prendre ? [h] [m e6 brillant] [z e6 1.3 2.0] Pousser ! Son roi [m Kd8] est coincé, [f e2d4] et le tien [m Kd3 brillant] prend le pion d. [s tag d4 1.6 PION_D_GAGNÉ] [x ding] Si tu [p """ + E6B + """] prends, [f e5f6] c'est [s tag f6 1.8 NULLE_SEULEMENT] nulle. Alors, quand son pion [s tag f6 1.6 PION_ATTAQUÉ] attaque le tien, [s tag e5 1.4 POUSSER_OU_PRENDRE_?] demande-toi :"""),
+"quiz_fou_cavalier_b7_1": ("blancs", "Is it a draw,|or checkmate?",
+"""[p """ + B7A + """] Is it [m Na7] a draw, [f a7a8] [s tag a7 1.6 HIS_OWN_KNIGHT] or checkmate? [h] [m Bb7# mat] [z b7 1.3 2.0] Checkmate! [x impact] His own knight [f a7a8] blocks his king. [s tag a8 1.6 MATE] Bishop to b7: [f c7b8] mate! It isn't [s tag b7 1.6 NOT_A_DRAW] a draw: [p """ + B7B + """] mate is [f c8b7] still possible. So when [s tag a7 1.6 ONE_PIECE_EACH] each side has one piece, [s tag a8 1.4 DRAW_OR_MATE?] ask yourself:"""),
+"pions_pousser_e6_1_fr": ("blancs", "Tu pousses|ou tu prends ?",
+"""[p """ + E6A + """] Tu [m f6] pousses [f f6e5] [s tag e5 1.6 POUSSER_OU_PRENDRE_?] ou tu prends ? [h] [m e6 brillant] [z e6 1.3 2.0] Pousse ! Son roi [m Kd8] est coincé, [f e2d4] et le tien [m Kd3 brillant] prend le pion d. [s tag d4 1.6 PION_D_GAGNÉ] [x ding] Si tu [p """ + E6B + """] prends, [f e5f6] c'est [s tag f6 1.8 NULLE_SEULEMENT] nulle. Alors, quand son pion [s tag f6 1.6 PION_ATTAQUÉ] attaque le tien, [s tag e5 1.4 POUSSER_OU_PRENDRE_?] demande-toi :"""),
 "pat_tour_h2_1_fr": ("blancs", "Quel coup|te sauve ?",
-"""[p """ + H2A + """] Quel [m Qe3] coup [f e3f2] [s tag f1 1.6 PERDU_?] te sauve ? [h] [m Rh2+ brillant] [z h2 1.3 2.0] Tour en h2, échec ! Il [m Kxh2] doit la prendre. Et tu n'as [s tag f1 1.6 PLUS_DE_COUP] plus de coup : [x impact] [s tag h2 1.8 PAT] pat ! [p """ + H2B + """] [f g2f2] [s tag g2 1.6 LES_AUTRES_PERDENT] Alors, quand tu es perdu, [f e3f2] [s tag f1 1.4 QUEL_COUP_?] demande-toi :"""),
+"""[p """ + H2A + """] Quel coup [m Qe3] te [f e3f2] [s tag f1 1.6 PERDU_?] sauve ? [h] [m Rh2+ brillant] [z h2 1.3 2.0] Tour en h2, [f h2h1] échec ! Il [m Kxh2] doit la prendre. Et tu n'as [s tag f1 1.6 PLUS_DE_COUP] plus de coup : [x impact] [s tag h2 1.8 PAT] pat ! [p """ + H2B + """] [f g2f2] [s tag g2 1.6 LES_AUTRES_PERDENT] Alors, quand tu es perdu, [f e3f2] [s tag f1 1.4 QUEL_COUP_?] demande-toi :"""),
 }
 PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
 QUESTIONS.update({
     "pions_pousser_e6_1": "Push,|or take?",
-    "tour_deux_pieces_e6_1": "Which|takes?",
+    "tour_deux_pieces_e6_1": "Which piece|takes?",
     "pat_tour_h2_1": "Analyze your game|blundercheck.app/try",
-    "quiz_fou_cavalier_b7_1": "Draw,|or checkmate?",
-    "pions_pousser_e6_1_fr": "Pousser|ou prendre ?",
+    "quiz_fou_cavalier_b7_1": "Is it a draw,|or checkmate?",
+    "pions_pousser_e6_1_fr": "Tu pousses|ou tu prends ?",
     "pat_tour_h2_1_fr": "Quel coup|te sauve ?",
 })
