@@ -1132,3 +1132,8 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-23 00:17 publications/tiktok/pat_tour_h2_1_fr.json
+{"publish_id": "v_inbox_file~v2.7711153771916822550", "mode": "brouillon", "vie_privee": null, "legende": "Quel coup te sauve ? 👇 1.Th2+ ! Rxh2 et les Blancs n'ont plus de coup : pat. Tout autre coup perd (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nRaté ? Abonne-toi, tu auras le prochain.\n\n#echecs #chess #echecsfr #chesstok #puzzle"}
+### 2026-11-23 00:17 publications/tiktok/pions_pousser_e6_1_fr.json
+{"publish_id": "v_inbox_file~v2.7711154063718615062", "mode": "brouillon", "vie_privee": null, "legende": "Pousser ou prendre ? 👇 Seul 1.e6 ! gagne : son roi est coincé et le tien prend le pion d. 1.exf6 est nulle (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nRaté ? Abonne-toi, tu auras le prochain.\n\n#echecs #chess #echecsfr #chesstok #puzzle"}
