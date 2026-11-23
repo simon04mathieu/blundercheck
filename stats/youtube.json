@@ -1,5 +1,5 @@
 {
- "date": "2026-11-23T07:11:13.025279+00:00",
+ "date": "2026-11-23T07:21:14.793083+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -12,7 +12,7 @@
    "publiee": "2026-11-22T18:01:44Z",
    "statut": "public",
    "duree": "PT13S",
-   "vues": 3150,
+   "vues": 3155,
    "jaime": 19,
    "commentaires": 0
   },
@@ -30,7 +30,7 @@
    "publiee": "2026-11-22T12:01:46Z",
    "statut": "public",
    "duree": "PT12S",
-   "vues": 5312,
+   "vues": 5314,
    "jaime": 22,
    "commentaires": 1
   },
@@ -84,7 +84,7 @@
    "publiee": "2026-11-20T18:31:29Z",
    "statut": "public",
    "duree": "PT18S",
-   "vues": 3540,
+   "vues": 3534,
    "jaime": 17,
    "commentaires": 3
   },
@@ -102,7 +102,7 @@
    "publiee": "2026-11-20T14:44:49Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 7899,
+   "vues": 7891,
    "jaime": 29,
    "commentaires": 0
   },
@@ -111,7 +111,7 @@
    "publiee": "2026-11-20T09:56:39Z",
    "statut": "public",
    "duree": "PT18S",
-   "vues": 12933,
+   "vues": 12922,
    "jaime": 59,
    "commentaires": 2
   },
@@ -120,7 +120,7 @@
    "publiee": "2026-11-19T18:46:32Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 30387,
+   "vues": 30383,
    "jaime": 166,
    "commentaires": 2
   },
@@ -138,7 +138,7 @@
    "publiee": "2026-11-19T12:02:23Z",
    "statut": "public",
    "duree": "PT18S",
-   "vues": 13253,
+   "vues": 13255,
    "jaime": 47,
    "commentaires": 0
   },
@@ -156,7 +156,7 @@
    "publiee": "2026-11-18T18:40:42Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 32448,
+   "vues": 32449,
    "jaime": 161,
    "commentaires": 24
   },
@@ -246,7 +246,7 @@
    "publiee": "2026-11-16T15:04:28Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 30852,
+   "vues": 30851,
    "jaime": 72,
    "commentaires": 4
   },
@@ -282,7 +282,7 @@
    "publiee": "2026-11-15T12:51:28Z",
    "statut": "public",
    "duree": "PT19S",
-   "vues": 27733,
+   "vues": 27734,
    "jaime": 85,
    "commentaires": 9
   },
