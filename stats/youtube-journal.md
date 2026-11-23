@@ -1330,3 +1330,4 @@
 ### 2026-11-23 12:01 publications/youtube/tour_deux_pieces_e6_1.json
 {"id": "POSmZgnUTCw", "url": "https://www.youtube.com/shorts/POSmZgnUTCw", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "160"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "160"}
