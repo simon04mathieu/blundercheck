@@ -234,3 +234,5 @@
 {"reseau": "facebook", "id": "29776184848646047", "ok": true}
 ### 2026-11-23 12:02 publications/facebook/tour_deux_pieces_e6_1.json
 {"reseau": "facebook", "id": "1576721697549289", "ok": true}
+### 2026-11-23 15:01 publications/facebook/pat_tour_h2_1.json
+{"reseau": "facebook", "id": "4466051013633077", "ok": true}
