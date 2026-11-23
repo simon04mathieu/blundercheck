@@ -1,0 +1,121 @@
+{
+ "nom": "pions_pousser_e6_1_fr",
+ "tempo": 1.0,
+ "duree_s": 12.18,
+ "hook": {
+  "texte": "Pousser|ou prendre ?",
+  "fin": 2.54
+ },
+ "question": {
+  "texte": "Pousser|ou prendre ?",
+  "t": 8.98
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Pousser ou prendre ?"
+  },
+  {
+   "t": 2.54,
+   "texte": "Pousser !"
+  },
+  {
+   "t": 3.44,
+   "texte": "Son roi est coincé et le tien prend le pion d."
+  },
+  {
+   "t": 7.22,
+   "texte": "Si tu prends c'est nulle."
+  },
+  {
+   "t": 9.18,
+   "texte": "Alors, quand son pion attaque le tien, demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.7,
+   "coup": "f6",
+   "badge": null
+  },
+  {
+   "t": 2.54,
+   "coup": "e6",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.1,
+   "coup": "Kd8",
+   "badge": null
+  },
+  {
+   "t": 5.52,
+   "coup": "Kd3",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.7,
+   "type": "coup"
+  },
+  {
+   "t": 0.98,
+   "type": "fleches"
+  },
+  {
+   "t": 0.98,
+   "type": "sticker"
+  },
+  {
+   "t": 2.54,
+   "type": "coup"
+  },
+  {
+   "t": 2.54,
+   "type": "zoom"
+  },
+  {
+   "t": 4.1,
+   "type": "coup"
+  },
+  {
+   "t": 5.02,
+   "type": "fleches"
+  },
+  {
+   "t": 5.52,
+   "type": "coup"
+  },
+  {
+   "t": 7.22,
+   "type": "sticker"
+  },
+  {
+   "t": 7.61,
+   "type": "position"
+  },
+  {
+   "t": 8.2,
+   "type": "fleches"
+  },
+  {
+   "t": 8.4,
+   "type": "sticker"
+  },
+  {
+   "t": 10.44,
+   "type": "sticker"
+  },
+  {
+   "t": 11.52,
+   "type": "sticker"
+  }
+ ],
+ "musique": "zoobeedoo.mp3"
+}
