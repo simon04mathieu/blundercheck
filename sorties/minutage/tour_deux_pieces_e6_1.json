@@ -1,59 +1,59 @@
 {
  "nom": "tour_deux_pieces_e6_1",
  "tempo": 1.0,
- "duree_s": 15.22,
+ "duree_s": 15.64,
  "hook": {
-  "texte": "Which piece|takes?",
-  "fin": 1.78
+  "texte": "Which of the two|takes?",
+  "fin": 2.18
  },
  "question": {
-  "texte": "Which piece|takes?",
-  "t": 12.02
+  "texte": "Which of the two|takes?",
+  "t": 12.44
  },
  "phrases": [
   {
    "t": 0.0,
-   "texte": "Which piece takes?"
+   "texte": "Which of the two takes?"
   },
   {
-   "t": 1.78,
+   "t": 2.18,
    "texte": "The knight, with check!"
   },
   {
-   "t": 3.54,
+   "t": 4.12,
    "texte": "Pawn takes knight rook takes pawn you win."
   },
   {
-   "t": 7.7,
+   "t": 8.2,
    "texte": "Rook takes first?"
   },
   {
-   "t": 9.56,
+   "t": 9.92,
    "texte": "His pawn takes back a draw."
   },
   {
-   "t": 12.32,
+   "t": 12.82,
    "texte": "So when two pieces hit a rook, ask yourself"
   }
  ],
  "coups": [
   {
-   "t": 0.2,
+   "t": 0.42,
    "coup": "Re6",
    "badge": null
   },
   {
-   "t": 1.78,
+   "t": 2.18,
    "coup": "Nxe6+",
    "badge": "brillant"
   },
   {
-   "t": 3.98,
+   "t": 4.54,
    "coup": "dxe6",
    "badge": null
   },
   {
-   "t": 5.1,
+   "t": 5.66,
    "coup": "Rxe6",
    "badge": "brillant"
   }
@@ -65,59 +65,59 @@
    "type": "position"
   },
   {
-   "t": 0.2,
+   "t": 0.42,
    "type": "coup"
   },
   {
-   "t": 0.46,
+   "t": 0.76,
    "type": "fleches"
   },
   {
-   "t": 0.46,
+   "t": 0.76,
    "type": "sticker"
   },
   {
-   "t": 1.78,
+   "t": 2.18,
    "type": "coup"
   },
   {
-   "t": 1.78,
+   "t": 2.18,
    "type": "zoom"
   },
   {
-   "t": 3.98,
+   "t": 4.54,
    "type": "coup"
   },
   {
-   "t": 5.0,
+   "t": 5.58,
    "type": "fleches"
   },
   {
-   "t": 5.1,
+   "t": 5.66,
    "type": "coup"
   },
   {
-   "t": 6.44,
+   "t": 6.94,
    "type": "sticker"
   },
   {
-   "t": 8.41,
+   "t": 8.81,
    "type": "position"
   },
   {
-   "t": 9.56,
+   "t": 9.92,
    "type": "fleches"
   },
   {
-   "t": 9.96,
+   "t": 10.4,
    "type": "sticker"
   },
   {
-   "t": 12.7,
+   "t": 13.26,
    "type": "fleches"
   },
   {
-   "t": 14.4,
+   "t": 14.9,
    "type": "sticker"
   }
  ],
