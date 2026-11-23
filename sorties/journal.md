@@ -1262,3 +1262,8 @@
 ### commandes/perso_tour_deux_pieces_e6_1.json
     voix générée : 173 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_deux_pieces_e6_1.mp4 {"voix_brute_s": 15.8, "tempo": 1.0, "video_s": 15.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "baby_animals_playing.mp3", "mots_transcrits": 33, "minutage": "6 phrases, 4 coups, 0 pauses"}
+## 2026-11-23 00:09 UTC · run 45087021460
+### commandes/perso_pat_tour_h2_1_fr.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pat_tour_h2_1_fr.mp4 {"voix_brute_s": 11.9, "tempo": 1.0, "video_s": 12.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "losing_your_marbles.mp3", "mots_transcrits": 29, "minutage": "5 phrases, 3 coups, 0 pauses"}

@@ -34,7 +34,7 @@
  ],
  "coups": [
   {
-   "t": 0.16,
+   "t": 0.42,
    "coup": "Qe3",
    "badge": null
   },
@@ -56,15 +56,15 @@
    "type": "position"
   },
   {
-   "t": 0.16,
+   "t": 0.42,
    "type": "coup"
   },
   {
-   "t": 0.42,
+   "t": 0.6,
    "type": "fleches"
   },
   {
-   "t": 0.42,
+   "t": 0.6,
    "type": "sticker"
   },
   {
@@ -74,6 +74,10 @@
   {
    "t": 2.06,
    "type": "zoom"
+  },
+  {
+   "t": 3.56,
+   "type": "fleches"
   },
   {
    "t": 5.3,
