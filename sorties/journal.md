@@ -1270,3 +1270,6 @@
 ### commandes/perso_pions_pousser_e6_1_fr.json
     voix générée : 162 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pions_pousser_e6_1_fr.mp4 {"voix_brute_s": 11.0, "tempo": 1.0, "video_s": 11.1, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "zoobeedoo.mp3", "mots_transcrits": 37, "minutage": "5 phrases, 4 coups, 0 pauses"}
+### commandes/perso_quiz_fou_cavalier_b7_1.json
+    voix générée : 178 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/quiz_fou_cavalier_b7_1.mp4 {"voix_brute_s": 15.8, "tempo": 1.0, "video_s": 15.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "baby_animals_playing.mp3", "mots_transcrits": 35, "minutage": "6 phrases, 2 coups, 0 pauses"}
