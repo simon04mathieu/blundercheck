@@ -1371,3 +1371,4 @@
 ### 2026-11-23 18:01 publications/youtube/quiz_fou_cavalier_b7_1.json
 {"id": "prUaDWE6G9Y", "url": "https://www.youtube.com/shorts/prUaDWE6G9Y", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "160"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "160"}
