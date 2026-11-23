@@ -34,7 +34,7 @@
  ],
  "coups": [
   {
-   "t": 0.18,
+   "t": 0.56,
    "coup": "f6",
    "badge": null
   },
@@ -61,15 +61,15 @@
    "type": "position"
   },
   {
-   "t": 0.18,
+   "t": 0.56,
    "type": "coup"
   },
   {
-   "t": 0.56,
+   "t": 0.64,
    "type": "fleches"
   },
   {
-   "t": 0.56,
+   "t": 0.64,
    "type": "sticker"
   },
   {
