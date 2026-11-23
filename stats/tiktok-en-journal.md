@@ -1062,3 +1062,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 ### 2026-11-23 00:18 publications/tiktok-en/tour_deux_pieces_e6_1.json
 {"publish_id": "v_inbox_file~v2.7711154063718680598", "mode": "brouillon", "vie_privee": null, "legende": "Which takes? 👇 1.Nxe6+! dxe6 2.Rxe6 wins (rook vs bare king). 1.Rxe6? dxe6 is just a draw (Stockfish 16, composed position). One new puzzle every day.\n\nFound it? Follow, a new puzzle drops every day.\n\n#chess #chesstactics #chesspuzzle #chesstok #chessgame"}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 56, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 56, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
