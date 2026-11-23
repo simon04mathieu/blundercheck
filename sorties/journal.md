@@ -1259,3 +1259,6 @@
 ### commandes/perso_quiz_fou_cavalier_b7_1.json
     voix générée : 170 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/quiz_fou_cavalier_b7_1.mp4 {"voix_brute_s": 15.0, "tempo": 1.0, "video_s": 15.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "baby_animals_playing.mp3", "mots_transcrits": 32, "minutage": "6 phrases, 2 coups, 0 pauses"}
+### commandes/perso_tour_deux_pieces_e6_1.json
+    voix générée : 173 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/tour_deux_pieces_e6_1.mp4 {"voix_brute_s": 15.8, "tempo": 1.0, "video_s": 15.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "baby_animals_playing.mp3", "mots_transcrits": 33, "minutage": "6 phrases, 4 coups, 0 pauses"}

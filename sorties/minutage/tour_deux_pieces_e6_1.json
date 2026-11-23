@@ -1,0 +1,125 @@
+{
+ "nom": "tour_deux_pieces_e6_1",
+ "tempo": 1.0,
+ "duree_s": 15.84,
+ "hook": {
+  "texte": "Which|takes?",
+  "fin": 1.6
+ },
+ "question": {
+  "texte": "Which|takes?",
+  "t": 12.64
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which takes?"
+  },
+  {
+   "t": 1.6,
+   "texte": "The knight, with check!"
+  },
+  {
+   "t": 3.97,
+   "texte": "Pawn takes knight rook takes pawn you win."
+  },
+  {
+   "t": 8.37,
+   "texte": "Rook takes first?"
+  },
+  {
+   "t": 10.3,
+   "texte": "His pawn takes back a draw."
+  },
+  {
+   "t": 13.1,
+   "texte": "So when two pieces hit a rook, ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.22,
+   "coup": "Re6",
+   "badge": null
+  },
+  {
+   "t": 1.6,
+   "coup": "Nxe6+",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.28,
+   "coup": "dxe6",
+   "badge": null
+  },
+  {
+   "t": 5.44,
+   "coup": "Rxe6",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.22,
+   "type": "coup"
+  },
+  {
+   "t": 0.22,
+   "type": "fleches"
+  },
+  {
+   "t": 0.22,
+   "type": "sticker"
+  },
+  {
+   "t": 1.6,
+   "type": "coup"
+  },
+  {
+   "t": 1.6,
+   "type": "zoom"
+  },
+  {
+   "t": 4.28,
+   "type": "coup"
+  },
+  {
+   "t": 5.3,
+   "type": "fleches"
+  },
+  {
+   "t": 5.44,
+   "type": "coup"
+  },
+  {
+   "t": 6.88,
+   "type": "sticker"
+  },
+  {
+   "t": 8.87,
+   "type": "position"
+  },
+  {
+   "t": 10.3,
+   "type": "fleches"
+  },
+  {
+   "t": 10.76,
+   "type": "sticker"
+  },
+  {
+   "t": 13.46,
+   "type": "fleches"
+  },
+  {
+   "t": 15.06,
+   "type": "sticker"
+  }
+ ],
+ "musique": "baby_animals_playing.mp3"
+}
