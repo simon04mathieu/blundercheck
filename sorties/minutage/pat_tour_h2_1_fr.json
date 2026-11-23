@@ -1,0 +1,112 @@
+{
+ "nom": "pat_tour_h2_1_fr",
+ "tempo": 1.0,
+ "duree_s": 12.08,
+ "hook": {
+  "texte": "Quel coup|te sauve ?",
+  "fin": 2.06
+ },
+ "question": {
+  "texte": "Quel coup|te sauve ?",
+  "t": 8.88
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Quel coup te sauve ?"
+  },
+  {
+   "t": 2.06,
+   "texte": "Tour en h2 échec !"
+  },
+  {
+   "t": 5.14,
+   "texte": "Il doit la prendre."
+  },
+  {
+   "t": 6.44,
+   "texte": "Et tu n'as plus de coup : pat !"
+  },
+  {
+   "t": 9.22,
+   "texte": "Alors, quand tu es perdu demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.16,
+   "coup": "Qe3",
+   "badge": null
+  },
+  {
+   "t": 2.06,
+   "coup": "Rh2+",
+   "badge": "brillant"
+  },
+  {
+   "t": 5.3,
+   "coup": "Kxh2",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.16,
+   "type": "coup"
+  },
+  {
+   "t": 0.42,
+   "type": "fleches"
+  },
+  {
+   "t": 0.42,
+   "type": "sticker"
+  },
+  {
+   "t": 2.06,
+   "type": "coup"
+  },
+  {
+   "t": 2.06,
+   "type": "zoom"
+  },
+  {
+   "t": 5.3,
+   "type": "coup"
+  },
+  {
+   "t": 7.02,
+   "type": "sticker"
+  },
+  {
+   "t": 8.18,
+   "type": "sticker"
+  },
+  {
+   "t": 9.17,
+   "type": "position"
+  },
+  {
+   "t": 9.22,
+   "type": "fleches"
+  },
+  {
+   "t": 9.22,
+   "type": "sticker"
+  },
+  {
+   "t": 11.36,
+   "type": "fleches"
+  },
+  {
+   "t": 11.36,
+   "type": "sticker"
+  }
+ ],
+ "musique": "losing_your_marbles.mp3"
+}
