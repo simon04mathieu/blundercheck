@@ -1242,3 +1242,8 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/quiz_tour_clouee_c4_1.mp4 {"voix_brute_s": 12.7, "tempo": 1.0, "video_s": 12.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 24, "minutage": "6 phrases, 4 coups, 0 pauses"}
+## 2026-11-23 00:04 UTC · run 45086505756
+### commandes/perso_pat_tour_h2_1.json
+    voix générée : 150 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pat_tour_h2_1.mp4 {"voix_brute_s": 13.3, "tempo": 1.0, "video_s": 13.3, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "baby_animals_playing.mp3", "mots_transcrits": 28, "minutage": "6 phrases, 3 coups, 0 pauses"}

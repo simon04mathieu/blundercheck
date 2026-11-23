@@ -1,0 +1,116 @@
+{
+ "nom": "pat_tour_h2_1",
+ "tempo": 1.0,
+ "duree_s": 13.38,
+ "hook": {
+  "texte": "Which move|saves it?",
+  "fin": 2.02
+ },
+ "question": {
+  "texte": "Analyze your game|blundercheck.app/try",
+  "t": 10.18
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which move saves it?"
+  },
+  {
+   "t": 2.02,
+   "texte": "Rook to h2 check!"
+  },
+  {
+   "t": 4.42,
+   "texte": "He must take."
+  },
+  {
+   "t": 5.82,
+   "texte": "Now you have no move stalemate!"
+  },
+  {
+   "t": 8.74,
+   "texte": "Analyze your own game free."
+  },
+  {
+   "t": 11.34,
+   "texte": "So when you're lost ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.2,
+   "coup": "Qe3",
+   "badge": null
+  },
+  {
+   "t": 2.02,
+   "coup": "Rh2+",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.62,
+   "coup": "Kxh2",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.2,
+   "type": "coup"
+  },
+  {
+   "t": 0.5,
+   "type": "fleches"
+  },
+  {
+   "t": 0.5,
+   "type": "sticker"
+  },
+  {
+   "t": 2.02,
+   "type": "coup"
+  },
+  {
+   "t": 2.02,
+   "type": "zoom"
+  },
+  {
+   "t": 4.62,
+   "type": "coup"
+  },
+  {
+   "t": 6.16,
+   "type": "sticker"
+  },
+  {
+   "t": 7.36,
+   "type": "sticker"
+  },
+  {
+   "t": 9.44,
+   "type": "sticker"
+  },
+  {
+   "t": 9.89,
+   "type": "position"
+  },
+  {
+   "t": 9.94,
+   "type": "fleches"
+  },
+  {
+   "t": 11.8,
+   "type": "fleches"
+  },
+  {
+   "t": 12.56,
+   "type": "sticker"
+  }
+ ],
+ "musique": "baby_animals_playing.mp3"
+}
