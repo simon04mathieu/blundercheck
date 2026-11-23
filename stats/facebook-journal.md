@@ -236,3 +236,5 @@
 {"reseau": "facebook", "id": "1576721697549289", "ok": true}
 ### 2026-11-23 15:01 publications/facebook/pat_tour_h2_1.json
 {"reseau": "facebook", "id": "4466051013633077", "ok": true}
+### 2026-11-23 18:01 publications/facebook/quiz_fou_cavalier_b7_1.json
+{"reseau": "facebook", "id": "4547329342198840", "ok": true}

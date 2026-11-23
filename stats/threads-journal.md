@@ -248,3 +248,5 @@ jeton Threads renouvelé (valable 60 jours)
 {"reseau": "threads", "id": "17926601193448605"}
 ### 2026-11-23 15:02 publications/threads/pat_tour_h2_1.json
 {"reseau": "threads", "id": "17965132320274198"}
+### 2026-11-23 18:02 publications/threads/quiz_fou_cavalier_b7_1.json
+{"reseau": "threads", "id": "18105572504645412"}
