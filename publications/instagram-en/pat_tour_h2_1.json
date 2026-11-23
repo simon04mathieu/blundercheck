@@ -1,0 +1,27 @@
+{
+ "legende": "Which move saves it? 👇 1.Rh2+! Kxh2 and White has no legal move: stalemate. Any other move loses (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-23T16:00:00+01:00",
+ "fichier": "sorties/pat_tour_h2_1.mp4",
+ "concept": "pat_tour_h2",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 13.38,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 13,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "oui",
+  "fin": "boucle",
+  "motif": "pat_tour_h2",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "sauver_la_partie",
+  "pieces": 5,
+  "look": "papier",
+  "fx": "fleches+zoom+tag+impact"
+ }
+}

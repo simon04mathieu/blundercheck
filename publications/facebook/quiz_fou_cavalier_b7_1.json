@@ -1,0 +1,27 @@
+{
+ "legende": "Draw, or checkmate? 👇 Bishop vs knight is NOT an automatic draw: 1.Bb7# when his own knight blocks his king (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-23T19:00:00+01:00",
+ "fichier": "sorties/quiz_fou_cavalier_b7_1.mp4",
+ "concept": "quiz_fou_cavalier_b7",
+ "format": "QUIZ",
+ "langue": "en",
+ "duree": 15.84,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "QUIZ",
+  "categorie": "quiz",
+  "langue": "en",
+  "duree_s": 16,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "quiz_fou_cavalier_b7",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "nulle_ou_mat",
+  "pieces": 4,
+  "look": "mono",
+  "fx": "fleches+zoom+tag+impact"
+ }
+}

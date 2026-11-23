@@ -1,0 +1,27 @@
+{
+ "legende": "Push, or take? 👇 Only 1.e6! wins: his king is stuck and yours takes the d-pawn. 1.exf6 is just a draw (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-23T10:00:00+01:00",
+ "fichier": "sorties/pions_pousser_e6_1.mp4",
+ "concept": "pions_pousser_e6",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 12.12,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 12,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "pions_pousser_e6",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "pousser_ou_prendre",
+  "pieces": 6,
+  "look": "ardoise",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

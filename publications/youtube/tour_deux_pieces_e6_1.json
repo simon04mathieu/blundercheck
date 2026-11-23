@@ -1,0 +1,34 @@
+{
+ "titre": "Two pieces hit his rook. Which takes? ♟️ #chess #shorts",
+ "description": "Which takes? 👇 1.Nxe6+! dxe6 2.Rxe6 wins (rook vs bare king). 1.Rxe6? dxe6 is just a draw (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess tactics",
+  "chess puzzle",
+  "rook endgame"
+ ],
+ "envoyer_apres": "2026-11-23T13:00:00+01:00",
+ "fichier": "sorties/tour_deux_pieces_e6_1.mp4",
+ "concept": "tour_deux_pieces_e6",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 15.64,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 16,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "tour_deux_pieces_e6",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "quelle_piece_prend",
+  "pieces": 6,
+  "look": "corail",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

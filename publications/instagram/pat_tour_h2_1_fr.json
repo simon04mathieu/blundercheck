@@ -1,0 +1,28 @@
+{
+ "legende": "Quel coup te sauve ? 👇 1.Th2+ ! Rxh2 et les Blancs n'ont plus de coup : pat. Tout autre coup perd (Stockfish 16, position composée). Un défi d'échecs par jour.\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-23T19:00:00+01:00",
+ "fichier": "sorties/pat_tour_h2_1_fr.mp4",
+ "concept": "pat_tour_h2",
+ "format": "FINALE",
+ "langue": "fr",
+ "duree": 12.08,
+ "voix": "oui",
+ "paire": "pat_tour_h2_1",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "fr",
+  "duree_s": 12,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "pat_tour_h2",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "sauver_la_partie",
+  "pieces": 5,
+  "look": "bois",
+  "fx": "fleches+zoom+tag+impact"
+ }
+}
