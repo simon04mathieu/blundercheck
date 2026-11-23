@@ -1306,3 +1306,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "156"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "156"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "156"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "156"}
+### 2026-11-23 09:01 publications/youtube/pions_pousser_e6_1.json
+{"id": "_9OH_4xo8N4", "url": "https://www.youtube.com/shorts/_9OH_4xo8N4", "statut": "public", "publier_le": null}
