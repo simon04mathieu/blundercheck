@@ -1267,3 +1267,6 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/pat_tour_h2_1_fr.mp4 {"voix_brute_s": 11.9, "tempo": 1.0, "video_s": 12.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "losing_your_marbles.mp3", "mots_transcrits": 29, "minutage": "5 phrases, 3 coups, 0 pauses"}
+### commandes/perso_pions_pousser_e6_1_fr.json
+    voix générée : 162 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pions_pousser_e6_1_fr.mp4 {"voix_brute_s": 11.0, "tempo": 1.0, "video_s": 11.1, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "zoobeedoo.mp3", "mots_transcrits": 37, "minutage": "5 phrases, 4 coups, 0 pauses"}

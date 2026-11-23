@@ -1,55 +1,55 @@
 {
  "nom": "pions_pousser_e6_1_fr",
  "tempo": 1.0,
- "duree_s": 12.18,
+ "duree_s": 11.18,
  "hook": {
-  "texte": "Pousser|ou prendre ?",
-  "fin": 2.54
+  "texte": "Tu pousses|ou tu prends ?",
+  "fin": 1.7
  },
  "question": {
-  "texte": "Pousser|ou prendre ?",
-  "t": 8.98
+  "texte": "Tu pousses|ou tu prends ?",
+  "t": 7.98
  },
  "phrases": [
   {
    "t": 0.0,
-   "texte": "Pousser ou prendre ?"
+   "texte": "Tu pousses ou tu prends ?"
   },
   {
-   "t": 2.54,
-   "texte": "Pousser !"
+   "t": 1.7,
+   "texte": "Pousse !"
   },
   {
-   "t": 3.44,
+   "t": 2.92,
    "texte": "Son roi est coincé et le tien prend le pion d."
   },
   {
-   "t": 7.22,
+   "t": 6.14,
    "texte": "Si tu prends c'est nulle."
   },
   {
-   "t": 9.18,
+   "t": 8.2,
    "texte": "Alors, quand son pion attaque le tien, demande-toi "
   }
  ],
  "coups": [
   {
-   "t": 0.7,
+   "t": 0.18,
    "coup": "f6",
    "badge": null
   },
   {
-   "t": 2.54,
+   "t": 1.7,
    "coup": "e6",
    "badge": "brillant"
   },
   {
-   "t": 4.1,
+   "t": 3.48,
    "coup": "Kd8",
    "badge": null
   },
   {
-   "t": 5.52,
+   "t": 4.62,
    "coup": "Kd3",
    "badge": "brillant"
   }
@@ -61,59 +61,59 @@
    "type": "position"
   },
   {
-   "t": 0.7,
+   "t": 0.18,
    "type": "coup"
   },
   {
-   "t": 0.98,
+   "t": 0.56,
    "type": "fleches"
   },
   {
-   "t": 0.98,
+   "t": 0.56,
    "type": "sticker"
   },
   {
-   "t": 2.54,
+   "t": 1.7,
    "type": "coup"
   },
   {
-   "t": 2.54,
+   "t": 1.7,
    "type": "zoom"
   },
   {
-   "t": 4.1,
+   "t": 3.48,
    "type": "coup"
   },
   {
-   "t": 5.02,
+   "t": 4.02,
    "type": "fleches"
   },
   {
-   "t": 5.52,
+   "t": 4.62,
    "type": "coup"
   },
   {
-   "t": 7.22,
+   "t": 6.14,
    "type": "sticker"
   },
   {
-   "t": 7.61,
+   "t": 6.39,
    "type": "position"
   },
   {
-   "t": 8.2,
+   "t": 6.92,
    "type": "fleches"
   },
   {
-   "t": 8.4,
+   "t": 7.2,
    "type": "sticker"
   },
   {
-   "t": 10.44,
+   "t": 9.26,
    "type": "sticker"
   },
   {
-   "t": 11.52,
+   "t": 10.42,
    "type": "sticker"
   }
  ],
