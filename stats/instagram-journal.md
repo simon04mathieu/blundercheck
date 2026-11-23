@@ -141,3 +141,5 @@
 {"reseau": "instagram", "id": "18127442675024264"}
 ### 2026-11-22 18:01 publications/instagram/pions_fourchette_d6_1_fr.json
 {"reseau": "instagram", "id": "18163720753501556"}
+### 2026-11-23 12:01 publications/instagram/pions_pousser_e6_1_fr.json
+{"reseau": "instagram", "id": "18102384806429330"}
