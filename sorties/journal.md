@@ -1250,3 +1250,6 @@
 ### commandes/perso_pat_tour_h2_1_fr.json
     voix générée : 132 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pat_tour_h2_1_fr.mp4 {"voix_brute_s": 11.9, "tempo": 1.0, "video_s": 12.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "losing_your_marbles.mp3", "mots_transcrits": 29, "minutage": "5 phrases, 3 coups, 0 pauses"}
+### commandes/perso_pions_pousser_e6_1.json
+    voix générée : 141 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pions_pousser_e6_1.mp4 {"voix_brute_s": 12.2, "tempo": 1.0, "video_s": 12.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "fluffing_a_duck.mp3", "mots_transcrits": 27, "minutage": "5 phrases, 4 coups, 0 pauses"}

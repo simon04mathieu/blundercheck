@@ -1,0 +1,121 @@
+{
+ "nom": "pions_pousser_e6_1",
+ "tempo": 1.0,
+ "duree_s": 12.12,
+ "hook": {
+  "texte": "Push,|or take?",
+  "fin": 1.8
+ },
+ "question": {
+  "texte": "Push,|or take?",
+  "t": 8.92
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Push, or take?"
+  },
+  {
+   "t": 1.8,
+   "texte": "Push!"
+  },
+  {
+   "t": 3.04,
+   "texte": "His king is stuck and yours takes the d-pawn."
+  },
+  {
+   "t": 6.58,
+   "texte": "Take instead, and it's a draw."
+  },
+  {
+   "t": 9.34,
+   "texte": "So when his pawn hits yours ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.28,
+   "coup": "f6",
+   "badge": null
+  },
+  {
+   "t": 1.8,
+   "coup": "e6",
+   "badge": "brillant"
+  },
+  {
+   "t": 3.44,
+   "coup": "Kd8",
+   "badge": null
+  },
+  {
+   "t": 4.68,
+   "coup": "Kd3",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.28,
+   "type": "coup"
+  },
+  {
+   "t": 0.78,
+   "type": "fleches"
+  },
+  {
+   "t": 0.78,
+   "type": "sticker"
+  },
+  {
+   "t": 1.8,
+   "type": "coup"
+  },
+  {
+   "t": 1.8,
+   "type": "zoom"
+  },
+  {
+   "t": 3.44,
+   "type": "coup"
+  },
+  {
+   "t": 4.34,
+   "type": "fleches"
+  },
+  {
+   "t": 4.68,
+   "type": "coup"
+  },
+  {
+   "t": 6.58,
+   "type": "sticker"
+  },
+  {
+   "t": 6.87,
+   "type": "position"
+  },
+  {
+   "t": 7.7,
+   "type": "fleches"
+  },
+  {
+   "t": 8.14,
+   "type": "sticker"
+  },
+  {
+   "t": 10.14,
+   "type": "sticker"
+  },
+  {
+   "t": 11.3,
+   "type": "sticker"
+  }
+ ],
+ "musique": "fluffing_a_duck.mp3"
+}
