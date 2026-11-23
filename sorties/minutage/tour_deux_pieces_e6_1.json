@@ -1,59 +1,59 @@
 {
  "nom": "tour_deux_pieces_e6_1",
  "tempo": 1.0,
- "duree_s": 15.84,
+ "duree_s": 15.22,
  "hook": {
-  "texte": "Which|takes?",
-  "fin": 1.6
+  "texte": "Which piece|takes?",
+  "fin": 1.78
  },
  "question": {
-  "texte": "Which|takes?",
-  "t": 12.64
+  "texte": "Which piece|takes?",
+  "t": 12.02
  },
  "phrases": [
   {
    "t": 0.0,
-   "texte": "Which takes?"
+   "texte": "Which piece takes?"
   },
   {
-   "t": 1.6,
+   "t": 1.78,
    "texte": "The knight, with check!"
   },
   {
-   "t": 3.97,
+   "t": 3.54,
    "texte": "Pawn takes knight rook takes pawn you win."
   },
   {
-   "t": 8.37,
+   "t": 7.7,
    "texte": "Rook takes first?"
   },
   {
-   "t": 10.3,
+   "t": 9.56,
    "texte": "His pawn takes back a draw."
   },
   {
-   "t": 13.1,
+   "t": 12.32,
    "texte": "So when two pieces hit a rook, ask yourself"
   }
  ],
  "coups": [
   {
-   "t": 0.22,
+   "t": 0.2,
    "coup": "Re6",
    "badge": null
   },
   {
-   "t": 1.6,
+   "t": 1.78,
    "coup": "Nxe6+",
    "badge": "brillant"
   },
   {
-   "t": 4.28,
+   "t": 3.98,
    "coup": "dxe6",
    "badge": null
   },
   {
-   "t": 5.44,
+   "t": 5.1,
    "coup": "Rxe6",
    "badge": "brillant"
   }
@@ -65,59 +65,59 @@
    "type": "position"
   },
   {
-   "t": 0.22,
+   "t": 0.2,
    "type": "coup"
   },
   {
-   "t": 0.22,
+   "t": 0.46,
    "type": "fleches"
   },
   {
-   "t": 0.22,
+   "t": 0.46,
    "type": "sticker"
   },
   {
-   "t": 1.6,
+   "t": 1.78,
    "type": "coup"
   },
   {
-   "t": 1.6,
+   "t": 1.78,
    "type": "zoom"
   },
   {
-   "t": 4.28,
+   "t": 3.98,
    "type": "coup"
   },
   {
-   "t": 5.3,
+   "t": 5.0,
    "type": "fleches"
   },
   {
-   "t": 5.44,
+   "t": 5.1,
    "type": "coup"
   },
   {
-   "t": 6.88,
+   "t": 6.44,
    "type": "sticker"
   },
   {
-   "t": 8.87,
+   "t": 8.41,
    "type": "position"
   },
   {
-   "t": 10.3,
+   "t": 9.56,
    "type": "fleches"
   },
   {
-   "t": 10.76,
+   "t": 9.96,
    "type": "sticker"
   },
   {
-   "t": 13.46,
+   "t": 12.7,
    "type": "fleches"
   },
   {
-   "t": 15.06,
+   "t": 14.4,
    "type": "sticker"
   }
  ],
