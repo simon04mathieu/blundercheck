@@ -1,0 +1,111 @@
+{
+ "nom": "quiz_fou_cavalier_b7_1",
+ "tempo": 1.0,
+ "duree_s": 14.9,
+ "hook": {
+  "texte": "Draw,|or checkmate?",
+  "fin": 2.24
+ },
+ "question": {
+  "texte": "Draw,|or checkmate?",
+  "t": 11.7
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Draw, or checkmate?"
+  },
+  {
+   "t": 2.24,
+   "texte": "Checkmate!"
+  },
+  {
+   "t": 3.34,
+   "texte": "His own knight blocks his king."
+  },
+  {
+   "t": 5.68,
+   "texte": "Bishop to b7 mate!"
+  },
+  {
+   "t": 8.72,
+   "texte": "It isn't a draw mate is still possible."
+  },
+  {
+   "t": 12.04,
+   "texte": "So when each side has one piece, ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.66,
+   "coup": "Na7",
+   "badge": null
+  },
+  {
+   "t": 2.24,
+   "coup": "Bb7#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.66,
+   "type": "coup"
+  },
+  {
+   "t": 0.84,
+   "type": "fleches"
+  },
+  {
+   "t": 0.84,
+   "type": "sticker"
+  },
+  {
+   "t": 2.24,
+   "type": "coup"
+  },
+  {
+   "t": 2.24,
+   "type": "zoom"
+  },
+  {
+   "t": 4.0,
+   "type": "fleches"
+  },
+  {
+   "t": 5.68,
+   "type": "sticker"
+  },
+  {
+   "t": 7.46,
+   "type": "fleches"
+  },
+  {
+   "t": 9.14,
+   "type": "sticker"
+  },
+  {
+   "t": 9.85,
+   "type": "position"
+  },
+  {
+   "t": 10.4,
+   "type": "fleches"
+  },
+  {
+   "t": 12.36,
+   "type": "sticker"
+  },
+  {
+   "t": 14.12,
+   "type": "sticker"
+  }
+ ],
+ "musique": "baby_animals_playing.mp3"
+}
