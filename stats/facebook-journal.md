@@ -230,3 +230,5 @@
 {"reseau": "facebook", "id": "3329265080615683", "ok": true}
 ### 2026-11-22 18:02 publications/facebook/dames_cavalier_c4_1.json
 {"reseau": "facebook", "id": "1145102104726661", "ok": true}
+### 2026-11-23 09:00 publications/facebook/pions_pousser_e6_1.json
+{"reseau": "facebook", "id": "29776184848646047", "ok": true}
