@@ -1,14 +1,14 @@
 {
  "nom": "dames_fou_c2_1_fr",
  "tempo": 1.0,
- "duree_s": 14.12,
+ "duree_s": 14.14,
  "hook": {
   "texte": "Prendre,|ou échec ?",
   "fin": 2.04
  },
  "question": {
   "texte": "Prendre,|ou échec ?",
-  "t": 10.92
+  "t": 10.94
  },
  "phrases": [
   {
@@ -20,11 +20,11 @@
    "texte": "Échec !"
   },
   {
-   "t": 3.0,
+   "t": 2.98,
    "texte": "Fou en e4."
   },
   {
-   "t": 4.34,
+   "t": 4.46,
    "texte": "Son roi le prend et tu gagnes sa dame."
   },
   {
@@ -47,7 +47,7 @@
    "badge": null
   },
   {
-   "t": 3.0,
+   "t": 2.04,
    "coup": "Be4+",
    "badge": "brillant"
   },
@@ -73,19 +73,19 @@
    "type": "coup"
   },
   {
-   "t": 0.44,
+   "t": 0.94,
    "type": "fleches"
   },
   {
-   "t": 0.44,
+   "t": 0.94,
    "type": "sticker"
   },
   {
-   "t": 3.0,
+   "t": 2.04,
    "type": "coup"
   },
   {
-   "t": 3.0,
+   "t": 2.98,
    "type": "zoom"
   },
   {
@@ -117,11 +117,11 @@
    "type": "sticker"
   },
   {
-   "t": 12.34,
+   "t": 11.08,
    "type": "fleches"
   },
   {
-   "t": 13.34,
+   "t": 13.36,
    "type": "sticker"
   }
  ],
