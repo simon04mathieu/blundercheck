@@ -1,5 +1,5 @@
 {
- "date": "2026-11-24T17:31:12.882059+00:00",
+ "date": "2026-11-24T17:41:12.741721+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -12,7 +12,7 @@
    "publiee": "2026-11-24T15:01:34Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 1139,
+   "vues": 1199,
    "jaime": 9,
    "commentaires": 1
   },
@@ -21,7 +21,7 @@
    "publiee": "2026-11-24T12:01:32Z",
    "statut": "public",
    "duree": "PT13S",
-   "vues": 1322,
+   "vues": 1334,
    "jaime": 8,
    "commentaires": 1
   },
@@ -30,7 +30,7 @@
    "publiee": "2026-11-24T09:01:41Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 2019,
+   "vues": 2030,
    "jaime": 17,
    "commentaires": 1
   },
@@ -39,7 +39,7 @@
    "publiee": "2026-11-23T18:01:29Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 4075,
+   "vues": 4165,
    "jaime": 38,
    "commentaires": 2
   },
@@ -48,7 +48,7 @@
    "publiee": "2026-11-23T15:01:39Z",
    "statut": "public",
    "duree": "PT14S",
-   "vues": 4768,
+   "vues": 4776,
    "jaime": 27,
    "commentaires": 0
   },
@@ -57,7 +57,7 @@
    "publiee": "2026-11-23T12:01:31Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 11422,
+   "vues": 11668,
    "jaime": 54,
    "commentaires": 3
   },
@@ -75,8 +75,8 @@
    "publiee": "2026-11-22T18:01:44Z",
    "statut": "public",
    "duree": "PT13S",
-   "vues": 13140,
-   "jaime": 55,
+   "vues": 13227,
+   "jaime": 57,
    "commentaires": 2
   },
   "u6Ct32YKMTw": {
@@ -84,7 +84,7 @@
    "publiee": "2026-11-22T15:01:36Z",
    "statut": "public",
    "duree": "PT13S",
-   "vues": 5241,
+   "vues": 5263,
    "jaime": 19,
    "commentaires": 1
   },
@@ -93,7 +93,7 @@
    "publiee": "2026-11-22T12:01:46Z",
    "statut": "public",
    "duree": "PT12S",
-   "vues": 31050,
+   "vues": 31129,
    "jaime": 39,
    "commentaires": 11
   },
@@ -111,7 +111,7 @@
    "publiee": "2026-11-21T18:11:31Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 15089,
+   "vues": 15134,
    "jaime": 54,
    "commentaires": 8
   },
