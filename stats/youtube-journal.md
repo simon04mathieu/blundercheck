@@ -1463,3 +1463,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "162"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "162"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "162"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "162"}
+### 2026-11-24 09:01 publications/youtube/pions_fourchette_f4_1.json
+{"id": "vSpY-LRAhx4", "url": "https://www.youtube.com/shorts/vSpY-LRAhx4", "statut": "public", "publier_le": null}
