@@ -1290,3 +1290,4 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"publish_id": "v_inbox_file~v2.7711524004745644054", "mode": "brouillon", "vie_privee": null, "legende": "Tu la prends, ou pas ? 👇 1.Ff5# : mat. 1.Dxa3 ? Dxa3 et tu perds la dame (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nTrouvé en 3 secondes ? Abonne-toi et prouve-le demain.\n\n#echecs #chess #echecsfr #chesstok #puzzle"}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 22, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 22, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 22, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
