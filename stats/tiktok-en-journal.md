@@ -1217,3 +1217,4 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 ### 2026-11-24 00:14 publications/tiktok-en/tour_libre_a3_1.json
 {"publish_id": "v_inbox_file~v2.7711524013125928982", "mode": "brouillon", "vie_privee": null, "legende": "Take it, or not? 👇 1.Bf5#! is mate. 1.Qxa3? Qxa3 and you lose the queen (Stockfish 16, composed position). One new puzzle every day.\n\nGot it in 3 seconds? Follow and prove it tomorrow.\n\n#chess #chesstactics #chesspuzzle #chesstok #chessgame"}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 59, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 59, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
