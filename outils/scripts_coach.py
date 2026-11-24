@@ -2088,3 +2088,36 @@ QUESTIONS.update({
     "pions_pousser_e6_1_fr": "Tu pousses|ou tu prends ?",
     "pat_tour_h2_1_fr": "Quel coup|te sauve ?",
 })
+
+# 24/11 (Producteur) : file variée du Scénariste du 23/11 (pion f4 qui attaque deux pions ; tour a3 « gratuite », 1.Ff5# ; échec perpétuel 1.Df7+ ; dames face à face, 1.Fe4+) ; lignes revérifiées python-chess + Stockfish 16 d14 (tous les coups blancs) ; RÉTENTION seule
+F4A = "fen:8/6K1/4p3/5p2/8/4P1P1/2k5/8_b_-_-_0_1"            # avant …f5-f4 ; 1.exf4! +35,8 seul gagnant ; gxf4 = 0 ; g4 −4,2
+F4B = "fen:8/6K1/4p3/8/5p2/4P1P1/2k5/8_w_-_-_0_2"
+A3A = "fen:5Q2/7k/4B3/3K4/8/7r/8/q7_b_-_-_0_1"               # avant …Th3-a3 ; 1.Bf5# seul mat (is_checkmate) ; échecs = 0 ; Qxa3 Qxa3 perd la dame
+A3B = "fen:5Q2/7k/4B3/3K4/8/r7/8/q7_w_-_-_1_2"
+P8A = "fen:5Q2/7k/6pp/2r5/4q3/8/8/K7_b_-_-_0_1"              # avant …Tc5-c3 ; 1.Qf7+ = 0 seul coup qui tient (Kh8 forcé, 2.Qf8+ Kh7 forcé : répétition) ; tous les autres −mat
+P8B = "fen:5Q2/7k/6pp/8/4q3/2r5/8/K7_w_-_-_1_2"
+C2A = "fen:8/2q5/5K2/3B4/8/3k4/7Q/8_b_-_-_0_1"               # avant …Dc7-c2 ; 1.Be4+! +34,5 seul gagnant (Kxe4 Qxc2+) ; Qxc2+ Kxc2 = 0
+C2B = "fen:8/8/5K2/3B4/8/3k4/2q4Q/8_w_-_-_1_2"
+_S = {
+"pions_fourchette_f4_1": ("blancs", "Which one|takes?",
+"""[p """ + F4A + """] Which [m f4] one [f f4e3 f4g3] [s tag f4 1.6 WHICH_TAKES?] takes? [h] The [m exf4 brillant] e-pawn! [z f4 1.3 2.0] Then [m Kd3] your king [f g7f6] runs [m Kf6 brillant] to e6 and [s tag e6 1.6 EATS_E-PAWN] eats his pawn. [x ding] Take with [p """ + F4B + """] the g-pawn? [f g3f4] His king [f c2e3] takes your [s tag e3 1.8 ONLY_A_DRAW] other pawn: a draw. So when one pawn [f f4e3 f4g3] hits two of yours, [s tag f4 1.4 WHICH_TAKES?] ask yourself:"""),
+"tour_libre_a3_1": ("blancs", "Take it,|or not?",
+"""[p """ + A3A + """] Take [m Ra3] it, [f f8a3] [s tag a3 1.6 FREE_ROOK?] or not? [h] Don't! [m Bf5# mat] [z h7 1.3 2.0] Bishop to f5: [x impact] [s tag h7 1.6 CHECKMATE] checkmate! [f f5h7] Take with [p """ + A3B + """] the queen, [f f8a3] and his queen [f a1a3] [s tag a1 1.6 QUEEN_LOST] takes yours. So when a rook [s tag a3 1.6 NOT_THE_ROOK] looks free, ask yourself:"""),
+"perpetuel_f8_1": ("blancs", "Defend,|or check?",
+"""[p """ + P8A + """] Defend, [m Rc3] [f e4b1] [s tag c3 1.6 DOWN_A_ROOK] or check? [h] Check! [m Qf7+ brillant] [z h8 1.3 2.0] His king [m Kh8] must go back. Check [f f7f8] again! [s tag h8 1.6 CHECK_AGAIN] It repeats: [s tag h7 1.6 PERPETUAL] a draw. [x ding] Any [p """ + P8B + """] other move [f e4b1] gets you [s tag a1 1.6 OTHERS_GET_MATED] mated. Analyze your [s tag d4 1.6 YOUR_GAME] own game, free. So when [f c3c1] you're lost, [s tag a1 1.4 DEFEND_OR_CHECK?] ask yourself:"""),
+"dames_fou_c2_1": ("blancs", "Take,|or check?",
+"""[p """ + C2A + """] Take, [m Qc2] [f h2c2 c2h2] [s tag c2 1.6 TAKE_OR_CHECK?] or check? [h] Check! [m Be4+ brillant] [z e4 1.3 2.0] Bishop to e4. His king [m Kxe4] takes it, [f h2c2] and you [m Qxc2+ brillant] win his queen. [s tag c2 1.6 WINS_THE_QUEEN] [x ding] Trade [p """ + C2B + """] queens? [f h2c2] Only a bishop [s tag d5 1.8 ONLY_A_DRAW] is left: a draw. So when both [f h2c2 c2h2] queens hang, [s tag c2 1.4 TAKE_OR_CHECK?] ask yourself:"""),
+"tour_libre_a3_1_fr": ("blancs", "Tu la prends,|ou pas ?",
+"""[p """ + A3A + """] Tu la [m Ra3] prends, [f f8a3] [s tag a3 1.6 TOUR_GRATUITE_?] ou pas ? [h] Non ! [m Bf5# mat] [z h7 1.3 2.0] Fou en f5 : [x impact] [s tag h7 1.6 MAT] mat ! [f f5h7] Si tu prends [p """ + A3B + """] avec la dame, [f f8a3] sa dame [f a1a3] [s tag a1 1.6 DAME_PERDUE] prend la tienne. Alors, quand une tour [s tag a3 1.6 PAS_LA_TOUR] semble gratuite, demande-toi :"""),
+"dames_fou_c2_1_fr": ("blancs", "Prendre,|ou échec ?",
+"""[p """ + C2A + """] Prendre, [m Qc2] [f h2c2 c2h2] [s tag c2 1.6 PRENDRE_OU_ÉCHEC_?] ou échec ? [h] Échec ! [m Be4+ brillant] [z e4 1.3 2.0] Fou en e4. Son roi [m Kxe4] le prend, [f h2c2] et tu [m Qxc2+ brillant] gagnes sa dame. [s tag c2 1.6 GAGNE_LA_DAME] [x ding] Échanger [p """ + C2B + """] les dames ? [f h2c2] Il ne reste [s tag d5 1.8 NULLE_SEULEMENT] qu'un fou : nulle. Alors, quand deux dames [f h2c2 c2h2] sont en prise, [s tag c2 1.4 PRENDRE_OU_ÉCHEC_?] demande-toi :"""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
+QUESTIONS.update({
+    "pions_fourchette_f4_1": "Which one|takes?",
+    "tour_libre_a3_1": "Take it,|or not?",
+    "perpetuel_f8_1": "Analyze your game|blundercheck.app/try",
+    "dames_fou_c2_1": "Take,|or check?",
+    "tour_libre_a3_1_fr": "Tu la prends,|ou pas ?",
+    "dames_fou_c2_1_fr": "Prendre,|ou échec ?",
+})
