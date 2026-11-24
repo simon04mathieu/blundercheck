@@ -1,0 +1,129 @@
+{
+ "nom": "dames_fou_c2_1_fr",
+ "tempo": 1.0,
+ "duree_s": 14.12,
+ "hook": {
+  "texte": "Prendre,|ou échec ?",
+  "fin": 2.04
+ },
+ "question": {
+  "texte": "Prendre,|ou échec ?",
+  "t": 10.92
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Prendre, ou échec ?"
+  },
+  {
+   "t": 2.04,
+   "texte": "Échec !"
+  },
+  {
+   "t": 3.0,
+   "texte": "Fou en e4."
+  },
+  {
+   "t": 4.34,
+   "texte": "Son roi le prend et tu gagnes sa dame."
+  },
+  {
+   "t": 7.3,
+   "texte": "Échanger les dames ?"
+  },
+  {
+   "t": 8.66,
+   "texte": "Il ne reste qu'un fou  nulle."
+  },
+  {
+   "t": 11.08,
+   "texte": "Alors, quand deux dames sont en prise, demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.44,
+   "coup": "Qc2",
+   "badge": null
+  },
+  {
+   "t": 3.0,
+   "coup": "Be4+",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.8,
+   "coup": "Kxe4",
+   "badge": null
+  },
+  {
+   "t": 5.68,
+   "coup": "Qxc2+",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.44,
+   "type": "coup"
+  },
+  {
+   "t": 0.44,
+   "type": "fleches"
+  },
+  {
+   "t": 0.44,
+   "type": "sticker"
+  },
+  {
+   "t": 3.0,
+   "type": "coup"
+  },
+  {
+   "t": 3.0,
+   "type": "zoom"
+  },
+  {
+   "t": 4.8,
+   "type": "coup"
+  },
+  {
+   "t": 5.12,
+   "type": "fleches"
+  },
+  {
+   "t": 5.68,
+   "type": "coup"
+  },
+  {
+   "t": 7.3,
+   "type": "sticker"
+  },
+  {
+   "t": 7.77,
+   "type": "position"
+  },
+  {
+   "t": 8.66,
+   "type": "fleches"
+  },
+  {
+   "t": 9.08,
+   "type": "sticker"
+  },
+  {
+   "t": 12.34,
+   "type": "fleches"
+  },
+  {
+   "t": 13.34,
+   "type": "sticker"
+  }
+ ],
+ "musique": "chicago.mp3"
+}

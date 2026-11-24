@@ -1289,3 +1289,6 @@
     voix générée : 163 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/dames_fou_c2_1.mp4 {"voix_brute_s": 14.4, "tempo": 1.0, "video_s": 14.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "zoobeedoo.mp3", "mots_transcrits": 32, "minutage": "7 phrases, 4 coups, 0 pauses"}
+### commandes/perso_dames_fou_c2_1_fr.json
+    voix générée : 183 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/dames_fou_c2_1_fr.mp4 {"voix_brute_s": 14.4, "tempo": 1.0, "video_s": 14.4, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "chicago.mp3", "mots_transcrits": 36, "minutage": "7 phrases, 4 coups, 0 pauses"}
