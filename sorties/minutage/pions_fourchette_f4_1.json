@@ -1,0 +1,129 @@
+{
+ "nom": "pions_fourchette_f4_1",
+ "tempo": 1.0,
+ "duree_s": 15.58,
+ "hook": {
+  "texte": "Which one|takes?",
+  "fin": 1.78
+ },
+ "question": {
+  "texte": "Which one|takes?",
+  "t": 12.38
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which one takes?"
+  },
+  {
+   "t": 1.78,
+   "texte": "The e-pawn!"
+  },
+  {
+   "t": 3.26,
+   "texte": "Then your king runs to e6 and eats his pawn."
+  },
+  {
+   "t": 6.94,
+   "texte": "Take with the g-pawn?"
+  },
+  {
+   "t": 8.98,
+   "texte": "His king takes your other pawn a draw."
+  },
+  {
+   "t": 12.22,
+   "texte": "So when one pawn hits two of yours, ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.2,
+   "coup": "f4",
+   "badge": null
+  },
+  {
+   "t": 1.9,
+   "coup": "exf4",
+   "badge": "brillant"
+  },
+  {
+   "t": 3.36,
+   "coup": "Kd3",
+   "badge": null
+  },
+  {
+   "t": 4.08,
+   "coup": "Kf6",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.2,
+   "type": "coup"
+  },
+  {
+   "t": 0.4,
+   "type": "fleches"
+  },
+  {
+   "t": 0.4,
+   "type": "sticker"
+  },
+  {
+   "t": 1.9,
+   "type": "coup"
+  },
+  {
+   "t": 3.26,
+   "type": "zoom"
+  },
+  {
+   "t": 3.36,
+   "type": "coup"
+  },
+  {
+   "t": 3.78,
+   "type": "fleches"
+  },
+  {
+   "t": 4.08,
+   "type": "coup"
+  },
+  {
+   "t": 5.3,
+   "type": "sticker"
+  },
+  {
+   "t": 7.39,
+   "type": "position"
+  },
+  {
+   "t": 8.98,
+   "type": "fleches"
+  },
+  {
+   "t": 9.42,
+   "type": "fleches"
+  },
+  {
+   "t": 9.92,
+   "type": "sticker"
+  },
+  {
+   "t": 13.22,
+   "type": "fleches"
+  },
+  {
+   "t": 14.74,
+   "type": "sticker"
+  }
+ ],
+ "musique": "chicago.mp3"
+}
