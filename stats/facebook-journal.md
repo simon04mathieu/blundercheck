@@ -238,3 +238,5 @@
 {"reseau": "facebook", "id": "4466051013633077", "ok": true}
 ### 2026-11-23 18:01 publications/facebook/quiz_fou_cavalier_b7_1.json
 {"reseau": "facebook", "id": "4547329342198840", "ok": true}
+### 2026-11-24 09:01 publications/facebook/pions_fourchette_f4_1.json
+{"reseau": "facebook", "id": "27571269205904531", "ok": true}
