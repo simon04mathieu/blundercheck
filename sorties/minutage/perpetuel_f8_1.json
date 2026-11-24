@@ -4,7 +4,7 @@
  "duree_s": 14.92,
  "hook": {
   "texte": "Defend,|or check?",
-  "fin": 2.04
+  "fin": 2.02
  },
  "question": {
   "texte": "Analyze your game|blundercheck.app/try",
@@ -16,7 +16,7 @@
    "texte": "Defend, or check?"
   },
   {
-   "t": 2.04,
+   "t": 2.02,
    "texte": "Check!"
   },
   {
@@ -28,11 +28,11 @@
    "texte": "Check again!"
   },
   {
-   "t": 6.06,
+   "t": 6.04,
    "texte": "It repeats: a draw."
   },
   {
-   "t": 8.3,
+   "t": 8.28,
    "texte": "Any other move gets you mated."
   },
   {
@@ -56,7 +56,7 @@
    "badge": "brillant"
   },
   {
-   "t": 3.32,
+   "t": 3.3,
    "coup": "Kh8",
    "badge": null
   }
@@ -72,12 +72,16 @@
    "type": "coup"
   },
   {
-   "t": 0.38,
+   "t": 0.9,
    "type": "fleches"
   },
   {
-   "t": 0.38,
+   "t": 0.9,
    "type": "sticker"
+  },
+  {
+   "t": 2.02,
+   "type": "fleches"
   },
   {
    "t": 2.88,
@@ -88,7 +92,7 @@
    "type": "zoom"
   },
   {
-   "t": 3.32,
+   "t": 3.3,
    "type": "coup"
   },
   {
@@ -96,7 +100,7 @@
    "type": "fleches"
   },
   {
-   "t": 6.06,
+   "t": 6.04,
    "type": "sticker"
   },
   {
@@ -124,7 +128,7 @@
    "type": "fleches"
   },
   {
-   "t": 14.12,
+   "t": 14.1,
    "type": "sticker"
   }
  ],
