@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-22T22:00:58Z",
+ "releve": "2026-11-24T03:03:31Z",
  "compte": "blundercheckapp",
  "abonnes": 6,
  "publications": [
+  {
+   "id": "17956859046090955",
+   "caption": "Quel coup te sauve ? 👇 1.Th2+ ! Rxh2 et les Blancs n'ont plus de coup : pat. Tou",
+   "comments_count": 0,
+   "like_count": 0,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DgF-cy9iCWS/",
+   "timestamp": "2026-11-23T18:01:43+0000",
+   "insights": {
+    "views": 187,
+    "reach": 115,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0
+   }
+  },
+  {
+   "id": "18102384806429330",
+   "caption": "Pousser ou prendre ? 👇 Seul 1.e6 ! gagne : son roi est coincé et le tien prend l",
+   "comments_count": 0,
+   "like_count": 2,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DgFVRAUgi9n/",
+   "timestamp": "2026-11-23T12:01:48+0000",
+   "insights": {
+    "views": 192,
+    "reach": 125,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 2
+   }
+  },
   {
    "id": "18163720753501556",
    "caption": "Lequel prend ? 👇 Seul 1.cxd6 ! gagne : le pion e file en dame. 1.exd6 a5 n'est q",
@@ -12,8 +44,8 @@
    "permalink": "https://www.instagram.com/reel/DgDZqcjD3SO/",
    "timestamp": "2026-11-22T18:01:48+0000",
    "insights": {
-    "views": 164,
-    "reach": 109,
+    "views": 166,
+    "reach": 110,
     "shares": 0,
     "saved": 0,
     "total_interactions": 0
@@ -23,16 +55,16 @@
    "id": "18127442675024264",
    "caption": "Tu la prends ? 👇 1.Dg7# est mat. 1.Dxe6 ? Dxe6 perd la dame contre une tour (Sto",
    "comments_count": 0,
-   "like_count": 8,
+   "like_count": 9,
    "media_product_type": "REELS",
    "permalink": "https://www.instagram.com/reel/DgCwd6aCWs1/",
    "timestamp": "2026-11-22T12:01:50+0000",
    "insights": {
-    "views": 2207,
-    "reach": 1407,
+    "views": 2222,
+    "reach": 1419,
     "shares": 0,
     "saved": 1,
-    "total_interactions": 9
+    "total_interactions": 10
    }
   },
   {
@@ -60,8 +92,8 @@
    "permalink": "https://www.instagram.com/reel/DgAxMKaGfUs/",
    "timestamp": "2026-11-21T17:29:40+0000",
    "insights": {
-    "views": 2353,
-    "reach": 1494,
+    "views": 2357,
+    "reach": 1497,
     "shares": 0,
     "saved": 0,
     "total_interactions": 12
@@ -92,8 +124,8 @@
    "permalink": "https://www.instagram.com/reel/Df96QpNE4ZX/",
    "timestamp": "2026-11-20T14:51:10+0000",
    "insights": {
-    "views": 3096,
-    "reach": 1982,
+    "views": 3101,
+    "reach": 1990,
     "shares": 1,
     "saved": 1,
     "total_interactions": 23
@@ -444,43 +476,11 @@
    "permalink": "https://www.instagram.com/reel/DfhuiH-EfrL/",
    "timestamp": "2026-11-09T16:10:13+0000",
    "insights": {
-    "views": 2212,
-    "reach": 1747,
+    "views": 2213,
+    "reach": 1748,
     "shares": 0,
     "saved": 3,
     "total_interactions": 25
-   }
-  },
-  {
-   "id": "18202722313340311",
-   "caption": "La dame noire est attaquée. Que joue Rubinstein ? 🤯 Tu aurais donné la dame ? 👇 ",
-   "comments_count": 0,
-   "like_count": 2,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/Dffnj8ykvvd/",
-   "timestamp": "2026-11-08T20:30:36+0000",
-   "insights": {
-    "views": 175,
-    "reach": 140,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 2
-   }
-  },
-  {
-   "id": "18080067422757106",
-   "caption": "Le roi blanc va jusqu'en h6. Les Noirs peuvent l'arrêter ? 👑 Tu aurais fait marc",
-   "comments_count": 0,
-   "like_count": 3,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DffMXcaCOkb/",
-   "timestamp": "2026-11-08T16:33:11+0000",
-   "insights": {
-    "views": 157,
-    "reach": 128,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 3
    }
   }
  ],
