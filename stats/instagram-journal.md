@@ -145,3 +145,5 @@
 {"reseau": "instagram", "id": "18102384806429330"}
 ### 2026-11-23 18:01 publications/instagram/pat_tour_h2_1_fr.json
 {"reseau": "instagram", "id": "17956859046090955"}
+### 2026-11-24 12:02 publications/instagram/tour_libre_a3_1_fr.json
+{"reseau": "instagram", "id": "18079227665729561"}
