@@ -1525,3 +1525,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "166"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "166"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "166"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "166"}
+### 2026-11-24 18:01 publications/youtube/dames_fou_c2_1.json
+{"id": "CXGGKAkDs90", "url": "https://www.youtube.com/shorts/CXGGKAkDs90", "statut": "public", "publier_le": null}
