@@ -1283,3 +1283,8 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 22, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 22, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 22, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 22, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-24 00:13 publications/tiktok/dames_fou_c2_1_fr.json
+{"publish_id": "v_inbox_file~v2.7711523957274576918", "mode": "brouillon", "vie_privee": null, "legende": "Prendre, ou échec ? 👇 1.Fe4+ ! Rxe4 2.Dxc2+ gagne la dame. 1.Dxc2+ ? Rxc2 : il ne reste qu'un fou, nulle (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nTrop facile ? Abonne-toi et tente celui de demain.\n\n#echecs #chess #echecsfr #chesstok #puzzle"}
+### 2026-11-24 00:13 publications/tiktok/tour_libre_a3_1_fr.json
+{"publish_id": "v_inbox_file~v2.7711524004745644054", "mode": "brouillon", "vie_privee": null, "legende": "Tu la prends, ou pas ? 👇 1.Ff5# : mat. 1.Dxa3 ? Dxa3 et tu perds la dame (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nTrouvé en 3 secondes ? Abonne-toi et prouve-le demain.\n\n#echecs #chess #echecsfr #chesstok #puzzle"}
