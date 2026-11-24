@@ -244,3 +244,5 @@
 {"reseau": "facebook", "id": "1187840190334353", "ok": true}
 ### 2026-11-24 15:01 publications/facebook/perpetuel_f8_1.json
 {"reseau": "facebook", "id": "1495424776985765", "ok": true}
+### 2026-11-24 18:02 publications/facebook/dames_fou_c2_1.json
+{"reseau": "facebook", "id": "2982709058757008", "ok": true}
