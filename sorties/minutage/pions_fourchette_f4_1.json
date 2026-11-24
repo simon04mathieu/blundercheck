@@ -1,59 +1,59 @@
 {
  "nom": "pions_fourchette_f4_1",
  "tempo": 1.0,
- "duree_s": 15.58,
+ "duree_s": 15.92,
  "hook": {
-  "texte": "Which one|takes?",
-  "fin": 1.78
+  "texte": "Which of your|pawns takes?",
+  "fin": 2.38
  },
  "question": {
-  "texte": "Which one|takes?",
-  "t": 12.38
+  "texte": "Which of your|pawns takes?",
+  "t": 12.72
  },
  "phrases": [
   {
    "t": 0.0,
-   "texte": "Which one takes?"
+   "texte": "Which of your pawns takes?"
   },
   {
-   "t": 1.78,
+   "t": 2.38,
    "texte": "The e-pawn!"
   },
   {
-   "t": 3.26,
+   "t": 3.9,
    "texte": "Then your king runs to e6 and eats his pawn."
   },
   {
-   "t": 6.94,
+   "t": 7.3,
    "texte": "Take with the g-pawn?"
   },
   {
-   "t": 8.98,
+   "t": 9.3,
    "texte": "His king takes your other pawn a draw."
   },
   {
-   "t": 12.22,
+   "t": 12.66,
    "texte": "So when one pawn hits two of yours, ask yourself"
   }
  ],
  "coups": [
   {
-   "t": 0.2,
+   "t": 0.4,
    "coup": "f4",
    "badge": null
   },
   {
-   "t": 1.9,
+   "t": 2.54,
    "coup": "exf4",
    "badge": "brillant"
   },
   {
-   "t": 3.36,
+   "t": 4.1,
    "coup": "Kd3",
    "badge": null
   },
   {
-   "t": 4.08,
+   "t": 4.78,
    "coup": "Kf6",
    "badge": "brillant"
   }
@@ -65,63 +65,67 @@
    "type": "position"
   },
   {
-   "t": 0.2,
+   "t": 0.4,
    "type": "coup"
   },
   {
-   "t": 0.4,
+   "t": 1.08,
    "type": "fleches"
   },
   {
-   "t": 0.4,
+   "t": 1.08,
    "type": "sticker"
   },
   {
-   "t": 1.9,
+   "t": 2.54,
    "type": "coup"
   },
   {
-   "t": 3.26,
+   "t": 3.9,
    "type": "zoom"
   },
   {
-   "t": 3.36,
+   "t": 4.1,
    "type": "coup"
   },
   {
-   "t": 3.78,
+   "t": 4.48,
    "type": "fleches"
   },
   {
-   "t": 4.08,
+   "t": 4.78,
    "type": "coup"
   },
   {
-   "t": 5.3,
+   "t": 5.76,
    "type": "sticker"
   },
   {
-   "t": 7.39,
+   "t": 7.25,
    "type": "position"
   },
   {
-   "t": 8.98,
+   "t": 7.3,
    "type": "fleches"
   },
   {
-   "t": 9.42,
-   "type": "fleches"
-  },
-  {
-   "t": 9.92,
+   "t": 9.3,
    "type": "sticker"
   },
   {
-   "t": 13.22,
+   "t": 9.72,
    "type": "fleches"
   },
   {
-   "t": 14.74,
+   "t": 10.2,
+   "type": "sticker"
+  },
+  {
+   "t": 12.66,
+   "type": "fleches"
+  },
+  {
+   "t": 15.12,
    "type": "sticker"
   }
  ],
