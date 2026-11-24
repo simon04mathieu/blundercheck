@@ -1,0 +1,129 @@
+{
+ "nom": "dames_fou_c2_1",
+ "tempo": 1.0,
+ "duree_s": 14.48,
+ "hook": {
+  "texte": "Take,|or check?",
+  "fin": 1.6
+ },
+ "question": {
+  "texte": "Take,|or check?",
+  "t": 11.28
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take, or check?"
+  },
+  {
+   "t": 1.6,
+   "texte": "Check!"
+  },
+  {
+   "t": 2.66,
+   "texte": "Bishop to e4."
+  },
+  {
+   "t": 4.54,
+   "texte": "His king takes it and you win his queen."
+  },
+  {
+   "t": 7.46,
+   "texte": "Trade queens?"
+  },
+  {
+   "t": 8.88,
+   "texte": "Only a bishop is left a draw."
+  },
+  {
+   "t": 11.88,
+   "texte": "So when both queens hang ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.24,
+   "coup": "Qc2",
+   "badge": null
+  },
+  {
+   "t": 2.66,
+   "coup": "Be4+",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.98,
+   "coup": "Kxe4",
+   "badge": null
+  },
+  {
+   "t": 5.98,
+   "coup": "Qxc2+",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.24,
+   "type": "coup"
+  },
+  {
+   "t": 0.24,
+   "type": "fleches"
+  },
+  {
+   "t": 0.24,
+   "type": "sticker"
+  },
+  {
+   "t": 2.66,
+   "type": "coup"
+  },
+  {
+   "t": 2.66,
+   "type": "zoom"
+  },
+  {
+   "t": 4.98,
+   "type": "coup"
+  },
+  {
+   "t": 5.52,
+   "type": "fleches"
+  },
+  {
+   "t": 5.98,
+   "type": "coup"
+  },
+  {
+   "t": 7.46,
+   "type": "sticker"
+  },
+  {
+   "t": 7.77,
+   "type": "position"
+  },
+  {
+   "t": 8.88,
+   "type": "fleches"
+  },
+  {
+   "t": 9.56,
+   "type": "sticker"
+  },
+  {
+   "t": 12.52,
+   "type": "fleches"
+  },
+  {
+   "t": 13.7,
+   "type": "sticker"
+  }
+ ],
+ "musique": "zoobeedoo.mp3"
+}

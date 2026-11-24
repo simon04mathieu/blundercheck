@@ -1284,3 +1284,8 @@
 ### commandes/perso_tour_deux_pieces_e6_1.json
     voix générée : 184 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_deux_pieces_e6_1.mp4 {"voix_brute_s": 15.6, "tempo": 1.0, "video_s": 15.6, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "baby_animals_playing.mp3", "mots_transcrits": 35, "minutage": "6 phrases, 4 coups, 0 pauses"}
+## 2026-11-24 00:03 UTC · run 45293927247
+### commandes/perso_dames_fou_c2_1.json
+    voix générée : 163 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/dames_fou_c2_1.mp4 {"voix_brute_s": 14.4, "tempo": 1.0, "video_s": 14.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "zoobeedoo.mp3", "mots_transcrits": 32, "minutage": "7 phrases, 4 coups, 0 pauses"}
