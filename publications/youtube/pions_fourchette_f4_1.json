@@ -1,0 +1,34 @@
+{
+ "titre": "One pawn hits two. Which one takes? ♟️ #chess #shorts",
+ "description": "Which one takes? 👇 Only 1.exf4! wins: your king runs to e6 and eats the pawn. 1.gxf4? Kd3 and his king takes your e-pawn: a draw (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess endgame",
+  "pawn endgame",
+  "chess puzzle"
+ ],
+ "envoyer_apres": "2026-11-24T10:00:00+01:00",
+ "fichier": "sorties/pions_fourchette_f4_1.mp4",
+ "concept": "pions_fourchette_f4",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 15.92,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 16,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "pions_fourchette_f4",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "quel_pion_prend",
+  "pieces": 6,
+  "look": "papier",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

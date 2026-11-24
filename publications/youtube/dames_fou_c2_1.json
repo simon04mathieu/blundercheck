@@ -1,0 +1,34 @@
+{
+ "titre": "Both queens hang. Take, or check? ♟️ #chess #shorts",
+ "description": "Take, or check? 👇 1.Be4+! Kxe4 2.Qxc2+ wins the queen. 1.Qxc2+? Kxc2 leaves only a bishop: a draw (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess tactics",
+  "chess puzzle",
+  "queen"
+ ],
+ "envoyer_apres": "2026-11-24T19:00:00+01:00",
+ "fichier": "sorties/dames_fou_c2_1.mp4",
+ "concept": "dames_fou_c2",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 14.48,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 14,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "dames_fou_c2",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_ou_echec",
+  "pieces": 5,
+  "look": "corail",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

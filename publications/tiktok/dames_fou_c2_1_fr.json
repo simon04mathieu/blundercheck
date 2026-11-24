@@ -1,0 +1,32 @@
+{
+ "legende": "Prendre, ou échec ? 👇 1.Fe4+ ! Rxe4 2.Dxc2+ gagne la dame. 1.Dxc2+ ? Rxc2 : il ne reste qu'un fou, nulle (Stockfish 16, position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-24T08:00:00+01:00",
+ "heure_conseillee": "2026-11-24T19:00:00+01:00",
+ "repere": "19 h · dames_fou_c2_1_fr · 14.14 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/dames_fou_c2_1_fr.mp4",
+ "concept": "dames_fou_c2",
+ "format": "TACTIQUE",
+ "langue": "fr",
+ "duree": 14.14,
+ "voix": "oui",
+ "paire": "dames_fou_c2_1",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "fr",
+  "duree_s": 14,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "dames_fou_c2",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "prendre_ou_echec",
+  "pieces": 5,
+  "look": "bois",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

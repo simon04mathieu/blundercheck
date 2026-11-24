@@ -1,0 +1,31 @@
+{
+ "legende": "Defend, or check? 👇 Only 1.Qf7+! saves the game: after Kh8 2.Qf8+ Kh7 the position repeats, a perpetual check. Any other move gets you mated (Stockfish 16, composed position). One new puzzle every day. Analyze your own game: blundercheck.app/try #chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-24T08:00:00+01:00",
+ "heure_conseillee": "2026-11-24T16:00:00+01:00",
+ "repere": "16 h · perpetuel_f8_1 · 14.92 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/perpetuel_f8_1.mp4",
+ "concept": "perpetuel_f8",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 14.92,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 15,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "oui",
+  "fin": "boucle",
+  "motif": "perpetuel_f8",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "sauver_la_partie",
+  "pieces": 7,
+  "look": "ardoise",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

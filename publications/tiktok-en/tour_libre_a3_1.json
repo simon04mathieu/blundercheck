@@ -1,0 +1,31 @@
+{
+ "legende": "Take it, or not? 👇 1.Bf5#! is mate. 1.Qxa3? Qxa3 and you lose the queen (Stockfish 16, composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-24T08:00:00+01:00",
+ "heure_conseillee": "2026-11-24T13:00:00+01:00",
+ "repere": "13 h · tour_libre_a3_1 · 12.2 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/tour_libre_a3_1.mp4",
+ "concept": "tour_libre_a3",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 12.2,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 12,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "tour_libre_a3",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "appat_ou_mat",
+  "pieces": 6,
+  "look": "emeraude",
+  "fx": "fleches+zoom+tag+impact"
+ }
+}
