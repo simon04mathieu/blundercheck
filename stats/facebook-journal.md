@@ -242,3 +242,5 @@
 {"reseau": "facebook", "id": "27571269205904531", "ok": true}
 ### 2026-11-24 12:02 publications/facebook/tour_libre_a3_1.json
 {"reseau": "facebook", "id": "1187840190334353", "ok": true}
+### 2026-11-24 15:01 publications/facebook/perpetuel_f8_1.json
+{"reseau": "facebook", "id": "1495424776985765", "ok": true}
