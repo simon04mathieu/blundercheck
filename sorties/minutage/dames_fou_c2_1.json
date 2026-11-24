@@ -4,7 +4,7 @@
  "duree_s": 14.48,
  "hook": {
   "texte": "Take,|or check?",
-  "fin": 1.6
+  "fin": 1.64
  },
  "question": {
   "texte": "Take,|or check?",
@@ -16,7 +16,7 @@
    "texte": "Take, or check?"
   },
   {
-   "t": 1.6,
+   "t": 1.64,
    "texte": "Check!"
   },
   {
@@ -24,19 +24,19 @@
    "texte": "Bishop to e4."
   },
   {
-   "t": 4.54,
+   "t": 4.56,
    "texte": "His king takes it and you win his queen."
   },
   {
-   "t": 7.46,
+   "t": 7.54,
    "texte": "Trade queens?"
   },
   {
-   "t": 8.88,
+   "t": 8.9,
    "texte": "Only a bishop is left a draw."
   },
   {
-   "t": 11.88,
+   "t": 11.9,
    "texte": "So when both queens hang ask yourself"
   }
  ],
@@ -57,7 +57,7 @@
    "badge": null
   },
   {
-   "t": 5.98,
+   "t": 5.96,
    "coup": "Qxc2+",
    "badge": "brillant"
   }
@@ -73,11 +73,11 @@
    "type": "coup"
   },
   {
-   "t": 0.24,
+   "t": 0.66,
    "type": "fleches"
   },
   {
-   "t": 0.24,
+   "t": 0.66,
    "type": "sticker"
   },
   {
@@ -97,11 +97,11 @@
    "type": "fleches"
   },
   {
-   "t": 5.98,
+   "t": 5.96,
    "type": "coup"
   },
   {
-   "t": 7.46,
+   "t": 7.54,
    "type": "sticker"
   },
   {
@@ -109,7 +109,7 @@
    "type": "position"
   },
   {
-   "t": 8.88,
+   "t": 8.9,
    "type": "fleches"
   },
   {
@@ -117,7 +117,7 @@
    "type": "sticker"
   },
   {
-   "t": 12.52,
+   "t": 11.9,
    "type": "fleches"
   },
   {
