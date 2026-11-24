@@ -1,5 +1,5 @@
 {
- "date": "2026-11-24T07:01:16.077087+00:00",
+ "date": "2026-11-24T07:11:06.926760+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -30,7 +30,7 @@
    "publiee": "2026-11-23T12:01:31Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 5017,
+   "vues": 5020,
    "jaime": 35,
    "commentaires": 2
   },
@@ -57,7 +57,7 @@
    "publiee": "2026-11-22T15:01:36Z",
    "statut": "public",
    "duree": "PT13S",
-   "vues": 3901,
+   "vues": 4049,
    "jaime": 17,
    "commentaires": 1
   },
@@ -66,7 +66,7 @@
    "publiee": "2026-11-22T12:01:46Z",
    "statut": "public",
    "duree": "PT12S",
-   "vues": 30842,
+   "vues": 30843,
    "jaime": 38,
    "commentaires": 11
   },
@@ -93,7 +93,7 @@
    "publiee": "2026-11-21T16:44:33Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 8957,
+   "vues": 8955,
    "jaime": 40,
    "commentaires": 5
   },
@@ -102,7 +102,7 @@
    "publiee": "2026-11-21T16:44:26Z",
    "statut": "public",
    "duree": "PT19S",
-   "vues": 2756,
+   "vues": 2752,
    "jaime": 13,
    "commentaires": 1
   },
@@ -120,7 +120,7 @@
    "publiee": "2026-11-20T18:31:29Z",
    "statut": "public",
    "duree": "PT18S",
-   "vues": 3916,
+   "vues": 3928,
    "jaime": 17,
    "commentaires": 4
   },
@@ -138,7 +138,7 @@
    "publiee": "2026-11-20T14:44:49Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 9524,
+   "vues": 9467,
    "jaime": 29,
    "commentaires": 1
   },
@@ -156,7 +156,7 @@
    "publiee": "2026-11-19T18:46:32Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 30970,
+   "vues": 30972,
    "jaime": 167,
    "commentaires": 2
   },
@@ -192,7 +192,7 @@
    "publiee": "2026-11-18T18:40:42Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 32496,
+   "vues": 32495,
    "jaime": 161,
    "commentaires": 24
   },
@@ -246,7 +246,7 @@
    "publiee": "2026-11-17T13:05:40Z",
    "statut": "public",
    "duree": "PT18S",
-   "vues": 25170,
+   "vues": 25167,
    "jaime": 154,
    "commentaires": 3
   },
