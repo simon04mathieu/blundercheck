@@ -1,0 +1,103 @@
+{
+ "nom": "tour_libre_a3_1",
+ "tempo": 1.0,
+ "duree_s": 12.2,
+ "hook": {
+  "texte": "Take it,|or not?",
+  "fin": 2.0
+ },
+ "question": {
+  "texte": "Take it,|or not?",
+  "t": 9.0
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take it, or not?"
+  },
+  {
+   "t": 2.0,
+   "texte": "Don't!"
+  },
+  {
+   "t": 2.78,
+   "texte": "Bishop to f5 checkmate!"
+  },
+  {
+   "t": 5.82,
+   "texte": "Take with the queen and his queen takes yours."
+  },
+  {
+   "t": 9.3,
+   "texte": "So when a rook looks free ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.24,
+   "coup": "Ra3",
+   "badge": null
+  },
+  {
+   "t": 2.78,
+   "coup": "Bf5#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.24,
+   "type": "coup"
+  },
+  {
+   "t": 0.46,
+   "type": "fleches"
+  },
+  {
+   "t": 0.46,
+   "type": "sticker"
+  },
+  {
+   "t": 2.78,
+   "type": "coup"
+  },
+  {
+   "t": 2.78,
+   "type": "zoom"
+  },
+  {
+   "t": 4.42,
+   "type": "sticker"
+  },
+  {
+   "t": 5.82,
+   "type": "fleches"
+  },
+  {
+   "t": 6.35,
+   "type": "position"
+  },
+  {
+   "t": 7.2,
+   "type": "fleches"
+  },
+  {
+   "t": 7.68,
+   "type": "fleches"
+  },
+  {
+   "t": 7.68,
+   "type": "sticker"
+  },
+  {
+   "t": 10.0,
+   "type": "sticker"
+  }
+ ],
+ "musique": "sneaky_spelunking.mp3"
+}
