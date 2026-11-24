@@ -4,7 +4,7 @@
  "duree_s": 12.2,
  "hook": {
   "texte": "Take it,|or not?",
-  "fin": 2.0
+  "fin": 1.96
  },
  "question": {
   "texte": "Take it,|or not?",
@@ -16,11 +16,11 @@
    "texte": "Take it, or not?"
   },
   {
-   "t": 2.0,
+   "t": 1.96,
    "texte": "Don't!"
   },
   {
-   "t": 2.78,
+   "t": 2.8,
    "texte": "Bishop to f5 checkmate!"
   },
   {
@@ -39,7 +39,7 @@
    "badge": null
   },
   {
-   "t": 2.78,
+   "t": 2.8,
    "coup": "Bf5#",
    "badge": "mat"
   }
@@ -55,19 +55,19 @@
    "type": "coup"
   },
   {
-   "t": 0.46,
+   "t": 0.76,
    "type": "fleches"
   },
   {
-   "t": 0.46,
+   "t": 0.76,
    "type": "sticker"
   },
   {
-   "t": 2.78,
+   "t": 2.8,
    "type": "coup"
   },
   {
-   "t": 2.78,
+   "t": 2.8,
    "type": "zoom"
   },
   {
@@ -83,7 +83,7 @@
    "type": "position"
   },
   {
-   "t": 7.2,
+   "t": 6.84,
    "type": "fleches"
   },
   {

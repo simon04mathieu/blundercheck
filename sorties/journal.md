@@ -1318,3 +1318,6 @@
 ### commandes/perso_pions_fourchette_f4_1.json
     voix générée : 195 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pions_fourchette_f4_1.mp4 {"voix_brute_s": 15.8, "tempo": 1.0, "video_s": 15.9, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "chicago.mp3", "mots_transcrits": 41, "minutage": "6 phrases, 4 coups, 0 pauses"}
+### commandes/perso_tour_libre_a3_1.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/tour_libre_a3_1.mp4 {"voix_brute_s": 11.9, "tempo": 1.0, "video_s": 12.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 26, "minutage": "5 phrases, 2 coups, 0 pauses"}
