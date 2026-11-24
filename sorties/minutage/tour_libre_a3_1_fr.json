@@ -1,0 +1,103 @@
+{
+ "nom": "tour_libre_a3_1_fr",
+ "tempo": 1.0,
+ "duree_s": 11.12,
+ "hook": {
+  "texte": "Tu la prends,|ou pas ?",
+  "fin": 1.66
+ },
+ "question": {
+  "texte": "Tu la prends,|ou pas ?",
+  "t": 7.92
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Tu la prends ou pas ?"
+  },
+  {
+   "t": 1.66,
+   "texte": "Non !"
+  },
+  {
+   "t": 2.4,
+   "texte": "Fou en f5  mat !"
+  },
+  {
+   "t": 4.68,
+   "texte": "Si tu prends avec la dame sa dame prend la tienne."
+  },
+  {
+   "t": 7.94,
+   "texte": "Alors, quand une tour semble gratuite demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.35,
+   "coup": "Ra3",
+   "badge": null
+  },
+  {
+   "t": 2.4,
+   "coup": "Bf5#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.35,
+   "type": "coup"
+  },
+  {
+   "t": 0.56,
+   "type": "fleches"
+  },
+  {
+   "t": 0.56,
+   "type": "sticker"
+  },
+  {
+   "t": 2.4,
+   "type": "coup"
+  },
+  {
+   "t": 2.4,
+   "type": "zoom"
+  },
+  {
+   "t": 3.68,
+   "type": "sticker"
+  },
+  {
+   "t": 4.68,
+   "type": "fleches"
+  },
+  {
+   "t": 5.25,
+   "type": "position"
+  },
+  {
+   "t": 6.16,
+   "type": "fleches"
+  },
+  {
+   "t": 6.58,
+   "type": "fleches"
+  },
+  {
+   "t": 6.58,
+   "type": "sticker"
+  },
+  {
+   "t": 9.16,
+   "type": "sticker"
+  }
+ ],
+ "musique": "sneaky_spelunking.mp3"
+}
