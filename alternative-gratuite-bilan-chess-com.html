@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Alternative gratuite au bilan de partie Chess.com · BlunderCheck</title>
+<meta name="description" content="Analyse tes parties Chess.com ou Lichess gratuitement : Stockfish dans ton navigateur, un prof IA qui explique chaque coup, sans inscription. Une alternative gratuite aux bilans payants."><link rel="canonical" href="https://blundercheck.app/alternative-gratuite-bilan-chess-com"><link rel="alternate" hreflang="en" href="https://blundercheck.app/free-chess-game-review"><link rel="alternate" hreflang="fr" href="https://blundercheck.app/alternative-gratuite-bilan-chess-com"><link rel="alternate" hreflang="x-default" href="https://blundercheck.app/free-chess-game-review">
+<meta property="og:title" content="Une alternative gratuite au bilan de partie Chess.com"><meta property="og:description" content="Analyse tes parties Chess.com ou Lichess gratuitement : Stockfish dans ton navigateur, un prof IA qui explique chaque coup, sans inscription. Une alternative gratuite aux bilans payants."><meta property="og:type" content="article"><meta property="og:url" content="https://blundercheck.app/alternative-gratuite-bilan-chess-com">
+<meta name="theme-color" content="#111614">
+<script>/* Compteur ?src (site/compteur-src.md) ; pages SEO : arrivée Google ou Bing comptée « google ». */
+(function(){try{var u=new URL(location.href),q=u.searchParams,s=(q.get('src')||'').toLowerCase(),ok=/^[a-z0-9][a-z0-9-]{0,29}$/,ls=null;
+try{ls=window.localStorage;}catch(e){}if(!ok.test(s))s='';
+if(!s&&/google\.|bing\.|duckduckgo\.|qwant\.|ecosia\./.test(document.referrer))s='google';
+var c=document.cookie.match(/(?:^|;\s*)bc_src=([a-z0-9-]{1,30})/),sec=location.protocol==='https:'?'; Secure':'';
+if(q.has('src')){q.delete('src');history.replaceState(history.state,'',u.pathname+(q.toString()?'?'+q:'')+u.hash);}
+if(ls&&ls.getItem('bc-moi'))return;
+if(s&&!c)document.cookie='bc_src='+s+'; Path=/; Max-Age=2592000; SameSite=Lax'+sec;
+var src=s||'direct',j=new Date().toISOString().slice(0,10),vu={};try{vu=JSON.parse(ls&&ls.getItem('bc-vu')||'{}');}catch(e){}
+if(vu.j!==j)vu={j:j};if(vu[src])return;
+var b=JSON.stringify({src:src,evts:['visite']}),fini=function(){vu[src]=1;try{ls&&ls.setItem('bc-vu',JSON.stringify(vu));}catch(e){}};
+if(navigator.sendBeacon&&navigator.sendBeacon('/api/src',new Blob([b],{type:'application/json'})))fini();
+else fetch('/api/src',{method:'POST',body:b,keepalive:true,headers:{'content-type':'application/json'}}).then(fini,function(){});
+}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@144,800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>:root{--bg:#111614;--card:#18201C;--line:#29332D;--fg:#EDE7D8;--mut:#A7B0A8;--accent:#C9A45C;--ink:#1A1407;--bad:#E5534B;--good:#5DBB8A}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:"Source Sans 3",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:680px;margin:0 auto;padding:24px 16px 48px}a{color:var(--accent)}
+.logo{display:inline-flex;align-items:center;gap:10px;font-weight:700;color:var(--fg);text-decoration:none}
+.logo i{width:28px;height:28px;border-radius:7px;background:#111614;border:1px solid var(--line);position:relative}
+.logo i:before,.logo i:after{content:"";position:absolute;width:9px;height:9px;border-radius:2px}
+.logo i:before{left:6px;top:6px;background:var(--accent)}.logo i:after{left:13px;top:13px;background:#fff}
+h1{font-family:Fraunces,Georgia,serif;font-weight:800;font-size:34px;line-height:1.1;letter-spacing:-.02em;margin:22px 0 10px}
+h2{font-size:20px;margin:30px 0 8px}p,li{color:var(--mut);font-size:16px;line-height:1.55}
+.step{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;margin:14px 0}
+.step h3{margin:0 0 8px;font-size:16px;color:var(--fg)}.board{width:100%;height:auto;max-width:360px;display:block;margin:0 auto}
+.moves{font-family:ui-monospace,Menlo,monospace;font-size:15px;color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;line-height:1.7;word-spacing:2px}
+.bad{color:var(--bad);font-weight:700}.good{color:var(--good);font-weight:700}
+.cta{display:block;text-align:center;background:var(--accent);color:var(--ink);font-weight:700;font-size:18px;padding:16px;border-radius:14px;text-decoration:none;margin:26px 0 6px}
+.small{font-size:13px;color:var(--mut);text-align:center}ul.list{padding-left:18px}ul.list li{margin:6px 0}
+footer{color:var(--mut);font-size:13px;text-align:center;margin-top:34px}table{width:100%;border-collapse:collapse;margin:14px 0;font-size:15px}th,td{border-bottom:1px solid var(--line);padding:9px 8px;text-align:left;color:var(--mut)}th{color:var(--fg)}tr.me td,tr.me th{color:var(--accent);font-weight:700}details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}summary{cursor:pointer;color:var(--fg);font-weight:600}details p{margin:8px 0 0}.cta2{display:inline-block;margin:6px 8px 0 0;color:var(--accent)}</style><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Une alternative gratuite au bilan de partie Chess.com", "description": "Analyse tes parties Chess.com ou Lichess gratuitement : Stockfish dans ton navigateur, un prof IA qui explique chaque coup, sans inscription. Une alternative gratuite aux bilans payants.", "publisher": {"@type": "Organization", "name": "BlunderCheck", "url": "https://blundercheck.app"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "BlunderCheck est-il vraiment gratuit ?", "acceptedAnswer": {"@type": "Answer", "text": "Oui. L'analyse Stockfish de tes parties est illimitée et gratuite, avec le rapport de précision, les moments décisifs, les leçons guidées et les statistiques d'ouvertures. Le prof IA commente 3 de tes parties par mois gratuitement ; BlunderCheck+ (1,50 € par mois payé à l'année, ou 2,99 € au mois) monte à 100 parties commentées par mois."}}, {"@type": "Question", "name": "Mes parties quittent-elles mon navigateur ?", "acceptedAnswer": {"@type": "Answer", "text": "Non. Tes parties restent dans ton navigateur et Stockfish y tourne. Une partie n'est envoyée au prof IA que quand tu demandes un commentaire ou que tu lui poses une question."}}, {"@type": "Question", "name": "Est-ce que ça marche avec Lichess et Chess.com ?", "acceptedAnswer": {"@type": "Answer", "text": "Oui. Entre ton pseudo Chess.com ou Lichess pour charger tes dernières parties, ou colle un PGN."}}, {"@type": "Question", "name": "BlunderCheck est-il affilié à Chess.com ?", "acceptedAnswer": {"@type": "Answer", "text": "Non. Chess.com et Lichess sont des marques de leurs propriétaires respectifs. BlunderCheck est indépendant et n'est pas approuvé par eux."}}]}]}</script></head><body><main>
+<a class="logo" href="/"><i></i>BlunderCheck</a>
+<h1>Une alternative gratuite au bilan de partie Chess.com</h1>
+<p>Le bilan de partie de Chess.com est bien fait, mais la formule gratuite s'arrête vite : les bilans complets et les explications du coach relèvent des abonnements payants (vérifie les limites actuelles sur Chess.com). Si tu veux comprendre <b>pourquoi</b> chaque coup rate sans t'abonner, voici une alternative gratuite.</p>
+<a class="cta" href="/">Analyser mes parties gratuitement</a>
+<p class="small">Sans inscription · pseudo Chess.com ou Lichess · ou colle un PGN</p>
+<h2>Ce que tu as gratuitement</h2>
+<ul class="list"><li><b>Analyse Stockfish illimitée</b>, dans ton navigateur : courbe d'avantage, précision, chaque coup noté (meilleur, bon, imprécision, erreur, gaffe).</li><li><b>Tes moments décisifs</b> et les pièces que tu laisses en prise.</li><li><b>Des leçons guidées</b> : le site te remet dans tes moments clés, tu cherches le bon coup, Stockfish vérifie.</li><li><b>3 parties par mois commentées par le prof IA</b> : un commentaire et un conseil à chaque coup, en langage clair.</li></ul>
+<h2>Comment ça marche</h2>
+<ul class="list"><li><b>1. Charge tes parties.</b> Tape ton pseudo Chess.com ou Lichess, ou colle un PGN.</li><li><b>2. Stockfish les analyse</b> en quelques secondes, dans ton navigateur.</li><li><b>3. Le prof t'explique.</b> Il te dit pourquoi un coup rate, quoi jouer à la place, et le réflexe à garder.</li></ul>
+<h2>Le prix des formules payantes</h2>
+<table><tr><th>Offre</th><th>Par an</th></tr><tr><td>Chess.com Diamond</td><td>124,99 €</td></tr><tr><td>DecodeChess Unlimited</td><td>84 $</td></tr><tr><td>Aimchess Premium</td><td>71,99 $</td></tr><tr class="me"><th>BlunderCheck+</th><th>17,99 €</th></tr></table>
+<p class="small">Prix publics annuels relevés en octobre 2026 sur les sites des éditeurs ; ils varient selon le pays et les promotions, et les offres ne comprennent pas les mêmes fonctionnalités.</p>
+<h2>Questions fréquentes</h2>
+<details><summary>BlunderCheck est-il vraiment gratuit ?</summary><p>Oui. L'analyse Stockfish de tes parties est illimitée et gratuite, avec le rapport de précision, les moments décisifs, les leçons guidées et les statistiques d'ouvertures. Le prof IA commente 3 de tes parties par mois gratuitement ; BlunderCheck+ (1,50 € par mois payé à l'année, ou 2,99 € au mois) monte à 100 parties commentées par mois.</p></details><details><summary>Mes parties quittent-elles mon navigateur ?</summary><p>Non. Tes parties restent dans ton navigateur et Stockfish y tourne. Une partie n'est envoyée au prof IA que quand tu demandes un commentaire ou que tu lui poses une question.</p></details><details><summary>Est-ce que ça marche avec Lichess et Chess.com ?</summary><p>Oui. Entre ton pseudo Chess.com ou Lichess pour charger tes dernières parties, ou colle un PGN.</p></details><details><summary>BlunderCheck est-il affilié à Chess.com ?</summary><p>Non. Chess.com et Lichess sont des marques de leurs propriétaires respectifs. BlunderCheck est indépendant et n'est pas approuvé par eux.</p></details>
+<a class="cta" href="/">Essayer le prof sur mes parties</a>
+<footer>© 2026 BlunderCheck · Analyse par Stockfish · Non affilié à Chess.com ni à Lichess</footer>
+</main></body></html>

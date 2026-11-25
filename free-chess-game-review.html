@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Free alternative to Chess.com Game Review · BlunderCheck</title>
+<meta name="description" content="Analyze your Chess.com or Lichess games for free: Stockfish in your browser, an AI coach that explains every move, no sign-up. A free alternative to paid game reviews."><link rel="canonical" href="https://blundercheck.app/free-chess-game-review"><link rel="alternate" hreflang="en" href="https://blundercheck.app/free-chess-game-review"><link rel="alternate" hreflang="fr" href="https://blundercheck.app/alternative-gratuite-bilan-chess-com"><link rel="alternate" hreflang="x-default" href="https://blundercheck.app/free-chess-game-review">
+<meta property="og:title" content="A free alternative to Chess.com Game Review"><meta property="og:description" content="Analyze your Chess.com or Lichess games for free: Stockfish in your browser, an AI coach that explains every move, no sign-up. A free alternative to paid game reviews."><meta property="og:type" content="article"><meta property="og:url" content="https://blundercheck.app/free-chess-game-review">
+<meta name="theme-color" content="#111614">
+<script>/* Compteur ?src (site/compteur-src.md) ; pages SEO : arrivée Google ou Bing comptée « google ». */
+(function(){try{var u=new URL(location.href),q=u.searchParams,s=(q.get('src')||'').toLowerCase(),ok=/^[a-z0-9][a-z0-9-]{0,29}$/,ls=null;
+try{ls=window.localStorage;}catch(e){}if(!ok.test(s))s='';
+if(!s&&/google\.|bing\.|duckduckgo\.|qwant\.|ecosia\./.test(document.referrer))s='google';
+var c=document.cookie.match(/(?:^|;\s*)bc_src=([a-z0-9-]{1,30})/),sec=location.protocol==='https:'?'; Secure':'';
+if(q.has('src')){q.delete('src');history.replaceState(history.state,'',u.pathname+(q.toString()?'?'+q:'')+u.hash);}
+if(ls&&ls.getItem('bc-moi'))return;
+if(s&&!c)document.cookie='bc_src='+s+'; Path=/; Max-Age=2592000; SameSite=Lax'+sec;
+var src=s||'direct',j=new Date().toISOString().slice(0,10),vu={};try{vu=JSON.parse(ls&&ls.getItem('bc-vu')||'{}');}catch(e){}
+if(vu.j!==j)vu={j:j};if(vu[src])return;
+var b=JSON.stringify({src:src,evts:['visite']}),fini=function(){vu[src]=1;try{ls&&ls.setItem('bc-vu',JSON.stringify(vu));}catch(e){}};
+if(navigator.sendBeacon&&navigator.sendBeacon('/api/src',new Blob([b],{type:'application/json'})))fini();
+else fetch('/api/src',{method:'POST',body:b,keepalive:true,headers:{'content-type':'application/json'}}).then(fini,function(){});
+}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@144,800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>:root{--bg:#111614;--card:#18201C;--line:#29332D;--fg:#EDE7D8;--mut:#A7B0A8;--accent:#C9A45C;--ink:#1A1407;--bad:#E5534B;--good:#5DBB8A}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:"Source Sans 3",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:680px;margin:0 auto;padding:24px 16px 48px}a{color:var(--accent)}
+.logo{display:inline-flex;align-items:center;gap:10px;font-weight:700;color:var(--fg);text-decoration:none}
+.logo i{width:28px;height:28px;border-radius:7px;background:#111614;border:1px solid var(--line);position:relative}
+.logo i:before,.logo i:after{content:"";position:absolute;width:9px;height:9px;border-radius:2px}
+.logo i:before{left:6px;top:6px;background:var(--accent)}.logo i:after{left:13px;top:13px;background:#fff}
+h1{font-family:Fraunces,Georgia,serif;font-weight:800;font-size:34px;line-height:1.1;letter-spacing:-.02em;margin:22px 0 10px}
+h2{font-size:20px;margin:30px 0 8px}p,li{color:var(--mut);font-size:16px;line-height:1.55}
+.step{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;margin:14px 0}
+.step h3{margin:0 0 8px;font-size:16px;color:var(--fg)}.board{width:100%;height:auto;max-width:360px;display:block;margin:0 auto}
+.moves{font-family:ui-monospace,Menlo,monospace;font-size:15px;color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;line-height:1.7;word-spacing:2px}
+.bad{color:var(--bad);font-weight:700}.good{color:var(--good);font-weight:700}
+.cta{display:block;text-align:center;background:var(--accent);color:var(--ink);font-weight:700;font-size:18px;padding:16px;border-radius:14px;text-decoration:none;margin:26px 0 6px}
+.small{font-size:13px;color:var(--mut);text-align:center}ul.list{padding-left:18px}ul.list li{margin:6px 0}
+footer{color:var(--mut);font-size:13px;text-align:center;margin-top:34px}table{width:100%;border-collapse:collapse;margin:14px 0;font-size:15px}th,td{border-bottom:1px solid var(--line);padding:9px 8px;text-align:left;color:var(--mut)}th{color:var(--fg)}tr.me td,tr.me th{color:var(--accent);font-weight:700}details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}summary{cursor:pointer;color:var(--fg);font-weight:600}details p{margin:8px 0 0}.cta2{display:inline-block;margin:6px 8px 0 0;color:var(--accent)}</style><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "A free alternative to Chess.com Game Review", "description": "Analyze your Chess.com or Lichess games for free: Stockfish in your browser, an AI coach that explains every move, no sign-up. A free alternative to paid game reviews.", "publisher": {"@type": "Organization", "name": "BlunderCheck", "url": "https://blundercheck.app"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is BlunderCheck really free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Stockfish analysis of your games is unlimited and free, with the accuracy report, the decisive moments, guided lessons and opening statistics. The AI coach comments 3 of your games every month for free; BlunderCheck+ (€1.50 a month billed yearly, or €2.99 monthly) goes up to 100 commented games a month."}}, {"@type": "Question", "name": "Do my games leave my browser?", "acceptedAnswer": {"@type": "Answer", "text": "No. Your games stay in your browser and Stockfish runs there. A game is only sent to the AI coach when you ask for a comment or ask the coach a question."}}, {"@type": "Question", "name": "Does it work with Lichess and Chess.com?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Enter your Chess.com or Lichess username to load your latest games, or paste a PGN."}}, {"@type": "Question", "name": "Is BlunderCheck affiliated with Chess.com?", "acceptedAnswer": {"@type": "Answer", "text": "No. Chess.com and Lichess are trademarks of their respective owners. BlunderCheck is independent and not endorsed by them."}}]}]}</script></head><body><main>
+<a class="logo" href="/en"><i></i>BlunderCheck</a>
+<h1>A free alternative to Chess.com Game Review</h1>
+<p>Chess.com's Game Review is good, but its free plan only goes so far: fuller reviews and coach explanations belong to the paid plans (check Chess.com's current plans for the exact limits). If you want to understand <b>why</b> each move failed without a subscription, here is a free alternative.</p>
+<a class="cta" href="/en">Analyze my games for free</a>
+<p class="small">No sign-up · Chess.com or Lichess username · or paste a PGN</p>
+<h2>What you get for free</h2>
+<ul class="list"><li><b>Unlimited Stockfish analysis</b>, running in your own browser: advantage graph, accuracy, every move rated (best, good, inaccuracy, mistake, blunder).</li><li><b>Your decisive moments</b> and the pieces you leave hanging.</li><li><b>Guided lessons</b>: the site puts you back in your key moments, you find the right move, Stockfish checks it.</li><li><b>3 games a month commented by the AI coach</b>: a comment and a tip on every move, in plain language.</li></ul>
+<h2>How it works</h2>
+<ul class="list"><li><b>1. Load your games.</b> Type your Chess.com or Lichess username, or paste a PGN.</li><li><b>2. Stockfish analyzes them</b> in seconds, in your browser.</li><li><b>3. The coach explains.</b> It tells you why a move fails, what to play instead, and the habit to keep.</li></ul>
+<h2>The price of the paid plans</h2>
+<table><tr><th>Plan</th><th>Per year</th></tr><tr><td>Chess.com Diamond</td><td>€124.99</td></tr><tr><td>DecodeChess Unlimited</td><td>$84</td></tr><tr><td>Aimchess Premium</td><td>$71.99</td></tr><tr class="me"><th>BlunderCheck+</th><th>€17.99</th></tr></table>
+<p class="small">Public yearly prices noted in October 2026 on the publishers' websites; they vary by country and promotions, and the plans do not include the same features.</p>
+<h2>Questions</h2>
+<details><summary>Is BlunderCheck really free?</summary><p>Yes. Stockfish analysis of your games is unlimited and free, with the accuracy report, the decisive moments, guided lessons and opening statistics. The AI coach comments 3 of your games every month for free; BlunderCheck+ (€1.50 a month billed yearly, or €2.99 monthly) goes up to 100 commented games a month.</p></details><details><summary>Do my games leave my browser?</summary><p>No. Your games stay in your browser and Stockfish runs there. A game is only sent to the AI coach when you ask for a comment or ask the coach a question.</p></details><details><summary>Does it work with Lichess and Chess.com?</summary><p>Yes. Enter your Chess.com or Lichess username to load your latest games, or paste a PGN.</p></details><details><summary>Is BlunderCheck affiliated with Chess.com?</summary><p>No. Chess.com and Lichess are trademarks of their respective owners. BlunderCheck is independent and not endorsed by them.</p></details>
+<a class="cta" href="/en">Try the coach on your own games</a>
+<p><a class="cta2" href="/guides/5-common-chess-blunders">The 5 blunders almost everyone makes</a><a class="cta2" href="/traps">Chess opening traps</a></p>
+<footer>© 2026 BlunderCheck · Analysis by Stockfish · Not affiliated with Chess.com or Lichess</footer>
+</main></body></html>

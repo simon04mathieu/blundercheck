@@ -40,7 +40,7 @@ var T=en?{t:"You're #"+j.numero+" on the list 🎉",p:"Invite 3 friends with you
 :{t:'Tu es n°'+j.numero+' sur la liste 🎉',p:'Invite 3 amis avec ton lien : tu passes dans le <b>groupe prioritaire</b> au lancement (accès en premier, avant tout le monde).',c:'Copier',ok:'Copié !',s:'Partager',w:'WhatsApp',v:'Suivre mes invitations',x:'Fermer',m:"Analyse tes parties d'échecs gratuitement, avec un prof IA qui explique chaque coup : "};
 var d=document.createElement('div');d.setAttribute('role','dialog');d.setAttribute('aria-modal','true');
 d.style.cssText='position:fixed;inset:0;z-index:99999;background:rgba(8,11,10,.72);display:flex;align-items:center;justify-content:center;padding:16px;font-family:Geist,system-ui,sans-serif';
-var b='display:inline-flex;align-items:center;justify-content:center;gap:6px;border-radius:10px;padding:11px 14px;font:600 14px Geist,system-ui,sans-serif;cursor:pointer;text-decoration:none;';
+var b='display:inline-flex;align-items:center;justify-content:center;gap:6px;border-radius:10px;padding:11px 14px;font:600 14px system-ui,sans-serif;cursor:pointer;text-decoration:none;';
 d.innerHTML='<div style="background:#18201C;color:#EDE7D8;border:1px solid #2A342F;border-radius:16px;max-width:440px;width:100%;padding:22px;box-shadow:0 20px 60px rgba(0,0,0,.5)">'
 +'<div style="font-size:20px;font-weight:700;margin:0 0 8px">'+T.t+'</div><p style="margin:0 0 14px;color:#C9CBBE;line-height:1.5;font-size:15px">'+T.p+'</p>'
 +'<div style="display:flex;gap:8px;margin-bottom:10px"><input readonly value="'+lien+'" style="flex:1;min-width:0;background:#111614;color:#EDE7D8;border:1px solid #2A342F;border-radius:10px;padding:10px;font:13px Geist Mono,monospace">'
@@ -48,7 +48,7 @@ d.innerHTML='<div style="background:#18201C;color:#EDE7D8;border:1px solid #2A34
 +'<div style="display:flex;gap:8px;flex-wrap:wrap"><button data-a="s" style="'+b+'background:#2F4A3E;color:#EDE7D8;border:0;flex:1">'+T.s+'</button>'
 +'<a href="https://wa.me/?text='+encodeURIComponent(T.m+lien)+'" target="_blank" rel="noopener" style="'+b+'background:#2F4A3E;color:#EDE7D8;flex:1">'+T.w+'</a></div>'
 +'<div style="display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-size:13px"><a href="'+suivi+'" style="color:#C9A45C">'+T.v+'</a>'
-+'<button data-a="x" style="background:none;border:0;color:#A8A99A;cursor:pointer;font:13px Geist,system-ui,sans-serif">'+T.x+'</button></div></div>';
++'<button data-a="x" style="background:none;border:0;color:#A8A99A;cursor:pointer;font:13px system-ui,sans-serif">'+T.x+'</button></div></div>';
 document.body.appendChild(d);
 d.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('[data-a]');if(e.target===d||(a&&a.dataset.a==='x')){d.remove();return;}if(!a)return;
 if(a.dataset.a==='c'){var i=d.querySelector('input');i.select();(navigator.clipboard?navigator.clipboard.writeText(lien):Promise.reject()).catch(function(){document.execCommand('copy');}).then(function(){a.textContent=T.ok;});}
@@ -114,7 +114,7 @@ var c=b.dataset.intention==='mois'?'mois':'an';uneFois('clic');uneFois('clic-'+c
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500;600&display=swap">
 <style>
 /* Coquille : barre latérale fixe + barre du haut ; l'analyse se lit en deux zones (échiquier | panneau à onglets) sous une bande d'infos */
 :root {
@@ -129,7 +129,7 @@ var c=b.dataset.intention==='mois'?'mois':'an';uneFois('clic');uneFois('clic-'+c
   --adv-area: rgba(237, 231, 216, .10); --adv-line: rgba(237, 231, 216, .72);
   --eval-w: #EDE7D8; --eval-b: #2A332E;
   --shadow: 0 12px 32px rgba(0, 0, 0, .5);
-  --f-ui: "Geist", "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-ui: "Source Sans 3", "Source Sans Pro", "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --f-mono: "Geist Mono", ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
   --r: 10px; --r-sm: 8px;
   --side-w: 232px; --top-h: 60px;
@@ -173,7 +173,7 @@ var c=b.dataset.intention==='mois'?'mois':'an';uneFois('clic');uneFois('clic-'+c
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
 html, body { background: var(--bg); color: var(--fg); }
-body { margin: 0; font: 14px/1.5 var(--f-ui); -webkit-font-smoothing: antialiased; font-feature-settings: "cv11", "ss01"; }
+body { margin: 0; font: 15px/1.5 var(--f-ui); -webkit-font-smoothing: antialiased; }
 body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 60; background: var(--bg); }
 h1, h2, h3, h4 { margin: 0; font-weight: 600; letter-spacing: -.015em; text-wrap: balance; }
 p { margin: 0; }
@@ -776,7 +776,7 @@ textarea.input { width: 100%; resize: vertical; font: 12.5px/1.55 var(--f-mono);
 .legal-doc p + p { margin-top: 8px; }
 .legal-doc ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; }
 .legal-doc a, .info-head a, .callout a { color: var(--accent); }
-.foot { margin-top: 56px; padding: 28px 0 8px; border-top: 1px solid var(--line); display: grid; grid-template-columns: 1.4fr repeat(3, 1fr); gap: 24px; }
+.foot { margin-top: 56px; padding: 28px 0 8px; border-top: 1px solid var(--line); display: grid; grid-template-columns: 1.4fr repeat(4, 1fr); gap: 24px; }
 .foot b { display: block; font-size: 13px; margin-bottom: 10px; }
 .foot a { display: block; color: var(--fg-2); text-decoration: none; font-size: 13.5px; padding: 3px 0; }
 .foot a:hover { color: var(--fg); }
@@ -958,6 +958,48 @@ a.btn { text-decoration: none; }
 .lang-top button.on { background: var(--accent); color: #111614; }
 @media (max-width: 600px) { .lang-top button { padding: 5px 7px; min-width: 30px; } }
 
+
+/* Mise à jour 25/11 : police Source Sans 3, look plus moderne, témoignage et bandeau prof (accueil seulement pour les boutons arrondis) */
+:root { --r: 14px; --r-sm: 10px; }
+.card { box-shadow: 0 10px 28px -18px rgba(0, 0, 0, .45); }
+.hero { position: relative; isolation: isolate; padding-block: 28px 56px; gap: 48px; }
+.hero::before { content: ""; position: absolute; inset: -60px 0 auto 0; height: 460px; z-index: -1; pointer-events: none; background: radial-gradient(58% 60% at 22% 18%, var(--accent-soft), transparent 72%), radial-gradient(40% 50% at 88% 10%, var(--ia-soft), transparent 70%); }
+.hero h1 { font-size: clamp(38px, 5.2vw, 66px); font-weight: 700; line-height: 1.02; letter-spacing: -.03em; }
+.hero-sub { font-size: 19px; line-height: 1.5; }
+.hero .btn, .land-sec .btn, .hero .seg, .hero .seg button { border-radius: 999px; }
+.hero .btn.primary, .land-sec .btn.primary { background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 90%, #fff), var(--accent)); box-shadow: 0 10px 24px -10px var(--accent-line), inset 0 1px 0 rgba(255, 255, 255, .25); }
+.hero .btn.primary:hover, .land-sec .btn.primary:hover { transform: translateY(-1px); }
+.btn.lg { height: 48px; padding: 0 22px; font-size: 16px; }
+.hp-row .input { border-radius: 999px; padding-inline: 20px; height: 48px; font-size: 16px; }
+.hero-note { font-size: 14px; }
+.hero-demo { box-shadow: var(--shadow); border-color: var(--line-2); }
+.land-sec > h2 { font-size: 30px; font-weight: 700; letter-spacing: -.025em; }
+.land-steps .n { border-radius: 10px; }
+.feat { transition: transform .15s ease, border-color .15s ease; }
+.feat:hover { transform: translateY(-2px); border-color: var(--accent-line); }
+.temoin { border-top: 0; padding-block: 8px 24px; margin-top: 0; }
+.temoignage { margin: 0; padding: 32px 36px; position: relative; overflow: hidden; display: grid; gap: 18px; border-color: var(--accent-line); background: linear-gradient(135deg, var(--accent-soft), transparent 60%), var(--s1); }
+.temoignage .guill { position: absolute; top: -18px; right: 22px; font: 700 180px/1 Georgia, serif; color: var(--accent); opacity: .16; pointer-events: none; }
+.temoignage blockquote { margin: 0; font-size: clamp(21px, 2.6vw, 30px); line-height: 1.28; font-weight: 600; letter-spacing: -.015em; max-width: 36ch; }
+.temoignage blockquote b { color: var(--accent); font-weight: 700; }
+.temoignage figcaption { display: flex; align-items: center; gap: 12px; color: var(--fg-2); font-size: 15px; }
+.temoignage figcaption b { color: var(--fg); }
+.temoignage .av { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; font-weight: 700; background: var(--accent); color: var(--accent-ink); }
+.prof-band { border-top: 0; padding-block: 36px 8px; }
+.pb { display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; padding: 28px 32px; border-color: var(--accent-line); background: linear-gradient(120deg, var(--accent-soft), transparent 70%), var(--s1); }
+.pb h2 { font-size: 26px; font-weight: 700; letter-spacing: -.02em; margin-bottom: 6px; }
+.pb p { color: var(--fg-2); font-size: 16px; max-width: 52ch; }
+.pb-cta { display: flex; gap: 10px; flex-wrap: wrap; }
+@media (max-width: 860px) { .temoignage { padding: 26px 22px; } .pb { padding: 22px; } .hero-sub { font-size: 17px; } }
+
+/* Bouton BlunderCheck+ en haut, démo animée du prof */
+#topPlus[hidden] { display: none; }
+#topPlus { border-color: var(--accent-line); color: var(--accent); background: var(--accent-soft); font-weight: 650; border-radius: 999px; }
+#topPlus:hover { background: var(--accent); color: var(--accent-ink); }
+#topPlus .tp-s { display: none; }
+@media (max-width: 700px) { #topPlus .tp-l { display: none; } #topPlus .tp-s { display: inline; } #topPlus { padding: 0 10px; } }
+.hero-demo.anim .demo-head, .hero-demo.anim .ds, .hero-demo.anim .conseil-box { opacity: 0; transform: translateY(5px); transition: opacity .4s ease, transform .4s ease; }
+.hero-demo.anim.s1 .demo-head, .hero-demo.anim.s3 .ds3, .hero-demo.anim.s4 .ds4, .hero-demo.anim.s5 .ds5, .hero-demo.anim.s6 .conseil-box { opacity: 1; transform: none; }
 </style>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
     
@@ -1139,6 +1181,7 @@ a.btn { text-decoration: none; }
         <div class="search-res" id="qres" hidden></div>
       </div>
       <div class="top-actions">
+        <button class="btn" id="topPlus" data-abo="an" hidden></button>
         <button class="btn primary" data-route="import" aria-label="Analyser une partie"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>Analyser une partie</span></button>
         <div class="seg lang-top" role="group" aria-label="Langue / Language" title="Langue / Language"><button data-lang="fr" lang="fr" aria-label="Français">FR</button><button data-lang="en" lang="en" aria-label="English">EN</button></div>
         <div class="profile">
@@ -3594,7 +3637,7 @@ function mentions() {
     <div class="mention"><b>Chess engine: Stockfish 10</b><span>Free software under the GNU GPL v3 license, here in its browser version (stockfish.js). It runs unmodified, in a file separate from the app. Source code: <a href="https://github.com/nmrugg/stockfish.js" target="_blank" rel="noopener">github.com/nmrugg/stockfish.js</a> et <a href="https://github.com/official-stockfish/Stockfish" target="_blank" rel="noopener">github.com/official-stockfish/Stockfish</a>. Licence : <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="noopener">gnu.org/licenses/gpl-3.0</a>.</span></div>
     <div class="mention"><b>Game rules and PGN reading: chess.js 0.10.3</b><span>2-clause BSD license, © Jeff Hlywa. <a href="https://github.com/jhlywa/chess.js" target="_blank" rel="noopener">github.com/jhlywa/chess.js</a></span></div>
     <div class="mention"><b>Chess pieces</b><span>Drawings by Cburnett (Wikimedia Commons), adapted by cm-chessboard, under the <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>.</span></div>
-    <div class="mention"><b>Geist and Geist Mono fonts</b><span>Vercel, SIL Open Font License 1.1, served by Google Fonts.</span></div>
+    <div class="mention"><b>Source Sans 3 and Geist Mono fonts</b><span>Vercel, SIL Open Font License 1.1, served by Google Fonts.</span></div>
     <div class="mention"><b>Move accuracy and classification</b><span>Calculated from Stockfish evaluations, by converting each evaluation into winning chances (method published by Lichess).</span></div>
     <div class="mention"><b>AI coach</b><span>Comments marked “AI · Claude” are written by Claude (Anthropic), based on Stockfish's calculations. They may contain mistakes: when in doubt, the engine evaluations prevail.</span></div>
     <div class="mention"><b>Your data</b><span>Your games, analyses and settings stay in this browser. A game is only sent to Claude if you start the AI coach or ask a question.</span></div>
@@ -4009,18 +4052,26 @@ function pageAccueil(view) {
         <div class="hp-row"><input class="input" id="hpIn" placeholder="Your username" value="${esc((REGLAGES.pseudos || '').split(',')[0].trim())}" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Your username"><button class="btn primary lg" type="submit">${ico('analyser')}Analyze my games</button></div>
       </form>
       <p class="hero-alt">or <a href="#import" data-route="import">paste a PGN</a>${parties ? ` · <a href="#prof" data-route="prof">see my coach</a>` : ` · <a href="#" id="voirEx">see an example</a>`}</p>
-      <p class="faint hero-note">Free, no sign-up: Stockfish analyzes your last 10 games. The full coach: ${PRIX.anMois} per month.</p>
+      <p class="faint hero-note">Free, no sign-up: Stockfish analyzes your last 10 games and the coach comments 3 a month. Unlimited coach: ${PRIX.anMois} per month.</p>
     </div>
     <div class="card hero-demo">
       <div class="demo-board"><svg class="board-svg" id="demoBoard" role="img" aria-label="Example: the move played 4. Nxe5 in red, the right move 4. Nxd4 in blue"></svg></div>
       <div class="demo-txt">
-        <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><span class="san mono" style="font-weight:600">4. Nxe5</span>${chip('gaffe')}<span class="tag" style="margin-left:auto">Example</span></div>
+        <div class="demo-head" style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><span class="san mono" style="font-weight:600">4. Nxe5</span>${chip('gaffe')}<span class="tag" style="margin-left:auto">Example</span></div>
         <div class="ia-box"><span class="tag tag-ia" style="justify-self:start">${ico('ia')}The coach</span>
-          <p>You take the e5 pawn, but your knight steps forward unprotected. After <span class="mv">4…Qg5</span>, the black queen attacks both your knight and the g2 pawn: you will lose material. You needed <span class="mv">4. Nxd4</span>, which removes the annoying knight.</p>
+          <p><span class="ds ds3">You take the e5 pawn, but your knight steps forward unprotected.</span> <span class="ds ds4">After <span class="mv">4…Qg5</span>, the black queen attacks both your knight and the g2 pawn: you will lose material.</span> <span class="ds ds5">You needed <span class="mv">4. Nxd4</span>, which removes the annoying knight.</span></p>
           <div class="conseil-box">${ico('bulb')}<p><b>Tip</b> Before taking a pawn, check what your piece stops defending and whether it stays protected on its new square.</p></div>
         </div>
       </div>
     </div>
+  </section>
+
+  <section class="land-sec temoin">
+    <figure class="card temoignage">
+      <span class="guill" aria-hidden="true">“</span>
+      <blockquote>The site really made me <b>gain 300 Elo</b>. The coach's comments are <b>spot-on for every position</b>.</blockquote>
+      <figcaption><span class="av" aria-hidden="true">S</span><span><b>Simon</b> · creator of BlunderCheck</span></figcaption>
+    </figure>
   </section>
 
   <section class="land-sec">
@@ -4046,21 +4097,28 @@ function pageAccueil(view) {
     </div>
   </section>
 
+  <section class="land-sec prof-band">
+    <div class="card pb">
+      <div><h2>Try the coach on your own games</h2><p>It tells you why each move fails and what you should have played. 3 games commented per month for free, then ${PRIX.anMois} per month.</p></div>
+      <div class="pb-cta"><a class="btn primary lg" href="#" id="ctaProf">${ico('analyser')}Analyze my games</a><a class="btn lg" href="#tarifs" data-route="tarifs">See pricing</a></div>
+    </div>
+  </section>
+
   <section class="land-sec" id="tarifs">
     <h2>The price of a coffee a month</h2>
     <div class="price-grid">
       <div class="card price"><span class="eyebrow">Free</span><div class="pv">€0</div><ul>
         <li>${ico('check')}Unlimited Stockfish analysis</li><li>${ico('check')}Report, accuracy and decisive moments</li><li>${ico('check')}Guided lessons and training</li><li>${ico('check')}Openings and statistics</li><li>${ico('check')}3 games commented by the coach each month</li></ul>
         <button class="btn" data-route="import">Get started</button></div>
-      <div class="card price best"><span class="eyebrow" style="color:var(--accent)">BlunderCheck+ · planned launch price</span><div class="pv">${PRIX.anMois}<small> / month</small></div><p class="muted" style="margin-top:-6px">${PRIX.an} billed yearly, or ${PRIX.mois} monthly with no commitment</p><ul>
+      <div class="card price best"><span class="eyebrow" style="color:var(--accent)">BlunderCheck+${COMPTE.paiement ? '' : ' · planned launch price'}</span><div class="pv">${PRIX.anMois}<small> / month</small></div><p class="muted" style="margin-top:-6px">${PRIX.an} billed yearly, or ${PRIX.mois} monthly with no commitment</p><ul>
         <li>${ico('check')}Everything in the free plan</li><li>${ico('check')}The AI coach: a comment and a tip on every move</li><li>${ico('check')}Up to 100 commented games per month</li><li>${ico('check')}Weekly progress plan</li><li>${ico('check')}Questions to the coach about any position</li></ul>
         ${boutonListe('accueil')}
-        <p class="faint" style="font-size:12.5px">${window.BC_WEB ? 'During the beta, the AI coach is free for everyone.' : 'During the beta, the AI coach runs on your own Claude account.'} <a href="#tarifs" data-route="tarifs" style="color:var(--accent)">See plan details</a></p></div>
+        <p class="faint" style="font-size:12.5px">${window.BC_WEB ? (COMPTE.paiement ? 'No commitment: cancel any time, access runs to the end of the paid period.' : 'During the beta, the AI coach is free for everyone.') : 'During the beta, the AI coach runs on your own Claude account.'} <a href="#tarifs" data-route="tarifs" style="color:var(--accent)">See plan details</a></p></div>
     </div>
     <div class="card" style="margin-top:16px;overflow-x:auto">
       <table class="dist cmp"><thead><tr><th>Plan</th><th>Per year</th><th>Per month (billed yearly)</th></tr></thead><tbody>
         ${CONCURRENTS.map(c => `<tr><th>${esc(c.nom)}</th><td>${c.an}</td><td>${c.mois}</td></tr>`).join('')}
-        <tr class="me-row"><th>BlunderCheck+ <span class="faint">(planned price)</span></th><td>${PRIX.an}</td><td>${PRIX.anMois}</td></tr>
+        <tr class="me-row"><th>BlunderCheck+ ${COMPTE.paiement ? '' : '<span class="faint">(planned price)</span>'}</th><td>${PRIX.an}</td><td>${PRIX.anMois}</td></tr>
       </tbody></table>
       <p class="faint" style="font-size:12px;padding:0 16px 14px">* Compared with paid chess analysis and coaching subscriptions. Public yearly prices noted in October 2026 on the publishers' websites and app stores; they may vary by country and promotions, and the plans don't include the same features. BlunderCheck is not affiliated with any of these services.</p>
     </div>
@@ -4081,7 +4139,29 @@ function pageAccueil(view) {
   <p class="faint" style="font-size:12px;margin-top:24px">Chess.com and Lichess are trademarks of their respective owners. BlunderCheck is neither affiliated with nor endorsed by these services. Contact: <a href="mailto:contact@blundercheck.app">contact@blundercheck.app</a></p>`;
   const b = creerEchiquier($('#demoBoard'));
   b.set({ fen, orient: 'w', last: ['c6', 'd4'], arrows: [{ uci: 'f3e5', cls: 'bad' }, { uci: 'f3d4', cls: 'best' }], interactive: false });
+
+  const demoEl = document.querySelector('.hero-demo'), boardEl = $('#demoBoard');
+  if (demoEl && boardEl && !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches)) {
+    const f0 = fen, f1 = (P.fens && P.fens[7]) || fen, L0 = ['c6', 'd4'];
+    const vue = (f, last, arrows) => b.set({ fen: f, orient: 'w', last, arrows, interactive: false });
+    const etapes = [
+      [0, () => { demoEl.className = 'card hero-demo anim'; vue(f0, L0, []); }],
+      [1000, () => { demoEl.classList.add('s1'); vue(f0, L0, [{ uci: 'f3e5', cls: 'bad' }]); }],
+      [2200, () => { demoEl.classList.add('s2'); vue(f1, ['f3', 'e5'], []); }],
+      [3400, () => demoEl.classList.add('s3')],
+      [5800, () => demoEl.classList.add('s4')],
+      [8000, () => { demoEl.classList.add('s5'); vue(f0, L0, [{ uci: 'f3e5', cls: 'bad' }, { uci: 'f3d4', cls: 'best' }]); }],
+      [9600, () => demoEl.classList.add('s6')],
+    ];
+    const boucleDemo = () => {
+      if (document.getElementById('demoBoard') !== boardEl) return;
+      etapes.forEach(([t, f]) => setTimeout(() => { if (document.getElementById('demoBoard') === boardEl) f(); }, t));
+      setTimeout(boucleDemo, 13500);
+    };
+    boucleDemo();
+  }
   const ve = $('#voirEx');
+  const cp = $('#ctaProf'); if (cp) cp.onclick = e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); setTimeout(() => { const i = $('#hpIn'); if (i) i.focus(); }, 380); };
   $$('#hpSite button').forEach(b => b.onclick = () => { PS.site = b.dataset.s; $$('#hpSite button').forEach(x => x.classList.toggle('on', x === b)); });
   $('#heroPs').onsubmit = e => {
     e.preventDefault();
@@ -4210,7 +4290,7 @@ function pageCgu(view) {
     ['3. Fair play', "<p>BlunderCheck is for analyzing finished games. It is forbidden to use it to get help during an ongoing game, online or over the board. This kind of use breaks the rules of chess platforms and federations.</p>"],
     ['4. AI-generated content', "<p>Comments marked “AI” are written automatically by an artificial intelligence model (Claude, by Anthropic) based on the Stockfish engine's calculations. They may contain mistakes and don't replace a coach's advice. When in doubt, the engine evaluation prevails.</p>"],
     ['5. Fair use', "<p>You agree not to disrupt the service, not to bypass its usage limits and not to use it in an automated way to extract its content or divert the AI coach from its purpose.</p>"],
-    ['6. Intellectual property', "<p>The BlunderCheck name, the site design and its texts are protected. The open-source components used (Stockfish, chess.js, Cburnett pieces, Geist fonts) remain under their respective licenses, detailed in Settings, under “Licenses and credits”. Your games belong to you.</p>"],
+    ['6. Intellectual property', "<p>The BlunderCheck name, the site design and its texts are protected. The open-source components used (Stockfish, chess.js, Cburnett pieces, Source Sans 3 and Geist Mono fonts) remain under their respective licenses, detailed in Settings, under “Licenses and credits”. Your games belong to you.</p>"],
     ['7. Liability', "<p>The service is provided “as is”. The publisher strives to keep it working but does not guarantee the absence of analysis errors or interruptions. Since games are saved in your browser, remember to export them regularly.</p>"],
     ['8. Paid subscription', COMPTE.paiement ? `<p><b>Offer.</b> BlunderCheck+ gives access to the AI coach on up to 100 commented games and 300 questions a month, the weekly plan and game sync. Without a subscription, the coach comments on 3 games and answers 10 questions a month.</p>
       <p><b>Price.</b> ${PRIX.an} per year or ${PRIX.mois} per month, all taxes included. The price shown when ordering is the price paid for the whole period.</p>
@@ -4247,7 +4327,7 @@ function pageMentions(view) {
     ['Publisher', `<p>BlunderCheck is published by Simon Mathieu, sole trader (French micro-entreprise), registered with the Bordeaux Trade and Companies Register (RCS) under number 132 674 813.</p><p>Registered office: <span id="adrEd"><button class="btn ghost sm" id="adrBtn" type="button">Show the full address</button></span></p><p>Phone: being set up.</p><p>VAT not applicable, article 293 B of the French General Tax Code.</p><p>Consumer mediator: appointment in progress.</p><p>Director of publication: Simon Mathieu.</p><p>Contact: ${mail('')}</p>`],
     ['Hosting', '<p>Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, United States. cloudflare.com</p>'],
     ['Intellectual property', "<p>The texts, the design and the BlunderCheck name belong to the publisher. Chess.com and Lichess are trademarks of their respective owners; BlunderCheck is neither affiliated with nor endorsed by these services.</p>"],
-    ['Third-party software', '<p>Stockfish (GNU GPL v3), chess.js (BSD), Cburnett pieces (CC BY-SA 3.0), Geist fonts (SIL OFL 1.1). Details are in Settings, under “Licenses and credits”.</p>'],
+    ['Third-party software', '<p>Stockfish (GNU GPL v3), chess.js (BSD), Cburnett pieces (CC BY-SA 3.0), Source Sans 3 and Geist Mono fonts (SIL OFL 1.1). Details are in Settings, under “Licenses and credits”.</p>'],
   ]);
   const ab = $('#adrBtn');
   if (ab) ab.onclick = async () => {
@@ -4259,10 +4339,11 @@ function pageMentions(view) {
 
 // --- Pied de page ---
 function piedDePage() {
-  const col = (t, ls) => `<div><b>${t}</b>${ls.map(([r, l]) => r.startsWith('mailto') ? `<a href="${r}">${l}</a>` : r.startsWith('https') ? `<a href="${r}" target="_blank" rel="noopener">${l}</a>` : `<a href="#${r}" data-route="${r}">${l}</a>`).join('')}</div>`;
+  const col = (t, ls) => `<div><b>${t}</b>${ls.map(([r, l]) => r.startsWith('mailto') || r.startsWith('/') ? `<a href="${r}">${l}</a>` : r.startsWith('https') ? `<a href="${r}" target="_blank" rel="noopener">${l}</a>` : `<a href="#${r}" data-route="${r}">${l}</a>`).join('')}</div>`;
   return `<footer class="foot">
     <div class="foot-brand"><span class="brand-txt">Blunder<span style="color:var(--accent)">Check</span></span><p>The chess coach that analyzes all your games.</p></div>
     ${col('Product', [['import', 'Analyze a game'], ['tarifs', 'Pricing'], ['entrainement', 'Training'], ['prof', 'My coach']])}
+    ${col('Guides', [['/free-chess-game-review', 'Free game review'], ['/guides/5-common-chess-blunders', '5 common blunders'], ['/traps', 'Opening traps']])}
     ${col('Help', [['faq', 'Frequently asked questions'], ['contact', 'Contact'], ['mailto:' + CONTACT + '?subject=Bug', 'Report a bug']])}
     ${col('BlunderCheck', [['apropos', 'About'], ['cgu', "Terms of use"], ['confidentialite', 'Privacy'], ['mentions', 'Legal notice'], ['https://www.youtube.com/channel/UCOeNkeulS5bvT5MQ9ZjhqmA', 'YouTube channel']])}
     <p class="foot-legal">© 2026 BlunderCheck · Analysis by Stockfish · Not affiliated with Chess.com or Lichess</p>
@@ -5359,6 +5440,7 @@ const boutonListe = (source, cls = 'btn primary') => window.BC_WEB && COMPTE.pai
 const COMPTE = { charge: false, connecte: false, email: null, plan: 'gratuit', paiement: false, connexion: false, quota: null, fin: null, abonne: false };
 const K_SUPPR = 'bc-supprimees-v1';
 
+function majBoutonPlus() { const b = document.getElementById('topPlus'); if (!b) return; const on = !!(window.BC_WEB && COMPTE.paiement && COMPTE.plan !== 'plus'); b.hidden = !on; if (on) b.innerHTML = `<span class="tp-l">BlunderCheck+ · ${PRIX.anMois}/mo</span><span class="tp-s">BC+</span>`; }
 async function chargerCompte() {
   if (!window.BC_WEB) return;
   try {
@@ -5366,6 +5448,7 @@ async function chargerCompte() {
     if (r.ok) Object.assign(COMPTE, await r.json(), { charge: true });
   } catch { }
   emit('compte');
+  majBoutonPlus();
   if (typeof majProfil === 'function') majProfil();
   if (COMPTE.connecte) synchroParties();
 }
@@ -5710,23 +5793,23 @@ function dessinerStudio(ctx, sc, t) {
   const f = sc.frame(t), nom = (REGLAGES.pseudos || '').split(',')[0].trim();
   const grad = ctx.createLinearGradient(0, 0, 0, SH); grad.addColorStop(0, '#16201B'); grad.addColorStop(1, COUL.bg);
   ctx.fillStyle = grad; ctx.fillRect(0, 0, SW, SH);
-  ctx.font = '700 40px Geist, Helvetica, Arial, sans-serif'; ctx.textAlign = 'left'; ctx.fillStyle = COUL.fg; ctx.fillText('Blunder', 70, 120);
+  ctx.font = '700 40px "Source Sans 3", Helvetica, Arial, sans-serif'; ctx.textAlign = 'left'; ctx.fillStyle = COUL.fg; ctx.fillText('Blunder', 70, 120);
   const wB = ctx.measureText('Blunder').width; ctx.fillStyle = COUL.acc; ctx.fillText('Check', 70 + wB, 120);
-  if (nom) { ctx.font = '500 32px Geist, Helvetica, Arial, sans-serif'; ctx.fillStyle = COUL.fg2; ctx.textAlign = 'right'; ctx.fillText('@' + nom, SW - 70, 120); }
+  if (nom) { ctx.font = '500 32px "Source Sans 3", Helvetica, Arial, sans-serif'; ctx.fillStyle = COUL.fg2; ctx.textAlign = 'right'; ctx.fillText('@' + nom, SW - 70, 120); }
   if (f.fin) {
     const a = Math.min(1, (t - (sc.duree - 3.5)) / 0.4);
     ctx.globalAlpha = Math.max(0, a);
-    ctx.fillStyle = COUL.acc; ctx.font = '800 300px Geist, Helvetica, Arial, sans-serif'; ctx.textAlign = 'center'; ctx.fillText('??', SW / 2, 820);
-    ctx.fillStyle = COUL.fg; ctx.font = '800 76px Geist, Helvetica, Arial, sans-serif'; const nl = texteMulti(ctx, 'What about you, how many blunders do you make?', SW / 2, 1010, 900, 92);
+    ctx.fillStyle = COUL.acc; ctx.font = '800 300px "Source Sans 3", Helvetica, Arial, sans-serif'; ctx.textAlign = 'center'; ctx.fillText('??', SW / 2, 820);
+    ctx.fillStyle = COUL.fg; ctx.font = '800 76px "Source Sans 3", Helvetica, Arial, sans-serif'; const nl = texteMulti(ctx, 'What about you, how many blunders do you make?', SW / 2, 1010, 900, 92);
     const yb = 1010 + nl * 92 + 110;
-    ctx.fillStyle = COUL.fg2; ctx.font = '500 46px Geist, Helvetica, Arial, sans-serif'; ctx.fillText('Analyse tes parties gratuitement', SW / 2, yb);
-    ctx.fillStyle = COUL.acc; ctx.font = '800 72px Geist, Helvetica, Arial, sans-serif'; ctx.fillText('blundercheck.app', SW / 2, yb + 100);
+    ctx.fillStyle = COUL.fg2; ctx.font = '500 46px "Source Sans 3", Helvetica, Arial, sans-serif'; ctx.fillText('Analyse tes parties gratuitement', SW / 2, yb);
+    ctx.fillStyle = COUL.acc; ctx.font = '800 72px "Source Sans 3", Helvetica, Arial, sans-serif'; ctx.fillText('blundercheck.app', SW / 2, yb + 100);
     ctx.globalAlpha = 1; return;
   }
   // texte du haut
-  ctx.fillStyle = f.hautC || COUL.fg; ctx.font = '800 84px Geist, Helvetica, Arial, sans-serif';
+  ctx.fillStyle = f.hautC || COUL.fg; ctx.font = '800 84px "Source Sans 3", Helvetica, Arial, sans-serif';
   if (f.haut) texteMulti(ctx, f.haut, SW / 2, 270, 940, 96);
-  if (f.petit) { ctx.fillStyle = COUL.fg2; ctx.font = '500 36px Geist, Helvetica, Arial, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(f.petit, SW / 2, 440); }
+  if (f.petit) { ctx.fillStyle = COUL.fg2; ctx.font = '500 36px "Source Sans 3", Helvetica, Arial, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(f.petit, SW / 2, 440); }
   // échiquier (+ secousse)
   const S = 900, X = (SW - S) / 2, Y = 490, sh = f.shake ? Math.sin(t * 90) * 14 : 0;
   ctx.save(); ctx.translate(sh, 0);
@@ -5742,16 +5825,16 @@ function dessinerStudio(ctx, sc, t) {
   // compte à rebours
   if (f.compte) {
     ctx.fillStyle = 'rgba(17,22,20,.55)'; ctx.beginPath(); ctx.arc(SW / 2, Y + S / 2, 150, 0, Math.PI * 2); ctx.fill();
-    ctx.fillStyle = COUL.acc; ctx.font = '800 220px Geist, Helvetica, Arial, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(String(f.compte), SW / 2, Y + S / 2 + 78);
+    ctx.fillStyle = COUL.acc; ctx.font = '800 220px "Source Sans 3", Helvetica, Arial, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(String(f.compte), SW / 2, Y + S / 2 + 78);
   }
   // badge
   if (f.badge) {
-    ctx.font = '800 64px Geist, Helvetica, Arial, sans-serif'; const w = ctx.measureText(f.badge.txt).width + 70;
+    ctx.font = '800 64px "Source Sans 3", Helvetica, Arial, sans-serif'; const w = ctx.measureText(f.badge.txt).width + 70;
     ctx.fillStyle = f.badge.c; ctx.beginPath(); ctx.roundRect(SW / 2 - w / 2, Y + S - 60, w, 100, 50); ctx.fill();
     ctx.fillStyle = '#fff'; ctx.textAlign = 'center'; ctx.fillText(f.badge.txt, SW / 2, Y + S + 12);
   }
   // texte du bas
-  if (f.bas) { ctx.fillStyle = f.basC || COUL.fg2; ctx.font = '700 58px Geist, Helvetica, Arial, sans-serif'; texteMulti(ctx, f.bas, SW / 2, Y + S + 150, 940, 70); }
+  if (f.bas) { ctx.fillStyle = f.basC || COUL.fg2; ctx.font = '700 58px "Source Sans 3", Helvetica, Arial, sans-serif'; texteMulti(ctx, f.bas, SW / 2, Y + S + 150, 940, 70); }
 }
 
 // ---- audio : musique + bruitages ----
@@ -8527,7 +8610,7 @@ function mentions() {
     <div class="mention"><b>Moteur d'échecs : Stockfish 10</b><span>Logiciel libre sous licence GNU GPL v3, ici dans sa version pour navigateur (stockfish.js). Il tourne sans modification, dans un fichier séparé de l'application. Code source : <a href="https://github.com/nmrugg/stockfish.js" target="_blank" rel="noopener">github.com/nmrugg/stockfish.js</a> et <a href="https://github.com/official-stockfish/Stockfish" target="_blank" rel="noopener">github.com/official-stockfish/Stockfish</a>. Licence : <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="noopener">gnu.org/licenses/gpl-3.0</a>.</span></div>
     <div class="mention"><b>Règles du jeu et lecture des PGN : chess.js 0.10.3</b><span>Licence BSD à 2 clauses, © Jeff Hlywa. <a href="https://github.com/jhlywa/chess.js" target="_blank" rel="noopener">github.com/jhlywa/chess.js</a></span></div>
     <div class="mention"><b>Pièces d'échecs</b><span>Dessins de Cburnett (Wikimedia Commons), adaptés par cm-chessboard, sous licence <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>.</span></div>
-    <div class="mention"><b>Polices Geist et Geist Mono</b><span>Vercel, licence SIL Open Font License 1.1, servies par Google Fonts.</span></div>
+    <div class="mention"><b>Polices Source Sans 3 et Geist Mono</b><span>Vercel, licence SIL Open Font License 1.1, servies par Google Fonts.</span></div>
     <div class="mention"><b>Précision et classement des coups</b><span>Calculés à partir des évaluations de Stockfish, en convertissant chaque évaluation en chances de gain (méthode publiée par Lichess).</span></div>
     <div class="mention"><b>Prof IA</b><span>Les commentaires marqués « IA · Claude » sont écrits par Claude (Anthropic), à partir des calculs de Stockfish. Ils peuvent contenir des erreurs : en cas de doute, les évaluations du moteur font foi.</span></div>
     <div class="mention"><b>Tes données</b><span>Tes parties, analyses et réglages restent dans ce navigateur. Une partie n'est envoyée à Claude que si tu lances le prof IA ou poses une question.</span></div>
@@ -8942,18 +9025,26 @@ function pageAccueil(view) {
         <div class="hp-row"><input class="input" id="hpIn" placeholder="Ton pseudo" value="${esc((REGLAGES.pseudos || '').split(',')[0].trim())}" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Ton pseudo"><button class="btn primary lg" type="submit">${ico('analyser')}Analyser mes parties</button></div>
       </form>
       <p class="hero-alt">ou <a href="#import" data-route="import">colle un PGN</a>${parties ? ` · <a href="#prof" data-route="prof">voir mon prof</a>` : ` · <a href="#" id="voirEx">voir un exemple</a>`}</p>
-      <p class="faint hero-note">Gratuit et sans inscription : Stockfish analyse tes 10 dernières parties. Le prof complet : ${PRIX.anMois} par mois.</p>
+      <p class="faint hero-note">Gratuit et sans inscription : Stockfish analyse tes 10 dernières parties, et le prof en commente 3 par mois. Prof sans limite : ${PRIX.anMois} par mois.</p>
     </div>
     <div class="card hero-demo">
       <div class="demo-board"><svg class="board-svg" id="demoBoard" role="img" aria-label="Exemple : le coup joué 4. Nxe5 en rouge, le bon coup 4. Nxd4 en bleu"></svg></div>
       <div class="demo-txt">
-        <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><span class="san mono" style="font-weight:600">4. Nxe5</span>${chip('gaffe')}<span class="tag" style="margin-left:auto">Exemple</span></div>
+        <div class="demo-head" style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><span class="san mono" style="font-weight:600">4. Nxe5</span>${chip('gaffe')}<span class="tag" style="margin-left:auto">Exemple</span></div>
         <div class="ia-box"><span class="tag tag-ia" style="justify-self:start">${ico('ia')}Le prof</span>
-          <p>Tu prends le pion e5, mais ton cavalier s'avance sans protection. Après <span class="mv">4…Qg5</span>, la dame noire attaque à la fois ton cavalier et le pion g2 : tu vas perdre du matériel. Il fallait <span class="mv">4. Nxd4</span>, qui élimine le cavalier gênant.</p>
+          <p><span class="ds ds3">Tu prends le pion e5, mais ton cavalier s'avance sans protection.</span> <span class="ds ds4">Après <span class="mv">4…Qg5</span>, la dame noire attaque à la fois ton cavalier et le pion g2 : tu vas perdre du matériel.</span> <span class="ds ds5">Il fallait <span class="mv">4. Nxd4</span>, qui élimine le cavalier gênant.</span></p>
           <div class="conseil-box">${ico('bulb')}<p><b>Conseil</b> Avant de prendre un pion, regarde ce que ta pièce cesse de défendre et si elle reste protégée sur sa nouvelle case.</p></div>
         </div>
       </div>
     </div>
+  </section>
+
+  <section class="land-sec temoin">
+    <figure class="card temoignage">
+      <span class="guill" aria-hidden="true">“</span>
+      <blockquote>Le site m'a vraiment fait <b>gagner 300 Elo</b>. Les commentaires du prof sont <b>ultra bien adaptés à chaque position</b>.</blockquote>
+      <figcaption><span class="av" aria-hidden="true">S</span><span><b>Simon</b> · créateur de BlunderCheck</span></figcaption>
+    </figure>
   </section>
 
   <section class="land-sec">
@@ -8979,21 +9070,28 @@ function pageAccueil(view) {
     </div>
   </section>
 
+  <section class="land-sec prof-band">
+    <div class="card pb">
+      <div><h2>Essaie le prof sur tes vraies parties</h2><p>Il te dit pourquoi chaque coup rate et ce que tu aurais dû jouer. 3 parties commentées par mois gratuitement, puis ${PRIX.anMois} par mois.</p></div>
+      <div class="pb-cta"><a class="btn primary lg" href="#" id="ctaProf">${ico('analyser')}Analyser mes parties</a><a class="btn lg" href="#tarifs" data-route="tarifs">Voir les prix</a></div>
+    </div>
+  </section>
+
   <section class="land-sec" id="tarifs">
     <h2>Le prix d'un café par mois</h2>
     <div class="price-grid">
       <div class="card price"><span class="eyebrow">Gratuit</span><div class="pv">0 €</div><ul>
         <li>${ico('check')}Analyse Stockfish illimitée</li><li>${ico('check')}Rapport, précision et moments décisifs</li><li>${ico('check')}Leçons guidées et entraînement</li><li>${ico('check')}Ouvertures et statistiques</li><li>${ico('check')}3 parties commentées par le prof chaque mois</li></ul>
         <button class="btn" data-route="import">Commencer</button></div>
-      <div class="card price best"><span class="eyebrow" style="color:var(--accent)">BlunderCheck+ · prix prévu au lancement</span><div class="pv">${PRIX.anMois}<small> / mois</small></div><p class="muted" style="margin-top:-6px">${PRIX.an} payés à l'année, ou ${PRIX.mois} au mois sans engagement</p><ul>
+      <div class="card price best"><span class="eyebrow" style="color:var(--accent)">BlunderCheck+${COMPTE.paiement ? '' : ' · prix prévu au lancement'}</span><div class="pv">${PRIX.anMois}<small> / mois</small></div><p class="muted" style="margin-top:-6px">${PRIX.an} payés à l'année, ou ${PRIX.mois} au mois sans engagement</p><ul>
         <li>${ico('check')}Tout l'offre gratuite</li><li>${ico('check')}Le prof IA : un commentaire et un conseil à chaque coup</li><li>${ico('check')}Jusqu'à 100 parties commentées par mois</li><li>${ico('check')}Plan de progression de la semaine</li><li>${ico('check')}Questions au prof sur n'importe quelle position</li></ul>
         ${boutonListe('accueil')}
-        <p class="faint" style="font-size:12.5px">${window.BC_WEB ? 'Pendant la bêta, le prof IA est offert à tous.' : 'Pendant la bêta, le prof IA fonctionne avec ton propre compte Claude.'} <a href="#tarifs" data-route="tarifs" style="color:var(--accent)">Voir le détail des offres</a></p></div>
+        <p class="faint" style="font-size:12.5px">${window.BC_WEB ? (COMPTE.paiement ? "Sans engagement : résiliable à tout moment, l'accès court jusqu'à la fin de la période payée." : 'Pendant la bêta, le prof IA est offert à tous.') : 'Pendant la bêta, le prof IA fonctionne avec ton propre compte Claude.'} <a href="#tarifs" data-route="tarifs" style="color:var(--accent)">Voir le détail des offres</a></p></div>
     </div>
     <div class="card" style="margin-top:16px;overflow-x:auto">
       <table class="dist cmp"><thead><tr><th>Offre</th><th>Par an</th><th>Par mois (payé à l'année)</th></tr></thead><tbody>
         ${CONCURRENTS.map(c => `<tr><th>${esc(c.nom)}</th><td>${c.an}</td><td>${c.mois}</td></tr>`).join('')}
-        <tr class="me-row"><th>BlunderCheck+ <span class="faint">(prix prévu)</span></th><td>${PRIX.an}</td><td>${PRIX.anMois}</td></tr>
+        <tr class="me-row"><th>BlunderCheck+ ${COMPTE.paiement ? '' : '<span class="faint">(prix prévu)</span>'}</th><td>${PRIX.an}</td><td>${PRIX.anMois}</td></tr>
       </tbody></table>
       <p class="faint" style="font-size:12px;padding:0 16px 14px">* Comparaison avec des abonnements payants d'analyse et de coaching d'échecs. Prix publics annuels relevés en octobre 2026 sur les sites et boutiques d'applications des éditeurs ; ils peuvent varier selon le pays et les promotions, et les offres ne comprennent pas les mêmes fonctionnalités. BlunderCheck n'est affilié à aucun de ces services.</p>
     </div>
@@ -9014,7 +9112,29 @@ function pageAccueil(view) {
   <p class="faint" style="font-size:12px;margin-top:24px">Chess.com et Lichess sont des marques de leurs propriétaires respectifs. BlunderCheck n'est ni affilié à ces services ni approuvé par eux. Contact : <a href="mailto:contact@blundercheck.app">contact@blundercheck.app</a></p>`;
   const b = creerEchiquier($('#demoBoard'));
   b.set({ fen, orient: 'w', last: ['c6', 'd4'], arrows: [{ uci: 'f3e5', cls: 'bad' }, { uci: 'f3d4', cls: 'best' }], interactive: false });
+
+  const demoEl = document.querySelector('.hero-demo'), boardEl = $('#demoBoard');
+  if (demoEl && boardEl && !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches)) {
+    const f0 = fen, f1 = (P.fens && P.fens[7]) || fen, L0 = ['c6', 'd4'];
+    const vue = (f, last, arrows) => b.set({ fen: f, orient: 'w', last, arrows, interactive: false });
+    const etapes = [
+      [0, () => { demoEl.className = 'card hero-demo anim'; vue(f0, L0, []); }],
+      [1000, () => { demoEl.classList.add('s1'); vue(f0, L0, [{ uci: 'f3e5', cls: 'bad' }]); }],
+      [2200, () => { demoEl.classList.add('s2'); vue(f1, ['f3', 'e5'], []); }],
+      [3400, () => demoEl.classList.add('s3')],
+      [5800, () => demoEl.classList.add('s4')],
+      [8000, () => { demoEl.classList.add('s5'); vue(f0, L0, [{ uci: 'f3e5', cls: 'bad' }, { uci: 'f3d4', cls: 'best' }]); }],
+      [9600, () => demoEl.classList.add('s6')],
+    ];
+    const boucleDemo = () => {
+      if (document.getElementById('demoBoard') !== boardEl) return;
+      etapes.forEach(([t, f]) => setTimeout(() => { if (document.getElementById('demoBoard') === boardEl) f(); }, t));
+      setTimeout(boucleDemo, 13500);
+    };
+    boucleDemo();
+  }
   const ve = $('#voirEx');
+  const cp = $('#ctaProf'); if (cp) cp.onclick = e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); setTimeout(() => { const i = $('#hpIn'); if (i) i.focus(); }, 380); };
   $$('#hpSite button').forEach(b => b.onclick = () => { PS.site = b.dataset.s; $$('#hpSite button').forEach(x => x.classList.toggle('on', x === b)); });
   $('#heroPs').onsubmit = e => {
     e.preventDefault();
@@ -9143,7 +9263,7 @@ function pageCgu(view) {
     ['3. Fair-play', "<p>BlunderCheck sert à analyser des parties terminées. Il est interdit de l'utiliser pour obtenir une aide pendant une partie en cours, en ligne ou sur l'échiquier. Ce type d'usage est contraire au règlement des plateformes d'échecs et des fédérations.</p>"],
     ['4. Contenus générés par l’IA', "<p>Les commentaires marqués « IA » sont rédigés automatiquement par un modèle d'intelligence artificielle (Claude, d'Anthropic) à partir des calculs du moteur Stockfish. Ils peuvent contenir des erreurs et ne remplacent pas l'avis d'un entraîneur. En cas de doute, l'évaluation du moteur fait foi.</p>"],
     ['5. Usage loyal', "<p>Tu t'engages à ne pas perturber le service, à ne pas contourner ses limites d'utilisation et à ne pas l'utiliser de manière automatisée pour en extraire les contenus ou détourner le prof IA de son objet.</p>"],
-    ['6. Propriété intellectuelle', "<p>Le nom BlunderCheck, le design du site et ses textes sont protégés. Les composants libres utilisés (Stockfish, chess.js, pièces Cburnett, polices Geist) restent soumis à leurs licences respectives, détaillées dans les Paramètres, rubrique « Licences et mentions ». Tes parties t'appartiennent.</p>"],
+    ['6. Propriété intellectuelle', "<p>Le nom BlunderCheck, le design du site et ses textes sont protégés. Les composants libres utilisés (Stockfish, chess.js, pièces Cburnett, polices Source Sans 3 et Geist Mono) restent soumis à leurs licences respectives, détaillées dans les Paramètres, rubrique « Licences et mentions ». Tes parties t'appartiennent.</p>"],
     ['7. Responsabilité', "<p>Le service est fourni « en l'état ». L'éditeur s'efforce d'assurer son bon fonctionnement mais ne garantit pas l'absence d'erreur d'analyse ou d'interruption. Les parties étant enregistrées dans ton navigateur, pense à les exporter régulièrement.</p>"],
     ['8. Abonnement payant', COMPTE.paiement ? `<p><b>Offre.</b> BlunderCheck+ donne accès au prof IA sur jusqu'à 100 parties commentées et 300 questions par mois, au plan de la semaine et à la synchronisation des parties. Sans abonnement, le prof commente 3 parties et répond à 10 questions par mois.</p>
       <p><b>Prix.</b> ${PRIX.an} par an ou ${PRIX.mois} par mois, toutes taxes comprises. Le prix affiché au moment de la commande est celui payé pour toute la période.</p>
@@ -9180,7 +9300,7 @@ function pageMentions(view) {
     ['Éditeur', `<p>BlunderCheck est édité par Simon Mathieu, entrepreneur individuel (micro-entreprise), immatriculé au RCS de Bordeaux sous le numéro 132 674 813.</p><p>Siège : <span id="adrEd"><button class="btn ghost sm" id="adrBtn" type="button">Afficher l'adresse complète</button></span></p><p>Téléphone : en cours d'obtention.</p><p>TVA non applicable, article 293 B du Code général des impôts.</p><p>Médiateur de la consommation : désignation en cours.</p><p>Directeur de la publication : Simon Mathieu.</p><p>Contact : ${mail('')}</p>`],
     ['Hébergement', '<p>Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, États-Unis. cloudflare.com</p>'],
     ['Propriété intellectuelle', "<p>Les textes, le design et le nom BlunderCheck sont la propriété de l'éditeur. Chess.com et Lichess sont des marques de leurs propriétaires respectifs ; BlunderCheck n'est ni affilié à ces services, ni approuvé par eux.</p>"],
-    ['Logiciels tiers', '<p>Stockfish (GNU GPL v3), chess.js (BSD), pièces Cburnett (CC BY-SA 3.0), polices Geist (SIL OFL 1.1). Le détail figure dans les Paramètres, rubrique « Licences et mentions ».</p>'],
+    ['Logiciels tiers', '<p>Stockfish (GNU GPL v3), chess.js (BSD), pièces Cburnett (CC BY-SA 3.0), polices Source Sans 3 et Geist Mono (SIL OFL 1.1). Le détail figure dans les Paramètres, rubrique « Licences et mentions ».</p>'],
   ]);
   const ab = $('#adrBtn');
   if (ab) ab.onclick = async () => {
@@ -9192,10 +9312,11 @@ function pageMentions(view) {
 
 // --- Pied de page ---
 function piedDePage() {
-  const col = (t, ls) => `<div><b>${t}</b>${ls.map(([r, l]) => r.startsWith('mailto') ? `<a href="${r}">${l}</a>` : r.startsWith('https') ? `<a href="${r}" target="_blank" rel="noopener">${l}</a>` : `<a href="#${r}" data-route="${r}">${l}</a>`).join('')}</div>`;
+  const col = (t, ls) => `<div><b>${t}</b>${ls.map(([r, l]) => r.startsWith('mailto') || r.startsWith('/') ? `<a href="${r}">${l}</a>` : r.startsWith('https') ? `<a href="${r}" target="_blank" rel="noopener">${l}</a>` : `<a href="#${r}" data-route="${r}">${l}</a>`).join('')}</div>`;
   return `<footer class="foot">
     <div class="foot-brand"><span class="brand-txt">Blunder<span style="color:var(--accent)">Check</span></span><p>Le prof d'échecs qui analyse toutes tes parties.</p></div>
     ${col('Produit', [['import', 'Analyser une partie'], ['tarifs', 'Tarifs'], ['entrainement', 'Entraînement'], ['prof', 'Mon prof']])}
+    ${col('Guides', [['/alternative-gratuite-bilan-chess-com', 'Alternative gratuite au bilan Chess.com'], ['/guides/5-common-chess-blunders', '5 gaffes courantes (EN)'], ['/traps', "Pièges d'ouverture (EN)"]])}
     ${col('Aide', [['faq', 'Questions fréquentes'], ['contact', 'Contact'], ['mailto:' + CONTACT + '?subject=Bug', 'Signaler un bug']])}
     ${col('BlunderCheck', [['apropos', 'À propos'], ['cgu', "Conditions d'utilisation"], ['confidentialite', 'Confidentialité'], ['mentions', 'Mentions légales'], ['https://www.youtube.com/channel/UCOeNkeulS5bvT5MQ9ZjhqmA', 'Chaîne YouTube']])}
     <p class="foot-legal">© 2026 BlunderCheck · Analyse par Stockfish · Non affilié à Chess.com ni à Lichess</p>
@@ -10292,6 +10413,7 @@ const boutonListe = (source, cls = 'btn primary') => window.BC_WEB && COMPTE.pai
 const COMPTE = { charge: false, connecte: false, email: null, plan: 'gratuit', paiement: false, connexion: false, quota: null, fin: null, abonne: false };
 const K_SUPPR = 'bc-supprimees-v1';
 
+function majBoutonPlus() { const b = document.getElementById('topPlus'); if (!b) return; const on = !!(window.BC_WEB && COMPTE.paiement && COMPTE.plan !== 'plus'); b.hidden = !on; if (on) b.innerHTML = `<span class="tp-l">BlunderCheck+ · ${PRIX.anMois}/mois</span><span class="tp-s">BC+</span>`; }
 async function chargerCompte() {
   if (!window.BC_WEB) return;
   try {
@@ -10299,6 +10421,7 @@ async function chargerCompte() {
     if (r.ok) Object.assign(COMPTE, await r.json(), { charge: true });
   } catch { }
   emit('compte');
+  majBoutonPlus();
   if (typeof majProfil === 'function') majProfil();
   if (COMPTE.connecte) synchroParties();
 }
@@ -10643,23 +10766,23 @@ function dessinerStudio(ctx, sc, t) {
   const f = sc.frame(t), nom = (REGLAGES.pseudos || '').split(',')[0].trim();
   const grad = ctx.createLinearGradient(0, 0, 0, SH); grad.addColorStop(0, '#16201B'); grad.addColorStop(1, COUL.bg);
   ctx.fillStyle = grad; ctx.fillRect(0, 0, SW, SH);
-  ctx.font = '700 40px Geist, Helvetica, Arial, sans-serif'; ctx.textAlign = 'left'; ctx.fillStyle = COUL.fg; ctx.fillText('Blunder', 70, 120);
+  ctx.font = '700 40px "Source Sans 3", Helvetica, Arial, sans-serif'; ctx.textAlign = 'left'; ctx.fillStyle = COUL.fg; ctx.fillText('Blunder', 70, 120);
   const wB = ctx.measureText('Blunder').width; ctx.fillStyle = COUL.acc; ctx.fillText('Check', 70 + wB, 120);
-  if (nom) { ctx.font = '500 32px Geist, Helvetica, Arial, sans-serif'; ctx.fillStyle = COUL.fg2; ctx.textAlign = 'right'; ctx.fillText('@' + nom, SW - 70, 120); }
+  if (nom) { ctx.font = '500 32px "Source Sans 3", Helvetica, Arial, sans-serif'; ctx.fillStyle = COUL.fg2; ctx.textAlign = 'right'; ctx.fillText('@' + nom, SW - 70, 120); }
   if (f.fin) {
     const a = Math.min(1, (t - (sc.duree - 3.5)) / 0.4);
     ctx.globalAlpha = Math.max(0, a);
-    ctx.fillStyle = COUL.acc; ctx.font = '800 300px Geist, Helvetica, Arial, sans-serif'; ctx.textAlign = 'center'; ctx.fillText('??', SW / 2, 820);
-    ctx.fillStyle = COUL.fg; ctx.font = '800 76px Geist, Helvetica, Arial, sans-serif'; const nl = texteMulti(ctx, 'Et toi, tu fais combien de gaffes ?', SW / 2, 1010, 900, 92);
+    ctx.fillStyle = COUL.acc; ctx.font = '800 300px "Source Sans 3", Helvetica, Arial, sans-serif'; ctx.textAlign = 'center'; ctx.fillText('??', SW / 2, 820);
+    ctx.fillStyle = COUL.fg; ctx.font = '800 76px "Source Sans 3", Helvetica, Arial, sans-serif'; const nl = texteMulti(ctx, 'Et toi, tu fais combien de gaffes ?', SW / 2, 1010, 900, 92);
     const yb = 1010 + nl * 92 + 110;
-    ctx.fillStyle = COUL.fg2; ctx.font = '500 46px Geist, Helvetica, Arial, sans-serif'; ctx.fillText('Analyse tes parties gratuitement', SW / 2, yb);
-    ctx.fillStyle = COUL.acc; ctx.font = '800 72px Geist, Helvetica, Arial, sans-serif'; ctx.fillText('blundercheck.app', SW / 2, yb + 100);
+    ctx.fillStyle = COUL.fg2; ctx.font = '500 46px "Source Sans 3", Helvetica, Arial, sans-serif'; ctx.fillText('Analyse tes parties gratuitement', SW / 2, yb);
+    ctx.fillStyle = COUL.acc; ctx.font = '800 72px "Source Sans 3", Helvetica, Arial, sans-serif'; ctx.fillText('blundercheck.app', SW / 2, yb + 100);
     ctx.globalAlpha = 1; return;
   }
   // texte du haut
-  ctx.fillStyle = f.hautC || COUL.fg; ctx.font = '800 84px Geist, Helvetica, Arial, sans-serif';
+  ctx.fillStyle = f.hautC || COUL.fg; ctx.font = '800 84px "Source Sans 3", Helvetica, Arial, sans-serif';
   if (f.haut) texteMulti(ctx, f.haut, SW / 2, 270, 940, 96);
-  if (f.petit) { ctx.fillStyle = COUL.fg2; ctx.font = '500 36px Geist, Helvetica, Arial, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(f.petit, SW / 2, 440); }
+  if (f.petit) { ctx.fillStyle = COUL.fg2; ctx.font = '500 36px "Source Sans 3", Helvetica, Arial, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(f.petit, SW / 2, 440); }
   // échiquier (+ secousse)
   const S = 900, X = (SW - S) / 2, Y = 490, sh = f.shake ? Math.sin(t * 90) * 14 : 0;
   ctx.save(); ctx.translate(sh, 0);
@@ -10675,16 +10798,16 @@ function dessinerStudio(ctx, sc, t) {
   // compte à rebours
   if (f.compte) {
     ctx.fillStyle = 'rgba(17,22,20,.55)'; ctx.beginPath(); ctx.arc(SW / 2, Y + S / 2, 150, 0, Math.PI * 2); ctx.fill();
-    ctx.fillStyle = COUL.acc; ctx.font = '800 220px Geist, Helvetica, Arial, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(String(f.compte), SW / 2, Y + S / 2 + 78);
+    ctx.fillStyle = COUL.acc; ctx.font = '800 220px "Source Sans 3", Helvetica, Arial, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(String(f.compte), SW / 2, Y + S / 2 + 78);
   }
   // badge
   if (f.badge) {
-    ctx.font = '800 64px Geist, Helvetica, Arial, sans-serif'; const w = ctx.measureText(f.badge.txt).width + 70;
+    ctx.font = '800 64px "Source Sans 3", Helvetica, Arial, sans-serif'; const w = ctx.measureText(f.badge.txt).width + 70;
     ctx.fillStyle = f.badge.c; ctx.beginPath(); ctx.roundRect(SW / 2 - w / 2, Y + S - 60, w, 100, 50); ctx.fill();
     ctx.fillStyle = '#fff'; ctx.textAlign = 'center'; ctx.fillText(f.badge.txt, SW / 2, Y + S + 12);
   }
   // texte du bas
-  if (f.bas) { ctx.fillStyle = f.basC || COUL.fg2; ctx.font = '700 58px Geist, Helvetica, Arial, sans-serif'; texteMulti(ctx, f.bas, SW / 2, Y + S + 150, 940, 70); }
+  if (f.bas) { ctx.fillStyle = f.basC || COUL.fg2; ctx.font = '700 58px "Source Sans 3", Helvetica, Arial, sans-serif'; texteMulti(ctx, f.bas, SW / 2, Y + S + 150, 940, 70); }
 }
 
 // ---- audio : musique + bruitages ----
