@@ -250,3 +250,5 @@
 {"reseau": "facebook", "id": "2242529022961589", "ok": true}
 ### 2026-11-25 12:02 publications/facebook/deux_cavaliers_h8_1.json
 {"reseau": "facebook", "id": "1296141636019688", "ok": true}
+### 2026-11-25 15:01 publications/facebook/pat_dame_h4_1.json
+{"reseau": "facebook", "id": "1531067178927609", "ok": true}
