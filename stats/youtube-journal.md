@@ -1644,3 +1644,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "172"}
 ### 2026-11-25 12:01 publications/youtube/deux_cavaliers_h8_1.json
 {"id": "rWmIvX9G-40", "url": "https://www.youtube.com/shorts/rWmIvX9G-40", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "172"}
