@@ -1321,3 +1321,8 @@
 ### commandes/perso_tour_libre_a3_1.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_libre_a3_1.mp4 {"voix_brute_s": 11.9, "tempo": 1.0, "video_s": 12.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 26, "minutage": "5 phrases, 2 coups, 0 pauses"}
+## 2026-11-25 00:06 UTC · run 45515268741
+### commandes/perso_deux_cavaliers_h8_1.json
+    voix générée : 123 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/deux_cavaliers_h8_1.mp4 {"voix_brute_s": 9.8, "tempo": 1.0, "video_s": 9.9, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "losing_your_marbles.mp3", "mots_transcrits": 22, "minutage": "5 phrases, 2 coups, 0 pauses"}
