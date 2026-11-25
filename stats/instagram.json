@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-24T03:03:31Z",
+ "releve": "2026-11-25T01:04:58Z",
  "compte": "blundercheckapp",
  "abonnes": 6,
  "publications": [
+  {
+   "id": "17911051617671429",
+   "caption": "Prendre, ou échec ? 👇 1.Fe4+ ! Rxe4 2.Dxc2+ gagne la dame. 1.Dxc2+ ? Rxc2 : il n",
+   "comments_count": 0,
+   "like_count": 0,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DgIjPiKD2GA/",
+   "timestamp": "2026-11-24T18:01:44+0000",
+   "insights": {
+    "views": 160,
+    "reach": 107,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0
+   }
+  },
+  {
+   "id": "18079227665729561",
+   "caption": "Tu la prends, ou pas ? 👇 1.Ff5# : mat. 1.Dxa3 ? Dxa3 et tu perds la dame (Stockf",
+   "comments_count": 0,
+   "like_count": 2,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DgH6EqQCQpA/",
+   "timestamp": "2026-11-24T12:01:58+0000",
+   "insights": {
+    "views": 214,
+    "reach": 122,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 2
+   }
+  },
   {
    "id": "17956859046090955",
    "caption": "Quel coup te sauve ? 👇 1.Th2+ ! Rxh2 et les Blancs n'ont plus de coup : pat. Tou",
@@ -60,8 +92,8 @@
    "permalink": "https://www.instagram.com/reel/DgCwd6aCWs1/",
    "timestamp": "2026-11-22T12:01:50+0000",
    "insights": {
-    "views": 2222,
-    "reach": 1419,
+    "views": 2225,
+    "reach": 1421,
     "shares": 0,
     "saved": 1,
     "total_interactions": 10
@@ -92,8 +124,8 @@
    "permalink": "https://www.instagram.com/reel/DgAxMKaGfUs/",
    "timestamp": "2026-11-21T17:29:40+0000",
    "insights": {
-    "views": 2357,
-    "reach": 1497,
+    "views": 2358,
+    "reach": 1498,
     "shares": 0,
     "saved": 0,
     "total_interactions": 12
@@ -124,8 +156,8 @@
    "permalink": "https://www.instagram.com/reel/Df96QpNE4ZX/",
    "timestamp": "2026-11-20T14:51:10+0000",
    "insights": {
-    "views": 3101,
-    "reach": 1990,
+    "views": 3103,
+    "reach": 1993,
     "shares": 1,
     "saved": 1,
     "total_interactions": 23
@@ -449,38 +481,6 @@
     "shares": 0,
     "saved": 0,
     "total_interactions": 2
-   }
-  },
-  {
-   "id": "18080579066707345",
-   "caption": "Roi et pion : un seul coup gagne. 👑 Tu aurais trouvé Re5 ? 👇 Pousser le pion (1.",
-   "comments_count": 0,
-   "like_count": 2,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfiI7vMiOEI/",
-   "timestamp": "2026-11-09T20:00:55+0000",
-   "insights": {
-    "views": 255,
-    "reach": 189,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 2
-   }
-  },
-  {
-   "id": "18644454379061329",
-   "caption": "Deux cavaliers ne font pas mat… sauf si les Noirs ont un pion ? 🐴 Tu aurais vu R",
-   "comments_count": 0,
-   "like_count": 22,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfhuiH-EfrL/",
-   "timestamp": "2026-11-09T16:10:13+0000",
-   "insights": {
-    "views": 2213,
-    "reach": 1748,
-    "shares": 0,
-    "saved": 3,
-    "total_interactions": 25
    }
   }
  ],
