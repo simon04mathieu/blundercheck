@@ -1341,3 +1341,8 @@
 ### commandes/perso_tour_double_f6_1_fr.json
     voix générée : 178 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_double_f6_1_fr.mp4 {"voix_brute_s": 16.5, "tempo": 1.0, "video_s": 16.5, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 33, "minutage": "7 phrases, 4 coups, 0 pauses"}
+## 2026-11-25 00:11 UTC · run 45515992559
+### commandes/perso_pat_dame_h4_1.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pat_dame_h4_1.mp4 {"voix_brute_s": 15.0, "tempo": 1.0, "video_s": 15.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 33, "minutage": "7 phrases, 3 coups, 0 pauses"}

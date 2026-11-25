@@ -4,7 +4,7 @@
  "duree_s": 15.02,
  "hook": {
   "texte": "Which move|saves you?",
-  "fin": 1.96
+  "fin": 2.02
  },
  "question": {
   "texte": "Analyze your game|blundercheck.app/try",
@@ -16,7 +16,7 @@
    "texte": "Which move saves you?"
   },
   {
-   "t": 1.96,
+   "t": 2.02,
    "texte": "Queen to h4 check!"
   },
   {
@@ -47,7 +47,7 @@
    "badge": null
   },
   {
-   "t": 3.0,
+   "t": 2.02,
    "coup": "Qh4+",
    "badge": "brillant"
   },
@@ -76,7 +76,7 @@
    "type": "sticker"
   },
   {
-   "t": 3.0,
+   "t": 2.02,
    "type": "coup"
   },
   {
@@ -116,7 +116,7 @@
    "type": "fleches"
   },
   {
-   "t": 14.24,
+   "t": 14.26,
    "type": "sticker"
   }
  ],
