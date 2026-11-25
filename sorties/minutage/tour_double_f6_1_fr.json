@@ -1,0 +1,133 @@
+{
+ "nom": "tour_double_f6_1_fr",
+ "tempo": 1.0,
+ "duree_s": 16.24,
+ "hook": {
+  "texte": "Lequel|prend ?",
+  "fin": 0.76
+ },
+ "question": {
+  "texte": "Lequel|prend ?",
+  "t": 13.04
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Lequel prend ?"
+  },
+  {
+   "t": 0.76,
+   "texte": "Le fou !"
+  },
+  {
+   "t": 2.92,
+   "texte": "Échec !"
+  },
+  {
+   "t": 4.16,
+   "texte": "Son roi bouge puis le fou prend sa dame."
+  },
+  {
+   "t": 7.9,
+   "texte": "Avec la tour ?"
+  },
+  {
+   "t": 9.42,
+   "texte": "Sa dame s'échappe avec échec."
+  },
+  {
+   "t": 12.94,
+   "texte": "Alors, quand une tour est attaquée deux fois, demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.36,
+   "coup": "Rf6",
+   "badge": null
+  },
+  {
+   "t": 2.92,
+   "coup": "Bxf6+",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.66,
+   "coup": "Ke6",
+   "badge": null
+  },
+  {
+   "t": 5.96,
+   "coup": "Bxd8",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.36,
+   "type": "coup"
+  },
+  {
+   "t": 0.76,
+   "type": "fleches"
+  },
+  {
+   "t": 0.76,
+   "type": "sticker"
+  },
+  {
+   "t": 2.92,
+   "type": "coup"
+  },
+  {
+   "t": 4.16,
+   "type": "zoom"
+  },
+  {
+   "t": 4.66,
+   "type": "coup"
+  },
+  {
+   "t": 5.3,
+   "type": "fleches"
+  },
+  {
+   "t": 5.96,
+   "type": "coup"
+  },
+  {
+   "t": 7.9,
+   "type": "sticker"
+  },
+  {
+   "t": 8.15,
+   "type": "position"
+  },
+  {
+   "t": 9.42,
+   "type": "fleches"
+  },
+  {
+   "t": 10.12,
+   "type": "fleches"
+  },
+  {
+   "t": 10.74,
+   "type": "sticker"
+  },
+  {
+   "t": 12.94,
+   "type": "fleches"
+  },
+  {
+   "t": 15.48,
+   "type": "sticker"
+  }
+ ],
+ "musique": "sneaky_spelunking.mp3"
+}

@@ -1338,3 +1338,6 @@
 ### commandes/perso_tour_double_f6_1.json
     voix générée : 180 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_double_f6_1.mp4 {"voix_brute_s": 14.5, "tempo": 1.0, "video_s": 14.5, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "zoobeedoo.mp3", "mots_transcrits": 33, "minutage": "7 phrases, 4 coups, 0 pauses"}
+### commandes/perso_tour_double_f6_1_fr.json
+    voix générée : 178 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/tour_double_f6_1_fr.mp4 {"voix_brute_s": 16.5, "tempo": 1.0, "video_s": 16.5, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 33, "minutage": "7 phrases, 4 coups, 0 pauses"}
