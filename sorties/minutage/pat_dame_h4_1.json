@@ -1,0 +1,124 @@
+{
+ "nom": "pat_dame_h4_1",
+ "tempo": 1.0,
+ "duree_s": 15.02,
+ "hook": {
+  "texte": "Which move|saves you?",
+  "fin": 1.96
+ },
+ "question": {
+  "texte": "Analyze your game|blundercheck.app/try",
+  "t": 11.82
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which move saves you?"
+  },
+  {
+   "t": 1.96,
+   "texte": "Queen to h4 check!"
+  },
+  {
+   "t": 4.04,
+   "texte": "His king must take it."
+  },
+  {
+   "t": 5.88,
+   "texte": "Now you can't move stalemate!"
+  },
+  {
+   "t": 8.42,
+   "texte": "Any other move loses."
+  },
+  {
+   "t": 10.42,
+   "texte": "Analyze your own game free."
+  },
+  {
+   "t": 13.12,
+   "texte": "So when you're lost ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.56,
+   "coup": "g2",
+   "badge": null
+  },
+  {
+   "t": 3.0,
+   "coup": "Qh4+",
+   "badge": "brillant"
+  },
+  {
+   "t": 4.42,
+   "coup": "Kxh4",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.56,
+   "type": "coup"
+  },
+  {
+   "t": 0.88,
+   "type": "fleches"
+  },
+  {
+   "t": 0.88,
+   "type": "sticker"
+  },
+  {
+   "t": 3.0,
+   "type": "coup"
+  },
+  {
+   "t": 4.04,
+   "type": "zoom"
+  },
+  {
+   "t": 4.42,
+   "type": "coup"
+  },
+  {
+   "t": 5.88,
+   "type": "fleches"
+  },
+  {
+   "t": 7.22,
+   "type": "sticker"
+  },
+  {
+   "t": 8.57,
+   "type": "position"
+  },
+  {
+   "t": 9.1,
+   "type": "fleches"
+  },
+  {
+   "t": 9.1,
+   "type": "sticker"
+  },
+  {
+   "t": 11.1,
+   "type": "sticker"
+  },
+  {
+   "t": 13.48,
+   "type": "fleches"
+  },
+  {
+   "t": 14.24,
+   "type": "sticker"
+  }
+ ],
+ "musique": "sneaky_spelunking.mp3"
+}

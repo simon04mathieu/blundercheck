@@ -1326,3 +1326,6 @@
     voix générée : 123 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/deux_cavaliers_h8_1.mp4 {"voix_brute_s": 9.8, "tempo": 1.0, "video_s": 9.9, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "losing_your_marbles.mp3", "mots_transcrits": 22, "minutage": "5 phrases, 2 coups, 0 pauses"}
+### commandes/perso_pat_dame_h4_1.json
+    voix générée : 181 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pat_dame_h4_1.mp4 {"voix_brute_s": 15.0, "tempo": 1.0, "video_s": 15.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 33, "minutage": "7 phrases, 3 coups, 0 pauses"}
