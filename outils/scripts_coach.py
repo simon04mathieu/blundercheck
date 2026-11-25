@@ -2132,8 +2132,8 @@ H4B = "fen:6q1/8/3p3K/8/8/7k/5Qp1/8_w_-_-_0_2"
 A5A = "fen:8/k1K5/6Q1/p2R4/8/8/8/8_b_-_-_0_1"                 # avant …a5-a4 ; 4 échecs : Ra5# seul mat ; Qa6+ Kxa6 ; Qb6+ Ka8 ; Qg1+
 A5B = "fen:8/k1K5/6Q1/3R4/p7/8/8/8_w_-_-_0_2"
 _S = {
-"tour_double_f6_1": ("blancs", "Which one|takes?",
-"""[p """ + F6A + """] Which [m Rf6] one takes? [f c3f6 f3f6] [s tag f6 1.6 WHICH_ONE?] [h] The [m Bxf6+ brillant] bishop! Check! [z e7 1.3 2.0] His king [m Ke6] must move, [f f6d8] then the bishop [m Bxd8 brillant] takes his queen. [s tag d8 1.6 QUEEN_WON] [x ding] Take [p """ + F6B + """] with the rook? [f f3f6] His queen [f d8d5] escapes [s tag d5 1.6 QUEEN_ESCAPES] with check. [f c3f6 f3f6] So when a rook hangs twice, [s tag f6 1.4 WHICH_ONE?] ask yourself:"""),
+"tour_double_f6_1": ("blancs", "Which of your|pieces takes?",
+"""[p """ + F6A + """] Which [m Rf6] of your [f c3f6 f3f6] [s tag f6 1.6 WHICH_ONE?] pieces takes? [h] The [m Bxf6+ brillant] bishop! Check! [z e7 1.3 2.0] His king [m Ke6] must move, [f f6d8] then the bishop [m Bxd8 brillant] takes his queen. [s tag d8 1.6 QUEEN_WON] [x ding] Take [p """ + F6B + """] with the rook? [f f3f6] His queen [f d8d5] escapes [s tag d5 1.6 QUEEN_ESCAPES] with check. [f c3f6 f3f6] So when a rook hangs twice, [s tag f6 1.4 WHICH_ONE?] ask yourself:"""),
 "deux_cavaliers_h8_1": ("blancs", "Draw,|or checkmate?",
 """[p """ + H8A + """] Draw, [m Kh8] or [f f6h7] [s tag h8 1.6 DRAW?] checkmate? [h] Checkmate! [m Nf7# mat] [z h8 1.3 2.0] [x impact] Knight to f7. [s tag h8 1.6 CHECKMATE] [f f6g8] His own pawn [s tag g7 1.6 HIS_OWN_PAWN] blocks [f h8g7] the king. [p """ + H8B + """] [f f6h7] So when you only have two knights, [s tag h8 1.4 DRAW?] ask yourself:"""),
 "pat_dame_h4_1": ("blancs", "Which move|saves you?",
@@ -2147,7 +2147,7 @@ _S = {
 }
 PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
 QUESTIONS.update({
-    "tour_double_f6_1": "Which one|takes?",
+    "tour_double_f6_1": "Which of your|pieces takes?",
     "deux_cavaliers_h8_1": "Draw,|or checkmate?",
     "pat_dame_h4_1": "Analyze your game|blundercheck.app/try",
     "quel_echec_a5_1": "Which check|ends it?",
