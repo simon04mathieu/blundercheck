@@ -1329,3 +1329,6 @@
 ### commandes/perso_pat_dame_h4_1.json
     voix générée : 181 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/pat_dame_h4_1.mp4 {"voix_brute_s": 15.0, "tempo": 1.0, "video_s": 15.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 33, "minutage": "7 phrases, 3 coups, 0 pauses"}
+### commandes/perso_pat_dame_h4_1_fr.json
+    voix générée : 162 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/pat_dame_h4_1_fr.mp4 {"voix_brute_s": 13.3, "tempo": 1.0, "video_s": 13.3, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "got_him_from_behind.mp3", "mots_transcrits": 34, "minutage": "6 phrases, 3 coups, 0 pauses"}

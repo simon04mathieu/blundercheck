@@ -1,0 +1,116 @@
+{
+ "nom": "pat_dame_h4_1_fr",
+ "tempo": 1.0,
+ "duree_s": 13.44,
+ "hook": {
+  "texte": "Quel coup|te sauve ?",
+  "fin": 1.87
+ },
+ "question": {
+  "texte": "Quel coup|te sauve ?",
+  "t": 10.24
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Quel coup te sauve ?"
+  },
+  {
+   "t": 1.87,
+   "texte": "Dame en h4 échec !"
+  },
+  {
+   "t": 4.66,
+   "texte": "Son roi doit la prendre."
+  },
+  {
+   "t": 6.44,
+   "texte": "Tu ne peux plus jouer  pat !"
+  },
+  {
+   "t": 8.68,
+   "texte": "Tout autre coup est perdu."
+  },
+  {
+   "t": 11.22,
+   "texte": "Alors, quand tu es perdu demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.46,
+   "coup": "g2",
+   "badge": null
+  },
+  {
+   "t": 3.34,
+   "coup": "Qh4+",
+   "badge": "brillant"
+  },
+  {
+   "t": 5.24,
+   "coup": "Kxh4",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.46,
+   "type": "coup"
+  },
+  {
+   "t": 0.62,
+   "type": "fleches"
+  },
+  {
+   "t": 0.62,
+   "type": "sticker"
+  },
+  {
+   "t": 3.34,
+   "type": "coup"
+  },
+  {
+   "t": 4.66,
+   "type": "zoom"
+  },
+  {
+   "t": 5.24,
+   "type": "coup"
+  },
+  {
+   "t": 6.44,
+   "type": "fleches"
+  },
+  {
+   "t": 7.85,
+   "type": "sticker"
+  },
+  {
+   "t": 8.77,
+   "type": "position"
+  },
+  {
+   "t": 9.4,
+   "type": "fleches"
+  },
+  {
+   "t": 9.4,
+   "type": "sticker"
+  },
+  {
+   "t": 12.0,
+   "type": "fleches"
+  },
+  {
+   "t": 12.74,
+   "type": "sticker"
+  }
+ ],
+ "musique": "got_him_from_behind.mp3"
+}
