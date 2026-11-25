@@ -1,0 +1,34 @@
+{
+ "titre": "Four checks. Which one ends it? ♟️ #chess #shorts",
+ "description": "Four checks. Which one ends it? 👇 1.Ra5#! 1.Qa6+? Kxa6. 1.Qb6+? Ka8. 1.Qg1+? Ka8 (composed position, Stockfish 16-checked). One new puzzle every day.\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess tactics",
+  "chess puzzle",
+  "checkmate"
+ ],
+ "envoyer_apres": "2026-11-25T19:00:00+01:00",
+ "fichier": "sorties/quel_echec_a5_1.mp4",
+ "concept": "quel_echec_a5",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 15.06,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 15,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "quel_echec_a5",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "quel_echec",
+  "pieces": 5,
+  "look": "emeraude",
+  "fx": "fleches+zoom+tag+impact"
+ }
+}

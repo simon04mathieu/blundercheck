@@ -1,0 +1,34 @@
+{
+ "titre": "A rook hangs twice. Which one takes? ♟️ #chess #shorts",
+ "description": "A rook hangs twice. Which one takes? 👇 Only 1.Bxf6+! wins: his king must move, then the bishop takes the queen. 1.Rxf6? Qd5+ and the queen escapes (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess tactics",
+  "chess puzzle",
+  "win the queen"
+ ],
+ "envoyer_apres": "2026-11-25T10:00:00+01:00",
+ "fichier": "sorties/tour_double_f6_1.mp4",
+ "concept": "tour_double_f6",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 15.3,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 15,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "tour_double_f6",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "bonne_piece_prend",
+  "pieces": 6,
+  "look": "bois",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

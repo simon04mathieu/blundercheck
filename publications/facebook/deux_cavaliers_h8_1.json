@@ -1,0 +1,27 @@
+{
+ "legende": "Two knights vs a pawn. Is it a draw? 👇 1.Nf7# is checkmate: his own pawn on g7 blocks his king (composed position, python-chess-checked). One new puzzle every day.\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-25T13:00:00+01:00",
+ "fichier": "sorties/deux_cavaliers_h8_1.mp4",
+ "concept": "deux_cavaliers_h8",
+ "format": "QUIZ",
+ "langue": "en",
+ "duree": 9.96,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "QUIZ",
+  "categorie": "quiz",
+  "langue": "en",
+  "duree_s": 10,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "deux_cavaliers_h8",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "nulle_ou_mat",
+  "pieces": 5,
+  "look": "papier",
+  "fx": "fleches+zoom+tag+impact"
+ }
+}

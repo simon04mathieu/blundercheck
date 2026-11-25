@@ -1,0 +1,28 @@
+{
+ "legende": "Une tour attaquée deux fois. Qui prend ? 👇 Seul 1.Fxf6+ ! gagne : son roi bouge, puis le fou prend la dame. 1.Txf6 ? Dd5+ et la dame s'échappe (Stockfish 16, position composée). Un défi d'échecs par jour.\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-25T13:00:00+01:00",
+ "fichier": "sorties/tour_double_f6_1_fr.mp4",
+ "concept": "tour_double_f6",
+ "format": "TACTIQUE",
+ "langue": "fr",
+ "duree": 16.24,
+ "voix": "oui",
+ "paire": "tour_double_f6_1",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "fr",
+  "duree_s": 16,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "tour_double_f6",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "bonne_piece_prend",
+  "pieces": 6,
+  "look": "corail",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

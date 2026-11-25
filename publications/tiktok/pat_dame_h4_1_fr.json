@@ -1,0 +1,32 @@
+{
+ "legende": "Un seul coup te sauve. Lequel ? 👇 1.Dh4+ ! Rxh4 et les Blancs n'ont plus de coup légal : pat. Tout autre coup est perdu (Stockfish 16, position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-25T00:00:00+01:00",
+ "heure_conseillee": "2026-11-25T19:00:00+01:00",
+ "repere": "19 h · pat_dame_h4_1_fr · 13.44 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/pat_dame_h4_1_fr.mp4",
+ "concept": "pat_dame_h4",
+ "format": "FINALE",
+ "langue": "fr",
+ "duree": 13.44,
+ "voix": "oui",
+ "paire": "pat_dame_h4_1",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "fr",
+  "duree_s": 13,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "pat_dame_h4",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+fleche+tag+tactique_avant_3s",
+  "interet": "sauver_la_partie",
+  "pieces": 6,
+  "look": "mono",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}
