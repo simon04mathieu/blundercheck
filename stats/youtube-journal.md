@@ -1686,3 +1686,4 @@
 ### 2026-11-25 18:01 publications/youtube/quel_echec_a5_1.json
 {"id": "M1r92sLI9RU", "url": "https://www.youtube.com/shorts/M1r92sLI9RU", "statut": "public", "publier_le": null}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "174"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "174"}
