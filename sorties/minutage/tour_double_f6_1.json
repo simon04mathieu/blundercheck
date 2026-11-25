@@ -4,7 +4,7 @@
  "duree_s": 15.3,
  "hook": {
   "texte": "Which of your|pieces takes?",
-  "fin": 2.38
+  "fin": 2.4
  },
  "question": {
   "texte": "Which of your|pieces takes?",
@@ -16,19 +16,19 @@
    "texte": "Which of your pieces takes?"
   },
   {
-   "t": 2.38,
+   "t": 2.4,
    "texte": "The bishop!"
   },
   {
-   "t": 3.52,
+   "t": 3.5,
    "texte": "Check!"
   },
   {
-   "t": 4.74,
+   "t": 4.76,
    "texte": "His king must move then the bishop takes his queen."
   },
   {
-   "t": 8.62,
+   "t": 8.58,
    "texte": "Take with the rook?"
   },
   {
@@ -73,11 +73,11 @@
    "type": "coup"
   },
   {
-   "t": 0.44,
+   "t": 0.78,
    "type": "fleches"
   },
   {
-   "t": 0.44,
+   "t": 0.78,
    "type": "sticker"
   },
   {
@@ -85,7 +85,7 @@
    "type": "coup"
   },
   {
-   "t": 4.74,
+   "t": 4.76,
    "type": "zoom"
   },
   {
@@ -101,7 +101,7 @@
    "type": "coup"
   },
   {
-   "t": 8.62,
+   "t": 8.58,
    "type": "sticker"
   },
   {
