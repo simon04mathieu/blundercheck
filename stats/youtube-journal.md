@@ -1663,3 +1663,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "173"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "173"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "173"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "173"}
+### 2026-11-25 15:01 publications/youtube/pat_dame_h4_1.json
+{"id": "xsPvMtV0JIw", "url": "https://www.youtube.com/shorts/xsPvMtV0JIw", "statut": "public", "publier_le": null}
