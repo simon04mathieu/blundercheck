@@ -1,0 +1,115 @@
+{
+ "nom": "quel_echec_a5_1",
+ "tempo": 1.0,
+ "duree_s": 15.06,
+ "hook": {
+  "texte": "Which check|ends it?",
+  "fin": 2.12
+ },
+ "question": {
+  "texte": "Which check|ends it?",
+  "t": 11.86
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which check ends it?"
+  },
+  {
+   "t": 2.12,
+   "texte": "Rook to a5 checkmate!"
+  },
+  {
+   "t": 4.74,
+   "texte": "Queen to a6?"
+  },
+  {
+   "t": 6.6,
+   "texte": "His king takes it."
+  },
+  {
+   "t": 8.44,
+   "texte": "Queen to b6?"
+  },
+  {
+   "t": 10.28,
+   "texte": "The king runs."
+  },
+  {
+   "t": 12.04,
+   "texte": "So when you can check four ways, ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.58,
+   "coup": "a4",
+   "badge": null
+  },
+  {
+   "t": 2.36,
+   "coup": "Ra5#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.58,
+   "type": "coup"
+  },
+  {
+   "t": 0.94,
+   "type": "fleches"
+  },
+  {
+   "t": 0.94,
+   "type": "sticker"
+  },
+  {
+   "t": 2.36,
+   "type": "coup"
+  },
+  {
+   "t": 3.44,
+   "type": "zoom"
+  },
+  {
+   "t": 3.44,
+   "type": "sticker"
+  },
+  {
+   "t": 4.69,
+   "type": "position"
+  },
+  {
+   "t": 5.26,
+   "type": "fleches"
+  },
+  {
+   "t": 6.6,
+   "type": "sticker"
+  },
+  {
+   "t": 8.72,
+   "type": "fleches"
+  },
+  {
+   "t": 10.28,
+   "type": "sticker"
+  },
+  {
+   "t": 12.04,
+   "type": "fleches"
+  },
+  {
+   "t": 14.22,
+   "type": "sticker"
+  }
+ ],
+ "musique": "baby_animals_playing.mp3"
+}
