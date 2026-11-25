@@ -248,3 +248,5 @@
 {"reseau": "facebook", "id": "2982709058757008", "ok": true}
 ### 2026-11-25 09:02 publications/facebook/tour_double_f6_1.json
 {"reseau": "facebook", "id": "2242529022961589", "ok": true}
+### 2026-11-25 12:02 publications/facebook/deux_cavaliers_h8_1.json
+{"reseau": "facebook", "id": "1296141636019688", "ok": true}
