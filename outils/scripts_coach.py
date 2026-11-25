@@ -2121,3 +2121,36 @@ QUESTIONS.update({
     "tour_libre_a3_1_fr": "Tu la prends,|ou pas ?",
     "dames_fou_c2_1_fr": "Prendre,|ou échec ?",
 })
+
+# 25/11 (Producteur) : file variée du Scénariste du 24/11 (tour attaquée deux fois, 1.Bxf6+ ; deux cavaliers + pion, 1.Nf7# ; pat de dame 1.Qh4+ vers /try ; quatre échecs, 1.Ra5#) ; lignes revérifiées python-chess + Stockfish 16 (tous les coups blancs) ; RÉTENTION seule
+F6A = "fen:3q4/4k3/r7/1K6/8/2B2R2/8/8_b_-_-_0_1"              # avant …Ta6-f6 ; 1.Bxf6+ +32 seul gagnant ; Rxf6 −0,25 (Qd5+)
+F6B = "fen:3q4/4k3/5r2/1K6/8/2B2R2/8/8_w_-_-_1_2"
+H8A = "fen:8/6pk/5N1N/8/8/8/3K4/8_b_-_-_0_1"                  # avant …Rh7-h8 ; 1.Nf7# seul mat sur 20 coups
+H8B = "fen:7k/6p1/5N1N/8/8/8/3K4/8_w_-_-_1_2"
+H4A = "fen:6q1/8/3p3K/8/8/6pk/5Q2/8_b_-_-_0_1"                # avant …g3-g2 ; 1.Qh4+ = 0 seul coup qui tient (Kxh4 forcé, pat) ; autres −6,7 à −36
+H4B = "fen:6q1/8/3p3K/8/8/7k/5Qp1/8_w_-_-_0_2"
+A5A = "fen:8/k1K5/6Q1/p2R4/8/8/8/8_b_-_-_0_1"                 # avant …a5-a4 ; 4 échecs : Ra5# seul mat ; Qa6+ Kxa6 ; Qb6+ Ka8 ; Qg1+
+A5B = "fen:8/k1K5/6Q1/3R4/p7/8/8/8_w_-_-_0_2"
+_S = {
+"tour_double_f6_1": ("blancs", "Which one|takes?",
+"""[p """ + F6A + """] Which [m Rf6] one [f c3f6 f3f6] [s tag f6 1.6 WHICH_ONE?] takes? [h] The [m Bxf6+ brillant] bishop! Check! [z e7 1.3 2.0] His king [m Ke6] must move, [f f6d8] then the bishop [m Bxd8 brillant] takes his queen. [s tag d8 1.6 QUEEN_WON] [x ding] Take [p """ + F6B + """] with the rook? [f f3f6] His queen [f d8d5] escapes [s tag d5 1.6 QUEEN_ESCAPES] with check. [f c3f6 f3f6] So when a rook hangs twice, [s tag f6 1.4 WHICH_ONE?] ask yourself:"""),
+"deux_cavaliers_h8_1": ("blancs", "Draw,|or checkmate?",
+"""[p """ + H8A + """] Draw, [m Kh8] or [f f6h7] [s tag h8 1.6 DRAW?] checkmate? [h] Checkmate! [m Nf7# mat] [z h8 1.3 2.0] [x impact] Knight to f7. [s tag h8 1.6 CHECKMATE] [f f6g8] His own pawn [s tag g7 1.6 HIS_OWN_PAWN] blocks [f h8g7] the king. [p """ + H8B + """] [f f6h7] So when you only have two knights, [s tag h8 1.4 DRAW?] ask yourself:"""),
+"pat_dame_h4_1": ("blancs", "Which move|saves you?",
+"""[p """ + H4A + """] Which move [m g2] saves [f g2g1] [s tag g1 1.6 PAWN_QUEENS] you? [h] Queen to h4, [m Qh4+ brillant] check! [z h4 1.3 2.0] His king [m Kxh4] must take it. [f g8h7] Now you can't move: [s tag h6 1.6 STALEMATE] stalemate! [x ding] Any [p """ + H4B + """] other move [f f2g1] [s tag g1 1.6 OTHERS_LOSE] loses. Analyze your [s tag d4 1.6 YOUR_GAME] own game, free. So when [f g2g1] you're lost, [s tag h6 1.4 WHICH_MOVE?] ask yourself:"""),
+"quel_echec_a5_1": ("blancs", "Which check|ends it?",
+"""[p """ + A5A + """] Which check [m a4] ends [f d5a5] [s tag a7 1.6 4_CHECKS] it? [h] Rook [m Ra5# mat] to a5: [z a7 1.3 2.0] [x impact] [s tag a7 1.6 CHECKMATE] checkmate! [p """ + A5B + """] Queen [f g6a6] to a6? [s tag a6 1.4 KING_TAKES] His king takes it. Queen [f g6b6] to b6? [s tag a8 1.4 KING_ESCAPES] The king runs. [f g6a6 g6b6] So when you can check four ways, [s tag a7 1.4 WHICH_CHECK?] ask yourself:"""),
+"tour_double_f6_1_fr": ("blancs", "Lequel|prend ?",
+"""[p """ + F6A + """] Lequel [m Rf6] prend [f c3f6 f3f6] [s tag f6 1.6 LEQUEL_?] ? [h] Le fou ! [m Bxf6+ brillant] Échec ! [z e7 1.3 2.0] Son roi [m Ke6] bouge, [f f6d8] puis le fou [m Bxd8 brillant] prend sa dame. [s tag d8 1.6 DAME_GAGNÉE] [x ding] Avec [p """ + F6B + """] la tour ? [f f3f6] Sa dame [f d8d5] s'échappe [s tag d5 1.6 DAME_LIBRE] avec échec. [f c3f6 f3f6] Alors, quand une tour est attaquée deux fois, [s tag f6 1.4 LEQUEL_?] demande-toi :"""),
+"pat_dame_h4_1_fr": ("blancs", "Quel coup|te sauve ?",
+"""[p """ + H4A + """] Quel coup [m g2] te [f g2g1] [s tag g1 1.6 LE_PION_PROMEUT] sauve ? [h] Dame en h4, [m Qh4+ brillant] échec ! [z h4 1.3 2.0] Son roi [m Kxh4] doit la prendre. [f g8h7] Tu ne peux plus jouer : [s tag h6 1.6 PAT] pat ! [x ding] Tout [p """ + H4B + """] autre coup [f f2g1] [s tag g1 1.6 LES_AUTRES_PERDENT] est perdu. Alors, quand [f g2g1] tu es perdu, [s tag h6 1.4 QUEL_COUP_?] demande-toi :"""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
+QUESTIONS.update({
+    "tour_double_f6_1": "Which one|takes?",
+    "deux_cavaliers_h8_1": "Draw,|or checkmate?",
+    "pat_dame_h4_1": "Analyze your game|blundercheck.app/try",
+    "quel_echec_a5_1": "Which check|ends it?",
+    "tour_double_f6_1_fr": "Lequel|prend ?",
+    "pat_dame_h4_1_fr": "Quel coup|te sauve ?",
+})
