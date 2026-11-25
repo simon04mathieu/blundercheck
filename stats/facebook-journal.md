@@ -252,3 +252,5 @@
 {"reseau": "facebook", "id": "1296141636019688", "ok": true}
 ### 2026-11-25 15:01 publications/facebook/pat_dame_h4_1.json
 {"reseau": "facebook", "id": "1531067178927609", "ok": true}
+### 2026-11-25 18:02 publications/facebook/quel_echec_a5_1.json
+{"reseau": "facebook", "id": "1577297287757660", "ok": true}
