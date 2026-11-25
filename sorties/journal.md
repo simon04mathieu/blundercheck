@@ -1352,3 +1352,8 @@
 ### commandes/perso_tour_double_f6_1.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_double_f6_1.mp4 {"voix_brute_s": 14.5, "tempo": 1.0, "video_s": 14.5, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "zoobeedoo.mp3", "mots_transcrits": 33, "minutage": "7 phrases, 4 coups, 0 pauses"}
+## 2026-11-25 00:15 UTC · run 45516434706
+### commandes/perso_tour_double_f6_1.json
+    voix générée : 191 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/tour_double_f6_1.mp4 {"voix_brute_s": 15.2, "tempo": 1.0, "video_s": 15.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "zoobeedoo.mp3", "mots_transcrits": 35, "minutage": "7 phrases, 4 coups, 0 pauses"}

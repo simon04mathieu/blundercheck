@@ -1,63 +1,63 @@
 {
  "nom": "tour_double_f6_1",
  "tempo": 1.0,
- "duree_s": 14.56,
+ "duree_s": 15.3,
  "hook": {
-  "texte": "Which one|takes?",
-  "fin": 1.72
+  "texte": "Which of your|pieces takes?",
+  "fin": 2.38
  },
  "question": {
-  "texte": "Which one|takes?",
-  "t": 11.36
+  "texte": "Which of your|pieces takes?",
+  "t": 12.1
  },
  "phrases": [
   {
    "t": 0.0,
-   "texte": "Which one takes?"
+   "texte": "Which of your pieces takes?"
   },
   {
-   "t": 1.72,
+   "t": 2.38,
    "texte": "The bishop!"
   },
   {
-   "t": 2.86,
+   "t": 3.52,
    "texte": "Check!"
   },
   {
-   "t": 3.94,
+   "t": 4.74,
    "texte": "His king must move then the bishop takes his queen."
   },
   {
-   "t": 7.82,
+   "t": 8.62,
    "texte": "Take with the rook?"
   },
   {
-   "t": 9.46,
+   "t": 10.4,
    "texte": "His queen escapes with check."
   },
   {
-   "t": 11.8,
+   "t": 12.66,
    "texte": "So when a rook hangs twice ask yourself"
   }
  ],
  "coups": [
   {
-   "t": 0.22,
+   "t": 0.2,
    "coup": "Rf6",
    "badge": null
   },
   {
-   "t": 1.98,
+   "t": 2.64,
    "coup": "Bxf6+",
    "badge": "brillant"
   },
   {
-   "t": 4.42,
+   "t": 5.22,
    "coup": "Ke6",
    "badge": null
   },
   {
-   "t": 6.04,
+   "t": 6.68,
    "coup": "Bxd8",
    "badge": "brillant"
   }
@@ -69,63 +69,63 @@
    "type": "position"
   },
   {
-   "t": 0.22,
+   "t": 0.2,
    "type": "coup"
   },
   {
-   "t": 1.72,
+   "t": 0.44,
    "type": "fleches"
   },
   {
-   "t": 1.72,
+   "t": 0.44,
    "type": "sticker"
   },
   {
-   "t": 1.98,
+   "t": 2.64,
    "type": "coup"
   },
   {
-   "t": 3.94,
+   "t": 4.74,
    "type": "zoom"
   },
   {
-   "t": 4.42,
+   "t": 5.22,
    "type": "coup"
   },
   {
-   "t": 5.46,
+   "t": 6.18,
    "type": "fleches"
   },
   {
-   "t": 6.04,
+   "t": 6.68,
    "type": "coup"
   },
   {
-   "t": 7.82,
+   "t": 8.62,
    "type": "sticker"
   },
   {
-   "t": 8.01,
+   "t": 8.89,
    "type": "position"
   },
   {
-   "t": 9.46,
+   "t": 10.4,
    "type": "fleches"
   },
   {
-   "t": 9.9,
+   "t": 10.86,
    "type": "fleches"
   },
   {
-   "t": 10.3,
+   "t": 11.28,
    "type": "sticker"
   },
   {
-   "t": 11.8,
+   "t": 12.66,
    "type": "fleches"
   },
   {
-   "t": 13.68,
+   "t": 14.48,
    "type": "sticker"
   }
  ],
