@@ -4,7 +4,7 @@
  "duree_s": 14.56,
  "hook": {
   "texte": "Which one|takes?",
-  "fin": 1.74
+  "fin": 1.72
  },
  "question": {
   "texte": "Which one|takes?",
@@ -16,15 +16,15 @@
    "texte": "Which one takes?"
   },
   {
-   "t": 1.74,
+   "t": 1.72,
    "texte": "The bishop!"
   },
   {
-   "t": 2.84,
+   "t": 2.86,
    "texte": "Check!"
   },
   {
-   "t": 3.98,
+   "t": 3.94,
    "texte": "His king must move then the bishop takes his queen."
   },
   {
@@ -57,7 +57,7 @@
    "badge": null
   },
   {
-   "t": 6.02,
+   "t": 6.04,
    "coup": "Bxd8",
    "badge": "brillant"
   }
@@ -73,11 +73,11 @@
    "type": "coup"
   },
   {
-   "t": 0.44,
+   "t": 1.72,
    "type": "fleches"
   },
   {
-   "t": 0.44,
+   "t": 1.72,
    "type": "sticker"
   },
   {
@@ -85,7 +85,7 @@
    "type": "coup"
   },
   {
-   "t": 3.98,
+   "t": 3.94,
    "type": "zoom"
   },
   {
@@ -97,7 +97,7 @@
    "type": "fleches"
   },
   {
-   "t": 6.02,
+   "t": 6.04,
    "type": "coup"
   },
   {
@@ -125,7 +125,7 @@
    "type": "fleches"
   },
   {
-   "t": 13.7,
+   "t": 13.68,
    "type": "sticker"
   }
  ],
