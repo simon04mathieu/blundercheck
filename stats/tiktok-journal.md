@@ -1435,3 +1435,8 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-25 00:19 publications/tiktok/pat_dame_h4_1_fr.json
+{"publish_id": "v_inbox_file~v2.7711896493015975958", "mode": "brouillon", "vie_privee": null, "legende": "Un seul coup te sauve. Lequel ? 👇 1.Dh4+ ! Rxh4 et les Blancs n'ont plus de coup légal : pat. Tout autre coup est perdu (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nÉcris ton coup en commentaire, puis abonne-toi pour celui de demain.\n\n#echecs #chess #echecsfr #chesstok #puzzle"}
+### 2026-11-25 00:19 publications/tiktok/tour_double_f6_1_fr.json
+{"publish_id": "v_inbox_file~v2.7711896570282854422", "mode": "brouillon", "vie_privee": null, "legende": "Une tour attaquée deux fois. Qui prend ? 👇 Seul 1.Fxf6+ ! gagne : son roi bouge, puis le fou prend la dame. 1.Txf6 ? Dd5+ et la dame s'échappe (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nÉcris ton coup en commentaire, puis abonne-toi pour celui de demain.\n\n#echecs #chess #echecsfr #chesstok #puzzle"}
