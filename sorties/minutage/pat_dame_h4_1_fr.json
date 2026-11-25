@@ -28,11 +28,11 @@
    "texte": "Tu ne peux plus jouer  pat !"
   },
   {
-   "t": 8.68,
+   "t": 8.66,
    "texte": "Tout autre coup est perdu."
   },
   {
-   "t": 11.22,
+   "t": 11.24,
    "texte": "Alors, quand tu es perdu demande-toi "
   }
  ],
@@ -43,7 +43,7 @@
    "badge": null
   },
   {
-   "t": 3.34,
+   "t": 1.87,
    "coup": "Qh4+",
    "badge": "brillant"
   },
@@ -64,15 +64,15 @@
    "type": "coup"
   },
   {
-   "t": 0.62,
+   "t": 0.64,
    "type": "fleches"
   },
   {
-   "t": 0.62,
+   "t": 0.64,
    "type": "sticker"
   },
   {
-   "t": 3.34,
+   "t": 1.87,
    "type": "coup"
   },
   {
