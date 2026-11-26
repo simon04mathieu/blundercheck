@@ -84,6 +84,14 @@ def construire(nom, mots):
                 hook_end = s
             elif typ == "q":   # pause « trouve le coup » : secondes, texte (silence inséré dans la voix)
                 pauses.append((s - 0.02, float(mk[1]), " ".join(mk[2:]).replace("_", " ")))
+    # 26/11 (Simon) : « la première image ne doit pas être zoomée : un premier plan large de 0,3-0,4 s, puis zoom et mouvement
+    # en même temps » -> le 1er coup et le zoom collé dessus sont ramenés dans [0,30 ; 0,40] s, quel que soit le calage de la voix
+    i0 = next((i for i, a_ in enumerate(actions) if a_[1] == "coup"), None)
+    if i0 is not None and actions[i0][0] < 1.0:
+        t0 = actions[i0][0]; cible = min(max(t0, 0.30), 0.40)
+        if cible != t0:
+            actions = [((cible if (a_[1] == "coup" and i == i0) or (a_[1] == "zoom" and abs(a_[0] - t0) <= 0.1) else a_[0]),) + a_[1:]
+                       for i, a_ in enumerate(actions)]
     # sous-titres : groupes de 2 à 5 mots, coupés sur la ponctuation
     caps = []; cur = []; t0 = None
     for t, (s, e) in zip(toks, times):
