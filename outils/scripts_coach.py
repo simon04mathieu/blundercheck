@@ -2154,3 +2154,36 @@ QUESTIONS.update({
     "tour_double_f6_1_fr": "Lequel|prend ?",
     "pat_dame_h4_1_fr": "Quel coup|te sauve ?",
 })
+
+# 26/11 (Producteur) : file variée du Scénariste du 25/11 (dames face à face, 1.Be5+ ; tour f5 « gratuite », 1.Nf3# à la découverte ; échec perpétuel 1.Qe8+ Ka7 2.Qa4+ vers /try ; NEUF : gagner sans pater, 1.Qe1#) ; règle du 25/11 : 1er coup ≤ 0,5 s + zoom collé ; python-chess + Stockfish 16 d16 (tous les coups blancs) ; RÉTENTION seule
+G3A = "fen:7B/K7/8/8/5k2/8/6q1/4Q3_b_-_-_0_1"                 # avant …Dg2-g3 ; 1.Be5+ mat en 11 seul gagnant ; Qxg3+ Kxg3 = 0 (matériel insuffisant) ; autres 0
+G3B = "fen:7B/K7/8/8/5k2/6q1/8/4Q3_w_-_-_1_2"
+F5A = "fen:8/2K5/5q2/8/8/7Q/7N/5r1k_b_-_-_0_1"                # avant …Tf1-f5 ; 1.Nf3# seul mat ; Qxf5 Qxf5 −96
+F5B = "fen:8/2K5/5q2/5r2/8/7Q/7N/7k_w_-_-_1_2"
+E8A = "fen:1k6/1pp3q1/1p6/8/4Q3/8/r7/1K6_b_-_-_0_1"           # avant …Ta2-f2 (menace Db2#) ; 1.Qe8+ = 0 (Ka7 et Kb8 seules réponses) ; Qc2 mat en 10, autres mat en 1-2
+E8B = "fen:1k6/1pp3q1/1p6/8/4Q3/8/5r2/1K6_w_-_-_1_2"
+E1A = "fen:8/8/4Q3/8/8/7K/8/6k1_b_-_-_0_1"                    # avant …Rg1-h1 ; 1.Qe1# seul mat ; pats : Qg8 Qg6 Qb6 Qg4 Qe3
+E1B = "fen:8/8/4Q3/8/8/7K/8/7k_w_-_-_1_2"
+_S = {
+"dames_fou_g3_1": ("blancs", "Take,|or check?",
+"""[p """ + G3A + """] Take, [m Qg3] [z g3 1.3 2.0] or [f g3e1 e1g3] [s tag g3 1.6 BOTH_HANG] check? [h] Check! [m Be5+ brillant] Bishop to e5. The queen [f e1e5] guards it, so his king [m Kg4] must step away. Then queen [m Qxg3+ brillant] [z g3 1.3 2.0] takes queen. [s tag g3 1.6 QUEEN_WON] [x ding] [p """ + G3B + """] Queen takes [f e1g3] first? Just [s tag f4 1.6 JUST_A_DRAW] a draw. [f g3e1 e1g3] So when both queens hang, [s tag g3 1.4 TAKE_OR_CHECK?] ask yourself:"""),
+"tour_libre_f5_1": ("blancs", "Take it,|or not?",
+"""[p """ + F5A + """] Take [m Rf5] [z f5 1.3 2.0] it, or [f h3f5] [s tag f5 1.6 FREE_ROOK?] not? [h] Don't! [m Nf3# mat] [x impact] Knight to f3: [s tag h1 1.6 CHECKMATE] checkmate! The queen [f h3h1] gives check, [s tag h2 1.6 DISCOVERED_CHECK] and he has no [z h1 1.3 2.0] escape. [s tag g1 1.4 NO_ESCAPE] [p """ + F5B + """] Take the rook? [f h3f5] His queen [f f6f5] [s tag f5 1.6 QUEEN_LOST] takes yours. [f h3f5] So when a rook looks free, [s tag f5 1.4 TAKE_IT?] ask yourself:"""),
+"perpetuel_e8_1": ("blancs", "Defend,|or check?",
+"""[p """ + E8A + """] Defend, [m Rf2] [z f2 1.3 2.0] or [f g7b2] [s tag b2 1.6 MATE_THREAT] check? [h] Check! [m Qe8+ brillant] Queen to e8. His king [m Ka7] goes to a7. Queen [m Qa4+ brillant] to a4, check! [z a7 1.3 2.0] [s tag a7 1.6 CHECK_AGAIN] The king [m Kb8] goes back. [f a4e8] Perpetual [s tag b8 1.6 PERPETUAL_CHECK] check: a draw. [x ding] [p """ + E8B + """] Defend? [f g7b2] He [s tag b2 1.6 DEFENDING_LOSES] mates you. Analyze your [s tag d4 1.6 YOUR_GAME] own game, free. So when [f g7b2] mate is coming, [s tag b2 1.4 DEFEND_OR_CHECK?] ask yourself:"""),
+"ne_pas_pater_e1_1": ("blancs", "Which move|wins?",
+"""[p """ + E1A + """] Which [m Kh1] [z h1 1.3 2.0] move [f h1g1] [s tag g1 1.6 1_SQUARE_LEFT] wins? [h] Queen [m Qe1# mat] [x impact] to e1: [s tag h1 1.6 CHECKMATE] checkmate! [f e1g1] He has no square [s tag g1 1.4 NO_ESCAPE] left. [p """ + E1B + """] Queen [f e6g6] to g6? [s tag g6 1.6 STALEMATE] Stalemate, [z h1 1.3 2.0] a draw. [f e6e1] So when you're up a queen, [s tag h1 1.4 WHICH_MOVE_WINS?] ask yourself:"""),
+"tour_libre_f5_1_fr": ("blancs", "Tu la prends,|ou pas ?",
+"""[p """ + F5A + """] Tu la [m Rf5] [z f5 1.3 2.0] prends, [f h3f5] [s tag f5 1.6 TOUR_LIBRE_?] ou pas ? [h] Non ! [m Nf3# mat] [x impact] Cavalier en f3 : [s tag h1 1.6 MAT] mat ! La dame [f h3h1] donne échec, [s tag h2 1.6 ÉCHEC_DÉCOUVERT] et il n'a [z h1 1.3 2.0] aucune case. [p """ + F5B + """] Tu prends [f h3f5] la tour ? Sa dame [f f6f5] [s tag f5 1.6 DAME_PERDUE] prend la tienne. [f h3f5] Alors, quand une tour est libre, [s tag f5 1.4 TU_LA_PRENDS_?] demande-toi :"""),
+"dames_fou_g3_1_fr": ("blancs", "Prendre,|ou échec ?",
+"""[p """ + G3A + """] Prendre, [m Qg3] [z g3 1.3 2.0] ou [f g3e1 e1g3] [s tag g3 1.6 DEUX_EN_PRISE] échec ? [h] Échec ! [m Be5+ brillant] Fou en e5. La dame [f e1e5] le garde, son roi [m Kg4] doit s'écarter. Puis dame [m Qxg3+ brillant] [z g3 1.3 2.0] prend dame. [s tag g3 1.6 DAME_GAGNÉE] [x ding] [p """ + G3B + """] Dame prend [f e1g3] d'abord ? Seulement [s tag f4 1.6 SEULEMENT_NULLE] nulle. [f g3e1 e1g3] Alors, quand deux dames sont en prise, [s tag g3 1.4 PRENDRE_OU_ÉCHEC_?] demande-toi :"""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
+QUESTIONS.update({
+    "dames_fou_g3_1": "Take,|or check?",
+    "tour_libre_f5_1": "Take it,|or not?",
+    "perpetuel_e8_1": "Analyze your game|blundercheck.app/try",
+    "ne_pas_pater_e1_1": "Which move|wins?",
+    "tour_libre_f5_1_fr": "Tu la prends,|ou pas ?",
+    "dames_fou_g3_1_fr": "Prendre,|ou échec ?",
+})
