@@ -38,7 +38,7 @@
  ],
  "coups": [
   {
-   "t": 0.22,
+   "t": 0.3,
    "coup": "Kh1",
    "badge": null
   },
@@ -55,11 +55,11 @@
    "type": "position"
   },
   {
-   "t": 0.22,
+   "t": 0.3,
    "type": "coup"
   },
   {
-   "t": 0.22,
+   "t": 0.3,
    "type": "zoom"
   },
   {
