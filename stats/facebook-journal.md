@@ -254,3 +254,5 @@
 {"reseau": "facebook", "id": "1531067178927609", "ok": true}
 ### 2026-11-25 18:02 publications/facebook/quel_echec_a5_1.json
 {"reseau": "facebook", "id": "1577297287757660", "ok": true}
+### 2026-11-26 09:01 publications/facebook/dames_fou_g3_1.json
+{"reseau": "facebook", "id": "2994272570926961", "ok": true}
