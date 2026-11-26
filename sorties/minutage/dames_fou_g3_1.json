@@ -1,0 +1,137 @@
+{
+ "nom": "dames_fou_g3_1",
+ "tempo": 1.0,
+ "duree_s": 16.06,
+ "hook": {
+  "texte": "Take,|or check?",
+  "fin": 1.08
+ },
+ "question": {
+  "texte": "Take,|or check?",
+  "t": 12.86
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take, or check?"
+  },
+  {
+   "t": 1.08,
+   "texte": "Check!"
+  },
+  {
+   "t": 2.22,
+   "texte": "Bishop to e5."
+  },
+  {
+   "t": 3.9,
+   "texte": "The queen guards it so his king must step away."
+  },
+  {
+   "t": 7.3,
+   "texte": "Then queen takes queen."
+  },
+  {
+   "t": 10.3,
+   "texte": "Queen takes first?"
+  },
+  {
+   "t": 11.38,
+   "texte": "Just a draw."
+  },
+  {
+   "t": 12.72,
+   "texte": "So when both queens hang ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.3,
+   "coup": "Qg3",
+   "badge": null
+  },
+  {
+   "t": 2.22,
+   "coup": "Be5+",
+   "badge": "brillant"
+  },
+  {
+   "t": 6.52,
+   "coup": "Kg4",
+   "badge": null
+  },
+  {
+   "t": 8.7,
+   "coup": "Qxg3+",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.3,
+   "type": "coup"
+  },
+  {
+   "t": 0.3,
+   "type": "zoom"
+  },
+  {
+   "t": 0.74,
+   "type": "fleches"
+  },
+  {
+   "t": 0.74,
+   "type": "sticker"
+  },
+  {
+   "t": 2.22,
+   "type": "coup"
+  },
+  {
+   "t": 5.04,
+   "type": "fleches"
+  },
+  {
+   "t": 6.52,
+   "type": "coup"
+  },
+  {
+   "t": 8.7,
+   "type": "coup"
+  },
+  {
+   "t": 8.7,
+   "type": "zoom"
+  },
+  {
+   "t": 10.25,
+   "type": "position"
+  },
+  {
+   "t": 10.3,
+   "type": "sticker"
+  },
+  {
+   "t": 10.98,
+   "type": "fleches"
+  },
+  {
+   "t": 12.3,
+   "type": "sticker"
+  },
+  {
+   "t": 12.72,
+   "type": "fleches"
+  },
+  {
+   "t": 14.84,
+   "type": "sticker"
+  }
+ ],
+ "musique": "fluffing_a_duck.mp3"
+}

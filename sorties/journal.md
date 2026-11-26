@@ -1362,3 +1362,8 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_double_f6_1.mp4 {"voix_brute_s": 15.2, "tempo": 1.0, "video_s": 15.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "zoobeedoo.mp3", "mots_transcrits": 35, "minutage": "7 phrases, 4 coups, 0 pauses"}
+## 2026-11-26 00:04 UTC · run 45725996149
+### commandes/perso_dames_fou_g3_1.json
+    voix générée : 181 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/dames_fou_g3_1.mp4 {"voix_brute_s": 16.0, "tempo": 1.0, "video_s": 16.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "fluffing_a_duck.mp3", "mots_transcrits": 34, "minutage": "8 phrases, 4 coups, 0 pauses"}
