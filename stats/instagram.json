@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-25T01:04:58Z",
+ "releve": "2026-11-26T00:40:49Z",
  "compte": "blundercheckapp",
- "abonnes": 6,
+ "abonnes": 7,
  "publications": [
+  {
+   "id": "17883777096548019",
+   "caption": "Un seul coup te sauve. Lequel ? 👇 1.Dh4+ ! Rxh4 et les Blancs n'ont plus de coup",
+   "comments_count": 1,
+   "like_count": 6,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DgLICXHB0Sy/",
+   "timestamp": "2026-11-25T18:01:44+0000",
+   "insights": {
+    "views": 1831,
+    "reach": 1096,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 8
+   }
+  },
+  {
+   "id": "18017066861993061",
+   "caption": "Une tour attaquée deux fois. Qui prend ? 👇 Seul 1.Fxf6+ ! gagne : son roi bouge,",
+   "comments_count": 0,
+   "like_count": 2,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DgKe2MROj_T/",
+   "timestamp": "2026-11-25T12:01:46+0000",
+   "insights": {
+    "views": 182,
+    "reach": 121,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 2
+   }
+  },
   {
    "id": "17911051617671429",
    "caption": "Prendre, ou échec ? 👇 1.Fe4+ ! Rxe4 2.Dxc2+ gagne la dame. 1.Dxc2+ ? Rxc2 : il n",
@@ -12,8 +44,8 @@
    "permalink": "https://www.instagram.com/reel/DgIjPiKD2GA/",
    "timestamp": "2026-11-24T18:01:44+0000",
    "insights": {
-    "views": 160,
-    "reach": 107,
+    "views": 162,
+    "reach": 108,
     "shares": 0,
     "saved": 0,
     "total_interactions": 0
@@ -28,8 +60,8 @@
    "permalink": "https://www.instagram.com/reel/DgH6EqQCQpA/",
    "timestamp": "2026-11-24T12:01:58+0000",
    "insights": {
-    "views": 214,
-    "reach": 122,
+    "views": 215,
+    "reach": 123,
     "shares": 0,
     "saved": 0,
     "total_interactions": 2
@@ -44,8 +76,8 @@
    "permalink": "https://www.instagram.com/reel/DgF-cy9iCWS/",
    "timestamp": "2026-11-23T18:01:43+0000",
    "insights": {
-    "views": 187,
-    "reach": 115,
+    "views": 189,
+    "reach": 116,
     "shares": 0,
     "saved": 0,
     "total_interactions": 0
@@ -92,8 +124,8 @@
    "permalink": "https://www.instagram.com/reel/DgCwd6aCWs1/",
    "timestamp": "2026-11-22T12:01:50+0000",
    "insights": {
-    "views": 2225,
-    "reach": 1421,
+    "views": 2226,
+    "reach": 1422,
     "shares": 0,
     "saved": 1,
     "total_interactions": 10
@@ -124,8 +156,8 @@
    "permalink": "https://www.instagram.com/reel/DgAxMKaGfUs/",
    "timestamp": "2026-11-21T17:29:40+0000",
    "insights": {
-    "views": 2358,
-    "reach": 1498,
+    "views": 2359,
+    "reach": 1499,
     "shares": 0,
     "saved": 0,
     "total_interactions": 12
@@ -156,8 +188,8 @@
    "permalink": "https://www.instagram.com/reel/Df96QpNE4ZX/",
    "timestamp": "2026-11-20T14:51:10+0000",
    "insights": {
-    "views": 3103,
-    "reach": 1993,
+    "views": 3104,
+    "reach": 1995,
     "shares": 1,
     "saved": 1,
     "total_interactions": 23
@@ -449,38 +481,6 @@
     "shares": 0,
     "saved": 0,
     "total_interactions": 1
-   }
-  },
-  {
-   "id": "18116362583332328",
-   "caption": "Courir ou attendre ? Seul 1.d6 ! gagne, tous les autres coups perdent (Stockfish",
-   "comments_count": 0,
-   "like_count": 1,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfkyNJfjJKb/",
-   "timestamp": "2026-11-10T20:39:49+0000",
-   "insights": {
-    "views": 202,
-    "reach": 166,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 1
-   }
-  },
-  {
-   "id": "18020833358959601",
-   "caption": "Tu aurais sacrifié le pion ? 👇 Seul 1.e6 ! gagne ; 1.d6 ? ne donne que nulle (St",
-   "comments_count": 0,
-   "like_count": 2,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfkXfcegtfu/",
-   "timestamp": "2026-11-10T16:46:19+0000",
-   "insights": {
-    "views": 188,
-    "reach": 142,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 2
    }
   }
  ],

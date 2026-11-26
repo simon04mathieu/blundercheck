@@ -132,3 +132,7 @@ threads OK : 1 abonnés, 30 publications, 0 statistiques refusées
 instagram OK : 6 abonnés, 30 publications, 0 statistiques refusées
 facebook OK : 0 abonnés, 30 publications, 30 statistiques refusées
 threads OK : 1 abonnés, 30 publications, 0 statistiques refusées
+### 2026-11-26 00:39 relevé
+instagram OK : 7 abonnés, 30 publications, 0 statistiques refusées
+facebook OK : 0 abonnés, 30 publications, 30 statistiques refusées
+threads OK : 1 abonnés, 30 publications, 0 statistiques refusées
