@@ -232,3 +232,5 @@ jeton Instagram EN renouvelé (valable 60 jours)
 {"reseau": "instagram-en", "id": "18418619602095399"}
 ### 2026-11-26 15:02 publications/instagram-en/perpetuel_e8_1.json
 {"reseau": "instagram-en", "id": "18451451377183864"}
+### 2026-11-26 18:04 publications/instagram-en/ne_pas_pater_e1_1.json
+{"reseau": "instagram-en", "id": "17937833607146429"}

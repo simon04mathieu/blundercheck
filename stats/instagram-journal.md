@@ -155,3 +155,5 @@
 {"reseau": "instagram", "id": "17883777096548019"}
 ### 2026-11-26 12:01 publications/instagram/tour_libre_f5_1_fr.json
 {"reseau": "instagram", "id": "18202377220392539"}
+### 2026-11-26 18:01 publications/instagram/dames_fou_g3_1_fr.json
+{"reseau": "instagram", "id": "17997431445119159"}

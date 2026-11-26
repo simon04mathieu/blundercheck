@@ -260,3 +260,5 @@
 {"reseau": "facebook", "id": "1536901248490087", "ok": true}
 ### 2026-11-26 15:01 publications/facebook/perpetuel_e8_1.json
 {"reseau": "facebook", "id": "3255373708001541", "ok": true}
+### 2026-11-26 18:01 publications/facebook/ne_pas_pater_e1_1.json
+{"reseau": "facebook", "id": "1006611802507071", "ok": true}
