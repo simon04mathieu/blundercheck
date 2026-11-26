@@ -1,5 +1,5 @@
 {
- "date": "2026-11-26T01:51:13.696354+00:00",
+ "date": "2026-11-26T02:01:10.862137+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -30,7 +30,7 @@
    "publiee": "2026-11-25T12:01:28Z",
    "statut": "public",
    "duree": "PT10S",
-   "vues": 11683,
+   "vues": 11846,
    "jaime": 15,
    "commentaires": 2
   },
@@ -39,7 +39,7 @@
    "publiee": "2026-11-25T09:01:34Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 5167,
+   "vues": 5214,
    "jaime": 18,
    "commentaires": 1
   },
@@ -48,7 +48,7 @@
    "publiee": "2026-11-24T18:01:26Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 28800,
+   "vues": 28835,
    "jaime": 56,
    "commentaires": 10
   },
@@ -66,7 +66,7 @@
    "publiee": "2026-11-24T12:01:32Z",
    "statut": "public",
    "duree": "PT13S",
-   "vues": 9019,
+   "vues": 9041,
    "jaime": 14,
    "commentaires": 3
   },
@@ -75,7 +75,7 @@
    "publiee": "2026-11-24T09:01:41Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 4120,
+   "vues": 4122,
    "jaime": 24,
    "commentaires": 1
   },
@@ -102,7 +102,7 @@
    "publiee": "2026-11-23T12:01:31Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 19731,
+   "vues": 19812,
    "jaime": 64,
    "commentaires": 4
   },
@@ -111,7 +111,7 @@
    "publiee": "2026-11-23T09:01:26Z",
    "statut": "public",
    "duree": "PT13S",
-   "vues": 2142,
+   "vues": 2143,
    "jaime": 12,
    "commentaires": 0
   },
@@ -120,7 +120,7 @@
    "publiee": "2026-11-22T18:01:44Z",
    "statut": "public",
    "duree": "PT13S",
-   "vues": 17411,
+   "vues": 17410,
    "jaime": 60,
    "commentaires": 4
   },
@@ -129,7 +129,7 @@
    "publiee": "2026-11-22T15:01:36Z",
    "statut": "public",
    "duree": "PT13S",
-   "vues": 5720,
+   "vues": 5725,
    "jaime": 19,
    "commentaires": 1
   },
@@ -147,7 +147,7 @@
    "publiee": "2026-11-22T09:02:55Z",
    "statut": "public",
    "duree": "PT14S",
-   "vues": 10106,
+   "vues": 10105,
    "jaime": 46,
    "commentaires": 2
   },
@@ -228,7 +228,7 @@
    "publiee": "2026-11-19T18:46:32Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 31027,
+   "vues": 31025,
    "jaime": 167,
    "commentaires": 2
   },
@@ -255,7 +255,7 @@
    "publiee": "2026-11-19T10:06:37Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 31115,
+   "vues": 31113,
    "jaime": 69,
    "commentaires": 0
   },
@@ -264,7 +264,7 @@
    "publiee": "2026-11-18T18:40:42Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 32657,
+   "vues": 32656,
    "jaime": 161,
    "commentaires": 24
   },
@@ -354,7 +354,7 @@
    "publiee": "2026-11-16T15:04:28Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 30903,
+   "vues": 30897,
    "jaime": 72,
    "commentaires": 4
   },
@@ -408,7 +408,7 @@
    "publiee": "2026-11-14T18:26:05Z",
    "statut": "public",
    "duree": "PT21S",
-   "vues": 8933,
+   "vues": 8929,
    "jaime": 56,
    "commentaires": 5
   },
@@ -444,7 +444,7 @@
    "publiee": "2026-11-13T18:37:16Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 4506,
+   "vues": 4505,
    "jaime": 32,
    "commentaires": 5
   },
@@ -507,7 +507,7 @@
    "publiee": "2026-11-12T10:00:41Z",
    "statut": "public",
    "duree": "PT30S",
-   "vues": 2134,
+   "vues": 2131,
    "jaime": 13,
    "commentaires": 4
   },
@@ -534,7 +534,7 @@
    "publiee": "2026-11-11T13:06:44Z",
    "statut": "public",
    "duree": "PT37S",
-   "vues": 1712,
+   "vues": 1711,
    "jaime": 25,
    "commentaires": 2
   },
@@ -579,7 +579,7 @@
    "publiee": "2026-11-10T14:13:20Z",
    "statut": "public",
    "duree": "PT44S",
-   "vues": 1384,
+   "vues": 1383,
    "jaime": 16,
    "commentaires": 3
   },
@@ -615,7 +615,7 @@
    "publiee": "2026-11-09T14:45:46Z",
    "statut": "public",
    "duree": "PT42S",
-   "vues": 2070,
+   "vues": 2069,
    "jaime": 32,
    "commentaires": 2
   },
@@ -714,7 +714,7 @@
    "publiee": "2026-11-06T16:38:54Z",
    "statut": "public",
    "duree": "PT43S",
-   "vues": 7955,
+   "vues": 7954,
    "jaime": 40,
    "commentaires": 1
   },
@@ -759,7 +759,7 @@
    "publiee": "2026-11-05T14:25:17Z",
    "statut": "public",
    "duree": "PT37S",
-   "vues": 3855,
+   "vues": 3854,
    "jaime": 14,
    "commentaires": 2
   },
@@ -1057,8 +1057,8 @@
    "statut": "public",
    "duree": "PT22S",
    "vues": 1028,
-   "jaime": 0,
-   "commentaires": 0
+   "jaime": 13,
+   "commentaires": 1
   },
   "tmo47GivqzQ": {
    "titre": "Le piège de la défense Owen : ta dame tombe, ton fou fait mat 🐦 #echecs #shorts",
