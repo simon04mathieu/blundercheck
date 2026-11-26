@@ -1,67 +1,67 @@
 {
  "nom": "dames_fou_g3_1_fr",
  "tempo": 1.0,
- "duree_s": 16.46,
+ "duree_s": 14.96,
  "hook": {
-  "texte": "Prendre,|ou échec ?",
-  "fin": 2.18
+  "texte": "Tu prends,|ou échec ?",
+  "fin": 1.94
  },
  "question": {
-  "texte": "Prendre,|ou échec ?",
-  "t": 13.26
+  "texte": "Tu prends,|ou échec ?",
+  "t": 11.76
  },
  "phrases": [
   {
    "t": 0.0,
-   "texte": "Prendre, ou échec ?"
+   "texte": "Tu prends, ou échec ?"
   },
   {
-   "t": 2.18,
+   "t": 1.94,
    "texte": "Échec !"
   },
   {
-   "t": 3.64,
+   "t": 2.78,
    "texte": "Fou en e5."
   },
   {
-   "t": 5.22,
+   "t": 4.78,
    "texte": "La dame le garde son roi doit s'écarter."
   },
   {
-   "t": 7.78,
+   "t": 7.34,
    "texte": "Puis dame prend dame."
   },
   {
-   "t": 9.64,
+   "t": 9.12,
    "texte": "Dame prend d'abord ?"
   },
   {
-   "t": 11.68,
+   "t": 10.68,
    "texte": "Seulement nulle."
   },
   {
-   "t": 13.2,
+   "t": 12.22,
    "texte": "Alors, quand deux dames sont en prise, demande-toi "
   }
  ],
  "coups": [
   {
-   "t": 0.9,
+   "t": 0.14,
    "coup": "Qg3",
    "badge": null
   },
   {
-   "t": 3.64,
+   "t": 1.94,
    "coup": "Be5+",
    "badge": "brillant"
   },
   {
-   "t": 6.76,
+   "t": 6.3,
    "coup": "Kg4",
    "badge": null
   },
   {
-   "t": 8.38,
+   "t": 8.06,
    "coup": "Qxg3+",
    "badge": "brillant"
   }
@@ -73,63 +73,63 @@
    "type": "position"
   },
   {
-   "t": 0.9,
+   "t": 0.14,
    "type": "coup"
   },
   {
-   "t": 0.9,
+   "t": 0.14,
    "type": "zoom"
   },
   {
-   "t": 1.18,
+   "t": 0.42,
    "type": "fleches"
   },
   {
-   "t": 1.18,
+   "t": 0.42,
    "type": "sticker"
   },
   {
-   "t": 3.64,
+   "t": 1.94,
    "type": "coup"
   },
   {
-   "t": 5.56,
+   "t": 5.08,
    "type": "fleches"
   },
   {
-   "t": 6.76,
+   "t": 6.3,
    "type": "coup"
   },
   {
-   "t": 8.38,
+   "t": 8.06,
    "type": "coup"
   },
   {
-   "t": 8.38,
+   "t": 8.06,
    "type": "zoom"
   },
   {
-   "t": 9.59,
+   "t": 9.07,
    "type": "position"
   },
   {
-   "t": 9.64,
+   "t": 9.12,
    "type": "sticker"
   },
   {
-   "t": 10.46,
+   "t": 9.72,
    "type": "fleches"
   },
   {
-   "t": 12.16,
+   "t": 11.24,
    "type": "sticker"
   },
   {
-   "t": 13.2,
+   "t": 12.22,
    "type": "fleches"
   },
   {
-   "t": 15.66,
+   "t": 14.26,
    "type": "sticker"
   }
  ],

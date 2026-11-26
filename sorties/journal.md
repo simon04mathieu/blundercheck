@@ -1382,3 +1382,8 @@
 ### commandes/perso_tour_libre_f5_1_fr.json
     voix générée : 187 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_libre_f5_1_fr.mp4 {"voix_brute_s": 14.8, "tempo": 1.0, "video_s": 14.8, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "kitty_down_the_stairs.mp3", "mots_transcrits": 41, "minutage": "7 phrases, 2 coups, 0 pauses"}
+## 2026-11-26 00:09 UTC · run 45726619805
+### commandes/perso_dames_fou_g3_1_fr.json
+    voix générée : 195 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/dames_fou_g3_1_fr.mp4 {"voix_brute_s": 15.2, "tempo": 1.0, "video_s": 15.2, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "zoobeedoo.mp3", "mots_transcrits": 43, "minutage": "8 phrases, 4 coups, 0 pauses"}
