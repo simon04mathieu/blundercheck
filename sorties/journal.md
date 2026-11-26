@@ -1373,3 +1373,6 @@
 ### commandes/perso_ne_pas_pater_e1_1.json
     voix générée : 136 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/ne_pas_pater_e1_1.mp4 {"voix_brute_s": 13.0, "tempo": 1.0, "video_s": 13.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "baby_animals_playing.mp3", "mots_transcrits": 26, "minutage": "6 phrases, 2 coups, 0 pauses"}
+### commandes/perso_perpetuel_e8_1.json
+    voix générée : 212 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/perpetuel_e8_1.mp4 {"voix_brute_s": 21.1, "tempo": 1.0, "video_s": 21.2, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "baby_animals_playing.mp3", "mots_transcrits": 40, "minutage": "11 phrases, 5 coups, 0 pauses"}

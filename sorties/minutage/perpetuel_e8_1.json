@@ -1,0 +1,166 @@
+{
+ "nom": "perpetuel_e8_1",
+ "tempo": 1.0,
+ "duree_s": 21.06,
+ "hook": {
+  "texte": "Defend,|or check?",
+  "fin": 1.24
+ },
+ "question": {
+  "texte": "Analyze your game|blundercheck.app/try",
+  "t": 17.86
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Defend, or check?"
+  },
+  {
+   "t": 1.24,
+   "texte": "Check!"
+  },
+  {
+   "t": 2.6,
+   "texte": "Queen to e8."
+  },
+  {
+   "t": 4.02,
+   "texte": "His king goes to a7."
+  },
+  {
+   "t": 6.16,
+   "texte": "Queen to a4 check!"
+  },
+  {
+   "t": 8.56,
+   "texte": "The king goes back."
+  },
+  {
+   "t": 10.96,
+   "texte": "Perpetual check: a draw."
+  },
+  {
+   "t": 12.78,
+   "texte": "Defend?"
+  },
+  {
+   "t": 14.04,
+   "texte": "He mates you."
+  },
+  {
+   "t": 15.52,
+   "texte": "Analyze your own game free."
+  },
+  {
+   "t": 17.94,
+   "texte": "So when mate is coming ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.34,
+   "coup": "Rf2",
+   "badge": null
+  },
+  {
+   "t": 2.6,
+   "coup": "Qe8+",
+   "badge": "brillant"
+  },
+  {
+   "t": 5.18,
+   "coup": "Ka7",
+   "badge": null
+  },
+  {
+   "t": 7.28,
+   "coup": "Qa4+",
+   "badge": "brillant"
+  },
+  {
+   "t": 9.7,
+   "coup": "Kb8",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.34,
+   "type": "coup"
+  },
+  {
+   "t": 0.34,
+   "type": "zoom"
+  },
+  {
+   "t": 0.9,
+   "type": "fleches"
+  },
+  {
+   "t": 0.9,
+   "type": "sticker"
+  },
+  {
+   "t": 2.6,
+   "type": "coup"
+  },
+  {
+   "t": 5.18,
+   "type": "coup"
+  },
+  {
+   "t": 7.28,
+   "type": "coup"
+  },
+  {
+   "t": 8.56,
+   "type": "zoom"
+  },
+  {
+   "t": 8.56,
+   "type": "sticker"
+  },
+  {
+   "t": 9.7,
+   "type": "coup"
+  },
+  {
+   "t": 10.96,
+   "type": "fleches"
+  },
+  {
+   "t": 11.44,
+   "type": "sticker"
+  },
+  {
+   "t": 12.73,
+   "type": "position"
+  },
+  {
+   "t": 14.04,
+   "type": "fleches"
+  },
+  {
+   "t": 14.92,
+   "type": "sticker"
+  },
+  {
+   "t": 16.84,
+   "type": "sticker"
+  },
+  {
+   "t": 19.3,
+   "type": "fleches"
+  },
+  {
+   "t": 19.98,
+   "type": "sticker"
+  }
+ ],
+ "musique": "baby_animals_playing.mp3"
+}
