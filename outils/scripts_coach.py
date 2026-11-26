@@ -2174,9 +2174,9 @@ _S = {
 "ne_pas_pater_e1_1": ("blancs", "Which move|wins?",
 """[p """ + E1A + """] Which [m Kh1] [z h1 1.3 2.0] move [f h1g1] [s tag g1 1.6 1_SQUARE_LEFT] wins? [h] Queen [m Qe1# mat] [x impact] to e1: [s tag h1 1.6 CHECKMATE] checkmate! [f e1g1] He has no square [s tag g1 1.4 NO_ESCAPE] left. [p """ + E1B + """] Queen [f e6g6] to g6? [s tag g6 1.6 STALEMATE] Stalemate, [z h1 1.3 2.0] a draw. [f e6e1] So when you're up a queen, [s tag h1 1.4 WHICH_MOVE_WINS?] ask yourself:"""),
 "tour_libre_f5_1_fr": ("blancs", "Tu la prends,|ou pas ?",
-"""[p """ + F5A + """] Tu la [m Rf5] [z f5 1.3 2.0] prends, [f h3f5] [s tag f5 1.6 TOUR_LIBRE_?] ou pas ? [h] Non ! [m Nf3# mat] [x impact] Cavalier en f3 : [s tag h1 1.6 MAT] mat ! La dame [f h3h1] donne échec, [s tag h2 1.6 ÉCHEC_DÉCOUVERT] et il n'a [z h1 1.3 2.0] aucune case. [p """ + F5B + """] Tu prends [f h3f5] la tour ? Sa dame [f f6f5] [s tag f5 1.6 DAME_PERDUE] prend la tienne. [f h3f5] Alors, quand une tour est libre, [s tag f5 1.4 TU_LA_PRENDS_?] demande-toi :"""),
-"dames_fou_g3_1_fr": ("blancs", "Prendre,|ou échec ?",
-"""[p """ + G3A + """] Prendre, [m Qg3] [z g3 1.3 2.0] ou [f g3e1 e1g3] [s tag g3 1.6 DEUX_EN_PRISE] échec ? [h] Échec ! [m Be5+ brillant] Fou en e5. La dame [f e1e5] le garde, son roi [m Kg4] doit s'écarter. Puis dame [m Qxg3+ brillant] [z g3 1.3 2.0] prend dame. [s tag g3 1.6 DAME_GAGNÉE] [x ding] [p """ + G3B + """] Dame prend [f e1g3] d'abord ? Seulement [s tag f4 1.6 SEULEMENT_NULLE] nulle. [f g3e1 e1g3] Alors, quand deux dames sont en prise, [s tag g3 1.4 PRENDRE_OU_ÉCHEC_?] demande-toi :"""),
+"""[p """ + F5A + """] Tu la [m Rf5] [z f5 1.3 2.0] prends, [f h3f5] [s tag f5 1.6 TOUR_LIBRE_?] ou pas ? [h] [m Nf3# mat] [x impact] Non ! Cavalier en f3 : [s tag h1 1.6 MAT] mat ! La dame [f h3h1] donne échec, [s tag h2 1.6 ÉCHEC_DÉCOUVERT] et il n'a [z h1 1.3 2.0] aucune case. [p """ + F5B + """] Tu prends [f h3f5] la tour ? Sa dame [f f6f5] [s tag f5 1.6 DAME_PERDUE] prend la tienne. [f h3f5] Alors, quand une tour est libre, [s tag f5 1.4 TU_LA_PRENDS_?] demande-toi :"""),
+"dames_fou_g3_1_fr": ("blancs", "Tu prends,|ou échec ?",
+"""[p """ + G3A + """] Tu [m Qg3] [z g3 1.3 2.0] prends, [f g3e1 e1g3] [s tag g3 1.6 DEUX_EN_PRISE] ou échec ? [h] [m Be5+ brillant] Échec ! Fou en e5. La dame [f e1e5] le garde, son roi [m Kg4] doit s'écarter. Puis dame [m Qxg3+ brillant] [z g3 1.3 2.0] prend dame. [s tag g3 1.6 DAME_GAGNÉE] [x ding] [p """ + G3B + """] Dame prend [f e1g3] d'abord ? Seulement [s tag f4 1.6 SEULEMENT_NULLE] nulle. [f g3e1 e1g3] Alors, quand deux dames sont en prise, [s tag g3 1.4 TU_PRENDS_?] demande-toi :"""),
 }
 PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
 QUESTIONS.update({
@@ -2185,5 +2185,5 @@ QUESTIONS.update({
     "perpetuel_e8_1": "Analyze your game|blundercheck.app/try",
     "ne_pas_pater_e1_1": "Which move|wins?",
     "tour_libre_f5_1_fr": "Tu la prends,|ou pas ?",
-    "dames_fou_g3_1_fr": "Prendre,|ou échec ?",
+    "dames_fou_g3_1_fr": "Tu prends,|ou échec ?",
 })
