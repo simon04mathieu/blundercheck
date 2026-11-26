@@ -1,0 +1,123 @@
+{
+ "nom": "tour_libre_f5_1_fr",
+ "tempo": 1.0,
+ "duree_s": 14.92,
+ "hook": {
+  "texte": "Tu la prends,|ou pas ?",
+  "fin": 2.04
+ },
+ "question": {
+  "texte": "Tu la prends,|ou pas ?",
+  "t": 11.72
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Tu la prends ou pas ?"
+  },
+  {
+   "t": 2.04,
+   "texte": "Non !"
+  },
+  {
+   "t": 3.18,
+   "texte": "Cavalier en f3  mat !"
+  },
+  {
+   "t": 5.52,
+   "texte": "La dame donne échec et il n'a aucune case."
+  },
+  {
+   "t": 8.78,
+   "texte": "Tu prends la tour ?"
+  },
+  {
+   "t": 10.08,
+   "texte": "Sa dame prend la tienne."
+  },
+  {
+   "t": 12.22,
+   "texte": "Alors, quand une tour est libre demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.38,
+   "coup": "Rf5",
+   "badge": null
+  },
+  {
+   "t": 3.18,
+   "coup": "Nf3#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.38,
+   "type": "coup"
+  },
+  {
+   "t": 0.38,
+   "type": "zoom"
+  },
+  {
+   "t": 0.62,
+   "type": "fleches"
+  },
+  {
+   "t": 0.62,
+   "type": "sticker"
+  },
+  {
+   "t": 3.18,
+   "type": "coup"
+  },
+  {
+   "t": 4.73,
+   "type": "sticker"
+  },
+  {
+   "t": 5.92,
+   "type": "fleches"
+  },
+  {
+   "t": 6.54,
+   "type": "sticker"
+  },
+  {
+   "t": 7.18,
+   "type": "zoom"
+  },
+  {
+   "t": 8.73,
+   "type": "position"
+  },
+  {
+   "t": 9.16,
+   "type": "fleches"
+  },
+  {
+   "t": 10.48,
+   "type": "fleches"
+  },
+  {
+   "t": 10.48,
+   "type": "sticker"
+  },
+  {
+   "t": 12.22,
+   "type": "fleches"
+  },
+  {
+   "t": 14.16,
+   "type": "sticker"
+  }
+ ],
+ "musique": "kitty_down_the_stairs.mp3"
+}

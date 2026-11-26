@@ -1379,3 +1379,6 @@
 ### commandes/perso_tour_libre_f5_1.json
     voix générée : 172 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_libre_f5_1.mp4 {"voix_brute_s": 14.7, "tempo": 1.0, "video_s": 14.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "corny_candy.mp3", "mots_transcrits": 33, "minutage": "7 phrases, 2 coups, 0 pauses"}
+### commandes/perso_tour_libre_f5_1_fr.json
+    voix générée : 187 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/tour_libre_f5_1_fr.mp4 {"voix_brute_s": 14.8, "tempo": 1.0, "video_s": 14.8, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "kitty_down_the_stairs.mp3", "mots_transcrits": 41, "minutage": "7 phrases, 2 coups, 0 pauses"}
