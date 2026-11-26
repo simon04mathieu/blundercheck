@@ -1,0 +1,137 @@
+{
+ "nom": "dames_fou_g3_1_fr",
+ "tempo": 1.0,
+ "duree_s": 16.46,
+ "hook": {
+  "texte": "Prendre,|ou échec ?",
+  "fin": 2.18
+ },
+ "question": {
+  "texte": "Prendre,|ou échec ?",
+  "t": 13.26
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Prendre, ou échec ?"
+  },
+  {
+   "t": 2.18,
+   "texte": "Échec !"
+  },
+  {
+   "t": 3.64,
+   "texte": "Fou en e5."
+  },
+  {
+   "t": 5.22,
+   "texte": "La dame le garde son roi doit s'écarter."
+  },
+  {
+   "t": 7.78,
+   "texte": "Puis dame prend dame."
+  },
+  {
+   "t": 9.64,
+   "texte": "Dame prend d'abord ?"
+  },
+  {
+   "t": 11.68,
+   "texte": "Seulement nulle."
+  },
+  {
+   "t": 13.2,
+   "texte": "Alors, quand deux dames sont en prise, demande-toi "
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.9,
+   "coup": "Qg3",
+   "badge": null
+  },
+  {
+   "t": 3.64,
+   "coup": "Be5+",
+   "badge": "brillant"
+  },
+  {
+   "t": 6.76,
+   "coup": "Kg4",
+   "badge": null
+  },
+  {
+   "t": 8.38,
+   "coup": "Qxg3+",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.9,
+   "type": "coup"
+  },
+  {
+   "t": 0.9,
+   "type": "zoom"
+  },
+  {
+   "t": 1.18,
+   "type": "fleches"
+  },
+  {
+   "t": 1.18,
+   "type": "sticker"
+  },
+  {
+   "t": 3.64,
+   "type": "coup"
+  },
+  {
+   "t": 5.56,
+   "type": "fleches"
+  },
+  {
+   "t": 6.76,
+   "type": "coup"
+  },
+  {
+   "t": 8.38,
+   "type": "coup"
+  },
+  {
+   "t": 8.38,
+   "type": "zoom"
+  },
+  {
+   "t": 9.59,
+   "type": "position"
+  },
+  {
+   "t": 9.64,
+   "type": "sticker"
+  },
+  {
+   "t": 10.46,
+   "type": "fleches"
+  },
+  {
+   "t": 12.16,
+   "type": "sticker"
+  },
+  {
+   "t": 13.2,
+   "type": "fleches"
+  },
+  {
+   "t": 15.66,
+   "type": "sticker"
+  }
+ ],
+ "musique": "zoobeedoo.mp3"
+}
