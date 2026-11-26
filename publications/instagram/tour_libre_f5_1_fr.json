@@ -1,0 +1,28 @@
+{
+ "legende": "Une tour libre en f5. Tu la prends ? 👇 1.Cf3# ! Le cavalier part, la dame donne échec : mat. 1.Dxf5 ? Dxf5 et tu perds ta dame (Stockfish 16, position composée). Un défi d'échecs par jour.\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-26T13:00:00+01:00",
+ "fichier": "sorties/tour_libre_f5_1_fr.mp4",
+ "concept": "tour_libre_f5",
+ "format": "TACTIQUE",
+ "langue": "fr",
+ "duree": 14.92,
+ "voix": "oui",
+ "paire": "tour_libre_f5_1",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "fr",
+  "duree_s": 15,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "tour_libre_f5",
+  "niveau": "1200-2000",
+  "hook": "coup_noir_0.3s+zoom+fleche+tag+tactique_avant_3s",
+  "interet": "mater",
+  "pieces": 6,
+  "look": "bois",
+  "fx": "fleches+zoom+tag+impact"
+ }
+}

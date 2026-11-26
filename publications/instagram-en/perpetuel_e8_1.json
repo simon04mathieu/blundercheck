@@ -1,0 +1,27 @@
+{
+ "legende": "Mate is coming. Defend, or check? 👇 1.Qe8+! Ka7 2.Qa4+ Kb8 and White repeats: perpetual check, a draw. Any other move loses to the mate threat (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-26T16:00:00+01:00",
+ "fichier": "sorties/perpetuel_e8_1.mp4",
+ "concept": "perpetuel_e8",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 21.06,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 21,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "oui",
+  "fin": "boucle",
+  "motif": "perpetuel_e8",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+zoom+fleche+tag+tactique_avant_3s",
+  "interet": "sauver_la_partie",
+  "pieces": 8,
+  "look": "papier",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

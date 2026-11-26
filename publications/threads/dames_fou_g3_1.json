@@ -1,0 +1,27 @@
+{
+ "legende": "Your queen hangs too. Take, or check? 👇 1.Be5+! The queen guards the bishop, his king steps away, then 2.Qxg3+ wins the queen. 1.Qxg3+? Kxg3 is only a draw (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-26T10:00:00+01:00",
+ "fichier": "sorties/dames_fou_g3_1.mp4",
+ "concept": "dames_fou_g3",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 16.06,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 16,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "dames_fou_g3",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+zoom+fleche+tag+tactique_avant_3s",
+  "interet": "gagner_la_dame",
+  "pieces": 5,
+  "look": "emeraude",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

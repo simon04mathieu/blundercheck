@@ -1,0 +1,34 @@
+{
+ "titre": "Free rook on f5. Take it, or not? ♟️ #chess #shorts",
+ "description": "Free rook on f5. Take it, or not? 👇 1.Nf3#! The knight moves and the queen gives check: checkmate. 1.Qxf5? Qxf5 loses your queen (Stockfish 16, composed position). One new puzzle every day.\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "chess tactics",
+  "chess puzzle",
+  "checkmate"
+ ],
+ "envoyer_apres": "2026-11-26T13:00:00+01:00",
+ "fichier": "sorties/tour_libre_f5_1.mp4",
+ "concept": "tour_libre_f5",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 14.74,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 15,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "tour_libre_f5",
+  "niveau": "1200-2000",
+  "hook": "coup_noir_0.3s+zoom+fleche+tag+tactique_avant_3s",
+  "interet": "mater",
+  "pieces": 6,
+  "look": "corail",
+  "fx": "fleches+zoom+tag+impact"
+ }
+}

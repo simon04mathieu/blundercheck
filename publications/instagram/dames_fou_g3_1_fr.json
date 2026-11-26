@@ -1,0 +1,28 @@
+{
+ "legende": "Dame contre dame. Tu prends, ou échec ? 👇 1.Fe5+ ! La dame garde le fou, son roi s'écarte, puis 2.Dxg3+ gagne la dame. 1.Dxg3+ ? Rxg3 et c'est nulle (Stockfish 16, position composée). Un défi d'échecs par jour.\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-26T19:00:00+01:00",
+ "fichier": "sorties/dames_fou_g3_1_fr.mp4",
+ "concept": "dames_fou_g3",
+ "format": "TACTIQUE",
+ "langue": "fr",
+ "duree": 14.96,
+ "voix": "oui",
+ "paire": "dames_fou_g3_1",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "fr",
+  "duree_s": 15,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "dames_fou_g3",
+  "niveau": "1400-2000",
+  "hook": "coup_noir_0.3s+zoom+fleche+tag+tactique_avant_3s",
+  "interet": "gagner_la_dame",
+  "pieces": 5,
+  "look": "mono",
+  "fx": "fleches+zoom+tag+ding"
+ }
+}

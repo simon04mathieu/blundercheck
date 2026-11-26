@@ -1,0 +1,27 @@
+{
+ "legende": "One slip is stalemate. Which move wins? 👇 1.Qe1# is checkmate. 1.Qg6? 1.Qg4? 1.Qe3? are all stalemate, only a draw (composed position, python-chess checked). One new puzzle every day.\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-26T19:00:00+01:00",
+ "fichier": "sorties/ne_pas_pater_e1_1.mp4",
+ "concept": "ne_pas_pater_e1",
+ "format": "FINALE",
+ "langue": "en",
+ "duree": 13.24,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "FINALE",
+  "categorie": "finale",
+  "langue": "en",
+  "duree_s": 13,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "ne_pas_pater_e1",
+  "niveau": "1000-1800",
+  "hook": "coup_noir_0.3s+zoom+fleche+tag+tactique_avant_3s",
+  "interet": "mater_sans_pat",
+  "pieces": 3,
+  "look": "ardoise",
+  "fx": "fleches+zoom+tag+impact"
+ }
+}
