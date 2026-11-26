@@ -42,7 +42,7 @@
  ],
  "coups": [
   {
-   "t": 0.24,
+   "t": 0.3,
    "coup": "Rf5",
    "badge": null
   },
@@ -59,11 +59,11 @@
    "type": "position"
   },
   {
-   "t": 0.24,
+   "t": 0.3,
    "type": "coup"
   },
   {
-   "t": 0.24,
+   "t": 0.3,
    "type": "zoom"
   },
   {

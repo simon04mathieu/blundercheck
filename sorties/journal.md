@@ -1403,3 +1403,6 @@
 ### commandes/perso_ne_pas_pater_e1_1.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/ne_pas_pater_e1_1.mp4 {"voix_brute_s": 13.0, "tempo": 1.0, "video_s": 13.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "baby_animals_playing.mp3", "mots_transcrits": 26, "minutage": "6 phrases, 2 coups, 0 pauses"}
+### commandes/perso_tour_libre_f5_1.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/tour_libre_f5_1.mp4 {"voix_brute_s": 14.7, "tempo": 1.0, "video_s": 14.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "corny_candy.mp3", "mots_transcrits": 33, "minutage": "7 phrases, 2 coups, 0 pauses"}
