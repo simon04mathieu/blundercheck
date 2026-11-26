@@ -1,0 +1,127 @@
+{
+ "nom": "tour_libre_f5_1",
+ "tempo": 1.0,
+ "duree_s": 14.74,
+ "hook": {
+  "texte": "Take it,|or not?",
+  "fin": 2.1
+ },
+ "question": {
+  "texte": "Take it,|or not?",
+  "t": 11.54
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take it, or not?"
+  },
+  {
+   "t": 2.1,
+   "texte": "Don't!"
+  },
+  {
+   "t": 2.94,
+   "texte": "Knight to f3 checkmate!"
+  },
+  {
+   "t": 5.66,
+   "texte": "The queen gives check and he has no escape."
+  },
+  {
+   "t": 8.86,
+   "texte": "Take the rook?"
+  },
+  {
+   "t": 10.26,
+   "texte": "His queen takes yours."
+  },
+  {
+   "t": 12.18,
+   "texte": "So when a rook looks free ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.24,
+   "coup": "Rf5",
+   "badge": null
+  },
+  {
+   "t": 2.94,
+   "coup": "Nf3#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.24,
+   "type": "coup"
+  },
+  {
+   "t": 0.24,
+   "type": "zoom"
+  },
+  {
+   "t": 0.82,
+   "type": "fleches"
+  },
+  {
+   "t": 0.82,
+   "type": "sticker"
+  },
+  {
+   "t": 2.94,
+   "type": "coup"
+  },
+  {
+   "t": 4.32,
+   "type": "sticker"
+  },
+  {
+   "t": 5.98,
+   "type": "fleches"
+  },
+  {
+   "t": 6.68,
+   "type": "sticker"
+  },
+  {
+   "t": 7.6,
+   "type": "zoom"
+  },
+  {
+   "t": 8.81,
+   "type": "position"
+  },
+  {
+   "t": 8.86,
+   "type": "sticker"
+  },
+  {
+   "t": 10.26,
+   "type": "fleches"
+  },
+  {
+   "t": 10.7,
+   "type": "fleches"
+  },
+  {
+   "t": 10.7,
+   "type": "sticker"
+  },
+  {
+   "t": 12.18,
+   "type": "fleches"
+  },
+  {
+   "t": 13.92,
+   "type": "sticker"
+  }
+ ],
+ "musique": "corny_candy.mp3"
+}
