@@ -1841,3 +1841,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "178"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "178"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "179"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "179"}
+### 2026-11-26 18:01 publications/youtube/ne_pas_pater_e1_1.json
+{"id": "GF8yGR85RQY", "url": "https://www.youtube.com/shorts/GF8yGR85RQY", "statut": "public", "publier_le": null}
