@@ -1,5 +1,5 @@
 {
- "date": "2026-11-26T17:31:15.028512+00:00",
+ "date": "2026-11-26T17:41:06.869450+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -12,7 +12,7 @@
    "publiee": "2026-11-26T15:01:34Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 939,
+   "vues": 966,
    "jaime": 8,
    "commentaires": 0
   },
@@ -21,8 +21,8 @@
    "publiee": "2026-11-26T12:01:25Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 4194,
-   "jaime": 31,
+   "vues": 4275,
+   "jaime": 33,
    "commentaires": 1
   },
   "Dx9K3NQw4a8": {
@@ -30,7 +30,7 @@
    "publiee": "2026-11-26T09:01:28Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 1648,
+   "vues": 1700,
    "jaime": 2,
    "commentaires": 1
   },
@@ -39,7 +39,7 @@
    "publiee": "2026-11-25T18:01:35Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 5118,
+   "vues": 5371,
    "jaime": 14,
    "commentaires": 2
   },
@@ -48,7 +48,7 @@
    "publiee": "2026-11-25T15:01:26Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 2495,
+   "vues": 2505,
    "jaime": 17,
    "commentaires": 1
   },
@@ -57,7 +57,7 @@
    "publiee": "2026-11-25T12:01:28Z",
    "statut": "public",
    "duree": "PT10S",
-   "vues": 18096,
+   "vues": 18205,
    "jaime": 25,
    "commentaires": 7
   },
@@ -66,8 +66,8 @@
    "publiee": "2026-11-25T09:01:34Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 6973,
-   "jaime": 26,
+   "vues": 7008,
+   "jaime": 27,
    "commentaires": 1
   },
   "CXGGKAkDs90": {
@@ -84,7 +84,7 @@
    "publiee": "2026-11-24T15:01:34Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 8076,
+   "vues": 8155,
    "jaime": 23,
    "commentaires": 6
   },
@@ -102,7 +102,7 @@
    "publiee": "2026-11-24T09:01:41Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 4512,
+   "vues": 4519,
    "jaime": 27,
    "commentaires": 1
   },
@@ -138,7 +138,7 @@
    "publiee": "2026-11-23T09:01:26Z",
    "statut": "public",
    "duree": "PT13S",
-   "vues": 2984,
+   "vues": 3011,
    "jaime": 15,
    "commentaires": 0
   },
