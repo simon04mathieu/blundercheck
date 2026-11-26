@@ -1395,3 +1395,8 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/dames_fou_g3_1_fr.mp4 {"voix_brute_s": 15.2, "tempo": 1.0, "video_s": 15.2, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "zoobeedoo.mp3", "mots_transcrits": 38, "minutage": "8 phrases, 4 coups, 0 pauses"}
+## 2026-11-26 11:03 UTC · run 45806993524
+### commandes/perso_dames_fou_g3_1_fr.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/dames_fou_g3_1_fr.mp4 {"voix_brute_s": 15.2, "tempo": 1.0, "video_s": 15.2, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "zoobeedoo.mp3", "mots_transcrits": 43, "minutage": "8 phrases, 4 coups, 0 pauses"}

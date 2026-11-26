@@ -4,7 +4,7 @@
  "duree_s": 14.96,
  "hook": {
   "texte": "Tu prends,|ou échec ?",
-  "fin": 1.8
+  "fin": 1.94
  },
  "question": {
   "texte": "Tu prends,|ou échec ?",
@@ -16,7 +16,7 @@
    "texte": "Tu prends, ou échec ?"
   },
   {
-   "t": 1.8,
+   "t": 1.94,
    "texte": "Échec !"
   },
   {
@@ -24,7 +24,7 @@
    "texte": "Fou en e5."
   },
   {
-   "t": 4.72,
+   "t": 4.78,
    "texte": "La dame le garde son roi doit s'écarter."
   },
   {
@@ -32,7 +32,7 @@
    "texte": "Puis dame prend dame."
   },
   {
-   "t": 9.1,
+   "t": 9.12,
    "texte": "Dame prend d'abord ?"
   },
   {
@@ -40,18 +40,18 @@
    "texte": "Seulement nulle."
   },
   {
-   "t": 12.24,
+   "t": 12.22,
    "texte": "Alors, quand deux dames sont en prise, demande-toi "
   }
  ],
  "coups": [
   {
-   "t": 0.44,
+   "t": 0.4,
    "coup": "Qg3",
    "badge": null
   },
   {
-   "t": 1.8,
+   "t": 1.94,
    "coup": "Be5+",
    "badge": "brillant"
   },
@@ -73,11 +73,11 @@
    "type": "position"
   },
   {
-   "t": 0.44,
+   "t": 0.4,
    "type": "coup"
   },
   {
-   "t": 0.44,
+   "t": 0.4,
    "type": "zoom"
   },
   {
@@ -89,7 +89,7 @@
    "type": "sticker"
   },
   {
-   "t": 1.8,
+   "t": 1.94,
    "type": "coup"
   },
   {
@@ -113,11 +113,11 @@
    "type": "zoom"
   },
   {
-   "t": 9.05,
+   "t": 9.07,
    "type": "position"
   },
   {
-   "t": 9.1,
+   "t": 9.12,
    "type": "sticker"
   },
   {
@@ -129,11 +129,11 @@
    "type": "sticker"
   },
   {
-   "t": 12.24,
+   "t": 12.22,
    "type": "fleches"
   },
   {
-   "t": 14.22,
+   "t": 14.26,
    "type": "sticker"
   }
  ],
