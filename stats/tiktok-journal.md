@@ -1591,3 +1591,4 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"publish_id": "v_inbox_file~v2.7712266440279263254", "mode": "brouillon", "vie_privee": null, "legende": "Une tour libre en f5. Tu la prends ? 👇 1.Cf3# ! Le cavalier part, la dame donne échec : mat. 1.Dxf5 ? Dxf5 et tu perds ta dame (Stockfish 16, position composée). Un défi d'échecs par jour.\n\nÉcris ton coup en commentaire, puis abonne-toi pour celui de demain.\n\n#echecs #chess #echecsfr #chesstok #puzzle"}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
