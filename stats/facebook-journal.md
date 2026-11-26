@@ -256,3 +256,5 @@
 {"reseau": "facebook", "id": "1577297287757660", "ok": true}
 ### 2026-11-26 09:01 publications/facebook/dames_fou_g3_1.json
 {"reseau": "facebook", "id": "2994272570926961", "ok": true}
+### 2026-11-26 12:02 publications/facebook/tour_libre_f5_1.json
+{"reseau": "facebook", "id": "1536901248490087", "ok": true}
