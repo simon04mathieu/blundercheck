@@ -2176,7 +2176,7 @@ _S = {
 "tour_libre_f5_1_fr": ("blancs", "Tu la prends,|ou pas ?",
 """[p """ + F5A + """] Tu la [m Rf5] [z f5 1.3 2.0] prends, [f h3f5] [s tag f5 1.6 TOUR_LIBRE_?] ou pas ? [h] [m Nf3# mat] [x impact] Non ! Cavalier en f3 : [s tag h1 1.6 MAT] mat ! La dame [f h3h1] donne échec, [s tag h2 1.6 ÉCHEC_DÉCOUVERT] et il n'a [z h1 1.3 2.0] aucune case. [p """ + F5B + """] Tu prends [f h3f5] la tour ? Sa dame [f f6f5] [s tag f5 1.6 DAME_PERDUE] prend la tienne. [f h3f5] Alors, quand une tour est libre, [s tag f5 1.4 TU_LA_PRENDS_?] demande-toi :"""),
 "dames_fou_g3_1_fr": ("blancs", "Tu prends,|ou échec ?",
-"""[p """ + G3A + """] Tu [m Qg3] [z g3 1.3 2.0] prends, [f g3e1 e1g3] [s tag g3 1.6 DEUX_EN_PRISE] ou échec ? [h] [m Be5+ brillant] Échec ! Fou en e5. La dame [f e1e5] le garde, son roi [m Kg4] doit s'écarter. Puis dame [m Qxg3+ brillant] [z g3 1.3 2.0] prend dame. [s tag g3 1.6 DAME_GAGNÉE] [x ding] [p """ + G3B + """] Dame prend [f e1g3] d'abord ? Seulement [s tag f4 1.6 SEULEMENT_NULLE] nulle. [f g3e1 e1g3] Alors, quand deux dames sont en prise, [s tag g3 1.4 TU_PRENDS_?] demande-toi :"""),
+"""[p """ + G3A + """] Tu prends, [m Qg3] [z g3 1.3 2.0] ou [f g3e1 e1g3] [s tag g3 1.6 DEUX_EN_PRISE] échec ? [h] [m Be5+ brillant] Échec ! [f e5f4] Fou en e5. La dame [f e1e5] le garde, son roi [m Kg4] doit s'écarter. Puis dame [m Qxg3+ brillant] [z g3 1.3 2.0] prend dame. [s tag g3 1.6 DAME_GAGNÉE] [x ding] [p """ + G3B + """] Dame prend [f e1g3] d'abord ? Seulement [s tag f4 1.6 SEULEMENT_NULLE] nulle. [f g3e1 e1g3] Alors, quand deux dames sont en prise, [s tag g3 1.4 TU_PRENDS_?] demande-toi :"""),
 }
 PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
 QUESTIONS.update({
