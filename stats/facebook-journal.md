@@ -258,3 +258,5 @@
 {"reseau": "facebook", "id": "2994272570926961", "ok": true}
 ### 2026-11-26 12:02 publications/facebook/tour_libre_f5_1.json
 {"reseau": "facebook", "id": "1536901248490087", "ok": true}
+### 2026-11-26 15:01 publications/facebook/perpetuel_e8_1.json
+{"reseau": "facebook", "id": "3255373708001541", "ok": true}
