@@ -1,0 +1,115 @@
+{
+ "nom": "ne_pas_pater_e1_1",
+ "tempo": 1.0,
+ "duree_s": 13.24,
+ "hook": {
+  "texte": "Which move|wins?",
+  "fin": 1.74
+ },
+ "question": {
+  "texte": "Which move|wins?",
+  "t": 10.04
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which move wins?"
+  },
+  {
+   "t": 1.74,
+   "texte": "Queen to e1 checkmate!"
+  },
+  {
+   "t": 4.34,
+   "texte": "He has no square left."
+  },
+  {
+   "t": 6.18,
+   "texte": "Queen to g6?"
+  },
+  {
+   "t": 8.0,
+   "texte": "Stalemate, a draw."
+  },
+  {
+   "t": 10.44,
+   "texte": "So when you're up a queen ask yourself"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.22,
+   "coup": "Kh1",
+   "badge": null
+  },
+  {
+   "t": 1.98,
+   "coup": "Qe1#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.22,
+   "type": "coup"
+  },
+  {
+   "t": 0.22,
+   "type": "zoom"
+  },
+  {
+   "t": 0.54,
+   "type": "fleches"
+  },
+  {
+   "t": 0.54,
+   "type": "sticker"
+  },
+  {
+   "t": 1.98,
+   "type": "coup"
+  },
+  {
+   "t": 3.18,
+   "type": "sticker"
+  },
+  {
+   "t": 4.34,
+   "type": "fleches"
+  },
+  {
+   "t": 5.04,
+   "type": "sticker"
+  },
+  {
+   "t": 6.13,
+   "type": "position"
+  },
+  {
+   "t": 6.56,
+   "type": "fleches"
+  },
+  {
+   "t": 8.0,
+   "type": "sticker"
+  },
+  {
+   "t": 9.04,
+   "type": "zoom"
+  },
+  {
+   "t": 10.44,
+   "type": "fleches"
+  },
+  {
+   "t": 12.14,
+   "type": "sticker"
+  }
+ ],
+ "musique": "baby_animals_playing.mp3"
+}

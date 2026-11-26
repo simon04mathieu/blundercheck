@@ -1370,3 +1370,6 @@
 ### commandes/perso_dames_fou_g3_1_fr.json
     voix générée : 193 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/dames_fou_g3_1_fr.mp4 {"voix_brute_s": 17.0, "tempo": 1.0, "video_s": 17.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "zoobeedoo.mp3", "mots_transcrits": 37, "minutage": "8 phrases, 4 coups, 0 pauses"}
+### commandes/perso_ne_pas_pater_e1_1.json
+    voix générée : 136 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/ne_pas_pater_e1_1.mp4 {"voix_brute_s": 13.0, "tempo": 1.0, "video_s": 13.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "baby_animals_playing.mp3", "mots_transcrits": 26, "minutage": "6 phrases, 2 coups, 0 pauses"}
