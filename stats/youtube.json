@@ -1,5 +1,5 @@
 {
- "date": "2026-11-26T16:21:12.125289+00:00",
+ "date": "2026-11-26T16:31:10.795350+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -12,8 +12,8 @@
    "publiee": "2026-11-26T15:01:34Z",
    "statut": "public",
    "duree": "PT22S",
-   "vues": 263,
-   "jaime": 3,
+   "vues": 316,
+   "jaime": 4,
    "commentaires": 0
   },
   "u2KmfIyeHuc": {
@@ -21,8 +21,8 @@
    "publiee": "2026-11-26T12:01:25Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 2993,
-   "jaime": 23,
+   "vues": 3167,
+   "jaime": 24,
    "commentaires": 1
   },
   "Dx9K3NQw4a8": {
@@ -30,7 +30,7 @@
    "publiee": "2026-11-26T09:01:28Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 1510,
+   "vues": 1539,
    "jaime": 2,
    "commentaires": 0
   },
@@ -39,7 +39,7 @@
    "publiee": "2026-11-25T18:01:35Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 4070,
+   "vues": 4208,
    "jaime": 12,
    "commentaires": 2
   },
@@ -48,7 +48,7 @@
    "publiee": "2026-11-25T15:01:26Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 2316,
+   "vues": 2356,
    "jaime": 16,
    "commentaires": 1
   },
@@ -57,7 +57,7 @@
    "publiee": "2026-11-25T12:01:28Z",
    "statut": "public",
    "duree": "PT10S",
-   "vues": 16744,
+   "vues": 16995,
    "jaime": 23,
    "commentaires": 7
   },
@@ -75,7 +75,7 @@
    "publiee": "2026-11-24T18:01:26Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 28999,
+   "vues": 28992,
    "jaime": 55,
    "commentaires": 10
   },
@@ -84,7 +84,7 @@
    "publiee": "2026-11-24T15:01:34Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 7749,
+   "vues": 7771,
    "jaime": 23,
    "commentaires": 6
   },
@@ -138,7 +138,7 @@
    "publiee": "2026-11-23T09:01:26Z",
    "statut": "public",
    "duree": "PT13S",
-   "vues": 2816,
+   "vues": 2847,
    "jaime": 15,
    "commentaires": 0
   },
@@ -309,7 +309,7 @@
    "publiee": "2026-11-18T12:03:12Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 31178,
+   "vues": 31180,
    "jaime": 186,
    "commentaires": 20
   },
