@@ -1440,3 +1440,6 @@
 ### commandes/perso_six_echecs_b2_1.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/six_echecs_b2_1.mp4 {"voix_brute_s": 13.0, "tempo": 1.0, "video_s": 13.1, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "baby_animals_playing.mp3", "mots_transcrits": 25, "minutage": "7 phrases, 6 coups, 0 pauses"}
+### commandes/perso_un_cavalier_chacun_c7_1.json
+    voix générée : 105 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/un_cavalier_chacun_c7_1.mp4 {"voix_brute_s": 10.3, "tempo": 1.0, "video_s": 10.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "kitty_down_the_stairs.mp3", "mots_transcrits": 19, "minutage": "5 phrases, 2 coups, 0 pauses"}
