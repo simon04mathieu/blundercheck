@@ -1672,3 +1672,12 @@ Reference&#32;&#35;102&#46;6f0a655f&#46;1793553129&#46;b4e5bff
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 69, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 69, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 69, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 69, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-27 00:17 publications/tiktok-en/cavalier_double_e3_1.json
+{"publish_id": "v_inbox_file~v2.7712638452583548950", "mode": "brouillon", "vie_privee": null, "legende": "A knight hangs twice. Which one takes? 👇 1.Qxe3# is mate. 1.Bxe3? is stalemate (composed position). One new puzzle every day.\n\nMissed it? Follow, you'll get the next one.\n\n#chess #chesstactics #chesspuzzle #chesstok #chessgame"}
+### 2026-11-27 00:17 publications/tiktok-en/fausse_fourchette_b6_1.json
+ÉCHEC : TikTok PUT https://open-upload-i18n.tiktokapis.com/upload -> 404 : null
+### 2026-11-27 00:17 publications/tiktok-en/six_echecs_b2_1.json
+{"publish_id": "v_inbox_file~v2.7712638263814719510", "mode": "brouillon", "vie_privee": null, "legende": "Six checks. Which one ends it? 👇 1.Qb2# is the only mate. 1.Qa1+? and 1.Qc4+? only draw (composed position). One new puzzle every day. Analyze your own game: blundercheck.app/try\n\nGot it in 3 seconds? Follow and prove it tomorrow.\n\n#chess #chesstactics #chesspuzzle #chesstok #chessgame"}
+### 2026-11-27 00:18 publications/tiktok-en/un_cavalier_chacun_c7_1.json
+{"publish_id": "v_inbox_file~v2.7712638452583630870", "mode": "brouillon", "vie_privee": null, "legende": "One knight each. Draw, or checkmate? 👇 1.Nc7#! His own knight blocks the king (composed position). One new puzzle every day.\n\nFound it? Follow, a new puzzle drops every day.\n\n#chess #chesstactics #chesspuzzle #chesstok #chessgame"}
