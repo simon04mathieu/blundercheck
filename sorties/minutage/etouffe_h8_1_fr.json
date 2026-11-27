@@ -1,0 +1,92 @@
+{
+ "nom": "etouffe_h8_1_fr",
+ "tempo": 1.0,
+ "duree_s": 11.24,
+ "hook": {
+  "texte": "La dame|dans le coin ?!",
+  "fin": 1.48
+ },
+ "question": {
+  "texte": "La dame|dans le coin ?!",
+  "t": 8.04
+ },
+ "phrases": [
+  {
+   "t": 0.08,
+   "texte": "La dame dans le coin ?"
+  },
+  {
+   "t": 1.48,
+   "texte": "Il doit prendre."
+  },
+  {
+   "t": 2.78,
+   "texte": "Alors le cavalier saute  mat !"
+  },
+  {
+   "t": 5.38,
+   "texte": "Ses propres pièces enferment le roi."
+  },
+  {
+   "t": 8.3,
+   "texte": "Alors quand un roi n'a plus d'air, demande-toi"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.44,
+   "coup": "Qg8+",
+   "badge": null
+  },
+  {
+   "t": 1.82,
+   "coup": "Rxg8",
+   "badge": null
+  },
+  {
+   "t": 3.5,
+   "coup": "Nf7#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.08,
+   "type": "fleches"
+  },
+  {
+   "t": 0.44,
+   "type": "coup"
+  },
+  {
+   "t": 0.44,
+   "type": "zoom"
+  },
+  {
+   "t": 1.48,
+   "type": "sticker"
+  },
+  {
+   "t": 1.82,
+   "type": "coup"
+  },
+  {
+   "t": 3.5,
+   "type": "coup"
+  },
+  {
+   "t": 4.28,
+   "type": "sticker"
+  },
+  {
+   "t": 10.13,
+   "type": "position"
+  }
+ ],
+ "musique": "corny_candy.mp3"
+}

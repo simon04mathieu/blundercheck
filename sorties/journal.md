@@ -1479,3 +1479,6 @@
 ### commandes/perso_etouffe_h8_1.json
     voix générée : 130 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/etouffe_h8_1.mp4 {"voix_brute_s": 10.9, "tempo": 1.0, "video_s": 10.9, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "corny_candy.mp3", "mots_transcrits": 27, "minutage": "5 phrases, 3 coups, 0 pauses"}
+### commandes/perso_etouffe_h8_1_fr.json
+    voix générée : 155 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/etouffe_h8_1_fr.mp4 {"voix_brute_s": 11.0, "tempo": 1.0, "video_s": 11.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "corny_candy.mp3", "mots_transcrits": 38, "minutage": "5 phrases, 3 coups, 0 pauses"}
