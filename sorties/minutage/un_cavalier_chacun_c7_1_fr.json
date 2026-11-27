@@ -1,14 +1,14 @@
 {
  "nom": "un_cavalier_chacun_c7_1_fr",
  "tempo": 1.0,
- "duree_s": 10.12,
+ "duree_s": 11.18,
  "hook": {
   "texte": "Nulle,|ou mat ?",
-  "fin": 1.72
+  "fin": 1.58
  },
  "question": {
   "texte": "Nulle,|ou mat ?",
-  "t": 6.92
+  "t": 7.98
  },
  "phrases": [
   {
@@ -16,26 +16,30 @@
    "texte": "Nulle, ou mat ?"
   },
   {
-   "t": 1.72,
-   "texte": "Regarde son propre cavalier."
+   "t": 1.58,
+   "texte": "Regarde !"
   },
   {
-   "t": 4.28,
+   "t": 2.52,
    "texte": "Cavalier en c7  mat !"
   },
   {
-   "t": 7.22,
+   "t": 5.08,
+   "texte": "Son propre cavalier l'enferme."
+  },
+  {
+   "t": 8.02,
    "texte": "Alors, avec un cavalier chacun demande-toi"
   }
  ],
  "coups": [
   {
-   "t": 0.36,
+   "t": 0.4,
    "coup": "Nb8",
    "badge": null
   },
   {
-   "t": 4.28,
+   "t": 2.52,
    "coup": "Nc7#",
    "badge": "mat"
   }
@@ -51,31 +55,31 @@
    "type": "fleches"
   },
   {
-   "t": 0.36,
+   "t": 0.4,
    "type": "coup"
   },
   {
-   "t": 0.36,
+   "t": 0.4,
    "type": "zoom"
   },
   {
-   "t": 1.72,
+   "t": 0.82,
    "type": "sticker"
   },
   {
-   "t": 4.28,
+   "t": 2.52,
    "type": "coup"
   },
   {
-   "t": 6.21,
+   "t": 4.02,
    "type": "sticker"
   },
   {
-   "t": 7.82,
+   "t": 6.32,
    "type": "zoom"
   },
   {
-   "t": 9.29,
+   "t": 10.43,
    "type": "position"
   }
  ],
