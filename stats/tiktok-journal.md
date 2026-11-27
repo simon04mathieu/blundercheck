@@ -1798,3 +1798,8 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 23, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-27 09:41 publications/tiktok/cavalier_double_e3_1_fr.json
+{"publish_id": "v_inbox_file~v2.7712783783472465942", "mode": "brouillon", "vie_privee": null, "legende": "Un cavalier attaqué deux fois. Qui prend ? 👇 1.Dxe3# fait mat. 1.Fxe3 ? Pat (position composée). Un défi d'échecs par jour.\n\nTrouvé ? Abonne-toi, un nouveau défi chaque jour.\n\n#echecs #chess #echecsfr #chesstok #puzzle"}
+### 2026-11-27 09:41 publications/tiktok/un_cavalier_chacun_c7_1_fr.json
+{"publish_id": "v_inbox_file~v2.7712783922912512022", "mode": "brouillon", "vie_privee": null, "legende": "Un cavalier chacun. Nulle, ou mat ? 👇 1.Cc7# ! Son propre cavalier enferme le roi (position composée). Un défi d'échecs par jour.\n\nÉcris ton coup en commentaire, puis abonne-toi pour celui de demain.\n\n#echecs #chess #echecsfr #chesstok #puzzle"}
