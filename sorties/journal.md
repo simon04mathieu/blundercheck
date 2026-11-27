@@ -1456,3 +1456,6 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/cavalier_double_e3_1_fr.mp4 {"voix_brute_s": 9.4, "tempo": 1.0, "video_s": 9.4, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 25, "minutage": "5 phrases, 3 coups, 0 pauses"}
+### commandes/perso_fausse_fourchette_b6_1.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/fausse_fourchette_b6_1.mp4 {"voix_brute_s": 17.0, "tempo": 1.0, "video_s": 17.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "got_him_from_behind.mp3", "mots_transcrits": 39, "minutage": "7 phrases, 8 coups, 0 pauses"}
