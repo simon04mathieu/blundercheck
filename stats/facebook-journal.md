@@ -262,3 +262,5 @@
 {"reseau": "facebook", "id": "3255373708001541", "ok": true}
 ### 2026-11-26 18:01 publications/facebook/ne_pas_pater_e1_1.json
 {"reseau": "facebook", "id": "1006611802507071", "ok": true}
+### 2026-11-27 09:01 publications/facebook/cavalier_double_e3_1.json
+{"reseau": "facebook", "id": "1091440947240694", "ok": true}
