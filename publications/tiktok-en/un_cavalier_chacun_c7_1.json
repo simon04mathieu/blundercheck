@@ -22,7 +22,7 @@
   "fin": "boucle",
   "motif": "un_cavalier_chacun_c7",
   "niveau": "1000-1800",
-  "hook": "plan_large_0.3s+coup_noir+zoom+fleche+tag+tactique_avant_3s",
+  "hook": "plan_large_0.5s+coup_noir+zoom+fleche+tag+tactique_avant_3s",
   "interet": "mater",
   "pieces": 4,
   "look": "bois",
