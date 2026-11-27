@@ -2203,7 +2203,7 @@ _S = {
 "cavalier_double_e3_1": ("blancs", "Which one|takes?",
 """[p """ + E3A + """] [f e2e4] Which [m Ne3] [z e3 1.3 1.2] one [s tag e3 1.4 WHICH_ONE?] takes? [h] The [m Bxe3] bishop? Stalemate, [s tag e4 1.6 STALEMATE] only a draw. [p """ + E3B + """] The queen [m Qxe3# mat] [x impact] takes: [s tag e4 1.6 CHECKMATE] checkmate! [f b6e3] So when a knight hangs twice, [p """ + E3A + """] ask"""),
 "un_cavalier_chacun_c7_1": ("blancs", "Draw,|or checkmate?",
-"""[p """ + C7A + """] [f b6a7] Draw, [m Nb8] [z b8 1.3 1.2] or [s tag a8 1.4 DRAW?] checkmate? [h] Look! [m Nc7# mat] [x impact] Knight to c7: [s tag a8 1.6 CHECKMATE] checkmate! His own knight [z a8 1.3 1.2] traps him. So with one knight each, [p """ + C7A + """] ask"""),
+"""[p """ + C7A + """] [f b6a7] Draw, [m Nb8] [z b8 1.3 1.2] or [s tag a8 1.4 DRAW?] checkmate? [h] [m Nc7# mat] [x impact] Knight to c7: [s tag a8 1.6 CHECKMATE] checkmate! His own knight traps him. So [z a8 1.3 1.2] with one knight each, [p """ + C7A + """] ask"""),
 "six_echecs_b2_1": ("blancs", "Which check|ends it?",
 """[p """ + B2A + """] [f d4a1] Which [m Ka2] [z a2 1.3 1.2] check [s tag d4 1.4 6_CHECKS] ends it? [h] Queen [m Qa1+] to a1? [m Kxa1] Just [s tag a1 1.4 JUST_A_DRAW] a draw. [p """ + B2B + """] Queen [m Qc4+] to c4? The knight [m Nxc4] [s tag c4 1.4 DRAW_AGAIN] takes. [p """ + B2B + """] Queen [m Qb2# mat] [x impact] [z b2 1.3 1.2] to b2: [s tag a2 1.6 CHECKMATE] checkmate! So with six checks, [p """ + B2A + """] ask"""),
 "fausse_fourchette_b6_1": ("blancs", "Play the fork,|or not?",
