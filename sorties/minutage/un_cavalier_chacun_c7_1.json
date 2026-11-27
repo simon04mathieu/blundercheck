@@ -1,14 +1,14 @@
 {
  "nom": "un_cavalier_chacun_c7_1",
  "tempo": 1.0,
- "duree_s": 10.36,
+ "duree_s": 9.4,
  "hook": {
   "texte": "Draw,|or checkmate?",
-  "fin": 2.22
+  "fin": 1.3
  },
  "question": {
   "texte": "Draw,|or checkmate?",
-  "t": 7.16
+  "t": 6.2
  },
  "phrases": [
   {
@@ -16,19 +16,15 @@
    "texte": "Draw, or checkmate?"
   },
   {
-   "t": 2.22,
-   "texte": "Look!"
-  },
-  {
-   "t": 3.36,
+   "t": 1.3,
    "texte": "Knight to c7 checkmate!"
   },
   {
-   "t": 5.98,
+   "t": 4.08,
    "texte": "His own knight traps him."
   },
   {
-   "t": 8.2,
+   "t": 6.24,
    "texte": "So with one knight each ask"
   }
  ],
@@ -39,7 +35,7 @@
    "badge": null
   },
   {
-   "t": 3.36,
+   "t": 1.3,
    "coup": "Nc7#",
    "badge": "mat"
   }
@@ -63,23 +59,23 @@
    "type": "zoom"
   },
   {
-   "t": 0.88,
+   "t": 0.76,
    "type": "sticker"
   },
   {
-   "t": 3.36,
+   "t": 1.3,
    "type": "coup"
   },
   {
-   "t": 4.66,
+   "t": 3.3,
    "type": "sticker"
   },
   {
-   "t": 6.6,
+   "t": 7.4,
    "type": "zoom"
   },
   {
-   "t": 9.71,
+   "t": 8.41,
    "type": "position"
   }
  ],
