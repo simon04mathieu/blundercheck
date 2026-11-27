@@ -1,0 +1,92 @@
+{
+ "nom": "etouffe_h8_1",
+ "tempo": 1.0,
+ "duree_s": 10.92,
+ "hook": {
+  "texte": "Queen to the|corner?!",
+  "fin": 1.3
+ },
+ "question": {
+  "texte": "Queen to the|corner?!",
+  "t": 7.72
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Queen to the corner?"
+  },
+  {
+   "t": 1.3,
+   "texte": "He has to take."
+  },
+  {
+   "t": 2.98,
+   "texte": "Now the knight jumps checkmate!"
+  },
+  {
+   "t": 5.78,
+   "texte": "His own pieces trap the king."
+  },
+  {
+   "t": 8.3,
+   "texte": "So when a king has no air, ask"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.42,
+   "coup": "Qg8+",
+   "badge": null
+  },
+  {
+   "t": 2.06,
+   "coup": "Rxg8",
+   "badge": null
+  },
+  {
+   "t": 3.56,
+   "coup": "Nf7#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.0,
+   "type": "fleches"
+  },
+  {
+   "t": 0.42,
+   "type": "coup"
+  },
+  {
+   "t": 0.42,
+   "type": "zoom"
+  },
+  {
+   "t": 1.3,
+   "type": "sticker"
+  },
+  {
+   "t": 2.06,
+   "type": "coup"
+  },
+  {
+   "t": 3.56,
+   "type": "coup"
+  },
+  {
+   "t": 4.54,
+   "type": "sticker"
+  },
+  {
+   "t": 10.23,
+   "type": "position"
+  }
+ ],
+ "musique": "corny_candy.mp3"
+}
