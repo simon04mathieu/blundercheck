@@ -246,11 +246,13 @@ def centre(spec_sq):
 
 def ease(x): x = max(0.0, min(1.0, x)); return x * x * (3 - 2 * x)
 
+ZIN = 0.55  # durée de l'entrée du zoom (s)
+
 def zoom_factor(t, zooms):
-    """zooms : [(t0, case, facteur, durée)] -> (facteur, centre). Entrée 0,3 s, sortie 0,35 s."""
+    """zooms : [(t0, case, facteur, durée)] -> (facteur, centre). Entrée 0,55 s (27/11 : zoom progressif, pas d'à-coup), sortie 0,35 s."""
     for t0, sq, fz, d in zooms:
         if t0 <= t < t0 + d + 0.35:
-            if t < t0 + 0.3: k = ease((t - t0) / 0.3)
+            if t < t0 + ZIN: k = ease((t - t0) / ZIN)
             elif t < t0 + d: k = 1.0
             else: k = 1 - ease((t - t0 - d) / 0.35)
             return 1 + (fz - 1) * k, centre(sq)
