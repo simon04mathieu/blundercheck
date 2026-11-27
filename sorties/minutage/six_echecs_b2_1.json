@@ -42,7 +42,7 @@
  ],
  "coups": [
   {
-   "t": 0.3,
+   "t": 0.5,
    "coup": "Ka2",
    "badge": null
   },
@@ -83,11 +83,11 @@
    "type": "fleches"
   },
   {
-   "t": 0.3,
+   "t": 0.5,
    "type": "coup"
   },
   {
-   "t": 0.3,
+   "t": 0.5,
    "type": "zoom"
   },
   {
