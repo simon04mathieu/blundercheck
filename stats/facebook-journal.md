@@ -266,3 +266,5 @@
 {"reseau": "facebook", "id": "1091440947240694", "ok": true}
 ### 2026-11-27 12:02 publications/facebook/un_cavalier_chacun_c7_1.json
 {"reseau": "facebook", "id": "1146900494498780", "ok": true}
+### 2026-11-27 15:01 publications/facebook/six_echecs_b2_1.json
+{"reseau": "facebook", "id": "2143650952926071", "ok": true}
