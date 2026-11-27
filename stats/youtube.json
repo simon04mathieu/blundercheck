@@ -1,5 +1,5 @@
 {
- "date": "2026-11-27T12:01:19.914688+00:00",
+ "date": "2026-11-27T12:11:09.543959+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,6 +7,15 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "Zy8WGVZjWSg": {
+   "titre": "One knight each. Draw, or checkmate? ♟️ #chess #shorts",
+   "publiee": "2026-11-27T12:01:41Z",
+   "statut": "public",
+   "duree": "PT10S",
+   "vues": 0,
+   "jaime": 0,
+   "commentaires": 0
+  },
   "jOfPgIl2z_I": {
    "titre": "A knight hangs twice. Which one takes? ♟️ #chess #shorts",
    "publiee": "2026-11-27T09:01:34Z",
@@ -21,7 +30,7 @@
    "publiee": "2026-11-26T18:01:36Z",
    "statut": "public",
    "duree": "PT14S",
-   "vues": 3444,
+   "vues": 3567,
    "jaime": 14,
    "commentaires": 3
   },
@@ -39,7 +48,7 @@
    "publiee": "2026-11-26T12:01:25Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 9045,
+   "vues": 9191,
    "jaime": 39,
    "commentaires": 1
   },
@@ -48,7 +57,7 @@
    "publiee": "2026-11-26T09:01:28Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 3169,
+   "vues": 3182,
    "jaime": 6,
    "commentaires": 1
   },
@@ -57,7 +66,7 @@
    "publiee": "2026-11-25T18:01:35Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 12689,
+   "vues": 12765,
    "jaime": 24,
    "commentaires": 4
   },
@@ -66,8 +75,8 @@
    "publiee": "2026-11-25T15:01:26Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 2975,
-   "jaime": 18,
+   "vues": 2985,
+   "jaime": 19,
    "commentaires": 1
   },
   "rWmIvX9G-40": {
@@ -75,7 +84,7 @@
    "publiee": "2026-11-25T12:01:28Z",
    "statut": "public",
    "duree": "PT10S",
-   "vues": 25552,
+   "vues": 25563,
    "jaime": 27,
    "commentaires": 12
   },
@@ -93,7 +102,7 @@
    "publiee": "2026-11-24T18:01:26Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 29033,
+   "vues": 29043,
    "jaime": 55,
    "commentaires": 10
   },
@@ -102,7 +111,7 @@
    "publiee": "2026-11-24T15:01:34Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 9454,
+   "vues": 9458,
    "jaime": 25,
    "commentaires": 6
   },
@@ -147,7 +156,7 @@
    "publiee": "2026-11-23T12:01:31Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 20651,
+   "vues": 20649,
    "jaime": 64,
    "commentaires": 4
   },
@@ -156,7 +165,7 @@
    "publiee": "2026-11-23T09:01:26Z",
    "statut": "public",
    "duree": "PT13S",
-   "vues": 3750,
+   "vues": 3751,
    "jaime": 15,
    "commentaires": 0
   },
@@ -165,7 +174,7 @@
    "publiee": "2026-11-22T18:01:44Z",
    "statut": "public",
    "duree": "PT13S",
-   "vues": 17767,
+   "vues": 17768,
    "jaime": 60,
    "commentaires": 4
   },
@@ -273,7 +282,7 @@
    "publiee": "2026-11-19T18:46:32Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 31043,
+   "vues": 31047,
    "jaime": 167,
    "commentaires": 2
   },
@@ -282,7 +291,7 @@
    "publiee": "2026-11-19T15:41:04Z",
    "statut": "public",
    "duree": "PT19S",
-   "vues": 6504,
+   "vues": 6505,
    "jaime": 37,
    "commentaires": 1
   },
@@ -300,7 +309,7 @@
    "publiee": "2026-11-19T10:06:37Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 31150,
+   "vues": 31152,
    "jaime": 69,
    "commentaires": 0
   },
@@ -309,7 +318,7 @@
    "publiee": "2026-11-18T18:40:42Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 32718,
+   "vues": 32722,
    "jaime": 161,
    "commentaires": 24
   },
@@ -1371,7 +1380,7 @@
    "publiee": "2026-10-21T17:30:40Z",
    "statut": "public",
    "duree": "PT51S",
-   "vues": 3,
+   "vues": 2,
    "jaime": 1,
    "commentaires": 0
   },
