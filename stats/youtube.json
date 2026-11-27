@@ -1,5 +1,5 @@
 {
- "date": "2026-11-27T13:41:09.951462+00:00",
+ "date": "2026-11-27T13:51:12.865299+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -12,8 +12,8 @@
    "publiee": "2026-11-27T12:01:41Z",
    "statut": "public",
    "duree": "PT10S",
-   "vues": 639,
-   "jaime": 8,
+   "vues": 964,
+   "jaime": 10,
    "commentaires": 0
   },
   "jOfPgIl2z_I": {
@@ -21,7 +21,7 @@
    "publiee": "2026-11-27T09:01:34Z",
    "statut": "public",
    "duree": "PT12S",
-   "vues": 1109,
+   "vues": 1136,
    "jaime": 6,
    "commentaires": 0
   },
@@ -30,7 +30,7 @@
    "publiee": "2026-11-26T18:01:36Z",
    "statut": "public",
    "duree": "PT14S",
-   "vues": 4487,
+   "vues": 4586,
    "jaime": 16,
    "commentaires": 3
   },
@@ -48,7 +48,7 @@
    "publiee": "2026-11-26T12:01:25Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 10071,
+   "vues": 10171,
    "jaime": 42,
    "commentaires": 1
   },
@@ -57,7 +57,7 @@
    "publiee": "2026-11-26T09:01:28Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 3297,
+   "vues": 3314,
    "jaime": 8,
    "commentaires": 1
   },
@@ -66,8 +66,8 @@
    "publiee": "2026-11-25T18:01:35Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 13289,
-   "jaime": 27,
+   "vues": 13310,
+   "jaime": 28,
    "commentaires": 4
   },
   "xsPvMtV0JIw": {
@@ -75,7 +75,7 @@
    "publiee": "2026-11-25T15:01:26Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 2987,
+   "vues": 2985,
    "jaime": 19,
    "commentaires": 1
   },
@@ -84,7 +84,7 @@
    "publiee": "2026-11-25T12:01:28Z",
    "statut": "public",
    "duree": "PT10S",
-   "vues": 25563,
+   "vues": 25566,
    "jaime": 27,
    "commentaires": 12
   },
@@ -93,7 +93,7 @@
    "publiee": "2026-11-25T09:01:34Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 16939,
+   "vues": 16953,
    "jaime": 35,
    "commentaires": 1
   },
@@ -102,7 +102,7 @@
    "publiee": "2026-11-24T18:01:26Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 29043,
+   "vues": 29049,
    "jaime": 55,
    "commentaires": 10
   },
@@ -111,7 +111,7 @@
    "publiee": "2026-11-24T15:01:34Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 9534,
+   "vues": 9550,
    "jaime": 26,
    "commentaires": 6
   },
@@ -129,7 +129,7 @@
    "publiee": "2026-11-24T09:01:41Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 4852,
+   "vues": 4849,
    "jaime": 28,
    "commentaires": 1
   },
@@ -138,8 +138,8 @@
    "publiee": "2026-11-23T18:01:29Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 11664,
-   "jaime": 80,
+   "vues": 11671,
+   "jaime": 81,
    "commentaires": 3
   },
   "Mue4hHXD4d4": {
@@ -147,7 +147,7 @@
    "publiee": "2026-11-23T15:01:39Z",
    "statut": "public",
    "duree": "PT14S",
-   "vues": 10303,
+   "vues": 10311,
    "jaime": 40,
    "commentaires": 2
   },
@@ -282,7 +282,7 @@
    "publiee": "2026-11-19T18:46:32Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 31047,
+   "vues": 31049,
    "jaime": 167,
    "commentaires": 2
   },
@@ -309,7 +309,7 @@
    "publiee": "2026-11-19T10:06:37Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 31152,
+   "vues": 31153,
    "jaime": 69,
    "commentaires": 0
   },
@@ -318,7 +318,7 @@
    "publiee": "2026-11-18T18:40:42Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 32722,
+   "vues": 32724,
    "jaime": 161,
    "commentaires": 24
   },
