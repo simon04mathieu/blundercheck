@@ -4,7 +4,7 @@
  "duree_s": 9.4,
  "hook": {
   "texte": "Draw,|or checkmate?",
-  "fin": 1.3
+  "fin": 1.32
  },
  "question": {
   "texte": "Draw,|or checkmate?",
@@ -16,7 +16,7 @@
    "texte": "Draw, or checkmate?"
   },
   {
-   "t": 1.3,
+   "t": 1.32,
    "texte": "Knight to c7 checkmate!"
   },
   {
@@ -24,18 +24,18 @@
    "texte": "His own knight traps him."
   },
   {
-   "t": 6.24,
+   "t": 7.04,
    "texte": "So with one knight each ask"
   }
  ],
  "coups": [
   {
-   "t": 0.3,
+   "t": 0.5,
    "coup": "Nb8",
    "badge": null
   },
   {
-   "t": 1.3,
+   "t": 1.32,
    "coup": "Nc7#",
    "badge": "mat"
   }
@@ -51,11 +51,11 @@
    "type": "fleches"
   },
   {
-   "t": 0.3,
+   "t": 0.5,
    "type": "coup"
   },
   {
-   "t": 0.3,
+   "t": 0.5,
    "type": "zoom"
   },
   {
@@ -63,11 +63,11 @@
    "type": "sticker"
   },
   {
-   "t": 1.3,
+   "t": 1.32,
    "type": "coup"
   },
   {
-   "t": 3.3,
+   "t": 3.32,
    "type": "sticker"
   },
   {
