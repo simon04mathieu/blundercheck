@@ -1,0 +1,83 @@
+{
+ "nom": "un_cavalier_chacun_c7_1_fr",
+ "tempo": 1.0,
+ "duree_s": 10.12,
+ "hook": {
+  "texte": "Nulle,|ou mat ?",
+  "fin": 1.72
+ },
+ "question": {
+  "texte": "Nulle,|ou mat ?",
+  "t": 6.92
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Nulle, ou mat ?"
+  },
+  {
+   "t": 1.72,
+   "texte": "Regarde son propre cavalier."
+  },
+  {
+   "t": 4.28,
+   "texte": "Cavalier en c7  mat !"
+  },
+  {
+   "t": 7.22,
+   "texte": "Alors, avec un cavalier chacun demande-toi"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.36,
+   "coup": "Nb8",
+   "badge": null
+  },
+  {
+   "t": 4.28,
+   "coup": "Nc7#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.0,
+   "type": "fleches"
+  },
+  {
+   "t": 0.36,
+   "type": "coup"
+  },
+  {
+   "t": 0.36,
+   "type": "zoom"
+  },
+  {
+   "t": 1.72,
+   "type": "sticker"
+  },
+  {
+   "t": 4.28,
+   "type": "coup"
+  },
+  {
+   "t": 6.21,
+   "type": "sticker"
+  },
+  {
+   "t": 7.82,
+   "type": "zoom"
+  },
+  {
+   "t": 9.29,
+   "type": "position"
+  }
+ ],
+ "musique": "kitty_down_the_stairs.mp3"
+}
