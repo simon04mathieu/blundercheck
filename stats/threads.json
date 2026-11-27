@@ -1,8 +1,68 @@
 {
- "releve": "2026-11-26T00:41:45Z",
+ "releve": "2026-11-27T00:50:20Z",
  "compte": "blundercheckapp",
  "abonnes": 1,
  "publications": [
+  {
+   "id": "17884442460627416",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DgNs7X1JUpt",
+   "text": "One slip is stalemate. Which move wins? 👇 1.Qe1# is checkmate. 1.Qg6? 1.Qg4? 1.Q",
+   "timestamp": "2026-11-26T18:02:30+0000",
+   "insights": {
+    "views": 0,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18112015889267840",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DgNYQMhI-d1",
+   "text": "Mate is coming. Defend, or check? 👇 1.Qe8+! Ka7 2.Qa4+ Kb8 and White repeats: pe",
+   "timestamp": "2026-11-26T15:01:50+0000",
+   "insights": {
+    "views": 0,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18124620193985299",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DgNDvCSu4lJ",
+   "text": "Free rook on f5. Take it, or not? 👇 1.Nf3#! The knight moves and the queen gives",
+   "timestamp": "2026-11-26T12:02:33+0000",
+   "insights": {
+    "views": 1,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18039331412891359",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DgMvDg1hBBj",
+   "text": "Your queen hangs too. Take, or check? 👇 1.Be5+! The queen guards the bishop, his",
+   "timestamp": "2026-11-26T09:01:52+0000",
+   "insights": {
+    "views": 2,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
   {
    "id": "18114339230210617",
    "media_type": "VIDEO",
@@ -55,7 +115,7 @@
    "text": "A rook hangs twice. Which one takes? 👇 Only 1.Bxf6+! wins: his king must move, t",
    "timestamp": "2026-11-25T09:02:36+0000",
    "insights": {
-    "views": 3,
+    "views": 5,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -386,66 +446,6 @@
    "timestamp": "2026-11-19T15:05:02+0000",
    "insights": {
     "views": 1,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18118676384033799",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Df7Ctwyv-t6",
-   "text": "Take it, or push? 👇 Only 1.c6! wins: 1...dxc6 2.dxe6 and the pawn runs home. 1.d",
-   "timestamp": "2026-11-19T12:07:18+0000",
-   "insights": {
-    "views": 9,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18349588513254578",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Df6vAVvJU8U",
-   "text": "Which pawn do you push? 👇 Only 1.d6! wins: 1...cxd6 2.cxb6 and the pawn runs hom",
-   "timestamp": "2026-11-19T09:15:05+0000",
-   "insights": {
-    "views": 4,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18150674857582575",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Df5GovisNyi",
-   "text": "Which pawn takes? 👇 Only 1.dxc4! wins: 1...bxc4 2.bxc4 and the c-pawn runs home.",
-   "timestamp": "2026-11-18T18:03:06+0000",
-   "insights": {
-    "views": 0,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "17875530078640178",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Df4ySurh1lz",
-   "text": "Take his queen, or run? 👇 Only 1.Nd7+! wins: the knight forks king and queen, 1.",
-   "timestamp": "2026-11-18T15:05:20+0000",
-   "insights": {
-    "views": 10,
     "likes": 0,
     "replies": 0,
     "reposts": 0,

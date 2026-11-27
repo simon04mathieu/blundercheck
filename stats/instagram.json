@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-26T00:40:49Z",
+ "releve": "2026-11-27T00:49:21Z",
  "compte": "blundercheckapp",
  "abonnes": 7,
  "publications": [
+  {
+   "id": "17997431445119159",
+   "caption": "Dame contre dame. Tu prends, ou échec ? 👇 1.Fe5+ ! La dame garde le fou, son roi",
+   "comments_count": 0,
+   "like_count": 1,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DgNs1Q0hMnl/",
+   "timestamp": "2026-11-26T18:01:43+0000",
+   "insights": {
+    "views": 165,
+    "reach": 108,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 1
+   }
+  },
+  {
+   "id": "18202377220392539",
+   "caption": "Une tour libre en f5. Tu la prends ? 👇 1.Cf3# ! Le cavalier part, la dame donne ",
+   "comments_count": 0,
+   "like_count": 8,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DgNDo4-ybhf/",
+   "timestamp": "2026-11-26T12:01:46+0000",
+   "insights": {
+    "views": 1724,
+    "reach": 1103,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 8
+   }
+  },
   {
    "id": "17883777096548019",
    "caption": "Un seul coup te sauve. Lequel ? 👇 1.Dh4+ ! Rxh4 et les Blancs n'ont plus de coup",
@@ -12,8 +44,8 @@
    "permalink": "https://www.instagram.com/reel/DgLICXHB0Sy/",
    "timestamp": "2026-11-25T18:01:44+0000",
    "insights": {
-    "views": 1831,
-    "reach": 1096,
+    "views": 1852,
+    "reach": 1114,
     "shares": 0,
     "saved": 0,
     "total_interactions": 8
@@ -28,8 +60,8 @@
    "permalink": "https://www.instagram.com/reel/DgKe2MROj_T/",
    "timestamp": "2026-11-25T12:01:46+0000",
    "insights": {
-    "views": 182,
-    "reach": 121,
+    "views": 183,
+    "reach": 122,
     "shares": 0,
     "saved": 0,
     "total_interactions": 2
@@ -60,8 +92,8 @@
    "permalink": "https://www.instagram.com/reel/DgH6EqQCQpA/",
    "timestamp": "2026-11-24T12:01:58+0000",
    "insights": {
-    "views": 215,
-    "reach": 123,
+    "views": 220,
+    "reach": 124,
     "shares": 0,
     "saved": 0,
     "total_interactions": 2
@@ -156,8 +188,8 @@
    "permalink": "https://www.instagram.com/reel/DgAxMKaGfUs/",
    "timestamp": "2026-11-21T17:29:40+0000",
    "insights": {
-    "views": 2359,
-    "reach": 1499,
+    "views": 2363,
+    "reach": 1501,
     "shares": 0,
     "saved": 0,
     "total_interactions": 12
@@ -188,8 +220,8 @@
    "permalink": "https://www.instagram.com/reel/Df96QpNE4ZX/",
    "timestamp": "2026-11-20T14:51:10+0000",
    "insights": {
-    "views": 3104,
-    "reach": 1995,
+    "views": 3106,
+    "reach": 1998,
     "shares": 1,
     "saved": 1,
     "total_interactions": 23
@@ -220,8 +252,8 @@
    "permalink": "https://www.instagram.com/reel/Df7Cn6UAj6n/",
    "timestamp": "2026-11-19T12:06:32+0000",
    "insights": {
-    "views": 229,
-    "reach": 145,
+    "views": 231,
+    "reach": 146,
     "shares": 0,
     "saved": 0,
     "total_interactions": 3
@@ -449,38 +481,6 @@
     "shares": 0,
     "saved": 0,
     "total_interactions": 0
-   }
-  },
-  {
-   "id": "18127239184715072",
-   "caption": "Tu aurais sauvé la dame ? 👇 Levitsky – Marshall, Breslau 1912 (0–1 ; coups rejou",
-   "comments_count": 0,
-   "like_count": 4,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfnKgJyHCRV/",
-   "timestamp": "2026-11-11T18:50:36+0000",
-   "insights": {
-    "views": 201,
-    "reach": 140,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 4
-   }
-  },
-  {
-   "id": "18114602108144925",
-   "caption": "Quelle prise as-tu choisie en premier ? 👇 Seul 1.cxd7 ! gagne ; 1.dxc7+ ne donne",
-   "comments_count": 0,
-   "like_count": 1,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/Dfmbq36HQE1/",
-   "timestamp": "2026-11-11T12:01:23+0000",
-   "insights": {
-    "views": 213,
-    "reach": 138,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 1
    }
   }
  ],
