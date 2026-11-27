@@ -1,0 +1,92 @@
+{
+ "nom": "dos_rang_e8_1_fr",
+ "tempo": 1.0,
+ "duree_s": 12.14,
+ "hook": {
+  "texte": "La dame prend|une tour ?",
+  "fin": 1.91
+ },
+ "question": {
+  "texte": "La dame prend|une tour ?",
+  "t": 8.94
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "La dame prend une tour ?"
+  },
+  {
+   "t": 1.91,
+   "texte": "L'autre tour reprend."
+  },
+  {
+   "t": 3.82,
+   "texte": "Alors notre tour prend  mat !"
+  },
+  {
+   "t": 6.8,
+   "texte": "Trois pions, plus d'air."
+  },
+  {
+   "t": 9.56,
+   "texte": "Alors avant de te détendre demande-toi"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.4,
+   "coup": "Qxe8+",
+   "badge": null
+  },
+  {
+   "t": 2.48,
+   "coup": "Rxe8",
+   "badge": null
+  },
+  {
+   "t": 4.9,
+   "coup": "Rxe8#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.0,
+   "type": "fleches"
+  },
+  {
+   "t": 0.4,
+   "type": "coup"
+  },
+  {
+   "t": 0.4,
+   "type": "zoom"
+  },
+  {
+   "t": 1.91,
+   "type": "sticker"
+  },
+  {
+   "t": 2.48,
+   "type": "coup"
+  },
+  {
+   "t": 4.9,
+   "type": "coup"
+  },
+  {
+   "t": 5.67,
+   "type": "sticker"
+  },
+  {
+   "t": 11.31,
+   "type": "position"
+  }
+ ],
+ "musique": "chicago.mp3"
+}
