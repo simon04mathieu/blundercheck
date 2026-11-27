@@ -2222,3 +2222,22 @@ QUESTIONS.update({
     "un_cavalier_chacun_c7_1_fr": "Nulle,|ou mat ?",
     "cavalier_double_e3_1_fr": "Lequel|prend ?",
 })
+
+# 27/11 (test Scénariste carte blanche, demandé par Simon) : 5 exemples ; coups vérifiés python-chess (mat forcé)
+ETA = "fen:5r1k/p5pp/7N/3Q4/8/8/8/6K1_w_-_-_0_1"      # 1.Qg8+! Rxg8 (seul coup) 2.Nf7# mat étouffé
+ETB = "fen:3rr1k1/5ppp/8/8/8/8/4QPPP/4R1K1_w_-_-_0_1"  # 1.Qxe8+! Rxe8 (seul coup) 2.Rxe8# mat du couloir
+FKA = "fen:2q3k1/5ppp/8/3N4/8/8/5PPP/6K1_w_-_-_0_1"    # 1.Ne7+ fourchette roi + dame
+_T = {
+"etouffe_h8_1": ("blancs", "Queen to the|corner?!",
+"""[p """ + ETA + """] [f d5g8] Queen to [m Qg8+] [z g8 1.3 1.2] the corner? [s tag g8 1.4 SACRIFICE?] [h] He has to [m Rxg8] take. Now the knight [m Nf7# mat] [x impact] jumps: [s tag h8 1.6 SMOTHERED_MATE] checkmate! His own pieces trap the king. So when a king has no air, [p """ + ETA + """] ask"""),
+"etouffe_h8_1_fr": ("blancs", "La dame|dans le coin ?!",
+"""[p """ + ETA + """] [f d5g8] La dame [m Qg8+] [z g8 1.3 1.2] dans le coin ? [s tag g8 1.4 SACRIFICE_?] [h] Il doit [m Rxg8] prendre. Alors le cavalier [m Nf7# mat] [x impact] saute : [s tag h8 1.6 MAT_ÉTOUFFÉ] mat ! Ses propres pièces enferment le roi. Alors quand un roi n'a plus d'air, [p """ + ETA + """] demande-toi"""),
+"dos_rang_e8_1": ("blancs", "Queen takes|a rook?",
+"""[p """ + ETB + """] [f e2e8] Queen [m Qxe8+] [z e8 1.3 1.2] takes a rook? [s tag e8 1.4 FREE_QUEEN?] [h] The other rook [m Rxe8] takes back. Now our rook [m Rxe8# mat] [x impact] takes: [s tag g8 1.6 BACK_RANK_MATE] checkmate! Three pawns, no air. So before you relax, [p """ + ETB + """] ask"""),
+"dos_rang_e8_1_fr": ("blancs", "La dame prend|une tour ?",
+"""[p """ + ETB + """] [f e2e8] La dame [m Qxe8+] [z e8 1.3 1.2] prend une tour ? [s tag e8 1.4 DAME_GRATUITE_?] [h] L'autre tour [m Rxe8] reprend. Alors notre tour [m Rxe8# mat] [x impact] prend : [s tag g8 1.6 MAT_DU_COULOIR] mat ! Trois pions, plus d'air. Alors avant de te détendre, [p """ + ETB + """] demande-toi"""),
+"methode_fourchette_d5_1": ("blancs", "Find the fork|in 3 seconds",
+"""[p """ + FKA + """] [f d5e7] Find the fork [m Ne7+] [z e7 1.3 1.2] in three seconds. [s tag e7 1.4 FORK] [h] Here is the method. Before every move, ask three things. Any check? Any capture? Any threat? Start with the checks. [p """ + FKA + """] This knight has one. Knight to [m Ne7+] e7, check! The king has to [m Kh8] move, and the knight [m Nxc8] [x impact] takes the queen. [s tag c8 1.6 QUEEN_WON] Checks first, then captures, then threats. That is how you spot a fork in seconds, so try it on your next game."""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _T.items()})
+QUESTIONS.update({k: v[1] for k, v in _T.items()})
