@@ -236,3 +236,5 @@ jeton Instagram EN renouvelé (valable 60 jours)
 {"reseau": "instagram-en", "id": "17937833607146429"}
 ### 2026-11-27 09:02 publications/instagram-en/cavalier_double_e3_1.json
 {"reseau": "instagram-en", "id": "18404468263205588"}
+### 2026-11-27 12:03 publications/instagram-en/un_cavalier_chacun_c7_1.json
+{"reseau": "instagram-en", "id": "18037420481888696"}

@@ -157,3 +157,5 @@
 {"reseau": "instagram", "id": "18202377220392539"}
 ### 2026-11-26 18:01 publications/instagram/dames_fou_g3_1_fr.json
 {"reseau": "instagram", "id": "17997431445119159"}
+### 2026-11-27 12:01 publications/instagram/un_cavalier_chacun_c7_1_fr.json
+{"reseau": "instagram", "id": "18173810788475683"}

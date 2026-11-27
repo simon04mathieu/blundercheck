@@ -264,3 +264,5 @@
 {"reseau": "facebook", "id": "1006611802507071", "ok": true}
 ### 2026-11-27 09:01 publications/facebook/cavalier_double_e3_1.json
 {"reseau": "facebook", "id": "1091440947240694", "ok": true}
+### 2026-11-27 12:02 publications/facebook/un_cavalier_chacun_c7_1.json
+{"reseau": "facebook", "id": "1146900494498780", "ok": true}
