@@ -1,0 +1,147 @@
+{
+ "nom": "six_echecs_b2_1",
+ "tempo": 1.0,
+ "duree_s": 13.14,
+ "hook": {
+  "texte": "Which check|ends it?",
+  "fin": 1.86
+ },
+ "question": {
+  "texte": "Which check|ends it?",
+  "t": 9.94
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which check ends it?"
+  },
+  {
+   "t": 1.86,
+   "texte": "Queen to a1?"
+  },
+  {
+   "t": 3.38,
+   "texte": "Just a draw."
+  },
+  {
+   "t": 4.68,
+   "texte": "Queen to c4?"
+  },
+  {
+   "t": 6.58,
+   "texte": "The knight takes."
+  },
+  {
+   "t": 8.22,
+   "texte": "Queen to b2 checkmate!"
+  },
+  {
+   "t": 10.96,
+   "texte": "So with six checks ask"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.3,
+   "coup": "Ka2",
+   "badge": null
+  },
+  {
+   "t": 2.08,
+   "coup": "Qa1+",
+   "badge": null
+  },
+  {
+   "t": 3.38,
+   "coup": "Kxa1",
+   "badge": null
+  },
+  {
+   "t": 5.04,
+   "coup": "Qc4+",
+   "badge": null
+  },
+  {
+   "t": 6.96,
+   "coup": "Nxc4",
+   "badge": null
+  },
+  {
+   "t": 8.62,
+   "coup": "Qb2#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.0,
+   "type": "fleches"
+  },
+  {
+   "t": 0.3,
+   "type": "coup"
+  },
+  {
+   "t": 0.3,
+   "type": "zoom"
+  },
+  {
+   "t": 1.86,
+   "type": "sticker"
+  },
+  {
+   "t": 2.08,
+   "type": "coup"
+  },
+  {
+   "t": 3.38,
+   "type": "coup"
+  },
+  {
+   "t": 3.52,
+   "type": "sticker"
+  },
+  {
+   "t": 4.63,
+   "type": "position"
+  },
+  {
+   "t": 5.04,
+   "type": "coup"
+  },
+  {
+   "t": 6.96,
+   "type": "coup"
+  },
+  {
+   "t": 6.96,
+   "type": "sticker"
+  },
+  {
+   "t": 8.17,
+   "type": "position"
+  },
+  {
+   "t": 8.62,
+   "type": "coup"
+  },
+  {
+   "t": 8.62,
+   "type": "zoom"
+  },
+  {
+   "t": 9.8,
+   "type": "sticker"
+  },
+  {
+   "t": 12.51,
+   "type": "position"
+  }
+ ],
+ "musique": "baby_animals_playing.mp3"
+}
