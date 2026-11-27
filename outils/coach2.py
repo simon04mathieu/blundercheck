@@ -85,10 +85,10 @@ def construire(nom, mots):
             elif typ == "q":   # pause « trouve le coup » : secondes, texte (silence inséré dans la voix)
                 pauses.append((s - 0.02, float(mk[1]), " ".join(mk[2:]).replace("_", " ")))
     # 26/11 (Simon) : « la première image ne doit pas être zoomée : un premier plan large de 0,3-0,4 s, puis zoom et mouvement
-    # en même temps » -> le 1er coup et le zoom collé dessus sont ramenés à 0,50 s pile (27/11), quel que soit le calage de la voix
+    # en même temps » -> le 1er coup et le zoom collé dessus sont ramenés dans [0,40 ; 0,60] s (27/11), quel que soit le calage de la voix
     i0 = next((i for i, a_ in enumerate(actions) if a_[1] == "coup"), None)
     if i0 is not None and actions[i0][0] < 1.0:
-        t0 = actions[i0][0]; cible = 0.50  # 27/11 (Simon) : « le premier mouvement doit intervenir à pile 0,5 » : plateau entier 0,5 s, puis coup + zoom ensemble
+        t0 = actions[i0][0]; cible = min(max(t0, 0.40), 0.60)  # 27/11 (Simon) : « faut qu'il ait lieu, mais pas non plus dès 0,2 s » : 1er coup + zoom ensemble entre 0,4 et 0,6 s
         if cible != t0:
             actions = [((cible if (a_[1] == "coup" and i == i0) or (a_[1] == "zoom" and abs(a_[0] - t0) <= 0.1) else a_[0]),) + a_[1:]
                        for i, a_ in enumerate(actions)]
