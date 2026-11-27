@@ -34,7 +34,7 @@
  ],
  "coups": [
   {
-   "t": 0.4,
+   "t": 0.5,
    "coup": "Nb8",
    "badge": null
   },
@@ -55,11 +55,11 @@
    "type": "fleches"
   },
   {
-   "t": 0.4,
+   "t": 0.5,
    "type": "coup"
   },
   {
-   "t": 0.4,
+   "t": 0.5,
    "type": "zoom"
   },
   {

@@ -1465,3 +1465,6 @@
 ### commandes/perso_un_cavalier_chacun_c7_1.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/un_cavalier_chacun_c7_1.mp4 {"voix_brute_s": 9.4, "tempo": 1.0, "video_s": 9.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "kitty_down_the_stairs.mp3", "mots_transcrits": 19, "minutage": "4 phrases, 2 coups, 0 pauses"}
+### commandes/perso_un_cavalier_chacun_c7_1_fr.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/un_cavalier_chacun_c7_1_fr.mp4 {"voix_brute_s": 11.0, "tempo": 1.0, "video_s": 11.1, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "kitty_down_the_stairs.mp3", "mots_transcrits": 20, "minutage": "5 phrases, 2 coups, 0 pauses"}
