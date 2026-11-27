@@ -1,0 +1,104 @@
+{
+ "nom": "cavalier_double_e3_1_fr",
+ "tempo": 1.0,
+ "duree_s": 9.44,
+ "hook": {
+  "texte": "Lequel|prend ?",
+  "fin": 1.08
+ },
+ "question": {
+  "texte": "Lequel|prend ?",
+  "t": 6.24
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Lequel prend ?"
+  },
+  {
+   "t": 1.08,
+   "texte": "Le fou ?"
+  },
+  {
+   "t": 1.84,
+   "texte": "Pat, seulement nulle."
+  },
+  {
+   "t": 3.48,
+   "texte": "La dame prend  mat !"
+  },
+  {
+   "t": 5.86,
+   "texte": "Alors, quand un cavalier est attaqué deux fois, demande-toi"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.34,
+   "coup": "Ne3",
+   "badge": null
+  },
+  {
+   "t": 1.2,
+   "coup": "Bxe3",
+   "badge": null
+  },
+  {
+   "t": 3.8,
+   "coup": "Qxe3#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.0,
+   "type": "fleches"
+  },
+  {
+   "t": 0.34,
+   "type": "coup"
+  },
+  {
+   "t": 0.34,
+   "type": "zoom"
+  },
+  {
+   "t": 1.08,
+   "type": "sticker"
+  },
+  {
+   "t": 1.2,
+   "type": "coup"
+  },
+  {
+   "t": 2.3,
+   "type": "sticker"
+  },
+  {
+   "t": 3.43,
+   "type": "position"
+  },
+  {
+   "t": 3.8,
+   "type": "coup"
+  },
+  {
+   "t": 4.54,
+   "type": "sticker"
+  },
+  {
+   "t": 5.86,
+   "type": "fleches"
+  },
+  {
+   "t": 8.59,
+   "type": "position"
+  }
+ ],
+ "musique": "sneaky_spelunking.mp3"
+}
