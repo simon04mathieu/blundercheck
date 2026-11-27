@@ -1980,3 +1980,6 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "179"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "179"}
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "179"}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "179"}
+### 2026-11-27 15:01 publications/youtube/six_echecs_b2_1.json
+{"id": "hFbwJ9bO00I", "url": "https://www.youtube.com/shorts/hFbwJ9bO00I", "statut": "public", "publier_le": null}
