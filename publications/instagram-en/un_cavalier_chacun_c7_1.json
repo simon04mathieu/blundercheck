@@ -1,0 +1,27 @@
+{
+ "legende": "One knight each. Draw, or checkmate? 👇 1.Nc7#! His own knight blocks the king (composed position). One new puzzle every day.\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-27T13:00:00+01:00",
+ "fichier": "sorties/un_cavalier_chacun_c7_1.mp4",
+ "concept": "un_cavalier_chacun_c7",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 9.4,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "quiz",
+  "langue": "en",
+  "duree_s": 9,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "un_cavalier_chacun_c7",
+  "niveau": "1000-1800",
+  "hook": "plan_large_0.3s+coup_noir+zoom+fleche+tag+tactique_avant_3s",
+  "interet": "mater",
+  "pieces": 4,
+  "look": "bois",
+  "fx": "fleches+zoom+tag+impact"
+ }
+}

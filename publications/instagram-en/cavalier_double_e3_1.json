@@ -1,0 +1,27 @@
+{
+ "legende": "A knight hangs twice. Which one takes? 👇 1.Qxe3# is mate. 1.Bxe3? is stalemate (composed position). One new puzzle every day.\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-27T10:00:00+01:00",
+ "fichier": "sorties/cavalier_double_e3_1.mp4",
+ "concept": "cavalier_double_e3",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 11.5,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 12,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "cavalier_double_e3",
+  "niveau": "1000-1800",
+  "hook": "plan_large_0.3s+coup_noir+zoom+fleche+tag+tactique_avant_3s",
+  "interet": "mater",
+  "pieces": 5,
+  "look": "papier",
+  "fx": "fleches+zoom+tag+impact"
+ }
+}

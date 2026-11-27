@@ -1,0 +1,28 @@
+{
+ "legende": "Un cavalier chacun. Nulle, ou mat ? 👇 1.Cc7# ! Son propre cavalier enferme le roi (position composée). Un défi d'échecs par jour.\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-27T13:00:00+01:00",
+ "fichier": "sorties/un_cavalier_chacun_c7_1_fr.mp4",
+ "concept": "un_cavalier_chacun_c7",
+ "format": "TACTIQUE",
+ "langue": "fr",
+ "duree": 11.1,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "quiz",
+  "langue": "fr",
+  "duree_s": 11,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "un_cavalier_chacun_c7",
+  "niveau": "1000-1800",
+  "hook": "plan_large_0.3s+coup_noir+zoom+fleche+tag+tactique_avant_3s",
+  "interet": "mater",
+  "pieces": 4,
+  "look": "ardoise",
+  "fx": "fleches+zoom+tag+impact"
+ },
+ "paire": "un_cavalier_chacun_c7_1"
+}

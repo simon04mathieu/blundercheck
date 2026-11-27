@@ -1,0 +1,28 @@
+{
+ "legende": "Un cavalier attaqué deux fois. Qui prend ? 👇 1.Dxe3# fait mat. 1.Fxe3 ? Pat (position composée). Un défi d'échecs par jour.\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-27T19:00:00+01:00",
+ "fichier": "sorties/cavalier_double_e3_1_fr.mp4",
+ "concept": "cavalier_double_e3",
+ "format": "TACTIQUE",
+ "langue": "fr",
+ "duree": 9.4,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "fr",
+  "duree_s": 9,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "cavalier_double_e3",
+  "niveau": "1000-1800",
+  "hook": "plan_large_0.3s+coup_noir+zoom+fleche+tag+tactique_avant_3s",
+  "interet": "mater",
+  "pieces": 5,
+  "look": "mono",
+  "fx": "fleches+zoom+tag+impact"
+ },
+ "paire": "cavalier_double_e3_1"
+}

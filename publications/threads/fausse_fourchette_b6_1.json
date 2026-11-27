@@ -1,0 +1,27 @@
+{
+ "legende": "A royal fork appears. Play it, or not? 👇 1.Nf5+? Kc6! only draws. 1.Rb6+! wins the queen (Stockfish, composed position). One new puzzle every day.\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-27T19:00:00+01:00",
+ "fichier": "sorties/fausse_fourchette_b6_1.mp4",
+ "concept": "fausse_fourchette_b6",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 17.0,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 17,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "fausse_fourchette_b6",
+  "niveau": "1200-2000",
+  "hook": "plan_large_0.3s+coup_noir+zoom+fleche+tag+tactique_avant_3s",
+  "interet": "gagner_la_dame",
+  "pieces": 5,
+  "look": "corail",
+  "fx": "fleches+zoom+tag+impact"
+ }
+}

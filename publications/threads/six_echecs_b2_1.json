@@ -1,0 +1,27 @@
+{
+ "legende": "Six checks. Which one ends it? 👇 1.Qb2# is the only mate. 1.Qa1+? and 1.Qc4+? only draw (composed position). One new puzzle every day.\n\n#chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-27T16:00:00+01:00",
+ "fichier": "sorties/six_echecs_b2_1.mp4",
+ "concept": "six_echecs_b2",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 13.1,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 13,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "legende",
+  "fin": "boucle",
+  "motif": "six_echecs_b2",
+  "niveau": "1000-1800",
+  "hook": "plan_large_0.3s+coup_noir+zoom+fleche+tag+tactique_avant_3s",
+  "interet": "mater",
+  "pieces": 5,
+  "look": "emeraude",
+  "fx": "fleches+zoom+tag+impact"
+ }
+}
