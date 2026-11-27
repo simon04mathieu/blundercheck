@@ -1482,3 +1482,6 @@
 ### commandes/perso_etouffe_h8_1_fr.json
     voix générée : 155 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/etouffe_h8_1_fr.mp4 {"voix_brute_s": 11.0, "tempo": 1.0, "video_s": 11.0, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "corny_candy.mp3", "mots_transcrits": 38, "minutage": "5 phrases, 3 coups, 0 pauses"}
+### commandes/perso_methode_fourchette_d5_1.json
+    voix générée : 355 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/methode_fourchette_d5_1.mp4 {"voix_brute_s": 28.7, "tempo": 1.0, "video_s": 28.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "baby_animals_playing.mp3", "mots_transcrits": 67, "minutage": "12 phrases, 4 coups, 0 pauses"}

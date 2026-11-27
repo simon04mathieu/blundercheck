@@ -1,0 +1,129 @@
+{
+ "nom": "methode_fourchette_d5_1",
+ "tempo": 1.0,
+ "duree_s": 28.86,
+ "hook": {
+  "texte": "Find the fork|in 3 seconds",
+  "fin": 2.5
+ },
+ "question": {
+  "texte": "Find the fork|in 3 seconds",
+  "t": 25.66
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Find the fork in three seconds."
+  },
+  {
+   "t": 2.5,
+   "texte": "Here is the method."
+  },
+  {
+   "t": 4.02,
+   "texte": "Before every move ask three things."
+  },
+  {
+   "t": 7.08,
+   "texte": "Any check?"
+  },
+  {
+   "t": 8.28,
+   "texte": "Any capture?"
+  },
+  {
+   "t": 9.82,
+   "texte": "Any threat?"
+  },
+  {
+   "t": 11.26,
+   "texte": "Start with the checks."
+  },
+  {
+   "t": 13.06,
+   "texte": "This knight has one."
+  },
+  {
+   "t": 15.08,
+   "texte": "Knight to e7 check!"
+  },
+  {
+   "t": 17.58,
+   "texte": "The king has to move and the knight takes the queen."
+  },
+  {
+   "t": 21.04,
+   "texte": "Checks first, then captures then threats."
+  },
+  {
+   "t": 24.64,
+   "texte": "That is how you spot a fork in seconds so try it on your next game."
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.7,
+   "coup": "Ne7+",
+   "badge": null
+  },
+  {
+   "t": 15.6,
+   "coup": "Ne7+",
+   "badge": null
+  },
+  {
+   "t": 18.3,
+   "coup": "Kh8",
+   "badge": null
+  },
+  {
+   "t": 19.4,
+   "coup": "Nxc8",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.0,
+   "type": "fleches"
+  },
+  {
+   "t": 0.7,
+   "type": "coup"
+  },
+  {
+   "t": 0.7,
+   "type": "zoom"
+  },
+  {
+   "t": 2.5,
+   "type": "sticker"
+  },
+  {
+   "t": 13.01,
+   "type": "position"
+  },
+  {
+   "t": 15.6,
+   "type": "coup"
+  },
+  {
+   "t": 18.3,
+   "type": "coup"
+  },
+  {
+   "t": 19.4,
+   "type": "coup"
+  },
+  {
+   "t": 21.04,
+   "type": "sticker"
+  }
+ ],
+ "musique": "baby_animals_playing.mp3"
+}
