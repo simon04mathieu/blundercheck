@@ -268,3 +268,5 @@
 {"reseau": "facebook", "id": "1146900494498780", "ok": true}
 ### 2026-11-27 15:01 publications/facebook/six_echecs_b2_1.json
 {"reseau": "facebook", "id": "2143650952926071", "ok": true}
+### 2026-11-27 18:02 publications/facebook/fausse_fourchette_b6_1.json
+{"reseau": "facebook", "id": "1619045559487270", "ok": true}

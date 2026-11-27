@@ -159,3 +159,5 @@
 {"reseau": "instagram", "id": "17997431445119159"}
 ### 2026-11-27 12:01 publications/instagram/un_cavalier_chacun_c7_1_fr.json
 {"reseau": "instagram", "id": "18173810788475683"}
+### 2026-11-27 18:01 publications/instagram/cavalier_double_e3_1_fr.json
+{"reseau": "instagram", "id": "18062408033800828"}
