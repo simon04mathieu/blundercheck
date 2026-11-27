@@ -1,0 +1,157 @@
+{
+ "nom": "fausse_fourchette_b6_1",
+ "tempo": 1.0,
+ "duree_s": 16.98,
+ "hook": {
+  "texte": "Play the fork,|or not?",
+  "fin": 1.52
+ },
+ "question": {
+  "texte": "Play the fork,|or not?",
+  "t": 13.78
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Play the fork or not?"
+  },
+  {
+   "t": 1.52,
+   "texte": "Knight check!"
+  },
+  {
+   "t": 3.14,
+   "texte": "His king goes to c6 you take the queen he takes your rook."
+  },
+  {
+   "t": 9.06,
+   "texte": "Just a draw."
+  },
+  {
+   "t": 9.84,
+   "texte": "Rook to b6 check!"
+  },
+  {
+   "t": 12.42,
+   "texte": "The queen is yours."
+  },
+  {
+   "t": 14.12,
+   "texte": "So when a fork appears ask"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.3,
+   "coup": "Qh6",
+   "badge": null
+  },
+  {
+   "t": 2.76,
+   "coup": "Nf5+",
+   "badge": null
+  },
+  {
+   "t": 4.38,
+   "coup": "Kc6",
+   "badge": null
+  },
+  {
+   "t": 6.3,
+   "coup": "Nxh6",
+   "badge": null
+  },
+  {
+   "t": 7.56,
+   "coup": "Kxb7",
+   "badge": null
+  },
+  {
+   "t": 11.06,
+   "coup": "Rb6+",
+   "badge": "brillant"
+  },
+  {
+   "t": 12.42,
+   "coup": "Ke5",
+   "badge": null
+  },
+  {
+   "t": 13.6,
+   "coup": "Rxh6",
+   "badge": "brillant"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.0,
+   "type": "fleches"
+  },
+  {
+   "t": 0.3,
+   "type": "coup"
+  },
+  {
+   "t": 0.3,
+   "type": "zoom"
+  },
+  {
+   "t": 1.52,
+   "type": "sticker"
+  },
+  {
+   "t": 2.76,
+   "type": "coup"
+  },
+  {
+   "t": 4.38,
+   "type": "coup"
+  },
+  {
+   "t": 6.3,
+   "type": "coup"
+  },
+  {
+   "t": 7.56,
+   "type": "coup"
+  },
+  {
+   "t": 9.36,
+   "type": "sticker"
+  },
+  {
+   "t": 9.79,
+   "type": "position"
+  },
+  {
+   "t": 11.06,
+   "type": "coup"
+  },
+  {
+   "t": 12.42,
+   "type": "coup"
+  },
+  {
+   "t": 13.6,
+   "type": "coup"
+  },
+  {
+   "t": 13.6,
+   "type": "zoom"
+  },
+  {
+   "t": 14.12,
+   "type": "sticker"
+  },
+  {
+   "t": 16.05,
+   "type": "position"
+  }
+ ],
+ "musique": "got_him_from_behind.mp3"
+}
