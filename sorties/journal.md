@@ -1468,3 +1468,8 @@
 ### commandes/perso_un_cavalier_chacun_c7_1_fr.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/un_cavalier_chacun_c7_1_fr.mp4 {"voix_brute_s": 11.0, "tempo": 1.0, "video_s": 11.1, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "kitty_down_the_stairs.mp3", "mots_transcrits": 20, "minutage": "5 phrases, 2 coups, 0 pauses"}
+## 2026-11-27 10:06 UTC · run 45979227607
+### commandes/perso_dos_rang_e8_1.json
+    voix générée : 123 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/dos_rang_e8_1.mp4 {"voix_brute_s": 10.6, "tempo": 1.0, "video_s": 10.6, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "baby_animals_playing.mp3", "mots_transcrits": 23, "minutage": "5 phrases, 3 coups, 0 pauses"}

@@ -1,0 +1,92 @@
+{
+ "nom": "dos_rang_e8_1",
+ "tempo": 1.0,
+ "duree_s": 10.68,
+ "hook": {
+  "texte": "Queen takes|a rook?",
+  "fin": 0.96
+ },
+ "question": {
+  "texte": "Queen takes|a rook?",
+  "t": 7.48
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Queen takes a rook?"
+  },
+  {
+   "t": 0.96,
+   "texte": "The other rook takes back."
+  },
+  {
+   "t": 3.62,
+   "texte": "Now our rook takes checkmate!"
+  },
+  {
+   "t": 6.48,
+   "texte": "Three pawns, no air."
+  },
+  {
+   "t": 8.12,
+   "texte": "So before you relax ask"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.4,
+   "coup": "Qxe8+",
+   "badge": null
+  },
+  {
+   "t": 2.5,
+   "coup": "Rxe8",
+   "badge": null
+  },
+  {
+   "t": 4.28,
+   "coup": "Rxe8#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.0,
+   "type": "fleches"
+  },
+  {
+   "t": 0.4,
+   "type": "coup"
+  },
+  {
+   "t": 0.4,
+   "type": "zoom"
+  },
+  {
+   "t": 0.96,
+   "type": "sticker"
+  },
+  {
+   "t": 2.5,
+   "type": "coup"
+  },
+  {
+   "t": 4.28,
+   "type": "coup"
+  },
+  {
+   "t": 4.66,
+   "type": "sticker"
+  },
+  {
+   "t": 9.85,
+   "type": "position"
+  }
+ ],
+ "musique": "baby_animals_playing.mp3"
+}
