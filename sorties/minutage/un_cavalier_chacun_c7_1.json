@@ -1,0 +1,83 @@
+{
+ "nom": "un_cavalier_chacun_c7_1",
+ "tempo": 1.0,
+ "duree_s": 8.7,
+ "hook": {
+  "texte": "Draw,|or checkmate?",
+  "fin": 1.96
+ },
+ "question": {
+  "texte": "Draw,|or checkmate?",
+  "t": 5.5
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Draw, or checkmate?"
+  },
+  {
+   "t": 1.96,
+   "texte": "Look at his own knight."
+  },
+  {
+   "t": 3.62,
+   "texte": "Knight to c7 checkmate!"
+  },
+  {
+   "t": 6.56,
+   "texte": "So with one knight each ask"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.34,
+   "coup": "Nb8",
+   "badge": null
+  },
+  {
+   "t": 3.62,
+   "coup": "Nc7#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.0,
+   "type": "fleches"
+  },
+  {
+   "t": 0.34,
+   "type": "coup"
+  },
+  {
+   "t": 0.34,
+   "type": "zoom"
+  },
+  {
+   "t": 1.96,
+   "type": "sticker"
+  },
+  {
+   "t": 3.62,
+   "type": "coup"
+  },
+  {
+   "t": 5.12,
+   "type": "sticker"
+  },
+  {
+   "t": 7.24,
+   "type": "zoom"
+  },
+  {
+   "t": 8.07,
+   "type": "position"
+  }
+ ],
+ "musique": "kitty_down_the_stairs.mp3"
+}
