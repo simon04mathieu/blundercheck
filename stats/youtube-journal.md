@@ -2003,3 +2003,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "178"}
 ### 2026-11-27 18:01 publications/youtube/fausse_fourchette_b6_1.json
 {"id": "KW4Ds-yKi7w", "url": "https://www.youtube.com/shorts/KW4Ds-yKi7w", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "178"}
