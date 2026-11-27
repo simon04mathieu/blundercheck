@@ -1451,3 +1451,8 @@
     voix générée : 99 caractères
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/un_cavalier_chacun_c7_1.mp4 {"voix_brute_s": 9.4, "tempo": 1.0, "video_s": 9.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "kitty_down_the_stairs.mp3", "mots_transcrits": 19, "minutage": "4 phrases, 2 coups, 0 pauses"}
+## 2026-11-27 09:37 UTC · run 45975093547
+### commandes/perso_cavalier_double_e3_1_fr.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/cavalier_double_e3_1_fr.mp4 {"voix_brute_s": 9.4, "tempo": 1.0, "video_s": 9.4, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 25, "minutage": "5 phrases, 3 coups, 0 pauses"}
