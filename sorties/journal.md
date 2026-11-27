@@ -1406,3 +1406,8 @@
 ### commandes/perso_tour_libre_f5_1.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_libre_f5_1.mp4 {"voix_brute_s": 14.7, "tempo": 1.0, "video_s": 14.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "corny_candy.mp3", "mots_transcrits": 33, "minutage": "7 phrases, 2 coups, 0 pauses"}
+## 2026-11-27 00:06 UTC · run 45914605948
+### commandes/perso_cavalier_double_e3_1.json
+    voix générée : 114 caractères
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/cavalier_double_e3_1.mp4 {"voix_brute_s": 11.4, "tempo": 1.0, "video_s": 11.5, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "losing_your_marbles.mp3", "mots_transcrits": 21, "minutage": "5 phrases, 3 coups, 0 pauses"}

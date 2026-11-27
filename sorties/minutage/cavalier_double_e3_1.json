@@ -1,0 +1,104 @@
+{
+ "nom": "cavalier_double_e3_1",
+ "tempo": 1.0,
+ "duree_s": 11.52,
+ "hook": {
+  "texte": "Which one|takes?",
+  "fin": 1.64
+ },
+ "question": {
+  "texte": "Which one|takes?",
+  "t": 8.32
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Which one takes?"
+  },
+  {
+   "t": 1.64,
+   "texte": "The bishop?"
+  },
+  {
+   "t": 2.96,
+   "texte": "Stalemate, only a draw."
+  },
+  {
+   "t": 5.9,
+   "texte": "The queen takes checkmate!"
+  },
+  {
+   "t": 8.78,
+   "texte": "So when a knight hangs twice ask"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.3,
+   "coup": "Ne3",
+   "badge": null
+  },
+  {
+   "t": 1.74,
+   "coup": "Bxe3",
+   "badge": null
+  },
+  {
+   "t": 6.18,
+   "coup": "Qxe3#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.0,
+   "type": "fleches"
+  },
+  {
+   "t": 0.3,
+   "type": "coup"
+  },
+  {
+   "t": 0.3,
+   "type": "zoom"
+  },
+  {
+   "t": 1.64,
+   "type": "sticker"
+  },
+  {
+   "t": 1.74,
+   "type": "coup"
+  },
+  {
+   "t": 4.16,
+   "type": "sticker"
+  },
+  {
+   "t": 5.85,
+   "type": "position"
+  },
+  {
+   "t": 6.18,
+   "type": "coup"
+  },
+  {
+   "t": 7.44,
+   "type": "sticker"
+  },
+  {
+   "t": 8.78,
+   "type": "fleches"
+  },
+  {
+   "t": 10.83,
+   "type": "position"
+  }
+ ],
+ "musique": "losing_your_marbles.mp3"
+}
