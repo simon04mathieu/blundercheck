@@ -2187,3 +2187,38 @@ QUESTIONS.update({
     "tour_libre_f5_1_fr": "Tu la prends,|ou pas ?",
     "dames_fou_g3_1_fr": "Tu prends,|ou échec ?",
 })
+
+# 27/11 (Producteur) : file du Scénariste du 26/11 (cavalier attaqué deux fois, 1.Qxe3# / 1.Bxe3 pat ; un cavalier chacun, 1.Nc7# ; six échecs, 1.Qb2# ;
+# NEUF faux coup brillant : 1.Nf5+? Kc6! nulle, 1.Rb6+ gagne la dame) ; python-chess + Stockfish d18 (tous les coups blancs) ; RÉTENTION seule ;
+# plan large à l'image 0, 1er coup + zoom à 0,3-0,4 s, fin sur « ask » / « demande-toi » avec retour à la position A, rien après
+E3A = "fen:8/8/1B2K3/8/2n1k3/8/4Q3/8_b_-_-_0_1"                # avant …Cc4-e3 (roi noir en échec) ; 1.Qxe3# seul mat en 1 ; 1.Bxe3 pat
+E3B = "fen:8/8/1B2K3/8/4k3/4n3/4Q3/8_w_-_-_1_2"
+C7A = "fen:k7/8/1Kn1N3/8/8/8/8/8_b_-_-_0_1"                     # avant …Cc6-b8 ; 1.Nc7# seul coup gagnant (tous les autres = 0)
+C7B = "fen:kn6/8/1K2N3/8/8/8/8/8_w_-_-_1_2"
+B2A = "fen:8/8/3nK3/8/3Q4/B7/8/k7_b_-_-_0_1"                    # avant …Ka1-a2 ; 6 échecs, 1.Qb2# seul mat ; Qa1+ Kxa1 = 0 ; Qc4+ Nxc4 = 0
+B2B = "fen:8/8/3nK3/8/3Q4/B7/k7/8_w_-_-_1_2"
+B6A = "fen:7q/1R6/3k4/8/8/4N3/5K2/8_b_-_-_0_1"                  # avant …Dh8-h6 ; 1.Rb6+ +31 seul gagnant (Rxh6 après les 5 réponses) ; 1.Nf5+ Kc6! −0,3 (nulle)
+B6B = "fen:8/1R6/3k3q/8/8/4N3/5K2/8_w_-_-_1_2"
+_S = {
+"cavalier_double_e3_1": ("blancs", "Which one|takes?",
+"""[p """ + E3A + """] [f e2e4] Which [m Ne3] [z e3 1.3 2.0] one takes? [s tag e3 1.4 WHICH_ONE?] [h] The [m Bxe3] bishop? Stalemate, [s tag e4 1.6 STALEMATE] only a draw. [p """ + E3B + """] The queen [m Qxe3# mat] [x impact] takes: [s tag e4 1.6 CHECKMATE] checkmate! [f b6e3] So when a knight hangs twice, [p """ + E3A + """] ask"""),
+"un_cavalier_chacun_c7_1": ("blancs", "Draw,|or checkmate?",
+"""[p """ + C7A + """] [f b6a7] Draw, [m Nb8] [z b8 1.3 2.0] or checkmate? [s tag a8 1.4 DRAW?] [h] Look at his own knight. [m Nc7# mat] [x impact] Knight to c7: [s tag a8 1.6 CHECKMATE] checkmate! So with one [z a8 1.3 2.0] knight each, [p """ + C7A + """] ask"""),
+"six_echecs_b2_1": ("blancs", "Which check|ends it?",
+"""[p """ + B2A + """] [f d4a1] Which [m Ka2] [z a2 1.3 2.0] check ends it? [s tag d4 1.4 6_CHECKS] [h] Queen [m Qa1+] to a1? [m Kxa1] Just [s tag a1 1.4 JUST_A_DRAW] a draw. [p """ + B2B + """] Queen [m Qc4+] to c4? The knight [m Nxc4] [s tag c4 1.4 DRAW_AGAIN] takes. [p """ + B2B + """] Queen [m Qb2# mat] [x impact] [z b2 1.3 2.0] to b2: [s tag a2 1.6 CHECKMATE] checkmate! So with six checks, [p """ + B2A + """] ask"""),
+"fausse_fourchette_b6_1": ("blancs", "Play the fork,|or not?",
+"""[p """ + B6A + """] [f e3f5] Play [m Qh6] [z h6 1.3 2.0] the fork, or not? [s tag f5 1.4 ROYAL_FORK?] [h] Knight [m Nf5+] check! His king [m Kc6] goes to c6: you [m Nxh6] take the queen, he [m Kxb7] takes your rook. Just [s tag b7 1.4 ONLY_A_DRAW] a draw. [p """ + B6B + """] Rook [m Rb6+ brillant] to b6, check! [m Ke5] The queen [m Rxh6 brillant] [x impact] [z h6 1.3 2.0] is yours. [s tag h6 1.6 QUEEN_WON] So when a fork appears, [p """ + B6A + """] ask"""),
+"un_cavalier_chacun_c7_1_fr": ("blancs", "Nulle,|ou mat ?",
+"""[p """ + C7A + """] [f b6a7] Nulle, [m Nb8] [z b8 1.3 2.0] ou mat ? [s tag a8 1.4 NULLE_?] [h] Regarde son propre cavalier. [m Nc7# mat] [x impact] Cavalier en c7 : [s tag a8 1.6 MAT] mat ! Alors, [z a8 1.3 2.0] avec un cavalier chacun, [p """ + C7A + """] demande-toi"""),
+"cavalier_double_e3_1_fr": ("blancs", "Lequel|prend ?",
+"""[p """ + E3A + """] [f e2e4] Lequel [m Ne3] [z e3 1.3 2.0] prend ? [s tag e3 1.4 LEQUEL_?] [h] Le [m Bxe3] fou ? Pat, [s tag e4 1.6 PAT] seulement nulle. [p """ + E3B + """] La dame [m Qxe3# mat] [x impact] prend : [s tag e4 1.6 MAT] mat ! [f b6e3] Alors, quand un cavalier est attaqué deux fois, [p """ + E3A + """] demande-toi"""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _S.items()})
+QUESTIONS.update({
+    "cavalier_double_e3_1": "Which one|takes?",
+    "un_cavalier_chacun_c7_1": "Draw,|or checkmate?",
+    "six_echecs_b2_1": "Which check|ends it?",
+    "fausse_fourchette_b6_1": "Play the fork,|or not?",
+    "un_cavalier_chacun_c7_1_fr": "Nulle,|ou mat ?",
+    "cavalier_double_e3_1_fr": "Lequel|prend ?",
+})
