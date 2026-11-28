@@ -1,5 +1,5 @@
 {
- "date": "2026-11-28T10:41:08.958497+00:00",
+ "date": "2026-11-28T10:51:09.559236+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -30,7 +30,7 @@
    "publiee": "2026-11-27T15:01:34Z",
    "statut": "public",
    "duree": "PT14S",
-   "vues": 3233,
+   "vues": 3231,
    "jaime": 11,
    "commentaires": 2
   },
@@ -39,7 +39,7 @@
    "publiee": "2026-11-27T12:01:41Z",
    "statut": "public",
    "duree": "PT10S",
-   "vues": 9249,
+   "vues": 9245,
    "jaime": 29,
    "commentaires": 7
   },
@@ -48,7 +48,7 @@
    "publiee": "2026-11-27T09:01:34Z",
    "statut": "public",
    "duree": "PT12S",
-   "vues": 14095,
+   "vues": 14089,
    "jaime": 31,
    "commentaires": 0
   },
@@ -75,7 +75,7 @@
    "publiee": "2026-11-26T12:01:25Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 17248,
+   "vues": 17247,
    "jaime": 43,
    "commentaires": 2
   },
@@ -84,7 +84,7 @@
    "publiee": "2026-11-26T09:01:28Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 5167,
+   "vues": 5171,
    "jaime": 13,
    "commentaires": 1
   },
@@ -93,7 +93,7 @@
    "publiee": "2026-11-25T18:01:35Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 17955,
+   "vues": 17957,
    "jaime": 35,
    "commentaires": 4
   },
@@ -120,7 +120,7 @@
    "publiee": "2026-11-25T09:01:34Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 17427,
+   "vues": 17429,
    "jaime": 36,
    "commentaires": 1
   },
@@ -174,7 +174,7 @@
    "publiee": "2026-11-23T15:01:39Z",
    "statut": "public",
    "duree": "PT14S",
-   "vues": 10389,
+   "vues": 10385,
    "jaime": 40,
    "commentaires": 2
   },
@@ -183,7 +183,7 @@
    "publiee": "2026-11-23T12:01:31Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 20660,
+   "vues": 20664,
    "jaime": 64,
    "commentaires": 4
   },
@@ -336,7 +336,7 @@
    "publiee": "2026-11-19T10:06:37Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 31187,
+   "vues": 31188,
    "jaime": 69,
    "commentaires": 0
   },
