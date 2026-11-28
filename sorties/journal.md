@@ -1522,3 +1522,6 @@
 ### commandes/perso_tour_libre_g3_1_fr.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_libre_g3_1_fr.mp4 {"voix_brute_s": 14.6, "tempo": 1.0, "video_s": 14.7, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "investigations.mp3", "mots_transcrits": 37, "minutage": "6 phrases, 6 coups, 0 pauses"}
+### commandes/perso_trois_echecs_e1_1.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/trois_echecs_e1_1.mp4 {"voix_brute_s": 26.7, "tempo": 1.0, "video_s": 26.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "baby_animals_playing.mp3", "mots_transcrits": 56, "minutage": "13 phrases, 16 coups, 0 pauses"}
