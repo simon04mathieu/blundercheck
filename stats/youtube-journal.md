@@ -2142,3 +2142,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "180"}
 ### 2026-11-28 15:01 publications/youtube/tour_libre_g3_1.json
 {"id": "T7QgeYRpFwo", "url": "https://www.youtube.com/shorts/T7QgeYRpFwo", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "180"}

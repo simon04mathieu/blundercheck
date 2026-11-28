@@ -1,5 +1,5 @@
 {
- "date": "2026-11-28T15:01:15.018833+00:00",
+ "date": "2026-11-28T15:11:17.424440+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -7,12 +7,21 @@
   "uploads": "UUOeNkeulS5bvT5MQ9ZjhqmA"
  },
  "videos": {
+  "T7QgeYRpFwo": {
+   "titre": "Free rook on g3. Take it, or not? ♟️ #chess #shorts",
+   "publiee": "2026-11-28T15:01:34Z",
+   "statut": "public",
+   "duree": "PT15S",
+   "vues": 0,
+   "jaime": 0,
+   "commentaires": 0
+  },
   "x8ZnvY659ss": {
    "titre": "He grabbed your knight. Can you punish it? ♟️ #chess #shorts",
    "publiee": "2026-11-28T12:01:32Z",
    "statut": "public",
    "duree": "PT11S",
-   "vues": 890,
+   "vues": 907,
    "jaime": 8,
    "commentaires": 0
   },
@@ -21,8 +30,8 @@
    "publiee": "2026-11-28T09:01:28Z",
    "statut": "public",
    "duree": "PT13S",
-   "vues": 1391,
-   "jaime": 5,
+   "vues": 1419,
+   "jaime": 6,
    "commentaires": 0
   },
   "KW4Ds-yKi7w": {
@@ -30,8 +39,8 @@
    "publiee": "2026-11-27T18:01:30Z",
    "statut": "public",
    "duree": "PT18S",
-   "vues": 3267,
-   "jaime": 14,
+   "vues": 3282,
+   "jaime": 15,
    "commentaires": 0
   },
   "hFbwJ9bO00I": {
@@ -39,7 +48,7 @@
    "publiee": "2026-11-27T15:01:34Z",
    "statut": "public",
    "duree": "PT14S",
-   "vues": 4080,
+   "vues": 4089,
    "jaime": 12,
    "commentaires": 2
   },
@@ -48,7 +57,7 @@
    "publiee": "2026-11-27T12:01:41Z",
    "statut": "public",
    "duree": "PT10S",
-   "vues": 11522,
+   "vues": 11534,
    "jaime": 32,
    "commentaires": 7
   },
@@ -57,7 +66,7 @@
    "publiee": "2026-11-27T09:01:34Z",
    "statut": "public",
    "duree": "PT12S",
-   "vues": 16371,
+   "vues": 16387,
    "jaime": 34,
    "commentaires": 0
   },
@@ -147,7 +156,7 @@
    "publiee": "2026-11-24T15:01:34Z",
    "statut": "public",
    "duree": "PT15S",
-   "vues": 10828,
+   "vues": 10840,
    "jaime": 30,
    "commentaires": 6
   },
@@ -192,7 +201,7 @@
    "publiee": "2026-11-23T12:01:31Z",
    "statut": "public",
    "duree": "PT16S",
-   "vues": 20664,
+   "vues": 20667,
    "jaime": 64,
    "commentaires": 4
   },
@@ -273,7 +282,7 @@
    "publiee": "2026-11-21T16:44:25Z",
    "statut": "public",
    "duree": "PT14S",
-   "vues": 32115,
+   "vues": 32116,
    "jaime": 33,
    "commentaires": 3
   },
@@ -588,7 +597,7 @@
    "publiee": "2026-11-12T13:09:20Z",
    "statut": "public",
    "duree": "PT44S",
-   "vues": 5125,
+   "vues": 5126,
    "jaime": 68,
    "commentaires": 0
   },
