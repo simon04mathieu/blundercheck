@@ -2100,3 +2100,4 @@
 {"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "179"}
 ### 2026-11-28 09:01 publications/youtube/ne_pas_pater_tour_a4_1.json
 {"id": "LhSu25TS-iY", "url": "https://www.youtube.com/shorts/LhSu25TS-iY", "statut": "public", "publier_le": null}
+{"nom": "BlunderCheck", "id": "UCOeNkeulS5bvT5MQ9ZjhqmA", "abonnes": "179"}
