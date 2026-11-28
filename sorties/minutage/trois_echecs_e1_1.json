@@ -1,0 +1,277 @@
+{
+ "nom": "trois_echecs_e1_1",
+ "tempo": 1.0,
+ "duree_s": 26.92,
+ "hook": {
+  "texte": "Three checks.|All three fail.",
+  "fin": 2.38
+ },
+ "question": {
+  "texte": "Three checks.|All three fail.",
+  "t": 23.72
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Three checks."
+  },
+  {
+   "t": 0.72,
+   "texte": "All three fail."
+  },
+  {
+   "t": 2.38,
+   "texte": "Rook check?"
+  },
+  {
+   "t": 3.98,
+   "texte": "The king just takes it."
+  },
+  {
+   "t": 5.7,
+   "texte": "Bishop check?"
+  },
+  {
+   "t": 7.18,
+   "texte": "He steps back you push, your rook falls."
+  },
+  {
+   "t": 10.56,
+   "texte": "Last check?"
+  },
+  {
+   "t": 12.18,
+   "texte": "You push, he takes your bishop draw."
+  },
+  {
+   "t": 15.4,
+   "texte": "The winner gives no check."
+  },
+  {
+   "t": 17.96,
+   "texte": "Bishop to e1!"
+  },
+  {
+   "t": 19.06,
+   "texte": "His queen is pinned."
+  },
+  {
+   "t": 20.98,
+   "texte": "He takes, you take back and your pawn runs."
+  },
+  {
+   "t": 24.9,
+   "texte": "Did you see it?"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.4,
+   "coup": "Kh4",
+   "badge": null
+  },
+  {
+   "t": 3.56,
+   "coup": "Rg4+",
+   "badge": null
+  },
+  {
+   "t": 4.86,
+   "coup": "Kxg4",
+   "badge": null
+  },
+  {
+   "t": 6.72,
+   "coup": "Bg5+",
+   "badge": null
+  },
+  {
+   "t": 7.96,
+   "coup": "Kh5",
+   "badge": null
+  },
+  {
+   "t": 8.98,
+   "coup": "g7",
+   "badge": null
+  },
+  {
+   "t": 9.84,
+   "coup": "Qxg1",
+   "badge": null
+  },
+  {
+   "t": 11.82,
+   "coup": "Rh1+",
+   "badge": null
+  },
+  {
+   "t": 12.18,
+   "coup": "Kg4",
+   "badge": null
+  },
+  {
+   "t": 12.9,
+   "coup": "g7",
+   "badge": null
+  },
+  {
+   "t": 13.98,
+   "coup": "Qxd2+",
+   "badge": null
+  },
+  {
+   "t": 18.34,
+   "coup": "Be1",
+   "badge": "brillant"
+  },
+  {
+   "t": 22.04,
+   "coup": "Qxe1",
+   "badge": null
+  },
+  {
+   "t": 22.94,
+   "coup": "Rxe1",
+   "badge": null
+  },
+  {
+   "t": 23.42,
+   "coup": "Kg3",
+   "badge": null
+  },
+  {
+   "t": 24.04,
+   "coup": "g7",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.0,
+   "type": "fleches"
+  },
+  {
+   "t": 0.4,
+   "type": "coup"
+  },
+  {
+   "t": 0.4,
+   "type": "zoom"
+  },
+  {
+   "t": 0.72,
+   "type": "sticker"
+  },
+  {
+   "t": 3.56,
+   "type": "coup"
+  },
+  {
+   "t": 4.86,
+   "type": "coup"
+  },
+  {
+   "t": 5.65,
+   "type": "position"
+  },
+  {
+   "t": 5.7,
+   "type": "sticker"
+  },
+  {
+   "t": 6.72,
+   "type": "coup"
+  },
+  {
+   "t": 7.96,
+   "type": "coup"
+  },
+  {
+   "t": 8.98,
+   "type": "coup"
+  },
+  {
+   "t": 9.84,
+   "type": "coup"
+  },
+  {
+   "t": 10.51,
+   "type": "position"
+  },
+  {
+   "t": 10.56,
+   "type": "sticker"
+  },
+  {
+   "t": 11.82,
+   "type": "coup"
+  },
+  {
+   "t": 12.18,
+   "type": "coup"
+  },
+  {
+   "t": 12.9,
+   "type": "coup"
+  },
+  {
+   "t": 13.98,
+   "type": "coup"
+  },
+  {
+   "t": 15.35,
+   "type": "position"
+  },
+  {
+   "t": 15.4,
+   "type": "sticker"
+  },
+  {
+   "t": 17.96,
+   "type": "fleches"
+  },
+  {
+   "t": 18.34,
+   "type": "coup"
+  },
+  {
+   "t": 18.34,
+   "type": "zoom"
+  },
+  {
+   "t": 19.06,
+   "type": "fleches"
+  },
+  {
+   "t": 20.38,
+   "type": "sticker"
+  },
+  {
+   "t": 22.04,
+   "type": "coup"
+  },
+  {
+   "t": 22.94,
+   "type": "coup"
+  },
+  {
+   "t": 23.42,
+   "type": "coup"
+  },
+  {
+   "t": 24.04,
+   "type": "coup"
+  },
+  {
+   "t": 24.9,
+   "type": "sticker"
+  }
+ ],
+ "musique": "baby_animals_playing.mp3"
+}
