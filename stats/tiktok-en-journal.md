@@ -1847,3 +1847,12 @@ Reference&#32;&#35;15&#46;d4f8da17&#46;1795791095&#46;12e17fb6
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 71, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 71, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 71, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 71, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-28 00:17 publications/tiktok-en/badge_tour_h6_1.json
+{"publish_id": "v_inbox_file~v2.7713009602954184726", "mode": "brouillon", "vie_privee": null, "legende": "He grabbed your knight. Can you punish it? 👇 1.Ra6+! wins the rook (Stockfish, composed position). One new puzzle every day.\n\nGot it in 3 seconds? Follow and prove it tomorrow.\n\n#chess #chesstactics #chesspuzzle #chesstok #chessgame"}
+### 2026-11-28 00:17 publications/tiktok-en/ne_pas_pater_tour_a4_1.json
+{"publish_id": "v_inbox_file~v2.7713009550172964886", "mode": "brouillon", "vie_privee": null, "legende": "His pawn is about to queen. Take it, or not? 👇 1.Rh4# wins. 1.Rxa2?? is stalemate (composed position). One new puzzle every day.\n\nFound it? Follow, a new puzzle drops every day.\n\n#chess #chesstactics #chesspuzzle #chesstok #chessgame"}
+### 2026-11-28 00:17 publications/tiktok-en/tour_libre_g3_1.json
+{"publish_id": "v_inbox_file~v2.7713009550172997654", "mode": "brouillon", "vie_privee": null, "legende": "Free rook on g3. Take it, or not? 👇 1.Qc6+! mates in two. 1.Qxg3?? f1=Q loses (composed position). One new puzzle every day. Analyze your own game: blundercheck.app/try\n\nOnly real players find this. Found it? Follow.\n\n#chess #chesstactics #chesspuzzle #chesstok #chessgame"}
+### 2026-11-28 00:17 publications/tiktok-en/trois_echecs_e1_1.json
+{"publish_id": "v_inbox_file~v2.7713009602954250262", "mode": "brouillon", "vie_privee": null, "legende": "Three checks, all wrong. Did you find the real move? 👇 1.Be1!! pins the queen (Stockfish, composed position). One new puzzle every day.\n\nWrite your move in the comments, then follow for tomorrow's.\n\n#chess #chesstactics #chesspuzzle #chesstok #chessgame"}

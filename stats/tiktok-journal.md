@@ -1893,3 +1893,8 @@ http.client.IncompleteRead: IncompleteRead(263 bytes read)
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 22, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 22, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 22, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck", "utilisateur": "blundercheckapp", "abonnes": 22, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+### 2026-11-28 00:17 publications/tiktok/ne_pas_pater_tour_a4_1_fr.json
+{"publish_id": "v_inbox_file~v2.7713009270736701462", "mode": "brouillon", "vie_privee": null, "legende": "Son pion va faire dame. Tu le prends ? 👇 1.Th4 mat gagne. 1.Txa2 ?? pat (position composée). Un défi d'échecs par jour.\n\nSeuls les vrais joueurs trouvent. Trouvé ? Abonne-toi.\n\n#echecs #chess #echecsfr #chesstok #puzzle"}
+### 2026-11-28 00:17 publications/tiktok/tour_libre_g3_1_fr.json
+{"publish_id": "v_inbox_file~v2.7713009245960259606", "mode": "brouillon", "vie_privee": null, "legende": "Tour offerte en g3. Tu prends ? 👇 1.Dc6+ ! mate en deux. 1.Dxg3 ?? f1=D perd (position composée). Un défi d'échecs par jour.\n\nRaté ? Abonne-toi, tu auras le prochain.\n\n#echecs #chess #echecsfr #chesstok #puzzle\n\nMusic: \"Investigations\" by Kevin MacLeod (incompetech.com), licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/"}
