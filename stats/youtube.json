@@ -1,5 +1,5 @@
 {
- "date": "2026-11-28T05:11:17.131137+00:00",
+ "date": "2026-11-28T05:21:16.507730+00:00",
  "chaine": {
   "id": "UCOeNkeulS5bvT5MQ9ZjhqmA",
   "nom": "BlunderCheck",
@@ -30,7 +30,7 @@
    "publiee": "2026-11-27T12:01:41Z",
    "statut": "public",
    "duree": "PT10S",
-   "vues": 9190,
+   "vues": 9206,
    "jaime": 25,
    "commentaires": 7
   },
@@ -75,7 +75,7 @@
    "publiee": "2026-11-26T09:01:28Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 5152,
+   "vues": 5163,
    "jaime": 12,
    "commentaires": 1
   },
@@ -201,7 +201,7 @@
    "publiee": "2026-11-22T15:01:36Z",
    "statut": "public",
    "duree": "PT13S",
-   "vues": 5748,
+   "vues": 5749,
    "jaime": 19,
    "commentaires": 1
   },
@@ -264,7 +264,7 @@
    "publiee": "2026-11-20T18:31:29Z",
    "statut": "public",
    "duree": "PT18S",
-   "vues": 4118,
+   "vues": 4119,
    "jaime": 17,
    "commentaires": 4
   },
@@ -327,7 +327,7 @@
    "publiee": "2026-11-19T10:06:37Z",
    "statut": "public",
    "duree": "PT17S",
-   "vues": 31178,
+   "vues": 31181,
    "jaime": 69,
    "commentaires": 0
   },
