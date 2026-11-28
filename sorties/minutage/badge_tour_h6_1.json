@@ -1,0 +1,144 @@
+{
+ "nom": "badge_tour_h6_1",
+ "tempo": 1.0,
+ "duree_s": 10.84,
+ "hook": {
+  "texte": "Can you|punish this?",
+  "fin": 1.38
+ },
+ "question": {
+  "texte": "Can you|punish this?",
+  "t": 7.64
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Can you punish this?"
+  },
+  {
+   "t": 1.38,
+   "texte": "Check on a6!"
+  },
+  {
+   "t": 2.92,
+   "texte": "He takes your pawn and you take his rook!"
+  },
+  {
+   "t": 5.92,
+   "texte": "Run the other way?"
+  },
+  {
+   "t": 7.32,
+   "texte": "Still gone."
+  },
+  {
+   "t": 8.8,
+   "texte": "So when he grabs a knight ask"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.4,
+   "coup": "Rxh6",
+   "badge": null
+  },
+  {
+   "t": 1.52,
+   "coup": "Ra6+",
+   "badge": null
+  },
+  {
+   "t": 3.08,
+   "coup": "Kxb5",
+   "badge": null
+  },
+  {
+   "t": 4.42,
+   "coup": "Rxh6",
+   "badge": null
+  },
+  {
+   "t": 6.16,
+   "coup": "Ra6+",
+   "badge": null
+  },
+  {
+   "t": 6.34,
+   "coup": "Kc7",
+   "badge": null
+  },
+  {
+   "t": 7.62,
+   "coup": "Rxh6",
+   "badge": null
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.0,
+   "type": "fleches"
+  },
+  {
+   "t": 0.26,
+   "type": "sticker"
+  },
+  {
+   "t": 0.4,
+   "type": "coup"
+  },
+  {
+   "t": 0.4,
+   "type": "zoom"
+  },
+  {
+   "t": 1.52,
+   "type": "coup"
+  },
+  {
+   "t": 2.92,
+   "type": "fleches"
+  },
+  {
+   "t": 3.08,
+   "type": "coup"
+  },
+  {
+   "t": 4.42,
+   "type": "coup"
+  },
+  {
+   "t": 5.87,
+   "type": "position"
+  },
+  {
+   "t": 5.92,
+   "type": "sticker"
+  },
+  {
+   "t": 6.16,
+   "type": "coup"
+  },
+  {
+   "t": 6.34,
+   "type": "coup"
+  },
+  {
+   "t": 7.62,
+   "type": "coup"
+  },
+  {
+   "t": 7.62,
+   "type": "zoom"
+  },
+  {
+   "t": 10.25,
+   "type": "position"
+  }
+ ],
+ "musique": "sneaky_spelunking.mp3"
+}
