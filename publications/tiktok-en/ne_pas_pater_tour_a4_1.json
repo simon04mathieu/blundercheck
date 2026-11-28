@@ -1,0 +1,31 @@
+{
+ "legende": "His pawn is about to queen. Take it, or not? 👇 1.Rh4# wins. 1.Rxa2?? is stalemate (composed position). One new puzzle every day. #chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-28T00:00:00+01:00",
+ "heure_conseillee": "2026-11-28T10:00:00+01:00",
+ "repere": "10 h · ne_pas_pater_tour_a4_1 · 12.0 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/ne_pas_pater_tour_a4_1.mp4",
+ "concept": "ne_pas_pater_tour_a4",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 12.0,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 12,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "legende",
+  "fin": "boucle",
+  "motif": "ne_pas_pater_tour_a4",
+  "niveau": "800-1000",
+  "hook": "plan_large_0.4s+coup_noir+zoom+fleche+tag+tactique_avant_3s",
+  "interet": "mater",
+  "pieces": 4,
+  "look": "corail",
+  "fx": "fleches+zoom+tag+impact"
+ }
+}

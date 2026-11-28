@@ -1,0 +1,28 @@
+{
+ "legende": "Son pion va faire dame. Tu le prends ? 👇 1.Th4 mat gagne. 1.Txa2 ?? pat (position composée). Un défi d'échecs par jour.\n\n#echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-28T13:00:00+01:00",
+ "fichier": "sorties/ne_pas_pater_tour_a4_1_fr.mp4",
+ "concept": "ne_pas_pater_tour_a4",
+ "format": "TACTIQUE",
+ "langue": "fr",
+ "duree": 13.5,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "fr",
+  "duree_s": 14,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "ne_pas_pater_tour_a4",
+  "niveau": "800-1000",
+  "hook": "plan_large_0.4s+coup_noir+zoom+fleche+tag+tactique_avant_3s",
+  "interet": "mater",
+  "pieces": 4,
+  "look": "emeraude",
+  "fx": "fleches+zoom+tag+impact"
+ },
+ "paire": "ne_pas_pater_tour_a4_1"
+}

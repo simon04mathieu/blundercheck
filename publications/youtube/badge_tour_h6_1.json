@@ -1,0 +1,37 @@
+{
+ "titre": "He grabbed your knight. Can you punish it? ♟️ #chess #shorts",
+ "description": "He grabbed your knight. Can you punish it? 👇 1.Ra6+! wins the rook (Stockfish, composed position). One new puzzle every day.\n\n#chess #shorts",
+ "tags": [
+  "chess",
+  "checkmate",
+  "chess tactics",
+  "chess puzzle"
+ ],
+ "envoyer_apres": "2026-11-28T13:00:00+01:00",
+ "fichier": "sorties/badge_tour_h6_1.mp4",
+ "concept": "badge_tour_h6",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 10.8,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 11,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "legende",
+  "fin": "boucle",
+  "motif": "badge_tour_h6",
+  "niveau": "1200",
+  "hook": "plan_large_0.4s+coup_noir+zoom+fleche+tag+tactique_avant_3s",
+  "interet": "gagner_materiel",
+  "pieces": 8,
+  "look": "ardoise",
+  "fx": "fleches+zoom+tag+impact",
+  "test_badge": "oui",
+  "badge": "etiquette BLUNDER −5.2",
+  "badge_t": 0.8
+ }
+}

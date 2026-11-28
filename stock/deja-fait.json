@@ -217,6 +217,33 @@
   "ligne_uci": "g1f3 g8f6 c2c4 g7g6 b1c3 f8g7 d2d4 e8g8 c1f4 d7d5 d1b3 d5c4 b3c4 c7c6 e2e4 b8d7 a1d1 d7b6 c4c5 c8g4 f4g5 b6a4 c5a3 a4c3 b2c3 f6e4 g5e7 d8b6 f1c4 e4c3 e7c5 f8e8 e1f1 g4e6 c5b6 e6c4 f1g1 c3e2 g1f1 e2d4 f1g1 d4e2 g1f1 e2c3 f1g1 a7b6 a3b4 a8a4 b4b6 c3d1 h2h3 a4a2 g1h2 d1f2 h1e1 e8e1 b6d8 g7f8 f3e1 c4d5 e1f3 f2e4 d8b8 b7b5 h3h4 h7h5 f3e5 g8g7 h2g1 f8c5 g1f1 e4g3 f1e1 c5b4 e1d1 d5b3 d1c1 g3e2 c1b1 e2c3 b1c1 a2c2"
  },
  {
+  "nom": "badge_tour_h6_1",
+  "langue": "en",
+  "concept": "badge_tour_h6",
+  "sujet": "He grabbed your knight. Can you punish it? ♟️",
+  "reseaux": {
+   "youtube": "programmé 2026-11-28",
+   "tiktok-en": "programmé 2026-11-28",
+   "facebook": "programmé 2026-11-28",
+   "threads": "programmé 2026-11-28"
+  },
+  "statut": "programmé",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/8/1kr4N/1P6/R6p/4p3/8/5K2 b",
+  "position_finale": "8/8/1kr4N/1P6/R6p/4p3/8/5K2 b",
+  "positions": [
+   "8/2k5/7R/1P6/7p/4p3/8/5K2 b",
+   "8/2k5/R6r/1P6/7p/4p3/8/5K2 w",
+   "8/8/1k5r/1P6/R6p/4p3/8/5K2 w",
+   "8/8/1kr4N/1P6/R6p/4p3/8/5K2 b",
+   "8/8/7R/1k6/7p/4p3/8/5K2 b",
+   "8/8/R6r/1k6/7p/4p3/8/5K2 w",
+   "8/8/Rk5r/1P6/7p/4p3/8/5K2 b"
+  ],
+  "ligne_uci": ""
+ },
+ {
   "nom": "berger",
   "langue": "fr",
   "concept": "berger",
@@ -309,12 +336,12 @@
   "concept": "cavalier_double_e3",
   "sujet": "A knight hangs twice. Which one takes? ♟️",
   "reseaux": {
-   "youtube": "programmé 2026-11-27",
-   "tiktok-en": "programmé 2026-11-27",
-   "facebook": "programmé 2026-11-27",
-   "threads": "programmé 2026-11-27"
+   "youtube": "publié 2026-11-27",
+   "tiktok-en": "publié 2026-11-27",
+   "facebook": "publié 2026-11-27",
+   "threads": "publié 2026-11-27"
   },
-  "statut": "programmé",
+  "statut": "publié",
   "test": null,
   "variante": null,
   "position_depart": "8/8/1B2K3/8/2n1k3/8/4Q3/8 b",
@@ -333,10 +360,10 @@
   "concept": "cavalier_double_e3",
   "sujet": "Un cavalier attaqué deux fois. Qui prend ? 👇 1.Dxe3# fait mat. 1.Fxe3 ? Pat (position composée). Un défi d'éch",
   "reseaux": {
-   "tiktok": "programmé 2026-11-27",
-   "instagram": "programmé 2026-11-27"
+   "tiktok": "publié 2026-11-27",
+   "instagram": "publié 2026-11-27"
   },
-  "statut": "programmé",
+  "statut": "publié",
   "test": null,
   "variante": null,
   "position_depart": "8/8/1B2K3/8/2n1k3/8/4Q3/8 b",
@@ -1113,6 +1140,44 @@
   "ligne_uci": "d5d6"
  },
  {
+  "nom": "dos_rang_e8_1",
+  "langue": "en",
+  "concept": "dos_rang_e8",
+  "sujet": "Queen takes a rook?",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "3rr1k1/5ppp/8/8/8/8/4QPPP/4R1K1 w",
+  "position_finale": "3rr1k1/5ppp/8/8/8/8/4QPPP/4R1K1 w",
+  "positions": [
+   "3rQ1k1/5ppp/8/8/8/8/5PPP/4R1K1 b",
+   "3rr1k1/5ppp/8/8/8/8/4QPPP/4R1K1 w",
+   "4R1k1/5ppp/8/8/8/8/5PPP/6K1 b",
+   "4r1k1/5ppp/8/8/8/8/5PPP/4R1K1 w"
+  ],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "dos_rang_e8_1_fr",
+  "langue": "fr",
+  "concept": "dos_rang_e8",
+  "sujet": "La dame prend une tour ?",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "3rr1k1/5ppp/8/8/8/8/4QPPP/4R1K1 w",
+  "position_finale": "3rr1k1/5ppp/8/8/8/8/4QPPP/4R1K1 w",
+  "positions": [
+   "3rQ1k1/5ppp/8/8/8/8/5PPP/4R1K1 b",
+   "3rr1k1/5ppp/8/8/8/8/4QPPP/4R1K1 w",
+   "4R1k1/5ppp/8/8/8/8/5PPP/6K1 b",
+   "4r1k1/5ppp/8/8/8/8/5PPP/4R1K1 w"
+  ],
+  "ligne_uci": ""
+ },
+ {
   "nom": "echange_pions_1",
   "langue": "en",
   "concept": "echange_pions",
@@ -1194,6 +1259,44 @@
   "position_depart": null,
   "position_finale": null,
   "positions": [],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "etouffe_h8_1",
+  "langue": "en",
+  "concept": "etouffe_h8",
+  "sujet": "Queen to the corner?!",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "5r1k/p5pp/7N/3Q4/8/8/8/6K1 w",
+  "position_finale": "5r1k/p5pp/7N/3Q4/8/8/8/6K1 w",
+  "positions": [
+   "5r1k/p5pp/7N/3Q4/8/8/8/6K1 w",
+   "5rQk/p5pp/7N/8/8/8/8/6K1 b",
+   "6rk/p4Npp/8/8/8/8/8/6K1 b",
+   "6rk/p5pp/7N/8/8/8/8/6K1 w"
+  ],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "etouffe_h8_1_fr",
+  "langue": "fr",
+  "concept": "etouffe_h8",
+  "sujet": "La dame dans le coin ?!",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "5r1k/p5pp/7N/3Q4/8/8/8/6K1 w",
+  "position_finale": "5r1k/p5pp/7N/3Q4/8/8/8/6K1 w",
+  "positions": [
+   "5r1k/p5pp/7N/3Q4/8/8/8/6K1 w",
+   "5rQk/p5pp/7N/8/8/8/8/6K1 b",
+   "6rk/p4Npp/8/8/8/8/8/6K1 b",
+   "6rk/p5pp/7N/8/8/8/8/6K1 w"
+  ],
   "ligne_uci": ""
  },
  {
@@ -1291,12 +1394,12 @@
   "concept": "fausse_fourchette_b6",
   "sujet": "A royal fork appears. Play it, or not? ♟️",
   "reseaux": {
-   "youtube": "programmé 2026-11-27",
-   "tiktok-en": "programmé 2026-11-27",
-   "facebook": "programmé 2026-11-27",
-   "threads": "programmé 2026-11-27"
+   "youtube": "publié 2026-11-27",
+   "tiktok-en": "publié 2026-11-27",
+   "facebook": "publié 2026-11-27",
+   "threads": "publié 2026-11-27"
   },
-  "statut": "programmé",
+  "statut": "publié",
   "test": null,
   "variante": null,
   "position_depart": "7q/1R6/3k4/8/8/4N3/5K2/8 b",
@@ -2050,6 +2153,25 @@
   "ligne_uci": ""
  },
  {
+  "nom": "methode_fourchette_d5_1",
+  "langue": "en",
+  "concept": "methode_fourchette_d5",
+  "sujet": "Find the fork in 3 seconds",
+  "reseaux": {},
+  "statut": "script seulement (publication avant le 22/10 ou jamais)",
+  "test": null,
+  "variante": null,
+  "position_depart": "2q3k1/5ppp/8/3N4/8/8/5PPP/6K1 w",
+  "position_finale": "2N4k/5ppp/8/8/8/8/5PPP/6K1 b",
+  "positions": [
+   "2N4k/5ppp/8/8/8/8/5PPP/6K1 b",
+   "2q3k1/4Nppp/8/8/8/8/5PPP/6K1 b",
+   "2q3k1/5ppp/8/3N4/8/8/5PPP/6K1 w",
+   "2q4k/4Nppp/8/8/8/8/5PPP/6K1 w"
+  ],
+  "ligne_uci": "d5e7 g8h8 e7c8"
+ },
+ {
   "nom": "mur_trois_pions_1",
   "langue": "en",
   "concept": "mur_trois_pions",
@@ -2136,6 +2258,52 @@
    "8/8/4Q3/8/8/7K/8/6k1 b",
    "8/8/4Q3/8/8/7K/8/7k w",
    "8/8/8/8/8/7K/8/4Q2k b"
+  ],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "ne_pas_pater_tour_a4_1",
+  "langue": "en",
+  "concept": "ne_pas_pater_tour_a4",
+  "sujet": "His pawn is about to queen. Take it? ♟️",
+  "reseaux": {
+   "youtube": "programmé 2026-11-28",
+   "tiktok-en": "programmé 2026-11-28",
+   "facebook": "programmé 2026-11-28",
+   "threads": "programmé 2026-11-28"
+  },
+  "statut": "programmé",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/8/8/8/R7/p7/8/5K1k b",
+  "position_finale": "8/8/8/8/R7/p7/8/5K1k b",
+  "positions": [
+   "8/8/8/8/7R/8/p7/5K1k b",
+   "8/8/8/8/8/8/R7/5K1k b",
+   "8/8/8/8/R7/8/p7/5K1k w",
+   "8/8/8/8/R7/p7/8/5K1k b"
+  ],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "ne_pas_pater_tour_a4_1_fr",
+  "langue": "fr",
+  "concept": "ne_pas_pater_tour_a4",
+  "sujet": "Son pion va faire dame. Tu le prends ? 👇 1.Th4 mat gagne. 1.Txa2 ?? pat (position composée). Un défi d'échecs ",
+  "reseaux": {
+   "tiktok": "programmé 2026-11-28",
+   "instagram": "programmé 2026-11-28"
+  },
+  "statut": "programmé",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/8/8/8/R7/p7/8/5K1k b",
+  "position_finale": "8/8/8/8/R7/p7/8/5K1k b",
+  "positions": [
+   "8/8/8/8/7R/8/p7/5K1k b",
+   "8/8/8/8/8/8/R7/5K1k b",
+   "8/8/8/8/R7/8/p7/5K1k w",
+   "8/8/8/8/R7/p7/8/5K1k b"
   ],
   "ligne_uci": ""
  },
@@ -5485,12 +5653,12 @@
   "concept": "six_echecs_b2",
   "sujet": "Six checks. Which one ends it? ♟️",
   "reseaux": {
-   "youtube": "programmé 2026-11-27",
-   "tiktok-en": "programmé 2026-11-27",
-   "facebook": "programmé 2026-11-27",
-   "threads": "programmé 2026-11-27"
+   "youtube": "publié 2026-11-27",
+   "tiktok-en": "publié 2026-11-27",
+   "facebook": "publié 2026-11-27",
+   "threads": "publié 2026-11-27"
   },
-  "statut": "programmé",
+  "statut": "publié",
   "test": null,
   "variante": null,
   "position_depart": "8/8/3nK3/8/3Q4/B7/8/k7 b",
@@ -6071,6 +6239,58 @@
   "ligne_uci": ""
  },
  {
+  "nom": "tour_libre_g3_1",
+  "langue": "en",
+  "concept": "tour_libre_g3",
+  "sujet": "Free rook on g3. Take it, or not? ♟️",
+  "reseaux": {
+   "youtube": "programmé 2026-11-28",
+   "tiktok-en": "programmé 2026-11-28",
+   "facebook": "programmé 2026-11-28",
+   "threads": "programmé 2026-11-28"
+  },
+  "statut": "programmé",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/1K1kbpr1/8/8/8/8/5pQ1/8 b",
+  "position_finale": "8/1K1kbpr1/8/8/8/8/5pQ1/8 b",
+  "positions": [
+   "2Qk4/1K2bp2/8/8/8/6r1/5p2/8 b",
+   "3k4/1K2bp2/2Q5/8/8/6r1/5p2/8 w",
+   "8/1K1kbp2/2Q5/8/8/6r1/5p2/8 b",
+   "8/1K1kbp2/8/8/8/6Q1/5p2/8 b",
+   "8/1K1kbp2/8/8/8/6Q1/8/5q2 w",
+   "8/1K1kbp2/8/8/8/6r1/5pQ1/8 w",
+   "8/1K1kbpr1/8/8/8/8/5pQ1/8 b"
+  ],
+  "ligne_uci": ""
+ },
+ {
+  "nom": "tour_libre_g3_1_fr",
+  "langue": "fr",
+  "concept": "tour_libre_g3",
+  "sujet": "Tour offerte en g3. Tu prends ? 👇 1.Dc6+ ! mate en deux. 1.Dxg3 ?? f1=D perd (position composée). Un défi d'éc",
+  "reseaux": {
+   "tiktok": "programmé 2026-11-28",
+   "instagram": "programmé 2026-11-28"
+  },
+  "statut": "programmé",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/1K1kbpr1/8/8/8/8/5pQ1/8 b",
+  "position_finale": "8/1K1kbpr1/8/8/8/8/5pQ1/8 b",
+  "positions": [
+   "2Qk4/1K2bp2/8/8/8/6r1/5p2/8 b",
+   "3k4/1K2bp2/2Q5/8/8/6r1/5p2/8 w",
+   "8/1K1kbp2/2Q5/8/8/6r1/5p2/8 b",
+   "8/1K1kbp2/8/8/8/6Q1/5p2/8 b",
+   "8/1K1kbp2/8/8/8/6Q1/8/5q2 w",
+   "8/1K1kbp2/8/8/8/6r1/5pQ1/8 w",
+   "8/1K1kbpr1/8/8/8/8/5pQ1/8 b"
+  ],
+  "ligne_uci": ""
+ },
+ {
   "nom": "tours_hang_d8_1",
   "langue": "en",
   "concept": "tours_hang_d8",
@@ -6117,6 +6337,43 @@
    "7k/3R1pp1/5n2/8/8/1N4r1/6PP/6K1 w"
   ],
   "ligne_uci": ""
+ },
+ {
+  "nom": "trois_echecs_e1_1",
+  "langue": "en",
+  "concept": "trois_echecs_e1",
+  "sujet": "Three checks, all wrong. Find the real move. ♟️",
+  "reseaux": {
+   "youtube": "programmé 2026-11-28",
+   "tiktok-en": "programmé 2026-11-28",
+   "facebook": "programmé 2026-11-28",
+   "threads": "programmé 2026-11-28"
+  },
+  "statut": "programmé",
+  "test": null,
+  "variante": null,
+  "position_depart": "8/8/3K2P1/8/4p1k1/8/3B1q2/6R1 b",
+  "position_finale": "8/6P1/3K4/8/4p3/6k1/8/4R3 b",
+  "positions": [
+   "8/6P1/3K4/6Bk/4p3/8/5q2/6R1 b",
+   "8/6P1/3K4/6Bk/4p3/8/8/6q1 w",
+   "8/6P1/3K4/8/4p1k1/8/3B1q2/7R b",
+   "8/6P1/3K4/8/4p1k1/8/3q4/7R w",
+   "8/6P1/3K4/8/4p3/6k1/8/4R3 b",
+   "8/8/3K2P1/6B1/4p2k/8/5q2/6R1 b",
+   "8/8/3K2P1/6Bk/4p3/8/5q2/6R1 w",
+   "8/8/3K2P1/8/4p1Rk/8/3B1q2/8 b",
+   "8/8/3K2P1/8/4p1k1/8/3B1q2/6R1 b",
+   "8/8/3K2P1/8/4p1k1/8/3B1q2/7R w",
+   "8/8/3K2P1/8/4p1k1/8/3B1q2/8 w",
+   "8/8/3K2P1/8/4p2k/8/3B1q2/6R1 w",
+   "8/8/3K2P1/8/4p2k/8/3B1q2/7R b",
+   "8/8/3K2P1/8/4p2k/8/5q2/4B1R1 b",
+   "8/8/3K2P1/8/4p2k/8/8/4R3 b",
+   "8/8/3K2P1/8/4p2k/8/8/4q1R1 w",
+   "8/8/3K2P1/8/4p3/6k1/8/4R3 w"
+  ],
+  "ligne_uci": "d2e1 f2e1 g1e1 h4g3 g6g7"
  },
  {
   "nom": "trois_pions_d7_1",
@@ -6176,12 +6433,12 @@
   "concept": "un_cavalier_chacun_c7",
   "sujet": "One knight each. Draw, or checkmate? ♟️",
   "reseaux": {
-   "youtube": "programmé 2026-11-27",
-   "tiktok-en": "programmé 2026-11-27",
-   "facebook": "programmé 2026-11-27",
-   "threads": "programmé 2026-11-27"
+   "youtube": "publié 2026-11-27",
+   "tiktok-en": "publié 2026-11-27",
+   "facebook": "publié 2026-11-27",
+   "threads": "publié 2026-11-27"
   },
-  "statut": "programmé",
+  "statut": "publié",
   "test": null,
   "variante": null,
   "position_depart": "k7/8/1Kn1N3/8/8/8/8/8 b",
@@ -6199,10 +6456,10 @@
   "concept": "un_cavalier_chacun_c7",
   "sujet": "Un cavalier chacun. Nulle, ou mat ? 👇 1.Cc7# ! Son propre cavalier enferme le roi (position composée). Un défi",
   "reseaux": {
-   "tiktok": "programmé 2026-11-27",
-   "instagram": "programmé 2026-11-27"
+   "tiktok": "publié 2026-11-27",
+   "instagram": "publié 2026-11-27"
   },
-  "statut": "programmé",
+  "statut": "publié",
   "test": null,
   "variante": null,
   "position_depart": "k7/8/1Kn1N3/8/8/8/8/8 b",

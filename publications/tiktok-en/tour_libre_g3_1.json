@@ -1,0 +1,31 @@
+{
+ "legende": "Free rook on g3. Take it, or not? 👇 1.Qc6+! mates in two. 1.Qxg3?? f1=Q loses (composed position). One new puzzle every day. Analyze your own game: blundercheck.app/try #chess #chesstactics #chesspuzzle",
+ "envoyer_apres": "2026-11-28T00:00:00+01:00",
+ "heure_conseillee": "2026-11-28T16:00:00+01:00",
+ "repere": "16 h · tour_libre_g3_1 · 14.4 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/tour_libre_g3_1.mp4",
+ "concept": "tour_libre_g3",
+ "format": "TACTIQUE",
+ "langue": "en",
+ "duree": 14.4,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "en",
+  "duree_s": 14,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "legende",
+  "fin": "boucle",
+  "motif": "tour_libre_g3",
+  "niveau": "1600",
+  "hook": "plan_large_0.4s+coup_noir+zoom+fleche+tag+tactique_avant_3s",
+  "interet": "mater",
+  "pieces": 6,
+  "look": "bois",
+  "fx": "fleches+zoom+tag+impact"
+ }
+}

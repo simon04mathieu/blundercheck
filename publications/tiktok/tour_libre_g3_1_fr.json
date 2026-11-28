@@ -1,0 +1,32 @@
+{
+ "legende": "Tour offerte en g3. Tu prends ? 👇 1.Dc6+ ! mate en deux. 1.Dxg3 ?? f1=D perd (position composée). Un défi d'échecs par jour. #echecs #chess #echecsfr",
+ "envoyer_apres": "2026-11-28T00:00:00+01:00",
+ "heure_conseillee": "2026-11-28T19:00:00+01:00",
+ "repere": "19 h · tour_libre_g3_1_fr · 14.8 s",
+ "ia": true,
+ "marque": true,
+ "fichier": "sorties/tour_libre_g3_1_fr.mp4",
+ "concept": "tour_libre_g3",
+ "format": "TACTIQUE",
+ "langue": "fr",
+ "duree": 14.8,
+ "voix": "oui",
+ "etiquettes": {
+  "format": "TACTIQUE",
+  "categorie": "tactique",
+  "langue": "fr",
+  "duree_s": 15,
+  "musique": "libre",
+  "voix": "oui",
+  "appel_site": "non",
+  "fin": "boucle",
+  "motif": "tour_libre_g3",
+  "niveau": "1600",
+  "hook": "plan_large_0.4s+coup_noir+zoom+fleche+tag+tactique_avant_3s",
+  "interet": "mater",
+  "pieces": 6,
+  "look": "papier",
+  "fx": "fleches+zoom+tag+impact"
+ },
+ "paire": "tour_libre_g3_1"
+}
