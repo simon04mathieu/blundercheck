@@ -1516,3 +1516,6 @@
 ### commandes/perso_ne_pas_pater_tour_a4_1_fr.json
     voix réutilisée (0 crédit)
     OK /home/runner/work/blundercheck/blundercheck/sorties/ne_pas_pater_tour_a4_1_fr.mp4 {"voix_brute_s": 13.2, "tempo": 1.0, "video_s": 13.2, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "losing_your_marbles.mp3", "mots_transcrits": 27, "minutage": "5 phrases, 3 coups, 0 pauses"}
+### commandes/perso_tour_libre_g3_1.json
+    voix réutilisée (0 crédit)
+    OK /home/runner/work/blundercheck/blundercheck/sorties/tour_libre_g3_1.mp4 {"voix_brute_s": 14.3, "tempo": 1.0, "video_s": 14.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "losing_your_marbles.mp3", "mots_transcrits": 31, "minutage": "6 phrases, 6 coups, 0 pauses"}
