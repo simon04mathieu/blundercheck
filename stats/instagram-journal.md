@@ -163,3 +163,5 @@
 {"reseau": "instagram", "id": "18062408033800828"}
 ### 2026-11-28 12:01 publications/instagram/ne_pas_pater_tour_a4_1_fr.json
 {"reseau": "instagram", "id": "18122401747778290"}
+### 2026-11-28 18:01 publications/instagram/tour_libre_g3_1_fr.json
+{"reseau": "instagram", "id": "18069210065795642"}

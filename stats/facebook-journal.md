@@ -276,3 +276,5 @@
 {"reseau": "facebook", "id": "2242932846569379", "ok": true}
 ### 2026-11-28 15:01 publications/facebook/tour_libre_g3_1.json
 {"reseau": "facebook", "id": "1115423467991193", "ok": true}
+### 2026-11-28 18:01 publications/facebook/trois_echecs_e1_1.json
+{"reseau": "facebook", "id": "1582332097266058", "ok": true}
