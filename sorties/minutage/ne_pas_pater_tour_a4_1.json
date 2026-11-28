@@ -1,0 +1,108 @@
+{
+ "nom": "ne_pas_pater_tour_a4_1",
+ "tempo": 1.0,
+ "duree_s": 12.0,
+ "hook": {
+  "texte": "Take this pawn,|or not?",
+  "fin": 2.42
+ },
+ "question": {
+  "texte": "Take this pawn,|or not?",
+  "t": 8.8
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take this pawn or not?"
+  },
+  {
+   "t": 2.42,
+   "texte": "Rook takes: stalemate!"
+  },
+  {
+   "t": 5.04,
+   "texte": "Only a draw."
+  },
+  {
+   "t": 6.82,
+   "texte": "Rook to h4 checkmate!"
+  },
+  {
+   "t": 9.84,
+   "texte": "So before you grab it ask"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.4,
+   "coup": "a2",
+   "badge": null
+  },
+  {
+   "t": 3.1,
+   "coup": "Rxa2",
+   "badge": null
+  },
+  {
+   "t": 7.38,
+   "coup": "Rh4#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.0,
+   "type": "fleches"
+  },
+  {
+   "t": 0.4,
+   "type": "coup"
+  },
+  {
+   "t": 0.4,
+   "type": "zoom"
+  },
+  {
+   "t": 0.76,
+   "type": "fleches"
+  },
+  {
+   "t": 3.1,
+   "type": "coup"
+  },
+  {
+   "t": 3.48,
+   "type": "sticker"
+  },
+  {
+   "t": 6.77,
+   "type": "position"
+  },
+  {
+   "t": 6.82,
+   "type": "fleches"
+  },
+  {
+   "t": 7.38,
+   "type": "coup"
+  },
+  {
+   "t": 8.52,
+   "type": "sticker"
+  },
+  {
+   "t": 9.84,
+   "type": "fleches"
+  },
+  {
+   "t": 11.37,
+   "type": "position"
+  }
+ ],
+ "musique": "sneaky_spelunking.mp3"
+}
