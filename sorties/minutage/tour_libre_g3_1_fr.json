@@ -1,0 +1,135 @@
+{
+ "nom": "tour_libre_g3_1_fr",
+ "tempo": 1.0,
+ "duree_s": 14.82,
+ "hook": {
+  "texte": "Tu prends la tour,|ou pas ?",
+  "fin": 2.0
+ },
+ "question": {
+  "texte": "Tu prends la tour,|ou pas ?",
+  "t": 11.62
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Tu prends la tour ou pas ?"
+  },
+  {
+   "t": 2.0,
+   "texte": "Tu prends, et il fait une nouvelle dame !"
+  },
+  {
+   "t": 5.08,
+   "texte": "Dame en c6 échec !"
+  },
+  {
+   "t": 7.46,
+   "texte": "Le roi fuit."
+  },
+  {
+   "t": 8.8,
+   "texte": "Dame en c8  mat !"
+  },
+  {
+   "t": 11.72,
+   "texte": "Alors quand une tour a l'air gratuite, demande-toi"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.4,
+   "coup": "Rg3",
+   "badge": null
+  },
+  {
+   "t": 2.16,
+   "coup": "Qxg3",
+   "badge": null
+  },
+  {
+   "t": 3.5,
+   "coup": "f1=Q",
+   "badge": null
+  },
+  {
+   "t": 5.56,
+   "coup": "Qc6+",
+   "badge": null
+  },
+  {
+   "t": 7.94,
+   "coup": "Kd8",
+   "badge": null
+  },
+  {
+   "t": 9.28,
+   "coup": "Qc8#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.0,
+   "type": "fleches"
+  },
+  {
+   "t": 0.4,
+   "type": "coup"
+  },
+  {
+   "t": 0.4,
+   "type": "zoom"
+  },
+  {
+   "t": 1.08,
+   "type": "sticker"
+  },
+  {
+   "t": 2.16,
+   "type": "coup"
+  },
+  {
+   "t": 3.5,
+   "type": "coup"
+  },
+  {
+   "t": 5.03,
+   "type": "position"
+  },
+  {
+   "t": 5.08,
+   "type": "sticker"
+  },
+  {
+   "t": 5.56,
+   "type": "coup"
+  },
+  {
+   "t": 7.94,
+   "type": "coup"
+  },
+  {
+   "t": 9.28,
+   "type": "coup"
+  },
+  {
+   "t": 9.28,
+   "type": "zoom"
+  },
+  {
+   "t": 10.28,
+   "type": "sticker"
+  },
+  {
+   "t": 13.99,
+   "type": "position"
+  }
+ ],
+ "musique": "investigations.mp3"
+}

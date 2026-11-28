@@ -1499,3 +1499,6 @@
 ### commandes/perso_tour_libre_g3_1.json
     voix générée : 147 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/tour_libre_g3_1.mp4 {"voix_brute_s": 14.3, "tempo": 1.0, "video_s": 14.4, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "losing_your_marbles.mp3", "mots_transcrits": 31, "minutage": "6 phrases, 6 coups, 0 pauses"}
+### commandes/perso_tour_libre_g3_1_fr.json
+    voix générée : 172 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/tour_libre_g3_1_fr.mp4 {"voix_brute_s": 14.6, "tempo": 1.0, "video_s": 14.7, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "investigations.mp3", "mots_transcrits": 37, "minutage": "6 phrases, 6 coups, 0 pauses"}
