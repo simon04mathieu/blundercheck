@@ -270,3 +270,5 @@
 {"reseau": "facebook", "id": "2143650952926071", "ok": true}
 ### 2026-11-27 18:02 publications/facebook/fausse_fourchette_b6_1.json
 {"reseau": "facebook", "id": "1619045559487270", "ok": true}
+### 2026-11-28 09:01 publications/facebook/ne_pas_pater_tour_a4_1.json
+{"reseau": "facebook", "id": "1122249220648461", "ok": true}
