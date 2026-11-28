@@ -1858,3 +1858,4 @@ Reference&#32;&#35;15&#46;d4f8da17&#46;1795791095&#46;12e17fb6
 {"publish_id": "v_inbox_file~v2.7713009602954250262", "mode": "brouillon", "vie_privee": null, "legende": "Three checks, all wrong. Did you find the real move? 👇 1.Be1!! pins the queen (Stockfish, composed position). One new puzzle every day.\n\nWrite your move in the comments, then follow for tomorrow's.\n\n#chess #chesstactics #chesspuzzle #chesstok #chessgame"}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 71, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
 {"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 71, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
+{"compte": "BlunderCheck • Chess", "utilisateur": "blundercheck.ches", "abonnes": 71, "options_vie_privee": ["PUBLIC_TO_EVERYONE", "MUTUAL_FOLLOW_FRIENDS", "SELF_ONLY"]}
