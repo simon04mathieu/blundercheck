@@ -1,0 +1,135 @@
+{
+ "nom": "tour_libre_g3_1",
+ "tempo": 1.0,
+ "duree_s": 14.38,
+ "hook": {
+  "texte": "Take the free rook,|or not?",
+  "fin": 2.6
+ },
+ "question": {
+  "texte": "Take the free rook,|or not?",
+  "t": 11.18
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Take the free rook or not?"
+  },
+  {
+   "t": 2.6,
+   "texte": "You take, and he makes a new queen!"
+  },
+  {
+   "t": 5.42,
+   "texte": "Queen to c6 check!"
+  },
+  {
+   "t": 7.88,
+   "texte": "He runs."
+  },
+  {
+   "t": 9.16,
+   "texte": "Queen to c8 checkmate!"
+  },
+  {
+   "t": 12.18,
+   "texte": "So when a rook looks free ask"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.4,
+   "coup": "Rg3",
+   "badge": null
+  },
+  {
+   "t": 2.86,
+   "coup": "Qxg3",
+   "badge": null
+  },
+  {
+   "t": 3.9,
+   "coup": "f1=Q",
+   "badge": null
+  },
+  {
+   "t": 5.68,
+   "coup": "Qc6+",
+   "badge": null
+  },
+  {
+   "t": 8.04,
+   "coup": "Kd8",
+   "badge": null
+  },
+  {
+   "t": 9.44,
+   "coup": "Qc8#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.0,
+   "type": "fleches"
+  },
+  {
+   "t": 0.4,
+   "type": "coup"
+  },
+  {
+   "t": 0.4,
+   "type": "zoom"
+  },
+  {
+   "t": 0.92,
+   "type": "sticker"
+  },
+  {
+   "t": 2.86,
+   "type": "coup"
+  },
+  {
+   "t": 3.9,
+   "type": "coup"
+  },
+  {
+   "t": 5.37,
+   "type": "position"
+  },
+  {
+   "t": 5.42,
+   "type": "sticker"
+  },
+  {
+   "t": 5.68,
+   "type": "coup"
+  },
+  {
+   "t": 8.04,
+   "type": "coup"
+  },
+  {
+   "t": 9.44,
+   "type": "coup"
+  },
+  {
+   "t": 9.44,
+   "type": "zoom"
+  },
+  {
+   "t": 10.58,
+   "type": "sticker"
+  },
+  {
+   "t": 13.75,
+   "type": "position"
+  }
+ ],
+ "musique": "losing_your_marbles.mp3"
+}
