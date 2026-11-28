@@ -1,8 +1,68 @@
 {
- "releve": "2026-11-27T00:50:20Z",
+ "releve": "2026-11-28T00:18:28Z",
  "compte": "blundercheckapp",
  "abonnes": 1,
  "publications": [
+  {
+   "id": "18454823713130631",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DgQRuz1BmKI",
+   "text": "A royal fork appears. Play it, or not? 👇 1.Nf5+? Kc6! only draws. 1.Rb6+! wins t",
+   "timestamp": "2026-11-27T18:02:35+0000",
+   "insights": {
+    "views": 0,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18145329526618793",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DgP9CzcSKZb",
+   "text": "Six checks. Which one ends it? 👇 1.Qb2# is the only mate. 1.Qa1+? and 1.Qc4+? on",
+   "timestamp": "2026-11-27T15:01:49+0000",
+   "insights": {
+    "views": 2,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18644538910023144",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DgPoieYzlvl",
+   "text": "One knight each. Draw, or checkmate? 👇 1.Nc7#! His own knight blocks the king (c",
+   "timestamp": "2026-11-27T12:02:37+0000",
+   "insights": {
+    "views": 8,
+    "likes": 0,
+    "replies": 1,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
+  {
+   "id": "18117896375599531",
+   "media_type": "VIDEO",
+   "permalink": "https://www.threads.com/@blundercheckapp/post/DgPT4ZzAaP2",
+   "text": "A knight hangs twice. Which one takes? 👇 1.Qxe3# is mate. 1.Bxe3? is stalemate (",
+   "timestamp": "2026-11-27T09:02:08+0000",
+   "insights": {
+    "views": 0,
+    "likes": 0,
+    "replies": 0,
+    "reposts": 0,
+    "quotes": 0,
+    "shares": 0
+   }
+  },
   {
    "id": "17884442460627416",
    "media_type": "VIDEO",
@@ -190,7 +250,7 @@
    "text": "Draw, or checkmate? 👇 Bishop vs knight is NOT an automatic draw: 1.Bb7# when his",
    "timestamp": "2026-11-23T18:02:29+0000",
    "insights": {
-    "views": 6,
+    "views": 7,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -220,7 +280,7 @@
    "text": "Which takes? 👇 1.Nxe6+! dxe6 2.Rxe6 wins (rook vs bare king). 1.Rxe6? dxe6 is ju",
    "timestamp": "2026-11-23T12:02:38+0000",
    "insights": {
-    "views": 2,
+    "views": 3,
     "likes": 0,
     "replies": 0,
     "reposts": 0,
@@ -386,66 +446,6 @@
    "timestamp": "2026-11-20T20:14:23+0000",
    "insights": {
     "views": 2,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18582100771074972",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Df96Wpvh06-",
-   "text": "Which one takes? 👇 Only 1.fxg4! wins: 1.fxg4 hxg4 2.hxg4 and the pawn runs home.",
-   "timestamp": "2026-11-20T14:51:58+0000",
-   "insights": {
-    "views": 2,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18149468383577317",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Df9junjB2Kd",
-   "text": "Which pawn takes? 👇 Only 1.exf6! wins: 1.exf6 gxf6 2.g6 and the pawn runs home. ",
-   "timestamp": "2026-11-20T11:34:16+0000",
-   "insights": {
-    "views": 3,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18122702299758144",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Df7ri90MoAE",
-   "text": "Push, or take? 👇 Only 1.f6! wins: 1...gxf6 2.gxh6 and the pawn runs home. 1.gxh6",
-   "timestamp": "2026-11-19T18:04:06+0000",
-   "insights": {
-    "views": 0,
-    "likes": 0,
-    "replies": 0,
-    "reposts": 0,
-    "quotes": 0,
-    "shares": 0
-   }
-  },
-  {
-   "id": "18164668243509195",
-   "media_type": "VIDEO",
-   "permalink": "https://www.threads.com/@blundercheckapp/post/Df7XDWySeCS",
-   "text": "Which pawn runs? 👇 Only 1.d6! wins: 1...exd6 2.exf6 and the pawn runs home. 1.ex",
-   "timestamp": "2026-11-19T15:05:02+0000",
-   "insights": {
-    "views": 1,
     "likes": 0,
     "replies": 0,
     "reposts": 0,

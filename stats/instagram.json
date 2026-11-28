@@ -1,8 +1,40 @@
 {
- "releve": "2026-11-27T00:49:21Z",
+ "releve": "2026-11-28T00:16:07Z",
  "compte": "blundercheckapp",
  "abonnes": 7,
  "publications": [
+  {
+   "id": "18062408033800828",
+   "caption": "Un cavalier attaqué deux fois. Qui prend ? 👇 1.Dxe3# fait mat. 1.Fxe3 ? Pat (pos",
+   "comments_count": 0,
+   "like_count": 0,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DgQRoqTNmid/",
+   "timestamp": "2026-11-27T18:01:48+0000",
+   "insights": {
+    "views": 183,
+    "reach": 111,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 0
+   }
+  },
+  {
+   "id": "18173810788475683",
+   "caption": "Un cavalier chacun. Nulle, ou mat ? 👇 1.Cc7# ! Son propre cavalier enferme le ro",
+   "comments_count": 0,
+   "like_count": 10,
+   "media_product_type": "REELS",
+   "permalink": "https://www.instagram.com/reel/DgPocMZJpbb/",
+   "timestamp": "2026-11-27T12:01:48+0000",
+   "insights": {
+    "views": 1914,
+    "reach": 1189,
+    "shares": 0,
+    "saved": 0,
+    "total_interactions": 10
+   }
+  },
   {
    "id": "17997431445119159",
    "caption": "Dame contre dame. Tu prends, ou échec ? 👇 1.Fe5+ ! La dame garde le fou, son roi",
@@ -12,8 +44,8 @@
    "permalink": "https://www.instagram.com/reel/DgNs1Q0hMnl/",
    "timestamp": "2026-11-26T18:01:43+0000",
    "insights": {
-    "views": 165,
-    "reach": 108,
+    "views": 166,
+    "reach": 109,
     "shares": 0,
     "saved": 0,
     "total_interactions": 1
@@ -28,8 +60,8 @@
    "permalink": "https://www.instagram.com/reel/DgNDo4-ybhf/",
    "timestamp": "2026-11-26T12:01:46+0000",
    "insights": {
-    "views": 1724,
-    "reach": 1103,
+    "views": 1728,
+    "reach": 1106,
     "shares": 0,
     "saved": 0,
     "total_interactions": 8
@@ -156,8 +188,8 @@
    "permalink": "https://www.instagram.com/reel/DgCwd6aCWs1/",
    "timestamp": "2026-11-22T12:01:50+0000",
    "insights": {
-    "views": 2226,
-    "reach": 1422,
+    "views": 2233,
+    "reach": 1427,
     "shares": 0,
     "saved": 1,
     "total_interactions": 10
@@ -449,38 +481,6 @@
     "shares": 0,
     "saved": 0,
     "total_interactions": 1
-   }
-  },
-  {
-   "id": "18178699180454564",
-   "caption": "Tu aurais laissé la dame ? 👇 Torre – Lasker, Moscou 1925 (1–0 ; coups rejoués av",
-   "comments_count": 0,
-   "like_count": 4,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/Dfpu9WfEfdG/",
-   "timestamp": "2026-11-12T18:47:55+0000",
-   "insights": {
-    "views": 173,
-    "reach": 135,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 4
-   }
-  },
-  {
-   "id": "18121492576766812",
-   "caption": "Tu aurais sauvé le pion ? 👇 Seul 1.d5 ! gagne ; 1.Re4 Rxc6 ne donne que nulle (S",
-   "comments_count": 0,
-   "like_count": 0,
-   "media_product_type": "REELS",
-   "permalink": "https://www.instagram.com/reel/DfpA_WKDV2B/",
-   "timestamp": "2026-11-12T12:06:19+0000",
-   "insights": {
-    "views": 194,
-    "reach": 150,
-    "shares": 0,
-    "saved": 0,
-    "total_interactions": 0
    }
   }
  ],
