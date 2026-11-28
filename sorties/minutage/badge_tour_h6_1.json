@@ -38,7 +38,7 @@
  ],
  "coups": [
   {
-   "t": 0.4,
+   "t": 0.8,
    "coup": "Rxh6",
    "badge": null
   },
@@ -84,16 +84,16 @@
    "type": "fleches"
   },
   {
-   "t": 0.4,
+   "t": 0.54,
+   "type": "sticker"
+  },
+  {
+   "t": 0.8,
    "type": "coup"
   },
   {
-   "t": 0.4,
+   "t": 0.8,
    "type": "zoom"
-  },
-  {
-   "t": 0.54,
-   "type": "sticker"
   },
   {
    "t": 1.52,

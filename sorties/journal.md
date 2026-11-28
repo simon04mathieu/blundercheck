@@ -1530,3 +1530,8 @@
     voix réutilisée (0 crédit)
     Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
     OK /home/runner/work/blundercheck/blundercheck/sorties/badge_tour_h6_1.mp4 {"voix_brute_s": 10.7, "tempo": 1.0, "video_s": 10.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 30, "minutage": "6 phrases, 7 coups, 0 pauses"}
+## 2026-11-28 10:18 UTC · run 46134471936
+### commandes/perso_badge_tour_h6_1.json
+    voix réutilisée (0 crédit)
+    Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    OK /home/runner/work/blundercheck/blundercheck/sorties/badge_tour_h6_1.mp4 {"voix_brute_s": 10.7, "tempo": 1.0, "video_s": 10.8, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 30, "minutage": "6 phrases, 7 coups, 0 pauses"}
