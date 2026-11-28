@@ -2241,3 +2241,30 @@ _T = {
 }
 PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _T.items()})
 QUESTIONS.update({k: v[1] for k, v in _T.items()})
+
+# 28/11 (Producteur) : file du Scénariste du 27/11 (tour a4 sans faire pat, 1.Rh4# / 1.Rxa2 pat ; TEST badge BLUNDER n° 1 : 1…Txh6?? −5,2, 1.Ra6+ ;
+# tour g3 « gratuite » : 1.Qxg3? f1=D, 1.Qc6+ Kd8 2.Qc8# ; NEUF trois échecs ratés : 1.Be1!!) ; python-chess + Stockfish d22 (tous les coups blancs)
+PA4A = "fen:8/8/8/8/R7/p7/8/5K1k_b_-_-_0_1"        # avant …a2 ; 1.Rh4# seul mat en 1 ; 1.Rxa2 pat
+PA4B = "fen:8/8/8/8/R7/8/p7/5K1k_w_-_-_0_2"
+BH6A = "fen:8/8/1kr4N/1P6/R6p/4p3/8/5K2_b_-_-_0_1"  # avant …Txh6?? (0,0 → +5,2) ; 1.Ra6+ seul gagnant, Rxh6 suit toujours
+BH6B = "fen:8/8/1k5r/1P6/R6p/4p3/8/5K2_w_-_-_0_2"
+TG3A = "fen:8/1K1kbpr1/8/8/8/8/5pQ1/8_b_-_-_0_1"   # avant …Tg3 ; 1.Qc6+ Kd8 (seul) 2.Qc8# ; 1.Qxg3? f1=D −5,5
+TG3B = "fen:8/1K1kbp2/8/8/8/6r1/5pQ1/8_w_-_-_1_2"
+TE1A = "fen:8/8/3K2P1/8/4p1k1/8/3B1q2/6R1_b_-_-_0_1"  # avant …Rh4 ; 1.Be1!! seul gagnant (mat annoncé) ; Rg4+ −35, Bg5+ −5, Rh1+ nulle
+TE1B = "fen:8/8/3K2P1/8/4p2k/8/3B1q2/6R1_w_-_-_1_2"
+_U = {
+"ne_pas_pater_tour_a4_1": ("blancs", "Take this pawn,|or not?",
+"""[p """ + PA4A + """] [f a3a1] Take [m a2] [z a2 1.3 1.2] this pawn, [f a4a2] or not? [h] Rook [m Rxa2] takes: [s tag h1 1.6 STALEMATE] stalemate! Only a draw. [p """ + PA4B + """] [f a4h4] Rook to [m Rh4# mat] [x impact] h4: [s tag h1 1.6 CHECKMATE] checkmate! [f f1g2] So before you grab it, [p """ + PA4A + """] ask"""),
+"badge_tour_h6_1": ("blancs", "Can you|punish this?",
+"""[p """ + BH6A + """] [f c6h6] Can [m Rxh6] [z h6 1.3 1.2] you [s tag h6 1.4 BLUNDER_−5.2] punish this? [h] Check [m Ra6+] on a6! [f a6h6] He [m Kxb5] takes your pawn, and you [m Rxh6] [x impact] take his rook! [s tag h6 1.6 ROOK_WON] [p """ + BH6B + """] Run [m Ra6+] the [m Kc7] other way? Still [m Rxh6] [z h6 1.3 1.2] gone. So when he grabs a knight, [p """ + BH6A + """] ask"""),
+"tour_libre_g3_1": ("blancs", "Take the free rook,|or not?",
+"""[p """ + TG3A + """] [f g2g3] Take [m Rg3] [z g3 1.3 1.2] the free rook, [s tag g3 1.4 FREE_ROOK?] or not? [h] You [m Qxg3] take, and he makes [m f1=Q] [x impact] a new queen! [s tag f1 1.6 NEW_QUEEN] [p """ + TG3B + """] Queen [m Qc6+] to c6, check! He [m Kd8] runs. Queen [m Qc8# mat] [x impact] [z d8 1.3 1.2] to c8: [s tag d8 1.6 CHECKMATE] checkmate! So when a rook looks free, [p """ + TG3A + """] ask"""),
+"trois_echecs_e1_1": ("blancs", "Three checks.|All three fail.",
+"""[p """ + TE1A + """] [f g1g4 d2g5 g1h1] Three [m Kh4] [z h4 1.3 1.2] checks. [s tag h4 1.4 3_CHECKS] All three fail. [h] Rook [m Rg4+] check? The king [m Kxg4] just takes it. [s tag g4 1.2 1/3] [p """ + TE1B + """] Bishop [m Bg5+] check? He [m Kh5] steps back, you [m g7] push, your [m Qxg1] rook falls. [s tag g1 1.2 2/3] [p """ + TE1B + """] Last [m Rh1+] check? [m Kg4] You [m g7] push, he takes [m Qxd2+] your bishop: draw. [s tag d2 1.2 3/3] [p """ + TE1B + """] The winner gives no check. [f d2e1] Bishop [m Be1 brillant] [z f2 1.3 1.2] to e1! [f e1h4] His queen [s tag f2 1.4 PINNED] is pinned. He [m Qxe1] takes, you [m Rxe1] take back, [m Kg3] and your [m g7] [x impact] pawn runs. [s tag g8 1.6 NEW_QUEEN_NEXT] Did you see it?"""),
+"ne_pas_pater_tour_a4_1_fr": ("blancs", "Tu prends ce pion,|ou pas ?",
+"""[p """ + PA4A + """] [f a3a1] Tu prends [m a2] [z a2 1.3 1.2] ce pion, [f a4a2] ou pas ? [h] La tour [m Rxa2] prend : [s tag h1 1.6 PAT] pat ! Seulement nulle. [p """ + PA4B + """] [f a4h4] Tour en [m Rh4# mat] [x impact] h4 : [s tag h1 1.6 MAT] mat ! [f f1g2] Alors avant de le croquer, [p """ + PA4A + """] demande-toi"""),
+"tour_libre_g3_1_fr": ("blancs", "Tu prends la tour,|ou pas ?",
+"""[p """ + TG3A + """] [f g2g3] Tu prends [m Rg3] [z g3 1.3 1.2] la tour, [s tag g3 1.4 TOUR_GRATUITE_?] ou pas ? [h] Tu [m Qxg3] prends, et il fait [m f1=Q] [x impact] une nouvelle dame ! [s tag f1 1.6 NOUVELLE_DAME] [p """ + TG3B + """] Dame en [m Qc6+] c6, échec ! Le roi [m Kd8] fuit. Dame en [m Qc8# mat] [x impact] [z d8 1.3 1.2] c8 : [s tag d8 1.6 MAT] mat ! Alors quand une tour a l'air gratuite, [p """ + TG3A + """] demande-toi"""),
+}
+PERSO.update({k: {"cote": c, "sous_titres": "phrase", "hook": h, "script": sc, "voix": _lu(sc)} for k, (c, h, sc) in _U.items()})
+QUESTIONS.update({k: v[1] for k, v in _U.items()})
