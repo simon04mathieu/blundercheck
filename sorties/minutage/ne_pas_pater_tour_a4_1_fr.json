@@ -1,0 +1,108 @@
+{
+ "nom": "ne_pas_pater_tour_a4_1_fr",
+ "tempo": 1.0,
+ "duree_s": 13.48,
+ "hook": {
+  "texte": "Tu prends ce pion,|ou pas ?",
+  "fin": 2.68
+ },
+ "question": {
+  "texte": "Tu prends ce pion,|ou pas ?",
+  "t": 10.28
+ },
+ "phrases": [
+  {
+   "t": 0.0,
+   "texte": "Tu prends ce pion ou pas ?"
+  },
+  {
+   "t": 2.68,
+   "texte": "La tour prend  pat !"
+  },
+  {
+   "t": 6.76,
+   "texte": "Seulement nulle."
+  },
+  {
+   "t": 6.76,
+   "texte": "Tour en h4  mat !"
+  },
+  {
+   "t": 10.0,
+   "texte": "Alors avant de le croquer demande-toi"
+  }
+ ],
+ "coups": [
+  {
+   "t": 0.44,
+   "coup": "a2",
+   "badge": null
+  },
+  {
+   "t": 3.06,
+   "coup": "Rxa2",
+   "badge": null
+  },
+  {
+   "t": 7.36,
+   "coup": "Rh4#",
+   "badge": "mat"
+  }
+ ],
+ "pauses": [],
+ "evenements": [
+  {
+   "t": 0.0,
+   "type": "position"
+  },
+  {
+   "t": 0.0,
+   "type": "fleches"
+  },
+  {
+   "t": 0.44,
+   "type": "coup"
+  },
+  {
+   "t": 0.44,
+   "type": "zoom"
+  },
+  {
+   "t": 1.24,
+   "type": "fleches"
+  },
+  {
+   "t": 3.06,
+   "type": "coup"
+  },
+  {
+   "t": 6.71,
+   "type": "position"
+  },
+  {
+   "t": 6.76,
+   "type": "sticker"
+  },
+  {
+   "t": 6.76,
+   "type": "fleches"
+  },
+  {
+   "t": 7.36,
+   "type": "coup"
+  },
+  {
+   "t": 8.58,
+   "type": "sticker"
+  },
+  {
+   "t": 10.0,
+   "type": "fleches"
+  },
+  {
+   "t": 12.19,
+   "type": "position"
+  }
+ ],
+ "musique": "losing_your_marbles.mp3"
+}

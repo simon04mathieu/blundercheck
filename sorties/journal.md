@@ -1493,3 +1493,6 @@
 ### commandes/perso_ne_pas_pater_tour_a4_1.json
     voix générée : 109 caractères
     OK /home/runner/work/blundercheck/blundercheck/sorties/ne_pas_pater_tour_a4_1.mp4 {"voix_brute_s": 11.9, "tempo": 1.0, "video_s": 12.0, "voice_id": "JBFqnCBsd6RMkjVDRZzb", "musique": "sneaky_spelunking.mp3", "mots_transcrits": 21, "minutage": "5 phrases, 3 coups, 0 pauses"}
+### commandes/perso_ne_pas_pater_tour_a4_1_fr.json
+    voix générée : 124 caractères
+    OK /home/runner/work/blundercheck/blundercheck/sorties/ne_pas_pater_tour_a4_1_fr.mp4 {"voix_brute_s": 13.2, "tempo": 1.0, "video_s": 13.2, "voice_id": "ecxPjiGTvAfpGEams6ec", "musique": "losing_your_marbles.mp3", "mots_transcrits": 27, "minutage": "5 phrases, 3 coups, 0 pauses"}
