@@ -272,3 +272,5 @@
 {"reseau": "facebook", "id": "1619045559487270", "ok": true}
 ### 2026-11-28 09:01 publications/facebook/ne_pas_pater_tour_a4_1.json
 {"reseau": "facebook", "id": "1122249220648461", "ok": true}
+### 2026-11-28 12:02 publications/facebook/badge_tour_h6_1.json
+{"reseau": "facebook", "id": "2242932846569379", "ok": true}
